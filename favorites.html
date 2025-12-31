@@ -122,42 +122,50 @@
   </nav>
 
   <script>
-    async function renderFavorites() {
-  const listEl = document.getElementById("favoritesList");
+  document.addEventListener("DOMContentLoaded", async () => {
+    const listEl = document.getElementById("favoritesList");
+    const KEY = "favorites";
 
-  let favorites = [];
-  try {
-    favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-  } catch {
-    favorites = [];
-  }
+    // お気に入りID配列を読む（数値に統一）
+    let favorites = [];
+    try {
+      favorites = JSON.parse(localStorage.getItem(KEY)) || [];
+      favorites = Array.isArray(favorites) ? favorites.map(Number).filter(Boolean) : [];
+    } catch {
+      favorites = [];
+    }
 
-  let rules = [];
-  try {
-    const res = await fetch("rules.json");
-    rules = await res.json();
-  } catch (e) {
-    console.warn("rules.jsonの読み込み失敗", e);
-  }
+    // ルール一覧を読む
+    let rules = [];
+    try {
+      const res = await fetch("rules.json");
+      rules = await res.json();
+    } catch (e) {
+      console.warn("rules.jsonの読み込みに失敗", e);
+      rules = [];
+    }
 
-  const merged = favorites
-  .map(f => {
-    const r = rules.find(x => String(x.id) === String(f));
-    return r ? { id: r.id, title: r.title } : null;
-  })
-  .filter(Boolean);
+    // favorites(ID) と rules を結合
+    const merged = favorites
+      .map((id) => rules.find((r) => Number(r.id) === id))
+      .filter(Boolean);
 
-  listEl.innerHTML =
-    merged.length === 0
-      ? `<p class="empty">お気に入りはまだ登録されていません。</p>`
-      : merged
-          .map(r => `
-            <div class="favorite-item">
-              ${r.title}
-            </div>
-          `)
-          .join("");
-}
-  </script>
+    // 描画（クリックで詳細へ飛べるように）
+    if (merged.length === 0) {
+      listEl.innerHTML = `<p class="empty">お気に入りはまだ登録されていません。</p>`;
+      return;
+    }
+
+    listEl.innerHTML = merged
+      .map(
+        (r) => `
+          <a class="favorite-item" href="rule.html?id=${r.id}">
+            ${r.title}
+          </a>
+        `
+      )
+      .join("");
+  });
+</script>
 </body>
 </html>
