@@ -151,5 +151,27 @@ class="favorite-btn"style="margin:0 auto;">お気に入りに追加
     }
   })();
   </script>
+  <script>
+const favBtn = document.getElementById("favoriteBtn");
+const params = new URLSearchParams(location.search);
+const ruleId = Number(params.get("id")); // ★ 数値にする
+
+if (favBtn && ruleId) {
+  let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+
+  // すでに登録済みか判定
+  if (favorites.includes(ruleId)) {
+    favBtn.textContent = "★ お気に入り登録済み";
+  }
+
+  favBtn.addEventListener("click", () => {
+    if (!favorites.includes(ruleId)) {
+      favorites.push(ruleId);
+      localStorage.setItem("favorites", JSON.stringify(favorites));
+      favBtn.textContent = "★ お気に入り登録済み";
+    }
+  });
+}
+</script>
 </body>
 </html>
