@@ -433,7 +433,7 @@ body {
 /* ★ お気に入りボタン */
 .favorite-area {
   padding: 16px 16px 28px;
-  text-align: left;
+  text-align: center;
 }
 
 .favorite-btn {
