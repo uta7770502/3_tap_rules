@@ -118,36 +118,35 @@
   })();
 </script>
   <script>
+document.addEventListener("DOMContentLoaded", () => {
   const favBtn = document.getElementById("favoriteBtn");
+  const params = new URLSearchParams(location.search);
+  const ruleId = Number(params.get("id"));
 
-  if (favBtn) {
-    const params = new URLSearchParams(location.search);
-    const ruleId = Number(params.get("id"));
+  if (!favBtn || !ruleId) return;
 
-    if (!ruleId) return;
+  let favorites = [];
+  try {
+    favorites = JSON.parse(localStorage.getItem("favoriteRules")) || [];
+  } catch {
+    favorites = [];
+  }
 
-    let favorites = [];
-    try {
-      favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-    } catch {
-      favorites = [];
-    }
+  // すでに登録済みなら表示変更
+  if (favorites.includes(ruleId)) {
+    favBtn.textContent = "★ お気に入り登録済み";
+    favBtn.disabled = true;
+  }
 
-    // すでに登録済みなら表示変更
-    if (favorites.includes(ruleId)) {
+  favBtn.addEventListener("click", () => {
+    if (!favorites.includes(ruleId)) {
+      favorites.push(ruleId);
+      localStorage.setItem("favoriteRules", JSON.stringify(favorites));
       favBtn.textContent = "★ お気に入り登録済み";
       favBtn.disabled = true;
     }
-
-    favBtn.addEventListener("click", () => {
-      if (!favorites.includes(ruleId)) {
-        favorites.push(ruleId);
-        localStorage.setItem("favorites", JSON.stringify(favorites));
-        favBtn.textContent = "★ お気に入り登録済み";
-        favBtn.disabled = true;
-      }
-    });
-  }
+  });
+});
 </script>
 </body>
 </html>
