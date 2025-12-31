@@ -139,7 +139,7 @@
 
       const merged = favorites
         .map(f => {
-          const r = rules.find(x => Number(x.id) === Number(f.id));
+          const r = rules.find(x => Number(x.id) === Number(f));
           return r ? { id: r.id, title: r.title || f.title || "タイトル不明" } : null;
         })
         .filter(Boolean);
