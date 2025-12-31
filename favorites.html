@@ -141,8 +141,11 @@
   }
 
   const merged = favorites
-    .map(f => rules.find(r => r.id === f))
-    .filter(Boolean);
+  .map(f => {
+    const r = rules.find(x => String(x.id) === String(f));
+    return r ? { id: r.id, title: r.title } : null;
+  })
+  .filter(Boolean);
 
   listEl.innerHTML =
     merged.length === 0
