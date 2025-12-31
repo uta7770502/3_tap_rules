@@ -156,13 +156,12 @@ class="favorite-btn"style="margin:0 auto;">お気に入りに追加
   const params = new URLSearchParams(location.search);
   const ruleId = Number(params.get("id"));
 
-  // localStorageのキー（favorites.html側と必ず同じにする）
   const KEY = "favorites";
 
   function loadFavs() {
     try {
       const v = JSON.parse(localStorage.getItem(KEY));
-      return Array.isArray(v) ? v : [];
+      return Array.isArray(v) ? v.map(Number).filter(Boolean) : [];
     } catch {
       return [];
     }
@@ -173,30 +172,24 @@ class="favorite-btn"style="margin:0 auto;">お気に入りに追加
   }
 
   function setBtn(isFav) {
-    favBtn.textContent = isFav ? "★ お気に入り登録済み" : "☆ お気に入りに追加";
+    favBtn.textContent = isFav ? "★ お気に入り登録済み" : "お気に入りに追加";
   }
 
   if (favBtn && ruleId) {
-    // 初期表示
     let favs = loadFavs();
-    let isFav = favs.includes(ruleId);
-    setBtn(isFav);
+    setBtn(favs.includes(ruleId));
 
-    // クリックで「追加 ⇄ 削除」
     favBtn.addEventListener("click", () => {
-      favs = loadFavs(); // 最新を読み直す（別ページ更新に強くする）
-      isFav = favs.includes(ruleId);
+      favs = loadFavs(); // 念のため最新を読む
 
-      if (isFav) {
-        // 削除
-        favs = favs.filter(id => id !== ruleId);
+      if (favs.includes(ruleId)) {
+        // 既にある → 削除
+        favs = favs.filter((x) => x !== ruleId);
         saveFavs(favs);
         setBtn(false);
       } else {
-        // 追加
+        // ない → 追加
         favs.push(ruleId);
-        // 重複対策（念のため）
-        favs = Array.from(new Set(favs));
         saveFavs(favs);
         setBtn(true);
       }
