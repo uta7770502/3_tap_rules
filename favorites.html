@@ -125,12 +125,11 @@
     document.addEventListener("DOMContentLoaded", async () => {
       const listEl = document.getElementById("favoritesList");
 
-      let favorites = [];
-      try {
-        favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-      } catch { favorites = []; }
-
-      let rules = [];
+   let favorites = [];
+　　try {   favorites = JSON.parse(localStorage.getItem("favoriteRules")) || [];
+ } catch {
+   favorites = [];
+ }
       try {
         const res = await fetch("rules.json");
         rules = await res.json();
