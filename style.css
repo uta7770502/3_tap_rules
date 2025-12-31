@@ -418,3 +418,27 @@ body {
   width: 22px;
   height: auto;
 }
+/* ★ お気に入りボタン */
+.favorite-area {
+  padding: 16px 16px 28px;
+  text-align: left;
+}
+
+.favorite-btn {
+  width: auto;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: none;
+
+  background: #18b7a0;   /* トップと同系の緑 */
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 800;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* 登録済み */
+.favorite-btn.active {
+  background: #0f8a62;
+}
