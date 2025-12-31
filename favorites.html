@@ -122,37 +122,39 @@
   </nav>
 
   <script>
-    document.addEventListener("DOMContentLoaded", async () => {
-      const listEl = document.getElementById("favoritesList");
+    async function renderFavorites() {
+  const listEl = document.getElementById("favoritesList");
 
-   let favorites = [];
-　　try {   favorites = JSON.parse(localStorage.getItem("favoriteRules")) || [];
- } catch {
-   favorites = [];
- }
-      try {
-        const res = await fetch("rules.json");
-        rules = await res.json();
-      } catch (e) {
-        console.warn("rules.jsonの読み込みに失敗しました", e);
-      }
+  let favorites = [];
+  try {
+    favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+  } catch {
+    favorites = [];
+  }
 
-      const merged = favorites
-        .map(f => {
-          const r = rules.find(x => Number(x.id) === Number(f));
-          return r ? { id: r.id, title: r.title || f.title || "タイトル不明" } : null;
-        })
-        .filter(Boolean);
+  let rules = [];
+  try {
+    const res = await fetch("rules.json");
+    rules = await res.json();
+  } catch (e) {
+    console.warn("rules.jsonの読み込み失敗", e);
+  }
 
-      listEl.innerHTML =
-        merged.length === 0
-          ? `<p class="empty">お気に入りはまだ登録されていません。</p>`
-          : merged.map(r => `
-              <div class="fav-item" onclick="location.href='rule.html?id=${r.id}'">
-                ${r.title}
-              </div>
-            `).join("");
-    });
+  const merged = favorites
+    .map(f => rules.find(r => r.id === f))
+    .filter(Boolean);
+
+  listEl.innerHTML =
+    merged.length === 0
+      ? `<p class="empty">お気に入りはまだ登録されていません。</p>`
+      : merged
+          .map(r => `
+            <div class="favorite-item">
+              ${r.title}
+            </div>
+          `)
+          .join("");
+}
   </script>
 </body>
 </html>
