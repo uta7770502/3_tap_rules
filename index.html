@@ -509,14 +509,6 @@ document.addEventListener("DOMContentLoaded", () => {
       location.href = "rules.html?q=" + encodeURIComponent(keyword);
     });
   });
-
-  // ✅ 「場所で探す」「種類で探す」ボタン
-  document.querySelectorAll("#search-sections button").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const category = btn.textContent.trim();
-      location.href = "rules.html?category=" + encodeURIComponent(category);
-    });
-  });
 });
 </script>
 </body>
