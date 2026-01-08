@@ -492,13 +492,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-    // 「種類で探す」ボタン用イベント
-document.querySelectorAll('.type-button').forEach(button => {
-  button.addEventListener('click', () => {
-    const category = button.dataset.category;
-    renderRules(category); // ← renderRules() は既存の表示関数
-  });
-});
 </script>
   <script>
 document.addEventListener("DOMContentLoaded", () => {
