@@ -182,11 +182,58 @@
         return;
       }
 
-      listEl.innerHTML = rules.map(r => {
-        const title = (r.title ?? "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-        const id = Number(r.id);
-        return `<a class="rule-item" href="#" onclick="alert('詳細ページは準備中です'); return false;">${title}</a>`;
-      }).join("");
+    // level（章）順で並べたい順番を定義
+const levelOrder = [
+  "基本のき",
+  "ラウンドの基本",
+  "ラウンドの流れ",
+  "コース用語",
+  "スコア",
+  "マナー",
+  "ペナルティの基本",
+  "ローカルルール"
+];
+
+// level → 配列 にまとめる
+const grouped = {};
+rules.forEach(r => {
+  const level = r.level || "その他";
+  if (!grouped[level]) grouped[level] = [];
+  grouped[level].push(r);
+});
+
+// 表示HTMLを組み立て
+let html = "";
+
+levelOrder.forEach(level => {
+  if (!grouped[level]) return;
+
+  html += `
+    <section style="margin:20px 0 10px;">
+      <h2 style="
+        text-align:center;
+        color:#00997f;
+        font-size:18px;
+        margin:10px 0;
+      ">${level}</h2>
+    </section>
+  `;
+
+  grouped[level].forEach(r => {
+    const title = (r.title ?? "")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+    const id = Number(r.id);
+
+    html += `
+      <a class="rule-item" href="basic_rule_detail.html?id=${id}">
+        ${title}
+      </a>
+    `;
+  });
+});
+
+listEl.innerHTML = html;
     });
   </script>
 </body>
