@@ -185,7 +185,7 @@
       listEl.innerHTML = rules.map(r => {
         const title = (r.title ?? "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
         const id = Number(r.id);
-        return `<a class="rule-item" href="basic_rule_detail.html?id=${id}">${title}</a>`;
+        return `<a class="rule-item" href="#" onclick="alert('詳細ページは準備中です'); return false;">${title}</a>`;
       }).join("");
     });
   </script>
