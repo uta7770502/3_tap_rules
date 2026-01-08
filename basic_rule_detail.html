@@ -248,6 +248,15 @@
       // 章立て（参考サイトの「流れ/用語/マナー/ペナルティ」っぽく “読み順” を作る） :contentReference[oaicite:1]{index=1}
       const blocks = [];
 
+if (r.description) {
+  blocks.push(`
+    <div class="card">
+      <div class="title">${title}</div>
+      <p class="secText">${esc(r.description)}</p>
+    </div>
+  `);
+}
+      
       if (r.detail) {
         blocks.push(`
           <div class="card">
