@@ -150,6 +150,21 @@
       height:auto;
       display:block;
     }
+    /* ▼ 基本ルール一覧へ ボタンを中央＋下線なしにする */
+.actions {
+  display: flex;
+  justify-content: center; /* 中央寄せ */
+  margin: 12px 0 6px;
+}
+
+.actions a {
+  text-decoration: none;   /* アンダーバー削除 */
+}
+
+/* 既存デザインを保ちつつ中央寄せ用に微調整 */
+.actions .btn.list {
+  display: inline-block;
+}
   </style>
 </head>
 
