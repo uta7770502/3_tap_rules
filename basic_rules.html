@@ -6,36 +6,24 @@
   <title>コースデビュー「いろは」（基本ルール） | 3タップルールズ</title>
 
   <style>
-    :root{
-      --green:#00bfa5;
-      --deep:#007f7a;
-      --yellow:#FFD84D;
-      --bg:#f9fff9;
-      --shadow:0 6px 18px rgba(0,0,0,0.10);
-      --shadow2:0 2px 10px rgba(0,0,0,0.06);
-    }
-
     body{
       font-family:"Helvetica","Arial",sans-serif;
-      background:var(--bg);
+      background:#f9fff9;
       margin:0;
-      padding-bottom:90px;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
+      padding-bottom:90px; /* 下部ナビ分 */
     }
 
-    /* ヘッダー */
     header{
-      background:var(--green);
+      background:#00bfa5;
       color:#fff;
       text-align:center;
-      padding:16px 12px 18px;
+      padding:18px 12px;
       font-size:22px;
-      font-weight:900;
+      font-weight:800;
       border-bottom-left-radius:28px;
       border-bottom-right-radius:28px;
-      box-shadow:var(--shadow);
-      line-height:1.2;
+      box-shadow:0 6px 18px rgba(0,0,0,0.10);
+      line-height:1.25;
     }
     header img{
       height:22px;
@@ -43,93 +31,85 @@
       margin-right:8px;
     }
 
-    /* 上部（戻る＋検索） */
+    /* 上部エリア（戻るボタン + 検索） */
     .topArea{
       width:92%;
       max-width:760px;
-      margin:12px auto 0;
+      margin:14px auto 8px;
       display:flex;
       flex-direction:column;
       gap:10px;
-      align-items:center;
     }
 
     .back-btn{
       display:block;
-      width:min(720px, 92%);
+      width:100%;
       text-align:center;
-      background:var(--yellow);
+      background:#FFD84D;
       color:#333;
       text-decoration:none;
-      font-weight:900;
+      font-weight:800;
       padding:14px 0;
       border-radius:40px;
       box-shadow:0 5px 12px rgba(0,0,0,0.12);
-      transition:.15s ease;
+      transition:0.2s ease;
     }
-    .back-btn:active{ transform:translateY(1px); }
+    .back-btn:hover{ transform:translateY(-2px); }
 
-    .searchWrap{
-      width:min(720px, 100%);
-    }
+    /* 検索 */
     #searchInput{
       width:100%;
       padding:14px 16px;
-      font-size:16px;
-      border:1px solid rgba(0,0,0,0.12);
+      border:1px solid #ddd;
       border-radius:999px;
+      font-size:16px;
       outline:none;
+      box-shadow:0 2px 10px rgba(0,0,0,0.06);
       background:#fff;
-      box-shadow:var(--shadow2);
     }
 
-    /* カテゴリチップ */
-    #jumpChips{
+    /* 上のカテゴリチップ */
+    #chipRow{
       width:92%;
       max-width:760px;
-      margin:10px auto 6px;
-      padding:0 2px;
+      margin:8px auto 10px;
       display:flex;
       gap:10px;
       overflow-x:auto;
+      padding:2px 2px 8px;
       -webkit-overflow-scrolling:touch;
-      scrollbar-width:none;
     }
-    #jumpChips::-webkit-scrollbar{ display:none; }
-    #jumpChips a{
+    .chip{
       flex:0 0 auto;
-      text-decoration:none;
+      border:none;
       background:#fff;
-      color:var(--deep);
-      font-weight:900;
-      border:1px solid rgba(0,0,0,0.08);
+      color:#007f72;
+      font-weight:800;
       border-radius:999px;
-      padding:10px 14px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.06);
+      padding:10px 16px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.08);
+      cursor:pointer;
+      font-size:15px;
       white-space:nowrap;
-      font-size:14px;
     }
 
-    /* ✅ カテゴリカード一覧：2列 */
+    /* ✅ カテゴリカード一覧：常に2列（スマホも2列） */
     #basicRulesList{
       width:92%;
       max-width:760px;
       margin:10px auto 30px;
       display:grid;
-      grid-template-columns:1fr 1fr;
+      grid-template-columns:repeat(2, minmax(0, 1fr));
       gap:12px;
       align-items:start;
     }
-    @media (max-width:720px){
-      #basicRulesList{ grid-template-columns:1fr; }
-    }
 
-    /* ✅ 各カテゴリカード（details） */
+    /* detailsカード */
     details{
-      background:rgba(255,255,255,0.85);
-      border:1px solid rgba(0,0,0,0.06);
+      background:#fff;
       border-radius:18px;
-      box-shadow:var(--shadow2);
+      box-shadow:0 2px 12px rgba(0,0,0,0.06);
+      border:1px solid rgba(0,0,0,0.05);
       overflow:hidden;
     }
 
@@ -137,71 +117,64 @@
       list-style:none;
       cursor:pointer;
       padding:16px 14px;
-      font-weight:900;
-      font-size:18px;
-      color:var(--deep);
       display:flex;
       align-items:center;
       justify-content:space-between;
-      user-select:none;
+      gap:10px;
+      font-weight:900;
+      color:#007f72;
+      font-size:18px;
     }
     summary::-webkit-details-marker{ display:none; }
 
     .chev{
-      font-size:14px;
-      opacity:.65;
-      transform:translateY(1px);
-      margin-left:10px;
+      font-size:18px;
+      opacity:0.8;
     }
-    details[open] .chev{ transform:rotate(180deg) translateY(-1px); }
+    details[open] .chev{ transform:rotate(180deg); }
 
-    /* ✅ ルールボタン：2列 */
-    .btnGrid{
-      padding:0 12px 14px;
+    /* 中のルールボタン：2列 */
+    .rulesGrid{
+      padding:12px 12px 14px;
       display:grid;
-      grid-template-columns:1fr 1fr;
+      grid-template-columns:repeat(2, minmax(0, 1fr));
       gap:10px;
-    }
-    /* 画面が狭い時だけ1列に */
-    @media (max-width:360px){
-      .btnGrid{ grid-template-columns:1fr; }
+      border-top:1px solid rgba(0,0,0,0.06);
+      background:linear-gradient(#ffffff, #fbfffd);
     }
 
-    .rule-item{
+    .ruleBtn{
       display:flex;
       align-items:center;
       justify-content:center;
       text-align:center;
-      padding:14px 12px;
-      border-radius:18px;
+      min-height:56px;
+      padding:10px 10px;
       background:#fff;
-      color:#333;
+      border-radius:14px;
       text-decoration:none;
-      font-size:15px;
+      color:#222;
       font-weight:800;
-      border:1px solid rgba(0,0,0,0.08);
-      box-shadow:0 2px 8px rgba(0,0,0,0.06);
+      box-shadow:0 2px 8px rgba(0,0,0,0.08);
+      border:1px solid rgba(0,0,0,0.06);
       line-height:1.2;
-      min-height:46px;
-      word-break:break-word;
+      font-size:15px;
     }
-    .rule-item:active{ transform:translateY(1px); }
+    .ruleBtn:hover{ transform:translateY(-1px); }
 
     .empty{
-      grid-column:1 / -1;
+      width:92%;
+      max-width:760px;
+      margin:18px auto;
       text-align:center;
       color:#777;
-      padding:18px 0;
-      background:rgba(255,255,255,0.65);
-      border-radius:14px;
-      border:1px solid rgba(0,0,0,0.06);
+      padding:14px 0;
     }
 
     /* 下部ナビ */
     .bottom-nav{
       position:fixed;
-      left:0;
-      bottom:0;
+      left:0; bottom:0;
       width:100%;
       background:#fff;
       border-top:1px solid #ddd;
@@ -217,6 +190,7 @@
       height:auto;
       display:block;
     }
+    .bottom-nav a.active{ transform:translateY(-2px); }
   </style>
 </head>
 
@@ -228,14 +202,16 @@
 
   <div class="topArea">
     <a href="index.html" class="back-btn">トップへ戻る</a>
-    <div class="searchWrap">
-      <input id="searchInput" type="text" placeholder="基本ルールを検索..." />
-    </div>
+    <input id="searchInput" type="text" placeholder="基本ルールを検索..." />
   </div>
 
-  <nav id="jumpChips" aria-label="カテゴリへ移動"></nav>
+  <!-- カテゴリチップ（JSで生成） -->
+  <div id="chipRow"></div>
 
+  <!-- カテゴリ別のプルダウン一覧（JSで生成） -->
   <main id="basicRulesList"></main>
+
+  <p id="emptyMsg" class="empty" style="display:none;">基本ルールが見つかりません。</p>
 
   <nav class="bottom-nav">
     <a href="index.html"><img src="home-icon.png" alt="ホーム" /></a>
@@ -244,123 +220,139 @@
   </nav>
 
   <script>
-    // --- util ---
+    // 文字エスケープ
     const esc = (s) => String(s ?? "")
-      .replaceAll("&","&amp;")
-      .replaceAll("<","&lt;")
-      .replaceAll(">","&gt;")
-      .replaceAll('"',"&quot;")
-      .replaceAll("'","&#39;");
+      .replace(/&/g,"&amp;")
+      .replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;")
+      .replace(/'/g,"&#39;");
 
-    const makeSecId = (level) => "sec-" + String(level ?? "")
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g,"-")
-      .replace(/[^\w\-ぁ-んァ-ン一-龥]/g,"");
+    // 章（level）の表示順（必要なら増やしてOK）
+    const LEVEL_ORDER = [
+      "基本のき",
+      "ラウンドの基本",
+      "ラウンドの流れ",
+      "コース用語",
+      "ローカルルール",
+      "マナー・エチケット",
+      "トラブル時の考え方",
+      "スコアのつけ方",
+      "プレーのコツ"
+    ];
 
-    const groupByLevel = (arr) => {
-      const m = new Map();
-      for (const r of arr) {
-        const key = (r.level ?? "その他").trim() || "その他";
-        if (!m.has(key)) m.set(key, []);
-        m.get(key).push(r);
-      }
-      return m;
+    const levelRank = (lv) => {
+      const i = LEVEL_ORDER.indexOf(lv);
+      return i === -1 ? 999 : i;
     };
 
-    // --- DOM ---
-    const listEl = document.getElementById("basicRulesList");
-    const inputEl = document.getElementById("searchInput");
-    const jumpEl = document.getElementById("jumpChips");
-
-    // --- data ---
     let allRules = [];
+    let grouped = new Map(); // level -> rules[]
 
-    // --- render ---
-    const render = (arr) => {
-      const grouped = groupByLevel(arr);
-
-      // chips
-      jumpEl.innerHTML = Array.from(grouped.keys()).map(level => {
-        const id = makeSecId(level);
-        return `<a href="#${esc(id)}">${esc(level)}</a>`;
-      }).join("");
-
-      const entries = Array.from(grouped.entries());
-
-      if (!arr || arr.length === 0 || entries.length === 0) {
-        listEl.innerHTML = `<p class="empty">該当する基本ルールがありません。</p>`;
-        return;
+    function buildGroups(rules){
+      grouped = new Map();
+      rules.forEach(r => {
+        const lv = r.level || "その他";
+        if(!grouped.has(lv)) grouped.set(lv, []);
+        grouped.get(lv).push(r);
+      });
+      // 各グループ内を id順
+      for(const [lv, arr] of grouped){
+        arr.sort((a,b) => (a.id??0) - (b.id??0));
       }
+    }
 
-      // ✅ 全カテゴリを details に統一（1件でもプルダウンに格納）
-      listEl.innerHTML = entries.map(([level, items], idx) => {
-        items.sort((a,b) => (a.id ?? 0) - (b.id ?? 0));
-        const secId = makeSecId(level);
+    function renderChips(){
+      const chipRow = document.getElementById("chipRow");
+      const levels = Array.from(grouped.keys())
+        .sort((a,b)=> levelRank(a)-levelRank(b) || a.localeCompare(b, "ja"));
 
-        const buttonsHtml = `
-          <div class="btnGrid">
-            ${items.map(r => {
-              const title = esc(r.title);
-              const id = Number(r.id);
-              return `<a class="rule-item" href="basic_rule_detail.html?id=${id}">${title}</a>`;
-            }).join("")}
-          </div>
-        `;
+      chipRow.innerHTML = levels.map(lv => `
+        <button class="chip" data-jump="${esc(lv)}">${esc(lv)}</button>
+      `).join("");
 
-        // 最初のカテゴリだけ open（好みで変更OK）
-        const openAttr = (idx === 0) ? "open" : "";
+      chipRow.querySelectorAll(".chip").forEach(btn=>{
+        btn.addEventListener("click", ()=>{
+          const lv = btn.dataset.jump;
+          const el = document.getElementById("sec-" + cssSafe(lv));
+          if(el) el.scrollIntoView({behavior:"smooth", block:"start"});
+        });
+      });
+    }
 
+    // CSS id用の安全化
+    function cssSafe(s){
+      return String(s ?? "").replace(/\s+/g,"-").replace(/[^\w\-ぁ-んァ-ヶ一-龠]/g,"");
+    }
+
+    function renderList(filterText=""){
+      const listEl = document.getElementById("basicRulesList");
+      const emptyMsg = document.getElementById("emptyMsg");
+
+      const q = filterText.trim();
+      const levels = Array.from(grouped.keys())
+        .sort((a,b)=> levelRank(a)-levelRank(b) || a.localeCompare(b, "ja"));
+
+      let anyShown = false;
+
+      const html = levels.map(lv=>{
+        const items = grouped.get(lv) || [];
+
+        // 検索フィルタ（title/description/level）
+        const filtered = q ? items.filter(r=>{
+          const t = (r.title||"");
+          const d = (r.description||"");
+          const l = (r.level||"");
+          return t.includes(q) || d.includes(q) || l.includes(q);
+        }) : items;
+
+        if(filtered.length === 0) return "";
+
+        anyShown = true;
+
+        const secId = "sec-" + cssSafe(lv);
+
+        // ✅ 重要：open属性は付けない（= 1件でも必ず閉じる）
         return `
-          <details id="${esc(secId)}" ${openAttr}>
+          <details id="${esc(secId)}">
             <summary>
-              <span>${esc(level)}</span>
+              <span>${esc(lv)}</span>
               <span class="chev">▼</span>
             </summary>
-            ${buttonsHtml}
+            <div class="rulesGrid">
+              ${filtered.map(r=>{
+                const id = Number(r.id);
+                const title = esc(r.title);
+                return `<a class="ruleBtn" href="basic_rule_detail.html?id=${id}">${title}</a>`;
+              }).join("")}
+            </div>
           </details>
         `;
       }).join("");
-    };
 
-    const applySearch = () => {
-      const q = (inputEl.value ?? "").trim();
-      if (!q) {
-        render(allRules);
-        return;
-      }
-      const filtered = allRules.filter(r =>
-        (r.title && String(r.title).includes(q)) ||
-        (r.description && String(r.description).includes(q)) ||
-        (r.detail && String(r.detail).includes(q)) ||
-        (r.level && String(r.level).includes(q))
-      );
-      render(filtered);
-    };
+      listEl.innerHTML = html;
+      emptyMsg.style.display = anyShown ? "none" : "block";
+    }
 
-    document.addEventListener("DOMContentLoaded", async () => {
-      try {
-        const res = await fetch("basic_rules.json", { cache: "no-store" });
+    document.addEventListener("DOMContentLoaded", async ()=>{
+      try{
+        const res = await fetch("basic_rules.json");
         allRules = await res.json();
-      } catch (e) {
-        console.warn("basic_rules.json 読み込み失敗:", e);
-        listEl.innerHTML = `<p class="empty">基本ルールの読み込みに失敗しました。</p>`;
+      }catch(e){
+        console.warn("basic_rules.jsonの読み込みに失敗:", e);
+        document.getElementById("emptyMsg").textContent = "基本ルールの読み込みに失敗しました。";
+        document.getElementById("emptyMsg").style.display = "block";
         return;
       }
 
-      allRules.sort((a,b) => (a.id ?? 0) - (b.id ?? 0));
-      render(allRules);
+      buildGroups(allRules);
+      renderChips();
+      renderList("");
 
-      inputEl.addEventListener("input", applySearch);
-
-      // チップ押下時：検索をクリアしてジャンプ
-      jumpEl.addEventListener("click", (ev) => {
-        const a = ev.target.closest("a");
-        if (!a) return;
-        if (inputEl.value.trim()) {
-          inputEl.value = "";
-          render(allRules);
-        }
+      // 検索
+      const input = document.getElementById("searchInput");
+      input.addEventListener("input", ()=>{
+        renderList(input.value);
       });
     });
   </script>
