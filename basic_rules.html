@@ -11,22 +11,20 @@
       --deep:#007f7a;
       --yellow:#FFD84D;
       --bg:#f9fff9;
-      --card:#ffffff;
       --shadow:0 6px 18px rgba(0,0,0,0.10);
       --shadow2:0 2px 10px rgba(0,0,0,0.06);
-      --radius:18px;
     }
 
     body{
       font-family:"Helvetica","Arial",sans-serif;
       background:var(--bg);
       margin:0;
-      padding-bottom:90px; /* 下部ナビ分 */
+      padding-bottom:90px;
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;
     }
 
-    /* ✅ ヘッダー */
+    /* ヘッダー */
     header{
       background:var(--green);
       color:#fff;
@@ -45,10 +43,10 @@
       margin-right:8px;
     }
 
-    /* ✅ 上部エリア（戻る＋検索） */
+    /* 上部（戻る＋検索） */
     .topArea{
       width:92%;
-      max-width:620px;
+      max-width:760px;
       margin:12px auto 0;
       display:flex;
       flex-direction:column;
@@ -58,7 +56,7 @@
 
     .back-btn{
       display:block;
-      width:min(520px, 92%);
+      width:min(720px, 92%);
       text-align:center;
       background:var(--yellow);
       color:#333;
@@ -71,9 +69,8 @@
     }
     .back-btn:active{ transform:translateY(1px); }
 
-    /* ✅ 検索ボックス */
     .searchWrap{
-      width:min(560px, 100%);
+      width:min(720px, 100%);
     }
     #searchInput{
       width:100%;
@@ -86,12 +83,12 @@
       box-shadow:var(--shadow2);
     }
 
-    /* ✅ カテゴリチップ（横スクロール） */
+    /* カテゴリチップ */
     #jumpChips{
-      width:100%;
-      max-width:620px;
+      width:92%;
+      max-width:760px;
       margin:10px auto 6px;
-      padding:0 12px;
+      padding:0 2px;
       display:flex;
       gap:10px;
       overflow-x:auto;
@@ -109,32 +106,33 @@
       border-radius:999px;
       padding:10px 14px;
       box-shadow:0 2px 8px rgba(0,0,0,0.06);
-      transition:.15s ease;
       white-space:nowrap;
       font-size:14px;
     }
-    #jumpChips a:active{ transform:translateY(1px); }
 
-    /* ✅ リスト */
+    /* ✅ カテゴリカード一覧：2列 */
     #basicRulesList{
       width:92%;
-      max-width:620px;
+      max-width:760px;
       margin:10px auto 30px;
-      display:flex;
-      flex-direction:column;
-      gap:14px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+      align-items:start;
+    }
+    @media (max-width:720px){
+      #basicRulesList{ grid-template-columns:1fr; }
     }
 
-    /* ✅ セクションカード */
-    details, .sectionCard{
-      background:rgba(255,255,255,0.80);
+    /* ✅ 各カテゴリカード（details） */
+    details{
+      background:rgba(255,255,255,0.85);
       border:1px solid rgba(0,0,0,0.06);
       border-radius:18px;
       box-shadow:var(--shadow2);
       overflow:hidden;
     }
 
-    /* ✅ 折りたたみヘッダー */
     summary{
       list-style:none;
       cursor:pointer;
@@ -148,33 +146,27 @@
       user-select:none;
     }
     summary::-webkit-details-marker{ display:none; }
+
     .chev{
       font-size:14px;
       opacity:.65;
       transform:translateY(1px);
+      margin-left:10px;
     }
     details[open] .chev{ transform:rotate(180deg) translateY(-1px); }
 
-    /* ✅ 1件カテゴリの見出し（折りたたまない版） */
-    .sectionTitle{
-      padding:16px 14px 10px;
-      font-weight:900;
-      font-size:18px;
-      color:var(--deep);
-    }
-
-    /* ✅ ボタン2列グリッド */
+    /* ✅ ルールボタン：2列 */
     .btnGrid{
       padding:0 12px 14px;
       display:grid;
       grid-template-columns:1fr 1fr;
       gap:10px;
     }
+    /* 画面が狭い時だけ1列に */
     @media (max-width:360px){
       .btnGrid{ grid-template-columns:1fr; }
     }
 
-    /* ✅ ルールボタン */
     .rule-item{
       display:flex;
       align-items:center;
@@ -191,12 +183,12 @@
       box-shadow:0 2px 8px rgba(0,0,0,0.06);
       line-height:1.2;
       min-height:46px;
-      transition:.12s ease;
       word-break:break-word;
     }
     .rule-item:active{ transform:translateY(1px); }
 
     .empty{
+      grid-column:1 / -1;
       text-align:center;
       color:#777;
       padding:18px 0;
@@ -205,7 +197,7 @@
       border:1px solid rgba(0,0,0,0.06);
     }
 
-    /* ✅ 下部ナビ */
+    /* 下部ナビ */
     .bottom-nav{
       position:fixed;
       left:0;
@@ -225,7 +217,6 @@
       height:auto;
       display:block;
     }
-    .bottom-nav a:active{ transform:translateY(1px); }
   </style>
 </head>
 
@@ -237,16 +228,13 @@
 
   <div class="topArea">
     <a href="index.html" class="back-btn">トップへ戻る</a>
-
     <div class="searchWrap">
       <input id="searchInput" type="text" placeholder="基本ルールを検索..." />
     </div>
   </div>
 
-  <!-- ✅ カテゴリチップ -->
   <nav id="jumpChips" aria-label="カテゴリへ移動"></nav>
 
-  <!-- ✅ セクション一覧 -->
   <main id="basicRulesList"></main>
 
   <nav class="bottom-nav">
@@ -256,7 +244,7 @@
   </nav>
 
   <script>
-    // --- ユーティリティ ---
+    // --- util ---
     const esc = (s) => String(s ?? "")
       .replaceAll("&","&amp;")
       .replaceAll("<","&lt;")
@@ -285,30 +273,29 @@
     const inputEl = document.getElementById("searchInput");
     const jumpEl = document.getElementById("jumpChips");
 
-    // --- データ ---
+    // --- data ---
     let allRules = [];
 
-    // --- 描画 ---
+    // --- render ---
     const render = (arr) => {
       const grouped = groupByLevel(arr);
 
-      // カテゴリチップ
+      // chips
       jumpEl.innerHTML = Array.from(grouped.keys()).map(level => {
         const id = makeSecId(level);
         return `<a href="#${esc(id)}">${esc(level)}</a>`;
       }).join("");
 
       const entries = Array.from(grouped.entries());
+
       if (!arr || arr.length === 0 || entries.length === 0) {
         listEl.innerHTML = `<p class="empty">該当する基本ルールがありません。</p>`;
         return;
       }
 
-      // セクション出力
+      // ✅ 全カテゴリを details に統一（1件でもプルダウンに格納）
       listEl.innerHTML = entries.map(([level, items], idx) => {
-        // id順
         items.sort((a,b) => (a.id ?? 0) - (b.id ?? 0));
-
         const secId = makeSecId(level);
 
         const buttonsHtml = `
@@ -321,33 +308,21 @@
           </div>
         `;
 
-        // ✅ 1件だけ：折りたたみ無しでそのまま表示
-        if (items.length === 1) {
-          return `
-            <section id="${esc(secId)}" class="sectionCard">
-              <div class="sectionTitle">${esc(level)}</div>
-              ${buttonsHtml}
-            </section>
-          `;
-        }
-
-        // ✅ 2件以上：折りたたみ（件数表示は無し）
+        // 最初のカテゴリだけ open（好みで変更OK）
         const openAttr = (idx === 0) ? "open" : "";
+
         return `
-          <section id="${esc(secId)}">
-            <details ${openAttr}>
-              <summary>
-                <span>${esc(level)}</span>
-                <span class="chev">▼</span>
-              </summary>
-              ${buttonsHtml}
-            </details>
-          </section>
+          <details id="${esc(secId)}" ${openAttr}>
+            <summary>
+              <span>${esc(level)}</span>
+              <span class="chev">▼</span>
+            </summary>
+            ${buttonsHtml}
+          </details>
         `;
       }).join("");
     };
 
-    // --- 検索 ---
     const applySearch = () => {
       const q = (inputEl.value ?? "").trim();
       if (!q) {
@@ -363,7 +338,6 @@
       render(filtered);
     };
 
-    // --- 初期化 ---
     document.addEventListener("DOMContentLoaded", async () => {
       try {
         const res = await fetch("basic_rules.json", { cache: "no-store" });
@@ -374,18 +348,15 @@
         return;
       }
 
-      // 全体をid順
       allRules.sort((a,b) => (a.id ?? 0) - (b.id ?? 0));
-
       render(allRules);
 
       inputEl.addEventListener("input", applySearch);
 
-      // チップ押下時：検索をクリアして該当セクションへ移動（表示はそのまま）
+      // チップ押下時：検索をクリアしてジャンプ
       jumpEl.addEventListener("click", (ev) => {
         const a = ev.target.closest("a");
         if (!a) return;
-        // 検索が入っていると見えないことがあるので、ジャンプ時は検索クリア
         if (inputEl.value.trim()) {
           inputEl.value = "";
           render(allRules);
