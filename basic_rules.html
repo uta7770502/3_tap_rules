@@ -6,113 +6,170 @@
   <title>コースデビュー「いろは」（基本ルール） | 3タップルールズ</title>
 
   <style>
-    body{
-      font-family:"Helvetica","Arial",sans-serif;
-      background:#f9fff9;
-      margin:0;
-      padding-bottom:90px; /* 下部ナビ分 */
+    :root{
+      --green:#00bfa5;
+      --deep:#007f72;
+      --yellow:#FFD84D;
+      --bg:#f6fff8;
+      --card:#ffffff;
+      --shadow: 0 2px 12px rgba(0,0,0,0.08);
+      --shadowSoft: 0 2px 10px rgba(0,0,0,0.06);
+      --border: rgba(0,0,0,0.06);
     }
 
+    body{
+      font-family: "Helvetica","Arial",sans-serif;
+      background: var(--bg);
+      margin:0;
+      padding-bottom: 90px; /* bottom nav */
+      color:#222;
+    }
+
+    /* ヘッダー */
     header{
-      background:#00bfa5;
+      background: var(--green);
       color:#fff;
       text-align:center;
-      padding:18px 12px;
-      font-size:22px;
-      font-weight:800;
-      border-bottom-left-radius:28px;
-      border-bottom-right-radius:28px;
-      box-shadow:0 6px 18px rgba(0,0,0,0.10);
-      line-height:1.25;
+      padding: 18px 14px 20px;
+      font-size: 22px;
+      font-weight: 900;
+      border-bottom-left-radius: 28px;
+      border-bottom-right-radius: 28px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+      position: sticky;
+      top:0;
+      z-index: 20;
     }
-    header img{
-      height:22px;
-      vertical-align:-4px;
-      margin-right:8px;
-    }
-
-    /* 上部エリア（戻るボタン + 検索） */
-    .topArea{
-      width:92%;
-      max-width:760px;
-      margin:14px auto 8px;
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-    }
-
-    .back-btn{
+    header .sub{
       display:block;
-      width:100%;
+      font-size: 12px;
+      opacity: .95;
+      margin-top: 6px;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+
+    /* 上部ブロック */
+    .topArea{
+      width: 92%;
+      max-width: 760px;
+      margin: 14px auto 6px;
+    }
+
+    .topBtn{
+      display:block;
+      width: 100%;
       text-align:center;
-      background:#FFD84D;
+      background: var(--yellow);
       color:#333;
       text-decoration:none;
-      font-weight:800;
-      padding:14px 0;
-      border-radius:40px;
-      box-shadow:0 5px 12px rgba(0,0,0,0.12);
-      transition:0.2s ease;
+      font-weight: 900;
+      padding: 14px 0;
+      border-radius: 40px;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+      transition:.15s ease;
+      font-size: 18px;
     }
-    .back-btn:hover{ transform:translateY(-2px); }
+    .topBtn:active{ transform: translateY(1px); }
 
     /* 検索 */
-    #searchInput{
+    .searchWrap{
+      margin: 12px auto 10px;
+      background:#fff;
+      border-radius: 22px;
+      box-shadow: var(--shadowSoft);
+      border: 1px solid var(--border);
+      overflow:hidden;
+    }
+    .searchWrap input{
       width:100%;
-      padding:14px 16px;
-      border:1px solid #ddd;
-      border-radius:999px;
-      font-size:16px;
+      border:none;
       outline:none;
-      box-shadow:0 2px 10px rgba(0,0,0,0.06);
+      padding: 14px 14px;
+      font-size: 16px;
       background:#fff;
     }
 
-    /* 上のカテゴリチップ */
-    #chipRow{
-      width:92%;
-      max-width:760px;
-      margin:8px auto 10px;
+    /* カテゴリチップ（横スクロール） */
+    .chipRow{
+      width: 92%;
+      max-width: 760px;
+      margin: 10px auto 10px;
       display:flex;
       gap:10px;
       overflow-x:auto;
-      padding:2px 2px 8px;
-      -webkit-overflow-scrolling:touch;
+      padding-bottom: 6px;
+      -webkit-overflow-scrolling: touch;
     }
+    .chipRow::-webkit-scrollbar{ height:6px; }
+    .chipRow::-webkit-scrollbar-thumb{ background: rgba(0,0,0,0.12); border-radius: 20px; }
+
     .chip{
-      flex:0 0 auto;
-      border:none;
+      flex: 0 0 auto;
       background:#fff;
-      color:#007f72;
-      font-weight:800;
-      border-radius:999px;
-      padding:10px 16px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 900;
+      color: var(--deep);
       cursor:pointer;
-      font-size:15px;
-      white-space:nowrap;
+      user-select:none;
+      white-space: nowrap;
+      transition: .12s ease;
+    }
+    .chip:active{ transform: translateY(1px); }
+    .chip.active{
+      background: rgba(0,191,165,0.12);
+      border-color: rgba(0,191,165,0.35);
     }
 
-    /* ✅ カテゴリカード一覧：常に2列（スマホも2列） */
-    #basicRulesList{
+    /* 検索結果 */
+    .results{
       width:92%;
-      max-width:760px;
-      margin:10px auto 30px;
+      max-width: 760px;
+      margin: 10px auto 6px;
+      display:none;
+      background: #fff;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadowSoft);
+      overflow:hidden;
+    }
+    .resultsHeader{
+      padding: 12px 14px;
+      font-weight: 900;
+      color: var(--deep);
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(#fff, #fbfffd);
+    }
+    .resultsGrid{
+      padding: 12px;
       display:grid;
-      grid-template-columns:repeat(2, minmax(0, 1fr));
-      gap:12px;
-      align-items:start;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:10px;
+    }
+
+    /* カテゴリ一覧（2列） */
+    .categoryGrid{
+      width: 92%;
+      max-width: 760px;
+      margin: 10px auto 18px;
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
     }
 
     /* detailsカード */
     details{
-      background:#fff;
-      border-radius:18px;
-      box-shadow:0 2px 12px rgba(0,0,0,0.06);
-      border:1px solid rgba(0,0,0,0.05);
+      background: var(--card);
+      border-radius: 18px;
+      box-shadow: var(--shadowSoft);
+      border: 1px solid var(--border);
       overflow:hidden;
     }
 
+    /* ✅ カテゴリ見出し（summary）を1行で綺麗に */
     summary{
       list-style:none;
       cursor:pointer;
@@ -122,97 +179,130 @@
       justify-content:space-between;
       gap:10px;
       font-weight:900;
-      color:#007f72;
+      color: var(--deep);
       font-size:18px;
+      white-space:nowrap;
     }
     summary::-webkit-details-marker{ display:none; }
 
-    .chev{
-      font-size:18px;
-      opacity:0.8;
+    summary > span:first-child{
+      flex:1;
+      min-width:0;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
     }
-    details[open] .chev{ transform:rotate(180deg); }
 
-    /* 中のルールボタン：2列 */
+    .chev{
+      flex:0 0 auto;
+      font-size:18px;
+      opacity:.8;
+      transition: transform .15s ease;
+    }
+    details[open] .chev{ transform: rotate(180deg); }
+
+    /* ✅ ルールボタンは常にプルダウン内（1件でも外に出さない） */
     .rulesGrid{
       padding:12px 12px 14px;
       display:grid;
-      grid-template-columns:repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap:10px;
-      border-top:1px solid rgba(0,0,0,0.06);
-      background:linear-gradient(#ffffff, #fbfffd);
+      border-top: 1px solid var(--border);
+      background: linear-gradient(#ffffff, #fbfffd);
     }
 
+    /* ✅ ボタンの文字が縦に潰れない */
     .ruleBtn{
       display:flex;
       align-items:center;
       justify-content:center;
       text-align:center;
-      min-height:56px;
-      padding:10px 10px;
+
+      min-height: 56px;
+      height:auto;
+      padding: 12px 10px;
+
       background:#fff;
-      border-radius:14px;
+      border-radius: 14px;
       text-decoration:none;
       color:#222;
-      font-weight:800;
-      box-shadow:0 2px 8px rgba(0,0,0,0.08);
-      border:1px solid rgba(0,0,0,0.06);
-      line-height:1.2;
-      font-size:15px;
-    }
-    .ruleBtn:hover{ transform:translateY(-1px); }
+      font-weight: 900;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
 
+      line-height: 1.25;
+      font-size: 15px;
+
+      word-break: keep-all;       /* 変な1文字改行を抑制 */
+      overflow-wrap: break-word;  /* それでも長い時だけ折る */
+      transition: .12s ease;
+    }
+    .ruleBtn:active{ transform: translateY(1px); }
+
+    /* 空 */
     .empty{
-      width:92%;
-      max-width:760px;
-      margin:18px auto;
-      text-align:center;
-      color:#777;
-      padding:14px 0;
+      padding: 12px 12px 14px;
+      color:#666;
+      font-size: 14px;
+    }
+
+    /* スマホ最適化 */
+    @media (max-width: 420px){
+      header{ font-size: 20px; }
+      .topBtn{ font-size: 17px; }
+      summary{ font-size: 17px; }
+      .ruleBtn{ font-size: 14px; min-height: 54px; }
     }
 
     /* 下部ナビ */
     .bottom-nav{
-      position:fixed;
+      position: fixed;
       left:0; bottom:0;
       width:100%;
       background:#fff;
-      border-top:1px solid #ddd;
+      border-top: 1px solid #ddd;
       display:flex;
-      justify-content:space-around;
+      justify-content: space-around;
       align-items:center;
-      height:70px;
-      box-shadow:0 -2px 8px rgba(0,0,0,0.08);
-      z-index:1000;
+      height: 70px;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+      z-index: 1000;
     }
     .bottom-nav img{
-      width:50px;
+      width: 50px;
       height:auto;
       display:block;
     }
-    .bottom-nav a.active{ transform:translateY(-2px); }
   </style>
 </head>
 
 <body>
   <header>
-    <img src="syoshinsya.png" alt="" />
-    コースデビュー「いろは」（基本ルール）
+    🍃 コースデビュー「いろは」（基本ルール）
+    <span class="sub">ラウンドの流れがわかる“超入門”</span>
   </header>
 
   <div class="topArea">
-    <a href="index.html" class="back-btn">トップへ戻る</a>
-    <input id="searchInput" type="text" placeholder="基本ルールを検索..." />
+    <a class="topBtn" href="index.html">トップへ戻る</a>
+
+    <div class="searchWrap">
+      <input id="searchInput" type="text" placeholder="基本ルールを検索..." autocomplete="off" />
+    </div>
   </div>
 
-  <!-- カテゴリチップ（JSで生成） -->
-  <div id="chipRow"></div>
+  <!-- カテゴリチップ -->
+  <div class="chipRow" id="chipRow"></div>
 
-  <!-- カテゴリ別のプルダウン一覧（JSで生成） -->
-  <main id="basicRulesList"></main>
+  <!-- 検索結果 -->
+  <section class="results" id="resultsBox">
+    <div class="resultsHeader">検索結果</div>
+    <div class="resultsGrid" id="resultsGrid"></div>
+  </section>
 
-  <p id="emptyMsg" class="empty" style="display:none;">基本ルールが見つかりません。</p>
+  <!-- カテゴリ（2列） -->
+  <main class="categoryGrid" id="categoryGrid"></main>
 
+  <!-- 下部ナビ -->
   <nav class="bottom-nav">
     <a href="index.html"><img src="home-icon.png" alt="ホーム" /></a>
     <a href="rules.html"><img src="book-icon.png" alt="ルール一覧" /></a>
@@ -220,140 +310,114 @@
   </nav>
 
   <script>
-    // 文字エスケープ
     const esc = (s) => String(s ?? "")
-      .replace(/&/g,"&amp;")
-      .replace(/</g,"&lt;")
-      .replace(/>/g,"&gt;")
-      .replace(/"/g,"&quot;")
-      .replace(/'/g,"&#39;");
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#039;");
 
-    // 章（level）の表示順（必要なら増やしてOK）
-    const LEVEL_ORDER = [
-      "基本のき",
-      "ラウンドの基本",
-      "ラウンドの流れ",
-      "コース用語",
-      "ローカルルール",
-      "マナー・エチケット",
-      "トラブル時の考え方",
-      "スコアのつけ方",
-      "プレーのコツ"
-    ];
-
-    const levelRank = (lv) => {
-      const i = LEVEL_ORDER.indexOf(lv);
-      return i === -1 ? 999 : i;
-    };
-
-    let allRules = [];
-    let grouped = new Map(); // level -> rules[]
-
-    function buildGroups(rules){
-      grouped = new Map();
-      rules.forEach(r => {
-        const lv = r.level || "その他";
-        if(!grouped.has(lv)) grouped.set(lv, []);
-        grouped.get(lv).push(r);
-      });
-      // 各グループ内を id順
-      for(const [lv, arr] of grouped){
-        arr.sort((a,b) => (a.id??0) - (b.id??0));
-      }
-    }
-
-    function renderChips(){
+    document.addEventListener("DOMContentLoaded", async () => {
       const chipRow = document.getElementById("chipRow");
-      const levels = Array.from(grouped.keys())
-        .sort((a,b)=> levelRank(a)-levelRank(b) || a.localeCompare(b, "ja"));
+      const grid = document.getElementById("categoryGrid");
 
-      chipRow.innerHTML = levels.map(lv => `
-        <button class="chip" data-jump="${esc(lv)}">${esc(lv)}</button>
+      const resultsBox = document.getElementById("resultsBox");
+      const resultsGrid = document.getElementById("resultsGrid");
+      const searchInput = document.getElementById("searchInput");
+
+      let rules = [];
+      try{
+        const res = await fetch("basic_rules.json");
+        rules = await res.json();
+      }catch(e){
+        grid.innerHTML = `<div class="empty">basic_rules.json の読み込みに失敗しました。</div>`;
+        return;
+      }
+
+      // id順
+      rules.sort((a,b)=> (Number(a.id)||0) - (Number(b.id)||0));
+
+      // level（カテゴリ）でグループ
+      const groups = new Map();
+      for(const r of rules){
+        const level = (r.level || "その他").trim();
+        if(!groups.has(level)) groups.set(level, []);
+        groups.get(level).push(r);
+      }
+
+      const levels = Array.from(groups.keys());
+
+      // チップ生成
+      chipRow.innerHTML = levels.map((lv, idx)=>`
+        <div class="chip ${idx===0 ? "active":""}" data-level="${esc(lv)}">${esc(lv)}</div>
       `).join("");
 
-      chipRow.querySelectorAll(".chip").forEach(btn=>{
-        btn.addEventListener("click", ()=>{
-          const lv = btn.dataset.jump;
-          const el = document.getElementById("sec-" + cssSafe(lv));
-          if(el) el.scrollIntoView({behavior:"smooth", block:"start"});
-        });
-      });
-    }
+      // カテゴリ（details）生成：✅1件でも必ず中に格納（外に出さない）
+      grid.innerHTML = levels.map((lv, idx)=>{
+        const safeId = "cat_" + lv.replace(/\s+/g,"_").replace(/[^\wぁ-んァ-ヶ一-龠ー]/g,"");
+        const items = groups.get(lv) || [];
 
-    // CSS id用の安全化
-    function cssSafe(s){
-      return String(s ?? "").replace(/\s+/g,"-").replace(/[^\w\-ぁ-んァ-ヶ一-龠]/g,"");
-    }
+        const buttons = items.map(r=>{
+          const title = esc(r.title);
+          const id = Number(r.id);
+          return `<a class="ruleBtn" href="basic_rule_detail.html?id=${id}">${title}</a>`;
+        }).join("");
 
-    function renderList(filterText=""){
-      const listEl = document.getElementById("basicRulesList");
-      const emptyMsg = document.getElementById("emptyMsg");
-
-      const q = filterText.trim();
-      const levels = Array.from(grouped.keys())
-        .sort((a,b)=> levelRank(a)-levelRank(b) || a.localeCompare(b, "ja"));
-
-      let anyShown = false;
-
-      const html = levels.map(lv=>{
-        const items = grouped.get(lv) || [];
-
-        // 検索フィルタ（title/description/level）
-        const filtered = q ? items.filter(r=>{
-          const t = (r.title||"");
-          const d = (r.description||"");
-          const l = (r.level||"");
-          return t.includes(q) || d.includes(q) || l.includes(q);
-        }) : items;
-
-        if(filtered.length === 0) return "";
-
-        anyShown = true;
-
-        const secId = "sec-" + cssSafe(lv);
-
-        // ✅ 重要：open属性は付けない（= 1件でも必ず閉じる）
         return `
-          <details id="${esc(secId)}">
+          <details id="${safeId}" data-level="${esc(lv)}">
             <summary>
               <span>${esc(lv)}</span>
               <span class="chev">▼</span>
             </summary>
             <div class="rulesGrid">
-              ${filtered.map(r=>{
-                const id = Number(r.id);
-                const title = esc(r.title);
-                return `<a class="ruleBtn" href="basic_rule_detail.html?id=${id}">${title}</a>`;
-              }).join("")}
+              ${buttons || `<div class="empty">このカテゴリはまだありません。</div>`}
             </div>
           </details>
         `;
       }).join("");
 
-      listEl.innerHTML = html;
-      emptyMsg.style.display = anyShown ? "none" : "block";
-    }
+      // チップクリック：該当カテゴリへスクロール＆open
+      chipRow.querySelectorAll(".chip").forEach(chip=>{
+        chip.addEventListener("click", ()=>{
+          chipRow.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));
+          chip.classList.add("active");
 
-    document.addEventListener("DOMContentLoaded", async ()=>{
-      try{
-        const res = await fetch("basic_rules.json");
-        allRules = await res.json();
-      }catch(e){
-        console.warn("basic_rules.jsonの読み込みに失敗:", e);
-        document.getElementById("emptyMsg").textContent = "基本ルールの読み込みに失敗しました。";
-        document.getElementById("emptyMsg").style.display = "block";
-        return;
+          const lv = chip.dataset.level;
+          const target = grid.querySelector(`details[data-level="${CSS.escape(lv)}"]`);
+          if(target){
+            target.open = true;
+            const y = target.getBoundingClientRect().top + window.scrollY - 95;
+            window.scrollTo({ top: y, behavior:"smooth" });
+          }
+        });
+      });
+
+      // 検索：タイトル＋descriptionを対象。結果は上に2列で表示
+      function doSearch(){
+        const q = searchInput.value.trim();
+        if(!q){
+          resultsBox.style.display = "none";
+          resultsGrid.innerHTML = "";
+          return;
+        }
+
+        const hit = rules.filter(r=>{
+          const t = String(r.title || "");
+          const d = String(r.description || "");
+          const dt = String(r.detail || "");
+          return t.includes(q) || d.includes(q) || dt.includes(q);
+        });
+
+        resultsBox.style.display = "block";
+        resultsGrid.innerHTML = hit.length
+          ? hit.map(r=>`<a class="ruleBtn" href="basic_rule_detail.html?id=${Number(r.id)}">${esc(r.title)}</a>`).join("")
+          : `<div class="empty">該当するルールがありません。</div>`;
+
+        // 検索中はチップのactiveを外す（任意）
+        chipRow.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));
       }
 
-      buildGroups(allRules);
-      renderChips();
-      renderList("");
-
-      // 検索
-      const input = document.getElementById("searchInput");
-      input.addEventListener("input", ()=>{
-        renderList(input.value);
-      });
+      searchInput.addEventListener("input", doSearch);
     });
   </script>
 </body>
