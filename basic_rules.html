@@ -273,6 +273,21 @@
       height:auto;
       display:block;
     }
+    /* ✅ ヘッダー内の初心者マークだけを強制的に小さく */
+header img,
+header img.beginnerMark {
+  height: 26px !important;
+  width: auto !important;
+  max-width: 26px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin-right: 10px !important;
+}
+
+/* ✅ もし全体に img { width:100% } が居ても勝つ */
+img.beginnerMark{
+  width: auto !important;
+}
   </style>
 </head>
 
