@@ -3,77 +3,206 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>コースデビュー「いろは」 | 3タップルールズ</title>
+  <title>コースデビュー「いろは」（基本ルール） | 3タップルールズ</title>
 
   <style>
-    body{
-      font-family:"Helvetica","Arial",sans-serif;
-      background:#f9fff9;
-      margin:0;
-      padding-bottom:90px; /* 下部ナビ分 */
+    :root{
+      --green:#00bfa5;
+      --deep:#007f7a;
+      --yellow:#FFD84D;
+      --bg:#f9fff9;
+      --card:#ffffff;
+      --shadow:0 6px 18px rgba(0,0,0,0.10);
+      --shadow2:0 2px 10px rgba(0,0,0,0.06);
+      --radius:18px;
     }
 
-    /* ✅ ヘッダー：統一デザイン */
+    body{
+      font-family:"Helvetica","Arial",sans-serif;
+      background:var(--bg);
+      margin:0;
+      padding-bottom:90px; /* 下部ナビ分 */
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    /* ✅ ヘッダー */
     header{
-      background:#00bfa5;
+      background:var(--green);
       color:#fff;
       text-align:center;
-      padding:16px 0;
+      padding:16px 12px 18px;
       font-size:22px;
       font-weight:900;
       border-bottom-left-radius:28px;
       border-bottom-right-radius:28px;
-      box-shadow:0 6px 18px rgba(0,0,0,0.10);
-      line-height:1.25;
+      box-shadow:var(--shadow);
+      line-height:1.2;
     }
     header img{
-      height:24px;
-      vertical-align:-5px;
+      height:22px;
+      vertical-align:-4px;
       margin-right:8px;
     }
 
-    /* ✅ トップへ戻るボタン：黄色 */
+    /* ✅ 上部エリア（戻る＋検索） */
+    .topArea{
+      width:92%;
+      max-width:620px;
+      margin:12px auto 0;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      align-items:center;
+    }
+
     .back-btn{
       display:block;
-      width:86%;
-      max-width:520px;
+      width:min(520px, 92%);
       text-align:center;
-      background:#FFD84D;
+      background:var(--yellow);
       color:#333;
-      text-decoration:none; /* アンダーバー消す */
-      margin:14px auto 10px;
+      text-decoration:none;
       font-weight:900;
-      padding:12px 0;
-      border-radius:999px;
+      padding:14px 0;
+      border-radius:40px;
       box-shadow:0 5px 12px rgba(0,0,0,0.12);
-      transition:0.2s ease;
+      transition:.15s ease;
     }
     .back-btn:active{ transform:translateY(1px); }
 
-    /* ✅ 検索 */
+    /* ✅ 検索ボックス */
     .searchWrap{
-      width:92%;
-      max-width:560px;
-      margin:8px auto 6px;
+      width:min(560px, 100%);
     }
-    #basicSearch{
+    #searchInput{
       width:100%;
-      padding:12px 14px;
+      padding:14px 16px;
       font-size:16px;
-      border:1px solid rgba(0,0,0,0.10);
+      border:1px solid rgba(0,0,0,0.12);
       border-radius:999px;
       outline:none;
-      box-shadow:0 2px 10px rgba(0,0,0,0.06);
       background:#fff;
+      box-shadow:var(--shadow2);
     }
+
+    /* ✅ カテゴリチップ（横スクロール） */
+    #jumpChips{
+      width:100%;
+      max-width:620px;
+      margin:10px auto 6px;
+      padding:0 12px;
+      display:flex;
+      gap:10px;
+      overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+      scrollbar-width:none;
+    }
+    #jumpChips::-webkit-scrollbar{ display:none; }
+    #jumpChips a{
+      flex:0 0 auto;
+      text-decoration:none;
+      background:#fff;
+      color:var(--deep);
+      font-weight:900;
+      border:1px solid rgba(0,0,0,0.08);
+      border-radius:999px;
+      padding:10px 14px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.06);
+      transition:.15s ease;
+      white-space:nowrap;
+      font-size:14px;
+    }
+    #jumpChips a:active{ transform:translateY(1px); }
+
+    /* ✅ リスト */
+    #basicRulesList{
+      width:92%;
+      max-width:620px;
+      margin:10px auto 30px;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+
+    /* ✅ セクションカード */
+    details, .sectionCard{
+      background:rgba(255,255,255,0.80);
+      border:1px solid rgba(0,0,0,0.06);
+      border-radius:18px;
+      box-shadow:var(--shadow2);
+      overflow:hidden;
+    }
+
+    /* ✅ 折りたたみヘッダー */
+    summary{
+      list-style:none;
+      cursor:pointer;
+      padding:16px 14px;
+      font-weight:900;
+      font-size:18px;
+      color:var(--deep);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      user-select:none;
+    }
+    summary::-webkit-details-marker{ display:none; }
+    .chev{
+      font-size:14px;
+      opacity:.65;
+      transform:translateY(1px);
+    }
+    details[open] .chev{ transform:rotate(180deg) translateY(-1px); }
+
+    /* ✅ 1件カテゴリの見出し（折りたたまない版） */
+    .sectionTitle{
+      padding:16px 14px 10px;
+      font-weight:900;
+      font-size:18px;
+      color:var(--deep);
+    }
+
+    /* ✅ ボタン2列グリッド */
+    .btnGrid{
+      padding:0 12px 14px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:10px;
+    }
+    @media (max-width:360px){
+      .btnGrid{ grid-template-columns:1fr; }
+    }
+
+    /* ✅ ルールボタン */
+    .rule-item{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:14px 12px;
+      border-radius:18px;
+      background:#fff;
+      color:#333;
+      text-decoration:none;
+      font-size:15px;
+      font-weight:800;
+      border:1px solid rgba(0,0,0,0.08);
+      box-shadow:0 2px 8px rgba(0,0,0,0.06);
+      line-height:1.2;
+      min-height:46px;
+      transition:.12s ease;
+      word-break:break-word;
+    }
+    .rule-item:active{ transform:translateY(1px); }
 
     .empty{
       text-align:center;
       color:#777;
       padding:18px 0;
-      width:92%;
-      max-width:560px;
-      margin:0 auto;
+      background:rgba(255,255,255,0.65);
+      border-radius:14px;
+      border:1px solid rgba(0,0,0,0.06);
     }
 
     /* ✅ 下部ナビ */
@@ -96,128 +225,30 @@
       height:auto;
       display:block;
     }
-    .bottom-nav a.active{ transform:translateY(-2px); }
-
-    /* =========================
-       ▼ ここから「一覧性UP」追加
-       ========================= */
-
-    /* ▼ セクション（カテゴリ） */
-    .section{
-      width:92%;
-      max-width:560px;
-      margin:10px auto 16px;
-    }
-
-    .section details{
-      background:rgba(255,255,255,0.75);
-      border:1px solid rgba(0,0,0,0.06);
-      border-radius:18px;
-      box-shadow:0 2px 10px rgba(0,0,0,0.05);
-      overflow:hidden;
-    }
-
-    .section summary{
-      list-style:none;
-      cursor:pointer;
-      padding:14px 14px;
-      font-weight:900;
-      font-size:16px;
-      color:#007f7a;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-    }
-    .section summary::-webkit-details-marker{ display:none; }
-
-    .section .count{
-      font-weight:800;
-      font-size:12px;
-      color:#555;
-      background:rgba(0,0,0,0.06);
-      padding:4px 10px;
-      border-radius:999px;
-    }
-
-    /* ▼ ボタンを2列に（スマホで一覧性UP） */
-    .btnGrid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:10px;
-      padding:12px 12px 14px;
-    }
-    @media (max-width:360px){
-      .btnGrid{ grid-template-columns:1fr; }
-    }
-
-    /* ▼ ルールボタン */
-    .rule-item{
-      display:block;
-      width:100%;
-      margin:0;
-      padding:14px 10px;
-      text-align:center;
-      background:#fff;
-      color:#333;
-      border-radius:18px;
-      font-size:15px;
-      font-weight:800;
-      text-decoration:none;
-      border:1px solid rgba(0,0,0,0.06);
-      transition:0.2s ease;
-      box-shadow:0 2px 6px rgba(0,0,0,0.06);
-      line-height:1.2;
-    }
-    .rule-item:active{ transform:translateY(1px); }
-
-    /* ▼ カテゴリジャンプ（上のチップ） */
-    .jump{
-      width:92%;
-      max-width:560px;
-      margin:8px auto 6px;
-      display:flex;
-      gap:8px;
-      overflow-x:auto;
-      padding-bottom:6px;
-      -webkit-overflow-scrolling:touch;
-    }
-    .jump a{
-      flex:0 0 auto;
-      background:#fff;
-      border:1px solid rgba(0,0,0,0.06);
-      border-radius:999px;
-      padding:8px 12px;
-      font-size:13px;
-      font-weight:900;
-      color:#007f7a;
-      text-decoration:none;
-      box-shadow:0 2px 6px rgba(0,0,0,0.06);
-      white-space:nowrap;
-    }
-    .jump a:active{ transform:translateY(1px); }
+    .bottom-nav a:active{ transform:translateY(1px); }
   </style>
 </head>
 
 <body>
   <header>
     <img src="syoshinsya.png" alt="" />
-    コースデビュー「いろは」<br>（基本ルール）
+    コースデビュー「いろは」（基本ルール）
   </header>
 
-  <a href="index.html" class="back-btn">トップへ戻る</a>
+  <div class="topArea">
+    <a href="index.html" class="back-btn">トップへ戻る</a>
 
-  <!-- ✅ 検索ボックス（ルール一覧ページ風） -->
-  <div class="searchWrap">
-    <input id="basicSearch" type="text" placeholder="基本ルールを検索..." />
+    <div class="searchWrap">
+      <input id="searchInput" type="text" placeholder="基本ルールを検索..." />
+    </div>
   </div>
 
-  <!-- ✅ カテゴリジャンプ -->
-  <div id="jump" class="jump"></div>
+  <!-- ✅ カテゴリチップ -->
+  <nav id="jumpChips" aria-label="カテゴリへ移動"></nav>
 
-  <!-- ✅ 一覧 -->
+  <!-- ✅ セクション一覧 -->
   <main id="basicRulesList"></main>
 
-  <!-- ✅ 下部ナビ -->
   <nav class="bottom-nav">
     <a href="index.html"><img src="home-icon.png" alt="ホーム" /></a>
     <a href="rules.html"><img src="book-icon.png" alt="ルール一覧" /></a>
@@ -225,121 +256,141 @@
   </nav>
 
   <script>
-    document.addEventListener("DOMContentLoaded", async () => {
-      const listEl = document.getElementById("basicRulesList");
-      const jumpEl = document.getElementById("jump");
-      const searchInput = document.getElementById("basicSearch");
+    // --- ユーティリティ ---
+    const esc = (s) => String(s ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#39;");
 
-      let rules = [];
+    const makeSecId = (level) => "sec-" + String(level ?? "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g,"-")
+      .replace(/[^\w\-ぁ-んァ-ン一-龥]/g,"");
+
+    const groupByLevel = (arr) => {
+      const m = new Map();
+      for (const r of arr) {
+        const key = (r.level ?? "その他").trim() || "その他";
+        if (!m.has(key)) m.set(key, []);
+        m.get(key).push(r);
+      }
+      return m;
+    };
+
+    // --- DOM ---
+    const listEl = document.getElementById("basicRulesList");
+    const inputEl = document.getElementById("searchInput");
+    const jumpEl = document.getElementById("jumpChips");
+
+    // --- データ ---
+    let allRules = [];
+
+    // --- 描画 ---
+    const render = (arr) => {
+      const grouped = groupByLevel(arr);
+
+      // カテゴリチップ
+      jumpEl.innerHTML = Array.from(grouped.keys()).map(level => {
+        const id = makeSecId(level);
+        return `<a href="#${esc(id)}">${esc(level)}</a>`;
+      }).join("");
+
+      const entries = Array.from(grouped.entries());
+      if (!arr || arr.length === 0 || entries.length === 0) {
+        listEl.innerHTML = `<p class="empty">該当する基本ルールがありません。</p>`;
+        return;
+      }
+
+      // セクション出力
+      listEl.innerHTML = entries.map(([level, items], idx) => {
+        // id順
+        items.sort((a,b) => (a.id ?? 0) - (b.id ?? 0));
+
+        const secId = makeSecId(level);
+
+        const buttonsHtml = `
+          <div class="btnGrid">
+            ${items.map(r => {
+              const title = esc(r.title);
+              const id = Number(r.id);
+              return `<a class="rule-item" href="basic_rule_detail.html?id=${id}">${title}</a>`;
+            }).join("")}
+          </div>
+        `;
+
+        // ✅ 1件だけ：折りたたみ無しでそのまま表示
+        if (items.length === 1) {
+          return `
+            <section id="${esc(secId)}" class="sectionCard">
+              <div class="sectionTitle">${esc(level)}</div>
+              ${buttonsHtml}
+            </section>
+          `;
+        }
+
+        // ✅ 2件以上：折りたたみ（件数表示は無し）
+        const openAttr = (idx === 0) ? "open" : "";
+        return `
+          <section id="${esc(secId)}">
+            <details ${openAttr}>
+              <summary>
+                <span>${esc(level)}</span>
+                <span class="chev">▼</span>
+              </summary>
+              ${buttonsHtml}
+            </details>
+          </section>
+        `;
+      }).join("");
+    };
+
+    // --- 検索 ---
+    const applySearch = () => {
+      const q = (inputEl.value ?? "").trim();
+      if (!q) {
+        render(allRules);
+        return;
+      }
+      const filtered = allRules.filter(r =>
+        (r.title && String(r.title).includes(q)) ||
+        (r.description && String(r.description).includes(q)) ||
+        (r.detail && String(r.detail).includes(q)) ||
+        (r.level && String(r.level).includes(q))
+      );
+      render(filtered);
+    };
+
+    // --- 初期化 ---
+    document.addEventListener("DOMContentLoaded", async () => {
       try {
-        const res = await fetch("basic_rules.json");
-        rules = await res.json();
+        const res = await fetch("basic_rules.json", { cache: "no-store" });
+        allRules = await res.json();
       } catch (e) {
-        console.warn("basic_rules.jsonの読み込みに失敗:", e);
+        console.warn("basic_rules.json 読み込み失敗:", e);
         listEl.innerHTML = `<p class="empty">基本ルールの読み込みに失敗しました。</p>`;
         return;
       }
 
-      // id順に並べる（念のため）
-      rules.sort((a, b) => (a.id ?? 0) - (b.id ?? 0));
+      // 全体をid順
+      allRules.sort((a,b) => (a.id ?? 0) - (b.id ?? 0));
 
-      const esc = (s) =>
-        String(s ?? "")
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;")
-          .replace(/"/g, "&quot;");
+      render(allRules);
 
-      // level（カテゴリ）でグルーピング
-      const groupByLevel = (arr) => {
-        const map = new Map();
-        arr.forEach((r) => {
-          const level = r.level || "その他";
-          if (!map.has(level)) map.set(level, []);
-          map.get(level).push(r);
-        });
-        return map;
-      };
+      inputEl.addEventListener("input", applySearch);
 
-      const makeSecId = (level) => {
-        return (
-          "sec-" +
-          String(level || "その他")
-            .replace(/\s+/g, "-")
-            .replace(/[^\w\-ぁ-んァ-ン一-龠]/g, "")
-        );
-      };
-
-      const render = (arr) => {
-        const grouped = groupByLevel(arr);
-
-        // ジャンプチップ
-        if (jumpEl) {
-          jumpEl.innerHTML = Array.from(grouped.keys())
-            .map((level) => {
-              const id = makeSecId(level);
-              return `<a href="#${esc(id)}">${esc(level)}</a>`;
-            })
-            .join("");
+      // チップ押下時：検索をクリアして該当セクションへ移動（表示はそのまま）
+      jumpEl.addEventListener("click", (ev) => {
+        const a = ev.target.closest("a");
+        if (!a) return;
+        // 検索が入っていると見えないことがあるので、ジャンプ時は検索クリア
+        if (inputEl.value.trim()) {
+          inputEl.value = "";
+          render(allRules);
         }
-
-        // 本文
-        const entries = Array.from(grouped.entries());
-        if (!arr || arr.length === 0 || entries.length === 0) {
-          listEl.innerHTML = `<p class="empty">該当する基本ルールがありません。</p>`;
-          return;
-        }
-
-        listEl.innerHTML = entries
-          .map(([level, items], idx) => {
-            const secId = makeSecId(level);
-
-            // 最初だけ開く（全部開きたいなら "open" を固定に）
-            const openAttr = idx === 0 ? "open" : "";
-
-            const buttons = items
-              .map((r) => {
-                const title = esc(r.title);
-                const id = Number(r.id);
-                return `<a class="rule-item" href="basic_rule_detail.html?id=${id}">${title}</a>`;
-              })
-              .join("");
-
-            return `
-              <div class="section" id="${esc(secId)}">
-                <details ${openAttr}>
-                  <summary>
-                    <span>${esc(level)}</span>
-                    <span class="count">${items.length}件</span>
-                  </summary>
-                  <div class="btnGrid">
-                    ${buttons}
-                  </div>
-                </details>
-              </div>
-            `;
-          })
-          .join("");
-      };
-
-      // 初期表示
-      render(rules);
-
-      // 検索で絞り込み（タイトル/本文）
-      if (searchInput) {
-        searchInput.addEventListener("input", () => {
-          const q = searchInput.value.trim();
-          if (!q) return render(rules);
-
-          const filtered = rules.filter(
-            (r) =>
-              (r.title && r.title.includes(q)) ||
-              (r.description && r.description.includes(q)) ||
-              (r.detail && r.detail.includes(q))
-          );
-          render(filtered);
-        });
-      }
+      });
     });
   </script>
 </body>
