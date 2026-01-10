@@ -17,15 +17,16 @@
       --radius: 22px;
     }
 
+    *{ box-sizing:border-box; }
     body{
       margin:0;
       font-family: "Helvetica","Arial",sans-serif;
       background: var(--bg);
-      padding-bottom: 90px; /* bottom-nav */
+      padding-bottom: 90px;
       color:#222;
+      -webkit-text-size-adjust: 100%;
     }
 
-    /* ===== Header ===== */
     header{
       background: var(--green);
       color:#fff;
@@ -55,7 +56,6 @@
       height: 22px;
     }
 
-    /* ===== Top area ===== */
     .topArea{
       width: 92%;
       max-width: 720px;
@@ -80,7 +80,6 @@
       font-size: 18px;
     }
 
-    /* ===== Search ===== */
     .searchWrap{
       background: rgba(255,255,255,0.75);
       border-radius: 999px;
@@ -97,7 +96,6 @@
       color:#333;
     }
 
-    /* ===== Category chips ===== */
     .chipRow{
       width: 92%;
       max-width: 720px;
@@ -127,7 +125,7 @@
       outline: 2px solid rgba(0,191,165,0.22);
     }
 
-    /* ===== Search results ===== */
+    /* 検索結果 */
     .results{
       width: 92%;
       max-width: 720px;
@@ -150,7 +148,7 @@
       gap: 10px;
     }
 
-    /* ===== Category grid (2 columns) ===== */
+    /* カテゴリ（2列） */
     .categoryGrid{
       width: 92%;
       max-width: 720px;
@@ -158,15 +156,19 @@
       display:grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 14px;
+      align-items: start;
     }
 
-    /* ===== Accordion ===== */
     .accordion{
       background: var(--card);
       border-radius: 18px;
       box-shadow: var(--shadow2);
       overflow: hidden;
+      position: relative;
+      isolation: isolate;
     }
+
+    /* ✅ “ヘッダーだけ”がクリック対象 */
     .accordionHeader{
       padding: 14px 14px;
       font-weight: 900;
@@ -178,8 +180,22 @@
       user-select:none;
       font-size: 18px;
       min-height: 52px;
+      background:#fff;
+      position: relative;
+      z-index: 2;
+      touch-action: manipulation;
     }
+
+    .accordionHeader .title{
+      display:block;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     .accordionHeader .arrow{
+      flex: 0 0 auto;
       font-size: 18px;
       opacity: 0.75;
       margin-left: 10px;
@@ -189,49 +205,47 @@
       transform: rotate(180deg);
     }
 
+    /* ✅ 中は「横長ボタン1列」 */
     .accordionPanel{
       display:none;
       padding: 12px;
       border-top: 1px solid rgba(0,0,0,0.06);
+      background:#fff;
+      position: relative;
+      z-index: 1;
     }
-
-    /* 開いた時：中身は2列 */
     .accordion.open .accordionPanel{
-      display:grid;
-      grid-template-columns: repeat(2, 1fr);
+      display:flex;
+      flex-direction: column;
       gap: 10px;
     }
 
-    /* ===== Rule button ===== */
+    /* ✅ 赤枠みたいな横長 */
     .ruleBtn{
       display:flex;
       align-items:center;
       justify-content:center;
       text-align:center;
 
+      width: 100%;
+      border-radius: 16px;
+      padding: 14px 12px;
+      min-height: 54px;
+
       background: #f9fefe;
-      border-radius: 14px;
-      padding: 12px 10px;
       box-shadow: 0 3px 10px rgba(0,0,0,0.08);
       text-decoration:none;
 
       color:#222;
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 800;
       line-height: 1.35;
 
-      /* ここが「縦長化」を防ぐポイント */
-      min-height: 56px;
-      width: 100%;
-      box-sizing: border-box;
-
-      /* 長い文字も破綻しない */
-      word-break: keep-all;
+      white-space: normal;
       overflow-wrap: anywhere;
+      word-break: break-word;
     }
-    .ruleBtn:active{
-      transform: translateY(1px);
-    }
+    .ruleBtn:active{ transform: translateY(1px); }
 
     .empty{
       width: 92%;
@@ -246,7 +260,6 @@
       box-shadow: var(--shadow2);
     }
 
-    /* ===== Bottom nav ===== */
     .bottom-nav{
       position: fixed;
       left: 0;
@@ -267,18 +280,16 @@
       display: block;
     }
 
-    /* ===== Responsive tweaks ===== */
     @media (max-width: 390px){
       header{ font-size: 22px; }
       .accordionHeader{ font-size: 17px; }
-      .ruleBtn{ font-size: 13px; min-height: 54px; }
+      .ruleBtn{ font-size: 14px; }
     }
   </style>
 </head>
 
 <body>
   <header>
-    <!-- 左に初心者マーク（小さめ固定） -->
     <img class="badge" src="syoshinsya.png" alt="初心者" />
     コースデビュー「いろは」
     <span class="sub">ラウンドの流れがわかる “超入門”</span>
@@ -292,16 +303,13 @@
     </div>
   </div>
 
-  <!-- カテゴリチップ（JSで生成） -->
   <div class="chipRow" id="chipRow"></div>
 
-  <!-- 検索結果（JSで表示） -->
   <section class="results" id="results">
     <div class="resultsHeader" id="resultsHeader">検索結果</div>
     <div class="resultsGrid" id="resultsGrid"></div>
   </section>
 
-  <!-- カテゴリ（2列アコーディオン）（JSで生成） -->
   <main class="categoryGrid" id="categoryGrid"></main>
 
   <div class="empty" id="emptyBox" style="display:none;">基本ルールが読み込めませんでした。</div>
@@ -313,7 +321,6 @@
   </nav>
 
   <script>
-    // ===== utils =====
     const esc = (s) => String(s ?? "")
       .replaceAll("&","&amp;")
       .replaceAll("<","&lt;")
@@ -321,9 +328,7 @@
       .replaceAll('"',"&quot;")
       .replaceAll("'","&#39;");
 
-    function norm(s){
-      return String(s ?? "").trim();
-    }
+    const norm = (s) => String(s ?? "").trim();
 
     function groupBy(arr, keyFn){
       const map = new Map();
@@ -335,9 +340,8 @@
       return map;
     }
 
-    // ===== state =====
     let ALL = [];
-    let CATEGORIES = []; // category names
+    let CATEGORIES = [];
     let ACTIVE_CATEGORY = "すべて";
 
     const elChipRow = document.getElementById("chipRow");
@@ -348,48 +352,70 @@
     const elEmpty = document.getElementById("emptyBox");
     const elSearch = document.getElementById("searchInput");
 
-    // ===== render chips =====
-    function renderChips(categories){
-      elChipRow.innerHTML = "";
-
-      const allChip = document.createElement("button");
-      allChip.className = "chip";
-      allChip.textContent = "すべて";
-      allChip.dataset.cat = "すべて";
-      elChipRow.appendChild(allChip);
-
-      for(const c of categories){
-        const btn = document.createElement("button");
-        btn.className = "chip";
-        btn.textContent = c;
-        btn.dataset.cat = c;
-        elChipRow.appendChild(btn);
-      }
-
-      // click handler（イベント委譲）
-      elChipRow.addEventListener("click", (e) => {
-        const btn = e.target.closest(".chip");
-        if(!btn) return;
-        ACTIVE_CATEGORY = btn.dataset.cat || "すべて";
-        updateChipActive();
-        renderCategoryAccordions(); // チップ変更で一覧を再描画
-      });
-
-      updateChipActive();
-    }
-
     function updateChipActive(){
       elChipRow.querySelectorAll(".chip").forEach(ch => {
         ch.classList.toggle("active", (ch.dataset.cat || "") === ACTIVE_CATEGORY);
       });
     }
 
-    // ===== render accordions (2 columns) =====
+    function renderChips(categories){
+      elChipRow.innerHTML = "";
+
+      const mk = (label) => {
+        const b = document.createElement("button");
+        b.className = "chip";
+        b.textContent = label;
+        b.dataset.cat = label;
+        return b;
+      };
+
+      elChipRow.appendChild(mk("すべて"));
+      for(const c of categories) elChipRow.appendChild(mk(c));
+
+      // ✅ チップはここだけで処理（他に波及しない）
+      elChipRow.addEventListener("click", (e) => {
+        const btn = e.target.closest(".chip");
+        if(!btn) return;
+        e.preventDefault();
+        e.stopPropagation();
+        ACTIVE_CATEGORY = btn.dataset.cat || "すべて";
+        updateChipActive();
+        renderCategoryAccordions();
+      }, { capture:true });
+
+      updateChipActive();
+    }
+
+    function closeOtherAccordions(currentBox){
+      document.querySelectorAll(".accordion.open").forEach(a => {
+        if(a !== currentBox) a.classList.remove("open");
+      });
+    }
+
+    function attachAccordionBehavior(box){
+      const head = box.querySelector(".accordionHeader");
+
+      // ✅ capture:true + stopImmediatePropagation で “他の要素に絶対伝播させない”
+      head.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+
+        closeOtherAccordions(box);
+        box.classList.toggle("open");
+      }, { capture:true });
+
+      // ✅ パネル内クリックが変なところに波及しない保険
+      const panel = box.querySelector(".accordionPanel");
+      panel.addEventListener("click", (e) => {
+        e.stopPropagation();
+      }, { capture:true });
+    }
+
     function renderCategoryAccordions(){
       const q = norm(elSearch.value);
       const isSearching = q.length > 0;
 
-      // 検索中は「検索結果」だけ見せたい（ガチャ防止）
       if(isSearching){
         elGrid.style.display = "none";
         return;
@@ -397,14 +423,12 @@
         elGrid.style.display = "grid";
       }
 
-      // カテゴリで絞る（すべてなら全部）
       const filtered = (ACTIVE_CATEGORY === "すべて")
         ? ALL.slice()
         : ALL.filter(r => norm(r.level) === ACTIVE_CATEGORY);
 
       const map = groupBy(filtered, r => norm(r.level) || "その他");
 
-      // 表示順：CATEGORIES の順番を尊重
       const keys = (ACTIVE_CATEGORY === "すべて")
         ? CATEGORIES.filter(k => map.has(k))
         : [ACTIVE_CATEGORY];
@@ -419,12 +443,12 @@
 
         const head = document.createElement("div");
         head.className = "accordionHeader";
-        head.innerHTML = `<span>${esc(cat)}</span><span class="arrow">▼</span>`;
+        head.innerHTML = `<span class="title">${esc(cat)}</span><span class="arrow">▼</span>`;
 
         const panel = document.createElement("div");
         panel.className = "accordionPanel";
 
-        // ★ 重要：件数が1でも必ずパネルに入れて「閉じた状態」から開始
+        // ✅ 件数1でも必ずパネルに格納（最初は閉じた状態）
         for(const r of items){
           const a = document.createElement("a");
           a.className = "ruleBtn";
@@ -433,18 +457,14 @@
           panel.appendChild(a);
         }
 
-        // クリック：そのアコーディオンだけ開閉（他へ波及しない）
-        head.addEventListener("click", () => {
-          box.classList.toggle("open");
-        });
-
         box.appendChild(head);
         box.appendChild(panel);
         elGrid.appendChild(box);
+
+        attachAccordionBehavior(box);
       }
     }
 
-    // ===== search =====
     function renderSearchResults(){
       const q = norm(elSearch.value);
       const isSearching = q.length > 0;
@@ -453,17 +473,14 @@
         elResults.style.display = "none";
         elResultsGrid.innerHTML = "";
         elResultsHeader.textContent = "検索結果";
-        // 一覧は戻す
         renderCategoryAccordions();
         return;
       }
 
-      // 検索中はカテゴリ一覧を隠す
       elGrid.style.display = "none";
       elResults.style.display = "block";
 
       const qLower = q.toLowerCase();
-
       const hits = ALL.filter(r => {
         const t = (norm(r.title) + " " + norm(r.description) + " " + norm(r.detail) + " " + norm(r.level)).toLowerCase();
         return t.includes(qLower);
@@ -486,7 +503,6 @@
       }
     }
 
-    // ===== load =====
     async function init(){
       try{
         const res = await fetch("basic_rules.json", { cache: "no-store" });
@@ -505,7 +521,6 @@
         return;
       }
 
-      // カテゴリ（level）一覧を作る（出現順を維持しつつ重複排除）
       const seen = new Set();
       CATEGORIES = [];
       for(const r of ALL){
@@ -518,11 +533,7 @@
 
       renderChips(CATEGORIES);
       renderCategoryAccordions();
-
-      // 検索
-      elSearch.addEventListener("input", () => {
-        renderSearchResults();
-      });
+      elSearch.addEventListener("input", renderSearchResults);
     }
 
     document.addEventListener("DOMContentLoaded", init);
