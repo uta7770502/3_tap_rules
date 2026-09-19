@@ -186,6 +186,9 @@
       const isAll = activeCategory === "すべて";
       grid.className = isAll ? "categoryGrid allCategories" : "categoryGrid singleCategory";
 
+      const isAll = activeCategory === "すべて";
+      grid.className = isAll ? "categoryGrid allCategories" : "categoryGrid singleCategory";
+
       grid.innerHTML = targetCats.map(cat => {
         const items = ALL_RULES
           .filter(r => r.category === cat)
@@ -208,7 +211,6 @@
         `;
       }).join("");
 
-      // 「すべて」ではカテゴリカードとして表示。タップするとそのカテゴリだけを全幅表示。
       grid.onclick = (e) => {
         if(!isAll) return;
         const header = e.target.closest(".accHeader");
@@ -216,7 +218,7 @@
         activeCategory = header.dataset.cat;
         renderChips();
         renderCategoryAccordions();
-        window.scrollTo({ top: document.getElementById("chipRow").offsetTop - 8, behavior:"smooth" });
+        window.scrollTo({ top: Math.max(0, document.getElementById("chipRow").offsetTop - 8), behavior:"smooth" });
       };
     }
 
