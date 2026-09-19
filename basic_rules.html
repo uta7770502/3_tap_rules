@@ -43,15 +43,27 @@
     .resultBtn{display:block;width:100%;background:#fff;text-decoration:none;color:#222;padding:14px;border-radius:16px;box-shadow:var(--shadow2);font-weight:800;line-height:1.25;}
     .resultMeta{margin-top:6px;font-size:12px;color:#0d6f65;font-weight:800;opacity:.9;}
 
-    .categoryGrid{width:92%;max-width:720px;margin:14px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    .categoryGrid{width:92%;max-width:720px;margin:14px auto 0;display:block;}
     .accordion{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow2);overflow:hidden;border:1px solid rgba(0,0,0,.04);}
     .accHeader{width:100%;border:none;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px;}
     .accTitle{font-size:20px;font-weight:900;color:#0d6f65;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1;}
     .accArrow{font-size:18px;font-weight:900;color:#0d6f65;opacity:.85;width:22px;text-align:center;flex:0 0 auto;transition:transform .2s ease;}
     .accordion.open .accArrow{transform:rotate(180deg);}
 
-    .accPanel{max-height:0;overflow:hidden;transition:max-height .22s ease;border-top:1px solid rgba(0,0,0,.06);background:rgba(245,255,247,.55);}
-    .accordion.open .accPanel{max-height:1200px;}
+    .accPanel{border-top:1px solid rgba(0,0,0,.06);background:rgba(245,255,247,.55);}
+    .categoryGrid.singleCategory .accordion{margin-bottom:16px;}
+    .categoryGrid.singleCategory .accHeader{display:none;}
+    .categoryGrid.singleCategory .accPanel{border-top:none;}
+    .categoryGrid.allCategories{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    .categoryGrid.allCategories .accordion{cursor:pointer;}
+    .categoryGrid.allCategories .accPanel{display:none;}
+    @media(max-width:430px){
+      .categoryGrid.allCategories{grid-template-columns:1fr 1fr;gap:10px;}
+      .accHeader{padding:16px 14px;}
+      .accTitle{font-size:18px;}
+      .itemList{padding:10px;}
+      .itemBtn{padding:15px 14px;font-size:17px;}
+    }
 
     .itemList{padding:12px;display:flex;flex-direction:column;gap:10px;}
     .itemBtn{
@@ -171,6 +183,9 @@
       const cats = getCategories();
       const targetCats = (activeCategory === "すべて") ? cats : cats.filter(c => c === activeCategory);
 
+      const isAll = activeCategory === "すべて";
+      grid.className = isAll ? "categoryGrid allCategories" : "categoryGrid singleCategory";
+
       grid.innerHTML = targetCats.map(cat => {
         const items = ALL_RULES
           .filter(r => r.category === cat)
@@ -182,7 +197,7 @@
 
         return `
           <section class="accordion">
-            <button class="accHeader" type="button" aria-expanded="false">
+            <button class="accHeader" type="button" data-cat="${esc(cat)}">
               <div class="accTitle">${esc(cat)}</div>
               <div class="accArrow">▼</div>
             </button>
@@ -193,14 +208,14 @@
         `;
       }).join("");
 
-      // 1つだけ開閉（隣に波及しない）
       grid.onclick = (e) => {
+        if(!isAll) return;
         const header = e.target.closest(".accHeader");
         if(!header) return;
-        const acc = header.closest(".accordion");
-        const willOpen = !acc.classList.contains("open");
-        acc.classList.toggle("open", willOpen);
-        header.setAttribute("aria-expanded", String(willOpen));
+        activeCategory = header.dataset.cat;
+        renderChips();
+        renderCategoryAccordions();
+        window.scrollTo({ top: Math.max(0, document.getElementById("chipRow").offsetTop - 8), behavior:"smooth" });
       };
     }
 
