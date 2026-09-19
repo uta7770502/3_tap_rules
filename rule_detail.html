@@ -82,7 +82,7 @@
     const backBtn = document.getElementById("backBtn");
 
     try {
-      const res = await fetch("https://uta7770502.github.io/golfrules/rules.json?time=" + new Date().getTime(), { cache: "no-store" });
+      const res = await fetch("rules.json?v=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error("fetch failed");
       const rules = await res.json();
       const rule = rules.find(r => String(r.id) === String(id));
@@ -93,9 +93,6 @@
       let how = rule.procedure || rule.how || rule.correct || "";
       let pen = rule.penalty || rule.penalties || "";
 
-      // 🧠 常に自動チェックして上書き
-      const auto = inferPenalty(rule);
-      if (auto && auto !== "" && auto !== pen) pen = auto;
 
       const finalHow = how || "処置方法の情報が見つかりません。";
       const finalPen = pen || "ペナルティの情報が見つかりません。";
