@@ -207,8 +207,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const expandedBags = words.map(expand);
 
     return all.filter((r) => {
+      // 1文字検索はタイトルだけを見る。「赤」などで本文・関連keywordsから広がりすぎるのを防ぐ。
+      if (normalize(q).length === 1) {
+        return normalize(r.title || "").includes(normalize(q));
+      }
       const hay = packSearchTerms(r);
-      // ✅ どれか1つでもマッチしたらOK
       return expandedBags.some((bag) => bag.some((key) => hay.includes(key)));
     });
   }
