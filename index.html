@@ -345,6 +345,31 @@ section:nth-of-type(1) {
   background: #FFD84D !important; /* 黄色 */
   color: ##00997f !important; /* グリーン文字 */
 }
+/* 種類ボタンの長いラベルを中央で安定させる */
+.by-type .button-group .type-btn {
+  min-height: 58px;
+  padding: 10px 14px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.by-type .button-group .type-btn-iroha {
+  flex-direction: column;
+  gap: 1px;
+  font-size: 16px;
+}
+.by-type .button-group .type-btn-iroha span {
+  display: block;
+}
+.by-type .button-group .type-btn-manner {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+
 /* 🏌️‍♂️ 「場所で探す」ボタンの文字色を白に固定 */
 .by-place .button-group button {
   color: #fff !important;
@@ -430,10 +455,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   <div class="search-column by-type">
     <h2>種類で探す</h2>
     <div class="button-group">
-      <button onclick="location.href='basic_rules.html'">コースデビュー「いろは」</button>
+      <button class="type-btn type-btn-iroha" onclick="location.href='basic_rules.html'"><span>コースデビュー</span><span>「いろは」</span></button>
       <button onclick="location.href='rules.html?category=ローカルルール'">ローカルルール</button>
       <button onclick="location.href='rules.html?category=コンペルール'">コンペルール</button>
-      <button onclick="location.href='rules.html?category=マナー・エチケット'">マナー・エチケット</button>
+      <button class="type-btn type-btn-manner" onclick="location.href='rules.html?category=マナー・エチケット'">マナー・エチケット</button>
       <button onclick="location.href='rules.html?category=クラブ'">クラブ</button>
     </div>
   </div>
