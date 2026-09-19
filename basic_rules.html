@@ -186,9 +186,6 @@
       const isAll = activeCategory === "すべて";
       grid.className = isAll ? "categoryGrid allCategories" : "categoryGrid singleCategory";
 
-      const isAll = activeCategory === "すべて";
-      grid.className = isAll ? "categoryGrid allCategories" : "categoryGrid singleCategory";
-
       grid.innerHTML = targetCats.map(cat => {
         const items = ALL_RULES
           .filter(r => r.category === cat)
