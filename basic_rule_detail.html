@@ -227,7 +227,7 @@
 
       let rules = [];
       try {
-        const res = await fetch("basic_rules.json");
+        const res = await fetch("basic_rules.json?v=" + Date.now(), { cache:"no-store" });
         rules = await res.json();
       } catch (e) {
         contentEl.innerHTML = `
@@ -275,7 +275,7 @@ if (r.description) {
       if (r.detail) {
         blocks.push(`
           <div class="card">
-            <div class="secTitle">📌 もう少しだけ補足</div>
+            <div class="secTitle">📌 まず知っておこう</div>
             <p class="secText">${esc(r.detail)}</p>
           </div>
         `);
@@ -284,7 +284,7 @@ if (r.description) {
       if (r.procedure) {
         blocks.push(`
           <div class="card">
-            <div class="secTitle">🧭 どうすればいい？（手順）</div>
+            <div class="secTitle">🧭 初心者はこう動けばOK</div>
             <p class="secText">${esc(r.procedure)}</p>
           </div>
         `);
@@ -293,7 +293,7 @@ if (r.description) {
       if (r.penalty) {
         blocks.push(`
           <div class="card">
-            <div class="secTitle">⚠️ ペナルティ</div>
+            <div class="secTitle">⚠️ ここに注意</div>
             <p class="secText">${esc(r.penalty)}</p>
           </div>
         `);
