@@ -2,7 +2,7 @@
    3タップルールズ Service Worker
    =============================== */
 
-const CACHE_NAME = "3tap-v10";
+const CACHE_NAME = "3tap-v11-rule-audit";
 
 /* キャッシュ対象ファイル */
 const urlsToCache = [
@@ -55,31 +55,34 @@ self.addEventListener("activate", event => {
 
 /* ---------- fetch ---------- */
 self.addEventListener("fetch", event => {
+  const request = event.request;
+  const url = new URL(request.url);
+  const isFreshContent =
+    request.mode === "navigate" ||
+    url.pathname.endsWith(".html") ||
+    url.pathname.endsWith(".json");
+
+  if (isFreshContent) {
+    event.respondWith(
+      fetch(request)
+        .then(response => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+          return response;
+        })
+        .catch(() => caches.match(request).then(r => r || caches.match("./index.html")))
+    );
+    return;
+  }
+
   event.respondWith(
-    caches.match(event.request).then(cachedResponse => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-
-      return fetch(event.request).then(networkResponse => {
-        // HTML / JSON は動的にキャッシュ更新
-        if (
-          event.request.url.endsWith(".html") ||
-          event.request.url.endsWith(".json")
-        ) {
-          return caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, networkResponse.clone());
-            return networkResponse;
-          });
-        }
-
-        return networkResponse;
+    caches.match(request).then(cached => {
+      if (cached) return cached;
+      return fetch(request).then(response => {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+        return response;
       });
-    }).catch(() => {
-      // オフライン時の最低限フォールバック
-      if (event.request.destination === "document") {
-        return caches.match("./index.html");
-      }
     })
   );
 });
