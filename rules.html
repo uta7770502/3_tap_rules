@@ -132,7 +132,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replace(/グリーン上|パッティンググリーン/g, "グリーン")
       .replace(/ペナ(ルティ)?エリア|ハザード/g, "ペナルティエリア")
       .replace(/赤杭|ラテラル/g, "赤杭")
-      .replace(/黄杭/g, "黄杭")
+      .replace(/黄杭|黄色杭|黄線/g, "黄杭")
+      .replace(/赤杭|赤色杭|赤線|ラテラル/g, "赤杭")
+      .replace(/白杭|ob杭|アウトオブバウンズ/g, "白杭")
+      .replace(/青杭|青線|gur/g, "修理地")
       .replace(/アンプレ(ヤブル)?/g, "アンプレ")
       .replace(/救済/g, "救済");
 
@@ -159,7 +162,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   const packRule = (r) =>
-    normalize(`${r.title || ""} ${r.description || ""} ${r.detail || ""} ${r.category || ""}`);
+    normalize(`${r.title || ""} ${r.description || ""} ${r.detail || ""} ${r.procedure || ""} ${r.penalty || ""} ${r.category || ""} ${(r.keywords || []).join(" ")}`);
 
   // 🟢 JSON 読み込み
   let rules = [];
