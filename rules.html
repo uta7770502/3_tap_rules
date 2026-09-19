@@ -161,8 +161,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     return Array.from(set);
   };
 
-  const packRule = (r) =>
-    normalize(`${r.title || ""} ${r.description || ""} ${r.detail || ""} ${r.procedure || ""} ${r.penalty || ""} ${r.category || ""} ${(r.keywords || []).join(" ")}`);
+  // 通常検索は「ルール名＋明示キーワード」のみ。本文中の偶然の一致は拾わない。
+  const packSearchTerms = (r) =>
+    normalize(`${r.title || ""} ${(r.keywords || []).join(" ")}`);
 
   // 🟢 JSON 読み込み
   let rules = [];
@@ -178,12 +179,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // 🟢 URLパラメータ取得（q または category）
   const params = new URLSearchParams(location.search);
-  const rawQuery = (params.get("q") || params.get("category") || "").trim();
+  const queryParam = (params.get("q") || "").trim();
+  const categoryParam = (params.get("category") || "").trim();
 
-  // 初回表示
-  if (rawQuery) {
-    searchInput.value = rawQuery;
-    renderList(filterRules(rules, rawQuery));
+  // 初回表示：カテゴリボタンはカテゴリ一致、文字検索はタイトル＋keywordsのみ。
+  if (categoryParam) {
+    searchInput.value = categoryParam;
+    renderList(rules.filter(r => normalize(r.category || "") === normalize(categoryParam)));
+  } else if (queryParam) {
+    searchInput.value = queryParam;
+    renderList(filterRules(rules, queryParam));
   } else {
     renderList(rules);
   }
@@ -193,7 +198,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderList(filterRules(rules, searchInput.value));
   });
 
-  // ✅ 修正版フィルター（部分一致・anyヒット対応）
+  // 🔍 文字検索：タイトルと登録済みkeywordsに限定
   function filterRules(all, keyword = "") {
     const q = keyword.trim();
     if (!q) return all;
@@ -202,8 +207,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const expandedBags = words.map(expand);
 
     return all.filter((r) => {
-      const hay = packRule(r);
-      // ✅ どれか1つでもマッチしたらOK
+      // 1文字検索はタイトルだけを見る。「赤」などで本文・関連keywordsから広がりすぎるのを防ぐ。
+      if (normalize(q).length === 1) {
+        return normalize(r.title || "").includes(normalize(q));
+      }
+      const hay = packSearchTerms(r);
       return expandedBags.some((bag) => bag.some((key) => hay.includes(key)));
     });
   }
