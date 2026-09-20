@@ -38,9 +38,9 @@
   </section>
 
   <section id="dropGuide" class="sec drop-guide" hidden>
-    <h2>ドロップの処置を図で確認</h2>
-    <img id="dropGuideImage" alt="ドロップの処置方法を示す図">
-    <p class="drop-guide-note">※実際の救済方法・救済エリアは、そのルールの「処置方法」を優先して確認してください。</p>
+    <h2 id="dropGuideHeading">このルールの処置を図で確認</h2>
+    <img id="dropGuideImage" alt="このルールに対応したドロップ処置図">
+    <p id="dropGuideNote" class="drop-guide-note"></p>
   </section>
 
   <section class="sec pen">
@@ -108,19 +108,32 @@
       howEl.innerHTML = highlightPenalty(finalHow).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
       penEl.innerHTML = highlightPenalty(finalPen).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
 
-      // ドロップ処置を含むルールだけ、承認済みの共通イラストを表示
+      // ドロップ処置を含むルールに、そのルール内容に合う専用図を表示
       const dropText = [rule.title, rule.description, rule.detail, rule.procedure, rule.how, rule.correct]
         .filter(Boolean).join(" ");
       if (dropText.includes("ドロップ")) {
-        try {
-          const imageRes = await fetch("assets/drop-treatment-guide.b64?v=" + Date.now(), { cache: "no-store" });
-          if (imageRes.ok) {
-            const imageBase64 = (await imageRes.text()).trim();
-            document.getElementById("dropGuideImage").src = "data:image/jpeg;base64," + imageBase64;
-            document.getElementById("dropGuide").hidden = false;
-          }
-        } catch (imageError) {
-          console.warn("drop guide image load failed", imageError);
+        let guide = null;
+        const title = rule.title || "";
+        const category = rule.category || "";
+
+        if (rule.id === 195 || rule.id === 196 || /ドロップは膝|ドロップした球/.test(title)) {
+          guide = {src:"assets/drop-guides/drop-method.svg", note:"膝の高さから真下にドロップし、球はそのルールで定められた救済エリア内に止まる必要があります。"};
+        } else if (rule.id === 166 || /E-5|2罰打前進救済/.test(title)) {
+          guide = {src:"assets/drop-guides/local-e5.svg", note:"この図はE-5採用時の考え方です。採用の有無と実際の救済エリアは当日のローカルルールを確認してください。"};
+        } else if (/アンプレヤブル|木の枝|木の根元/.test(title) || category === "アンプレヤブル") {
+          guide = {src:"assets/drop-guides/unplayable.svg", note:"アンプレヤブルでは1罰打で選べる救済方法があります。元の球の位置が必要になる選択肢にも注意してください。"};
+        } else if (/埋まった|くい込んだ/.test(title)) {
+          guide = {src:"assets/drop-guides/embedded.svg", note:"救済対象となる埋まった球では、球の直後の地点を基点に正しい救済エリアを決めます。"};
+        } else if (category === "ペナルティエリア" || /池|赤杭|黄杭|ペナルティ/.test(title)) {
+          guide = {src:"assets/drop-guides/penalty-area.svg", note:"赤と黄では選べる救済方法が異なります。このページ上部の「処置方法」に書かれた選択肢を優先してください。"};
+        } else if (/カート|修理地|スプリンクラー|一時的な水|目的外グリーン|動物の穴/.test(title) || category === "救済") {
+          guide = {src:"assets/drop-guides/abnormal.svg", note:"完全救済のニヤレストポイントと救済エリアは、球があるコースエリアと障害の種類に応じて決めます。"};
+        }
+
+        if (guide) {
+          document.getElementById("dropGuideImage").src = guide.src;
+          document.getElementById("dropGuideNote").textContent = guide.note;
+          document.getElementById("dropGuide").hidden = false;
         }
       }
 
