@@ -29,12 +29,12 @@
   <h1 id="ruleTitle" class="title"></h1>
 
   <section class="sec how">
-    <h2>処置方法</h2>
+    <h2 id="howHeading">処置方法</h2>
     <div id="howBody"></div>
   </section>
 
   <section class="sec pen">
-    <h2>ペナルティ</h2>
+    <h2 id="penHeading">ペナルティ</h2>
     <div id="penBody"></div>
   </section>
 
@@ -80,6 +80,13 @@
       if (!rule) throw new Error("rule not found id=" + id);
 
       titleEl.textContent = rule.title || "ルール";
+
+      if (rule.category === "クラブ") {
+        document.getElementById("howHeading").textContent = "使い方・選び方";
+        document.getElementById("penHeading").textContent = "覚えておきたいポイント";
+        document.querySelector(".sec.pen").style.borderColor = "#cfe9df";
+        document.querySelector(".sec.pen h2").style.color = "#0a8a63";
+      }
 
       let how = rule.procedure || rule.how || rule.correct || "";
       let pen = rule.penalty || rule.penalties || "";
