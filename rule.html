@@ -143,6 +143,7 @@ class="favorite-btn"style="margin:0 auto;">お気に入りに追加
       descEl.textContent  = rule.description || rule.detail || "説明がありません";
       metaEl.textContent  = rule.category ? `カテゴリ：${rule.category}` : "";
       btn.href = `rule_detail.html?id=${encodeURIComponent(rule.id)}`;
+      btn.textContent = rule.category === "クラブ" ? "詳しい目安・選び方を見る →" : "ペナルティと処置方法 →";
 
     } catch (e) {
       titleEl.textContent = "ルールの読み込みに失敗しました";
