@@ -111,17 +111,26 @@
       howEl.innerHTML = highlightPenalty(finalHow).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
       penEl.innerHTML = highlightPenalty(finalPen).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
 
-      // ドロップ処置を含むルールは、拡大しても粗くならないSVGガイドを表示
-      const dropText = [rule.title, rule.description, rule.detail, rule.procedure, rule.how, rule.correct]
+      // 位置・救済の理解に図が有効なルールだけ、処置別ガイドを表示
+      const guideText = [rule.title, rule.description, rule.detail, rule.procedure, rule.how, rule.correct]
         .filter(Boolean).join(" ");
-      if (dropText.includes("ドロップ")) {
-        let guide = "drop-method.svg";
-        if (/赤杭|黄杭|ペナルティーエリア|池/.test(dropText)) guide = "penalty-area.svg";
-        else if (/アンプレヤブル/.test(dropText)) guide = "unplayable.svg";
-        else if (/地面にくい込|埋ま/.test(dropText)) guide = "embedded.svg";
-        else if (/修理地|カート道|一時的な水|スプリンクラー|目的外グリーン|動物の穴/.test(dropText)) guide = "abnormal.svg";
-        else if (/E-5|前進救済/.test(dropText)) guide = "local-e5.svg";
-        document.getElementById("dropGuideImage").src = "assets/drop-guides/" + guide + "?v=3";
+      const title = rule.title || "";
+      let guide = "";
+      if (/E-5|前進救済|特設ティー|前進4打/.test(guideText)) {
+        guide = "local-e5.svg";
+      } else if (/アンプレヤブル/.test(title)) {
+        guide = "unplayable.svg";
+      } else if (/地面にくい込|埋まった球|埋まって/.test(title) && /救済|ドロップ/.test(guideText)) {
+        guide = "embedded.svg";
+      } else if (/修理地|カート道|カート道路|一時的な水|スプリンクラー|目的外グリーン|動物の穴/.test(title) && /救済|ドロップ/.test(guideText)) {
+        guide = "abnormal.svg";
+      } else if (/赤杭|黄杭|ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直/.test(guideText)) {
+        guide = "penalty-area.svg";
+      } else if (/ドロップは膝|ドロップした球|ドロップ方法/.test(title)) {
+        guide = "drop-method.svg";
+      }
+      if (guide) {
+        document.getElementById("dropGuideImage").src = "assets/drop-guides/" + guide + "?v=4";
         document.getElementById("dropGuide").hidden = false;
       }
 
