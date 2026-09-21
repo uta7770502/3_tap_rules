@@ -47,13 +47,23 @@ function bubble(html,cls){const d=document.createElement("div");d.className="bub
 let context={topic:"",color:"",crossingKnown:false};
 function updateContext(text){const t=text||"";if(/池|ペナルティ/.test(t))context.topic="penalty";if(/赤/.test(t))context.color="red";if(/黄/.test(t))context.color="yellow";if(/横切|越え|入った|落ちた/.test(t))context.crossingKnown=true}
 function searchRules(text){
- const q=(text||"").replace(/ゴルフ|ボール/g,"球").replace(/割れた|割れ|壊れた|壊れ/g,"切れ ひび 損傷").replace(/違うコース|違うホール/g,"ティーイングエリア ホール プレー順");
+ const q=(text||"").replace(/ゴルフボール|ボール/g,"球").replace(/二度打ち|2度打ち|二回当た|2回当た|ダブルヒット/g,"二度打ち 2度打ち ダブルヒット 偶然").replace(/真っ二つ|粉々|バラバラ/g,"複数片 破片").replace(/割れた|割れ|壊れた|壊れ/g,"切れ ひび 損傷").replace(/違うコース|違うホール/g,"違うホール ティーイングエリア").replace(/池/g,"ペナルティーエリア").replace(/道/g,"カート道");
+ const compact=q.replace(/[\s、。・？?！!\/]/g,"");
  const words=q.split(/[\s、。・？?！!\/]+/).filter(w=>w.length>1);
- return competitionRules.map(r=>({r,score:words.reduce((n,w)=>n+(JSON.stringify(r).includes(w)?1:0),0)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,3).map(x=>x.r);
+ return competitionRules.map(r=>{
+  const blob=[r.title,r.rule,r.category,r.description,r.procedure,r.penalty,r.keywords].filter(Boolean).join(" ");
+  let score=words.reduce((n,w)=>n+(blob.includes(w)?2:0),0);
+  const keys=String(r.keywords||"").split(/[\s、。・\/]+/).filter(Boolean);
+  score+=keys.reduce((n,k)=>n+(compact.includes(k.replace(/\s/g,""))?4:0),0);
+  if(compact.includes(String(r.title||"").replace(/[\s（）()・]/g,""))) score+=12;
+  return {r,score};
+ }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,4).map(x=>x.r);
 }
 function demoAnswer(text,hasPhoto){updateContext(text);const t=(text||"").toLowerCase();let body;
 if(/球.*(壊|割|ひび|切れ)|ボール.*(壊|割|ひび|切れ)/.test(text)){
  body='<div class="rule">規則4.2c / 球が切れた・ひびが入った</div><b>まず球の状態を確認します。</b><br>直前のストローク中に球が切れたり、ひびが入ったと合理的に考えられる場合は、位置をマークして拾い上げて確認できます。<br><br><b>切れ・ひびが確認できれば別の球に取り替えられます。</b> 単なる擦り傷・塗装の傷・変色・変形だけでは、この規則による交換はできません。';
+}else if(/二度打ち|2度打ち|二回当た|2回当た|ダブルヒット/.test(text)){
+ body='<div class="rule">規則10.1a / 偶然の二度打ち</div><b>追加の罰はありません。</b><br>1回のストローク中にクラブが偶然2回以上球に当たっても、<b>1ストロークだけ</b>数えます。球は止まった場所からそのままプレーします。<br><br>※動いている球へ故意にもう一度クラブを当てた場合は別の規則になるので、その場合は教えてください。';
 }else if(/違う(コース|ホール)|別の(コース|ホール)|間違.*(コース|ホール)/.test(text)){
  body='<div class="rule">規則5・6 / 状況確認が必要</div><b>「違うコース／ホール」の意味で処置が変わります。</b><br><br>①競技ラウンド開始前に別コースや競技コースでプレーした<br>②ラウンド中に違うホールのティーから打った<br>③ホールのプレー順を間違えた<br><br><b>どれに近いですか？</b> また、ストロークプレーかマッチプレーかも分かれば教えてください。';
 }else if(context.topic==="penalty"||/池|赤杭|黄杭|ペナルティ/.test(t)){if(context.color==="red"){body='<div class="rule">規則17.1d / 赤のペナルティーエリア</div><b>赤杭ですね。処置を絞れます。</b><br>救済を受ける場合は<b>1罰打</b>。球が最後に赤のペナルティーエリアの境界を横切った地点を基準に、①直前の場所から打ち直す、②その基点とホールを結ぶ後方線上の救済、③基点から2クラブレングス以内のラテラル救済、から選べます。<br><br>今回のように「池を一度越えてラフに着地した後、転がって池へ入った」場合も、<b>最後に池の境界を横切った地点</b>が基準です。'}else if(context.color==="yellow"){body='<div class="rule">規則17.1d / 黄のペナルティーエリア</div><b>黄杭ですね。</b><br>救済を受ける場合は<b>1罰打</b>。①直前の場所から打ち直す、または②球が最後に黄の境界を横切った地点を基準に後方線上の救済を選びます。赤杭にある2クラブレングスのラテラル救済は通常ありません。'}else{body='<div class="rule">規則17.1 / ペナルティーエリア</div><b>ここまでで分かっている内容：</b>池に入った状況ですね。<br><br><b>追加で必要なのは杭・線の色だけです。</b> 赤ですか、黄ですか？ 色で選べる救済方法が変わります。'}}else if(/ob|白杭|紛失|見つから/.test(t)){body='<div class="rule">規則18.2 / OB・紛失球</div><b>処置：</b>原則は1罰打を加え、直前のストロークを行った場所からプレーします。暫定球をプレーしている場合や、競技で特別なローカルルールが採用されている場合はその条件も確認します。'}else if(/カート|道路|修理地|水たまり/.test(t)){body='<div class="rule">規則16.1 / 異常なコース状態</div><b>確認：</b>球・スタンス・意図するスイング区域のどこが障害にかかっていますか？<br><br>救済対象なら、完全救済のニアレストポイントを基準に無罰救済を行います。'}else{
