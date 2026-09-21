@@ -27,6 +27,13 @@
     .drop-guide-viewport{overflow-x:auto;-webkit-overflow-scrolling:touch;text-align:center}
     @media(max-width:430px){.drop-guide{padding:12px 10px}.drop-guide img{width:560px;max-width:none}.drop-guide-viewport{margin:0 -2px;padding-bottom:4px}}
     .drop-guide-note{font-size:13px!important;color:#666!important;line-height:1.55!important;margin:10px 4px 0!important}
+    #dropGuideImage{cursor:zoom-in}
+    .image-modal{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:54px 12px 24px;box-sizing:border-box}
+    .image-modal.open{display:flex}
+    .image-modal-scroll{width:100%;height:100%;overflow:auto;-webkit-overflow-scrolling:touch;display:flex;align-items:flex-start;justify-content:center}
+    .image-modal img{display:block;width:auto;height:auto;max-width:none;min-width:900px;background:#fff}
+    .image-modal-close{position:fixed;right:14px;top:14px;width:40px;height:40px;border:0;border-radius:50%;background:#fff;color:#111;font-size:28px;line-height:40px;z-index:10000}
+    @media(max-width:430px){.image-modal img{min-width:900px}}
   </style>
 </head>
 <body>
@@ -41,9 +48,14 @@
 
   <section id="dropGuide" class="sec drop-guide" hidden>
     <h2>ドロップの処置を図で確認</h2>
-    <div class="drop-guide-viewport"><img id="dropGuideImage" alt="ドロップの処置方法を示す図"></div>
-    <p class="drop-guide-note">※図は左右に動かして大きく確認できます。実際の処置は、上の「処置方法」を確認してください。</p>
+    <div class="drop-guide-viewport"><img id="dropGuideImage" alt="ドロップの処置方法を示す図" role="button" tabindex="0" aria-label="タップして図を拡大"></div>
+    <p class="drop-guide-note">※図をタップすると大きく表示できます。実際の処置は、上の「処置方法」を確認してください。</p>
   </section>
+
+  <div id="imageModal" class="image-modal" aria-hidden="true">
+    <button id="imageModalClose" class="image-modal-close" aria-label="閉じる">×</button>
+    <div class="image-modal-scroll"><img id="imageModalImg" alt="ドロップの処置方法を拡大表示"></div>
+  </div>
 
   <section class="sec pen">
     <h2 id="penHeading">罰はある？</h2>
@@ -64,6 +76,27 @@
   </nav>
 
 <script>
+  const guideImg = document.getElementById("dropGuideImage");
+  const imageModal = document.getElementById("imageModal");
+  const imageModalImg = document.getElementById("imageModalImg");
+  const imageModalClose = document.getElementById("imageModalClose");
+  function openGuideModal(){
+    if(!guideImg.src) return;
+    imageModalImg.src = guideImg.src;
+    imageModal.classList.add("open");
+    imageModal.setAttribute("aria-hidden","false");
+    document.body.style.overflow="hidden";
+  }
+  function closeGuideModal(){
+    imageModal.classList.remove("open");
+    imageModal.setAttribute("aria-hidden","true");
+    document.body.style.overflow="";
+  }
+  guideImg.addEventListener("click", openGuideModal);
+  guideImg.addEventListener("keydown", e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openGuideModal();}});
+  imageModalClose.addEventListener("click", closeGuideModal);
+  imageModal.addEventListener("click", e=>{if(e.target===imageModal||e.target.classList.contains("image-modal-scroll"))closeGuideModal();});
+
   // 🔴 赤・緑ハイライト
   function highlightPenalty(text){
     if(!text) return "";
