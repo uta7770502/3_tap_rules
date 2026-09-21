@@ -40,7 +40,7 @@
   </section>
 
   <section id="dropGuide" class="sec drop-guide" hidden>
-    <h2>ドロップの処置を図で確認</h2>
+    <h2>処置を図で確認</h2>
     <div class="drop-guide-viewport"><img id="dropGuideImage" alt="ドロップの処置方法を示す図"></div>
     <p class="drop-guide-note">※実際の処置は、上の「処置方法」とあわせて確認してください。</p>
   </section>
@@ -116,21 +116,30 @@
         .filter(Boolean).join(" ");
       const title = rule.title || "";
       let guide = "";
-      if (/E-5|前進救済|特設ティー|前進4打/.test(guideText)) {
+      // 誤解しやすい例外：境界物や金網は「無料救済図」を出さない
+      if (/OB杭がスイングの邪魔|金網・フェンスがスイングの邪魔/.test(title)) {
+        guide = "";
+      } else if (/バンカー/.test(title) && /アンプレヤブル|一時的な水|救済/.test(guideText)) {
+        guide = "bunker-relief.svg";
+      } else if (/E-5|前進救済|特設ティー|前進4打/.test(guideText)) {
         guide = "local-e5.svg";
+      } else if (/OB|紛失球|ロストボール|ロスト/.test(title) && /打ち直|暫定球|処置|救済/.test(guideText)) {
+        guide = "ob-lost.svg";
+      } else if (/赤杭|黄杭|ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直/.test(guideText)) {
+        guide = "penalty-area.svg";
       } else if (/アンプレヤブル/.test(title)) {
         guide = "unplayable.svg";
       } else if (/地面にくい込|埋まった球|埋まって/.test(title) && /救済|ドロップ/.test(guideText)) {
         guide = "embedded.svg";
-      } else if (/修理地|カート道|カート道路|一時的な水|スプリンクラー|目的外グリーン|動物の穴/.test(title) && /救済|ドロップ/.test(guideText)) {
+      } else if (/修理地|カート道|カート道路|一時的な水|スプリンクラー|目的外グリーン|動物の穴/.test(title) && /救済|ドロップ|完全な救済/.test(guideText)) {
         guide = "abnormal.svg";
-      } else if (/赤杭|黄杭|ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直/.test(guideText)) {
-        guide = "penalty-area.svg";
+      } else if (/リプレース|元の位置に戻|元の箇所に戻|動かした球を戻/.test(guideText)) {
+        guide = "replace.svg";
       } else if (/ドロップは膝|ドロップした球|ドロップ方法/.test(title)) {
         guide = "drop-method.svg";
       }
       if (guide) {
-        document.getElementById("dropGuideImage").src = "assets/drop-guides/" + guide + "?v=4";
+        document.getElementById("dropGuideImage").src = "assets/drop-guides/" + guide + "?v=5";
         document.getElementById("dropGuide").hidden = false;
       }
 
