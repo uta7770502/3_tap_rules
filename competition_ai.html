@@ -12,7 +12,14 @@
 let competitionRules=[];fetch("competition_rules.json?v=3",{cache:"no-store"}).then(r=>r.json()).then(d=>competitionRules=d).catch(()=>{});\nconst photo=document.getElementById("photo"),preview=document.getElementById("preview"),img=document.getElementById("previewImg"),input=document.getElementById("input"),chat=document.getElementById("chat");let selected=null;
 document.getElementById("camera").onclick=()=>{photo.value="";photo.click()};photo.onchange=()=>{const file=photo.files&&photo.files[0];if(!file){selected=null;preview.style.display="none";img.removeAttribute("src");input.focus();return}selected=file;img.src=URL.createObjectURL(file);preview.style.display="block";input.focus()};
 document.getElementById("remove").onclick=()=>{selected=null;photo.value="";preview.style.display="none";img.removeAttribute("src")};
-document.getElementById("textBtn").onclick=()=>input.focus();
+document.getElementById("textBtn").onclick=()=>{
+ input.disabled=false;
+ input.removeAttribute("disabled");
+ input.removeAttribute("readonly");
+ input.style.pointerEvents="auto";
+ input.focus({preventScroll:true});
+ setTimeout(()=>{input.focus();input.click();input.scrollIntoView({behavior:"smooth",block:"center"});},50);
+};
 document.getElementById("mic").onclick=async()=>{
  const btn=document.getElementById("mic");
  try{
