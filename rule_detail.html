@@ -35,7 +35,7 @@
   <h1 id="ruleTitle" class="title"></h1>
 
   <section class="sec how">
-    <h2 id="howHeading">処置方法</h2>
+    <h2 id="howHeading">まず、こうすればOK</h2>
     <div id="howBody"></div>
   </section>
 
@@ -46,7 +46,7 @@
   </section>
 
   <section class="sec pen">
-    <h2 id="penHeading">ペナルティ</h2>
+    <h2 id="penHeading">罰はある？</h2>
     <div id="penBody"></div>
   </section>
 
@@ -94,8 +94,8 @@
       titleEl.textContent = rule.title || "ルール";
 
       if (rule.category === "クラブ") {
-        document.getElementById("howHeading").textContent = "使い方・選び方";
-        document.getElementById("penHeading").textContent = "覚えておきたいポイント";
+        document.getElementById("howHeading").textContent = "まず、こう選べばOK";
+        document.getElementById("penHeading").textContent = "覚えておくポイント";
         document.querySelector(".sec.pen").style.borderColor = "#cfe9df";
         document.querySelector(".sec.pen h2").style.color = "#0a8a63";
       }
@@ -104,8 +104,8 @@
       let pen = rule.penalty || rule.penalties || "";
 
 
-      const finalHow = how || "処置方法の情報が見つかりません。";
-      const finalPen = pen || "ペナルティの情報が見つかりません。";
+      const finalHow = how || "この場面での対応方法を確認できませんでした。";
+      const finalPen = pen || "この場面の罰について確認できませんでした。";
 
       howEl.innerHTML = highlightPenalty(finalHow).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
       penEl.innerHTML = highlightPenalty(finalPen).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
