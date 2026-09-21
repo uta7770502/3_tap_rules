@@ -116,24 +116,24 @@
         .filter(Boolean).join(" ");
       const title = rule.title || "";
       let guide = "";
-      // 誤解しやすい例外：境界物や金網は「無料救済図」を出さない
-      if (/OB杭がスイングの邪魔|金網・フェンスがスイングの邪魔/.test(title)) {
+      // タイトルの場面を優先し、本文中の補足語だけで別処置の図を出さない
+      if (/OB杭がスイングの邪魔|金網・フェンスがスイングの邪魔|落ち葉|石を動かした|砂や枯葉|球跡修復|カップ周辺/.test(title)) {
         guide = "";
-      } else if (/バンカー/.test(title) && /アンプレヤブル|一時的な水|救済/.test(guideText)) {
+      } else if (/バンカー.*アンプレヤブル|バンカー内の一時的な水/.test(title)) {
         guide = "bunker-relief.svg";
-      } else if (/E-5|前進救済|特設ティー|前進4打/.test(guideText)) {
+      } else if (/E-5|前進救済|特設ティー|前進4打/.test(title)) {
         guide = "local-e5.svg";
-      } else if (/OB|紛失球|ロストボール|ロスト/.test(title) && /打ち直|暫定球|処置|救済/.test(guideText)) {
+      } else if (/OB|紛失球|ロスト/.test(title) && /基本処置|見失|ロスト|暫定球|OBになった/.test(title)) {
         guide = "ob-lost.svg";
-      } else if (/赤杭|黄杭|ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直/.test(guideText)) {
+      } else if (/赤杭|黄杭|ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
         guide = "penalty-area.svg";
       } else if (/アンプレヤブル/.test(title)) {
         guide = "unplayable.svg";
-      } else if (/地面にくい込|埋まった球|埋まって/.test(title) && /救済|ドロップ/.test(guideText)) {
+      } else if (/地面にくい込|埋まって見つからない/.test(title)) {
         guide = "embedded.svg";
-      } else if (/修理地|カート道|カート道路|一時的な水|スプリンクラー|目的外グリーン|動物の穴/.test(title) && /救済|ドロップ|完全な救済/.test(guideText)) {
+      } else if (/修理地|カート道|カート道路|一時的な水|スプリンクラー|目的外グリーン|動物の穴/.test(title) && /止まった|入った|かかる|救済|プレー禁止|見つからない|邪魔/.test(title)) {
         guide = "abnormal.svg";
-      } else if (/リプレース|元の位置に戻|元の箇所に戻|動かした球を戻/.test(guideText)) {
+      } else if (/誤って.*拾|球が動いた|ボールを動かした|誤って.*蹴|自分の球を偶然蹴|確認するため拾い上げ|マーク.*拾い上げ/.test(title)) {
         guide = "replace.svg";
       } else if (/ドロップは膝|ドロップした球|ドロップ方法/.test(title)) {
         guide = "drop-method.svg";
