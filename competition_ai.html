@@ -9,15 +9,62 @@
 <section class="chat" id="chat"><div class="bubble ai">写真だけで判断できない場合は、「スタンスも道にかかる？」「杭は赤？黄？」など必要なことだけ質問します。</div></section></main>
 <footer class="composer"><div class="row"><input class="input" id="input" placeholder="写真の補足や状況を入力"><button class="send" id="send">AIに聞く</button></div></footer>
 <script>
-const photo=document.getElementById("photo"),preview=document.getElementById("preview"),img=document.getElementById("previewImg"),input=document.getElementById("input"),chat=document.getElementById("chat");let selected=null;
+let competitionRules=[];fetch("competition_rules.json?v=3",{cache:"no-store"}).then(r=>r.json()).then(d=>competitionRules=d).catch(()=>{});\nconst photo=document.getElementById("photo"),preview=document.getElementById("preview"),img=document.getElementById("previewImg"),input=document.getElementById("input"),chat=document.getElementById("chat");let selected=null;
 document.getElementById("camera").onclick=()=>{photo.value="";photo.click()};photo.onchange=()=>{const file=photo.files&&photo.files[0];if(!file){selected=null;preview.style.display="none";img.removeAttribute("src");input.focus();return}selected=file;img.src=URL.createObjectURL(file);preview.style.display="block";input.focus()};
 document.getElementById("remove").onclick=()=>{selected=null;photo.value="";preview.style.display="none";img.removeAttribute("src")};
 document.getElementById("textBtn").onclick=()=>input.focus();
-document.getElementById("mic").onclick=()=>{const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR){alert("このブラウザではブラウザ音声入力が利用できません。キーボードのマイク入力も使えます。");return}const r=new SR();r.lang="ja-JP";r.interimResults=false;r.onresult=e=>{input.value=e.results[0][0].transcript;input.focus()};r.start()};
+document.getElementById("mic").onclick=async()=>{
+ const btn=document.getElementById("mic");
+ try{
+  if(!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia){
+   alert("マイクを利用できません。iPhoneでは「設定 → Safari → マイク」または、このサイトの「Webサイトの設定 → マイク」を「許可」にしてください。");
+   return;
+  }
+  btn.disabled=true; btn.innerHTML="<b>🎙</b>許可を確認中";
+  const stream=await navigator.mediaDevices.getUserMedia({audio:true});
+  stream.getTracks().forEach(track=>track.stop());
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!SR){
+   alert("マイクの許可は確認できました。このブラウザでは音声認識APIが利用できないため、iPhoneキーボードのマイク入力を使ってください。");
+   input.focus(); return;
+  }
+  const r=new SR();r.lang="ja-JP";r.interimResults=false;r.continuous=false;
+  r.onstart=()=>{btn.innerHTML="<b>🔴</b>聞いています"};
+  r.onresult=e=>{input.value=e.results[0][0].transcript;input.focus()};
+  r.onerror=e=>{
+   if(e.error==="not-allowed"||e.error==="service-not-allowed") alert("マイクが許可されていません。Safariのアドレスバー左側のメニュー → Webサイトの設定 → マイク → 許可、を選んでから再度押してください。");
+   else alert("音声入力を開始できませんでした。もう一度お試しください。");
+  };
+  r.onend=()=>{btn.disabled=false;btn.innerHTML="<b>🎙</b>話す"};
+  r.start();
+ }catch(e){
+  btn.disabled=false;btn.innerHTML="<b>🎙</b>話す";
+  if(e&&e.name==="NotAllowedError") alert("マイクが拒否されています。Safariのアドレスバー左側のメニュー → Webサイトの設定 → マイク → 許可、を選んでください。");
+  else alert("マイクを開始できませんでした。SafariでHTTPSのページを開いているか確認してください。");
+ }
+};
 function bubble(html,cls){const d=document.createElement("div");d.className="bubble "+cls;d.innerHTML=html;chat.appendChild(d);d.scrollIntoView({behavior:"smooth",block:"end"})}
 let context={topic:"",color:"",crossingKnown:false};
 function updateContext(text){const t=text||"";if(/池|ペナルティ/.test(t))context.topic="penalty";if(/赤/.test(t))context.color="red";if(/黄/.test(t))context.color="yellow";if(/横切|越え|入った|落ちた/.test(t))context.crossingKnown=true}
-function demoAnswer(text,hasPhoto){updateContext(text);const t=(text||"").toLowerCase();let body;if(context.topic==="penalty"||/池|赤杭|黄杭|ペナルティ/.test(t)){if(context.color==="red"){body='<div class="rule">規則17.1d / 赤のペナルティーエリア</div><b>赤杭ですね。処置を絞れます。</b><br>救済を受ける場合は<b>1罰打</b>。球が最後に赤のペナルティーエリアの境界を横切った地点を基準に、①直前の場所から打ち直す、②その基点とホールを結ぶ後方線上の救済、③基点から2クラブレングス以内のラテラル救済、から選べます。<br><br>今回のように「池を一度越えてラフに着地した後、転がって池へ入った」場合も、<b>最後に池の境界を横切った地点</b>が基準です。'}else if(context.color==="yellow"){body='<div class="rule">規則17.1d / 黄のペナルティーエリア</div><b>黄杭ですね。</b><br>救済を受ける場合は<b>1罰打</b>。①直前の場所から打ち直す、または②球が最後に黄の境界を横切った地点を基準に後方線上の救済を選びます。赤杭にある2クラブレングスのラテラル救済は通常ありません。'}else{body='<div class="rule">規則17.1 / ペナルティーエリア</div><b>ここまでで分かっている内容：</b>池に入った状況ですね。<br><br><b>追加で必要なのは杭・線の色だけです。</b> 赤ですか、黄ですか？ 色で選べる救済方法が変わります。'}}else if(/ob|白杭|紛失|見つから/.test(t)){body='<div class="rule">規則18.2 / OB・紛失球</div><b>処置：</b>原則は1罰打を加え、直前のストロークを行った場所からプレーします。暫定球をプレーしている場合や、競技で特別なローカルルールが採用されている場合はその条件も確認します。'}else if(/カート|道路|修理地|水たまり/.test(t)){body='<div class="rule">規則16.1 / 異常なコース状態</div><b>確認：</b>球・スタンス・意図するスイング区域のどこが障害にかかっていますか？<br><br>救済対象なら、完全救済のニアレストポイントを基準に無罰救済を行います。'}else{body='<div class="rule">AI競技アシスタント</div><b>状況をもう少し確認します。</b><br>'+(hasPhoto?'写真と説明をもとに、':'入力内容をもとに、')+'まだ分かっていない情報だけ確認します。'}bubble(body,"ai answer")}
+function searchRules(text){
+ const q=(text||"").replace(/ゴルフ|ボール/g,"球").replace(/割れた|割れ|壊れた|壊れ/g,"切れ ひび 損傷").replace(/違うコース|違うホール/g,"ティーイングエリア ホール プレー順");
+ const words=q.split(/[\s、。・？?！!\/]+/).filter(w=>w.length>1);
+ return competitionRules.map(r=>({r,score:words.reduce((n,w)=>n+(JSON.stringify(r).includes(w)?1:0),0)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,3).map(x=>x.r);
+}
+function demoAnswer(text,hasPhoto){updateContext(text);const t=(text||"").toLowerCase();let body;
+if(/球.*(壊|割|ひび|切れ)|ボール.*(壊|割|ひび|切れ)/.test(text)){
+ body='<div class="rule">規則4.2c / 球が切れた・ひびが入った</div><b>まず球の状態を確認します。</b><br>直前のストローク中に球が切れたり、ひびが入ったと合理的に考えられる場合は、位置をマークして拾い上げて確認できます。<br><br><b>切れ・ひびが確認できれば別の球に取り替えられます。</b> 単なる擦り傷・塗装の傷・変色・変形だけでは、この規則による交換はできません。';
+}else if(/違う(コース|ホール)|別の(コース|ホール)|間違.*(コース|ホール)/.test(text)){
+ body='<div class="rule">規則5・6 / 状況確認が必要</div><b>「違うコース／ホール」の意味で処置が変わります。</b><br><br>①競技ラウンド開始前に別コースや競技コースでプレーした<br>②ラウンド中に違うホールのティーから打った<br>③ホールのプレー順を間違えた<br><br><b>どれに近いですか？</b> また、ストロークプレーかマッチプレーかも分かれば教えてください。';
+}else if(context.topic==="penalty"||/池|赤杭|黄杭|ペナルティ/.test(t)){if(context.color==="red"){body='<div class="rule">規則17.1d / 赤のペナルティーエリア</div><b>赤杭ですね。処置を絞れます。</b><br>救済を受ける場合は<b>1罰打</b>。球が最後に赤のペナルティーエリアの境界を横切った地点を基準に、①直前の場所から打ち直す、②その基点とホールを結ぶ後方線上の救済、③基点から2クラブレングス以内のラテラル救済、から選べます。<br><br>今回のように「池を一度越えてラフに着地した後、転がって池へ入った」場合も、<b>最後に池の境界を横切った地点</b>が基準です。'}else if(context.color==="yellow"){body='<div class="rule">規則17.1d / 黄のペナルティーエリア</div><b>黄杭ですね。</b><br>救済を受ける場合は<b>1罰打</b>。①直前の場所から打ち直す、または②球が最後に黄の境界を横切った地点を基準に後方線上の救済を選びます。赤杭にある2クラブレングスのラテラル救済は通常ありません。'}else{body='<div class="rule">規則17.1 / ペナルティーエリア</div><b>ここまでで分かっている内容：</b>池に入った状況ですね。<br><br><b>追加で必要なのは杭・線の色だけです。</b> 赤ですか、黄ですか？ 色で選べる救済方法が変わります。'}}else if(/ob|白杭|紛失|見つから/.test(t)){body='<div class="rule">規則18.2 / OB・紛失球</div><b>処置：</b>原則は1罰打を加え、直前のストロークを行った場所からプレーします。暫定球をプレーしている場合や、競技で特別なローカルルールが採用されている場合はその条件も確認します。'}else if(/カート|道路|修理地|水たまり/.test(t)){body='<div class="rule">規則16.1 / 異常なコース状態</div><b>確認：</b>球・スタンス・意図するスイング区域のどこが障害にかかっていますか？<br><br>救済対象なら、完全救済のニアレストポイントを基準に無罰救済を行います。'}else{
+ const hits=searchRules(text);
+ if(hits.length){
+  const r=hits[0];
+  body='<div class="rule">'+(r.rule?'規則'+r.rule:'競技規則')+' / '+r.title+'</div><b>関連する競技ルールが見つかりました。</b><br>'+(r.description||r.detail||'')+'<br><br><b>処置：</b>'+(r.procedure||r.how||'状況により追加確認が必要です。')+(r.penalty?'<br><br><b>罰・注意：</b>'+r.penalty:'');
+ }else{
+  body='<div class="rule">AI競技アシスタント</div><b>この表現だけでは規則を一意に特定できません。</b><br>'+(hasPhoto?'写真と説明をもとに、':'入力内容をもとに、')+'プレー形式、球の場所、何をした直後かなど、判定に必要な情報だけ確認します。';
+ }
+}bubble(body,"ai answer")}
 document.getElementById("send").onclick=()=>{const text=input.value.trim(),hasPhoto=!!selected;if(!text&&!hasPhoto){input.focus();return}bubble((hasPhoto?'<span class="photo-mark">写真あり</span> ':'')+(text||"この写真の状況を確認して"),"me");input.value="";setTimeout(()=>demoAnswer(text,hasPhoto),180)};
 input.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();document.getElementById("send").click()}});
 </script></body></html>
