@@ -9,7 +9,8 @@
 <section class="chat" id="chat"><div class="bubble ai">写真だけで判断できない場合は、「スタンスも道にかかる？」「杭は赤？黄？」など必要なことだけ質問します。</div></section></main>
 <footer class="composer"><div class="row"><input class="input" id="input" type="text" inputmode="text" autocomplete="off" enterkeyhint="send" placeholder="写真の補足や状況を入力" aria-label="状況を入力"><button class="send" id="send">AIに聞く</button></div></footer>
 <script>
-let competitionRules=[];fetch("competition_rules.json?v=3",{cache:"no-store"}).then(r=>r.json()).then(d=>competitionRules=d).catch(()=>{});\nconst photo=document.getElementById("photo"),preview=document.getElementById("preview"),img=document.getElementById("previewImg"),input=document.getElementById("input"),chat=document.getElementById("chat");let selected=null;
+let competitionRules=[];fetch("competition_rules.json?v=3",{cache:"no-store"}).then(r=>r.json()).then(d=>competitionRules=d).catch(()=>{});
+const photo=document.getElementById("photo"),preview=document.getElementById("preview"),img=document.getElementById("previewImg"),input=document.getElementById("input"),chat=document.getElementById("chat");let selected=null;
 document.getElementById("camera").onclick=()=>{photo.value="";photo.click()};photo.onchange=()=>{const file=photo.files&&photo.files[0];if(!file){selected=null;preview.style.display="none";img.removeAttribute("src");input.focus();return}selected=file;img.src=URL.createObjectURL(file);preview.style.display="block";input.focus()};
 document.getElementById("remove").onclick=()=>{selected=null;photo.value="";preview.style.display="none";img.removeAttribute("src")};
 input.disabled=false;input.readOnly=false;input.style.pointerEvents="auto";
