@@ -1,30 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430">
-<rect width="720" height="430" rx="24" fill="#fff"/><g data-style="unified-golfer" transform="translate(70 105) scale(.62)"><circle cx="48" cy="30" r="20" fill="#f2c49d"/><path d="M28 26q18-27 43-5l-5 10H30z" fill="#fff" stroke="#333" stroke-width="3"/><path d="M34 52q18-10 35 1l18 72H23z" fill="#087ec1"/><path d="M28 66L5 116M65 66L91 112" stroke="#f2c49d" stroke-width="13" stroke-linecap="round"/><path d="M35 124L23 190M70 124L84 190" stroke="#e8d1ad" stroke-width="16" stroke-linecap="round"/><path d="M7 190h35M70 190h36" stroke="#fff" stroke-width="12" stroke-linecap="round"/><path d="M90 108L112 188" stroke="#333" stroke-width="5"/></g>
+<rect width="720" height="430" rx="24" fill="#fff"/>
 <rect x="18" y="16" width="250" height="48" rx="14" fill="#e7f7f1"/>
 <text x="38" y="49" font-family="sans-serif" font-size="28" font-weight="700" fill="#075b4d">ペナルティーエリア</text>
-<text x="28" y="91" font-family="sans-serif" font-size="19" font-weight="600" fill="#222">最後にボールが池の境界を横切った地点を基準に救済します。</text>
-
-<rect x="18" y="112" width="684" height="190" rx="18" fill="#dff3ff"/><rect x="42" y="126" width="132" height="166" rx="18" fill="#ffffff" opacity=".88"/>
-<path d="M18 210 Q155 165 300 190 Q390 200 430 188 L430 302 L18 302Z" fill="#9fdc78"/>
-<path d="M430 112 L702 112 L702 302 L430 302Z" fill="#65c7ee"/>
-<line x1="430" y1="135" x2="430" y2="292" stroke="#e53935" stroke-width="7"/>
-<rect x="438" y="124" width="205" height="38" rx="12" fill="#fff" stroke="#e53935" stroke-width="2"/>
-<text x="452" y="149" font-family="sans-serif" font-size="17" font-weight="700" fill="#d92727">ペナルティーエリアの境界</text>
-
-<circle cx="410" cy="213" r="11" fill="#ef5350" stroke="#fff" stroke-width="3"/>
-<path d="M410 213 Q345 176 265 190" fill="none" stroke="#111" stroke-width="4" stroke-dasharray="10 8"/>
-<circle cx="242" cy="194" r="14" fill="#fff" stroke="#111" stroke-width="3"/>
-<rect x="225" y="135" width="116" height="39" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
-<text x="246" y="161" font-family="sans-serif" font-size="18" font-weight="700" fill="#111">後方線上</text>
-
-<path d="M407 217 L350 266" stroke="#e53935" stroke-width="5"/>
-<rect x="224" y="254" width="230" height="40" rx="12" fill="#e53935"/>
-<text x="241" y="273" font-family="sans-serif" font-size="15" font-weight="700" fill="#fff">最後にボールが境界を横切った地点</text>
-<text x="313" y="290" font-family="sans-serif" font-size="14" font-weight="700" fill="#fff">（基準点）</text>
+<text x="28" y="91" font-family="sans-serif" font-size="19" font-weight="600" fill="#222">最後に池の境界を横切った地点を基準に救済します。</text>
+<rect x="18" y="112" width="684" height="190" rx="18" fill="#dff3ff"/>
+<path d="M18 205 Q170 155 320 185 Q390 198 455 180 L455 302 L18 302Z" fill="#9fdc78"/>
+<path d="M455 112H702V302H455Z" fill="#65c7ee"/>
+<line x1="455" y1="130" x2="455" y2="294" stroke="#e53935" stroke-width="7"/>
+<!-- golfer fully inside course -->
+<g transform="translate(62 126)">
+ <circle cx="42" cy="24" r="16" fill="#f2c49d"/>
+ <path d="M25 20q15-22 36-4l-4 8H27z" fill="#fff" stroke="#333" stroke-width="2"/>
+ <path d="M30 43q15-8 29 1l14 57H21z" fill="#087ec1"/>
+ <path d="M25 54L8 91M57 54L78 88" stroke="#f2c49d" stroke-width="10" stroke-linecap="round"/>
+ <path d="M31 101L23 151M59 101L70 151" stroke="#e8d1ad" stroke-width="12" stroke-linecap="round"/>
+ <path d="M11 151h26M59 151h28" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+ <path d="M77 86L91 151" stroke="#333" stroke-width="4"/>
+</g>
+<circle cx="435" cy="211" r="11" fill="#ef5350" stroke="#fff" stroke-width="3"/>
+<path d="M435 211 Q365 169 280 188" fill="none" stroke="#111" stroke-width="4" stroke-dasharray="10 8"/>
+<circle cx="260" cy="192" r="14" fill="#fff" stroke="#111" stroke-width="3"/>
+<rect x="238" y="133" width="118" height="39" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="258" y="159" font-family="sans-serif" font-size="18" font-weight="700">後方線上</text>
+<rect x="470" y="124" width="205" height="38" rx="12" fill="#fff" stroke="#e53935" stroke-width="2"/>
+<text x="484" y="149" font-family="sans-serif" font-size="17" font-weight="700" fill="#d92727">ペナルティーエリアの境界</text>
+<path d="M432 216L376 264" stroke="#e53935" stroke-width="5"/>
+<rect x="250" y="254" width="230" height="40" rx="12" fill="#e53935"/>
+<text x="267" y="273" font-family="sans-serif" font-size="15" font-weight="700" fill="#fff">最後にボールが境界を横切った地点</text>
+<text x="339" y="290" font-family="sans-serif" font-size="14" font-weight="700" fill="#fff">（基準点）</text>
 <rect x="500" y="205" width="170" height="55" rx="16" fill="#087ec1"/>
 <text x="524" y="229" font-family="sans-serif" font-size="17" font-weight="700" fill="#fff">ペナルティーエリア</text>
 <text x="568" y="250" font-family="sans-serif" font-size="16" font-weight="700" fill="#fff">（池）</text>
-
 <rect x="18" y="318" width="684" height="94" rx="18" fill="#eef9f5"/>
 <rect x="30" y="329" width="160" height="35" rx="9" fill="#08785e"/>
 <text x="57" y="353" font-family="sans-serif" font-size="19" font-weight="700" fill="#fff">救済の基本</text>
