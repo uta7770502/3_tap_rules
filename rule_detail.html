@@ -125,7 +125,11 @@
         guide = "local-e5.svg";
       } else if (/OB|紛失球|ロスト/.test(title) && /基本処置|見失|ロスト|暫定球|OBになった/.test(title)) {
         guide = "ob-lost.svg";
-      } else if (/赤杭|黄杭|ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
+      } else if (/赤杭|赤線/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
+        guide = "red-penalty.svg";
+      } else if (/黄杭|黄線/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
+        guide = "yellow-penalty.svg";
+      } else if (/ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
         guide = "penalty-area.svg";
       } else if (/アンプレヤブル/.test(title)) {
         guide = "unplayable.svg";
@@ -139,7 +143,7 @@
         guide = "drop-method.svg";
       }
       if (guide) {
-        document.getElementById("dropGuideImage").src = "assets/drop-guides/" + guide + "?v=6";
+        document.getElementById("dropGuideImage").src = "assets/drop-guides/" + guide + "?v=20260921-illustration2";
         document.getElementById("dropGuide").hidden = false;
       }
 
