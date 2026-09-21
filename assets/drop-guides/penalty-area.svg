@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300"><rect width="720" height="300" rx="24" fill="#f7fffb"/><path d="M0 185 Q180 140 350 180 T720 165 V300H0Z" fill="#bfe6a9"/><path d="M360 140 Q520 95 720 125 V255 Q530 220 360 250Z" fill="#8ed8f8"/><circle cx="275" cy="175" r="13" fill="white" stroke="#222" stroke-width="3"/><line x1="360" y1="65" x2="360" y2="250" stroke="#e23b3b" stroke-width="6"/><path d="M280 165 Q330 130 355 150" fill="none" stroke="#e23b3b" stroke-width="6" marker-end="url(#a)"/><line x1="355" y1="150" x2="250" y2="75" stroke="#222" stroke-width="4" stroke-dasharray="9 8"/><ellipse cx="250" cy="75" rx="55" ry="28" fill="#ffd6d6"/><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#e23b3b"/></marker></defs><text x="24" y="42" font-family="sans-serif" font-size="28" font-weight="700" fill="#078765">ペナルティーエリア</text><text x="24" y="78" font-family="sans-serif" font-size="20" fill="#333">最後に境界を横切った地点を基準に救済</text><text x="205" y="118" font-family="sans-serif" font-size="18" font-weight="700">後方線上</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390">
+<rect width="720" height="390" rx="24" fill="#f7fffb"/>
+<text x="28" y="42" font-family="sans-serif" font-size="28" font-weight="700" fill="#078765">ペナルティーエリア</text>
+<text x="28" y="75" font-family="sans-serif" font-size="18" fill="#333">最後にボールが池の境界を横切った地点を基準にします</text>
+<path d="M0 150 Q180 110 390 145 T720 130 V290 H0Z" fill="#bfe6a9"/>
+<path d="M430 115 Q570 85 720 110 V290 Q570 260 430 280Z" fill="#8ed8f8"/>
+<line x1="430" y1="95" x2="430" y2="285" stroke="#e23b3b" stroke-width="7"/>
+<text x="446" y="118" font-family="sans-serif" font-size="15" font-weight="700" fill="#d92e2e">ペナルティーエリアの境界</text>
+<circle cx="420" cy="185" r="10" fill="#ef5350" stroke="white" stroke-width="3"/>
+<path d="M420 185 Q345 145 270 170" fill="none" stroke="#222" stroke-width="4" stroke-dasharray="10 8"/>
+<circle cx="250" cy="174" r="13" fill="white" stroke="#222" stroke-width="3"/>
+<rect x="258" y="112" width="120" height="36" rx="12" fill="white" stroke="#222" stroke-width="2"/>
+<text x="276" y="136" font-family="sans-serif" font-size="17" font-weight="700">後方線上</text>
+<path d="M419 190 Q380 220 350 246" fill="none" stroke="#e23b3b" stroke-width="5"/>
+<text x="278" y="272" font-family="sans-serif" font-size="16" font-weight="700" fill="#d92e2e">最後に境界を横切った地点（基準点）</text>
+<rect x="20" y="305" width="680" height="65" rx="16" fill="#e8f8f2"/>
+<text x="42" y="332" font-family="sans-serif" font-size="18" font-weight="700" fill="#087b61">救済の基本</text>
+<text x="42" y="357" font-family="sans-serif" font-size="16" fill="#333">赤杭・黄杭に応じた救済方法を選びます。池の中からそのまま打つこともできます。</text>
+</svg>
