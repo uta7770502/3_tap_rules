@@ -47,7 +47,7 @@ function bubble(html,cls){const d=document.createElement("div");d.className="bub
 let context={topic:"",color:"",crossingKnown:false};
 function updateContext(text){const t=text||"";if(/池|ペナルティ/.test(t))context.topic="penalty";if(/赤/.test(t))context.color="red";if(/黄/.test(t))context.color="yellow";if(/横切|越え|入った|落ちた/.test(t))context.crossingKnown=true}
 function searchRules(text){
- const q=(text||"").replace(/ゴルフボール|ボール/g,"球").replace(/二度打ち|2度打ち|二回当た|2回当た|ダブルヒット/g,"二度打ち 2度打ち ダブルヒット 偶然").replace(/真っ二つ|粉々|バラバラ/g,"複数片 破片").replace(/割れた|割れ|壊れた|壊れ/g,"切れ ひび 損傷").replace(/違うコース|違うホール/g,"違うホール ティーイングエリア").replace(/池/g,"ペナルティーエリア").replace(/道/g,"カート道");
+ const q=(text||"").replace(/ゴルフボール|ボール/g,"球").replace(/二度打ち|2度打ち|二回当た|2回当た|ダブルヒット/g,"二度打ち 2度打ち ダブルヒット 偶然").replace(/真っ二つ|粉々|バラバラ/g,"複数片 破片").replace(/割れた|割れ|壊れた|壊れ/g,"切れ ひび 損傷").replace(/違うコース|違うホール/g,"違うホール ティーイングエリア").replace(/池|ウォーターハザード/g,"ペナルティーエリア").replace(/道|カート道路/g,"カート道").replace(/白杭/g,"OB 白杭").replace(/赤杭|赤線/g,"赤 ペナルティーエリア").replace(/黄杭|黄線/g,"黄 ペナルティーエリア").replace(/オッケー|OK/g,"コンシード OK").replace(/ニアレス[トド]?/g,"ニアレストポイント").replace(/アンプレ|アンプレアブル/g,"アンプレヤブル").replace(/暫定|打ち直し球/g,"暫定球").replace(/誤球|人の球|他人のボール/g,"他人の球 誤球").replace(/二球|２球/g,"2球").replace(/距離測定器|レーザー/g,"距離計").replace(/スロープ/g,"高低差");
  const compact=q.replace(/[\s、。・？?！!\/]/g,"");
  const words=q.split(/[\s、。・？?！!\/]+/).filter(w=>w.length>1);
  return competitionRules.map(r=>{
@@ -55,6 +55,8 @@ function searchRules(text){
   let score=words.reduce((n,w)=>n+(blob.includes(w)?2:0),0);
   const keys=String(r.keywords||"").split(/[\s、。・\/]+/).filter(Boolean);
   score+=keys.reduce((n,k)=>n+(compact.includes(k.replace(/\s/g,""))?4:0),0);
+  const titleTokens=String(r.title||"").split(/[\s、。・（）()\/]+/).filter(k=>k.length>1);
+  score+=titleTokens.reduce((n,k)=>n+(compact.includes(k)?5:0),0);
   if(compact.includes(String(r.title||"").replace(/[\s（）()・]/g,""))) score+=12;
   return {r,score};
  }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,4).map(x=>x.r);
