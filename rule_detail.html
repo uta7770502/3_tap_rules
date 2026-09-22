@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>3タップルールズ</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/rule-guides.css?v=20260922-hd1" />
+  <script src="assets/rule-guides.js?v=20260922-hd1"></script>
   <style>
     body{background:#f9fff9;font-family:"Helvetica",sans-serif;margin:0;padding-bottom:90px}
     header{background:#00bfa5;color:#fff;text-align:center;padding:16px 0;font-size:24px;font-weight:bold;border-bottom-left-radius:25px;border-bottom-right-radius:25px}
@@ -21,12 +23,6 @@
     .bottom-nav a{display:flex;align-items:center;justify-content:center;text-decoration:none;height:100%;width:33.33%}
     .bottom-nav img{width:50px;height:auto;display:block}
     .back-btn{display:block;width:220px;margin:16px auto 6px;background:#FFD84D;color:#00997f;font-weight:800;text-align:center;border-radius:40px;padding:12px 16px;text-decoration:none;box-shadow:0 6px 14px rgba(0,0,0,.12)}
-    .drop-guide{background:#fff;border-left:8px solid #1f8fd1;padding:12px}
-    .drop-guide h2{color:#1475b0;margin:2px 4px 10px}
-    .drop-guide img{display:block;width:auto;max-width:100%;height:auto;margin:0 auto;border-radius:12px;image-rendering:auto}
-    .drop-guide-viewport{overflow-x:auto;-webkit-overflow-scrolling:touch;text-align:center}
-    @media(max-width:430px){.drop-guide{padding:12px 10px}.drop-guide img{width:100%;max-width:100%}.drop-guide-viewport{margin:0 -2px;padding-bottom:4px}}
-    .drop-guide-note{font-size:13px!important;color:#666!important;line-height:1.55!important;margin:10px 4px 0!important}
   </style>
 </head>
 <body>
@@ -39,11 +35,7 @@
     <div id="howBody"></div>
   </section>
 
-  <section id="dropGuide" class="sec drop-guide" hidden>
-    <h2>処置を図で確認</h2>
-    <div class="drop-guide-viewport"><img id="dropGuideImage" alt="ドロップの処置方法を示す図"></div>
-    <p class="drop-guide-note">※実際の処置は、上の「処置方法」とあわせて確認してください。</p>
-  </section>
+  <section id="dropGuide" class="sec rule-guide" hidden></section>
 
   <section class="sec pen">
     <h2 id="penHeading">罰はある？</h2>
@@ -111,41 +103,7 @@
       howEl.innerHTML = highlightPenalty(finalHow).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
       penEl.innerHTML = highlightPenalty(finalPen).split(/\n+/).map(p=>`<p>${p}</p>`).join("");
 
-      // 位置・救済の理解に図が有効なルールだけ、処置別ガイドを表示
-      const guideText = [rule.title, rule.description, rule.detail, rule.procedure, rule.how, rule.correct]
-        .filter(Boolean).join(" ");
-      const title = rule.title || "";
-      let guide = "";
-      // タイトルの場面を優先し、本文中の補足語だけで別処置の図を出さない
-      if (/OB杭がスイングの邪魔|金網・フェンスがスイングの邪魔|落ち葉|石を動かした|砂や枯葉|球跡修復|カップ周辺/.test(title)) {
-        guide = "";
-      } else if (/バンカー.*アンプレヤブル|バンカー内の一時的な水/.test(title)) {
-        guide = "bunker-relief.svg";
-      } else if (/E-5|前進救済|特設ティー|前進4打/.test(title)) {
-        guide = "local-e5.svg";
-      } else if (/OB|紛失球|ロスト/.test(title) && /基本処置|見失|ロスト|暫定球|OBになった/.test(title)) {
-        guide = "ob-lost.svg";
-      } else if (/赤杭|赤線/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
-        guide = "red-penalty.svg";
-      } else if (/黄杭|黄線/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
-        guide = "yellow-penalty.svg";
-      } else if (/ペナルティーエリア|池/.test(title) && /救済|ドロップ|後方線上|打ち直|見つからない|違い|入った/.test(title)) {
-        guide = "penalty-area.svg";
-      } else if (/アンプレヤブル/.test(title)) {
-        guide = "unplayable.svg";
-      } else if (/地面にくい込|埋まって見つからない/.test(title)) {
-        guide = "embedded.svg";
-      } else if (/修理地|カート道|カート道路|一時的な水|スプリンクラー|目的外グリーン|動物の穴/.test(title) && /止まった|入った|かかる|救済|プレー禁止|見つからない|邪魔/.test(title)) {
-        guide = "abnormal.svg";
-      } else if (/誤って.*拾|球が動いた|ボールを動かした|誤って.*蹴|自分の球を偶然蹴|確認するため拾い上げ|マーク.*拾い上げ/.test(title)) {
-        guide = "replace.svg";
-      } else if (/ドロップは膝|ドロップした球|ドロップ方法/.test(title)) {
-        guide = "drop-method.svg";
-      }
-      if (guide) {
-        document.getElementById("dropGuideImage").src = "assets/drop-guides/" + guide + "?v=20260922-vector-v1";
-        document.getElementById("dropGuide").hidden = false;
-      }
+      RuleGuides.render(document.getElementById("dropGuide"), rule, "standard");
 
       backBtn.addEventListener('click', (e) => {
         e.preventDefault();

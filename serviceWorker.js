@@ -2,7 +2,7 @@
    3タップルールズ Service Worker
    =============================== */
 
-const CACHE_NAME = "3tap-v11-rule-audit";
+const CACHE_NAME = "3tap-v12-hd-guides";
 
 /* キャッシュ対象ファイル */
 const urlsToCache = [
@@ -19,6 +19,8 @@ const urlsToCache = [
   "./rules.json",
 
   "./style.css",
+  "./assets/rule-guides.js?v=20260922-hd1",
+  "./assets/rule-guides.css?v=20260922-hd1",
 
   "./home-icon.png",
   "./book-icon.png",

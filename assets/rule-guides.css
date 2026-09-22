@@ -1,0 +1,19 @@
+.rule-guide[hidden],.rule-guide figure[hidden]{display:none!important}
+.rule-guide{box-sizing:border-box;background:#fff;border-left:6px solid #0786ca;border-radius:18px;padding:16px;max-width:800px}
+.rule-guide h2{color:#087bb9!important;font-size:20px;margin:0 0 12px}
+.rule-guide h3{font-size:19px;color:#065c51;margin:0 0 12px;line-height:1.5}
+.rule-guide figure{position:relative;margin:0;overflow:hidden;border-radius:12px;background:#edf7ed}
+.rule-guide-scene{position:relative}
+.rule-guide-callout{position:absolute;right:4%;top:7%;max-width:65%;padding:7px 10px;border:2px solid #dc3434;border-radius:10px;background:#fffffff5;color:#aa2020;font-size:clamp(12px,2.5vw,18px);font-weight:800;line-height:1.45;box-shadow:0 2px 5px #0002}
+.rule-guide-callout:after{content:'';position:absolute;bottom:-8px;left:20px;width:12px;height:12px;transform:skewY(-30deg);background:#fff;border-left:2px solid #dc3434;border-bottom:2px solid #dc3434}
+.rule-guide-scene[data-scene=drop] .rule-guide-callout{top:39%;right:3%;max-width:42%}
+.rule-guide-drop-arrow{position:absolute;left:47.8%;top:59%;height:19%;border-left:3px dashed #e32929;filter:drop-shadow(0 0 1px white)}
+.rule-guide-drop-arrow:after{content:'';position:absolute;bottom:-9px;left:-8px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:12px solid #e32929}
+.rule-guide figure img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;aspect-ratio:3/2;border-radius:0!important;image-rendering:auto}
+.rule-guide figcaption{position:relative;font-size:14px;font-weight:700;line-height:1.55;color:#174c40;background:#e8f5ef;padding:11px 13px;border-top:3px solid #087f67}
+.rule-guide-steps{list-style:none;counter-reset:guide-step;padding:14px;margin:12px 0 0;background:#f0f8f5;border-radius:12px;display:grid;gap:12px}
+.rule-guide-steps li{counter-increment:guide-step;display:grid;grid-template-columns:27px 1fr;gap:9px;align-items:start;font-size:15px;line-height:1.65;color:#173f35}
+.rule-guide-steps li:before{content:counter(guide-step);background:#087f68;color:white;border-radius:50%;width:27px;height:27px;line-height:27px;text-align:center;font-weight:800}
+.rule-guide .rule-guide-note{font-size:12px!important;line-height:1.65!important;color:#67746e!important;margin:12px 2px 0!important}
+@media(min-width:850px){.sec.rule-guide{margin-left:auto;margin-right:auto}}
+@media(max-width:430px){.rule-guide{padding:12px}.rule-guide h3{font-size:18px}.rule-guide-steps{padding:12px;gap:12px}.rule-guide-steps li{font-size:14px}}
