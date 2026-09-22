@@ -29,6 +29,7 @@ document.getElementById("mic").onclick=async()=>{
   stream.getTracks().forEach(track=>track.stop());
   const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
   if(!SR){
+   btn.disabled=false;btn.innerHTML='<span class="action-icon">🎙</span><span class="action-label">話す</span>';
    alert("マイクの許可は確認できました。このブラウザでは音声認識APIが利用できないため、iPhoneキーボードのマイク入力を使ってください。");
    input.focus(); return;
   }
@@ -88,7 +89,5 @@ if(/(真っ二つ|粉々|バラバラ|複数.*(片|破片))/.test(text)){
 function submitQuestion(){const text=input.value.trim(),hasPhoto=!!selected;if(!text&&!hasPhoto){input.focus();return}bubble((hasPhoto?'<span class="photo-mark">写真あり</span> ':'')+(text||"この写真の状況を確認して"),"me");input.value="";demoAnswer(text,hasPhoto)}
 document.getElementById("send").onclick=submitQuestion;
 input.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();submitQuestion()}});
-/* legacy-submit-removed */
-const __unused=()=>{const text=input.value.trim(),hasPhoto=!!selected;if(!text&&!hasPhoto){input.focus();return}bubble((hasPhoto?'<span class="photo-mark">写真あり</span> ':'')+(text||"この写真の状況を確認して"),"me");input.value="";setTimeout(()=>demoAnswer(text,hasPhoto),180)};
-input.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();document.getElementById("send").click()}});};
+
 </script></body></html>
