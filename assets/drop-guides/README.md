@@ -34,3 +34,19 @@ Reference checks:
 
 For a future release update the shared asset version and the service-worker
 cache name together. Do not reintroduce the old SVGs as loading fallbacks.
+
+## Additional scene illustrations — hd2
+
+Three new 1536 × 1024 scenes, generated with the built-in image tool using
+red-hd.webp as the character/style reference. Prompts: the same blue-polo,
+white-cap golfer (1) crouching beside white OB stakes inspecting a ball,
+(2) preparing a tee shot between blue tee markers, and (3) addressing a ball
+on grass with shoes on a paved cart path. No text or measurement geometry in
+the generated raster. WebP quality 95; original dimensions retained.
+
+The renderer provides separate HTML/CSS OB boundary comparison and teeing-area
+schematic, plus before/after stance checks. These are explanatory panels, not
+measurement overlays on perspective paintings. Sources checked 2026-09-22:
+https://www.randa.org/rog/the-rules-of-golf/rule-18
+https://www.randa.org/rog/the-rules-of-golf/rule-6
+https://www.randa.org/rog/the-rules-of-golf/rule-16

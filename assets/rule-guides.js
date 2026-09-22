@@ -1,8 +1,11 @@
 /* High-resolution rule illustrations. No SVG or low-resolution fallback. */
 (function (root) {
   'use strict';
-  const version = '20260922-hd1';
+  const version = '20260922-hd2';
   const guides = {
+    'ob-boundary': { image:'ob-boundary', title:'OBの境界は、球全体で判定', label:'球の一部でもコース内にあればOBではない', steps:['白杭だけの場合は、地表面での杭のコース側の点を結ぶ線が境界。白線の場合はコース側の縁が境界で、線自体はOB側。','球全体が境界の外にあればOB。球の一部でもコース内にあればOBではない。','コース内の球をOB側に立って打つことはできる。白杭を抜いたり動かしたりしてはいけない。'] },
+    'tee-area': { image:'tee-area', title:'ティーイングエリアの範囲', label:'球の位置を確認。足はエリア外でもよい', steps:['指定された2つのティーマーカーの最も前方の点を結ぶ線が前縁。側縁はそれぞれのマーカーの外側。','後方2クラブレングスの長方形がエリア。携帯する最も長いクラブ（パターを除く）で測る。','球の一部がエリアに触れるか、その上にあればエリア内。区域外から打った場合の処置は競技形式によって異なるため本文を確認。'] },
+    'cart-stance': { image:'cart-stance', title:'球は芝の上でも、足がカート道にかかる', label:'通常の構えで足に障害があれば、救済の対象', steps:['ジェネラルエリアの球で、通常のスタンスや意図するスイングに動かせない道路が干渉するか確認する。','ホールに近づかず、障害を完全に避けられる最も近い地点を基準点にする。好きな側を自由に選ぶことはできない。','基準点から1クラブレングス以内、ホールに近づかず、完全な救済が得られるジェネラルエリアへ無罰でドロップする。'] },
     'penalty-area': { image: 'red', title: 'ペナルティーエリアからの救済', label: 'まず、境界を横切った場所を確認', steps: ['最後に球が境界を横切った地点を確認する。', '赤・黄の境界に応じて、使える救済方法を選ぶ。', '救済を受ける場合は1罰打。そのまま打てる場合は無罰でプレーできる。'] },
     'red-penalty': { image: 'red', title: '赤杭・赤線からの救済', label: '赤い境界：横方向の救済も選べる', steps: ['球が最後に赤い境界を横切った地点を確認する。', '1罰打で、打ち直し・後方線上・ラテラル救済から選ぶ。', 'ラテラル救済は基準点から2クラブレングス以内。ホールに近づかず、エリアの外へ。'] },
     'yellow-penalty': { image: 'yellow', title: '黄杭・黄線からの救済', label: '黄色い境界：横2クラブの救済はない', steps: ['球が最後に黄色の境界を横切った地点を確認する。', '1罰打で、前の場所から打ち直すか、後方線上の救済を選ぶ。', '後方線上では、ホールと境界の横断点を結ぶ線を後ろへ延ばしてドロップする。'] },
@@ -21,15 +24,17 @@
   // IDs are scoped to the dataset. Exceptions must not be chosen by a word
   // appearing only in explanatory text (e.g. unplayable inside a penalty area).
   const standard = {
+    'ob-boundary':[109,182,183], 'tee-area':[2,3,107,139], 'cart-stance':[191],
     'penalty-area':[25,116,189], 'red-penalty':[69,110,185,186,187],
     'yellow-penalty':[70,171,172,173,174,175,176,177],
-    unplayable:[24,66,113,124,192], abnormal:[59,60,114,115,156,159,178,179,180,181,191,194,201,203,204],
+    unplayable:[24,66,113,124,192], abnormal:[59,60,114,115,156,159,178,179,180,181,194,201,203,204],
     embedded:[141,163], 'bunker-abnormal':[65], 'bunker-unplayable':[164],
     'ob-lost':[5,67,68,108,188,205], 'local-e5':[166], 'local-tee':[6,206,207],
     replace:[16,26,27,46,49,55,77,78,79,103,104,112,129,134,162,193,197,199],
     'drop-method':[195], redrop:[196]
   };
   const competition = {
+    'ob-boundary':[78,166,208], 'tee-area':[52], 'cart-stance':[183],
     'penalty-area':[14], 'red-penalty':[70,187], 'yellow-penalty':[71],
     unplayable:[17,40,192,193], abnormal:[12], embedded:[13,124,185],
     'bunker-unplayable':[74,191], 'ob-lost':[15,39], 'local-e5':[122,215],
@@ -63,6 +68,7 @@
     scene.dataset.scene = guide.image;
     scene.append(image);
     const labels = {
+      'ob-boundary':'球全体で判定', 'tee-area':'球と足の位置を区別', 'cart-stance':'球は芝・足は道路',
       red: '赤い境界', yellow: '黄色い境界', unplayable: '元の球の位置を確認',
       abnormal: '障害を完全に避ける', embedded: '自分のピッチマーク',
       bunker: 'バンカー内・外を確認', ob: '白杭はOBの境界',
@@ -89,7 +95,20 @@
       figure.hidden = true;
       note.textContent = '図を読み込めませんでした。処置手順と本文を確認してください。';
     }, { once: true });
-    container.append(heading, title, figure, steps, note);
+    container.append(heading, title, figure);
+    const detail = document.createElement('div');
+    detail.className = 'rule-guide-detail';
+    if (key === 'ob-boundary') {
+      detail.innerHTML = '<h4>真上から見た判定例</h4><div class="boundary-examples">' + [
+        ['inside','コース内','球全体が内側'], ['crossing','コース内','球の一部が内側'], ['outside','OB','球全体が外側']
+      ].map(([c,result,caption]) => `<div class="boundary-example"><div class="boundary-map ${c}" role="img" aria-label="${caption}：${result}"><span class="course-word">コース内</span><span class="ob-word">OB側</span><i class="example-ball"></i></div><strong>${result}</strong><p>${caption}</p></div>`).join('') + '</div><p>緑とベージュの境目が境界。杭・白線そのものではなく、境界と球の位置関係を示しています。</p>';
+    } else if (key === 'tee-area') {
+      detail.innerHTML = '<h4>上から見た範囲（模式図）</h4><div class="tee-map" role="img" aria-label="ホール方向は上。2つのマーカーの前縁から後方2クラブレングスの長方形がティーイングエリア"><span class="hole-direction">↑ ホール方向</span><div class="tee-rectangle"><i class="tee-marker left"></i><i class="tee-marker right"></i><span>ティーイング<br>エリア</span><b>後方2クラブ<br>レングス</b></div></div><p>長方形の範囲で球の位置を確認。スタンスは外側でも構いません。</p>';
+    } else if (key === 'cart-stance') {
+      detail.innerHTML = '<h4>救済前 → 救済後の確認</h4><div class="stance-check"><p><strong>救済前</strong><br>球は芝の上でも、通常の構えで足が道路にかかる。</p><p><strong>救済後</strong><br>球・足・スイングのすべてで、道路の障害がなくなる位置へ。</p></div><p>ペナルティーエリア内の球や、不合理な構えだけで生じる障害などは対象外。ローカルルールも確認してください。</p>';
+    }
+    if (detail.childNodes.length) container.append(detail);
+    container.append(steps, note);
     container.hidden = false;
   }
   const api = { guides, standard, competition, select, render, version };
