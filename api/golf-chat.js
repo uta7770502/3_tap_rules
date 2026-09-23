@@ -40,13 +40,28 @@ module.exports = async function handler(req, res) {
         instructions: instructions + guidance + '\n今日: ' + new Date().toISOString().slice(0, 10), input,
         tools: [{ type: 'web_search', filters: { allowed_domains: ['randa.org', 'usga.org', 'jga.or.jp'] } }], tool_choice: 'required', max_tool_calls: 2 })
     });
-    if (!upstream.ok) return res.status(upstream.status === 429 ? 429 : 502).json({ error: upstream.status === 429 ? '現在AIを利用できる上限に達しています。時間をおいてお試しください。' : 'AIに接続できませんでした。しばらくしてから再送してください。' });
+    if (!upstream.ok) {
+      const raw = await upstream.text();
+      let detail = raw;
+      try {
+        const parsed = JSON.parse(raw);
+        detail = JSON.stringify({ status: upstream.status, type: parsed?.error?.type, code: parsed?.error?.code, message: parsed?.error?.message });
+      } catch (_) {}
+      console.error('OpenAI Responses API error:', detail);
+      return res.status(upstream.status === 429 ? 429 : 502).json({ error: upstream.status === 429 ? '現在AIを利用できる上限に達しています。時間をおいてお試しください。' : 'AIに接続できませんでした。しばらくしてから再送してください。' });
+    }
     const data = await upstream.json();
     const parts = (data.output || []).filter(x => x.type === 'message').flatMap(x => x.content || []).filter(x => x.type === 'output_text');
     const text = parts.map(x => x.text).join('\n');
-    if (data.status !== 'completed' || !text) throw Error('incomplete');
+    if (data.status !== 'completed' || !text) {
+      console.error('OpenAI response incomplete:', JSON.stringify({ status: data.status, incomplete_details: data.incomplete_details, output_types: (data.output || []).map(x => x.type) }));
+      throw Error('incomplete');
+    }
     const sources = parts.flatMap(x => x.annotations || []).filter(x => x.type === 'url_citation').map(x => ({ title: x.title, url: x.url }));
     return res.status(200).json({ text, sources });
-  } catch (e) { return res.status(502).json({ error: '回答を受け取れませんでした。入力を残していますので、もう一度送信してください。' }); }
+  } catch (e) {
+    console.error('golf-chat exception:', e?.name, e?.message);
+    return res.status(502).json({ error: '回答を受け取れませんでした。入力を残していますので、もう一度送信してください。' });
+  }
 };
 module.exports.validate = validate;
