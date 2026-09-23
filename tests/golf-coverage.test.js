@@ -13,3 +13,15 @@ test('double hit is discoverable in both catalogs with numeric and Japanese alia
  }
  assert.equal(competition.find(r=>r.id===155).rule,'10.1d');
 });
+
+test('new niche cases have unique IDs, official sources and search aliases',()=>{
+ for(const records of [general,competition]) {
+  assert.equal(new Set(records.map(r=>r.id)).size,records.length);
+  for(const keyword of ['エアレーション','救済確認','茂みで打てない','落ちている途中','速さを調べる']) {
+   const r=records.find(r=>r.title.includes(keyword));assert.ok(r,keyword);
+   assert.match(r.source,/^https:\/\/www\.randa\.org\/en\/rog\/the-rules-of-golf\/rule-/);
+   assert.ok(r.rule && r.procedure && r.penalty && r.keywords.length);
+  }
+ }
+ assert.equal(general.filter(r=>/二度打ち|二重打ち/.test(r.title)).length,1);
+});

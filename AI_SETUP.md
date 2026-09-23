@@ -17,4 +17,6 @@ Official API documentation:
 - https://developers.openai.com/api/docs/guides/conversation-state
 - https://developers.openai.com/api/docs/guides/tools-web-search
 
-Coverage update: the full 492-item local title/alias catalog now accompanies the model as search hints, not authoritative rulings. Verified double-hit guidance and intentional-moving-ball distinction are included. `tests/ai-acceptance.json` contains 16 live acceptance scenarios. These are a manual evaluation checklist, not passed model tests. Run all local contract/catalog tests with `node --test tests/*.test.js`. API credentials are still needed for actual answer evaluation.
+Coverage update: the full local title/alias catalog now accompanies the model as search hints, not authoritative rulings. Verified double-hit guidance and intentional-moving-ball distinction are included. `tests/ai-acceptance.json` contains 16 live acceptance scenarios. These are a manual evaluation checklist, not passed model tests. Run all local contract/catalog tests with `node --test tests/*.test.js`. API credentials are still needed for actual answer evaluation.
+
+Added six reviewed niche cases to both lists on 2026-09-23 (Rules 6.2b(5), 13.1c, 13.1e, 16.1a, 16.4); consolidated the double-hit duplicate without reusing its retired ID. Total entries: 503 (247 general, 256 competition; overlapping subjects are not unique rules). Live AI validation remains pending.
