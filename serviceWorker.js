@@ -2,7 +2,7 @@
    3タップルールズ Service Worker
    =============================== */
 
-const CACHE_NAME = "3tap-v14-real-ai";
+const CACHE_NAME = "3tap-v15-visuals";
 
 /* キャッシュ対象ファイル */
 const urlsToCache = [
@@ -19,8 +19,9 @@ const urlsToCache = [
   "./rules.json",
 
   "./style.css",
-  "./assets/rule-guides.js?v=20260922-hd2",
-  "./assets/rule-guides.css?v=20260922-hd2",
+  "./assets/rule-guide-details.js?v=20260923-visuals3",
+  "./assets/rule-guides.js?v=20260923-visuals3",
+  "./assets/rule-guides.css?v=20260923-visuals3",
 
   "./home-icon.png",
   "./book-icon.png",

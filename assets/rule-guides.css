@@ -29,3 +29,10 @@
 .tee-rectangle{position:absolute;top:55px;bottom:20px;left:15%;right:15%;border:2px dashed #166c58;background:#b8dfc4;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:8px}
 .tee-marker{position:absolute;top:0;width:19px;height:19px;background:#2269c4;border-radius:3px}.tee-marker.left{left:0}.tee-marker.right{right:0}.tee-rectangle b{font-size:13px}
 .stance-check{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stance-check p{margin:0;padding:12px;background:#edf6f1;border-radius:8px}
+/* Paired mobile diagrams stay readable without horizontal scrolling. */
+.guide-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.guide-card{min-width:0;background:#f5faf7;border:1px solid #d5e7df;border-radius:12px;padding:10px}
+.guide-card h5{font-size:15px;line-height:1.5;margin:0 0 8px;color:#075d4d}
+.guide-card svg{display:block;width:100%;height:auto}
+.rule-guide-detail .guide-card p{font-size:14px;line-height:1.7;margin:9px 0 0}
+@media(max-width:520px){.guide-card-grid{grid-template-columns:1fr}.guide-card svg{max-height:205px}.rule-guide-callout{max-width:75%;font-size:12px}}
