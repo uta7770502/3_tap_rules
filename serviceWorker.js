@@ -2,7 +2,7 @@
    3タップルールズ Service Worker
    =============================== */
 
-const CACHE_NAME = "3tap-v13-hd-guides";
+const CACHE_NAME = "3tap-v14-real-ai";
 
 /* キャッシュ対象ファイル */
 const urlsToCache = [
@@ -59,6 +59,7 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   const request = event.request;
   const url = new URL(request.url);
+  if (request.method !== "GET" || url.pathname.startsWith("/api/") || url.pathname.endsWith("/golf-chat.js")) return;
   const isFreshContent =
     request.mode === "navigate" ||
     url.pathname.endsWith(".html") ||

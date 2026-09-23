@@ -1,0 +1,4 @@
+{
+  "functions": { "api/golf-chat.js": { "maxDuration": 60 } },
+  "headers": [{ "source": "/assets/golf-chat.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }]
+}
