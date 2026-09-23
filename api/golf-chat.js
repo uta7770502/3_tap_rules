@@ -1,3 +1,4 @@
+const { guidance } = require('../lib/golf-grounding');
 const instructions = `あなたは日本語のゴルフ規則相談アシスタントです。今日の日付に適用されるR&A/USGA/JGAの公式規則を検索して確認し、会話全体と写真を踏まえて答えてください。
 最初に相談内容への具体的な結論、次に罰の有無・打数、次の行動、根拠規則を簡潔に示してください。一般論や関連規則の紹介だけで終えないでください。
 「罰はない？」「必要な罰とは？」などは前の状況への追質問です。話題を変えず、回答済みの事実を再質問しないでください。
@@ -36,7 +37,7 @@ module.exports = async function handler(req, res) {
       method: 'POST', headers: { Authorization: `Bearer ${process.env.OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
       signal: AbortSignal.timeout(50000),
       body: JSON.stringify({ model: process.env.OPENAI_MODEL || 'gpt-4.1-mini', store: false, max_output_tokens: 1800,
-        instructions: instructions + '\n今日: ' + new Date().toISOString().slice(0, 10), input,
+        instructions: instructions + guidance + '\n今日: ' + new Date().toISOString().slice(0, 10), input,
         tools: [{ type: 'web_search', filters: { allowed_domains: ['randa.org', 'usga.org', 'jga.or.jp'] } }], tool_choice: 'required', max_tool_calls: 2 })
     });
     if (!upstream.ok) return res.status(upstream.status === 429 ? 429 : 502).json({ error: upstream.status === 429 ? '現在AIを利用できる上限に達しています。時間をおいてお試しください。' : 'AIに接続できませんでした。しばらくしてから再送してください。' });

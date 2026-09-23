@@ -16,3 +16,5 @@ Official API documentation:
 - https://developers.openai.com/api/docs/guides/images-vision
 - https://developers.openai.com/api/docs/guides/conversation-state
 - https://developers.openai.com/api/docs/guides/tools-web-search
+
+Coverage update: the full 492-item local title/alias catalog now accompanies the model as search hints, not authoritative rulings. Verified double-hit guidance and intentional-moving-ball distinction are included. `tests/ai-acceptance.json` contains 16 live acceptance scenarios. These are a manual evaluation checklist, not passed model tests. Run all local contract/catalog tests with `node --test tests/*.test.js`. API credentials are still needed for actual answer evaluation.
