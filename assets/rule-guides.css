@@ -9,7 +9,7 @@
 .rule-guide-scene[data-scene=drop] .rule-guide-callout{top:39%;right:3%;max-width:42%}
 .rule-guide-drop-arrow{position:absolute;left:47.8%;top:59%;height:19%;border-left:3px dashed #e32929;filter:drop-shadow(0 0 1px white)}
 .rule-guide-drop-arrow:after{content:'';position:absolute;bottom:-9px;left:-8px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:12px solid #e32929}
-.rule-guide figure img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;aspect-ratio:3/2;border-radius:0!important;image-rendering:auto}
+.rule-guide figure img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;border-radius:0!important;image-rendering:auto}
 .rule-guide figcaption{position:relative;font-size:14px;font-weight:700;line-height:1.55;color:#174c40;background:#e8f5ef;padding:11px 13px;border-top:3px solid #087f67}
 .rule-guide-steps{list-style:none;counter-reset:guide-step;padding:14px;margin:12px 0 0;background:#f0f8f5;border-radius:12px;display:grid;gap:12px}
 .rule-guide-steps li{counter-increment:guide-step;display:grid;grid-template-columns:27px 1fr;gap:9px;align-items:start;font-size:15px;line-height:1.65;color:#173f35}
@@ -19,20 +19,16 @@
 @media(max-width:430px){.rule-guide{padding:12px}.rule-guide h3{font-size:18px}.rule-guide-steps{padding:12px;gap:12px}.rule-guide-steps li{font-size:14px}}
 .rule-guide-detail{margin-top:16px;color:#174c40;font-size:14px;line-height:1.65}
 .rule-guide-detail h4{margin:0 0 10px;font-size:16px}
-.boundary-examples{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
-.boundary-example{text-align:center;min-width:0}.boundary-example p{font-size:12px;margin:4px 0}.boundary-example strong{font-size:14px}
-.boundary-map{height:125px;position:relative;background:linear-gradient(to bottom,#c5e8ce 0 50%,#eddbc1 50% 100%);border-radius:8px;margin-bottom:7px}
-.course-word,.ob-word{position:absolute;left:0;right:0;font-size:11px}.course-word{top:5px}.ob-word{bottom:5px}
-.example-ball{position:absolute;left:calc(50% - 13px);width:26px;height:26px;border-radius:50%;background:white;box-sizing:border-box;border:2px solid #344c3c;box-shadow:1px 2px 3px #0003}
-.inside .example-ball{top:29px}.crossing .example-ball{top:53px}.outside .example-ball{top:70px}
-.tee-map{position:relative;height:235px;background:#e2f2df;border-radius:12px;padding:0 25px}.hole-direction{position:absolute;top:8px;left:0;right:0;text-align:center}
-.tee-rectangle{position:absolute;top:55px;bottom:20px;left:15%;right:15%;border:2px dashed #166c58;background:#b8dfc4;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:8px}
-.tee-marker{position:absolute;top:0;width:19px;height:19px;background:#2269c4;border-radius:3px}.tee-marker.left{left:0}.tee-marker.right{right:0}.tee-rectangle b{font-size:13px}
-.stance-check{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stance-check p{margin:0;padding:12px;background:#edf6f1;border-radius:8px}
 /* Paired mobile diagrams stay readable without horizontal scrolling. */
 .guide-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .guide-card{min-width:0;background:#f5faf7;border:1px solid #d5e7df;border-radius:12px;padding:10px}
 .guide-card h5{font-size:15px;line-height:1.5;margin:0 0 8px;color:#075d4d}
-.guide-card svg{display:block;width:100%;height:auto}
+
 .rule-guide-detail .guide-card p{font-size:14px;line-height:1.7;margin:9px 0 0}
-@media(max-width:520px){.guide-card-grid{grid-template-columns:1fr}.guide-card svg{max-height:205px}.rule-guide-callout{max-width:75%;font-size:12px}}
+@media(max-width:520px){.guide-card-grid{grid-template-columns:1fr}.rule-guide-callout{max-width:75%;font-size:12px}}
+
+/* Full native-resolution artwork, never cropped or enlarged from panels. */
+.rule-guide-scene[data-scene="drop-sequence"] img{aspect-ratio:1086/1448}
+.sequence-label{position:absolute;left:3%;max-width:90%;background:#fffffff5;border-radius:7px;padding:5px 8px;font-size:clamp(11px,2.8vw,17px);font-weight:800;color:#125847;line-height:1.4}
+.sequence-0{top:1%}.sequence-1{top:30%}.sequence-2{top:65%}
+.sequence-area{position:absolute;left:30%;top:85%;width:42%;height:11%;border:3px dashed #ca2222;border-radius:50%;box-sizing:border-box;pointer-events:none}
