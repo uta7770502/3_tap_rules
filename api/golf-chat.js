@@ -19,8 +19,10 @@ function failure(res, category, metadata = {}) {
     response: 'AIから有効な回答を受け取れませんでした。入力は残っていますので再送してください。'
   };
   console.error(JSON.stringify({ event: 'golf_ai_failure', version: VERSION, diagnosticId, category, ...metadata }));
+  const detail = category === 'request' ? [metadata.upstreamCode, metadata.upstreamParam].filter(x => x && x !== 'unknown').join(' / ') : '';
   return res.status(category === 'quota' || category === 'rate_limit' ? 429 : 502).json({
-    error: `${messages[category]}（診断ID: ${diagnosticId}）`, code: `AI_${category.toUpperCase()}`, diagnosticId
+    error: `${messages[category]}${detail ? `（原因: ${detail}）` : ''}（診断ID: ${diagnosticId}）`,
+    code: `AI_${category.toUpperCase()}`, diagnosticId
   });
 }
 async function upstreamFailure(upstream, res) {
