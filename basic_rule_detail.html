@@ -30,7 +30,20 @@
       {keys:["地面にくい込","埋まった球"],src:"assets/drop-guides/embedded-hd.webp",caption:"地面にくい込んだ球の状態を確認"},
       {keys:["ペナルティーエリア","赤杭","黄杭"],src:"assets/drop-guides/red-hd.webp",caption:"ペナルティーエリア周辺の状況をイメージで確認"}
     ];
-    function visualFor(r){const hay=[r.title,r.description,r.detail,r.procedure].filter(Boolean).join(" ");return IROHA_VISUALS.find(v=>v.keys.some(k=>hay.includes(k)))||null}
+    const IROHA_ITEM_VISUALS={
+      82:{src:"assets/iroha-guides/putting-etiquette-v1.png",caption:"他の人の球とカップの間を避けて移動。相手が打つときは立ち止まって待とう"},
+      83:{src:"assets/iroha-guides/ballmark-finish-v1.png",caption:"図は修復の仕上げ。周囲から中心へ芝を寄せた後、パターの底で軽く平らにならします"},
+      84:{src:"assets/iroha-guides/divot-sand-v1.png",caption:"打ち終えた跡に目土を入れる例。盛り上げず平らにし、修復方法はコースの案内を優先"},
+      65:{src:"assets/drop-guides/red-hd.webp",caption:"赤い杭で示されたペナルティエリアの例。黄杭とは救済の選択肢が異なります"},
+      20:{src:"assets/iroha-guides/preparation-v1.png",caption:"前日にボール・ティー・グローブ・マーカーなどの持ち物を確認"},
+      21:{src:"assets/iroha-guides/dress-v1.png",caption:"服装の一例。予約したゴルフ場のドレスコードを優先して確認しよう"},
+      23:{src:"assets/iroha-guides/preparation-v1.png",caption:"出発前にクラブ・シューズ・小物の忘れ物を最終チェック"},
+      40:{src:"assets/iroha-guides/preparation-v1.png",caption:"前日のうちに道具をそろえて、当日は慌てず出発"},
+      43:{src:"assets/iroha-guides/warmup-v1.png",caption:"スタート前は無理のない範囲で体をほぐし、練習で疲れすぎないようにしよう"},
+      80:{src:"assets/iroha-guides/safety-wait-v1.png",caption:"前方に人がいる間は打たずに待つ。安全を確認してからプレー"},
+      81:{src:"assets/iroha-guides/ready-clubs-v1.png",caption:"使いそうなクラブを数本持って球の所へ。カートとの往復を減らそう"}
+    };
+    function visualFor(r){return IROHA_ITEM_VISUALS[r.id]||IROHA_VISUALS.find(v=>v.keys.some(k=>String(r.title||"").includes(k)))||null}
     document.addEventListener("DOMContentLoaded",async()=>{const id=getId(),headerEl=document.getElementById("pageHeader"),contentEl=document.getElementById("content"),prevBtn=document.getElementById("prevBtn"),nextBtn=document.getElementById("nextBtn");if(!Number.isFinite(id)){contentEl.innerHTML='<div class="card"><div class="title">ページの開き方が違います</div><p class="secText">基本ルール一覧から開いてください。</p></div>';prevBtn.classList.add("disabled");nextBtn.classList.add("disabled");return}let rules=[];try{const res=await fetch("basic_rules.json?v=20260924-iroha-visual1",{cache:"no-store"});rules=await res.json()}catch(e){contentEl.innerHTML='<div class="card"><div class="title">読み込みエラー</div><p class="secText">basic_rules.json を読み込めませんでした。</p></div>';return}rules=Array.isArray(rules)?rules:[];rules.sort((a,b)=>(a.id??0)-(b.id??0));const idx=rules.findIndex(r=>Number(r.id)===id);if(idx===-1){contentEl.innerHTML='<div class="card"><div class="title">そのIDの基本ルールが見つかりません</div></div>';return}const r=rules[idx],title=esc(r.title||"基本ルール"),blocks=[];headerEl.textContent=`コースデビュー「いろは」｜${r.title??"基本ルール"}`;if(r.description)blocks.push(`<div class="card"><div class="title">${title}</div><p class="secText">${esc(r.description)}</p></div>`);const visual=visualFor(r);if(visual)blocks.push(`<div class="card irohaVisual"><img src="${visual.src}?v=20260924-iroha-visual1" alt="${title}の説明イラスト" loading="eager" decoding="async"><div class="visualCaption">🎨 ${esc(visual.caption)}</div></div>`);if(r.detail)blocks.push(`<div class="card"><div class="secTitle">📌 まず知っておこう</div><p class="secText">${esc(r.detail)}</p></div>`);if(r.procedure)blocks.push(`<div class="card"><div class="secTitle">🧭 初心者はこう動けばOK</div><p class="secText">${esc(r.procedure)}</p></div>`);if(r.penalty)blocks.push(`<div class="card"><div class="secTitle">⚠️ ここに注意</div><p class="secText">${esc(r.penalty)}</p></div>`);contentEl.innerHTML=blocks.join("");const prev=rules[idx-1],next=rules[idx+1];if(prev){prevBtn.href=`basic_rule_detail.html?id=${encodeURIComponent(prev.id)}`;prevBtn.textContent=`← 前へ（${prev.title??"前"}）`}else prevBtn.classList.add("disabled");if(next){nextBtn.href=`basic_rule_detail.html?id=${encodeURIComponent(next.id)}`;nextBtn.textContent=`次へ（${next.title??"次"}） →`}else nextBtn.classList.add("disabled")});
   </script>
 </body>
