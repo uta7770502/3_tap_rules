@@ -1,6 +1,6 @@
 const { guidance } = require('../lib/golf-grounding');
 const { randomUUID } = require('node:crypto');
-const VERSION = '2026-09-28-diagnostics-1';
+const VERSION = '2026-09-29-search-recovery-1';
 // Never log upstream messages/bodies: they can contain keys or user input.
 const SAFE_CODES = new Set(['invalid_api_key', 'insufficient_quota', 'rate_limit_exceeded', 'model_not_found', 'unsupported_parameter', 'unsupported_value', 'invalid_value', 'missing_required_parameter', 'context_length_exceeded', 'invalid_request_error', 'server_error']);
 const SAFE_TYPES = new Set(['invalid_request_error', 'authentication_error', 'permission_error', 'rate_limit_error', 'insufficient_quota', 'server_error']);
@@ -25,9 +25,10 @@ function failure(res, category, metadata = {}) {
     code: `AI_${category.toUpperCase()}`, diagnosticId
   });
 }
-async function upstreamFailure(upstream, res) {
-  let error;
-  try { error = (await upstream.json())?.error; } catch { /* Non-JSON errors are classified by HTTP status. */ }
+async function readError(upstream) {
+  try { return (await upstream.json())?.error; } catch { return undefined; }
+}
+async function upstreamFailure(upstream, res, error) {
   const status = upstream.status;
   const code = SAFE_CODES.has(error?.code) ? error.code : 'unknown';
   const type = SAFE_TYPES.has(error?.type) ? error.type : 'unknown';
@@ -72,21 +73,45 @@ module.exports = async function handler(req, res) {
   catch (e) { return res.status(400).json({ error: e instanceof SyntaxError ? '入力形式を確認してください。' : e.message }); }
   let phase = 'request';
   try {
-    const upstream = await fetch('https://api.openai.com/v1/responses', {
+    const payload = { model: process.env.OPENAI_MODEL || 'gpt-4.1-mini', store: false, max_output_tokens: 1800,
+      instructions: instructions + guidance + '\n今日: ' + new Date().toISOString().slice(0, 10), input,
+      tools: [{ type: 'web_search', filters: { allowed_domains: ['randa.org', 'usga.org', 'jga.or.jp'] } }], tool_choice: 'required', max_tool_calls: 2 };
+    // Both attempts share one deadline. Never retry authentication, quota or network errors.
+    const signal = AbortSignal.timeout(50000);
+    const send = body => fetch('https://api.openai.com/v1/responses', {
       method: 'POST', headers: { Authorization: `Bearer ${process.env.OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
-      signal: AbortSignal.timeout(50000),
-      body: JSON.stringify({ model: process.env.OPENAI_MODEL || 'gpt-4.1-mini', store: false, max_output_tokens: 1800,
-        instructions: instructions + guidance + '\n今日: ' + new Date().toISOString().slice(0, 10), input,
-        tools: [{ type: 'web_search', filters: { allowed_domains: ['randa.org', 'usga.org', 'jga.or.jp'] } }], tool_choice: 'required', max_tool_calls: 2 })
+      signal, body: JSON.stringify(body)
     });
-    if (!upstream.ok) return await upstreamFailure(upstream, res);
+    let upstream = await send(payload);
+    let searchUnavailable = false;
+    if (!upstream.ok) {
+      const error = await readError(upstream);
+      const searchParams = ['tools', 'tools[0]', 'tools[0].type', 'tools[0].filters', 'tools[0].filters.allowed_domains', 'tool_choice', 'max_tool_calls'];
+      if (upstream.status !== 400 || !searchParams.includes(error?.param) || error?.code === 'insufficient_quota' || error?.type === 'insufficient_quota') {
+        return await upstreamFailure(upstream, res, error);
+      }
+      searchUnavailable = true;
+      delete payload.tools;
+      delete payload.tool_choice;
+      delete payload.max_tool_calls;
+      payload.instructions = 'あなたは日本語のゴルフ規則相談アシスタントです。今回はウェブ検索が利用できません。最新の公式規則を検索・確認したと主張しないでください。以下の参考資料と会話・写真をもとに暫定的に回答し、不確実な規則や番号は推測しないでください。結論、罰、次の行動を簡潔に示し、最終判断は委員会への確認を案内してください。写真から分からない条件は質問してください。ゴルフ以外には対応しないでください。' + guidance;
+      upstream = await send(payload);
+      if (!upstream.ok) {
+        const retryError = await readError(upstream);
+        return await upstreamFailure(upstream, res, retryError);
+      }
+    }
     phase = 'response';
     const data = await upstream.json();
     const parts = (data.output || []).filter(x => x.type === 'message').flatMap(x => x.content || []).filter(x => x.type === 'output_text');
     const text = parts.map(x => x.text).join('\n');
     if (data.status !== 'completed' || !text) throw Error('incomplete');
     const sources = parts.flatMap(x => x.annotations || []).filter(x => x.type === 'url_citation').map(x => ({ title: x.title, url: x.url }));
-    return res.status(200).json({ text, sources });
+    return res.status(200).json({
+      text: searchUnavailable ? '【参考回答：ウェブ検索が利用できないため、最新の公式規則は未確認です。競技での判断は委員会に確認してください。】\n\n' + text : text,
+      sources: searchUnavailable ? [] : sources,
+      searchUnavailable
+    });
   } catch (e) {
     return failure(res, e?.name === 'TimeoutError' || e?.name === 'AbortError' ? 'timeout' : phase === 'response' ? 'response' : 'network');
   }
