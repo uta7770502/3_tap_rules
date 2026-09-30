@@ -1,7 +1,7 @@
 /* High-resolution rule illustrations. No SVG or low-resolution fallback. */
 (function (root) {
   'use strict';
-  const version = '20260923-formal4';
+  const version = '20260930-minimal-a1';
   const guides = {
     'ob-boundary': { image:'ob-boundary', title:'OBの境界は、球全体で判定', label:'球の一部でもコース内にあればOBではない', steps:['白杭だけの場合は、地表面での杭のコース側の点を結ぶ線が境界。白線の場合はコース側の縁が境界で、線自体はOB側。','球全体が境界の外にあればOB。球の一部でもコース内にあればOBではない。','コース内の球をOB側に立って打つことはできる。白杭を抜いたり動かしたりしてはいけない。'] },
     'tee-area': { image:'tee-area', title:'ティーイングエリアの範囲', label:'球の位置を確認。足はエリア外でもよい', steps:['指定された2つのティーマーカーの最も前方の点を結ぶ線が前縁。側縁はそれぞれのマーカーの外側。','後方2クラブレングスの長方形がエリア。携帯する最も長いクラブ（パターを除く）で測る。','球の一部がエリアに触れるか、その上にあればエリア内。区域外から打った場合の処置は競技形式によって異なるため本文を確認。'] },
@@ -22,6 +22,10 @@
     redrop: { image: 'drop', title: '救済エリアの外に止まったら', label: '再ドロップ → それでも外ならプレース', steps: ['正しくドロップした球が救済エリアの外に止まったら、再ドロップする。', '2回目も外に止まったら、2回目に球が最初に地面に触れた箇所を確認する。', 'その箇所に球をプレースする。'] }
   };
   Object.assign(guides, {
+    'marker-shift': {image:'marker-shift',ext:'png',title:'移動したマーカーは元の位置へ',label:'図はパターヘッドを目安に位置を確認する場面',steps:['固定した目標物を目印に、動かす方向とヘッド何個分かを確認する。','他の人のプレー後、同じ目印・同じ距離を使ってマーカーを元へ戻す。','球を元の箇所へリプレースしてからマーカーを取り除く。戻さず別の箇所から打たない。'],source:15},
+    'drop-before-contact': {image:'drop-shoe',ext:'png',title:'地面に着く前に靴に当たった',label:'誤ったドロップの例。地面に触れる前の接触です',steps:['この図は推奨動作ではありません。地面より先に靴に当たると正しいドロップになりません。','打つ前に、本人が膝の高さから正しくドロップし直す。訂正すれば追加罰なし。','誤った方法のドロップは、プレースへ進むための2回には数えない。着地後の偶然の接触とは区別する。'],source:14},
+    'bunker-contact': {image:'bunker-contact',ext:'png',title:'バンカーでは接触の場面を確認',label:'図は球の後ろでクラブを砂から浮かせた構え',steps:['打つ前に、球の直前・直後の砂へクラブを接地しない（規則上の例外を除く）。','練習スイングやストロークのバックスイングで砂に触れたり、砂の状態を故意にテストしたりしない。','砂への接触がすべて罰になるわけではない。接触の目的と場面を本文で確認する。'],source:12},
+    'towel-ball': {image:'towel-ball',ext:'png',title:'タオルなどの上に球がある',label:'図はジェネラルエリアで、取り除く前の状態',steps:['球を拾い上げ、動かせる障害物を取り除く。','ジェネラルエリアでは球があった位置の真下を基準点にし、1クラブレングス以内・ホールに近づかない同じ区域へ無罰でドロップ。','グリーン上はドロップではなく、真下の推定箇所にプレースする。球が障害物の横にあるケースとも区別する。'],source:15},
     'wrong-green': {image:'wrong-green',title:'目的外グリーンからの救済',label:'球だけでなく、足・スイングも確認',steps:['プレー中のホールとは別のグリーンへの干渉を確認。','そのまま打たず、同じコース区域内で完全救済の基準点を決める。','ホールに近づかず1クラブレングス以内の救済エリアに無罰でドロップ。']},
     'double-hit': {image:'double-hit',title:'偶然の二度打ち',label:'1回のスイング中なら、追加罰なし・1打',steps:['同じ1回のストローク中の偶然の複数接触か確認。','該当する場合は1打だけを数える。','球が止まった場所から続ける。故意の別ストロークとは区別。']},
     'drop-contact': {image:'drop',title:'ドロップした球が靴に当たった',label:'地面に触れる前と後で、処置が変わる',steps:['地面に触れる前の接触なら正しくドロップし直す。','地面に触れた後の偶然の接触なら、止まった場所で判断。','救済エリア外に止まったら再ドロップの手順を確認。']},
@@ -42,7 +46,8 @@
     'drop-method':[195], redrop:[196]
   };
   const competition = {
-    'double-hit':[154], 'drop-contact':[244,245], 'wind-green':[93,148],
+    'marker-shift':[243], 'drop-before-contact':[245], 'bunker-contact':[59,92,149], 'towel-ball':[68,181],
+    'double-hit':[154], 'drop-contact':[244], 'wind-green':[93,148],
     'ob-boundary':[78,166,208], 'tee-area':[52], 'cart-stance':[183],
     'penalty-area':[14], 'red-penalty':[70,187], 'yellow-penalty':[71],
     unplayable:[17,40,192,193], abnormal:[12], embedded:[13,124,185],
@@ -66,8 +71,8 @@
     title.textContent = guide.title;
     const figure = document.createElement('figure');
     const image = document.createElement('img');
-    image.src = `assets/drop-guides/${guide.image}-hd.${guide.ext || 'webp'}?v=${version}`;
-    image.alt = `${guide.title}：青いポロシャツ・白いキャップのゴルファーによる場面イラスト`;
+    image.src = `assets/minimal-guides/${guide.image}-hd.png?v=${version}`;
+    image.alt = `${guide.title}：${guide.label}`;
     image.width = guide.image === 'drop-sequence' ? 1086 : 1536; image.height = guide.image === 'drop-sequence' ? 1448 : 1024;
     image.decoding = 'async';
     const caption = document.createElement('figcaption');
@@ -103,6 +108,7 @@
       container.append(detail);
     }
     container.append(steps, note);
+    if (guide.source) { const source=document.createElement('a'); source.href='https://www.randa.org/rog/the-rules-of-golf/rule-'+guide.source; source.textContent='根拠：R&A公式規則 '+guide.source+'（英語）'; source.target='_blank'; source.rel='noopener noreferrer'; container.append(source); }
     container.hidden = false;
   }
   const api = { guides, standard, competition, select, render, version };
