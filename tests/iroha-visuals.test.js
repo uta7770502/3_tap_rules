@@ -13,7 +13,7 @@ test('iroha images match their topic and exist on disk', () => {
     const visual = context.visualFor(rule);
     if (visual) { assert.ok(fs.existsSync(path.join(root,visual.src)), visual.src); assert.ok(visual.caption); }
   }
-  for (const id of [20,21,23,40,43,65,80,81,82,83,84]) assert.ok(context.visualFor(rules.find(r=>r.id===id)));
+  for (const id of [20,21,23,40,43,60,61,62,63,64,65,66,80,81,82,83,84]) assert.ok(context.visualFor(rules.find(r=>r.id===id)));
   assert.match(context.visualFor(rules.find(r=>r.id===65)).src,/red-hd/);
   assert.match(context.visualFor(rules.find(r=>r.id===83)).caption,/仕上げ/);
   assert.match(context.visualFor(rules.find(r=>r.id===84)).caption,/コースの案内/);

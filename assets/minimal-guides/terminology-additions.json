@@ -1,0 +1,19 @@
+{
+  "mode": "built-in",
+  "assets": [
+    {
+      "file": "fairway-rough-v1.png",
+      "source": "generated_images/exec-8d1b42fb-d8d1-4000-bf78-080fcb48acfa.png",
+      "note": "Generated during preceding turn; reused after visual inspection. Original prompt not retained."
+    },
+    {
+      "file": "green-v1.png",
+      "prompt": "Create a landscape 1536x1024 minimalist golf app illustration. Rounded dark teal outlines, white background and flat pale mint fills only. Plenty of whitespace. A putting green shown as a simple oval in perspective, short smooth mint turf, a clearly visible small cup with a flagstick inserted, white triangular flag outlined teal, one white golf ball on the green. No people, no words, no arrows, no scenery, no gradients, no photorealism. Match a friendly clean UI illustration set."
+    },
+    {
+      "file": "playing-four-v1.png",
+      "prompt": "Create landscape 1536x1024 golf app illustration in minimalist friendly rounded dark teal outlines, white background and pale mint flat fills. A designated forward playing area on a small patch of short grass, two simple round tee markers, and an upright rectangular course sign beside it that reads exactly 'PLAYING 4'. One faceless golfer wearing white cap, white polo and mint trousers stands relaxed holding an iron, beside a single golf ball RESTING DIRECTLY ON TURF between the markers, NOT on a wooden tee. Full body, generous whitespace. No swing, no arrows, no OB stakes, no penalties or drop zones illustrated, no scenery, no gradients. This is an illustrative sign for a course-specific forward playing local arrangement, not a rules diagram."
+    }
+  ],
+  "verification": "All seven terminology pages have illustration mappings; six Node tests pass. Browser rendering not verified."
+}

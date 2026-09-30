@@ -5,14 +5,14 @@ const path = require('node:path');
 const vm = require('node:vm');
 const root = path.join(__dirname, '..');
 const guides = require('../assets/rule-guides.js');
-test('all 31 active illustrations use the minimal A set', () => {
+test('all 34 active illustrations use the minimal A set', () => {
   const html = fs.readFileSync(path.join(root, 'basic_rule_detail.html'),'utf8');
   const code = html.slice(html.indexOf('const IROHA_VISUALS='),html.indexOf('document.addEventListener("DOMContentLoaded"'));
   const ctx = vm.createContext({}); vm.runInContext(code,ctx);
   const paths = new Set(Object.values(guides.guides).map(g=>'assets/minimal-guides/'+g.image+'-hd.png'));
   const rules = JSON.parse(fs.readFileSync(path.join(root,'basic_rules.json'),'utf8'));
   for(const rule of rules){ const visual=ctx.visualFor(rule); if(visual) paths.add(visual.src); }
-  assert.equal(paths.size,31);
+  assert.equal(paths.size,34);
   for(const src of paths){
     assert.match(src,/^assets\/minimal-guides\//);
     const data=fs.readFileSync(path.join(root,src));
