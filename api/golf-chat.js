@@ -1,6 +1,6 @@
 const { guidance } = require('../lib/golf-grounding');
 const { randomUUID } = require('node:crypto');
-const VERSION = '2026-09-29-search-recovery-1';
+const VERSION = '2026-10-01-gemini-fallback-1';
 // Never log upstream messages/bodies: they can contain keys or user input.
 const SAFE_CODES = new Set(['invalid_api_key', 'insufficient_quota', 'rate_limit_exceeded', 'model_not_found', 'unsupported_parameter', 'unsupported_value', 'invalid_value', 'missing_required_parameter', 'context_length_exceeded', 'invalid_request_error', 'server_error']);
 const SAFE_TYPES = new Set(['invalid_request_error', 'authentication_error', 'permission_error', 'rate_limit_error', 'insufficient_quota', 'server_error']);
@@ -64,15 +64,50 @@ function validate(body) {
 }
 module.exports = async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
-  if (req.method === 'GET') return res.status(200).json({ configured: Boolean(process.env.OPENAI_API_KEY), version: VERSION });
+  if (req.method === 'GET') return res.status(200).json({ configured: Boolean(process.env.GEMINI_API_KEY || process.env.OPENAI_API_KEY), provider: process.env.GEMINI_API_KEY ? 'gemini' : 'openai', version: VERSION });
   if (req.method !== 'POST') { res.setHeader('Allow', 'GET, POST'); return res.status(405).json({ error: 'この操作は利用できません。' }); }
   if (req.headers.origin && req.headers.origin !== `https://${req.headers.host}` && req.headers.origin !== `http://${req.headers.host}`) return res.status(403).json({ error: 'サイトを開き直してください。' });
-  if (!process.env.OPENAI_API_KEY) return res.status(503).json({ error: 'AIへの接続準備中です。設定が完了してからお試しください。' });
+  if (!process.env.GEMINI_API_KEY && !process.env.OPENAI_API_KEY) return res.status(503).json({ error: 'AIへの接続準備中です。設定が完了してからお試しください。' });
   let input;
   try { input = validate(typeof req.body === 'string' ? JSON.parse(req.body) : req.body); }
   catch (e) { return res.status(400).json({ error: e instanceof SyntaxError ? '入力形式を確認してください。' : e.message }); }
   let phase = 'request';
   try {
+    if (process.env.GEMINI_API_KEY) {
+      const contents = input.map(turn => {
+        const parts = typeof turn.content === 'string'
+          ? [{ text: turn.content }]
+          : turn.content.map(part => {
+              if (part.type === 'input_text') return { text: part.text };
+              if (part.type === 'input_image') {
+                const m = part.image_url.match(/^data:(image\/(?:jpeg|png|webp));base64,(.+)$/);
+                return { inlineData: { mimeType: m[1], data: m[2] } };
+              }
+            }).filter(Boolean);
+        return { role: turn.role === 'assistant' ? 'model' : 'user', parts };
+      });
+      const geminiPayload = {
+        systemInstruction: { parts: [{ text: instructions + guidance + '\n今日: ' + new Date().toISOString().slice(0, 10) + '\n今回はウェブ検索を使わず、内蔵の参考資料と会話・写真をもとに回答してください。最新規則を検索確認したとは主張せず、不確実な場合は委員会への確認を案内してください。' }] },
+        contents,
+        generationConfig: { maxOutputTokens: 1800, temperature: 0.2 }
+      };
+      const model = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
+      const upstream = await fetch('https://generativelanguage.googleapis.com/v1beta/models/' + encodeURIComponent(model) + ':generateContent', {
+        method: 'POST',
+        headers: { 'x-goog-api-key': process.env.GEMINI_API_KEY, 'Content-Type': 'application/json' },
+        signal: AbortSignal.timeout(50000),
+        body: JSON.stringify(geminiPayload)
+      });
+      if (!upstream.ok) {
+        const status = upstream.status;
+        return failure(res, status === 401 || status === 403 ? 'authentication' : status === 429 ? 'rate_limit' : status >= 400 && status < 500 ? 'request' : 'upstream', { provider: 'gemini', upstreamStatus: status });
+      }
+      phase = 'response';
+      const data = await upstream.json();
+      const text = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('\n').trim();
+      if (!text) throw Error('incomplete');
+      return res.status(200).json({ text, sources: [], searchUnavailable: true, provider: 'gemini' });
+    }
     const payload = { model: process.env.OPENAI_MODEL || 'gpt-4.1-mini', store: false, max_output_tokens: 1800,
       instructions: instructions + guidance + '\n今日: ' + new Date().toISOString().slice(0, 10), input,
       tools: [{ type: 'web_search', filters: { allowed_domains: ['randa.org', 'usga.org', 'jga.or.jp'] } }], tool_choice: 'required', max_tool_calls: 2 };
