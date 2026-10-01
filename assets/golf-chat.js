@@ -7,13 +7,10 @@
   d.style.whiteSpace = 'pre-wrap'; chat.appendChild(d); d.scrollIntoView({behavior:'smooth',block:'end'}); return d;
  }
  function clearPhoto() { selected = null; photoCamera.value = ''; photoLibrary.value = ''; $('preview').style.display = 'none'; $('previewImg').removeAttribute('src'); if(objectURL) URL.revokeObjectURL(objectURL); objectURL = null; }
- $('camera').onclick = () => { if(!busy) $('photoSheet').hidden = false; };
- $('photoSheet').onclick = e => { if(e.target === $('photoSheet')) $('photoSheet').hidden = true; };
- $('chooseLibrary').onclick = async () => { $('photoSheet').hidden = true; if(window.showOpenFilePicker) { try { const [handle] = await window.showOpenFilePicker({multiple:false,types:[{description:'写真',accept:{'image/*':['.jpg','.jpeg','.png','.webp','.heic']}}]}); const file = await handle.getFile(); return selectAndSend(file); } catch(e) { if(e && e.name === 'AbortError') return; } } photoLibrary.click(); };
+ $('camera').onclick = () => { if(!busy) photoLibrary.click(); };
  function selectPhoto(file) { if(!file) return; clearPhoto(); if(file.size > 20000000) { bubble('写真は20MB以内で選んでください。','ai'); return; } selected = file; objectURL = URL.createObjectURL(file); $('previewImg').src = objectURL; $('preview').style.display = 'block'; }
  async function selectAndSend(file) {
   if(!file) return;
-  $('photoSheet').hidden = true;
   selectPhoto(file);
   await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
   if(selected && !busy) send();
