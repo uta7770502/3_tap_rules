@@ -5,9 +5,8 @@
 <main class="wrap"><div class="intro"><b>その場の状況を見せてください。</b><br>写真を撮るか、話すだけ。必要な情報が足りなければAIが追加で質問し、処置・罰・根拠規則・次にすることを整理します。</div>
 <div class="actions"><button type="button" class="action camera" id="camera"><span class="action-icon"></span><span class="action-label">写真で相談</span></button><button type="button" class="action" id="mic"><span class="action-icon"></span><span class="action-label">話す</span></button><button type="button" class="action" id="textBtn"><span class="action-icon"></span><span class="action-label">入力する</span></button></div>
 <input id="photoCamera" type="file" accept="image/*" capture="environment" hidden><input id="photoLibrary" type="file" accept="image/*" hidden>
-<div class="photo-sheet" id="photoSheet" hidden role="dialog" aria-modal="true" aria-label="写真の選び方"><div class="photo-sheet-card"><label class="photo-choice" for="photoCamera">カメラで撮影</label><button type="button" class="photo-choice" id="chooseLibrary">写真ライブラリから選ぶ</button></div></div>
 <section class="preview" id="preview"><img id="previewImg" alt="撮影したコース状況"><div class="preview-row"><span><span class="photo-mark">PHOTO</span> この写真をAIに見せます</span><button class="remove" id="remove">撮り直す</button></div></section>
 <div class="hint">例：カート道／赤杭・黄杭／バンカー／修理地／球の位置などが分かるように撮影してください。</div>
 <p id="connection" class="hint" role="status">AIの接続状態を確認中…</p><button id="newChat" class="remove" type="button">新しい相談</button><section aria-live="polite" class="chat" id="chat"><div class="bubble ai">写真だけで判断できない場合は、「スタンスも道にかかる？」「杭は赤？黄？」など必要なことだけ質問します。</div></section></main>
 <footer class="composer"><div class="row"><input class="input" id="input" type="text" inputmode="text" autocomplete="off" enterkeyhint="send" placeholder="写真の補足や状況を入力" aria-label="状況を入力"><button class="send" id="send">AIに聞く</button></div></footer>
-<script src="assets/golf-chat.js?v=20261001-direct-library" defer></script></body></html>
+<script src="assets/golf-chat.js?v=20261001-ios-native-picker" defer></script></body></html>
