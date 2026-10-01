@@ -1,14 +1,20 @@
 (() => {
  const $ = id => document.getElementById(id);
- const input = $('input'), chat = $('chat'), photo = $('photo');
+ const input = $('input'), chat = $('chat'), photoCamera = $('photoCamera'), photoLibrary = $('photoLibrary');
  let messages = [], selected = null, busy = false, objectURL = null, configured = null;
  function bubble(text, cls) {
   const d = document.createElement('div'); d.className = 'bubble ' + cls; d.textContent = text;
   d.style.whiteSpace = 'pre-wrap'; chat.appendChild(d); d.scrollIntoView({behavior:'smooth',block:'end'}); return d;
  }
- function clearPhoto() { selected = null; photo.value = ''; $('preview').style.display = 'none'; $('previewImg').removeAttribute('src'); if(objectURL) URL.revokeObjectURL(objectURL); objectURL = null; }
- $('camera').onclick = () => { if(!busy) photo.click(); };
- photo.onchange = () => { const file = photo.files[0]; if(!file) return; clearPhoto(); if(file.size > 20000000) { bubble('写真は20MB以内で選んでください。','ai'); return; } selected = file; objectURL = URL.createObjectURL(file); $('previewImg').src = objectURL; $('preview').style.display = 'block'; };
+ function clearPhoto() { selected = null; photoCamera.value = ''; photoLibrary.value = ''; $('preview').style.display = 'none'; $('previewImg').removeAttribute('src'); if(objectURL) URL.revokeObjectURL(objectURL); objectURL = null; }
+ $('camera').onclick = () => { if(!busy) $('photoSheet').hidden = false; };
+ $('takePhoto').onclick = () => { $('photoSheet').hidden = true; photoCamera.click(); };
+ $('choosePhoto').onclick = () => { $('photoSheet').hidden = true; photoLibrary.click(); };
+ $('cancelPhoto').onclick = () => { $('photoSheet').hidden = true; };
+ $('photoSheet').onclick = e => { if(e.target === $('photoSheet')) $('photoSheet').hidden = true; };
+ function selectPhoto(file) { if(!file) return; clearPhoto(); if(file.size > 20000000) { bubble('写真は20MB以内で選んでください。','ai'); return; } selected = file; objectURL = URL.createObjectURL(file); $('previewImg').src = objectURL; $('preview').style.display = 'block'; }
+ photoCamera.onchange = () => selectPhoto(photoCamera.files[0]);
+ photoLibrary.onchange = () => selectPhoto(photoLibrary.files[0]);
  $('remove').onclick = clearPhoto;
  $('textBtn').onclick = () => { input.focus(); input.scrollIntoView({behavior:'smooth',block:'center'}); };
  let recognition = null, voiceTimer = null;
