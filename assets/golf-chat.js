@@ -11,8 +11,15 @@
  $('cancelPhoto').onclick = () => { $('photoSheet').hidden = true; };
  $('photoSheet').onclick = e => { if(e.target === $('photoSheet')) $('photoSheet').hidden = true; };
  function selectPhoto(file) { if(!file) return; clearPhoto(); if(file.size > 20000000) { bubble('写真は20MB以内で選んでください。','ai'); return; } selected = file; objectURL = URL.createObjectURL(file); $('previewImg').src = objectURL; $('preview').style.display = 'block'; }
- photoCamera.onchange = () => { $('photoSheet').hidden = true; selectPhoto(photoCamera.files[0]); };
- photoLibrary.onchange = () => { $('photoSheet').hidden = true; selectPhoto(photoLibrary.files[0]); };
+ async function selectAndSend(file) {
+  if(!file) return;
+  $('photoSheet').hidden = true;
+  selectPhoto(file);
+  await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+  if(selected && !busy) send();
+ }
+ photoCamera.onchange = () => selectAndSend(photoCamera.files[0]);
+ photoLibrary.onchange = () => selectAndSend(photoLibrary.files[0]);
  $('remove').onclick = clearPhoto;
  $('textBtn').onclick = () => { input.focus(); input.scrollIntoView({behavior:'smooth',block:'center'}); };
  let recognition = null, voiceTimer = null;
