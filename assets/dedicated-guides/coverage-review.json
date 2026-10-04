@@ -1,0 +1,4365 @@
+{
+  "criterion": "共用は同じ絵でも状況・動作・位置関係・判定を誤解しない場合だけ。カテゴリ一致のみの共用は不可。",
+  "inventory": [
+    {
+      "mode": "standard",
+      "id": 1,
+      "title": "ティーショットで空振り",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 2,
+      "title": "ティーマークの間と後方2クラブ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 3,
+      "title": "ティーイングエリア外からの打撃",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 4,
+      "title": "ティーからボールが転げ落ちた",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 5,
+      "title": "暫定球の宣言（ティー）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 6,
+      "title": "OBの特設ティー・前進4打（ゴルフ場ローカル）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 7,
+      "title": "ティーマークに当たったボール",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 8,
+      "title": "ティーの破損",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 9,
+      "title": "ティーショットで他人の順番を抜かす",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 10,
+      "title": "ティーショットが人や物に当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 11,
+      "title": "ティーイングエリアでの練習打",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 12,
+      "title": "ティーマークの移動",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 13,
+      "title": "打順の優先（オナー）",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 14,
+      "title": "プレーの準備",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 15,
+      "title": "隣のホールへの打球",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 16,
+      "title": "他人のボールを誤って拾う",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 17,
+      "title": "ボールが自分に当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 18,
+      "title": "ボールが同伴者に当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 19,
+      "title": "ボールが動物に当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 20,
+      "title": "誤って2つのボールを打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 21,
+      "title": "ボールが止まらず動いた",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 22,
+      "title": "ボールが割れた・変形した",
+      "status": "dedicated-required",
+      "asset": "ball",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 23,
+      "title": "ボールを探す時間",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 24,
+      "title": "ボールが木の枝に止まった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 25,
+      "title": "池の手前からのドロップ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 26,
+      "title": "グリーン上でボールが動いた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 27,
+      "title": "グリーン上で他人のボールを踏んだ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 28,
+      "title": "グリーン上のマーク忘れ",
+      "status": "case-specific",
+      "asset": "lift-no-marker",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 29,
+      "title": "ピンを抜かずにパット",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 30,
+      "title": "グリーン外からのパット",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 31,
+      "title": "グリーンでのスパイク跡修復",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 32,
+      "title": "グリーン上のラインを踏んだ",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 33,
+      "title": "グリーン上で旗竿に当たった",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 34,
+      "title": "プレー中のアドバイス",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 35,
+      "title": "誤って他人のラインを修復",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 36,
+      "title": "ストローク中に風で動いた旗竿",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 37,
+      "title": "グリーン外からのチップイン",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 38,
+      "title": "カップ周辺の整備",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 39,
+      "title": "旗竿を抜いた後の置き場所",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 40,
+      "title": "プレー中の安全確認",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 41,
+      "title": "グリーン上のボールマーク修復",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 42,
+      "title": "グリーン上の砂や枯葉",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 43,
+      "title": "旗竿を抜かずにパット",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 44,
+      "title": "他人のパッティングラインを踏む",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 45,
+      "title": "グリーン上の練習パット",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 46,
+      "title": "マーク位置ずれの戻し忘れ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 47,
+      "title": "風によるボール移動（グリーン上）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 48,
+      "title": "取り除いた旗竿に球が当たった",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 49,
+      "title": "他人のボールをマークして移動",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 50,
+      "title": "グリーン上での音や会話",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 51,
+      "title": "グリーン外の球をパターで打つ",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 52,
+      "title": "他人のボールに当たったパット",
+      "status": "case-specific",
+      "asset": "ball-collision-still",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 53,
+      "title": "グリーン上の一時的な水",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 54,
+      "title": "他人の球跡修復",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 55,
+      "title": "グリーン上でボールを拾い上げた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 56,
+      "title": "パットライン上のディボット",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 57,
+      "title": "ボールがカップの縁で止まった",
+      "status": "case-specific",
+      "asset": "cup-lip",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 58,
+      "title": "プレーライン上の修理地",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 59,
+      "title": "排水溝やカート道路上のボール",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 60,
+      "title": "グリーンの外でスプリンクラーが邪魔",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 61,
+      "title": "バンカーでクラブを地面につけた",
+      "status": "case-specific",
+      "asset": "sand-contact",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 62,
+      "title": "バンカーで砂をならす",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 63,
+      "title": "バンカー内でのスタンス練習",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 64,
+      "title": "バンカー内の落ち葉",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 65,
+      "title": "バンカー内の一時的な水",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 66,
+      "title": "アンプレヤブルの宣言",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 67,
+      "title": "ロストボール",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 68,
+      "title": "OBになったときの基本処置",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 69,
+      "title": "赤杭（ラテラル・ペナルティエリア）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 70,
+      "title": "黄杭（ペナルティエリア）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 71,
+      "title": "白杭と赤杭の間（境界）",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 72,
+      "title": "誤球を打った",
+      "status": "case-specific",
+      "asset": "wrong-ball",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 73,
+      "title": "プレー順を守らなかった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 74,
+      "title": "他人のクラブを使った",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 75,
+      "title": "14本以上クラブを入れていた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 76,
+      "title": "クラブを壊した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 77,
+      "title": "ボールをマークせず拾い上げた",
+      "status": "case-specific",
+      "asset": "lift-no-marker",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 78,
+      "title": "マークを忘れて拾い上げた",
+      "status": "case-specific",
+      "asset": "lift-no-marker",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 79,
+      "title": "他人のボールを踏んだ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 80,
+      "title": "動いているボールを打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 81,
+      "title": "同伴者の邪魔をした",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 82,
+      "title": "バンカーの外にクラブを置いた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 83,
+      "title": "打順を間違えた（マッチプレー）",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 84,
+      "title": "他人のショットに口出しした",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 85,
+      "title": "旗竿を持ちながらパットした",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 86,
+      "title": "ライン上の砂を吹き払った",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 87,
+      "title": "ホールアウトの確認忘れ",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 88,
+      "title": "旗竿を外した際にカップに傷をつけた",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 89,
+      "title": "グリーン上での影の位置",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 90,
+      "title": "旗竿を戻さず放置",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 91,
+      "title": "クラブで地面を叩いた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 92,
+      "title": "クラブを投げた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 93,
+      "title": "他人のパット中に動いた",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 94,
+      "title": "素振りで芝を削った",
+      "status": "dedicated-required",
+      "asset": "grass",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 95,
+      "title": "同伴者のショット時に話した",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 96,
+      "title": "グリーン上で携帯を鳴らした",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 97,
+      "title": "前の組への打ち込み",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 98,
+      "title": "クラブの本数申告忘れ",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 99,
+      "title": "グリーン上で他人の影が気になった",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 100,
+      "title": "誤って同伴者のボールを打った（誤球）",
+      "status": "case-specific",
+      "asset": "wrong-ball",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 101,
+      "title": "プレー中にクラブを交換した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 102,
+      "title": "誤所プレー（誤った場所から打った）",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 103,
+      "title": "キャディがボールを拾い上げた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 104,
+      "title": "他人のボールを意図的に動かした",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 105,
+      "title": "プレーの遅延",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 106,
+      "title": "同伴者のクラブを借りた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 107,
+      "title": "ティーイングエリアの外でティーアップ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 108,
+      "title": "自分のボールを見失った（ロスト）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 109,
+      "title": "OBラインをまたいでいた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 110,
+      "title": "ペナルティエリアに入った（赤杭）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 111,
+      "title": "誤所からのプレー",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 112,
+      "title": "誤って他人のボールを動かした",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 113,
+      "title": "ボールが木に引っかかった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 114,
+      "title": "カート道路に止まった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 115,
+      "title": "一時的な水に球が入った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 116,
+      "title": "池の後方からドロップ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 117,
+      "title": "暫定球を宣言せず打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 118,
+      "title": "プレー順を間違えた（ストロークプレー）",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 119,
+      "title": "ボールが他人のパットに当たった",
+      "status": "case-specific",
+      "asset": "ball-collision-still",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 120,
+      "title": "ホールアウト後にカップを直さなかった",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 121,
+      "title": "カートにボールが当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 122,
+      "title": "動いているカートにボールが当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 123,
+      "title": "他人のバッグやクラブにボールが当たった",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 124,
+      "title": "木の根元でスイングできない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 125,
+      "title": "ディボット跡に止まった",
+      "status": "case-specific",
+      "asset": "divot-ball",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 126,
+      "title": "誤って他人の方向に打った（危険球）",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 127,
+      "title": "二度打ち・二重打ち（1回のスイングで偶然2回当たった）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 128,
+      "title": "ボールがプレーヤー自身に当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 129,
+      "title": "他人のボールを探して動かした",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 130,
+      "title": "暫定球を打ってから元のボールが見つかった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 131,
+      "title": "バンカー内の石を動かした",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 132,
+      "title": "プレー前に砂を掘って確認した",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 133,
+      "title": "雨天時に傘を差したままショットした",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 134,
+      "title": "グリーン上で他人のボールを誤って蹴った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 135,
+      "title": "ボールが動いて他人のボールに当たった",
+      "status": "case-specific",
+      "asset": "ball-collision-still",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 136,
+      "title": "旗竿を持っている人に当たった",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 137,
+      "title": "ティーマークを動かした",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 138,
+      "title": "他人のクラブで素振りした",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 139,
+      "title": "プレー区域外に立って打った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 140,
+      "title": "ボールが旗竿に当たって跳ね返った",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 141,
+      "title": "フェアウェイでボールが埋まった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 142,
+      "title": "ディボット跡から球を動かしたい",
+      "status": "case-specific",
+      "asset": "divot-ball",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 143,
+      "title": "芝の上で泥が付着したボール",
+      "status": "dedicated-required",
+      "asset": "grass",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 144,
+      "title": "他人のディボットを直した",
+      "status": "dedicated-required",
+      "asset": "grass",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 145,
+      "title": "フェアウェイで他人のラインを踏んだ",
+      "status": "dedicated-required",
+      "asset": "grass",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 146,
+      "title": "ラフでクラブを地面につけた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 147,
+      "title": "長い草を押し倒して構えた",
+      "status": "case-specific",
+      "asset": "bend-grass",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 148,
+      "title": "ラフで落ち葉を動かした",
+      "status": "dedicated-required",
+      "asset": "grass",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 149,
+      "title": "深いラフでボールが見えない",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 150,
+      "title": "刈り込み中のラフでプレー",
+      "status": "dedicated-required",
+      "asset": "grass",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 151,
+      "title": "新ペリア（ダブルペリア）の計算方法",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 152,
+      "title": "同スコア時の順位決定方法",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 153,
+      "title": "コンペでのスコア誤記入",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 154,
+      "title": "スコアカードの代筆・証明",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 155,
+      "title": "ローカルルールと競技条件",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 156,
+      "title": "目的外グリーンに球が止まった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 157,
+      "title": "動かせる障害物が邪魔",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 158,
+      "title": "OB杭がスイングの邪魔",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 159,
+      "title": "動物の穴に球が入った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 160,
+      "title": "危険な動物が球の近くにいる",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 161,
+      "title": "ペナルティーエリア内からそのまま打つ",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 162,
+      "title": "自分の球か確認するため拾い上げる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 163,
+      "title": "地面にくい込んだ球の例外",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 164,
+      "title": "バンカーでアンプレヤブル",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 165,
+      "title": "暫定球を打てないケース",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 166,
+      "title": "OB・紛失球の2罰打前進救済（E-5採用時）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 167,
+      "title": "球を取り替えてよい場面",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 168,
+      "title": "切れた・ひびが入ったボール",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 169,
+      "title": "ネットスコア同点時の賞品順位",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 170,
+      "title": "重大なマナー・行動規範違反",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 171,
+      "title": "黄杭に入った球をそのまま打つ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 172,
+      "title": "黄杭から後方線上にドロップ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 173,
+      "title": "黄杭から直前の場所へ打ち直す",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 174,
+      "title": "黄杭内で球が見つからない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 175,
+      "title": "黄杭と赤杭の救済の違い",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 176,
+      "title": "黄杭・黄線の境界上に球がある",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 177,
+      "title": "黄杭内のカート道・人工物が邪魔",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 178,
+      "title": "青杭・青線の修理地に球がある",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 179,
+      "title": "青杭の修理地に球が見つからない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 180,
+      "title": "修理地がスタンスだけにかかる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 181,
+      "title": "修理地がプレー禁止区域になっている",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 182,
+      "title": "白杭の内側に球の一部が残っている",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 183,
+      "title": "白杭の外に立ってコース内の球を打つ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 184,
+      "title": "白杭を抜いて打ちたい",
+      "status": "case-specific",
+      "asset": "remove-white-stake",
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 185,
+      "title": "赤杭内の球をそのまま打つ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 186,
+      "title": "赤杭内で球が見つからない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 187,
+      "title": "赤杭・赤線の境界上に球がある",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 188,
+      "title": "池に入ったか分からず球も見つからない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 189,
+      "title": "ペナルティーエリア内でアンプレヤブルにしたい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 190,
+      "title": "ペナルティーエリア内の落ち葉・石を動かす",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 191,
+      "title": "カート道にスタンスだけがかかる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 192,
+      "title": "木の根が邪魔だが球は打てる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 193,
+      "title": "動物が球を持っていった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 194,
+      "title": "球が泥の中に埋まって見つからない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 195,
+      "title": "ドロップは膝の高さから",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 196,
+      "title": "ドロップした球が救済エリアの外に出た",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 197,
+      "title": "球を確認するため拾い上げたい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 198,
+      "title": "球についた泥を拭きたい",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 199,
+      "title": "フェアウェイで自分の球を偶然蹴った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 200,
+      "title": "風で球が動いた（グリーン以外）",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 201,
+      "title": "スプリンクラーがスタンスにかかる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 202,
+      "title": "金網・フェンスがスイングの邪魔",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 203,
+      "title": "目的外グリーンがスタンスにかかる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 204,
+      "title": "一時的な水がスタンスにかかる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 205,
+      "title": "OBかもしれないときは暫定球",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 206,
+      "title": "OBの特設ティーは使わないとダメ？",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 207,
+      "title": "OBの特設ティーから第何打？",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "standard",
+      "id": 208,
+      "title": "内部OB（コース内の白杭）",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 209,
+      "title": "道路を越えて別のホールに止まった球",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 210,
+      "title": "OB杭の色・境界表示が特殊なコース",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 211,
+      "title": "ペリア方式の計算方法",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 212,
+      "title": "新新ペリア方式",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 213,
+      "title": "隠しホールとは？",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 214,
+      "title": "ダブルパーカットとは？",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 215,
+      "title": "ハンディキャップ上限36",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 216,
+      "title": "同ネットの順位はどう決める？",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 217,
+      "title": "ドラコン賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 218,
+      "title": "ニアピン賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 219,
+      "title": "ベスグロ賞（BG）",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 220,
+      "title": "ブービー賞（BB）・ブービーメーカー（BM）",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 221,
+      "title": "飛び賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 222,
+      "title": "当日賞・開催日賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 223,
+      "title": "大波賞・小波賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 224,
+      "title": "水平賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 225,
+      "title": "オネストジョン方式",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 226,
+      "title": "OKパットありのコンペ",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 227,
+      "title": "ワンオン賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 228,
+      "title": "バーディー賞・パー賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 229,
+      "title": "最多パー賞・最多バーディー賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 230,
+      "title": "チーム戦（組対抗）",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 231,
+      "title": "ベストボール方式のチーム戦",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 232,
+      "title": "じゃんけん・抽選賞",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "standard",
+      "id": 233,
+      "title": "クラブ別・番手別の飛距離目安",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 234,
+      "title": "ドライバー（1W）の飛距離目安",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 235,
+      "title": "フェアウェイウッド（3W・5W）の飛距離目安",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 236,
+      "title": "ユーティリティ（UT）の飛距離目安",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 237,
+      "title": "7番アイアンは何ヤード？",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 238,
+      "title": "アイアン（6I〜9I）の飛距離目安",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 239,
+      "title": "ウェッジ（PW・AW・SW）の飛距離目安",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 240,
+      "title": "残り距離からクラブを選ぶ方法",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 241,
+      "title": "キャリーとランの違い",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 243,
+      "title": "グリーンのエアレーション穴をパット前に直したい",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 244,
+      "title": "グリーンの速さを調べるため手でこすった",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 245,
+      "title": "救済できるか確認するため球を拾い上げたい",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 246,
+      "title": "救済確認で拾った球を拭いたが救済できなかった",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 247,
+      "title": "茂みで打てない球だがカート道に足がかかる",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "standard",
+      "id": 248,
+      "title": "ティーから落ちている途中の球を打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 1,
+      "title": "自分の罰は自分で適用する",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 2,
+      "title": "スコアカードの提出",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 3,
+      "title": "クラブは14本まで",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 4,
+      "title": "距離計・機器を競技で使える？",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 5,
+      "title": "スタート時刻に遅れた",
+      "status": "dedicated-required",
+      "asset": "clubhouse",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 6,
+      "title": "誤球を打った",
+      "status": "case-specific",
+      "asset": "wrong-ball",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 7,
+      "title": "捜索中に自分の球を動かした",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 8,
+      "title": "自分の球を偶然動かした",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 9,
+      "title": "同伴者にクラブを聞いた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 10,
+      "title": "打った球が人や物に偶然当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 11,
+      "title": "正しいドロップ方法",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 12,
+      "title": "カート道・修理地などからの救済",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 13,
+      "title": "地面にくい込んだ球",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 14,
+      "title": "赤杭・黄杭に入った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 15,
+      "title": "OB・紛失球",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 16,
+      "title": "暫定球を打つ",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 17,
+      "title": "アンプレヤブルの3つの選択肢",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 18,
+      "title": "ストロークプレーで処置が分からない",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 19,
+      "title": "委員会の裁定",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 20,
+      "title": "ステーブルフォード等の競技形式",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 21,
+      "title": "障がいのあるプレーヤーへの修正規則",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 22,
+      "title": "規則1｜ゲーム、プレーヤーの行動、規則",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 23,
+      "title": "規則2｜コース",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 24,
+      "title": "規則3｜競技",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 25,
+      "title": "規則4｜プレーヤーの用具",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 26,
+      "title": "規則5｜ラウンドをプレーする",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 27,
+      "title": "規則6｜ホールをプレーする",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 28,
+      "title": "規則7｜球の捜索・確認",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 29,
+      "title": "規則8｜コースはあるがままにプレー",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 30,
+      "title": "規則9｜球はあるがままにプレー",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 31,
+      "title": "規則10｜ストロークの準備と実行・アドバイス",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 32,
+      "title": "規則11｜動いている球が偶然人・物に当たる",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 33,
+      "title": "規則12｜バンカー",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 34,
+      "title": "規則13｜パッティンググリーン",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 35,
+      "title": "規則14｜球の処置",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 36,
+      "title": "規則15｜ルースインペディメント・動かせる障害物",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 37,
+      "title": "規則16｜異常なコース状態・危険な動物・地面にくい込んだ球",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 38,
+      "title": "規則17｜ペナルティーエリア",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 39,
+      "title": "規則18｜ストロークと距離・紛失球・OB・暫定球",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 40,
+      "title": "規則19｜アンプレヤブルの球",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 41,
+      "title": "規則20｜ラウンド中の規則問題・レフェリー・委員会",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 42,
+      "title": "規則21｜その他の個人ストロークプレー・マッチプレー形式",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 43,
+      "title": "規則22｜フォアサム",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 44,
+      "title": "規則23｜フォアボール",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 45,
+      "title": "規則24｜チーム競技",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 46,
+      "title": "規則25｜障がいのあるプレーヤーのための修正",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 47,
+      "title": "相手がホールをコンシードした",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 48,
+      "title": "マーカーのスコア証明がない",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 49,
+      "title": "実際より少ないスコアを提出した",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 50,
+      "title": "ストロークプレー前にコースで練習した",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 51,
+      "title": "ホール間で練習パットした",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 52,
+      "title": "ティーイングエリア外から打った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 53,
+      "title": "順番を間違えて打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 54,
+      "title": "枝を曲げてスイング区域を作った",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 55,
+      "title": "パットでラインをまたいで構えた",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 56,
+      "title": "クラブを体に固定して打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 57,
+      "title": "アライメント棒を置いて構えた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 58,
+      "title": "キャディーが後方に立ったまま構えた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 59,
+      "title": "バンカーで砂にクラブをつけた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 60,
+      "title": "グリーン上の傷を直したい",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 61,
+      "title": "旗竿を立てたままパットした",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 62,
+      "title": "球をマークせず拾い上げた",
+      "status": "case-specific",
+      "asset": "lift-no-marker",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 63,
+      "title": "リプレースする場所が分からない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 64,
+      "title": "ドロップを肩の高さからした",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 65,
+      "title": "ドロップした球が救済エリア外に止まった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 66,
+      "title": "誤所からプレーした",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 67,
+      "title": "落ち葉や石を動かしたら球も動いた",
+      "status": "case-specific",
+      "asset": "leaf-ball",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 68,
+      "title": "動かせる障害物の上に球がある",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 69,
+      "title": "バンカー内の水たまりから救済したい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 70,
+      "title": "赤杭から横にドロップしたい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 71,
+      "title": "黄杭から横に2クラブで出したい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 72,
+      "title": "3分探しても球が見つからない",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 73,
+      "title": "暫定球が本球になった",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 74,
+      "title": "バンカーでアンプレヤブルにした",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 75,
+      "title": "処置が分からないので2球でプレーしたい",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 76,
+      "title": "重大な非行があった",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 77,
+      "title": "複数の規則違反が続けて起きた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 78,
+      "title": "球がコース内かOBか境界上にある",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 79,
+      "title": "プレー禁止区域に球がある",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 80,
+      "title": "ラウンド中にクラブを壊した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 81,
+      "title": "球に線を引いて使いたい",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 82,
+      "title": "スマホで天気や風向きを確認した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 83,
+      "title": "プレーを不当に遅らせた",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 84,
+      "title": "雷でプレーを中断したい",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 85,
+      "title": "ティーマーカーを動かした",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 86,
+      "title": "ホール途中で別の球に替えた",
+      "status": "dedicated-required",
+      "asset": "ball",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 87,
+      "title": "自分の球か確認したい",
+      "status": "dedicated-required",
+      "asset": "ball",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 88,
+      "title": "改善した状態を元に戻した",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 89,
+      "title": "観客や動物が球を動かした",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 90,
+      "title": "キャディーは何をしてよい？",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 91,
+      "title": "動いている球を故意に止めた",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 92,
+      "title": "バックスイングで砂に触れた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 93,
+      "title": "マーク後に風で球が動いた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 94,
+      "title": "球がホールの縁にせり出している",
+      "status": "case-specific",
+      "asset": "cup-lip",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 95,
+      "title": "拾い上げた球はいつインプレーに戻る？",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 96,
+      "title": "間違ったドロップを打つ前に直したい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 97,
+      "title": "他の球やボールマーカーが邪魔",
+      "status": "dedicated-required",
+      "asset": "mark",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 98,
+      "title": "蜂や蛇が球の近くにいて危険",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 99,
+      "title": "ペナルティーエリアから打った球がまた同じ区域へ入った",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 100,
+      "title": "いつでも前の場所から打ち直したい",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 101,
+      "title": "球が木の上にあって取れない",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 102,
+      "title": "ステーブルフォードの罰はどう扱う？",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 103,
+      "title": "最大スコア方式で上限に達した",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 104,
+      "title": "パー／ボギー競技の勝敗計算",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 105,
+      "title": "フォアサムで順番を間違えた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 106,
+      "title": "フォアボールで片方がホールアウトしなかった",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 107,
+      "title": "パートナーの行為で罰を受ける？",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 108,
+      "title": "チームのアドバイス係から助言を受けた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 109,
+      "title": "視覚障がいのあるプレーヤーの援助",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 110,
+      "title": "切断・義肢を使用するプレーヤー",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 111,
+      "title": "移動補助器具を使うプレーヤー",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 112,
+      "title": "ジェネラルエリアとは？",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 113,
+      "title": "完全救済のニアレストポイントとは？",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 114,
+      "title": "救済エリアとは？",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 115,
+      "title": "クラブレングスとは？",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 116,
+      "title": "分かっている、または事実上確実とは？",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 117,
+      "title": "外的影響とは？",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 118,
+      "title": "ルースインペディメントとは？",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 119,
+      "title": "障害物と境界物の違い",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 120,
+      "title": "インターナルOB",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 121,
+      "title": "公道がコースを横切る場合のOB",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 122,
+      "title": "OB・紛失球の2罰打前進救済",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 123,
+      "title": "球を動かしたことに気付かなかった場合",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 124,
+      "title": "地面にくい込んだ球の救済を制限・拡大",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 125,
+      "title": "グリーン近くのスプリンクラー等からの救済",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 126,
+      "title": "競技でカート使用が禁止されている",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 127,
+      "title": "壊れたクラブの交換制限",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 128,
+      "title": "グリーンリーディング資料の制限",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 129,
+      "title": "競技前に必ず確認するもの",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 130,
+      "title": "競技中にレフェリーを呼びたい",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 131,
+      "title": "競技終了後にスコアや罰の問題が判明した",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 132,
+      "title": "ローカルルールは公式規則より弱い？",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 133,
+      "title": "規則にない特殊な競技形式",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 134,
+      "title": "球が打った瞬間に完全に割れて複数片になった",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 135,
+      "title": "球に切れ目・ひびが入った",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 136,
+      "title": "違うホールのティーから打ってしまった（ストロークプレー）",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 137,
+      "title": "違うホールのティーから打ってしまった（マッチプレー）",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 138,
+      "title": "ティーショットを空振りした後、球をティーアップし直したい",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 139,
+      "title": "同伴者の球を間違えて打った（ストロークプレー）",
+      "status": "case-specific",
+      "asset": "wrong-ball",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 140,
+      "title": "打つ順番を間違えた（ストロークプレー）",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 141,
+      "title": "打つ順番を間違えた（マッチプレー）",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 142,
+      "title": "ラウンド中に球を別メーカーへ替えたい",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 143,
+      "title": "他人のクラブを借りて打ちたい",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 144,
+      "title": "クラブを怒って叩きつけて壊した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 145,
+      "title": "球を探している途中に自分で踏んで動かした",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 146,
+      "title": "キャディーが自分の球を偶然動かした",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 147,
+      "title": "風で止まっていた球が動いた（グリーン外）",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 148,
+      "title": "グリーンでリプレース後の球が風で動いた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 149,
+      "title": "バンカーの砂にクラブが触れた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 150,
+      "title": "グリーン上で自分の球を偶然動かした",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 151,
+      "title": "球がカートに当たって方向が変わった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 152,
+      "title": "救済を受けたが間違った場所から打ったかもしれない",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 153,
+      "title": "規則が分からず2球でプレーしたい",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 154,
+      "title": "1回のスイングで球を偶然2度打ちした",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 155,
+      "title": "動いている自分の球を故意にもう一度打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 156,
+      "title": "球を押し出すように打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 157,
+      "title": "長尺パターを体に固定して打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 158,
+      "title": "パットでラインをまたいで打った",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 159,
+      "title": "動いている球を打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 160,
+      "title": "観客から勝手にアドバイスされた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 161,
+      "title": "他の選手に何番で打ったか聞いた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 162,
+      "title": "セルフスタンドパターを立ててラインを合わせた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 163,
+      "title": "キャディーが後方に立ったままアドレスした",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 164,
+      "title": "タオルをサボテンに掛けてスタンスを取った",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 165,
+      "title": "球とクラブの間に草が挟まったまま打った",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 166,
+      "title": "OBフェンスの外側からクラブを振ってコース内の球を打った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 167,
+      "title": "雨具にクラブが偶然触れたまま打った",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 168,
+      "title": "服を手で押さえてクラブを固定して打った",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 169,
+      "title": "自分の打球が自分やキャディーに偶然当たった",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 170,
+      "title": "グリーンから打った球がグリーン上の別の静止球に当たった",
+      "status": "case-specific",
+      "asset": "ball-collision-still",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 171,
+      "title": "グリーンから打った球同士が動いている最中に当たった",
+      "status": "case-specific",
+      "asset": "ball-collision-moving",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 172,
+      "title": "球が犬・鳥などの上に止まった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 173,
+      "title": "動いている球を故意に足やクラブで止めた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 174,
+      "title": "ドロップした球を救済エリア内に止めるため故意に止めた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 175,
+      "title": "球を拾う前にマークし忘れた",
+      "status": "case-specific",
+      "asset": "lift-no-marker",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 176,
+      "title": "拾い上げた球を必要以上にきれいに拭いた",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 177,
+      "title": "リプレースした球が同じ場所に止まらない",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 178,
+      "title": "間違った球をドロップしたが打つ前に気づいた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 179,
+      "title": "後方線上救済で線から横にずらしてドロップした",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 180,
+      "title": "ルースインペディメントを動かしたら球も動いた",
+      "status": "case-specific",
+      "asset": "leaf-ball",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 181,
+      "title": "動かせる障害物の上に球が乗っている",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 182,
+      "title": "他人の球が自分のプレーの邪魔なので勝手に拾った",
+      "status": "dedicated-required",
+      "asset": "ball",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 183,
+      "title": "救済のニアレストポイントを選んだがスタンスがまだ道にかかる",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 184,
+      "title": "危険な蛇の近くに球があるがペナルティーエリア内",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 185,
+      "title": "地面にくい込んだ球が他人の古いピッチマークに入った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 186,
+      "title": "ペナルティーエリア内の球を拾ってしまった",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 187,
+      "title": "赤杭から反対側へ同じ距離でドロップしたい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 188,
+      "title": "暫定球を宣言せずに別の球を打った",
+      "status": "dedicated-required",
+      "asset": "ball",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 189,
+      "title": "暫定球を本球よりホールに近い場所から打った",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 190,
+      "title": "3分以内に球を見つけたが時間切れ後に本人確認した",
+      "status": "dedicated-required",
+      "asset": "ball",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 191,
+      "title": "バンカーの球をアンプレヤブルでバンカー外へ出したい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 192,
+      "title": "アンプレヤブルのラテラル救済で元の球があった場所より前に球が止まった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 193,
+      "title": "木の上の球をアンプレヤブルにしたい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 194,
+      "title": "マッチプレーで相手が間違った罰打数を伝えた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 195,
+      "title": "マッチプレーで相手の短いパットをOKした後に取り消したい",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 196,
+      "title": "相手がOKしていないのに短いパットを拾った",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 197,
+      "title": "フォアボールで自分の球を拾った後、パートナーの球がトラブルになった",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 198,
+      "title": "フォアボールでパートナーの球を自分が打った",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 199,
+      "title": "フォアボールでパートナーが自分の球をマークして拾った",
+      "status": "dedicated-required",
+      "asset": "mark",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 200,
+      "title": "フォーサムで打つ順番を間違えた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 201,
+      "title": "フォーサムでティーショット担当をホール途中で変えた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 202,
+      "title": "スリーボールマッチで1球が別の相手にも影響した",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 203,
+      "title": "最大スコア方式で上限に達したので球を拾った",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 204,
+      "title": "ステーブルフォードでホールアウトしなかった",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 205,
+      "title": "障がいのあるプレーヤーがキャディーとエイドの両方を使いたい",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 206,
+      "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 207,
+      "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 208,
+      "title": "球の一部だけがOBラインの内側にある",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 209,
+      "title": "球がペナルティーエリアの線に少し触れている",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 210,
+      "title": "球が救済エリアの線上に止まった",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 211,
+      "title": "白杭を抜いてから打った",
+      "status": "case-specific",
+      "asset": "remove-white-stake",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 212,
+      "title": "距離計で高低差を測った",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 213,
+      "title": "スマホの天気アプリで風向きを確認した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 214,
+      "title": "コンパスを使って風向きや方向を確認した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 215,
+      "title": "E-5採用競技でOB球が見つかった後に前進救済を使いたい",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 216,
+      "title": "プレー禁止区域にスタンスだけが入る",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 217,
+      "title": "球がホールの内壁にくい込んだが全部はグリーン面より下でない",
+      "status": "case-specific",
+      "asset": "cup-embedded",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 218,
+      "title": "一番長いクラブが折れているときのクラブレングス",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 219,
+      "title": "公開情報を言っただけなのにアドバイスになる？",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 220,
+      "title": "素振りのつもりが球に当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 221,
+      "title": "ダウンスイング中に打つのをやめたが球に当たった",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 222,
+      "title": "プレー禁止区域の外に球があるが枝が区域から伸びて邪魔",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 223,
+      "title": "マッチで後から相手の違反に気づいた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 224,
+      "title": "レフェリーが来ないので待ち続けている",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 225,
+      "title": "2球プレーしたが委員会に報告せずスコア提出した",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 226,
+      "title": "ステーブルフォードで罰によりそのホール0点になった",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 227,
+      "title": "パー・ボギー競技で一般の罰を受けた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 228,
+      "title": "フォーサムでパートナーのために球をマークした",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 229,
+      "title": "フォアボールで一人が失格になった",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 230,
+      "title": "チームキャプテンからプレー中に助言を受けた",
+      "status": "dedicated-required",
+      "asset": "consult",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 231,
+      "title": "内部OBがティーショットだけに適用される",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 232,
+      "title": "テレビ映像で後から自分が球を動かしたと判明した",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 233,
+      "title": "競技でカート禁止なのに善意の送迎に乗った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 234,
+      "title": "G-9採用競技で5番アイアンが大きく壊れたのでドライバーに交換したい",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 235,
+      "title": "G-9採用競技でバッグに持っていた部品を使ってクラブを修理した",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 236,
+      "title": "他人の古いピッチマークに球が沈んだがテレビ中継競技ではない",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 237,
+      "title": "競技中にスマホでゴルフ規則を調べた",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 238,
+      "title": "球がカップの縁で10秒を超えて待った後に落ちた",
+      "status": "case-specific",
+      "asset": "cup-lip",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 239,
+      "title": "旗竿に寄りかかった球を旗竿を動かして落とした",
+      "status": "case-specific",
+      "asset": "flag-lean",
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 240,
+      "title": "バンカーの砂をならした後で同じ場所へ球が戻ってきた",
+      "status": "dedicated-required",
+      "asset": "bunker",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 241,
+      "title": "球を探すため長い草を大きく動かしたらライが改善した",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 242,
+      "title": "自分の球だと思って拾ったら他人の球だった",
+      "status": "dedicated-required",
+      "asset": "ball",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 243,
+      "title": "ボールマーカーをパターで横へずらした後、戻し忘れた",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 244,
+      "title": "ドロップした球が自分の足に当たって救済エリア内に止まった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 245,
+      "title": "ドロップした球が地面に着く前に自分の靴に当たった",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 246,
+      "title": "プレースすべき球をドロップして打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 247,
+      "title": "ドロップすべき球をプレースして打った",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "competition",
+      "id": 248,
+      "title": "グリーン上の露や霜をラインから取り除いた",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 249,
+      "title": "グリーン上の砂や土を手で払った",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 250,
+      "title": "フェアウェイの砂を球の周りから取り除いた",
+      "status": "dedicated-required",
+      "asset": "grass",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 251,
+      "title": "グリーンのエアレーション穴をパット前に直したい",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 252,
+      "title": "グリーンの速さを調べるため手でこすった",
+      "status": "dedicated-required",
+      "asset": "green",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 253,
+      "title": "救済できるか確認するため球を拾い上げたい",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 254,
+      "title": "救済確認で拾った球を拭いたが救済できなかった",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 255,
+      "title": "茂みで打てない球だがカート道に足がかかる",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 256,
+      "title": "ティーから落ちている途中の球を打った",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 257,
+      "title": "修理地に入った球が見つからない",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "competition",
+      "id": 258,
+      "title": "泥に埋まったはずの球が見つからない",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 1,
+      "title": "ゴルフは何をするスポーツ？",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 2,
+      "title": "1ラウンド＝18ホール / アウト・イン",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 3,
+      "title": "パーとは？（Par3/4/5）",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 4,
+      "title": "スコアの数え方（打数＋罰打）",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "basic",
+      "id": 5,
+      "title": "打順の基本（最初/ティー/ホール内）",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 6,
+      "title": "プレーの基本の流れ（前半→昼→後半）",
+      "status": "dedicated-required",
+      "asset": "clubhouse",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 7,
+      "title": "7番アイアンを距離の基準にしよう",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 8,
+      "title": "残り何ヤードなら何番を持つ？",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 20,
+      "title": "前日：持ち物チェック（最低限）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 21,
+      "title": "前日：服装とドレスコード確認",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 22,
+      "title": "前日：スタート時刻と集合時間の目安",
+      "status": "shared-context-approved",
+      "asset": "clubhouse",
+      "reason": "記録・数値・受付・用具準備の共通場面。個別の動作や位置判定を図が示唆しない。"
+    },
+    {
+      "mode": "basic",
+      "id": 23,
+      "title": "当日朝：出発前の最終チェック",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 24,
+      "title": "当日：到着後の流れ（受付→ロッカー）",
+      "status": "shared-context-approved",
+      "asset": "clubhouse",
+      "reason": "記録・数値・受付・用具準備の共通場面。個別の動作や位置判定を図が示唆しない。"
+    },
+    {
+      "mode": "basic",
+      "id": 25,
+      "title": "ラウンド前：練習（やりすぎない）",
+      "status": "dedicated-required",
+      "asset": "stroke",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 26,
+      "title": "クラブは何本？初心者の基本セット",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "basic",
+      "id": 40,
+      "title": "① 前日：準備と確認",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 41,
+      "title": "② 当日朝：出発〜到着",
+      "status": "shared-context-approved",
+      "asset": "clubhouse",
+      "reason": "記録・数値・受付・用具準備の共通場面。個別の動作や位置判定を図が示唆しない。"
+    },
+    {
+      "mode": "basic",
+      "id": 42,
+      "title": "③ チェックイン→着替え→準備",
+      "status": "shared-context-approved",
+      "asset": "clubhouse",
+      "reason": "記録・数値・受付・用具準備の共通場面。個別の動作や位置判定を図が示唆しない。"
+    },
+    {
+      "mode": "basic",
+      "id": 43,
+      "title": "④ ウォームアップ・練習",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 44,
+      "title": "⑤ スタート前：ティーイングエリアへ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 45,
+      "title": "⑥ 前半ラウンド（基本の動き）",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 46,
+      "title": "⑦ 昼食（休憩）",
+      "status": "dedicated-required",
+      "asset": "clubhouse",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "basic",
+      "id": 47,
+      "title": "⑧ 後半ラウンド",
+      "status": "dedicated-required",
+      "asset": "course",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    },
+    {
+      "mode": "basic",
+      "id": 48,
+      "title": "⑨ ラウンド終了→片付け",
+      "status": "dedicated-required",
+      "asset": "equipment",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "basic",
+      "id": 49,
+      "title": "⑩ 入浴/着替え→精算→帰宅",
+      "status": "shared-context-approved",
+      "asset": "clubhouse",
+      "reason": "記録・数値・受付・用具準備の共通場面。個別の動作や位置判定を図が示唆しない。"
+    },
+    {
+      "mode": "basic",
+      "id": 60,
+      "title": "ティーイングエリア",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 61,
+      "title": "フェアウェイ / ラフ",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 62,
+      "title": "バンカー",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 63,
+      "title": "グリーン（パッティンググリーン）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 64,
+      "title": "OB（アウトオブバウンズ）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 65,
+      "title": "ペナルティエリア",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 66,
+      "title": "プレーイング4（前進4打）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 80,
+      "title": "安全確認（人がいたら打たない）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 81,
+      "title": "プレーファースト（テンポ）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 82,
+      "title": "ラインを踏まない（グリーン）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 83,
+      "title": "ボールマークは直す",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 84,
+      "title": "ディボット跡は修復",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 100,
+      "title": "OBの基本（ローカルもある）",
+      "status": "existing-artwork-review",
+      "asset": null,
+      "reason": null
+    },
+    {
+      "mode": "basic",
+      "id": 101,
+      "title": "ペナルティの考え方（罰打）",
+      "status": "dedicated-required",
+      "asset": "score",
+      "reason": "個別の内容を表す説明画像が必要。共通の場面画像だけでは完了扱いにしない。"
+    },
+    {
+      "mode": "basic",
+      "id": 102,
+      "title": "ロストボール（見つからない）",
+      "status": "dedicated-required",
+      "asset": "search",
+      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+    }
+  ]
+}

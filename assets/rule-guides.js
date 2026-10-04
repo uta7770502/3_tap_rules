@@ -59,6 +59,7 @@
     return Object.keys(table).find(key => table[key].includes(Number(rule.id))) || null;
   }
   function render(container, rule, mode) {
+    if(root.RuleScenes && root.RuleScenes.select(rule,mode)?.dedicated){root.RuleScenes.render(container,rule,mode);return;}
     const key = select(rule, mode);
     if (!key) { if(root.RuleScenes) root.RuleScenes.render(container, rule, mode); else container.hidden = true; return; }
     const guide = guides[key];

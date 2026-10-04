@@ -1,0 +1,23 @@
+{
+  "mode": "built-in imagegen",
+  "sources": {
+    "cup-lip": "27d6dd40-ad19-4079-9b2e-1612eadbe546",
+    "cup-embedded": "b6b2d39d-7320-47f1-bf25-2f7dc745f038",
+    "flag-lean": "c2febb5f-ca2a-4a03-a622-c7d42eecf6f4",
+    "ball-collision-still": "18093ac8-c70f-49ee-8448-4c6029cfa097",
+    "ball-collision-moving": "eda87f93-298f-4cbe-8200-8e8b771be74d",
+    "lift-no-marker": "a14c7268-d143-49a2-ba4d-00c0a9aee544",
+    "remove-white-stake": "5f1ebb54-d17f-4ae6-aa92-70d06c722eb7",
+    "bend-grass": "af2db7ae-d164-4313-aecb-346401b8ce52",
+    "divot-ball": "ce61a8d7-e55e-491e-9136-eb8e744cd512",
+    "sand-contact": "30d8d273-07b6-46be-9962-f49bc332323a",
+    "leaf-ball": "aa42794b-9dd8-4aa3-8b1f-4f4ae764fd7a",
+    "wrong-ball": "ad5dcea0-d8eb-4dad-9530-81ff9b75fe30"
+  },
+  "review": "Visually reviewed individually; cup-embedded corrected to show ball above surface",
+  "rule_references": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-11",
+    "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+  ]
+}
