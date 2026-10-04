@@ -32,3 +32,17 @@
 .sequence-label{position:absolute;left:3%;max-width:90%;background:#fffffff5;border-radius:7px;padding:5px 8px;font-size:clamp(11px,2.8vw,17px);font-weight:800;color:#125847;line-height:1.4}
 .sequence-0{top:1%}.sequence-1{top:30%}.sequence-2{top:65%}
 .sequence-area{position:absolute;left:30%;top:85%;width:42%;height:11%;border:3px dashed #ca2222;border-radius:50%;box-sizing:border-box;pointer-events:none}
+
+
+/* Compact contextual illustrations; the case-specific instructions stay in view. */
+.context-guide{border-left-color:#07816d}
+.context-guide h2{color:#08715f!important;font-size:17px}
+.scene-expand summary{display:block;cursor:zoom-in;list-style:none;border-radius:12px;overflow:hidden;background:#fff}
+.scene-expand summary::-webkit-details-marker{display:none}
+.scene-expand summary:focus-visible{outline:3px solid #087f68;outline-offset:3px}
+.scene-expand img{display:block;width:100%;height:200px;object-fit:contain;background:white}
+.scene-expand[open] img{height:auto;max-height:none}
+.scene-expand[open] summary{cursor:zoom-out}
+.scene-expand-hint{display:block;text-align:center;padding:8px;font-size:12px;color:#176352;background:#eff9f4}
+.scene-caption{font-size:13px!important;line-height:1.6!important;padding:8px 0}
+@media(max-width:430px){.scene-expand img{height:170px}}

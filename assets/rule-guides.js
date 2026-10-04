@@ -60,7 +60,7 @@
   }
   function render(container, rule, mode) {
     const key = select(rule, mode);
-    if (!key) { container.hidden = true; return; }
+    if (!key) { if(root.RuleScenes) root.RuleScenes.render(container, rule, mode); else container.hidden = true; return; }
     const guide = guides[key];
     container.classList.add('rule-guide');
     container.dataset.guide = key;
@@ -115,3 +115,4 @@
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.RuleGuides = api;
 })(typeof window !== 'undefined' ? window : globalThis);
+

@@ -1,0 +1,17 @@
+{
+  "generation": "built-in imagegen",
+  "style": "Rounded dark teal outlines, white and pale mint, faceless figures",
+  "sources": {
+    "score": "39648a9d-a18c-4ee9-9eca-6827b95c9ac0",
+    "equipment": "4083f399-4102-411d-bc00-f995a42e8eda",
+    "ball": "f2fccdc5-175c-4640-a30c-f9e3092aa46c",
+    "mark": "7c4e3578-2e29-4bf7-85f3-74215a07d45e",
+    "bunker": "e74bf1a8-e656-4ca1-b91c-df5d1c074825",
+    "course": "51cfd83d-2d09-4307-a620-a37118e60fd7",
+    "clubhouse": "75c7c877-5565-42c8-81cd-0440a5c32af4",
+    "consult": "82d387d6-a686-482b-a050-ae395b9b980a",
+    "search": "7087185f-7666-4121-9d45-b85967b19a77",
+    "stroke": "90f0abc5-ee14-4929-8100-af3caaf9591b"
+  },
+  "purpose": "Context illustrations, not rule-specific procedural diagrams"
+}
