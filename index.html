@@ -344,7 +344,7 @@ section:nth-of-type(1) {
 /* 種類で探すの基本ルールボタンだけ色変更 */
 .by-type .button-group button:first-child {
   background: #FFD84D !important; /* 黄色 */
-  color: ##00997f !important; /* グリーン文字 */
+  color: #00997f !important; /* グリーン文字 */
 }
 /* 種類ボタンの長いラベルをiPhone幅でも確実に収める */
 .by-type .button-group .type-btn {
@@ -496,56 +496,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     <a href="favorites.html"><img src="star-icon.png" alt="お気に入り" /></a>
   </nav>
   <script>
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.kw-chip[data-q]').forEach(el => {
-    el.addEventListener('click', () => {
-      const q = el.getAttribute('data-q') || '';
-      // デザイン変更なしで遷移だけ行う
-      location.href = 'rules.html?q=' + encodeURIComponent(q);
-    });
-  });
-});
-</script>
-  <script>
-document.addEventListener("DOMContentLoaded", () => {
-  // 既存の丸いキーワードボタンを全部取得
-  document.querySelectorAll(".chip").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const keyword = btn.textContent.trim();
-      // ページ遷移（ルール一覧へ）
-      location.href = "rules.html?q=" + encodeURIComponent(keyword);
-    });
-  });
-});
-</script>
-  <script>
-document.addEventListener("DOMContentLoaded", () => {
-  // 「人気のキーワード」のチップをすべて取得
-  document.querySelectorAll(".chip.kw-chip").forEach(chip => {
-    chip.addEventListener("click", () => {
-      const keyword = chip.dataset.q || chip.textContent.trim();
-      // クリックでルール一覧ページへ遷移
-      window.location.href = "rules.html?q=" + encodeURIComponent(keyword);
-    });
-  });
-});
-</script>
-  <script>
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".chip.kw-chip").forEach(chip => {
     chip.addEventListener("click", () => {
       const keyword = chip.dataset.q || chip.textContent.trim();
-      window.location.href = "rules.html?q=" + encodeURIComponent(keyword);
-    });
-  });
-});
-</script>
-  <script>
-document.addEventListener("DOMContentLoaded", () => {
-  // ✅ 人気のキーワードボタン
-  document.querySelectorAll(".chip, .kw-chip, .keyword-link").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const keyword = btn.dataset.q || btn.textContent.trim();
       location.href = "rules.html?q=" + encodeURIComponent(keyword);
     });
   });
