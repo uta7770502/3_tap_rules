@@ -144,6 +144,35 @@ document.addEventListener("DOMContentLoaded", async () => {
     const n = normalize(kw);
     const set = new Set([n]);
 
+    // コースで実際に使う言い方 → 登録ルールへ寄せる
+    const casual = [
+      [/池ポチャ|池に入|池/, ["ペナルティエリア", "赤杭", "黄杭"]],
+      [/ロスト|なくした|無くした|見つからない/, ["紛失球", "ボールが見つからない"]],
+      [/ボール.*動|球.*動|探して.*動/, ["ボールが動いた", "球を動かした", "捜索"]],
+      [/カート道|カート道路/, ["カート道", "動かせない障害物", "救済"]],
+      [/木の根|木.*根/, ["木の根", "アンプレ", "アンプレヤブル"]],
+      [/素振り.*砂|砂.*素振り/, ["バンカー", "砂に触れた", "練習スイング"]],
+      [/誤球|他人.*ボール|人のボール/, ["誤球"]],
+      [/打ち直し|暫定/, ["暫定球", "ストロークと距離"]],
+      [/ドロップ|落とし方/, ["ドロップ", "救済エリア"]],
+      [/ob|オービー/, ["白杭", "OB", "アウトオブバウンズ"]],
+      [/バンカー.*石|石.*バンカー/, ["バンカー", "ルースインペディメント", "石"]],
+      [/修理地|青杭|青線/, ["修理地", "異常なコース状態", "救済"]],
+      [/排水口|排水溝|スプリンクラー|動かせない障害物/, ["カート道路", "排水溝", "スプリンクラー", "異常なコース状態", "救済"]],
+      [/マーカー.*動|動.*マーカー/, ["ボールマーカー", "グリーン"]],
+      [/旗竿|ピン.*立て|ピン.*抜/, ["旗竿", "ピン", "グリーン"]],
+      [/二度打ち|2度打ち/, ["二度打ち", "ストローク"]],
+      [/空振り/, ["空振り", "ストローク"]],
+      [/自分.*当た|ボール.*当た/, ["球が人に当たった", "偶然", "方向を変えられた"]],
+      [/地面.*食い込|地面.*埋ま|埋まった/, ["地面にくい込んだ球", "救済"]],
+      [/動物.*穴/, ["動物の穴", "異常なコース状態", "救済"]],
+      [/水たまり|一時的な水/, ["一時的な水", "異常なコース状態", "救済"]],
+      [/落ち葉|枝|石/, ["ルースインペディメント", "自然物"]]
+    ];
+    casual.forEach(([pattern, terms]) => {
+      if (pattern.test(n)) terms.forEach(term => set.add(normalize(term)));
+    });
+
     // 場所
     if (n.includes("ティー")) set.add("ティーイングエリア");
     if (n.includes("フェアウェイ")) set.add("フェアウエイ").add("フェアウエー");
@@ -163,7 +192,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // 通常検索は「ルール名＋明示キーワード」のみ。本文中の偶然の一致は拾わない。
   const packSearchTerms = (r) =>
-    normalize(`${r.title || ""} ${(r.keywords || []).join(" ")}`);
+    normalize(`${r.title || ""} ${Array.isArray(r.keywords) ? r.keywords.join(" ") : (r.keywords || "")}`);
 
   // 🟢 JSON 読み込み
   let rules = [];
@@ -225,12 +254,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     listContainer.innerHTML = list
       .map(
         (r) => `
-        <button class="rule-card" onclick="location.href='rule.html?id=${r.id}'">
-          ${r.title}
+        <button class="rule-card" data-id="${encodeURIComponent(r.id)}">
+          ${String(r.title || "").replace(/[&<>"\']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","\'":"&#39;"}[ch]))}
         </button>
       `
       )
       .join("");
+    listContainer.querySelectorAll(".rule-card").forEach(btn => { btn.onclick = () => location.href = "rule.html?id=" + btn.dataset.id; });
   }
 });
   </script>
