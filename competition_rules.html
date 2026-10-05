@@ -19,7 +19,7 @@ function draw(){
   if(!v&&mode.type==="rule")a=a.filter(r=>parseInt(String(r.rule),10)===Number(mode.value));
   if(!v&&mode.type==="filter"){const terms=mode.value.toLowerCase().split(/\s+/);a=a.filter(r=>terms.some(t=>textOf(r).includes(t)));}
   count.textContent=a.length+"件表示 / 全"+rules.length+"件";
-  list.innerHTML=a.map(r=>`<article class="item" role="button" tabindex="0" data-id="${esc(r.id)}"><div class="rule">規則 ${esc(r.rule)} ・ ${esc(r.cat)}</div><h2>${esc(r.title)}</h2><p>${esc(r.summary)}</p></article>`).join("")||"<p>該当する競技ルールがありません。</p>";
+  list.innerHTML=a.map(r=>`<article class="item" role="button" tabindex="0" data-id="${esc(r.id)}"><div class="rule">${/MLR/i.test(r.rule)?"採用時のみ ・ ":/Clarification/i.test(r.rule)?"公式Clarification ・ ":/Committee/i.test(r.rule)?"委員会手続 ・ ":"Rule "}${esc(r.rule)} ・ ${esc(r.cat)}</div><h2>${esc(r.title)}</h2><p>${esc(r.summary)}</p></article>`).join("")||"<p>該当する競技ルールがありません。</p>";
   list.querySelectorAll(".item").forEach(el=>{const go=()=>location.href="competition_rule.html?id="+encodeURIComponent(el.dataset.id);el.onclick=go;el.onkeydown=e=>{if(e.key==="Enter"||e.key===" ")go();};});
 }
 fetch("competition_rules.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>{rules=d.map(normalize);const p=new URLSearchParams(location.search).get("q");if(p)q.value=p;draw()}).catch(()=>{list.innerHTML="<p>競技ルールを読み込めませんでした。</p>"});
