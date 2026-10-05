@@ -400,15 +400,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const dup = document.querySelectorAll("#searchArea input");
   if (dup.length > 1) dup[1].remove();
 
-  // ✅ rules.json 読み込み
-  let rules = [];
-  try {
-    const res = await fetch("rules.json");
-    rules = await res.json();
-  } catch (e) {
-    console.warn("rules.json 読み込みエラー:", e);
-  }
-
   // トップ検索も一覧検索と同じ検索エンジンへ渡し、俗称・同義語の結果を統一
   input.addEventListener("keydown", (e) => {
     if (e.key === "Enter" && input.value.trim()) {
@@ -430,7 +421,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 </script>
 
-  <button class="btn main" onclick="window.location.href='rules.html'">ルール一覧（2025 最新ver.）</button>
+  <button class="btn main" onclick="window.location.href='rules.html'">ルール一覧</button>
   <button class="btn sub" onclick="window.location.href='favorites.html'">
   <img src="hoshi-4.png" alt="★" class="star-icon"> お気に入り一覧
 </button>
