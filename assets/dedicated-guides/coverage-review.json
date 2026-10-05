@@ -333,9 +333,9 @@
       "mode": "standard",
       "id": 42,
       "title": "グリーン上の砂や枯葉",
-      "status": "dedicated-required",
-      "asset": "green",
-      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+      "status": "case-specific",
+      "asset": "green-debris-remove",
+      "reason": "対象物・動作・球の静止状態と場所を専用画像で確認済み。"
     },
     {
       "mode": "standard",
@@ -509,9 +509,9 @@
       "mode": "standard",
       "id": 64,
       "title": "バンカー内の落ち葉",
-      "status": "dedicated-required",
-      "asset": "bunker",
-      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+      "status": "case-specific",
+      "asset": "bunker-leaf-remove",
+      "reason": "対象物・動作・球の静止状態と場所を専用画像で確認済み。"
     },
     {
       "mode": "standard",
@@ -1181,9 +1181,9 @@
       "mode": "standard",
       "id": 148,
       "title": "ラフで落ち葉を動かした",
-      "status": "dedicated-required",
-      "asset": "grass",
-      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+      "status": "case-specific",
+      "asset": "rough-leaf-remove",
+      "reason": "対象物・動作・球の静止状態と場所を専用画像で確認済み。"
     },
     {
       "mode": "standard",
@@ -1517,9 +1517,9 @@
       "mode": "standard",
       "id": 190,
       "title": "ペナルティーエリア内の落ち葉・石を動かす",
-      "status": "dedicated-required",
-      "asset": "course",
-      "reason": "個別状況を表せる絵への差し替え対象。現在の場面画像は暫定。"
+      "status": "case-specific",
+      "asset": "penalty-leaf-remove",
+      "reason": "対象物・動作・球の静止状態と場所を専用画像で確認済み。"
     },
     {
       "mode": "standard",

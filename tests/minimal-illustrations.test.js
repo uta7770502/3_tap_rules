@@ -20,7 +20,7 @@ test('all 34 active illustrations use the minimal A set', () => {
     assert.ok(data.readUInt32BE(16)>=1000);
   }
   for(const file of ['rule_detail.html','competition_rule.html'])
-    assert.match(fs.readFileSync(path.join(root,file),'utf8'),/rule-guides\.js\?v=20261005-dedicated1/);
+    assert.match(fs.readFileSync(path.join(root,file),'utf8'),/rule-guides\.js\?v=20261005-dedicated2/);
 });
 test('guide renderer resolves minimal assets for every mapped rule',()=>{
   class Element {
@@ -40,4 +40,3 @@ test('guide renderer resolves minimal assets for every mapped rule',()=>{
     }
   }finally{delete global.document;}
 });
-
