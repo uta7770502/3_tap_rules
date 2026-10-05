@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     listContainer.innerHTML = list
       .map(
         (r) => `
-        <button class="rule-card" onclick="location.href='rule.html?id=${r.id}'">
+        <button class="rule-card" data-id="${encodeURIComponent(r.id)}">
           ${String(r.title || "").replace(/[&<>"\']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","\'":"&#39;"}[ch]))}
         </button>
       `
