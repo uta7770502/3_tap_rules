@@ -145,6 +145,17 @@ class="favorite-btn"style="margin:0 auto;">お気に入りに追加
       btn.href = `rule_detail.html?id=${encodeURIComponent(rule.id)}`;
       btn.textContent = rule.category === "クラブ" ? "詳しい目安・選び方を見る →" : "ペナルティと処置方法 →";
 
+      // 最近見たルール（最大5件）
+      try {
+        const HISTORY_KEY = "recentRules";
+        const current = { id: Number(rule.id), title: rule.title || "ルール" };
+        const history = JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]");
+        const next = [current, ...history.filter(item => Number(item.id) !== current.id)].slice(0, 5);
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(next));
+      } catch (historyError) {
+        console.warn("recentRules save error:", historyError);
+      }
+
     } catch (e) {
       titleEl.textContent = "ルールの読み込みに失敗しました";
       btn.style.display = "none";
