@@ -260,6 +260,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       `
       )
       .join("");
+    listContainer.querySelectorAll(".rule-card").forEach(btn => { btn.onclick = () => location.href = "rule.html?id=" + btn.dataset.id; });
   }
 });
   </script>
