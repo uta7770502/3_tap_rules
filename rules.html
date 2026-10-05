@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // 通常検索は「ルール名＋明示キーワード」のみ。本文中の偶然の一致は拾わない。
   const packSearchTerms = (r) =>
-    normalize(`${r.title || ""} ${(r.keywords || []).join(" ")}`);
+    normalize(`${r.title || ""} ${Array.isArray(r.keywords) ? r.keywords.join(" ") : (r.keywords || "")}`);
 
   // 🟢 JSON 読み込み
   let rules = [];
@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .map(
         (r) => `
         <button class="rule-card" onclick="location.href='rule.html?id=${r.id}'">
-          ${r.title}
+          ${String(r.title || "").replace(/[&<>"\']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","\'":"&#39;"}[ch]))}
         </button>
       `
       )
