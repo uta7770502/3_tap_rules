@@ -797,5 +797,150 @@
       "title": "車輪付き移動器具を使用するプレーヤーのバンカー内・付近の限定的救済",
       "status": "採用時のみ"
     }
+  ],
+  "clarificationGroups": [
+    {
+      "id": "C-R1",
+      "title": "Rule 1 Clarifications",
+      "rule": 1,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-1"
+    },
+    {
+      "id": "C-R3",
+      "title": "Rule 3 Clarifications",
+      "rule": 3,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-3"
+    },
+    {
+      "id": "C-R4",
+      "title": "Rule 4 Clarifications",
+      "rule": 4,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-4"
+    },
+    {
+      "id": "C-R5",
+      "title": "Rule 5 Clarifications",
+      "rule": 5,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-5"
+    },
+    {
+      "id": "C-R6",
+      "title": "Rule 6 Clarifications",
+      "rule": 6,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-6"
+    },
+    {
+      "id": "C-R7",
+      "title": "Rule 7 Clarifications",
+      "rule": 7,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-7"
+    },
+    {
+      "id": "C-R8",
+      "title": "Rule 8 Clarifications",
+      "rule": 8,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-8"
+    },
+    {
+      "id": "C-R9",
+      "title": "Rule 9 Clarifications",
+      "rule": 9,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-9"
+    },
+    {
+      "id": "C-R10",
+      "title": "Rule 10 Clarifications",
+      "rule": 10,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-10"
+    },
+    {
+      "id": "C-R11",
+      "title": "Rule 11 Clarifications",
+      "rule": 11,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-11"
+    },
+    {
+      "id": "C-R12",
+      "title": "Rule 12 Clarifications",
+      "rule": 12,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-12"
+    },
+    {
+      "id": "C-R13",
+      "title": "Rule 13 Clarifications",
+      "rule": 13,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-13"
+    },
+    {
+      "id": "C-R14",
+      "title": "Rule 14 Clarifications",
+      "rule": 14,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-14"
+    },
+    {
+      "id": "C-R15",
+      "title": "Rule 15 Clarifications",
+      "rule": 15,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-15"
+    },
+    {
+      "id": "C-R16",
+      "title": "Rule 16 Clarifications",
+      "rule": 16,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-16"
+    },
+    {
+      "id": "C-R17",
+      "title": "Rule 17 Clarifications",
+      "rule": 17,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-17"
+    },
+    {
+      "id": "C-R18",
+      "title": "Rule 18 Clarifications",
+      "rule": 18,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-18"
+    },
+    {
+      "id": "C-R19",
+      "title": "Rule 19 Clarifications",
+      "rule": 19,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-19"
+    },
+    {
+      "id": "C-R20",
+      "title": "Rule 20 Clarifications",
+      "rule": 20,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-20"
+    },
+    {
+      "id": "C-R21",
+      "title": "Rule 21 Clarifications",
+      "rule": 21,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-21"
+    },
+    {
+      "id": "C-R22",
+      "title": "Rule 22 Clarifications",
+      "rule": 22,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-22"
+    },
+    {
+      "id": "C-R23",
+      "title": "Rule 23 Clarifications",
+      "rule": 23,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-23"
+    },
+    {
+      "id": "C-R24",
+      "title": "Rule 24 Clarifications",
+      "rule": 24,
+      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-24"
+    },
+    {
+      "id": "C-D",
+      "title": "Definitions Clarifications",
+      "url": "https://www.randa.org/rog/definitions-clarifications"
+    }
   ]
 }
