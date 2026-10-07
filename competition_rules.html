@@ -6,8 +6,8 @@
 <div class="navTitle">救済をすぐ探す</div><div class="guide"><button data-filter="無罰 救済 カート道 修理地 異常なコース状態">無罰救済</button><button data-filter="1罰打 救済 ペナルティーエリア アンプレヤブル">1罰打の救済</button><button data-filter="ドロップ 再ドロップ 救済エリア">ドロップ・再ドロップ</button><button data-filter="アンプレヤブル Rule 19">アンプレヤブル</button></div>
 <div class="navTitle">Rule番号から探す</div><div class="rulesGrid" id="ruleGrid"><button data-rule="1">1</button><button data-rule="2">2</button><button data-rule="3">3</button><button data-rule="4">4</button><button data-rule="5">5</button><button data-rule="6">6</button><button data-rule="7">7</button><button data-rule="8">8</button><button data-rule="9">9</button><button data-rule="10">10</button><button data-rule="11">11</button><button data-rule="12">12</button><button data-rule="13">13</button><button data-rule="14">14</button><button data-rule="15">15</button><button data-rule="16">16</button><button data-rule="17">17</button><button data-rule="18">18</button><button data-rule="19">19</button><button data-rule="20">20</button><button data-rule="21">21</button><button data-rule="22">22</button><button data-rule="23">23</button><button data-rule="24">24</button><button data-rule="25">25</button></div>
 <div class="navTitle">公式ガイド</div><div style="margin:0 0 10px"><a href="competition_official_index.html" style="display:block;text-align:center;text-decoration:none;background:#111;color:#fff;border-radius:15px;padding:13px;font-weight:800">公式項目を漏れなく見る →</a></div><div class="guide"><button data-filter="定義">定義</button><button data-filter="Clarification">Clarifications</button><button data-filter="MLR ローカルルール">MLR・ローカルルール</button><button data-filter="委員会">委員会手続</button></div>
-<div class="count" id="count"></div><div id="list"></div></main><script>
-let rules=[],mode={type:"all",value:""};const q=document.getElementById("q"),list=document.getElementById("list"),count=document.getElementById("count");
+<div class="count" id="count"></div><div id="officialMatches"></div><div id="list"></div></main><script>
+let rules=[],official=[],mode={type:"all",value:""};const q=document.getElementById("q"),list=document.getElementById("list"),count=document.getElementById("count");
 function normalize(r){
   const keys=Array.isArray(r.keys)?r.keys:String(r.keywords||"").split(/[\s、,]+/).filter(Boolean);
   return {...r,summary:r.summary||r.description||"",action:r.action||r.procedure||"",cat:r.cat||r.category||"",keys};
@@ -16,6 +16,9 @@ function esc(s){return String(s??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&
 function textOf(r){return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...r.keys].join(" ").toLowerCase();}
 function draw(){
   const v=q.value.trim().toLowerCase();
+  const om=document.getElementById("officialMatches");
+  const oa=v?official.filter(x=>(x.id+" "+x.title).toLowerCase().includes(v)):[];
+  om.innerHTML=oa.length?`<div class="navTitle">公式索引の一致</div>${oa.slice(0,30).map(x=>`<a class="item" style="display:block;text-decoration:none;color:inherit" href="competition_official_index.html"><div class="rule">公式索引 ・ ${esc(x.id)}</div><h2>${esc(x.title)}</h2></a>`).join("")}`:"";
   let a=rules.filter(r=>!v||textOf(r).includes(v));
   if(!v&&mode.type==="rule")a=a.filter(r=>parseInt(String(r.rule),10)===Number(mode.value));
   if(!v&&mode.type==="filter"){const terms=mode.value.toLowerCase().split(/\s+/);a=a.filter(r=>terms.some(t=>textOf(r).includes(t)));}
@@ -23,7 +26,7 @@ function draw(){
   list.innerHTML=a.map(r=>`<article class="item" role="button" tabindex="0" data-id="${esc(r.id)}"><div class="rule">${/MLR/i.test(r.rule)?"採用時のみ ・ ":/Clarification/i.test(r.rule)?"公式Clarification ・ ":/Committee/i.test(r.rule)?"委員会手続 ・ ":"Rule "}${esc(r.rule)} ・ ${esc(r.cat)}</div><h2>${esc(r.title)}</h2><p>${esc(r.summary)}</p></article>`).join("")||"<p>該当する競技ルールがありません。</p>";
   list.querySelectorAll(".item").forEach(el=>{const go=()=>location.href="competition_rule.html?id="+encodeURIComponent(el.dataset.id);el.onclick=go;el.onkeydown=e=>{if(e.key==="Enter"||e.key===" ")go();};});
 }
-fetch("competition_rules.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>{rules=d.map(normalize);
+Promise.all([fetch("competition_rules.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json()),fetch("competition_official_index.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.json())]).then(([d,idx])=>{rules=d.map(normalize);official=[...(idx.definitions||[]),...(idx.committeeProcedures||[]),...(idx.clarificationGroups||[]),...(idx.modelLocalRules||[])];
 document.querySelectorAll("[data-rule]").forEach(b=>{const n=Number(b.dataset.rule),hits=rules.filter(r=>parseInt(String(r.rule),10)===n).length;b.textContent=n+" ("+hits+")";});
 const p=new URLSearchParams(location.search).get("q");if(p)q.value=p;draw()}).catch(()=>{list.innerHTML="<p>競技ルールを読み込めませんでした。</p>"});
 function activate(el){document.querySelectorAll("[data-filter],[data-rule]").forEach(x=>x.classList.remove("active"));if(el)el.classList.add("active");}
