@@ -1,0 +1,2524 @@
+{
+  "repository_base": "af3b0ebeaeeb3de64f011fdeb9ce71ac6bf602b6",
+  "note": "61 is a historical additional-composition plan, NOT total app assets. Source recovery does not imply approval, full rules audit, or app publication. Preserve originals; production selections tracked separately.",
+  "generated_records": [
+    {
+      "index": 0,
+      "original_name": "ゴルフルール61項目ガイド.png",
+      "library_file_id": "libfile_3682da7be78881919249e19df63368ff",
+      "created_at": "2026-10-13T05:45:15.776208Z",
+      "sha256": "3ddcd1a89b7bf3122d5056a488ac9e96bd282c9fc5ff7e48a96ea0e1f0883434",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2179551,
+      "archive_path": null,
+      "review_status": "rejected-low-resolution-overview",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 1,
+      "original_name": "ゴルフルール61項目イラスト図解.png",
+      "library_file_id": "libfile_d4be7b6e1d648191bd44ce0ebcd8b521",
+      "created_at": "2026-10-13T05:40:16.255014Z",
+      "sha256": "be558435c105d3f61651946b0e68e9ffd0883884be8dd5d7acb49ba6720c3035",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2202371,
+      "archive_path": null,
+      "review_status": "rejected-low-resolution-overview",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 2,
+      "original_name": "ゴルフルール61項目図解ポスター.png",
+      "library_file_id": "libfile_7db13201f3208191a598382ebef4ed43",
+      "created_at": "2026-10-13T05:38:38.188785Z",
+      "sha256": "faaebd318ba5db3313b7ff62088bf745cb95933d65e04569725b1e74ca81f34d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2127673,
+      "archive_path": null,
+      "review_status": "rejected-low-resolution-overview",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 3,
+      "original_name": "ゴルフルール・マナー61選インフォグラフィック.png",
+      "library_file_id": "libfile_cb534cc3805c8191a3dd2917b3c11571",
+      "created_at": "2026-10-13T05:00:07.393022Z",
+      "sha256": "58c0c991e2b350ce576818317c9dc418f11f52c6fab314d0093d6f1ed33bd36b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2199096,
+      "archive_path": null,
+      "review_status": "rejected-low-resolution-overview",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 4,
+      "original_name": "ゴルフルール図解パネル集.png",
+      "library_file_id": "libfile_829aa69a87588191a8293462d293c1ed",
+      "created_at": "2026-10-13T04:52:47.692246Z",
+      "sha256": "e85a4097373aff9c1eff3181cce8b6b38a70ab3c5323d3e775bf917f0053f680",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1747940,
+      "archive_path": null,
+      "review_status": "rejected-low-resolution-overview",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 5,
+      "original_name": "ゴルフルール早わかり31項目ガイド.png",
+      "library_file_id": "libfile_aa57b5fba3bc819199cf5a175d8930d3",
+      "created_at": "2026-10-13T03:38:38.383926Z",
+      "sha256": "27e6ce2cede9252c4f68a694d12bbba746347e0a181b11b1d9109b82033e2ac0",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2005062,
+      "archive_path": null,
+      "review_status": "rejected-low-resolution-overview",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 6,
+      "original_name": "修理地の外へ伸びる枝とゴルフボール.png",
+      "library_file_id": "libfile_6c91329d0f20819194439e709e22373f",
+      "created_at": "2026-10-12T23:53:46.897963Z",
+      "sha256": "852e64c411aa1313c43d2edd3f1d1cc1e92c6c71b5c30dbab1f54e777872041f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1809350,
+      "archive_path": "artwork-archive/recovered-20261013/852e64c411aa1313c43d.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 7,
+      "original_name": "保護区域に片足、ボールは区域外.png",
+      "library_file_id": "libfile_ee7fa294c5748191840363028427e62a",
+      "created_at": "2026-10-12T23:51:25.187219Z",
+      "sha256": "59dac139876ccd4668cd209ac502193d8f32a554a7663f6ea4d733b76cd77fcc",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1536845,
+      "archive_path": "artwork-archive/recovered-20261013/59dac139876ccd4668cd.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 8,
+      "original_name": "保護区域内のゴルフボール.png",
+      "library_file_id": "libfile_a0330402a0848191926294f0e9179b59",
+      "created_at": "2026-10-12T23:33:18.443725Z",
+      "sha256": "44f6c728574199c827195bed364c252b2e206d2099c50aed65ce255e569d43a5",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1665541,
+      "archive_path": "artwork-archive/recovered-20261013/44f6c728574199c82719.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 9,
+      "original_name": "ラフに佇むアイアンとボール.png",
+      "library_file_id": "libfile_a44cd92ee03c8191b244585bd2b0e8e0",
+      "created_at": "2026-10-12T23:28:17.015663Z",
+      "sha256": "12368b02dfe9fc13c98a2009bccf973887bba7ca2bd56e1afc6bc734e04d3951",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1726610,
+      "archive_path": "artwork-archive/recovered-20261013/12368b02dfe9fc13c98a.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 10,
+      "original_name": "モダンドライバーヘッドに変更.png",
+      "library_file_id": "libfile_fb3a36c474a88191aa8b9d6d3d0aa5cd",
+      "created_at": "2026-10-12T23:26:32.187278Z",
+      "sha256": "9231cddabc6e33b9acdd3799c590059271aba1927d65c46ab137e2f5a862dd6a",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1525875,
+      "archive_path": "artwork-archive/recovered-20261013/9231cddabc6e33b9acdd.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 11,
+      "original_name": "芝にそっと置くドライバー.png",
+      "library_file_id": "libfile_979831af75788191b58fc7b485d86742",
+      "created_at": "2026-10-12T23:26:29.022367Z",
+      "sha256": "e56eb87282c5042ed4c28a520085207385b1a5996af7197802aa9da4caf5ca21",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1434424,
+      "archive_path": "artwork-archive/recovered-20261013/e56eb87282c5042ed4c2.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 12,
+      "original_name": "旗竿を抜いた人の靴に当たるボール.png",
+      "library_file_id": "libfile_53a0e05c3e8081918cc76489041c53b0",
+      "created_at": "2026-10-12T23:01:06.515922Z",
+      "sha256": "f8eb24f167c57b5a0bdf43dbe63009bdab4b1035b22f79d0ea12d83801e3ab57",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1409513,
+      "archive_path": "artwork-archive/recovered-20261013/f8eb24f167c57b5a0bdf.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 13,
+      "original_name": "アイアンとボール、芝越しの瞬間.png",
+      "library_file_id": "libfile_f3479220d9748191bcdfd4bf6f1627a9",
+      "created_at": "2026-10-12T22:56:18.076635Z",
+      "sha256": "3d13698651841b6cfe32c53999bb6cdc27c5d37f01a5e625ea07c2bc093ab4a6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1544592,
+      "archive_path": "artwork-archive/recovered-20261013/3d13698651841b6cfe32.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 14,
+      "original_name": "グリーン手前のボールとスプリンクラー.png",
+      "library_file_id": "libfile_ddcedeb6a58c8191a13957b628f0bf6f",
+      "created_at": "2026-10-12T14:43:22.734701Z",
+      "sha256": "98dd7023eafabb8329b5ba74b9644a07b25a54771e7b98415f18132798e18aef",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1370639,
+      "archive_path": "artwork-archive/recovered-20261013/98dd7023eafabb8329b5.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 15,
+      "original_name": "フェアウェイの修理地.png",
+      "library_file_id": "libfile_f5ee4338145c81919cf2292720875172",
+      "created_at": "2026-10-12T14:38:43.988171Z",
+      "sha256": "1986549edd55d6ddeaea08edab4f56e02fb554d0306e6a09704c3a670a7fb44a",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1391830,
+      "archive_path": "artwork-archive/recovered-20261013/1986549edd55d6ddeaea.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 16,
+      "original_name": "滑らかな底と白いヘッドカバーのゴルフバッグ.png",
+      "library_file_id": "libfile_3bdbd1c3ee288191856cbbcab7958ed1",
+      "created_at": "2026-10-12T14:35:32.465029Z",
+      "sha256": "80cdf135947e52bcb6733532666b030447051f2d9ecc0c4d0f55ffcc0a88a602",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1645189,
+      "archive_path": "artwork-archive/recovered-20261013/80cdf135947e52bcb673.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 17,
+      "original_name": "待機中のゴルファーに当たるボール.png",
+      "library_file_id": "libfile_7de439cabadc81919825e19cedd39f10",
+      "created_at": "2026-10-12T14:35:26.974115Z",
+      "sha256": "70b1175f33ee9df163bb19091f2ae678b5dd116583847ab5b9a80af1a8b2b67d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1633131,
+      "archive_path": "artwork-archive/recovered-20261013/70b1175f33ee9df163bb.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 18,
+      "original_name": "ふくらはぎに当たるゴルフボール.png",
+      "library_file_id": "libfile_246482a1c6c881918e4bd75079ea3c65",
+      "created_at": "2026-10-12T14:31:03.714275Z",
+      "sha256": "7092e55d894a6f76ddf8ca3bbaafa2473a78e88ae3eb748ed6151c86dc1f9157",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1448706,
+      "archive_path": "artwork-archive/recovered-20261013/7092e55d894a6f76ddf8.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 19,
+      "original_name": "ボール前に小枝を置くゴルファー.png",
+      "library_file_id": "libfile_a4c30103ca8881918413f5884d05c9f8",
+      "created_at": "2026-10-12T14:28:04.771616Z",
+      "sha256": "74af42e8ba1e114848203ad3b128af91beb1f0728946468ea944a86959d4b064",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1486793,
+      "archive_path": "artwork-archive/recovered-20261013/74af42e8ba1e11484820.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 20,
+      "original_name": "転がるゴルフボールを靴で止める.png",
+      "library_file_id": "libfile_73b54e6523688191892cf256efc425b5",
+      "created_at": "2026-10-12T14:24:28.637626Z",
+      "sha256": "ecf0d6587aa514cc5eba274db3ab50470dfaae790fa0c96c99ae14b87584fba9",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1515431,
+      "archive_path": "artwork-archive/recovered-20261013/ecf0d6587aa514cc5eba.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 21,
+      "original_name": "白と淡いミントの枝.png",
+      "library_file_id": "libfile_0a60970d73888191b6d93f7df9e0ca40",
+      "created_at": "2026-10-12T14:21:42.904257Z",
+      "sha256": "ffd7b67e9d472b919f43ca82e23c37539bbd55f7f5419bfe8015d943919ca764",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1539385,
+      "archive_path": "artwork-archive/recovered-20261013/ffd7b67e9d472b919f43.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 22,
+      "original_name": "転がるボールと小枝を拾う手.png",
+      "library_file_id": "libfile_411f1d81a9748191999839c594802697",
+      "created_at": "2026-10-12T14:21:38.888149Z",
+      "sha256": "bd265a727241b6ccde2c57799774214a2e27bd05b068bc9efe0087edc4530be4",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1555890,
+      "archive_path": "artwork-archive/recovered-20261013/bd265a727241b6ccde2c.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 23,
+      "original_name": "旗竿に弾かれた白球.png",
+      "library_file_id": "libfile_5b501de2a9f881919b7e8df70e52580f",
+      "created_at": "2026-10-12T14:18:00.514817Z",
+      "sha256": "9c8142a77e0c67926b422b110544e2327fe3ae9833f4bd2aca070ee0d5ef1be6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1117080,
+      "archive_path": "artwork-archive/recovered-20261013/9c8142a77e0c67926b42.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 24,
+      "original_name": "自然に垂れ下がる枝と離れる手袋.png",
+      "library_file_id": "libfile_92aa12edc19c8191b1e175300c153585",
+      "created_at": "2026-10-12T14:15:27.476426Z",
+      "sha256": "a90d25bcf8ac8a50a843ae898e5387cde877e54090154175a1d1955010a7b48f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1632787,
+      "archive_path": "artwork-archive/recovered-20261013/a90d25bcf8ac8a50a843.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 25,
+      "original_name": "ゴルフボール上の枝を持ち上げる手(1).png",
+      "library_file_id": "libfile_5ae4f0464fc08191b010161efb537f05",
+      "created_at": "2026-10-12T14:07:57.679798Z",
+      "sha256": "0a7ba5a0d0099b7ece6069ffc1a2f242f032520f3a5edf23feec0a800caf1404",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1542592,
+      "archive_path": "artwork-archive/recovered-20261013/0a7ba5a0d0099b7ece60.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 26,
+      "original_name": "ゴルフボール上の枝を持ち上げる手.png",
+      "library_file_id": "libfile_6463e9ee96648191b406f63dd39dfa3c",
+      "created_at": "2026-10-12T13:58:43.321064Z",
+      "sha256": "0a7ba5a0d0099b7ece6069ffc1a2f242f032520f3a5edf23feec0a800caf1404",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1542592,
+      "archive_path": "artwork-archive/recovered-20261013/0a7ba5a0d0099b7ece60.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 27,
+      "original_name": "ゴルフシューズとアライメントロッド.png",
+      "library_file_id": "libfile_e2adb63874788191bf3f37e70922baf1",
+      "created_at": "2026-10-12T13:56:00.054727Z",
+      "sha256": "9254f42f4ee0026ff370599268ff747c9d8cf7002e1e385af20c9f30bf588334",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1456178,
+      "archive_path": "artwork-archive/recovered-20261013/9254f42f4ee0026ff370.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 28,
+      "original_name": "茂みのゴルフボールとカート道.png",
+      "library_file_id": "libfile_e67ab7e35d808191b3799bb888b54ebf",
+      "created_at": "2026-10-12T12:22:28.382406Z",
+      "sha256": "8f81555be9b93c40860a392a14c79d37dddbe0c59547d55f6e02065cb2e9b059",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1932646,
+      "archive_path": "artwork-archive/recovered-20261013/8f81555be9b93c40860a.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 29,
+      "original_name": "境界杭近くのゴルフボール.png",
+      "library_file_id": "libfile_7e8776aa5310819184c3ead1f3bb84fd",
+      "created_at": "2026-10-12T12:22:24.122658Z",
+      "sha256": "794ea3b1d195bd4eeff8ba7b375375d33ae876db68ac86285bd04547b0b63cc7",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1347696,
+      "archive_path": "artwork-archive/recovered-20261013/794ea3b1d195bd4eeff8.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 30,
+      "original_name": "バンカーの砂際に止まるゴルフボール.png",
+      "library_file_id": "libfile_6e81920951d48191a2a57a67f7ed3275",
+      "created_at": "2026-10-12T12:18:16.483791Z",
+      "sha256": "a38687bc57c96c30cae529d597f91870f682b9619912ab25a8c9b0bacd3548ae",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1477638,
+      "archive_path": "artwork-archive/recovered-20261013/a38687bc57c96c30cae5.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 31,
+      "original_name": "カートに当たるゴルフボール.png",
+      "library_file_id": "libfile_80df29c76d988191b23db203b41ce1d3",
+      "created_at": "2026-10-12T12:12:39.003787Z",
+      "sha256": "ad0683ae1e828179cb2cbeb380a96fb33c464959e53eb8f76c1d5593d4c53b2b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1547130,
+      "archive_path": "artwork-archive/recovered-20261013/ad0683ae1e828179cb2c.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 32,
+      "original_name": "犬の前足に触れるゴルフボール.png",
+      "library_file_id": "libfile_6d6dd59386e88191a3bc495bbc38de1d",
+      "created_at": "2026-10-12T12:12:34.662486Z",
+      "sha256": "a7a9d5d56f313161b47f77cd50bda1c57f002714ff6a068003b85631a925ac6d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1554473,
+      "archive_path": "artwork-archive/recovered-20261013/a7a9d5d56f313161b47f.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 33,
+      "original_name": "背中にゴルフボールを乗せた白い犬.png",
+      "library_file_id": "libfile_4a02d5f812ac8191b6c9cada10e91a07",
+      "created_at": "2026-10-12T12:07:09.263061Z",
+      "sha256": "f52f1086b67dda7c5e4f20141faf6e1860ad30f5c6ba55543a853ff24f0dd56c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1483248,
+      "archive_path": "artwork-archive/recovered-20261013/f52f1086b67dda7c5e4f.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 34,
+      "original_name": "タオルで覆われたサボテンとゴルフボール.png",
+      "library_file_id": "libfile_8cfce0c80a4c81918c4ce98cbb50b1aa",
+      "created_at": "2026-10-12T12:07:04.697038Z",
+      "sha256": "445430087d68155e3bfe7925604bc7ec04fb9701c1796465237c984568b77770",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1479303,
+      "archive_path": "artwork-archive/recovered-20261013/445430087d68155e3bfe.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 35,
+      "original_name": "指先で探るバンカーの砂.png",
+      "library_file_id": "libfile_1a4047f0c64c81919087b65e68d71cd3",
+      "created_at": "2026-10-12T11:25:56.441972Z",
+      "sha256": "0d00f9213b3ea56228e4bc65b919a73914466cbbcbf54bf720b3d7ee5e15b04f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1345028,
+      "archive_path": "artwork-archive/recovered-20261013/0d00f9213b3ea56228e4.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 36,
+      "original_name": "バンカーで整える自然な足元.png",
+      "library_file_id": "libfile_f11280bc753c81919d9e88b0b6c024a1",
+      "created_at": "2026-10-12T11:25:51.688139Z",
+      "sha256": "69010eb9a21c842538e583f1669ab796bcecaf093847f1211cc1c2d1c057696e",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1255924,
+      "archive_path": "artwork-archive/recovered-20261013/69010eb9a21c842538e5.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 37,
+      "original_name": "ボールからカップへ続くパットライン.png",
+      "library_file_id": "libfile_a091920d6e0c8191a21ba22a583f97ab",
+      "created_at": "2026-10-12T09:06:17.785556Z",
+      "sha256": "301c832f420ee6c9e54d47ea02ebaa5e13d45bc141feaea5e9e1fb56c8c3498f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1918502,
+      "archive_path": "artwork-archive/recovered-20261013/301c832f420ee6c9e54d.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 38,
+      "original_name": "グリーンの露を拭うゴルフタオル.png",
+      "library_file_id": "libfile_33a888b5380881919359a2dc8f73bbd7",
+      "created_at": "2026-10-12T09:06:13.036169Z",
+      "sha256": "9fd359b73fd1b52fda6804f77ae6c4c70919712778a53f8af3a9dbcdf704da74",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1832505,
+      "archive_path": "artwork-archive/recovered-20261013/9fd359b73fd1b52fda68.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 39,
+      "original_name": "ゴルフボール前の砂を払う手.png",
+      "library_file_id": "libfile_82c1e4b064408191a1058f4db966577f",
+      "created_at": "2026-10-12T09:06:08.430876Z",
+      "sha256": "5c7d19dbc7bd4256e50ae8fb344a9ab73222564156cb15ac120e779833d8d0fc",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1642004,
+      "archive_path": "artwork-archive/recovered-20261013/5c7d19dbc7bd4256e50a.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 40,
+      "original_name": "グリーンの感触を確かめる手.png",
+      "library_file_id": "libfile_4df8847d8cf48191869ab22f6d75df28",
+      "created_at": "2026-10-12T08:56:17.185861Z",
+      "sha256": "7060206cebaee1e641cc439c58df78c4bcce679d66d09f7c74d3cca52b7e4288",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1221086,
+      "archive_path": "artwork-archive/recovered-20261013/7060206cebaee1e641cc.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 41,
+      "original_name": "グリーンの小さなエアレーション穴.png",
+      "library_file_id": "libfile_0e3c5abf294c8191aee98908357fc867",
+      "created_at": "2026-10-12T08:56:12.821929Z",
+      "sha256": "00e473e3ac3b014189aa1a2bdfcac82979b54f121787535bcb1afa143a991382",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1195081,
+      "archive_path": "artwork-archive/recovered-20261013/00e473e3ac3b014189aa.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 42,
+      "original_name": "ラフの白砂に埋まるゴルフボール.png",
+      "library_file_id": "libfile_f237bf87441c8191bdaeab5dde737170",
+      "created_at": "2026-10-12T00:59:28.658253Z",
+      "sha256": "8a46eb29a49060d88cdebcb9e9176ee758ffbd427381a234f2d8419249e15217",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1755146,
+      "archive_path": "artwork-archive/recovered-20261013/8a46eb29a49060d88cde.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 43,
+      "original_name": "フェアウェイに埋まるゴルフボール.png",
+      "library_file_id": "libfile_d5d0383aaba481918185a71797f2a311",
+      "created_at": "2026-10-12T00:59:22.311557Z",
+      "sha256": "c089877182605716f814d17310ce8c91a8a4fc127fd486bd28c6491d2b349932",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1472321,
+      "archive_path": "artwork-archive/recovered-20261013/c089877182605716f814.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 44,
+      "original_name": "白砂バンカーの浅い水たまり.png",
+      "library_file_id": "libfile_9284c9a8483c8191a0640217d7810c75",
+      "created_at": "2026-10-12T00:52:35.835825Z",
+      "sha256": "1cda5bc148cab142ccc2a7dafaede651b11f61e70797f1fc38c600575be369f6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1592711,
+      "archive_path": "artwork-archive/recovered-20261013/1cda5bc148cab142ccc2.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 45,
+      "original_name": "浅い雨たまりのゴルフボール.png",
+      "library_file_id": "libfile_87f15abf3dd08191bb8c0bc54be9dafd",
+      "created_at": "2026-10-12T00:52:31.502872Z",
+      "sha256": "8e7bf629027f30a354f22fba601aaa59aef2a6d185bd4bcbc78ee850821847a2",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1440133,
+      "archive_path": "artwork-archive/recovered-20261013/8e7bf629027f30a354f2.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 46,
+      "original_name": "木の根に挟まれたゴルフボール.png",
+      "library_file_id": "libfile_0d7c71b6c2648191bcab51d6b18a1545",
+      "created_at": "2026-10-12T00:52:28.220707Z",
+      "sha256": "f11487b89a8fae4c3521492d4b79e725b0e6b2e02d1cdcc00f4dd97c6fee70fc",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1393930,
+      "archive_path": "artwork-archive/recovered-20261013/f11487b89a8fae4c3521.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 47,
+      "original_name": "タオルの上のゴルフボール.png",
+      "library_file_id": "libfile_3ea64e7c4fd48191bfbd32fc140428c2",
+      "created_at": "2026-10-12T00:52:25.246212Z",
+      "sha256": "965a57dc1d4d4fee0d7230f981374c47fdda52498d8a3a27329b99e06a0a7ea2",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1529308,
+      "archive_path": "artwork-archive/recovered-20261013/965a57dc1d4d4fee0d72.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 48,
+      "original_name": "排水溝に止まるゴルフボール.png",
+      "library_file_id": "libfile_e68b9df7697881919a4464ebc340748e",
+      "created_at": "2026-10-12T00:47:43.029823Z",
+      "sha256": "726ea788feddcabb900872d02dd106807a047238cc6bf780fd528f3796fe2886",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1569845,
+      "archive_path": "artwork-archive/recovered-20261013/726ea788feddcabb9008.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 49,
+      "original_name": "カート道にかかるゴルフアドレス.png",
+      "library_file_id": "libfile_d4b893a583d88191bb11f2b954d8dd3e",
+      "created_at": "2026-10-12T00:27:23.683321Z",
+      "sha256": "bcbf8d1457f71e920b7ead3165aa1330159722358c8064d86b0be787fec1f549",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1682621,
+      "archive_path": "artwork-archive/recovered-20261013/bcbf8d1457f71e920b7e.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 50,
+      "original_name": "カート道に止まるゴルフボール.png",
+      "library_file_id": "libfile_e2f685343f948191a7ec538f7cc317bd",
+      "created_at": "2026-10-12T00:27:20.487889Z",
+      "sha256": "e09c1b953ba4d4bcf9c31f401f1215b1a5c4066db62fd6bf1cc7b7996da5648e",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1556746,
+      "archive_path": "artwork-archive/recovered-20261013/e09c1b953ba4d4bcf9c3.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 51,
+      "original_name": "左足元の水たまりと乾いたボール.png",
+      "library_file_id": "libfile_8659ec774368819182d7aaf8e84886b9",
+      "created_at": "2026-10-11T14:59:25.104795Z",
+      "sha256": "8863c4097a02fcf79787a934fb6061cf9eecff8172c0ad9ddc699d9ce3a850aa",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1385820,
+      "archive_path": "artwork-archive/recovered-20261013/8863c4097a02fcf79787.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 52,
+      "original_name": "スプリンクラーカバー上のゴルフスタンス.png",
+      "library_file_id": "libfile_b13fedd92a3c81919a437259785c13b4",
+      "created_at": "2026-10-11T14:59:20.757105Z",
+      "sha256": "c6fc8e5fb8346f14fc2636bf8b0537401034315604926261a9a20f1591018aec",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1367184,
+      "archive_path": "artwork-archive/recovered-20261013/c6fc8e5fb8346f14fc26.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 53,
+      "original_name": "空のティー脇のゴルフボール.png",
+      "library_file_id": "libfile_f2577d593c2c8191b233b2d43dce354a",
+      "created_at": "2026-10-06T09:54:18.061887Z",
+      "sha256": "60492a7c5fee45c1a940caeb327f64a38917c874fa66f5916d8dde89bb55f099",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1453908,
+      "archive_path": "artwork-archive/recovered-20261013/60492a7c5fee45c1a940.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 54,
+      "original_name": "深いラフに隠れた白球.png",
+      "library_file_id": "libfile_188314ba5eb8819199b3dbfb76fe22de",
+      "created_at": "2026-10-06T09:38:12.188600Z",
+      "sha256": "a3bd214b0731e8e4f0ade9ebd727de0f3413af9c0e8f06122618009bfed6ec2b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1516668,
+      "archive_path": "artwork-archive/recovered-20261013/a3bd214b0731e8e4f0ad.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 55,
+      "original_name": "ゴルフボールとティーマーカーの接触.png",
+      "library_file_id": "libfile_6ae8aa5702988191bfe8e03cf97c6a71",
+      "created_at": "2026-10-06T09:38:09.221228Z",
+      "sha256": "dda2e981d73641a369b7f2f91fcc17aeb1dc505026b7f3251de38b0b8c2c89b0",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1478314,
+      "archive_path": "artwork-archive/recovered-20261013/dda2e981d73641a369b7.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 56,
+      "original_name": "芝生に横たわる細い旗竿とゴルフボール.png",
+      "library_file_id": "libfile_e36986f036f08191b932bf8d0e5c5f85",
+      "created_at": "2026-10-06T00:19:49.768526Z",
+      "sha256": "0f58c3f379a54de283fdc894612b3ec5c33512290e33c41178fee5bda717fbdf",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1341335,
+      "archive_path": "artwork-archive/recovered-20261013/0f58c3f379a54de283fd.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 57,
+      "original_name": "横たわる旗竿に触れるゴルフボール.png",
+      "library_file_id": "libfile_faa48d5a28e08191962019a28651a8e9",
+      "created_at": "2026-10-06T00:19:46.895045Z",
+      "sha256": "644091cce78b6e266b2c97765b8754944a78e77308e218686ee5cc1bead13762",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1385222,
+      "archive_path": "artwork-archive/recovered-20261013/644091cce78b6e266b2c.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 58,
+      "original_name": "芝から持ち上げるゴルフティーマーカー.png",
+      "library_file_id": "libfile_614aee49b5148191b71247aa4c81ff50",
+      "created_at": "2026-10-06T00:19:43.977131Z",
+      "sha256": "c53b99f32b4e6d78e250f34af1f77155bb967c2d24cfdaf75dc6f72454c36009",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1244256,
+      "archive_path": "artwork-archive/recovered-20261013/c53b99f32b4e6d78e250.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 59,
+      "original_name": "ボールが寄り添うゴルフバッグ.png",
+      "library_file_id": "libfile_98549afe3fd881919bc87909f8d018fd",
+      "created_at": "2026-10-05T13:51:24.386470Z",
+      "sha256": "dfb88b3dda45e9c50bd9994ff50a8e39888f711ea848ff41c98c8a6deddaebb6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1560827,
+      "archive_path": "artwork-archive/recovered-20261013/dfb88b3dda45e9c50bd9.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 60,
+      "original_name": "ゴルフバッグに当たる小さなボール.png",
+      "library_file_id": "libfile_c8226d0390908191b3652a39afd06fab",
+      "created_at": "2026-10-05T13:51:21.136582Z",
+      "sha256": "7708c598c114df7ea39f0ea5ae44f432d7b407e82cffe1db156821f57a9eb0a9",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1548371,
+      "archive_path": "artwork-archive/recovered-20261013/7708c598c114df7ea39f.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 61,
+      "original_name": "ゴルフボールと蛇の危険な距離.png",
+      "library_file_id": "libfile_acf92f20267081919d38bc5eaab37569",
+      "created_at": "2026-10-05T13:51:17.799017Z",
+      "sha256": "9cc39158094904bf94ae6c81685499e7e261d956616adde1b0d444be0e605201",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1355936,
+      "archive_path": "artwork-archive/recovered-20261013/9cc39158094904bf94ae.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 62,
+      "original_name": "静止球と空き缶の除去.png",
+      "library_file_id": "libfile_7422296b80088191840553f07dd79f4c",
+      "created_at": "2026-10-05T13:41:05.379332Z",
+      "sha256": "323a8c58cc8adc8f47d8eed06bd4de56fbd46a1a42eb4c45416c013fe3f5ae25",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1276890,
+      "archive_path": "artwork-archive/recovered-20261013/323a8c58cc8adc8f47d8.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 63,
+      "original_name": "白い手で戻すディボット.png",
+      "library_file_id": "libfile_fba0c2481bc081918a58cfdc174fb8ee",
+      "created_at": "2026-10-05T13:41:01.755211Z",
+      "sha256": "a2387bb01eb39aedb5d8b9787a32a042d43843f425593c68493d9416aae3b0b6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1270609,
+      "archive_path": "artwork-archive/recovered-20261013/a2387bb01eb39aedb5d8.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 64,
+      "original_name": "傷ついたゴルフカップの縁.png",
+      "library_file_id": "libfile_457094a2ce68819181dcba2034d69fe7",
+      "created_at": "2026-10-05T10:36:23.008740Z",
+      "sha256": "4bdb00ea28e03fce76b557adb44122eda245de44433c746d59ec0848dedf785c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1346441,
+      "archive_path": "artwork-archive/recovered-20261013/4bdb00ea28e03fce76b5.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 65,
+      "original_name": "ゴルフカップ縁の小さな損傷.png",
+      "library_file_id": "libfile_c6d10d616acc8191a016c44313648f9e",
+      "created_at": "2026-10-05T10:36:20.077504Z",
+      "sha256": "9bff61ce3a588c9b57eeb87cb9de041100e1239447e641183b36649cebcc3727",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1136942,
+      "archive_path": "artwork-archive/recovered-20261013/9bff61ce3a588c9b57ee.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 66,
+      "original_name": "木の根元に寄り添うゴルフボール.png",
+      "library_file_id": "libfile_ad423dc47710819183988af80ad79e61",
+      "created_at": "2026-10-05T10:32:50.128822Z",
+      "sha256": "7fd64785076074d728c1d76d23fa671cc2a06ba2299fb6a1386884bbb9cccce0",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1279227,
+      "archive_path": "artwork-archive/recovered-20261013/7fd64785076074d728c1.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 67,
+      "original_name": "枝のフォークに収まるゴルフボール.png",
+      "library_file_id": "libfile_2e0fc6c0ba08819194ea8c0f9f41fc00",
+      "created_at": "2026-10-05T10:32:47.130643Z",
+      "sha256": "0c1a10ae823bf7d194fd0a4250788d53f20f5ecfa5d5c1064fe9fc34dcd03767",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1354414,
+      "archive_path": "artwork-archive/recovered-20261013/0c1a10ae823bf7d194fd.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 68,
+      "original_name": "フェンス際のゴルフボール.png",
+      "library_file_id": "libfile_22b2132bf0f48191b05a2ae5cec5f688",
+      "created_at": "2026-10-05T10:32:44.213950Z",
+      "sha256": "1cda8e759b9a4dc3cf09fc2859cf3bbd6f35fc18f7cda4229d697a2a60cb4dfa",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1647619,
+      "archive_path": "artwork-archive/recovered-20261013/1cda8e759b9a4dc3cf09.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 69,
+      "original_name": "プレー後のバンカー整備.png",
+      "library_file_id": "libfile_750bc7f696bc8191a7521935943da5d3",
+      "created_at": "2026-10-05T10:28:13.389777Z",
+      "sha256": "18c919d9f9eff9fffa9e92bddf752f1d4fc0517c1bf5f88ce6601f1960048d2c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1391495,
+      "archive_path": "artwork-archive/recovered-20261013/18c919d9f9eff9fffa9e.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 70,
+      "original_name": "バンカーの小石を摘む白い手.png",
+      "library_file_id": "libfile_c399b27279148191a726df6215626fe8",
+      "created_at": "2026-10-05T10:28:10.538996Z",
+      "sha256": "f6ca5c32bf62400c69e126f235421f517ff6e7c6dbe09ff43743652b24fe25f9",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1287397,
+      "archive_path": "artwork-archive/recovered-20261013/f6ca5c32bf62400c69e1.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 71,
+      "original_name": "バンカー外に置かれたアイアン.png",
+      "library_file_id": "libfile_047f5bb9b1e08191a425ae44364c0bc8",
+      "created_at": "2026-10-05T10:28:07.479297Z",
+      "sha256": "726efe6c43ac5eda4d8bf9fc76e1460891a0fbcb8b598e44e7951425bb13e097",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1337149,
+      "archive_path": "artwork-archive/recovered-20261013/726efe6c43ac5eda4d8b.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 72,
+      "original_name": "ゴルフボールの破損比較.png",
+      "library_file_id": "libfile_682f219f713c819198db3fc8c48a2d4c",
+      "created_at": "2026-10-05T08:57:17.802552Z",
+      "sha256": "801a5722d142d40b0dad198d250c4532bab76e9256b5df03454a698435b1628a",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1206604,
+      "archive_path": "artwork-archive/recovered-20261013/801a5722d142d40b0dad.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 73,
+      "original_name": "芝の上の泥付きゴルフボール.png",
+      "library_file_id": "libfile_e9ac916560f08191abaa132fdf5d4f4f",
+      "created_at": "2026-10-05T08:57:14.977062Z",
+      "sha256": "8744f90bbb34bda6ce0083c128e98586481c3b3ee9ee21904dbdad7b354b2bcf",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1178816,
+      "archive_path": "artwork-archive/recovered-20261013/8744f90bbb34bda6ce00.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 74,
+      "original_name": "芝に置かれた折れたアイアン.png",
+      "library_file_id": "libfile_8733d34eed608191a8974752363cbe45",
+      "created_at": "2026-10-05T08:57:12.049487Z",
+      "sha256": "97a9f4d28a20b5ac731d121e73b8fdd296cba77ede434bb03ce5d2852f521855",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1012975,
+      "archive_path": "artwork-archive/recovered-20261013/97a9f4d28a20b5ac731d.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 75,
+      "original_name": "旗竿を残したパットの準備.png",
+      "library_file_id": "libfile_0ec88a71b0e88191bb6b2ea333a928f7",
+      "created_at": "2026-10-05T08:48:20.020676Z",
+      "sha256": "6aabfdd5fccdc0e814f8949596e12837bbf259f82223afe6f0bfc1fabca56000",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1268856,
+      "archive_path": "artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 76,
+      "original_name": "修復前の靴跡とグリーンフォーク.png",
+      "library_file_id": "libfile_07e143f1390c8191915ebd7034d838da",
+      "created_at": "2026-10-05T08:48:15.348093Z",
+      "sha256": "7307c71cc4548a1874453bde7da37e0497669edfb9d73f133a171319ffe1437a",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1190941,
+      "archive_path": "artwork-archive/recovered-20261013/7307c71cc4548a187445.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 77,
+      "original_name": "グリーン上の一時的な水たまり.png",
+      "library_file_id": "libfile_9096b613326c8191b26c5e4ab847f325",
+      "created_at": "2026-10-05T08:48:11.899543Z",
+      "sha256": "b185813d24145bc7fd31b78ba2c59b9e1868c51b469ce5f368fd87f2fdff2fa1",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1232730,
+      "archive_path": "artwork-archive/recovered-20261013/b185813d24145bc7fd31.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 78,
+      "original_name": "グリーン上のボールマーク修復前.png",
+      "library_file_id": "libfile_fb1b5d3ff7bc8191a649c564c71b4bd6",
+      "created_at": "2026-10-05T08:38:23.940567Z",
+      "sha256": "4d0208cf19725e303d6c335b4d1f3bd857a685cff498e886af7e1712c081140c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1170874,
+      "archive_path": "artwork-archive/recovered-20261013/4d0208cf19725e303d6c.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 79,
+      "original_name": "グリーン脇に置かれた旗竿.png",
+      "library_file_id": "libfile_a0cbef2545a08191af59a9de3ada93b4",
+      "created_at": "2026-10-05T08:38:20.894718Z",
+      "sha256": "303f4fd64f75cb66d19b22d3e69ea8417ba4751d1d9155061c07e4b2d75d124d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1230991,
+      "archive_path": "artwork-archive/recovered-20261013/303f4fd64f75cb66d19b.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 80,
+      "original_name": "広いティーグラウンドと離れたティーマーカー.png",
+      "library_file_id": "libfile_528103d1d3648191bf13cb9f8a43fada",
+      "created_at": "2026-10-05T08:29:50.690721Z",
+      "sha256": "1c46222976344d62a5fe09a3add4f27a6b6df1e86cbce1e6522bfa550284b0c5",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1181661,
+      "archive_path": "artwork-archive/recovered-20261013/1c46222976344d62a5fe.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 81,
+      "original_name": "芝生で持ち上げたマーカーとスパイク.png",
+      "library_file_id": "libfile_6d10bf953b948191a42f02242dedd12c",
+      "created_at": "2026-10-05T03:59:18.857209Z",
+      "sha256": "9f1537bb473c18d198cacb8085f8239e346b4be8a2a961b5b2b7eae9976d093d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1431752,
+      "archive_path": "artwork-archive/recovered-20261013/9f1537bb473c18d198ca.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 82,
+      "original_name": "ミスショットのフォロースルー.png",
+      "library_file_id": "libfile_ab24a7b71cbc8191a3c657f144cb2e9e",
+      "created_at": "2026-10-05T03:21:02.531881Z",
+      "sha256": "859b4ba8d83ab03854e33d351fd69252b85ef185304b41c7a78b7c1feca10397",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 942722,
+      "archive_path": "artwork-archive/recovered-20261013/859b4ba8d83ab03854e3.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 83,
+      "original_name": "ボールを外したゴルフスイング.png",
+      "library_file_id": "libfile_6478ffea59708191b5e3273e54c20d7a",
+      "created_at": "2026-10-05T03:17:17.422269Z",
+      "sha256": "1f1791e8161f04ffbaf80f770870bfe71385a0df944bdf56bdf8867e283e9eda",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1449395,
+      "archive_path": "artwork-archive/recovered-20261013/1f1791e8161f04ffbaf8.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 84,
+      "original_name": "両手で握るゴルフグリップ.png",
+      "library_file_id": "libfile_4dd51a5978608191a012a2dbf9dfc811",
+      "created_at": "2026-10-05T03:17:14.131235Z",
+      "sha256": "4287ba72ea3dda579415e1c2ba359e391154ebd8137ba61f22ce574f54472c96",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1529262,
+      "archive_path": "artwork-archive/recovered-20261013/4287ba72ea3dda579415.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 85,
+      "original_name": "折れたゴルフティーを持つ白い手.png",
+      "library_file_id": "libfile_82228bbb2ff481919b577aafebf19062",
+      "created_at": "2026-10-05T03:14:02.167025Z",
+      "sha256": "739905311488ff5888b4f9414cb4457a2569202677e1576801cb203c796eeb07",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1256526,
+      "archive_path": "artwork-archive/recovered-20261013/739905311488ff5888b4.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 86,
+      "original_name": "ミント色のティーマーカーを持ち上げる白い手.png",
+      "library_file_id": "libfile_aaa06323596881919c4c02ad790516dc",
+      "created_at": "2026-10-05T03:13:59.152735Z",
+      "sha256": "1d8dc228fba2cba4e4c301e02761d27d0a6b5a92a8e599d024a7dd5e81d1b696",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1252185,
+      "archive_path": "artwork-archive/recovered-20261013/1d8dc228fba2cba4e4c3.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 87,
+      "original_name": "空のティーと白いゴルフボール.png",
+      "library_file_id": "libfile_47ec078ee82c8191ba0dbf115a8f9054",
+      "created_at": "2026-10-05T03:13:54.262541Z",
+      "sha256": "932c56510a42a6cf375706a31a456373f5525e6a1695f7715c14484ce533a001",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1121370,
+      "archive_path": "artwork-archive/recovered-20261013/932c56510a42a6cf3757.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 88,
+      "original_name": "ティーに残るボール、空振り後のゴルファー.png",
+      "library_file_id": "libfile_4a70341253748191914eefd204869e54",
+      "created_at": "2026-10-05T03:13:51.194166Z",
+      "sha256": "b8a115b94100f858a4ca80a268e7b19ae74c112f8aec1f3ee7d6256db7e97ad8",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1481561,
+      "archive_path": "artwork-archive/recovered-20261013/b8a115b94100f858a4ca.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 89,
+      "original_name": "白いタオルで整えるパッティンググリーン.png",
+      "library_file_id": "libfile_5cadc83edce48191931acf6568e04a35",
+      "created_at": "2026-10-05T03:10:55.812532Z",
+      "sha256": "2ec35f7fed6e0c63ebf4e5ab0cab1e022c896928f6a63eee10e07b57e2aeb6b3",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1244991,
+      "archive_path": "artwork-archive/recovered-20261013/2ec35f7fed6e0c63ebf4.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 90,
+      "original_name": "ミントの葉とボール、赤いペナルティ杭.png",
+      "library_file_id": "libfile_f011c84029a081918e97916524d5419c",
+      "created_at": "2026-10-05T03:10:52.780369Z",
+      "sha256": "6b8ea5dfd8bad5f9df7113db19f627909152a56a765eaf0384f53112ff6db9cd",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1293583,
+      "archive_path": "artwork-archive/recovered-20261013/6b8ea5dfd8bad5f9df71.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 91,
+      "original_name": "ミントの葉を掲げるグローブとボール.png",
+      "library_file_id": "libfile_23008e53e3a8819184c24d721f728efe",
+      "created_at": "2026-10-05T03:10:50.015350Z",
+      "sha256": "a22e53b9bed68c5cacd16d02e717d7ef3d733e57aaea2c8d292fab89ed762f02",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1206493,
+      "archive_path": "artwork-archive/recovered-20261013/a22e53b9bed68c5cacd1.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 92,
+      "original_name": "バンカーで葉をつまむグローブ.png",
+      "library_file_id": "libfile_109390b01fb88191a764c6d6f62214f0",
+      "created_at": "2026-10-05T03:10:47.270018Z",
+      "sha256": "91715327a025cdc417952cd32e6da6f916cf78cb09e3e5291a74657326521cd1",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1217206,
+      "archive_path": "artwork-archive/recovered-20261013/91715327a025cdc41795.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 93,
+      "original_name": "ボールとカップ、横たわる旗竿.png",
+      "library_file_id": "libfile_5d52cf9f92a08191aa50fe6100c7381b",
+      "created_at": "2026-10-05T03:03:06.942308Z",
+      "sha256": "1254f05dc82b0783dbf4c591df3abf7d9320da6866bcb6265566df9bd1e5ae4c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2931263,
+      "archive_path": "artwork-archive/recovered-20261013/1254f05dc82b0783dbf4.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 94,
+      "original_name": "ボールとカップの間の白いゴルフシューズ.png",
+      "library_file_id": "libfile_2010fc261f9c819194e684073a78e5c2",
+      "created_at": "2026-10-05T03:03:03.723060Z",
+      "sha256": "b58df0a753f3d493d069c7483f7ee5b9736b649ae2e2c8437427c977c63a6178",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2807395,
+      "archive_path": "artwork-archive/recovered-20261013/b58df0a753f3d493d069.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 95,
+      "original_name": "ピッチマークを直す手元.png",
+      "library_file_id": "libfile_b0e0df2834c08191a9ed80c5da945f90",
+      "created_at": "2026-10-05T03:03:00.430505Z",
+      "sha256": "db282a606111e6121d423dff86b1b3cd6cee2c11c029012f7c09e1dc7a718783",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2001745,
+      "archive_path": "artwork-archive/recovered-20261013/db282a606111e6121d42.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 96,
+      "original_name": "パターで整えるスパイク跡.png",
+      "library_file_id": "libfile_657fd35925dc8191863eed689bb3b175",
+      "created_at": "2026-10-05T03:02:57.289655Z",
+      "sha256": "c17c0fc638489dc9cd78779978e7e422d2283564e8d1c688bc62a4a7863f6c6b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1963379,
+      "archive_path": "artwork-archive/recovered-20261013/c17c0fc638489dc9cd78.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 97,
+      "original_name": "折れたティーと新品ティー.png",
+      "library_file_id": "libfile_78acf0caa78c8191880126b228e7a94e",
+      "created_at": "2026-10-05T03:02:54.322109Z",
+      "sha256": "a6574a61f9b5489bb90f4aab991c947347380632940afe58d5c7873771f571bf",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1857855,
+      "archive_path": "artwork-archive/recovered-20261013/a6574a61f9b5489bb90f.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 98,
+      "original_name": "手で持ち上げる大型ティーマーカー.png",
+      "library_file_id": "libfile_e3268ab07da88191915c036660873f20",
+      "created_at": "2026-10-05T03:02:51.190590Z",
+      "sha256": "1f63b93ba19245f577c9707ff91910c5486f7a3876fa3859d9ed617520b7dd31",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1605445,
+      "archive_path": "artwork-archive/recovered-20261013/1f63b93ba19245f577c9.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 99,
+      "original_name": "ティーと白いゴルフボール.png",
+      "library_file_id": "libfile_de96f86468308191b8c01e068c1d11b1",
+      "created_at": "2026-10-05T03:02:47.793607Z",
+      "sha256": "134db18d68f18ce136d3d97382993e6ccce0a46ba48755e53e30a2f5cd69dd5f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1810142,
+      "archive_path": "artwork-archive/recovered-20261013/134db18d68f18ce136d3.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 100,
+      "original_name": "空振りに驚くゴルファー.png",
+      "library_file_id": "libfile_1b9982687c4c81918832cb257dd0b6b6",
+      "created_at": "2026-10-05T03:02:44.542393Z",
+      "sha256": "02e0cca0155d79eb8cdc6cfd525739a9763fb64c2a3d842438d13fa666ed3929",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1500578,
+      "archive_path": "artwork-archive/recovered-20261013/02e0cca0155d79eb8cdc.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 101,
+      "original_name": "ボール脇の砂と落ち葉を払う.png",
+      "library_file_id": "libfile_9c90a3b77e6c8191b94077516a13aeeb",
+      "created_at": "2026-10-05T02:50:59.404116Z",
+      "sha256": "f3c8f7a00eb8761c391a019f482bed11fd79178fc96cf44b4afb03a3fdfc4b40",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1946686,
+      "archive_path": "artwork-archive/recovered-20261013/f3c8f7a00eb8761c391a.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 102,
+      "original_name": "ペナルティエリアで枯れ葉を拾う手.png",
+      "library_file_id": "libfile_a34bec9a28fc8191941823e6d31aad66",
+      "created_at": "2026-10-05T02:50:56.113528Z",
+      "sha256": "7ec543e64599ee58a6ba08dbc7e5836cf1dfed618392df904850ff7b38b6e8e3",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1945179,
+      "archive_path": "artwork-archive/recovered-20261013/7ec543e64599ee58a6ba.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 103,
+      "original_name": "ラフでボール脇の枯れ葉を拾う手.png",
+      "library_file_id": "libfile_92caebdbbf3c8191a0c45f375f729309",
+      "created_at": "2026-10-05T02:50:52.651504Z",
+      "sha256": "9228df57a613d5f79a0be2d6b4458d053b5f63fd8f32bbe02a0f3bd0eb057420",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1860781,
+      "archive_path": "artwork-archive/recovered-20261013/9228df57a613d5f79a0b.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 104,
+      "original_name": "ボールに触れず、バンカーの落ち葉を除去.png",
+      "library_file_id": "libfile_0f9dc97270c4819181402e21ef370663",
+      "created_at": "2026-10-05T02:50:45.730271Z",
+      "sha256": "fe3b4685e5a00dc61c20ca5e653220e5799802b50b4bc719b755dca3034d1239",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2150902,
+      "archive_path": "artwork-archive/recovered-20261013/fe3b4685e5a00dc61c20.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 105,
+      "original_name": "落ち葉をよけて転がるゴルフボール.png",
+      "library_file_id": "libfile_64cd3efc5c1c8191b8a0548577d778a6",
+      "created_at": "2026-10-04T15:53:20.460618Z",
+      "sha256": "f835e32706984908924f56f217833511b08185bd0e78b28a81a1d95031d00848",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1267001,
+      "archive_path": "artwork-archive/recovered-20261013/f835e32706984908924f.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 106,
+      "original_name": "識別ドット付きボールとアイアン**.png",
+      "library_file_id": "libfile_07ab28b53e708191af96f525f39cf1ca",
+      "created_at": "2026-10-04T15:53:17.259843Z",
+      "sha256": "1b85af41a7ef5a05eb86230681409edb5c6c5d26aa343b7255803da9d6e07113",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1338672,
+      "archive_path": "artwork-archive/recovered-20261013/1b85af41a7ef5a05eb86.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 107,
+      "original_name": "浅いディボットのゴルフボール.png",
+      "library_file_id": "libfile_7c397c43a3ec8191aad3f607bde4052e",
+      "created_at": "2026-10-04T15:53:13.951871Z",
+      "sha256": "a08ef010e84698e2dbc913130c078426772ea1f21b595ea17d8eae2cb0c99f70",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1965043,
+      "archive_path": "artwork-archive/recovered-20261013/a08ef010e84698e2dbc9.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 108,
+      "original_name": "バンカーで砂に触れるアイアン.png",
+      "library_file_id": "libfile_486d23d0acdc81918b4c8aa38ef70461",
+      "created_at": "2026-10-04T15:53:11.054873Z",
+      "sha256": "8d48e0f102666e09466d9b1c2b3071e282710b65f849eda470b015a09ca57401",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1331494,
+      "archive_path": "artwork-archive/recovered-20261013/8d48e0f102666e09466d.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 109,
+      "original_name": "芝面から半分出たゴルフボール.png",
+      "library_file_id": "libfile_1f5a97ba674c81918df3a2eccb1be287",
+      "created_at": "2026-10-04T15:53:08.086036Z",
+      "sha256": "fcaa7289f46ce7b3ffb87ba0d7d58b361e9e358f4c68bbbf2a4e718a15f6b15c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1534014,
+      "archive_path": "artwork-archive/recovered-20261013/fcaa7289f46ce7b3ffb8.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 110,
+      "original_name": "ボール脇の芝を押さえるゴルファー.png",
+      "library_file_id": "libfile_824b358072a88191afd6c963dce52ffd",
+      "created_at": "2026-10-04T15:53:04.975493Z",
+      "sha256": "777e81a9a9621801a14e40bfc5f9335729c223a868a2db0e85435d061b4a7d52",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1826952,
+      "archive_path": "artwork-archive/recovered-20261013/777e81a9a9621801a14e.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 111,
+      "original_name": "OB杭を抜くゴルファー.png",
+      "library_file_id": "libfile_5bb7e42d4cd08191bbca6889a83f6570",
+      "created_at": "2026-10-04T15:53:02.264728Z",
+      "sha256": "d087dbea00506b1c5447ec3bb670a50425d9849f68e5e342b3daa92cd5479864",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1416585,
+      "archive_path": "artwork-archive/recovered-20261013/d087dbea00506b1c5447.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 112,
+      "original_name": "マーカーなしで持ち上げるゴルフボール.png",
+      "library_file_id": "libfile_bb777a93c05c819185da9ca42527d410",
+      "created_at": "2026-10-04T15:52:58.659747Z",
+      "sha256": "589ee3fec1f8357699d1adaa844975797eb29d10ed3900d58abef91bdc9443ae",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1345861,
+      "archive_path": "artwork-archive/recovered-20261013/589ee3fec1f8357699d1.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 113,
+      "original_name": "動く球と止まる球の衝突.png",
+      "library_file_id": "libfile_5698be246aa8819190ff1610babc41cc",
+      "created_at": "2026-10-04T15:52:55.714252Z",
+      "sha256": "f4790ea4827e312b8952ee8bd4d3a74c79bc475d5f99bf3d01c9ba6a5c5d87e1",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1033556,
+      "archive_path": "artwork-archive/recovered-20261013/f4790ea4827e312b8952.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 114,
+      "original_name": "グリーン上で衝突する二つのボール.png",
+      "library_file_id": "libfile_349750d645b88191b916cd877d03af3c",
+      "created_at": "2026-10-04T15:52:52.410898Z",
+      "sha256": "3284bec6b7c7b15d32c72ff786589e788d2ecefa6d20d90e351ad5ec8172a541",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1011509,
+      "archive_path": "artwork-archive/recovered-20261013/3284bec6b7c7b15d32c7.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 115,
+      "original_name": "ホール内壁に半分埋まるゴルフボール.png",
+      "library_file_id": "libfile_af17f8d97ddc8191b0f7237e7127597b",
+      "created_at": "2026-10-04T15:52:49.558633Z",
+      "sha256": "9ebc08f0dfb8430534a44c785dc604bffd4181c114f7463c28f59e47b473c3fb",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1259765,
+      "archive_path": "artwork-archive/recovered-20261013/9ebc08f0dfb8430534a4.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 116,
+      "original_name": "旗竿とホールの縁に挟まるゴルフボール.png",
+      "library_file_id": "libfile_77de85c495d881918cdc54665a4a9287",
+      "created_at": "2026-10-04T15:52:46.704682Z",
+      "sha256": "f885d19d0f738aa3b9568378111d63618d6c075c5cb2c00fb11e15080e3f0272",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1216916,
+      "archive_path": "artwork-archive/recovered-20261013/f885d19d0f738aa3b956.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 117,
+      "original_name": "ホールの縁で止まるゴルフボール.png",
+      "library_file_id": "libfile_5f434246cb18819192132c60bd34409f",
+      "created_at": "2026-10-04T15:52:42.604865Z",
+      "sha256": "5741088f3488506bdbd134818609130f309ac52cda2894ab461649f88e6c28d6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1587450,
+      "archive_path": "artwork-archive/recovered-20261013/5741088f3488506bdbd1.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 118,
+      "original_name": "写真・音声・キーボード入力メニュー.png",
+      "library_file_id": "libfile_c9a38e9885bc81919146fb9b7ae1438e",
+      "created_at": "2026-10-01T12:54:45.174842Z",
+      "sha256": "7ae61ee9d9370fcaf95699265ad77603a22fdab0e846feb221231b433cd3b03f",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1104043,
+      "archive_path": "artwork-archive/recovered-20261013/7ae61ee9d9370fcaf956.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 119,
+      "original_name": "AI競技アシスタント画面.png",
+      "library_file_id": "libfile_dfc9079d33588191a3cdbfa3c8516b80",
+      "created_at": "2026-10-01T12:13:57.819114Z",
+      "sha256": "8da7b17a42b6669e2a1bd1868629297b58cf8d717aab1c4eb5bc1b566486cd5f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1379724,
+      "archive_path": "artwork-archive/recovered-20261013/8da7b17a42b6669e2a1b.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 120,
+      "original_name": "パット前のゴルフボール.png",
+      "library_file_id": "libfile_7dcf978d34c881919b0ddf82661e607f",
+      "created_at": "2026-09-30T08:24:16.002786Z",
+      "sha256": "e17c6fde3a81ab0a4ecb21866033aaffb5cfa3b08d4bfb0a7b5897d3295fe754",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1274400,
+      "archive_path": "artwork-archive/recovered-20261013/e17c6fde3a81ab0a4ecb.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 121,
+      "original_name": "ティールドットのゴルフボール.png",
+      "library_file_id": "libfile_7104a4a2b28c819196ae5506a05055f2",
+      "created_at": "2026-09-30T08:24:12.624372Z",
+      "sha256": "20d69700523656f1ecee071e71a51df3f9d9a89ee938c47f66edc35912c1a00a",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1222738,
+      "archive_path": "artwork-archive/recovered-20261013/20d69700523656f1ecee.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 122,
+      "original_name": "ゴルフバッグとクラブとボール.png",
+      "library_file_id": "libfile_3d3502f74afc81919ee933f0f589163c",
+      "created_at": "2026-09-30T08:24:09.601807Z",
+      "sha256": "5c48e9727b479b49c49e075c964932b8d636fcb03b8bd88315676fb9ca28a4db",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1248614,
+      "archive_path": "artwork-archive/recovered-20261013/5c48e9727b479b49c49e.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 123,
+      "original_name": "ゴルフスコアカードとボール.png",
+      "library_file_id": "libfile_c2cc5612aeac81919257a7d5baf173e5",
+      "created_at": "2026-09-30T08:24:05.789782Z",
+      "sha256": "146658dffc39b2198d4aff6819d5434437ddcf951f094feccaf005050f7c2e36",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1339800,
+      "archive_path": "artwork-archive/recovered-20261013/146658dffc39b2198d4a.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 124,
+      "original_name": "フェアウェイとラフのゴルフボール.png",
+      "library_file_id": "libfile_c5526ca76d5c8191970cb39f279338c2",
+      "created_at": "2026-09-30T04:17:35.913044Z",
+      "sha256": "4858c2d73dc6858b43e01666696fde78bbd429b50552343e1aa4a6d8caaee91e",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1573928,
+      "archive_path": "artwork-archive/recovered-20261013/4858c2d73dc6858b43e0.png",
+      "review_status": "candidate-a-style",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 125,
+      "original_name": "障害物越しのゴルフショット(1).png",
+      "library_file_id": "libfile_bffabed771548191bc843ef7d3609402",
+      "created_at": "2026-09-29T16:55:25.391268Z",
+      "sha256": "a0518ab9f1f0eb4475a081462892ebf1f2c9657a5cefeed2a644083d0298ce53",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1262372,
+      "archive_path": "artwork-archive/recovered-20261013/a0518ab9f1f0eb4475a0.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 126,
+      "original_name": "障害物を越えるゴルフショット(4).png",
+      "library_file_id": "libfile_196f7aa75b748191b563260a032ee7ff",
+      "created_at": "2026-09-29T16:55:21.913735Z",
+      "sha256": "e91ebefbf2ff109113d3188a7949bec3fd3f29a4bb76362a42ad0f681fc5c8fb",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1240799,
+      "archive_path": "artwork-archive/recovered-20261013/e91ebefbf2ff109113d3.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 127,
+      "original_name": "障害物を越えるゴルフショット(3).png",
+      "library_file_id": "libfile_9f822fdce78481918a54020a7b810a28",
+      "created_at": "2026-09-29T16:55:18.321898Z",
+      "sha256": "7984644daac82b8d25af8e82cde754903b1b1f87543302973d184c17b2567cab",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1159770,
+      "archive_path": "artwork-archive/recovered-20261013/7984644daac82b8d25af.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 128,
+      "original_name": "障害物を前にしたゴルフショット.png",
+      "library_file_id": "libfile_52f270316a1c819183b8d3f9e5f898cf",
+      "created_at": "2026-09-29T16:55:15.151872Z",
+      "sha256": "9986865e200f36953b7c302d0f42fb902c8a3e8c84a53d8d34e3e098c23bc6b6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1190772,
+      "archive_path": "artwork-archive/recovered-20261013/9986865e200f36953b7c.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 129,
+      "original_name": "障害を越えるゴルフショット(1).png",
+      "library_file_id": "libfile_02159cdf6c108191bee4b3e4fe711a9b",
+      "created_at": "2026-09-29T16:55:11.735305Z",
+      "sha256": "98243ad09f4339186b558bff19e2938b1fea5309de379457e3c66bf4a47b5ad9",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1238601,
+      "archive_path": "artwork-archive/recovered-20261013/98243ad09f4339186b55.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 130,
+      "original_name": "障害物に挑むゴルファー.png",
+      "library_file_id": "libfile_4d17c14daf4c8191a39b9861e64a9c75",
+      "created_at": "2026-09-29T16:55:08.884936Z",
+      "sha256": "f2497561940e8ab1bec2c29c6271db3088a8b25d390623948eb1bef32d93a44b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1245645,
+      "archive_path": "artwork-archive/recovered-20261013/f2497561940e8ab1bec2.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 131,
+      "original_name": "障害物を越えるゴルフショット(2).png",
+      "library_file_id": "libfile_4469d05e277c81919a59386004df0a96",
+      "created_at": "2026-09-29T16:55:05.893328Z",
+      "sha256": "e6aa84fbe2fa9d96a673d89600f3d2c6b3bb8d0e258ae402864811209907e076",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1333664,
+      "archive_path": "artwork-archive/recovered-20261013/e6aa84fbe2fa9d96a673.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 132,
+      "original_name": "障害物越しのゴルフショット.png",
+      "library_file_id": "libfile_5cb1944bd0248191892ec2bebb9b8bcb",
+      "created_at": "2026-09-29T16:55:02.963168Z",
+      "sha256": "8dd7f685ef615626ced41f0f3f7c066fbe12253cb20d0ca23b053f31850954d5",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1149668,
+      "archive_path": "artwork-archive/recovered-20261013/8dd7f685ef615626ced4.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 133,
+      "original_name": "障害物を越えるゴルフショット(1).png",
+      "library_file_id": "libfile_8f825f0d57108191bf19db39708254ba",
+      "created_at": "2026-09-29T16:54:59.825363Z",
+      "sha256": "f2372aaff3e0d0a4112ddb98e651bada8b51f3ebff717af0d3c575ba2a091875",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1233124,
+      "archive_path": "artwork-archive/recovered-20261013/f2372aaff3e0d0a4112d.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 134,
+      "original_name": "障害物を越えるゴルフショット.png",
+      "library_file_id": "libfile_ce6a9e31e008819181d46f22498a5716",
+      "created_at": "2026-09-29T16:54:56.840336Z",
+      "sha256": "56bd9bcd0b9f772b8ece3fe1f4912d5e099c9067a3eca103a9c8de5db8a1388a",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1176448,
+      "archive_path": "artwork-archive/recovered-20261013/56bd9bcd0b9f772b8ece.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 135,
+      "original_name": "障害を越えるゴルフショット.png",
+      "library_file_id": "libfile_519c9c3e19108191923b1d94d2e93b72",
+      "created_at": "2026-09-29T16:54:53.814370Z",
+      "sha256": "a488c56c5028a5006531b325ff8d5ec68efee9de20bf216c8246de3f95d22b1d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1023952,
+      "archive_path": "artwork-archive/recovered-20261013/a488c56c5028a5006531.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 136,
+      "original_name": "障害物前のゴルフショット.png",
+      "library_file_id": "libfile_43d41782f5f881918258e9d644edfb94",
+      "created_at": "2026-09-29T16:54:50.759487Z",
+      "sha256": "010dfae799fa949c6ca7c11e0b30023e7ffde9d76d781b6776aca20256f3dc29",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1142866,
+      "archive_path": "artwork-archive/recovered-20261013/010dfae799fa949c6ca7.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 137,
+      "original_name": "ゴルフイラスト3案比較ボード.png",
+      "library_file_id": "libfile_186020d21914819183ead2af223c32fc",
+      "created_at": "2026-09-29T16:47:17.667337Z",
+      "sha256": "227d9fc0656a9afaa2daf0222e5558c32edaa49bfceb0d60fa0199097dc98c07",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1316246,
+      "archive_path": "artwork-archive/recovered-20261013/227d9fc0656a9afaa2da.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 138,
+      "original_name": "芝生のゴルフシューズとボール.png",
+      "library_file_id": "libfile_fe5e93a4e7bc8191a13b6f2101a33e48",
+      "created_at": "2026-09-29T16:43:52.114357Z",
+      "sha256": "80a0b45df5502b31b845e72f990c22f43d610444644cf40fa225114dd537d860",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2148841,
+      "archive_path": "artwork-archive/recovered-20261013/80a0b45df5502b31b845.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 139,
+      "original_name": "パター幅でマーカー位置を確認.png",
+      "library_file_id": "libfile_814e0eea3ae88191914c1b8994d147c8",
+      "created_at": "2026-09-29T16:43:48.976300Z",
+      "sha256": "3784871a740e1a86d9caf8c98fae6a42d8766132cce866cc13adec3a9a6b15e1",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2347660,
+      "archive_path": "artwork-archive/recovered-20261013/3784871a740e1a86d9ca.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 140,
+      "original_name": "タオル上のゴルフボールを確認するゴルファー.png",
+      "library_file_id": "libfile_9e588ba4381081919a5367374fb7b2c4",
+      "created_at": "2026-09-29T16:43:46.018430Z",
+      "sha256": "6ff680c863d0dc386ee267428406f1550da8269729a814e3682ad8f7622daea5",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2607758,
+      "archive_path": "artwork-archive/recovered-20261013/6ff680c863d0dc386ee2.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 141,
+      "original_name": "砂に触れないバンカーアドレス.png",
+      "library_file_id": "libfile_e4aa24cb8f5081918fc3ddb2f58cbde6",
+      "created_at": "2026-09-29T16:43:43.187017Z",
+      "sha256": "419672401e3db78a260836f57448e6917ccf2febb50672313c0bc230fd2df9a9",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2775646,
+      "archive_path": "artwork-archive/recovered-20261013/419672401e3db78a2608.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 142,
+      "original_name": "靴に当たるゴルフボールの誤ドロップ.png",
+      "library_file_id": "libfile_a4581b106de481918eeebb8f3eb0839a",
+      "created_at": "2026-09-29T16:43:39.874032Z",
+      "sha256": "4454f8616db12fb60154558661637a9953c5428a580c18c1e9870ba6588a826b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2244177,
+      "archive_path": "artwork-archive/recovered-20261013/4454f8616db12fb60154.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 143,
+      "original_name": "白帽子の青シャツアクション.png",
+      "library_file_id": "libfile_2c6ed410cb2081919cdaf65e5a11c875",
+      "created_at": "2026-09-29T10:54:10.085262Z",
+      "sha256": "077c82a14f0de492d20843bb44bdfbcb4bfce56a47ccc724c98b6cbdfaacad58",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2547247,
+      "archive_path": "artwork-archive/recovered-20261013/077c82a14f0de492d208.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 144,
+      "original_name": "青いポロシャツの躍動する一瞬.png",
+      "library_file_id": "libfile_0f275919eb7081919556c0565d41a12b",
+      "created_at": "2026-09-29T10:54:07.094933Z",
+      "sha256": "5601cea79f701d455f87c9e30caf1e9db8c0727c58039bc45cee0d10ad2b8c12",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2809352,
+      "archive_path": "artwork-archive/recovered-20261013/5601cea79f701d455f87.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 145,
+      "original_name": "フェアウェイのディボットを砂で修復.png",
+      "library_file_id": "libfile_70dd2a0e72448191b6616257e21ecfd6",
+      "created_at": "2026-09-29T10:54:04.244888Z",
+      "sha256": "d70aec26e34c73d50445310a6fbac2ad97da986c47a8f65e9a797e498532cec9",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2737658,
+      "archive_path": "artwork-archive/recovered-20261013/d70aec26e34c73d50445.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 146,
+      "original_name": "パターで整えるボール跡.png",
+      "library_file_id": "libfile_9beb1d4c3a488191a3dd4fe10bfc3b6e",
+      "created_at": "2026-09-29T10:54:01.426129Z",
+      "sha256": "8f8dc6c59868562675d167a7e714b2c24dca6fc2aff79971e196e309a8de526c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2213366,
+      "archive_path": "artwork-archive/recovered-20261013/8f8dc6c59868562675d1.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 147,
+      "original_name": "パッティンググリーンの歩行マナー.png",
+      "library_file_id": "libfile_9181015e529c8191b76311370567a8b6",
+      "created_at": "2026-09-29T10:53:58.242046Z",
+      "sha256": "8dfd5085f39982e0ad64e6675c031bcb7d95243749db60921a38140d2e1ac700",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2747584,
+      "archive_path": "artwork-archive/recovered-20261013/8dfd5085f39982e0ad64.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 148,
+      "original_name": "ラウンド前の肩ストレッチ.png",
+      "library_file_id": "libfile_c1b1964567248191aafb5b2f8fa3c0e7",
+      "created_at": "2026-09-29T10:44:29.977505Z",
+      "sha256": "d84c1ddbccd890e4319292bfccb99015807964067919432f16aedac8a2fb4077",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2616250,
+      "archive_path": "artwork-archive/recovered-20261013/d84c1ddbccd890e43192.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 149,
+      "original_name": "上品なゴルフスタイルの一例.png",
+      "library_file_id": "libfile_f68521825b3c8191bebe041948123aef",
+      "created_at": "2026-09-29T10:44:26.681492Z",
+      "sha256": "802798277e5aa0c808d4782d5c91754431efc5299a60142a73efe15293c12e84",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2694671,
+      "archive_path": "artwork-archive/recovered-20261013/802798277e5aa0c808d4.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 150,
+      "original_name": "初心者のゴルフ道具チェック.png",
+      "library_file_id": "libfile_8d51c98d78f08191aa809b6f42f8f8d5",
+      "created_at": "2026-09-29T08:29:23.158710Z",
+      "sha256": "1294aeeab8340b06ae16b1389cf8d2205ea77f5c039d6d89236e656b8f0e3078",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2275512,
+      "archive_path": "artwork-archive/recovered-20261013/1294aeeab8340b06ae16.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    },
+    {
+      "index": 151,
+      "original_name": "前の組を待つゴルファー.png",
+      "library_file_id": "libfile_58e19bd86114819182fc6a2c4bddca63",
+      "created_at": "2026-09-29T08:29:20.208926Z",
+      "sha256": "0a21b7011cf5d42e06d66ae0cd232837693f9cdfe1d6832808047c8d95e1540b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3246286,
+      "archive_path": "artwork-archive/recovered-20261013/0a21b7011cf5d42e06d6.png",
+      "review_status": "historical-not-for-production",
+      "rule_mapping_status": "pending-individual-review"
+    }
+  ],
+  "uploaded_reference_records": [
+    {
+      "name": "IMG_4609.jpeg",
+      "library_file_id": "libfile_55fbeccfbc148191981e4120302cbbba",
+      "created_at": "2026-10-13T05:40:48.183078Z"
+    },
+    {
+      "name": "IMG_4606.png",
+      "library_file_id": "libfile_810b929f8fdc81918733f9395ecc43ea",
+      "created_at": "2026-10-13T04:10:12.336945Z"
+    },
+    {
+      "name": "IMG_4601.png",
+      "library_file_id": "libfile_6a1ebf6959fc8191b8a5bb5b9ba93bbd",
+      "created_at": "2026-10-13T04:10:11.491281Z"
+    },
+    {
+      "name": "IMG_4599(1).png",
+      "library_file_id": "libfile_ab5d855f0a488191a850c1b36668e0ba",
+      "created_at": "2026-10-13T04:10:11.337692Z"
+    },
+    {
+      "name": "IMG_4591(1).png",
+      "library_file_id": "libfile_4dd92bc79f588191a10604146b1cc7cc",
+      "created_at": "2026-10-13T04:10:10.507109Z"
+    },
+    {
+      "name": "IMG_4604.png",
+      "library_file_id": "libfile_270e98a12d7c8191bfa4b487e26bdba6",
+      "created_at": "2026-10-13T04:10:10.056405Z"
+    },
+    {
+      "name": "IMG_4595.png",
+      "library_file_id": "libfile_9a352192437c8191a7137ef0fbf4250a",
+      "created_at": "2026-10-13T04:10:09.634048Z"
+    },
+    {
+      "name": "IMG_4593(1).png",
+      "library_file_id": "libfile_fbda103a74b88191bb9b9c6609c8f9f0",
+      "created_at": "2026-10-13T04:10:07.632526Z"
+    },
+    {
+      "name": "IMG_4594.png",
+      "library_file_id": "libfile_723e23e3412c819183f9237fe257bf06",
+      "created_at": "2026-10-13T04:10:06.531270Z"
+    },
+    {
+      "name": "IMG_4602.png",
+      "library_file_id": "libfile_26a60f7b5bec8191b5840e59055e3830",
+      "created_at": "2026-10-13T04:10:06.391114Z"
+    },
+    {
+      "name": "IMG_4592.png",
+      "library_file_id": "libfile_c1cd5e2c73cc8191b1755bb104be116d",
+      "created_at": "2026-10-13T04:10:05.846422Z"
+    },
+    {
+      "name": "IMG_4600.png",
+      "library_file_id": "libfile_b2bf4f194494819196de3378b51345bd",
+      "created_at": "2026-10-13T04:10:05.768297Z"
+    },
+    {
+      "name": "IMG_4591.png",
+      "library_file_id": "libfile_3412ece0ac7881918262f9ddb0bb8cbd",
+      "created_at": "2026-10-13T04:10:05.610527Z"
+    },
+    {
+      "name": "IMG_4596.png",
+      "library_file_id": "libfile_ec74c781c7d0819197edbb29e51bcc43",
+      "created_at": "2026-10-13T04:10:05.588416Z"
+    },
+    {
+      "name": "IMG_4593.png",
+      "library_file_id": "libfile_a517e0660578819198e6fd2e539d6a1d",
+      "created_at": "2026-10-13T04:10:05.028633Z"
+    },
+    {
+      "name": "IMG_4605.png",
+      "library_file_id": "libfile_f2ef24d63954819191aa9c9bbc64eaf2",
+      "created_at": "2026-10-13T04:10:03.539314Z"
+    },
+    {
+      "name": "IMG_4597.png",
+      "library_file_id": "libfile_1853a89a0d688191b5ba6cce69bd0467",
+      "created_at": "2026-10-13T04:10:02.863317Z"
+    },
+    {
+      "name": "IMG_4598(1).png",
+      "library_file_id": "libfile_cb52b6b0db888191a08c8af09c75e323",
+      "created_at": "2026-10-13T04:10:01.161122Z"
+    },
+    {
+      "name": "IMG_4603.png",
+      "library_file_id": "libfile_428ca83b529481918f32e47b759f35a5",
+      "created_at": "2026-10-13T04:10:00.473495Z"
+    },
+    {
+      "name": "IMG_4608.png",
+      "library_file_id": "libfile_6aedbab06ecc8191a2d34b008eea2908",
+      "created_at": "2026-10-13T04:09:57.762503Z"
+    },
+    {
+      "name": "IMG_4599.png",
+      "library_file_id": "libfile_5244f00070dc819182f4349375f1a485",
+      "created_at": "2026-10-13T04:09:40.836037Z"
+    },
+    {
+      "name": "IMG_4607.jpeg",
+      "library_file_id": "libfile_39662ee5354c8191b0350d79a05e72c9",
+      "created_at": "2026-10-13T04:09:24.085867Z"
+    },
+    {
+      "name": "IMG_4598.png",
+      "library_file_id": "libfile_bc4527a353c88191949e9a2cc34676e2",
+      "created_at": "2026-10-13T04:08:12.083951Z"
+    },
+    {
+      "name": "IMG_4556.jpeg",
+      "library_file_id": "libfile_0509e171f83081919aa54003be396434",
+      "created_at": "2026-10-13T04:06:24.132479Z"
+    },
+    {
+      "name": "IMG_4563.jpeg",
+      "library_file_id": "libfile_ffb1c4aa9c2c8191920d0ebb318a5c2f",
+      "created_at": "2026-10-13T04:06:17.858837Z"
+    },
+    {
+      "name": "IMG_4576.png",
+      "library_file_id": "libfile_57859707d49081918178fc9607187fe7",
+      "created_at": "2026-10-13T04:05:29.361409Z"
+    },
+    {
+      "name": "IMG_4572.jpeg",
+      "library_file_id": "libfile_c1215e7632f88191948331dc61e4689a",
+      "created_at": "2026-10-13T04:05:00.366585Z"
+    },
+    {
+      "name": "IMG_4566.png",
+      "library_file_id": "libfile_83f25e5e18048191b825bd1a7480267c",
+      "created_at": "2026-10-13T04:05:00.301879Z"
+    },
+    {
+      "name": "IMG_4564.jpeg",
+      "library_file_id": "libfile_0a9928257f24819194f3e34a7784ab9d",
+      "created_at": "2026-10-13T04:03:52.180074Z"
+    },
+    {
+      "name": "IMG_4550.png",
+      "library_file_id": "libfile_8189369ea0d8819188a2acffacefc2b2",
+      "created_at": "2026-10-13T04:03:40.091662Z"
+    },
+    {
+      "name": "IMG_4544.png",
+      "library_file_id": "libfile_9687ebeccea88191ab5e77c70eb145b1",
+      "created_at": "2026-10-13T04:03:39.738442Z"
+    },
+    {
+      "name": "IMG_4551.png",
+      "library_file_id": "libfile_b6f144e643548191a7d3b191ab0c6519",
+      "created_at": "2026-10-13T04:03:38.794876Z"
+    },
+    {
+      "name": "IMG_4562.jpeg",
+      "library_file_id": "libfile_d2911af862f88191917d9a96845a338c",
+      "created_at": "2026-10-13T04:03:30.538549Z"
+    },
+    {
+      "name": "IMG_4555.jpeg",
+      "library_file_id": "libfile_228e058d22248191b0bca6b057fcd183",
+      "created_at": "2026-10-13T04:03:18.580729Z"
+    },
+    {
+      "name": "IMG_4546.jpeg",
+      "library_file_id": "libfile_bb2f3f5f3e9481918515abefc2a03f9b",
+      "created_at": "2026-10-13T04:03:15.224221Z"
+    },
+    {
+      "name": "IMG_4553.png",
+      "library_file_id": "libfile_e79ba1dc55a08191a31f6df7a92b94f6",
+      "created_at": "2026-10-13T04:03:11.772707Z"
+    },
+    {
+      "name": "IMG_4540.png",
+      "library_file_id": "libfile_f0844e615da4819194abe63ac09a0f9f",
+      "created_at": "2026-10-13T04:03:11.686944Z"
+    },
+    {
+      "name": "IMG_4554.jpeg",
+      "library_file_id": "libfile_fe424c6897448191a2f6cac9d89ebd45",
+      "created_at": "2026-10-13T04:03:11.266312Z"
+    },
+    {
+      "name": "IMG_4549.jpeg",
+      "library_file_id": "libfile_220bf074e1348191bcc2ac6265fc6299",
+      "created_at": "2026-10-13T04:02:50.299956Z"
+    },
+    {
+      "name": "IMG_4545.png",
+      "library_file_id": "libfile_8ab3d655a588819182f5f27fa386d81e",
+      "created_at": "2026-10-13T04:02:39.404889Z"
+    },
+    {
+      "name": "IMG_4538.png",
+      "library_file_id": "libfile_133caae780f481919c011b148df6140e",
+      "created_at": "2026-10-13T04:01:55.328202Z"
+    },
+    {
+      "name": "IMG_4539.png",
+      "library_file_id": "libfile_32b1ab97266481919ce1bb3581331f59",
+      "created_at": "2026-10-13T04:01:54.646584Z"
+    },
+    {
+      "name": "IMG_4537.png",
+      "library_file_id": "libfile_38261f9e15e48191a8bd3514a5af8ad7",
+      "created_at": "2026-10-13T04:01:54.143598Z"
+    },
+    {
+      "name": "IMG_4535.png",
+      "library_file_id": "libfile_c2576b6f159081918155e55ac5bd71d5",
+      "created_at": "2026-10-13T04:01:50.983331Z"
+    },
+    {
+      "name": "IMG_4536.jpeg",
+      "library_file_id": "libfile_482a0a7a48888191954b53585c7af152",
+      "created_at": "2026-10-13T04:01:50.523006Z"
+    },
+    {
+      "name": "IMG_4534.png",
+      "library_file_id": "libfile_17a28fd835c08191912cac89e513687c",
+      "created_at": "2026-10-13T04:01:40.904675Z"
+    },
+    {
+      "name": "IMG_4533(1).png",
+      "library_file_id": "libfile_5d493734bf7c81919251a2afdd0b86ae",
+      "created_at": "2026-10-13T04:01:40.574673Z"
+    },
+    {
+      "name": "IMG_4532(1).png",
+      "library_file_id": "libfile_6d26cccc9afc8191bc5120ca732d37e4",
+      "created_at": "2026-10-13T04:01:36.092523Z"
+    },
+    {
+      "name": "IMG_4531(1).png",
+      "library_file_id": "libfile_7dfd5c3384908191b8fd4385a2881a50",
+      "created_at": "2026-10-13T04:01:19.998938Z"
+    },
+    {
+      "name": "IMG_4532.png",
+      "library_file_id": "libfile_cff160fd6d5c8191a7ccdc9967b46678",
+      "created_at": "2026-10-13T04:01:04.370183Z"
+    },
+    {
+      "name": "IMG_4531.png",
+      "library_file_id": "libfile_d92a0ef12e248191a390b597c4d456b5",
+      "created_at": "2026-10-13T04:01:02.688129Z"
+    },
+    {
+      "name": "IMG_4529.jpeg",
+      "library_file_id": "libfile_8363b5386c7c81919491c3a0bc1894af",
+      "created_at": "2026-10-13T04:01:02.020576Z"
+    },
+    {
+      "name": "IMG_4530.jpeg",
+      "library_file_id": "libfile_288950def85c8191ba3e99981fd46d58",
+      "created_at": "2026-10-13T04:01:01.614941Z"
+    },
+    {
+      "name": "IMG_4533.png",
+      "library_file_id": "libfile_e0b7e2c969288191a5f28a4647da51af",
+      "created_at": "2026-10-13T04:01:01.124488Z"
+    },
+    {
+      "name": "IMG_4527(1).jpeg",
+      "library_file_id": "libfile_2dba58478a0c819199f462cb3819ec59",
+      "created_at": "2026-10-13T04:01:00.686608Z"
+    },
+    {
+      "name": "IMG_4528.jpeg",
+      "library_file_id": "libfile_333dbf0bbc04819195c4d643fe8b5cd6",
+      "created_at": "2026-10-13T04:00:55.749253Z"
+    },
+    {
+      "name": "IMG_4526(1).jpeg",
+      "library_file_id": "libfile_f66212c88450819181058c83f6843041",
+      "created_at": "2026-10-13T04:00:55.623091Z"
+    },
+    {
+      "name": "IMG_4526.jpeg",
+      "library_file_id": "libfile_294b2e9b40e0819199afc8a8e45c3d2c",
+      "created_at": "2026-10-13T03:46:50.816192Z"
+    },
+    {
+      "name": "IMG_4527.jpeg",
+      "library_file_id": "libfile_9d0221e08df48191a9efaa27200e379c",
+      "created_at": "2026-10-13T03:46:48.665764Z"
+    },
+    {
+      "name": "IMG_3483.png",
+      "library_file_id": "libfile_47678cd68e7881918383cca9f38358ee",
+      "created_at": "2026-10-05T10:58:44.254374Z"
+    },
+    {
+      "name": "IMG_3452.png",
+      "library_file_id": "libfile_4cd035a8524081919c52b0af4dcc2776",
+      "created_at": "2026-10-05T03:59:06.544649Z"
+    },
+    {
+      "name": "IMG_3451.png",
+      "library_file_id": "libfile_1de80456b59081919087d888b4278f55",
+      "created_at": "2026-10-05T03:17:19.435583Z"
+    },
+    {
+      "name": "IMG_3450.png",
+      "library_file_id": "libfile_f239866e33b48191b0269155e356b1a3",
+      "created_at": "2026-10-05T03:13:16.019452Z"
+    },
+    {
+      "name": "IMG_3449.png",
+      "library_file_id": "libfile_f24a74a255b0819194b223886d974d06",
+      "created_at": "2026-10-05T03:02:28.207567Z"
+    },
+    {
+      "name": "IMG_3448(1).png",
+      "library_file_id": "libfile_033b629adea48191ad2c4c83681b77ba",
+      "created_at": "2026-10-05T03:02:27.878860Z"
+    },
+    {
+      "name": "IMG_3448.png",
+      "library_file_id": "libfile_d107312650148191b4388f8c12087bd2",
+      "created_at": "2026-10-05T02:43:57.351507Z"
+    },
+    {
+      "name": "IMG_3390.png",
+      "library_file_id": "libfile_30a000f0c6b881918f77dc335633d557",
+      "created_at": "2026-10-01T13:09:46.361937Z"
+    },
+    {
+      "name": "IMG_3389.jpeg",
+      "library_file_id": "libfile_7c46a05e5f6081919fa4a6638af8f393",
+      "created_at": "2026-10-01T13:01:59.187290Z"
+    },
+    {
+      "name": "IMG_3388.png",
+      "library_file_id": "libfile_d079b42cd2f88191b2024b9d474ccc4e",
+      "created_at": "2026-10-01T12:59:55.467295Z"
+    },
+    {
+      "name": "IMG_3387.jpeg",
+      "library_file_id": "libfile_e81874208b288191ab9f4700b5f0dfca",
+      "created_at": "2026-10-01T12:56:12.733556Z"
+    },
+    {
+      "name": "IMG_3385.png",
+      "library_file_id": "libfile_f630fd763aa08191ab5c5c6271db6a8f",
+      "created_at": "2026-10-01T12:53:15.729514Z"
+    },
+    {
+      "name": "IMG_3386.png",
+      "library_file_id": "libfile_8f966f171f0c8191946757dc69f287b0",
+      "created_at": "2026-10-01T12:53:15.438033Z"
+    },
+    {
+      "name": "IMG_3384.jpeg",
+      "library_file_id": "libfile_9542bc12887481918cb967ef9a8e6a1e",
+      "created_at": "2026-10-01T12:37:41.423182Z"
+    },
+    {
+      "name": "IMG_3383.png",
+      "library_file_id": "libfile_7cc7011f183c8191860aa47321a2130a",
+      "created_at": "2026-10-01T12:37:39.638354Z"
+    },
+    {
+      "name": "IMG_3382.jpeg",
+      "library_file_id": "libfile_48d107006bf88191b49fb108ee9fdc0b",
+      "created_at": "2026-10-01T12:32:35.915323Z"
+    },
+    {
+      "name": "IMG_3381.png",
+      "library_file_id": "libfile_1cb6ccfc660c819185f681ef6c79fceb",
+      "created_at": "2026-10-01T12:32:35.638791Z"
+    },
+    {
+      "name": "IMG_3379.png",
+      "library_file_id": "libfile_80d7344f74308191b086f96c871a6cad",
+      "created_at": "2026-10-01T12:12:57.555078Z"
+    },
+    {
+      "name": "IMG_3378.png",
+      "library_file_id": "libfile_d5b573107fc48191b49eaab39af594bd",
+      "created_at": "2026-10-01T12:11:01.450924Z"
+    },
+    {
+      "name": "IMG_3377.jpeg",
+      "library_file_id": "libfile_01af25ff07c48191a3804c0d70b99503",
+      "created_at": "2026-10-01T12:10:01.617360Z"
+    },
+    {
+      "name": "IMG_3376.jpeg",
+      "library_file_id": "libfile_4745817111b48191bafece3e96072471",
+      "created_at": "2026-10-01T12:10:01.221082Z"
+    },
+    {
+      "name": "IMG_3375.jpeg",
+      "library_file_id": "libfile_0567a7bcfa70819190532b39218b6f08",
+      "created_at": "2026-10-01T12:04:59.740865Z"
+    },
+    {
+      "name": "IMG_3370.png",
+      "library_file_id": "libfile_4342396378848191a388aed2715af8bf",
+      "created_at": "2026-10-01T11:56:47.560937Z"
+    },
+    {
+      "name": "IMG_3369.png",
+      "library_file_id": "libfile_7805b24d71d8819197ac9f20eed7d90c",
+      "created_at": "2026-10-01T11:56:08.498295Z"
+    },
+    {
+      "name": "IMG_3368.png",
+      "library_file_id": "libfile_f8e5e5fb16e88191aa59c6672d6cc79d",
+      "created_at": "2026-10-01T11:54:52.120135Z"
+    },
+    {
+      "name": "IMG_3363.jpeg",
+      "library_file_id": "libfile_350d86f093148191977938da7b2c965e",
+      "created_at": "2026-10-01T11:51:21.150940Z"
+    },
+    {
+      "name": "IMG_3361.png",
+      "library_file_id": "libfile_e345de7e3fa4819199fa947d70a4a2c2",
+      "created_at": "2026-10-01T11:48:51.629942Z"
+    },
+    {
+      "name": "IMG_3360.png",
+      "library_file_id": "libfile_84df2a3aaa2081918ba0267f07c8f2f2",
+      "created_at": "2026-10-01T11:45:37.598744Z"
+    },
+    {
+      "name": "IMG_3358.png",
+      "library_file_id": "libfile_fa66240c17208191a1592f3ce81c1289",
+      "created_at": "2026-10-01T11:42:00.253866Z"
+    },
+    {
+      "name": "IMG_3357.png",
+      "library_file_id": "libfile_db3d67b0269c81918da0593e8d42bf47",
+      "created_at": "2026-10-01T11:41:12.946086Z"
+    },
+    {
+      "name": "IMG_3205.png",
+      "library_file_id": "libfile_e55aad73ebd08191823569362b034d0b",
+      "created_at": "2026-09-29T04:20:05.448852Z"
+    },
+    {
+      "name": "IMG_3204.png",
+      "library_file_id": "libfile_f688f79988d88191a9bf0d5bc477aec9",
+      "created_at": "2026-09-29T04:18:28.495630Z"
+    },
+    {
+      "name": "IMG_3203.png",
+      "library_file_id": "libfile_1a35b8bf6b008191abf51e2bfb99e50f",
+      "created_at": "2026-09-28T17:12:14.110307Z"
+    },
+    {
+      "name": "IMG_3201.png",
+      "library_file_id": "libfile_3ca7db0632e08191980d181e2ec61b0a",
+      "created_at": "2026-09-28T17:11:11.313379Z"
+    },
+    {
+      "name": "IMG_3200.png",
+      "library_file_id": "libfile_e344bf693bf08191831119a0736ab66e",
+      "created_at": "2026-09-28T17:10:26.232023Z"
+    },
+    {
+      "name": "IMG_3199.png",
+      "library_file_id": "libfile_8a0944bb1e8c8191a6d1791ffdb55c89",
+      "created_at": "2026-09-28T17:09:11.524800Z"
+    },
+    {
+      "name": "IMG_3198.png",
+      "library_file_id": "libfile_ce67bde32ea881918758f885b73c4c22",
+      "created_at": "2026-09-28T17:04:28.880942Z"
+    },
+    {
+      "name": "IMG_3177.png",
+      "library_file_id": "libfile_d66c881f03c481919c9d82afb74e2b8d",
+      "created_at": "2026-09-28T12:17:53.495764Z"
+    },
+    {
+      "name": "IMG_3176.png",
+      "library_file_id": "libfile_7364f058920081919d5df27ebd3d901f",
+      "created_at": "2026-09-28T12:13:29.579028Z"
+    },
+    {
+      "name": "IMG_3174.png",
+      "library_file_id": "libfile_2a1df31f5a588191b96d458e0a92896b",
+      "created_at": "2026-09-28T12:03:09.996016Z"
+    },
+    {
+      "name": "IMG_3173.png",
+      "library_file_id": "libfile_919b0ec5480c8191b2a7947f2ae68680",
+      "created_at": "2026-09-28T12:03:09.732175Z"
+    },
+    {
+      "name": "IMG_3172.png",
+      "library_file_id": "libfile_4ae83af9a198819187dc05994b48f9c8",
+      "created_at": "2026-09-28T12:00:10.473682Z"
+    },
+    {
+      "name": "IMG_3170.png",
+      "library_file_id": "libfile_babf7aac65608191b57bb8df425af729",
+      "created_at": "2026-09-28T11:53:59.245642Z"
+    },
+    {
+      "name": "IMG_3169.png",
+      "library_file_id": "libfile_f744a75dde50819196567f2c16958bd0",
+      "created_at": "2026-09-28T11:52:47.305426Z"
+    },
+    {
+      "name": "IMG_3168.png",
+      "library_file_id": "libfile_959b783a7208819194b30053dc4ab4f9",
+      "created_at": "2026-09-28T11:51:43.811168Z"
+    },
+    {
+      "name": "IMG_3167.png",
+      "library_file_id": "libfile_db60c209ded08191b0f17dfcf33ac49d",
+      "created_at": "2026-09-28T11:51:01.973144Z"
+    },
+    {
+      "name": "IMG_3165.png",
+      "library_file_id": "libfile_389d0d4c2cd8819188bcf6579af40c8c",
+      "created_at": "2026-09-28T11:49:49.166978Z"
+    },
+    {
+      "name": "IMG_3166.png",
+      "library_file_id": "libfile_b2713c77f5688191ac8c74beee0a1569",
+      "created_at": "2026-09-28T11:49:48.849519Z"
+    },
+    {
+      "name": "IMG_3164.png",
+      "library_file_id": "libfile_dcd3f03e645c81918e3caaa93e0b3aa2",
+      "created_at": "2026-09-28T11:48:13.486617Z"
+    }
+  ]
+}
