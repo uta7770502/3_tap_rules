@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-14",
+  "records": [
+    {
+      "key": "search-moved-ball",
+      "filename": "search-moved-ball-20261014.png",
+      "prompt": "Use case: illustration-story. Asset type: golf rules app explanatory situation illustration. Create one landscape 1536x1024 minimal A-style illustration on white background. Palette strictly dark teal rounded uniform outlines, white fills and very pale mint flat accents, no other colors. No photorealism, gradients, text, labels, numbers, logos or border. Close view of the lower legs and white golf shoes of a person carefully searching through long grass. One shoe gently nudged a single white golf ball which is now immediately beside the shoe among long grass; two tiny curved motion ticks show its accidental small movement. Grass clearly partially conceals the ball and shoes. Feet naturally grounded with anatomically plausible legs, no club, no deliberate kicking pose, no hole or putting green. Show an accidental discovery during searching, not playing a stroke. Simple uncluttered composition, large legible objects, rounded dark teal contour, pale mint grass. Generous white margin, image is an illustrative scene not a precise rules diagram.",
+      "src": "assets/dedicated-guides/search-moved-ball-20261014.png",
+      "mode": "built-in image_gen",
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-7",
+      "rule": "7.4",
+      "targets": {
+        "standard": [
+          129
+        ],
+        "competition": [
+          7,
+          145
+        ]
+      },
+      "sharingReason": "合理的な捜索中に偶然球が動いた同じ場面。自分・他人の球の別によって、この場面の描写や元の箇所へ戻す処置は変わらない。"
+    },
+    {
+      "key": "identify-marked-ball",
+      "filename": "identify-marked-ball-20261014.png",
+      "prompt": "Use case: illustration-story. Asset type: golf rules app explanatory situation illustration. Create one landscape 1536x1024 minimal A-style illustration on white background. Palette strictly dark teal rounded uniform outlines, white fills and very pale mint flat accents, no other colors. No photorealism, gradients, text, labels, numbers, logos, panels or border. Close view of one anatomically correct hand gently holding a single golf ball just above short grass to inspect a tiny dark teal personal identification dot on the ball. Immediately beneath the raised ball is its vacated lie in the grass; a small flat round golf ball marker rests directly adjacent BEHIND that original spot, not underneath the ball and not far away. Marker noticeably smaller than golf ball. Ball is raised only a few centimeters, showing it was marked before being lifted. No cloth, no washing, no rubbing, no second ball, no cup, no flag, no clubs. This is identifying a ball in general-area grass, not a putting green. Clear fingers naturally cradle ball, no extra fingers. Large simple objects, generous white margin. Image shows a situation only, not a multi-step diagram.",
+      "src": "assets/dedicated-guides/identify-marked-ball-20261014.png",
+      "mode": "built-in image_gen",
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-7",
+      "rule": "7.3",
+      "targets": {
+        "standard": [
+          162,
+          197
+        ],
+        "competition": [
+          87,
+          287
+        ]
+      },
+      "sharingReason": "識別が必要な球をマークして拾い上げる同じ動作。確認後のリプレースと清掃制限も共通。"
+    }
+  ]
+}

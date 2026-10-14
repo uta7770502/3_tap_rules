@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261014-recovery1';
+const version='20261014-search-identify';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -33,6 +33,13 @@ Object.assign(scenes,{"no-play-branch": {"src": "artwork-archive/recovered-20261
 Object.assign(mappings.standard,{"181": "no-play-ball", "146": "rough-ground-club", "136": "flag-attendant-hit", "60": "sprinkler-line", "58": "gur-line", "18": "companion-hit", "17": "self-hit", "128": "self-hit", "33": "flag-rebound", "140": "flag-rebound", "247": "bush-cart-exception", "158": "boundary-stake", "121": "cart-hit", "122": "cart-hit", "19": "animal-hit", "132": "test-sand", "244": "test-green", "243": "aeration", "163": "embedded-sand", "141": "embedded-fairway", "65": "bunker-water-scene", "115": "temporary-water-ball", "124": "root-trapped", "59": "drain-ball", "191": "cart-stance-scene", "114": "cart-ball", "204": "water-stance", "201": "sprinkler-stance", "4": "fallen-tee-ball", "149": "deep-rough", "7": "tee-marker-hit", "48": "removed-flag-hit", "123": "bag-hit", "160": "dangerous-animal", "157": "remove-can", "144": "replace-divot", "38": "cup-damage", "88": "cup-damage", "120": "cup-damage", "192": "root-near-ball", "24": "ball-in-tree", "113": "ball-in-tree", "202": "fence-ball", "62": "rake-bunker", "131": "remove-bunker-stone", "82": "club-outside-bunker", "22": "damaged-ball", "168": "damaged-ball", "143": "mud-ball", "198": "mud-ball", "76": "broken-club", "29": "flag-left-in", "43": "flag-left-in", "31": "spike-damage", "53": "green-water", "41": "pitchmark-repair", "54": "pitchmark-repair", "39": "flag-set-aside", "90": "flag-set-aside", "12": "tee-marker-wide", "137": "tee-marker-wide", "8": "broken-tee", "1": "tee-air-shot", "248": "tee-falling"});
 Object.assign(mappings.competition,{"222": "no-play-branch", "216": "no-play-stance", "79": "no-play-ball", "115": "club-length", "165": "grass-between-face", "125": "sprinkler-line", "169": "self-hit", "264": "place-twig", "91": "stop-ball-foot", "173": "stop-ball-foot", "289": "moving-ball-twig", "88": "restore-branch", "54": "lift-branch", "57": "alignment-stick", "255": "bush-cart-exception", "277": "bunker-edge", "151": "cart-hit", "172": "ball-on-animal", "164": "cactus-towel", "265": "bunker-stance", "248": "remove-dew", "250": "fairway-sand", "252": "test-green", "259": "test-green", "251": "aeration", "13": "embedded-fairway", "69": "bunker-water-scene", "68": "ball-on-towel", "181": "ball-on-towel", "183": "cart-stance-scene", "294": "cart-ball", "85": "move-tee-marker", "98": "dangerous-animal", "101": "ball-in-tree", "193": "ball-in-tree", "240": "rake-bunker", "278": "remove-bunker-stone", "134": "damaged-ball", "135": "damaged-ball", "80": "broken-club", "127": "broken-club", "144": "broken-club", "234": "broken-club", "262": "broken-club", "61": "flag-left-in", "60": "spike-damage", "295": "green-water", "138": "tee-air-shot", "256": "tee-falling"});
 Object.assign(mappings.basic,{});
+// Rule 7: searching movement and marked identification are distinct scenes.
+Object.assign(scenes,{
+ 'search-moved-ball':{src:'assets/dedicated-guides/search-moved-ball-20261014.png',caption:'球を探している途中、靴が触れて偶然球が動いた例。合理的な捜索中なら罰はなく、元の箇所へリプレースします。不明なら元の箇所を推定します。',dedicated:true},
+ 'identify-marked-ball':{src:'assets/dedicated-guides/identify-marked-ball-20261014.png',caption:'識別の必要がある球を、位置をマークしてから拾い上げた場面。確認に必要な範囲を超えて拭かず、元の箇所へリプレースします。',dedicated:true}
+});
+Object.assign(mappings.standard,{129:'search-moved-ball',162:'identify-marked-ball',197:'identify-marked-ball'});
+Object.assign(mappings.competition,{7:'search-moved-ball',145:'search-moved-ball',87:'identify-marked-ball',287:'identify-marked-ball'});
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}
