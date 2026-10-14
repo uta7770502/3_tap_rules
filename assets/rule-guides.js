@@ -59,7 +59,8 @@
     return Object.keys(table).find(key => table[key].includes(Number(rule.id))) || null;
   }
   function render(container, rule, mode) {
-    if(root.RuleScenes && root.RuleScenes.select(rule,mode)?.dedicated){root.RuleScenes.render(container,rule,mode);return;}
+    const caseScene = root.RuleScenes && root.RuleScenes.select(rule,mode);
+    if(caseScene?.dedicated && !(caseScene.recovered && select(rule,mode))){root.RuleScenes.render(container,rule,mode);return;}
     const key = select(rule, mode);
     if (!key) { if(root.RuleScenes) root.RuleScenes.render(container, rule, mode); else container.hidden = true; return; }
     const guide = guides[key];
@@ -110,6 +111,7 @@
     }
     container.append(steps, note);
     if (guide.source) { const source=document.createElement('a'); source.href='https://www.randa.org/rog/the-rules-of-golf/rule-'+guide.source; source.textContent='根拠：R&A公式規則 '+guide.source+'（英語）'; source.target='_blank'; source.rel='noopener noreferrer'; container.append(source); }
+    if (caseScene?.recovered) { const example=document.createElement('section'); root.RuleScenes.render(example,rule,mode); container.append(example); }
     container.hidden = false;
   }
   const api = { guides, standard, competition, select, render, version };

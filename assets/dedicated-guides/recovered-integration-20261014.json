@@ -1,0 +1,1404 @@
+{
+  "date": "2026-10-14",
+  "scope": "Generated illustration integration checkpoint, not full application audit completion",
+  "base_commit": "a12be47c25c62a3ad19596463f03c7e8caeb35db",
+  "selected_images": 70,
+  "case_links": 113,
+  "records": [
+    {
+      "key": "no-play-branch",
+      "source_index": 6,
+      "original_name": "修理地の外へ伸びる枝とゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/852e64c411aa1313c43d.png",
+      "sha256": "852e64c411aa1313c43d2edd3f1d1cc1e92c6c71b5c30dbab1f54e777872041f",
+      "width": 1536,
+      "height": 1024,
+      "caption": "プレー禁止区域から外へ伸びた枝がスイングにかかる例。区域の指定と枝の生えている場所を確認します。",
+      "rules": "16.1f",
+      "targets": {
+        "standard": [],
+        "competition": [
+          222
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "no-play-stance",
+      "source_index": 7,
+      "original_name": "保護区域に片足、ボールは区域外.png",
+      "src": "artwork-archive/recovered-20261013/59dac139876ccd4668cd.png",
+      "sha256": "59dac139876ccd4668cd209ac502193d8f32a554a7663f6ea4d733b76cd77fcc",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球は区域外でも、通常のスタンスがプレー禁止区域にかかる例。",
+      "rules": "16.1f",
+      "targets": {
+        "standard": [],
+        "competition": [
+          216
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "no-play-ball",
+      "source_index": 8,
+      "original_name": "保護区域内のゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/44f6c728574199c82719.png",
+      "sha256": "44f6c728574199c827195bed364c252b2e206d2099c50aed65ce255e569d43a5",
+      "width": 1536,
+      "height": 1024,
+      "caption": "委員会がプレー禁止区域に指定した修理地の中に球がある例。杭の色だけでなく掲示・指定を確認します。",
+      "rules": "16.1f",
+      "targets": {
+        "standard": [
+          181
+        ],
+        "competition": [
+          79
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "rough-ground-club",
+      "source_index": 9,
+      "original_name": "ラフに佇むアイアンとボール.png",
+      "src": "artwork-archive/recovered-20261013/12368b02dfe9fc13c98a.png",
+      "sha256": "12368b02dfe9fc13c98a2009bccf973887bba7ca2bd56e1afc6bc734e04d3951",
+      "width": 1536,
+      "height": 1024,
+      "caption": "ラフでクラブを軽く地面につける例。草を押し倒して打ちやすくする行為とは区別します。",
+      "rules": "8.1b",
+      "targets": {
+        "standard": [
+          146
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    },
+    {
+      "key": "club-length",
+      "source_index": 10,
+      "original_name": "モダンドライバーヘッドに変更.png",
+      "src": "artwork-archive/recovered-20261013/9231cddabc6e33b9acdd.png",
+      "sha256": "9231cddabc6e33b9acdd3799c590059271aba1927d65c46ab137e2f5a862dd6a",
+      "width": 1536,
+      "height": 1024,
+      "caption": "パターを除く、携帯する最も長いクラブで長さを確認する例。",
+      "rules": "definitions",
+      "targets": {
+        "standard": [],
+        "competition": [
+          115
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/definitions"
+    },
+    {
+      "key": "flag-attendant-hit",
+      "source_index": 12,
+      "original_name": "旗竿を抜いた人の靴に当たるボール.png",
+      "src": "artwork-archive/recovered-20261013/f8eb24f167c57b5a0bdf.png",
+      "sha256": "f8eb24f167c57b5a0bdf43dbe63009bdab4b1035b22f79d0ea12d83801e3ab57",
+      "width": 1536,
+      "height": 1024,
+      "caption": "抜いた旗竿を持つ人に球が当たる例。偶然か故意か、打った場所も確認します。",
+      "rules": "13.2b",
+      "targets": {
+        "standard": [
+          136
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "grass-between-face",
+      "source_index": 13,
+      "original_name": "アイアンとボール、芝越しの瞬間.png",
+      "src": "artwork-archive/recovered-20261013/3d13698651841b6cfe32.png",
+      "sha256": "3d13698651841b6cfe32c53999bb6cdc27c5d37f01a5e625ea07c2bc093ab4a6",
+      "width": 1536,
+      "height": 1024,
+      "caption": "クラブフェースと球の間に草が挟まる例。正しく打つストロークかを確認します。",
+      "rules": "10.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          165
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    },
+    {
+      "key": "sprinkler-line",
+      "source_index": 14,
+      "original_name": "グリーン手前のボールとスプリンクラー.png",
+      "src": "artwork-archive/recovered-20261013/98dd7023eafabb8329b5.png",
+      "sha256": "98dd7023eafabb8329b5ba74b9644a07b25a54771e7b98415f18132798e18aef",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球はグリーン外にあり、スプリンクラーがプレーの線上にある例。スタンスの障害とは別です。",
+      "rules": "16.1a",
+      "targets": {
+        "standard": [
+          60
+        ],
+        "competition": [
+          125
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "gur-line",
+      "source_index": 15,
+      "original_name": "フェアウェイの修理地.png",
+      "src": "artwork-archive/recovered-20261013/1986549edd55d6ddeaea.png",
+      "sha256": "1986549edd55d6ddeaea08edab4f56e02fb554d0306e6a09704c3a670a7fb44a",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球は修理地の外にあり、修理地がプレーの線上にある例。球のあるエリアと障害を確認します。",
+      "rules": "16.1a",
+      "targets": {
+        "standard": [
+          58
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "companion-hit",
+      "source_index": 16,
+      "original_name": "滑らかな底と白いヘッドカバーのゴルフバッグ.png",
+      "src": "artwork-archive/recovered-20261013/80cdf135947e52bcb673.png",
+      "sha256": "80cdf135947e52bcb6733532666b030447051f2d9ecc0c4d0f55ffcc0a88a602",
+      "width": 1536,
+      "height": 1024,
+      "caption": "待機する同伴者の脚に打球が偶然当たる例。",
+      "rules": "11.1",
+      "targets": {
+        "standard": [
+          18
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "self-hit",
+      "source_index": 18,
+      "original_name": "ふくらはぎに当たるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/7092e55d894a6f76ddf8.png",
+      "sha256": "7092e55d894a6f76ddf8ca3bbaafa2473a78e88ae3eb748ed6151c86dc1f9157",
+      "width": 1536,
+      "height": 1024,
+      "caption": "自分の打球が脚に偶然当たる例。故意に止めた場合とは区別します。",
+      "rules": "11.1",
+      "targets": {
+        "standard": [
+          17,
+          128
+        ],
+        "competition": [
+          169
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "place-twig",
+      "source_index": 19,
+      "original_name": "ボール前に小枝を置くゴルファー.png",
+      "src": "artwork-archive/recovered-20261013/74af42e8ba1e11484820.png",
+      "sha256": "74af42e8ba1e114848203ad3b128af91beb1f0728946468ea944a86959d4b064",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球の前に小枝を置いてストローク条件を改善しようとする例。推奨動作ではありません。",
+      "rules": "8.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          264
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    },
+    {
+      "key": "stop-ball-foot",
+      "source_index": 20,
+      "original_name": "転がるゴルフボールを靴で止める.png",
+      "src": "artwork-archive/recovered-20261013/ecf0d6587aa514cc5eba.png",
+      "sha256": "ecf0d6587aa514cc5eba274db3ab50470dfaae790fa0c96c99ae14b87584fba9",
+      "width": 1536,
+      "height": 1024,
+      "caption": "動いている球を足で故意に止める例。偶然の接触とは区別します。",
+      "rules": "11.2",
+      "targets": {
+        "standard": [],
+        "competition": [
+          91,
+          173
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "moving-ball-twig",
+      "source_index": 21,
+      "original_name": "白と淡いミントの枝.png",
+      "src": "artwork-archive/recovered-20261013/ffd7b67e9d472b919f43.png",
+      "sha256": "ffd7b67e9d472b919f43ca82e23c37539bbd55f7f5419bfe8015d943919ca764",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球が動いている間に、球へ影響させる目的で前方の小枝を取り除く例。",
+      "rules": "11.3",
+      "targets": {
+        "standard": [],
+        "competition": [
+          289
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "flag-rebound",
+      "source_index": 23,
+      "original_name": "旗竿に弾かれた白球.png",
+      "src": "artwork-archive/recovered-20261013/9c8142a77e0c67926b42.png",
+      "sha256": "9c8142a77e0c67926b422b110544e2327fe3ae9833f4bd2aca070ee0d5ef1be6",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球がホールに残した旗竿に当たり、外へ跳ね返る例。",
+      "rules": "13.2a",
+      "targets": {
+        "standard": [
+          33,
+          140
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "restore-branch",
+      "source_index": 24,
+      "original_name": "自然に垂れ下がる枝と離れる手袋.png",
+      "src": "artwork-archive/recovered-20261013/a90d25bcf8ac8a50a843.png",
+      "sha256": "a90d25bcf8ac8a50a843ae898e5387cde877e54090154175a1d1955010a7b48f",
+      "width": 1536,
+      "height": 1024,
+      "caption": "持ち上げた枝から手を離し、元の状態に戻す例。元に戻せば常に罰がなくなるわけではありません。",
+      "rules": "8.1c",
+      "targets": {
+        "standard": [],
+        "competition": [
+          88
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    },
+    {
+      "key": "lift-branch",
+      "source_index": 25,
+      "original_name": "ゴルフボール上の枝を持ち上げる手(1).png",
+      "src": "artwork-archive/recovered-20261013/0a7ba5a0d0099b7ece60.png",
+      "sha256": "0a7ba5a0d0099b7ece6069ffc1a2f242f032520f3a5edf23feec0a800caf1404",
+      "width": 1536,
+      "height": 1024,
+      "caption": "スイングの邪魔になる生きた枝を持ち上げる例。正当にスタンスを取る行為とは区別します。",
+      "rules": "8.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          54
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    },
+    {
+      "key": "alignment-stick",
+      "source_index": 27,
+      "original_name": "ゴルフシューズとアライメントロッド.png",
+      "src": "artwork-archive/recovered-20261013/9254f42f4ee0026ff370.png",
+      "sha256": "9254f42f4ee0026ff370599268ff747c9d8cf7002e1e385af20c9f30bf588334",
+      "width": 1536,
+      "height": 1024,
+      "caption": "足元にアライメント棒を置いて構える例。競技中の使用制限を確認します。",
+      "rules": "10.2b",
+      "targets": {
+        "standard": [],
+        "competition": [
+          57
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    },
+    {
+      "key": "bush-cart-exception",
+      "source_index": 28,
+      "original_name": "茂みのゴルフボールとカート道.png",
+      "src": "artwork-archive/recovered-20261013/8f81555be9b93c40860a.png",
+      "sha256": "8f81555be9b93c40860a392a14c79d37dddbe0c59547d55f6e02065cb2e9b059",
+      "width": 1536,
+      "height": 1024,
+      "caption": "茂みで打つことが明らかに不合理な球。足がカート道にかかるだけでは無罰救済になりません。",
+      "rules": "16.1a(3)",
+      "targets": {
+        "standard": [
+          247
+        ],
+        "competition": [
+          255
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "boundary-stake",
+      "source_index": 29,
+      "original_name": "境界杭近くのゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/794ea3b1d195bd4eeff8.png",
+      "sha256": "794ea3b1d195bd4eeff8ba7b375375d33ae876db68ac86285bd04547b0b63cc7",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球の近くにOBを定める白杭がある例。境界物は通常の障害物とは異なります。",
+      "rules": "definitions",
+      "targets": {
+        "standard": [
+          158
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/definitions"
+    },
+    {
+      "key": "bunker-edge",
+      "source_index": 30,
+      "original_name": "バンカーの砂際に止まるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/a38687bc57c96c30cae5.png",
+      "sha256": "a38687bc57c96c30cae529d597f91870f682b9619912ab25a8c9b0bacd3548ae",
+      "width": 1536,
+      "height": 1024,
+      "caption": "砂に触れる球がバンカーの縁にある例。砂と芝・土の位置関係を確認します。",
+      "rules": "12.1",
+      "targets": {
+        "standard": [],
+        "competition": [
+          277
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    },
+    {
+      "key": "cart-hit",
+      "source_index": 31,
+      "original_name": "カートに当たるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/ad0683ae1e828179cb2c.png",
+      "sha256": "ad0683ae1e828179cb2cbeb380a96fb33c464959e53eb8f76c1d5593d4c53b2b",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球がカートに偶然当たる例。静止・移動の別や、打った場所を本文で確認します。",
+      "rules": "11.1",
+      "targets": {
+        "standard": [
+          121,
+          122
+        ],
+        "competition": [
+          151
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "animal-hit",
+      "source_index": 32,
+      "original_name": "犬の前足に触れるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/a7a9d5d56f313161b47f.png",
+      "sha256": "a7a9d5d56f313161b47f77cd50bda1c57f002714ff6a068003b85631a925ac6d",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球が犬の前足に偶然当たる例。動物の上に止まった場合とは区別します。",
+      "rules": "11.1",
+      "targets": {
+        "standard": [
+          19
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "ball-on-animal",
+      "source_index": 33,
+      "original_name": "背中にゴルフボールを乗せた白い犬.png",
+      "src": "artwork-archive/recovered-20261013/f52f1086b67dda7c5e4f.png",
+      "sha256": "f52f1086b67dda7c5e4f20141faf6e1860ad30f5c6ba55543a853ff24f0dd56c",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球が動物の背中の上に止まった例。単に当たって地面に止まった場合とは別です。",
+      "rules": "11.1b",
+      "targets": {
+        "standard": [],
+        "competition": [
+          172
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "cactus-towel",
+      "source_index": 34,
+      "original_name": "タオルで覆われたサボテンとゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/445430087d68155e3bfe.png",
+      "sha256": "445430087d68155e3bfe7925604bc7ec04fb9701c1796465237c984568b77770",
+      "width": 1536,
+      "height": 1024,
+      "caption": "サボテンにタオルを掛けてスタンスを取る例。身体に着用する防護とは異なります。",
+      "rules": "8.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          164
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    },
+    {
+      "key": "test-sand",
+      "source_index": 35,
+      "original_name": "指先で探るバンカーの砂.png",
+      "src": "artwork-archive/recovered-20261013/0d00f9213b3ea56228e4.png",
+      "sha256": "0d00f9213b3ea56228e4bc65b919a73914466cbbcbf54bf720b3d7ee5e15b04f",
+      "width": 1536,
+      "height": 1024,
+      "caption": "ストローク前に指で砂に触れ、状態をテストする例。",
+      "rules": "12.2b",
+      "targets": {
+        "standard": [
+          132
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    },
+    {
+      "key": "bunker-stance",
+      "source_index": 36,
+      "original_name": "バンカーで整える自然な足元.png",
+      "src": "artwork-archive/recovered-20261013/69010eb9a21c842538e5.png",
+      "sha256": "69010eb9a21c842538e583f1669ab796bcecaf093847f1211cc1c2d1c057696e",
+      "width": 1536,
+      "height": 1024,
+      "caption": "正当にスタンスを取るため、砂へ足を落ち着かせる例。砂をテストする行為とは区別します。",
+      "rules": "12.2b",
+      "targets": {
+        "standard": [],
+        "competition": [
+          265
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    },
+    {
+      "key": "remove-dew",
+      "source_index": 38,
+      "original_name": "グリーンの露を拭うゴルフタオル.png",
+      "src": "artwork-archive/recovered-20261013/9fd359b73fd1b52fda68.png",
+      "sha256": "9fd359b73fd1b52fda6804f77ae6c4c70919712778a53f8af3a9dbcdf704da74",
+      "width": 1536,
+      "height": 1024,
+      "caption": "グリーンのプレーの線から露をタオルで取り除く例。砂や落ち葉とは扱いが異なります。",
+      "rules": "13.1c / 8.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          248
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "fairway-sand",
+      "source_index": 39,
+      "original_name": "ゴルフボール前の砂を払う手.png",
+      "src": "artwork-archive/recovered-20261013/5c7d19dbc7bd4256e50a.png",
+      "sha256": "5c7d19dbc7bd4256e50ae8fb344a9ab73222564156cb15ac120e779833d8d0fc",
+      "width": 1536,
+      "height": 1024,
+      "caption": "グリーン外で球の周りの砂を払う例。グリーン上の砂の除去とは区別します。",
+      "rules": "8.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          250
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    },
+    {
+      "key": "test-green",
+      "source_index": 40,
+      "original_name": "グリーンの感触を確かめる手.png",
+      "src": "artwork-archive/recovered-20261013/7060206cebaee1e641cc.png",
+      "sha256": "7060206cebaee1e641cc439c58df78c4bcce679d66d09f7c74d3cca52b7e4288",
+      "width": 1536,
+      "height": 1024,
+      "caption": "グリーン面を手でこすり、転がりをテストする例。ラウンド中・競技前で適用規則を確認します。",
+      "rules": "13.1e / 5.2b",
+      "targets": {
+        "standard": [
+          244
+        ],
+        "competition": [
+          252,
+          259
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "aeration",
+      "source_index": 41,
+      "original_name": "グリーンの小さなエアレーション穴.png",
+      "src": "artwork-archive/recovered-20261013/00e473e3ac3b014189aa.png",
+      "sha256": "00e473e3ac3b014189aa1a2bdfcac82979b54f121787535bcb1afa143a991382",
+      "width": 1536,
+      "height": 1024,
+      "caption": "グリーン上のエアレーション穴と球。球の落下跡とは異なります。",
+      "rules": "13.1c",
+      "targets": {
+        "standard": [
+          243
+        ],
+        "competition": [
+          251
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "embedded-sand",
+      "source_index": 42,
+      "original_name": "ラフの白砂に埋まるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/8a46eb29a49060d88cde.png",
+      "sha256": "8a46eb29a49060d88cdebcb9e9176ee758ffbd427381a234f2d8419249e15217",
+      "width": 1536,
+      "height": 1024,
+      "caption": "短く刈られていないジェネラルエリアの砂にくい込んだ球の例。無罰救済の例外を確認します。",
+      "rules": "16.3a",
+      "targets": {
+        "standard": [
+          163
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "embedded-fairway",
+      "source_index": 43,
+      "original_name": "フェアウェイに埋まるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/c089877182605716f814.png",
+      "sha256": "c089877182605716f814d17310ce8c91a8a4fc127fd486bd28c6491d2b349932",
+      "width": 1536,
+      "height": 1024,
+      "caption": "フェアウェイの自分のピッチマークに球がくい込む例。",
+      "rules": "16.3",
+      "targets": {
+        "standard": [
+          141
+        ],
+        "competition": [
+          13
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "bunker-water-scene",
+      "source_index": 44,
+      "original_name": "白砂バンカーの浅い水たまり.png",
+      "src": "artwork-archive/recovered-20261013/1cda5bc148cab142ccc2.png",
+      "sha256": "1cda5bc148cab142ccc2a7dafaede651b11f61e70797f1fc38c600575be369f6",
+      "width": 1536,
+      "height": 1024,
+      "caption": "バンカー内の一時的な水に球がある例。バンカーの外へ出す場合と区別します。",
+      "rules": "16.1c",
+      "targets": {
+        "standard": [
+          65
+        ],
+        "competition": [
+          69
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "temporary-water-ball",
+      "source_index": 45,
+      "original_name": "浅い雨たまりのゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/8e7bf629027f30a354f2.png",
+      "sha256": "8e7bf629027f30a354f22fba601aaa59aef2a6d185bd4bcbc78ee850821847a2",
+      "width": 1536,
+      "height": 1024,
+      "caption": "ジェネラルエリアの一時的な水に球がある例。ペナルティーエリアではありません。",
+      "rules": "16.1b",
+      "targets": {
+        "standard": [
+          115
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "root-trapped",
+      "source_index": 46,
+      "original_name": "木の根に挟まれたゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/f11487b89a8fae4c3521.png",
+      "sha256": "f11487b89a8fae4c3521492d4b79e725b0e6b2e02d1cdcc00f4dd97c6fee70fc",
+      "width": 1536,
+      "height": 1024,
+      "caption": "木の根に挟まれ、打ちづらい球の例。自然の根だけでは通常、無罰救済はありません。",
+      "rules": "19.2",
+      "targets": {
+        "standard": [
+          124
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
+    },
+    {
+      "key": "ball-on-towel",
+      "source_index": 47,
+      "original_name": "タオルの上のゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/965a57dc1d4d4fee0d72.png",
+      "sha256": "965a57dc1d4d4fee0d7230f981374c47fdda52498d8a3a27329b99e06a0a7ea2",
+      "width": 1536,
+      "height": 1024,
+      "caption": "動かせるタオルの上に球が乗っている例。球の下の地点を基準に処置します。",
+      "rules": "15.2a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          68,
+          181
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
+    },
+    {
+      "key": "drain-ball",
+      "source_index": 48,
+      "original_name": "排水溝に止まるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/726ea788feddcabb9008.png",
+      "sha256": "726ea788feddcabb900872d02dd106807a047238cc6bf780fd528f3796fe2886",
+      "width": 1536,
+      "height": 1024,
+      "caption": "排水溝のふたの上に球が止まる例。",
+      "rules": "16.1",
+      "targets": {
+        "standard": [
+          59
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "cart-stance-scene",
+      "source_index": 49,
+      "original_name": "カート道にかかるゴルフアドレス.png",
+      "src": "artwork-archive/recovered-20261013/bcbf8d1457f71e920b7e.png",
+      "sha256": "bcbf8d1457f71e920b7ead3165aa1330159722358c8064d86b0be787fec1f549",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球は芝の上で、通常のスタンスだけがカート道にかかる例。",
+      "rules": "16.1",
+      "targets": {
+        "standard": [
+          191
+        ],
+        "competition": [
+          183
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "cart-ball",
+      "source_index": 50,
+      "original_name": "カート道に止まるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/e09c1b953ba4d4bcf9c3.png",
+      "sha256": "e09c1b953ba4d4bcf9c31f401f1215b1a5c4066db62fd6bf1cc7b7996da5648e",
+      "width": 1536,
+      "height": 1024,
+      "caption": "カート道の上に球が止まる例。通常の完全救済の位置を確認します。",
+      "rules": "16.1b",
+      "targets": {
+        "standard": [
+          114
+        ],
+        "competition": [
+          294
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "water-stance",
+      "source_index": 51,
+      "original_name": "左足元の水たまりと乾いたボール.png",
+      "src": "artwork-archive/recovered-20261013/8863c4097a02fcf79787.png",
+      "sha256": "8863c4097a02fcf79787a934fb6061cf9eecff8172c0ad9ddc699d9ce3a850aa",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球は乾いた場所でも、通常のスタンスに一時的な水がかかる例。",
+      "rules": "16.1",
+      "targets": {
+        "standard": [
+          204
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "sprinkler-stance",
+      "source_index": 52,
+      "original_name": "スプリンクラーカバー上のゴルフスタンス.png",
+      "src": "artwork-archive/recovered-20261013/c6fc8e5fb8346f14fc26.png",
+      "sha256": "c6fc8e5fb8346f14fc2636bf8b0537401034315604926261a9a20f1591018aec",
+      "width": 1536,
+      "height": 1024,
+      "caption": "スプリンクラーのふたが通常のスタンスにかかる例。単にプレーの線上にある場合とは異なります。",
+      "rules": "16.1",
+      "targets": {
+        "standard": [
+          201
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "fallen-tee-ball",
+      "source_index": 53,
+      "original_name": "空のティー脇のゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/60492a7c5fee45c1a940.png",
+      "sha256": "60492a7c5fee45c1a940caeb327f64a38917c874fa66f5916d8dde89bb55f099",
+      "width": 1536,
+      "height": 1024,
+      "caption": "ストロークをする前に球がティーから落ち、地面に止まった例。落下中に打った場合とは別です。",
+      "rules": "6.2b(5)",
+      "targets": {
+        "standard": [
+          4
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    },
+    {
+      "key": "deep-rough",
+      "source_index": 54,
+      "original_name": "深いラフに隠れた白球.png",
+      "src": "artwork-archive/recovered-20261013/a3bd214b0731e8e4f0ad.png",
+      "sha256": "a3bd214b0731e8e4f0ade9ebd727de0f3413af9c0e8f06122618009bfed6ec2b",
+      "width": 1536,
+      "height": 1024,
+      "caption": "深いラフに隠れた球の例。捜索時間と暫定球の条件を確認します。",
+      "rules": "18.2 / 18.3",
+      "targets": {
+        "standard": [
+          149
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
+    },
+    {
+      "key": "tee-marker-hit",
+      "source_index": 55,
+      "original_name": "ゴルフボールとティーマーカーの接触.png",
+      "src": "artwork-archive/recovered-20261013/dda2e981d73641a369b7.png",
+      "sha256": "dda2e981d73641a369b7f2f91fcc17aeb1dc505026b7f3251de38b0b8c2c89b0",
+      "width": 1536,
+      "height": 1024,
+      "caption": "打った球がティーマーカーに当たった例。",
+      "rules": "11.1",
+      "targets": {
+        "standard": [
+          7
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "removed-flag-hit",
+      "source_index": 56,
+      "original_name": "芝生に横たわる細い旗竿とゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/0f58c3f379a54de283fd.png",
+      "sha256": "0f58c3f379a54de283fdc894612b3ec5c33512290e33c41178fee5bda717fbdf",
+      "width": 1536,
+      "height": 1024,
+      "caption": "取り除かれて地面に置かれた旗竿に球が当たる例。故意の配置かも確認します。",
+      "rules": "13.2b",
+      "targets": {
+        "standard": [
+          48
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "move-tee-marker",
+      "source_index": 58,
+      "original_name": "芝から持ち上げるゴルフティーマーカー.png",
+      "src": "artwork-archive/recovered-20261013/c53b99f32b4e6d78e250.png",
+      "sha256": "c53b99f32b4e6d78e250f34af1f77155bb967c2d24cfdaf75dc6f72454c36009",
+      "width": 1536,
+      "height": 1024,
+      "caption": "ティーマーカーを持ち上げて移動する例。ストローク条件の改善に注意します。",
+      "rules": "6.2b(4)",
+      "targets": {
+        "standard": [],
+        "competition": [
+          85
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    },
+    {
+      "key": "bag-hit",
+      "source_index": 59,
+      "original_name": "ボールが寄り添うゴルフバッグ.png",
+      "src": "artwork-archive/recovered-20261013/dfb88b3dda45e9c50bd9.png",
+      "sha256": "dfb88b3dda45e9c50bd9994ff50a8e39888f711ea848ff41c98c8a6deddaebb6",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球が地面に置かれたゴルフバッグに偶然当たる例。",
+      "rules": "11.1",
+      "targets": {
+        "standard": [
+          123
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    },
+    {
+      "key": "dangerous-animal",
+      "source_index": 61,
+      "original_name": "ゴルフボールと蛇の危険な距離.png",
+      "src": "artwork-archive/recovered-20261013/9cc39158094904bf94ae.png",
+      "sha256": "9cc39158094904bf94ae6c81685499e7e261d956616adde1b0d444be0e605201",
+      "width": 1536,
+      "height": 1024,
+      "caption": "球の近くに危険な蛇がいる例。単なる不快感とは区別して判断します。",
+      "rules": "16.2",
+      "targets": {
+        "standard": [
+          160
+        ],
+        "competition": [
+          98
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "remove-can",
+      "source_index": 62,
+      "original_name": "静止球と空き缶の除去.png",
+      "src": "artwork-archive/recovered-20261013/323a8c58cc8adc8f47d8.png",
+      "sha256": "323a8c58cc8adc8f47d8eed06bd4de56fbd46a1a42eb4c45416c013fe3f5ae25",
+      "width": 1536,
+      "height": 1024,
+      "caption": "止まっている球のそばの空き缶を取り除く例。動かせる障害物の処置を確認します。",
+      "rules": "15.2",
+      "targets": {
+        "standard": [
+          157
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
+    },
+    {
+      "key": "replace-divot",
+      "source_index": 63,
+      "original_name": "白い手で戻すディボット.png",
+      "src": "artwork-archive/recovered-20261013/a2387bb01eb39aedb5d8.png",
+      "sha256": "a2387bb01eb39aedb5d8b9787a32a042d43843f425593c68493d9416aae3b0b6",
+      "width": 1536,
+      "height": 1024,
+      "caption": "芝の切れ端を戻す修復の例。自分や他の人のストローク条件を改善しないよう確認します。",
+      "rules": "8.1 / 8.2",
+      "targets": {
+        "standard": [
+          144
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    },
+    {
+      "key": "cup-damage",
+      "source_index": 64,
+      "original_name": "傷ついたゴルフカップの縁.png",
+      "src": "artwork-archive/recovered-20261013/4bdb00ea28e03fce76b5.png",
+      "sha256": "4bdb00ea28e03fce76b557adb44122eda245de44433c746d59ec0848dedf785c",
+      "width": 1536,
+      "height": 1024,
+      "caption": "カップの縁にできた損傷の例。自然の摩耗や通常の生長とは区別します。",
+      "rules": "13.1c",
+      "targets": {
+        "standard": [
+          38,
+          88,
+          120
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "root-near-ball",
+      "source_index": 66,
+      "original_name": "木の根元に寄り添うゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/7fd64785076074d728c1.png",
+      "sha256": "7fd64785076074d728c1d76d23fa671cc2a06ba2299fb6a1386884bbb9cccce0",
+      "width": 1536,
+      "height": 1024,
+      "caption": "自然の木の根のそばにある球。球が根に挟まった例とは別の状況です。",
+      "rules": "19.2",
+      "targets": {
+        "standard": [
+          192
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
+    },
+    {
+      "key": "ball-in-tree",
+      "source_index": 67,
+      "original_name": "枝のフォークに収まるゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/0c1a10ae823bf7d194fd.png",
+      "sha256": "0c1a10ae823bf7d194fd0a4250788d53f20f5ecfa5d5c1064fe9fc34dcd03767",
+      "width": 1536,
+      "height": 1024,
+      "caption": "木の枝の分かれ目に球が止まった例。球の確認と救済方法を本文で確認します。",
+      "rules": "19.2",
+      "targets": {
+        "standard": [
+          24,
+          113
+        ],
+        "competition": [
+          101,
+          193
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
+    },
+    {
+      "key": "fence-ball",
+      "source_index": 68,
+      "original_name": "フェンス際のゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/1cda8e759b9a4dc3cf09.png",
+      "sha256": "1cda8e759b9a4dc3cf09fc2859cf3bbd6f35fc18f7cda4229d697a2a60cb4dfa",
+      "width": 1536,
+      "height": 1024,
+      "caption": "フェンスのそばに球がある例。境界フェンスか通常の障害物かの確認が先です。",
+      "rules": "definitions / 16.1",
+      "targets": {
+        "standard": [
+          202
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/definitions"
+    },
+    {
+      "key": "rake-bunker",
+      "source_index": 69,
+      "original_name": "プレー後のバンカー整備.png",
+      "src": "artwork-archive/recovered-20261013/18c919d9f9eff9fffa9e.png",
+      "sha256": "18c919d9f9eff9fffa9e92bddf752f1d4fc0517c1bf5f88ce6601f1960048d2c",
+      "width": 1536,
+      "height": 1024,
+      "caption": "バンカーの足跡をレーキでならす例。実施する時点と目的を確認します。",
+      "rules": "12.2b",
+      "targets": {
+        "standard": [
+          62
+        ],
+        "competition": [
+          240
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    },
+    {
+      "key": "remove-bunker-stone",
+      "source_index": 70,
+      "original_name": "バンカーの小石を摘む白い手.png",
+      "src": "artwork-archive/recovered-20261013/f6ca5c32bf62400c69e1.png",
+      "sha256": "f6ca5c32bf62400c69e126f235421f517ff6e7c6dbe09ff43743652b24fe25f9",
+      "width": 1536,
+      "height": 1024,
+      "caption": "バンカー内の小石を取り除く例。球を動かさないよう注意します。",
+      "rules": "12.2a",
+      "targets": {
+        "standard": [
+          131
+        ],
+        "competition": [
+          278
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    },
+    {
+      "key": "club-outside-bunker",
+      "source_index": 71,
+      "original_name": "バンカー外に置かれたアイアン.png",
+      "src": "artwork-archive/recovered-20261013/726efe6c43ac5eda4d8b.png",
+      "sha256": "726efe6c43ac5eda4d8bf9fc76e1460891a0fbcb8b598e44e7951425bb13e097",
+      "width": 1536,
+      "height": 1024,
+      "caption": "バンカーの外の芝にクラブを置く例。",
+      "rules": "12.2b",
+      "targets": {
+        "standard": [
+          82
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    },
+    {
+      "key": "damaged-ball",
+      "source_index": 72,
+      "original_name": "ゴルフボールの破損比較.png",
+      "src": "artwork-archive/recovered-20261013/801a5722d142d40b0dad.png",
+      "sha256": "801a5722d142d40b0dad198d250c4532bab76e9256b5df03454a698435b1628a",
+      "width": 1536,
+      "height": 1024,
+      "caption": "完全に割れた球とひびのある球の比較。両者は扱いが異なるため本文を確認します。",
+      "rules": "4.2",
+      "targets": {
+        "standard": [
+          22,
+          168
+        ],
+        "competition": [
+          134,
+          135
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    },
+    {
+      "key": "mud-ball",
+      "source_index": 73,
+      "original_name": "芝の上の泥付きゴルフボール.png",
+      "src": "artwork-archive/recovered-20261013/8744f90bbb34bda6ce00.png",
+      "sha256": "8744f90bbb34bda6ce0083c128e98586481c3b3ee9ee21904dbdad7b354b2bcf",
+      "width": 1536,
+      "height": 1024,
+      "caption": "地面に止まった球に泥が付いた例。泥だけを理由に自由に拾って拭けるわけではありません。",
+      "rules": "14.1c",
+      "targets": {
+        "standard": [
+          143,
+          198
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    },
+    {
+      "key": "broken-club",
+      "source_index": 74,
+      "original_name": "芝に置かれた折れたアイアン.png",
+      "src": "artwork-archive/recovered-20261013/97a9f4d28a20b5ac731d.png",
+      "sha256": "97a9f4d28a20b5ac731d121e73b8fdd296cba77ede434bb03ce5d2852f521855",
+      "width": 1536,
+      "height": 1024,
+      "caption": "折れたクラブの例。損傷原因と交換制限の採用状況を確認します。",
+      "rules": "4.1 / MLR G-9",
+      "targets": {
+        "standard": [
+          76
+        ],
+        "competition": [
+          80,
+          127,
+          144,
+          234,
+          262
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    },
+    {
+      "key": "flag-left-in",
+      "source_index": 75,
+      "original_name": "旗竿を残したパットの準備.png",
+      "src": "artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png",
+      "sha256": "6aabfdd5fccdc0e814f8949596e12837bbf259f82223afe6f0bfc1fabca56000",
+      "width": 1536,
+      "height": 1024,
+      "caption": "旗竿をホールに残したままパットする場面。",
+      "rules": "13.2a",
+      "targets": {
+        "standard": [
+          29,
+          43
+        ],
+        "competition": [
+          61
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "spike-damage",
+      "source_index": 76,
+      "original_name": "修復前の靴跡とグリーンフォーク.png",
+      "src": "artwork-archive/recovered-20261013/7307c71cc4548a187445.png",
+      "sha256": "7307c71cc4548a1874453bde7da37e0497669edfb9d73f133a171319ffe1437a",
+      "width": 1536,
+      "height": 1024,
+      "caption": "グリーンに残ったスパイク跡の例。修復前の状態を示しています。",
+      "rules": "13.1c",
+      "targets": {
+        "standard": [
+          31
+        ],
+        "competition": [
+          60
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "green-water",
+      "source_index": 77,
+      "original_name": "グリーン上の一時的な水たまり.png",
+      "src": "artwork-archive/recovered-20261013/b185813d24145bc7fd31.png",
+      "sha256": "b185813d24145bc7fd31b78ba2c59b9e1868c51b469ce5f368fd87f2fdff2fa1",
+      "width": 1536,
+      "height": 1024,
+      "caption": "グリーン上に一時的な水がある例。プレーの線の障害も確認します。",
+      "rules": "16.1d",
+      "targets": {
+        "standard": [
+          53
+        ],
+        "competition": [
+          295
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    },
+    {
+      "key": "pitchmark-repair",
+      "source_index": 78,
+      "original_name": "グリーン上のボールマーク修復前.png",
+      "src": "artwork-archive/recovered-20261013/4d0208cf19725e303d6c.png",
+      "sha256": "4d0208cf19725e303d6c335b4d1f3bd857a685cff498e886af7e1712c081140c",
+      "width": 1536,
+      "height": 1024,
+      "caption": "グリーンの球の落下跡と修復用フォーク。修復前の状態です。",
+      "rules": "13.1c",
+      "targets": {
+        "standard": [
+          41,
+          54
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "flag-set-aside",
+      "source_index": 79,
+      "original_name": "グリーン脇に置かれた旗竿.png",
+      "src": "artwork-archive/recovered-20261013/303f4fd64f75cb66d19b.png",
+      "sha256": "303f4fd64f75cb66d19b22d3e69ea8417ba4751d1d9155061c07e4b2d75d124d",
+      "width": 1536,
+      "height": 1024,
+      "caption": "取り除いた旗竿をグリーン脇に置く例。動く球へ影響させる配置は避けます。",
+      "rules": "13.2b",
+      "targets": {
+        "standard": [
+          39,
+          90
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    },
+    {
+      "key": "tee-marker-wide",
+      "source_index": 80,
+      "original_name": "広いティーグラウンドと離れたティーマーカー.png",
+      "src": "artwork-archive/recovered-20261013/1c46222976344d62a5fe.png",
+      "sha256": "1c46222976344d62a5fe09a3add4f27a6b6df1e86cbce1e6522bfa550284b0c5",
+      "width": 1536,
+      "height": 1024,
+      "caption": "ティーイングエリアのマーカーを動かす例。最初のストローク前の改善に注意します。",
+      "rules": "6.2b(4)",
+      "targets": {
+        "standard": [
+          12,
+          137
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    },
+    {
+      "key": "broken-tee",
+      "source_index": 85,
+      "original_name": "折れたゴルフティーを持つ白い手.png",
+      "src": "artwork-archive/recovered-20261013/739905311488ff5888b4.png",
+      "sha256": "739905311488ff5888b4f9414cb4457a2569202677e1576801cb203c796eeb07",
+      "width": 1536,
+      "height": 1024,
+      "caption": "折れたティーを取り替える場面。ティーマーカーの移動とは異なります。",
+      "rules": "6.2b",
+      "targets": {
+        "standard": [
+          8
+        ],
+        "competition": []
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    },
+    {
+      "key": "tee-air-shot",
+      "source_index": 88,
+      "original_name": "ティーに残るボール、空振り後のゴルファー.png",
+      "src": "artwork-archive/recovered-20261013/b8a115b94100f858a4ca.png",
+      "sha256": "b8a115b94100f858a4ca80a268e7b19ae74c112f8aec1f3ee7d6256db7e97ad8",
+      "width": 1536,
+      "height": 1024,
+      "caption": "空振りの後も球がティー上に残る例。打つ意思をもったストロークは数えます。",
+      "rules": "6.2b(6)",
+      "targets": {
+        "standard": [
+          1
+        ],
+        "competition": [
+          138
+        ]
+      },
+      "review": "visual-and-case-reviewed",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    },
+    {
+      "key": "tee-falling",
+      "src": "assets/dedicated-guides/tee-falling-20261014.png",
+      "sha256": "de7b85b18a2ad7af31e9d1eedbd593adbcab0f2efdd5ef00f64734d301062aba",
+      "width": 1536,
+      "height": 1024,
+      "targets": {
+        "standard": [
+          248
+        ],
+        "competition": [
+          256
+        ]
+      },
+      "caption": "ティーから落ちている途中の球にストロークする直前の場面。球はまだ地面に着いていません。",
+      "rules": "6.2b(5)",
+      "source_url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+      "review": "visual-and-official-rule-reviewed",
+      "generation": "built-in imagegen; existing A-style reference; one falling ball, empty tee, approaching driver; no text"
+    }
+  ],
+  "excluded": "Superseded variants, duplicate records, old tones, rejected overview collages. Original archived bytes retained. Existing correct dedicated and iroha images retained. All recovered source selections visually inspected; full 605-case rules audit remains open."
+}
