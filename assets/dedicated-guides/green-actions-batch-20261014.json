@@ -1,0 +1,33 @@
+{
+  "mode": "built-in image_gen",
+  "records": [
+    {
+      "key": "green-sand-brush",
+      "filename": "green-sand-brush-20261014.png",
+      "targets": {
+        "standard": [],
+        "competition": [
+          249
+        ]
+      },
+      "caption": "グリーン面の砂やばらばらの土を手で取り除く場面。球は動かさず、グリーン外の砂・土とは区別して判断します。",
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-13",
+      "prompt": "Use case: illustration-story. Asset type: golf rules app explanatory scene. Create one landscape 1536x1024 minimal illustration. Dark teal smooth rounded outlines, white fills, very pale mint flat accents only, white background. Close low oblique view of ONE anatomically correct hand gently brushing a small patch of LOOSE SAND GRAINS off the smooth closely mown PUTTING GREEN. A single stationary white golf ball sits to one side well clear of the hand and sand, no contact. A small distant cup in the smooth green establishes this is the putting green. Hand sweeping horizontally with fingers naturally together, no scooping turf, no digging, no tool, no rubbing the ball. Sand is tiny scattered dark-teal stipples on top of intact smooth turf, NOT a bunker or a pile of earth or a damaged divot. One or two subtle short motion ticks by hand. Large legible simple objects, generous white space. No text, labels, arrows, numbers, logos, borders, gradients, realistic skin colors or photorealistic texture. Flat minimal educational illustration consistent with dark teal and mint UI."
+    },
+    {
+      "key": "step-putting-line",
+      "filename": "step-putting-line-20261014.png",
+      "targets": {
+        "standard": [
+          32,
+          44
+        ],
+        "competition": []
+      },
+      "caption": "球とホールの間を歩き、他のプレーヤーのパットの線を踏んでしまった例。避けたい行為として示しています。罰の有無は本文の条件を確認してください。",
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-8",
+      "prompt": "Use case: illustration-story. Asset type: golf etiquette app situation illustration. Create one landscape 1536x1024 minimalist illustration, dark teal smooth rounded uniform line outlines, white fills, very pale mint flat accents only, white background. Slightly elevated view of smooth closely mown putting green. A SINGLE stationary white golf ball in lower left foreground and small dark golf hole upper right. Between them, one white golf shoe attached to a cropped trouser leg is stepping squarely on the turf DIRECTLY BETWEEN ball and hole, with toe angled sideways across the ball-to-hole direction. This is an example of walking across another player's putting line, not an advised action. Ball remains clearly separate and is NOT touched or kicked; hole unobstructed. No putter, no hands, no club, no second ball, no footprints or torn turf, no arrows, dashed lines, text, labels, numbers or warning badges. Clean simple proportions shoe around six times the ball diameter, golf ball and hole plausible sizes in perspective. Make foot in contact with turf and trouser leg natural. White background and simple pale mint patch of green, generous margin. No gradients, photorealistic texture or extra colors."
+    }
+  ],
+  "review": "グリーン上の砂払いはグリーン外の砂払い・露の除去・グリーンを試す動作と分離。ラインを踏む図は同じ場面の通常ルール2項目のみ共用。"
+}

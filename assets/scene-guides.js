@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261014-fringe';
+const version='20261014-green-actions';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -35,6 +35,9 @@ Object.assign(mappings.competition,{"222": "no-play-branch", "216": "no-play-sta
 Object.assign(mappings.basic,{});
 scenes['fringe-putter']={src:'assets/dedicated-guides/fringe-putter-20261014.png',caption:'グリーン外のカラーにある球を、パターで打つ準備をしている場面。球はグリーンの外にあり、クラブの種類だけでコースエリアは変わりません。',dedicated:true};
 Object.assign(mappings.standard,{30:'fringe-putter',51:'fringe-putter'});
+Object.assign(scenes,{"green-sand-brush":{"src":"assets/dedicated-guides/green-sand-brush-20261014.png","caption":"グリーン面の砂やばらばらの土を手で取り除く場面。球は動かさず、グリーン外の砂・土とは区別して判断します。","dedicated":true},"step-putting-line":{"src":"assets/dedicated-guides/step-putting-line-20261014.png","caption":"球とホールの間を歩き、他のプレーヤーのパットの線を踏んでしまった例。避けたい行為として示しています。罰の有無は本文の条件を確認してください。","dedicated":true}});
+Object.assign(mappings.standard,{32:'step-putting-line',44:'step-putting-line'});
+Object.assign(mappings.competition,{249:'green-sand-brush'});
 // Rule 7: searching movement and marked identification are distinct scenes.
 Object.assign(scenes,{
  'search-moved-ball':{src:'assets/dedicated-guides/search-moved-ball-20261014.png',caption:'球を探している途中、靴が触れて偶然球が動いた例。合理的な捜索中なら罰はなく、元の箇所へリプレースします。不明なら元の箇所を推定します。',dedicated:true},
