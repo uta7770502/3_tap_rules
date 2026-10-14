@@ -1,0 +1,16 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: illustration-story. Asset type: explanatory scene for golf rules mobile app. Landscape 1536x1024, white background with dark teal rounded uniform line art, white fills, very pale mint flat shading ONLY. Match a minimalist golf instruction illustration series. Close low oblique view of a white golf ball RESTING ON SHORT FRINGE GRASS just OUTSIDE the putting green. A clearly recognizable blade PUTTER head is directly behind the ball, with narrow straight shaft rising out of the upper left frame; putter face aimed toward the green on right. Show a gently curved grass mowing boundary just ahead of the ball: near/left side is slightly longer fringe with sparse grass strokes, far/right side is a smooth finely mown putting green in pale mint. Ball is unequivocally fully on fringe, NOT on boundary, not in deep rough. Small distant golf hole on smooth green upper right, no flag. All ground is continuous and level, no raised step or ditch. Natural plausible proportions. No person, no hands, no driver, no iron, no second ball, no text, labels, arrows, measurements, badges or rule verdicts. Only the ball, putter, grass boundary and small distant cup. Generous white margin. Clean flat minimal illustration, not photorealistic, no gradients.",
+  "edits": [
+    "Rotate putter face to center behind ball",
+    "Remove cup to avoid implying exact target alignment"
+  ],
+  "src": "assets/dedicated-guides/fringe-putter-20261014.png",
+  "targets": {
+    "standard": [
+      30,
+      51
+    ]
+  },
+  "sharingReason": "両項目ともグリーン外からパターを使う同一の状況。グリーン上でのパットやチップショットには共用しない。"
+}

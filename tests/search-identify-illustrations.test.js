@@ -1,5 +1,9 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const scenes=require('../assets/scene-guides'),batch=require('../assets/dedicated-guides/search-identify-batch-20261014.json');
+test('putter outside the green is shared only between the two equivalent cases',()=>{
+ for(const id of [30,51]){const s=scenes.select({id},'standard');assert.equal(s.key,'fringe-putter');assert.ok(fs.existsSync(path.join(__dirname,'..',s.src)));}
+ assert.notEqual(scenes.select({id:29},'standard').key,'fringe-putter');
+});
 test('search and identification artwork covers seven exact reviewed targets',()=>{
  let count=0;
  for(const r of batch.records){
