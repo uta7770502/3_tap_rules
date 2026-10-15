@@ -1,0 +1,69 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-13",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-9",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+  ],
+  "records": [
+    {
+      "key": "lift-relief-check",
+      "src": "assets/dedicated-guides/lift-relief-check-style-a-20261015.png",
+      "sha256": "41d1da8903d4a89d15167e3b646e9cfee8185d0ff736001e59bfc0e6f1903e2f",
+      "targets": {
+        "standard": [
+          245
+        ],
+        "competition": [
+          253
+        ]
+      },
+      "caption": "救済対象か確認するため、位置をマークしてから球を拾った場面。合理的な理由がある場合に限り、グリーン外では確認のために球を拭きません。",
+      "rule": "16.4"
+    },
+    {
+      "key": "accidental-green-move",
+      "src": "assets/dedicated-guides/accidental-green-move-style-a-20261015.png",
+      "sha256": "fded25aa8b3c8289ca929903bab09bae83be92ab969b200ffa1447c4a83d745a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          150
+        ]
+      },
+      "caption": "グリーン上を歩く際、靴が球に触れて偶然動いた例。元の箇所へリプレースします。",
+      "rule": "13.1d"
+    },
+    {
+      "key": "marker-moved",
+      "src": "assets/dedicated-guides/marker-moved-style-a-20261015.png",
+      "sha256": "1bb17918a1313e7c9d4c13542553d11cb6b3a4e59e082841bcfc272d3cf1ce5f",
+      "targets": {
+        "standard": [],
+        "competition": [
+          276
+        ]
+      },
+      "caption": "拾い上げた球の位置を示すマーカーが、靴に触れて動いた例。元の位置を復元します。罰の有無は場所や原因など本文の条件で判断します。",
+      "rule": "9.7 / 13.1d"
+    },
+    {
+      "key": "play-inside-pa",
+      "src": "assets/dedicated-guides/play-inside-pa-style-a-20261015.png",
+      "sha256": "f5b317c7f2b289713e15541176babe3a2ea627672694c523c02f683909142e9c",
+      "targets": {
+        "standard": [
+          161
+        ],
+        "competition": [
+          296
+        ]
+      },
+      "caption": "赤杭で示されたペナルティーエリア内の乾いた場所にある球を、そのまま打つ準備をしている場面。プレー禁止区域ではない例です。",
+      "rule": "17.1b"
+    }
+  ],
+  "remainingNewAssets": 36
+}

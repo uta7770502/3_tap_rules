@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261015-style-a';
+const version='20261015-style-a-batch2';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -75,6 +75,18 @@ scenes["ball-in-pitchmark"]={"src": "assets/dedicated-guides/ball-in-pitchmark-s
 mappings.competition[236]="ball-in-pitchmark";
 scenes["movable-object-ball"]={"src": "assets/dedicated-guides/movable-object-ball-style-a-20261015.png", "caption": "持ち運べるポーチの中に球が止まった例。球が障害物の中にある場合の処置は本文で確認します。", "dedicated": true};
 mappings.competition[293]="movable-object-ball";
+
+// Four individually reviewed situations, fixed approved style master.
+scenes["lift-relief-check"]={"src": "assets/dedicated-guides/lift-relief-check-style-a-20261015.png", "caption": "救済対象か確認するため、位置をマークしてから球を拾った場面。合理的な理由がある場合に限り、グリーン外では確認のために球を拭きません。", "dedicated": true};
+mappings.standard[245]="lift-relief-check";
+mappings.competition[253]="lift-relief-check";
+scenes["accidental-green-move"]={"src": "assets/dedicated-guides/accidental-green-move-style-a-20261015.png", "caption": "グリーン上を歩く際、靴が球に触れて偶然動いた例。元の箇所へリプレースします。", "dedicated": true};
+mappings.competition[150]="accidental-green-move";
+scenes["marker-moved"]={"src": "assets/dedicated-guides/marker-moved-style-a-20261015.png", "caption": "拾い上げた球の位置を示すマーカーが、靴に触れて動いた例。元の位置を復元します。罰の有無は場所や原因など本文の条件で判断します。", "dedicated": true};
+mappings.competition[276]="marker-moved";
+scenes["play-inside-pa"]={"src": "assets/dedicated-guides/play-inside-pa-style-a-20261015.png", "caption": "赤杭で示されたペナルティーエリア内の乾いた場所にある球を、そのまま打つ準備をしている場面。プレー禁止区域ではない例です。", "dedicated": true};
+mappings.standard[161]="play-inside-pa";
+mappings.competition[296]="play-inside-pa";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

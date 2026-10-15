@@ -151,9 +151,11 @@
           296
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「ペナルティーエリア内の球をそのまま打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ペナルティーエリア内の球をそのまま打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/play-inside-pa-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "wind-outside-green",
@@ -227,9 +229,11 @@
           253
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「救済対象か確認するためマークして拾う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「救済対象か確認するためマークして拾う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/lift-relief-check-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "cleaning-restricted",
@@ -396,9 +400,11 @@
           150
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「グリーン上での球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「グリーン上での球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/accidental-green-move-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "push-ball",
@@ -609,9 +615,11 @@
           276
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「動いてしまったボールマーカー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「動いてしまったボールマーカー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/marker-moved-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "replay-previous-spot",
@@ -3782,8 +3790,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 11,
-    "remainingNewAssets": 40,
+    "implementedNewAssets": 15,
+    "remainingNewAssets": 36,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3
