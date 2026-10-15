@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261015-shadow-fix';
+const version='20261015-style-a';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -58,6 +58,23 @@ Object.assign(scenes,{
 });
 Object.assign(mappings.standard,{129:'search-moved-ball',162:'identify-marked-ball',197:'identify-marked-ball'});
 Object.assign(mappings.competition,{7:'search-moved-ball',145:'search-moved-ball',87:'identify-marked-ball',287:'identify-marked-ball'});
+
+// 2026-10-15: approved style master, no scenic backgrounds.
+scenes["two-ball-contact"]={"src": "assets/dedicated-guides/two-ball-contact-style-a-20261015.png", "caption": "クラブフェースが隣り合った2球に同時に当たる場面。どの球にストロークしたかを確認します。", "dedicated": true};
+mappings.standard[20]="two-ball-contact";
+scenes["flag-held-putt"]={"src": "assets/dedicated-guides/flag-held-putt-style-a-20261015.png", "caption": "旗竿を片手で持ち、もう片方の手でパットする場面。旗竿を球の動きに影響させないように扱います。", "dedicated": true};
+mappings.standard[85]="flag-held-putt";
+scenes["own-umbrella-stroke"]={"src": "assets/dedicated-guides/own-umbrella-stroke-style-a-20261015.png", "caption": "自分で傘を持ち、もう片方の手でパットする場面。他の人に傘を差してもらう場面とは区別します。", "dedicated": true};
+mappings.standard[133]="own-umbrella-stroke";
+scenes["search-move-grass"]={"src": "assets/dedicated-guides/search-move-grass-style-a-20261015.png", "caption": "球を探すために手で長い草を分ける場面。合理的な捜索の範囲にとどめます。", "dedicated": true};
+mappings.competition[241]="search-move-grass";
+mappings.competition[286]="search-move-grass";
+scenes["practice-divot"]={"src": "assets/dedicated-guides/practice-divot-style-a-20261015.png", "caption": "素振りで球の近くの芝を削った場面。球は打っていません。プレー条件を改善したかは本文で確認します。", "dedicated": true};
+mappings.standard[94]="practice-divot";
+scenes["ball-in-pitchmark"]={"src": "assets/dedicated-guides/ball-in-pitchmark-style-a-20261015.png", "caption": "未修復のピッチマークに球が入った状態の拡大イメージ。図だけで救済を認めるものではなく、本文の適用条件を確認します。", "dedicated": true};
+mappings.competition[236]="ball-in-pitchmark";
+scenes["movable-object-ball"]={"src": "assets/dedicated-guides/movable-object-ball-style-a-20261015.png", "caption": "持ち運べるポーチの中に球が止まった例。球が障害物の中にある場合の処置は本文で確認します。", "dedicated": true};
+mappings.competition[293]="movable-object-ball";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-15",
+  "method": "built-in image_gen edit",
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "rejectedStyle": "鮮やかな緑の全面塗り、遠景の樹木、密な芝、写実的質感・細かなディンプル",
+  "promptPolicy": "元の場面を保ち、必ずstyleMasterを2枚目の参照として使用。白地・淡いミント・均一な濃いティール線へ戻す。背景・質感・余分なしわを削除。",
+  "records": [
+    {
+      "key": "two-ball-contact",
+      "src": "assets/dedicated-guides/two-ball-contact-style-a-20261015.png",
+      "sha256": "282d654c601517714dd5879a18cb0712b9e9ac96c25f0b594ce2e643bda18faf",
+      "targets": {
+        "standard": [
+          20
+        ],
+        "competition": []
+      },
+      "caption": "クラブフェースが隣り合った2球に同時に当たる場面。どの球にストロークしたかを確認します。"
+    },
+    {
+      "key": "flag-held-putt",
+      "src": "assets/dedicated-guides/flag-held-putt-style-a-20261015.png",
+      "sha256": "a4c841a8fe774f57180a3a57933ac3dbc701c1600fdc3b093c3d8b1da58aca18",
+      "targets": {
+        "standard": [
+          85
+        ],
+        "competition": []
+      },
+      "caption": "旗竿を片手で持ち、もう片方の手でパットする場面。旗竿を球の動きに影響させないように扱います。"
+    },
+    {
+      "key": "own-umbrella-stroke",
+      "src": "assets/dedicated-guides/own-umbrella-stroke-style-a-20261015.png",
+      "sha256": "33d1e3a00e97aeb22a18f09dfc41f75992aba31b4d33364c4b72a6460625ef0c",
+      "targets": {
+        "standard": [
+          133
+        ],
+        "competition": []
+      },
+      "caption": "自分で傘を持ち、もう片方の手でパットする場面。他の人に傘を差してもらう場面とは区別します。"
+    },
+    {
+      "key": "search-move-grass",
+      "src": "assets/dedicated-guides/search-move-grass-style-a-20261015.png",
+      "sha256": "3ecc72535b300b9729c1f72101c5a61d64328be75892783800322b4582d1bb96",
+      "targets": {
+        "standard": [],
+        "competition": [
+          241,
+          286
+        ]
+      },
+      "caption": "球を探すために手で長い草を分ける場面。合理的な捜索の範囲にとどめます。"
+    },
+    {
+      "key": "practice-divot",
+      "src": "assets/dedicated-guides/practice-divot-style-a-20261015.png",
+      "sha256": "af3ac8339ce6f8aa1980fad77d5b8467e4649b78a9048c714434efbcc316cc47",
+      "targets": {
+        "standard": [
+          94
+        ],
+        "competition": []
+      },
+      "caption": "素振りで球の近くの芝を削った場面。球は打っていません。プレー条件を改善したかは本文で確認します。"
+    },
+    {
+      "key": "ball-in-pitchmark",
+      "src": "assets/dedicated-guides/ball-in-pitchmark-style-a-20261015.png",
+      "sha256": "22b9ec68ca9bb636219ff6aedaf2c1dff78657bc0adebf2e94e5bcd7d8b3909e",
+      "targets": {
+        "standard": [],
+        "competition": [
+          236
+        ]
+      },
+      "caption": "未修復のピッチマークに球が入った状態の拡大イメージ。図だけで救済を認めるものではなく、本文の適用条件を確認します。"
+    },
+    {
+      "key": "movable-object-ball",
+      "src": "assets/dedicated-guides/movable-object-ball-style-a-20261015.png",
+      "sha256": "a182d17aea75eaf4dd7dad1e663496163591547f5263092ed81a82f633f99390",
+      "targets": {
+        "standard": [],
+        "competition": [
+          293
+        ]
+      },
+      "caption": "持ち運べるポーチの中に球が止まった例。球が障害物の中にある場合の処置は本文で確認します。"
+    }
+  ],
+  "remainingNewAssets": 40
+}

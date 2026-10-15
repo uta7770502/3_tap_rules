@@ -13,9 +13,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「2球を同時に打った場面」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「2球を同時に打った場面」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/two-ball-contact-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "adjacent-boundaries",
@@ -71,9 +73,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「旗竿を自分で持ちながらパット」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「旗竿を自分で持ちながらパット」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/flag-held-putt-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "blow-green-sand",
@@ -115,9 +119,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「素振りで球の近くの芝を削る」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「素振りで球の近くの芝を削る」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/practice-divot-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "own-umbrella-stroke",
@@ -128,9 +134,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「自分で傘を持つストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「自分で傘を持つストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/own-umbrella-stroke-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "play-inside-pa",
@@ -531,9 +539,11 @@
           236
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「他人の未修復ピッチマークに球が沈む」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「他人の未修復ピッチマークに球が沈む」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/ball-in-pitchmark-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "search-move-grass",
@@ -545,9 +555,11 @@
           286
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「球を探すため合理的に草を動かす」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「球を探すため合理的に草を動かす」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/search-move-grass-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "drop-instead-place",
@@ -706,10 +718,12 @@
           293
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
       "reason": "既存画像はタオルの上の球。対象の「中・下」と一致しない。本文の中・上、見出しの中・下、規則15.2b参照の不整合を先に確認する。",
-      "origin": "reuse-review"
+      "origin": "reuse-review",
+      "asset": "assets/dedicated-guides/movable-object-ball-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     }
   ],
   "reuseCandidates": [
@@ -3768,8 +3782,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 4,
-    "remainingNewAssets": 47,
+    "implementedNewAssets": 11,
+    "remainingNewAssets": 40,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

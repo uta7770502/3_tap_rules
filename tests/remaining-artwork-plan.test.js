@@ -8,7 +8,7 @@ test('all 311 baseline review items have exactly one tracked decision',()=>{
  assert.equal(plan.items.filter(r=>r.decision==='reuse-review').length,13);
  for(const group of [...plan.newAssets,...plan.reuseCandidates])for(const [mode,ids]of Object.entries(group.targets))for(const id of ids)assert.equal(plan.items.find(r=>r.mode===mode&&r.id===id)?.group,group.key);
 });
-test('reviewed sharing is limited to ten verified targets and three rejected cases remain planned',()=>{
+test('reviewed sharing is limited to ten verified targets and rejected cases require dedicated artwork',()=>{
  let approved=0,rejected=0;
  for(const g of plan.reuseCandidates){
   for(const [mode,ids] of Object.entries(g.targets))for(const id of ids){
@@ -18,7 +18,14 @@ test('reviewed sharing is limited to ten verified targets and three rejected cas
     assert.ok(fs.existsSync(path.join(__dirname,'..',scene.src)));
    }else{
     rejected++;assert.equal(g.status,'rejected-new-asset');assert.notEqual(scene?.key,g.scene);
-    assert.equal(plan.newAssets.find(x=>x.key===g.key)?.status,'planned');
+    const replacement=plan.newAssets.find(x=>x.key===g.key);
+    assert.ok(replacement);
+    assert.ok(['planned','implemented'].includes(replacement.status));
+    if(replacement.status==='implemented'){
+     assert.equal(scene.key,replacement.key);
+     assert.equal(scene.src,replacement.asset);
+     assert.ok(fs.existsSync(path.join(__dirname,'..',scene.src)));
+    }
    }
   }
  }
