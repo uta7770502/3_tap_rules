@@ -84,9 +84,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「グリーンの砂を吹き払う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「グリーンの砂を吹き払う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/blow-green-sand-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "shadow-putting-line",
@@ -98,9 +100,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「他人のパットラインに影がかかる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「他人のパットラインに影がかかる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/shadow-putting-line-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "practice-divot",
@@ -3764,8 +3768,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 2,
-    "remainingNewAssets": 49,
+    "implementedNewAssets": 4,
+    "remainingNewAssets": 47,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

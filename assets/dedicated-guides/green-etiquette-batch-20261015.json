@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-15",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-13",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+  ],
+  "assets": [
+    {
+      "key": "blow-green-sand",
+      "file": "assets/dedicated-guides/blow-green-sand-20261015.png",
+      "source": "/workspace/scratch/0d7b76aff89e/generated_images/exec-c028bb2e-ae97-402b-b2e5-365e0132a238.png",
+      "prompt": "Use case: illustration-story. Create one finished landscape 1536x1024 illustration for Japanese golf rules app. Minimal clean dark teal rounded line art, white background, pale mint fills only, no gradients, no realistic skin, no facial details except small simple mouth needed to show blowing. A golfer in white cap and mint polo crouches on a putting green, leaning down and blowing a small scatter of loose sand sideways across the surface. Two or three short fine breath strokes leave the mouth and reach the sand. Sand is sparse tiny teal dots, not a mound. Hands rest on own knees, not rubbing turf. One stationary golf ball clearly separate from breath path and sand, no motion marks at ball. Small distant cup indicates putting green. Calm roomy simple composition, correct anatomy, no club needed, no text, labels, badges, arrows or watermark. Clearly distinguish blowing away sand from brushing with hand and blowing on the ball. All features inside canvas.",
+      "targets": {
+        "standard": [
+          86
+        ],
+        "competition": []
+      },
+      "caption": "グリーン上のばらばらの砂を、球に息が当たらない方向へ吹き払う場面。球や芝を動かす行為とは区別してください。"
+    },
+    {
+      "key": "shadow-putting-line",
+      "file": "assets/dedicated-guides/shadow-putting-line-20261015.png",
+      "source": "/workspace/scratch/0d7b76aff89e/generated_images/exec-ce73a21e-08b4-445f-a55d-dd9baf2a2edd.png",
+      "prompt": "Use case: illustration-story. One finished landscape 1536x1024 golf etiquette illustration. Strict minimalist dark teal rounded outlines, white background and very pale mint flat fills, no detailed faces, no gradient or dense landscape. Elevated oblique view of a putting green: one stationary golf ball lower left and an empty cup upper right. A waiting fellow golfer stands to the SIDE, near upper left, wearing white cap and mint polo, relaxed arms, feet away from the ball-to-hole corridor. His physically plausible elongated pale muted teal human-shaped shadow starts attached at his shoes and stretches diagonally across the ground, crossing the space BETWEEN ball and hole. Shadow must be recognizably human, connected at both shoes, flat silhouette with no outlines or facial details. The entire shadow visible. One golfer only, ball belongs to another player out of frame. No putter or other club, no stroke pose. No drawn putting line, no arrows, no labels, no text, no checkmark. Show inconvenient shadow crossing the intended putt path as an etiquette problem, not suggested technique. Sparse small turf marks, ample white space, no trees or horizon. Correct perspective and anatomy, no shadow shaped like extra standing person.",
+      "targets": {
+        "standard": [
+          89,
+          99
+        ],
+        "competition": []
+      },
+      "caption": "同伴者の影が、他のプレーヤーの球とホールの間にかかっている例。パットの邪魔になる場合は、静かに声をかけて位置を調整します。"
+    }
+  ]
+}

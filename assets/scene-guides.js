@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261015-reuse-reviewed';
+const version='20261015-green-etiquette';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -45,6 +45,12 @@ Object.assign(mappings.competition,{147:'wind-outside-green',176:'cleaning-restr
 Object.assign(scenes,{"reviewed-person-hit":{"src":"artwork-archive/recovered-20261013/80cdf135947e52bcb673.png","caption":"打球が人の脚に偶然当たる代表例。物への衝突や例外条件は本文で確認してください。","dedicated":true},"reviewed-green-damage":{"src":"artwork-archive/recovered-20261013/4d0208cf19725e303d6c.png","caption":"グリーン上のボールマークと修復用具の例。自然の凹凸まで修復できるという意味ではありません。","dedicated":true},"reviewed-bunker-footing":{"src":"artwork-archive/recovered-20261013/69010eb9a21c842538e5.png","caption":"スタンスのために足を砂へ適度に入れる場面。クラブを使う素振りの図ではなく、砂に触れる制限は本文で確認します。","dedicated":true},"reviewed-marked-green-lift":{"src":"assets/scene-guides/mark.webp","caption":"球を拾い上げる前に、すぐ近くのマーカーで位置を示す場面。パートナーが行える行為の範囲は本文で確認してください。","dedicated":true},"reviewed-flag-handling":{"src":"artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png","caption":"旗竿をホールに残す選択肢の例。旗竿を抜く動作や付き添いの手順を描いた図ではありません。","dedicated":true},"reviewed-interfering-marker":{"src":"assets/minimal-guides/marker-shift-hd.png","caption":"マーカーを移動する前に、パターヘッドを目安に位置を確認する場面。動かす方向と距離を確認し、プレー前に元へ戻します。","dedicated":true}});
 Object.assign(mappings.standard,{"10":"reviewed-person-hit","35":"reviewed-green-damage","56":"reviewed-green-damage","63":"reviewed-bunker-footing"});
 Object.assign(mappings.competition,{"10":"reviewed-person-hit","97":"reviewed-interfering-marker","199":"reviewed-marked-green-lift","228":"reviewed-marked-green-lift","290":"reviewed-marked-green-lift","291":"reviewed-flag-handling"});
+// Sand removal and shadow etiquette: distinct reviewed scenes.
+scenes["blow-green-sand"]={"src":"assets/dedicated-guides/blow-green-sand-20261015.png","caption":"グリーン上のばらばらの砂を、球に息が当たらない方向へ吹き払う場面。球や芝を動かす行為とは区別してください。","dedicated":true};
+mappings.standard[86]="blow-green-sand";
+scenes["shadow-putting-line"]={"src":"assets/dedicated-guides/shadow-putting-line-20261015.png","caption":"同伴者の影が、他のプレーヤーの球とホールの間にかかっている例。パットの邪魔になる場合は、静かに声をかけて位置を調整します。","dedicated":true};
+mappings.standard[89]="shadow-putting-line";
+mappings.standard[99]="shadow-putting-line";
 // Rule 7: searching movement and marked identification are distinct scenes.
 Object.assign(scenes,{
  'search-moved-ball':{src:'assets/dedicated-guides/search-moved-ball-20261014.png',caption:'球を探している途中、靴が触れて偶然球が動いた例。合理的な捜索中なら罰はなく、元の箇所へリプレースします。不明なら元の箇所を推定します。',dedicated:true},
