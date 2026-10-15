@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261015-wind-cleaning';
+const version='20261015-reuse-reviewed';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -41,6 +41,10 @@ Object.assign(mappings.competition,{249:'green-sand-brush'});
 Object.assign(scenes,{"wind-outside-green":{"src":"assets/dedicated-guides/wind-outside-green-20261015.png","caption":"グリーン外の短い芝で、自然の風により球が動いた場面。人・クラブ・動物は触れていません。次にプレーする場所は本文の条件を確認してください。","dedicated":true},"cleaning-restricted":{"src":"assets/dedicated-guides/cleaning-restricted-20261015.png","caption":"拾い上げた球をタオルで拭いている場面。拭いてよいかは拾い上げた理由によって異なります。この項目では清掃の制限を本文で確認してください。","dedicated":true}});
 Object.assign(mappings.standard,{200:'wind-outside-green',246:'cleaning-restricted'});
 Object.assign(mappings.competition,{147:'wind-outside-green',176:'cleaning-restricted',254:'cleaning-restricted'});
+// Visually reviewed reuse: captions describe only the depicted representative case.
+Object.assign(scenes,{"reviewed-person-hit":{"src":"artwork-archive/recovered-20261013/80cdf135947e52bcb673.png","caption":"打球が人の脚に偶然当たる代表例。物への衝突や例外条件は本文で確認してください。","dedicated":true},"reviewed-green-damage":{"src":"artwork-archive/recovered-20261013/4d0208cf19725e303d6c.png","caption":"グリーン上のボールマークと修復用具の例。自然の凹凸まで修復できるという意味ではありません。","dedicated":true},"reviewed-bunker-footing":{"src":"artwork-archive/recovered-20261013/69010eb9a21c842538e5.png","caption":"スタンスのために足を砂へ適度に入れる場面。クラブを使う素振りの図ではなく、砂に触れる制限は本文で確認します。","dedicated":true},"reviewed-marked-green-lift":{"src":"assets/scene-guides/mark.webp","caption":"球を拾い上げる前に、すぐ近くのマーカーで位置を示す場面。パートナーが行える行為の範囲は本文で確認してください。","dedicated":true},"reviewed-flag-handling":{"src":"artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png","caption":"旗竿をホールに残す選択肢の例。旗竿を抜く動作や付き添いの手順を描いた図ではありません。","dedicated":true},"reviewed-interfering-marker":{"src":"assets/minimal-guides/marker-shift-hd.png","caption":"マーカーを移動する前に、パターヘッドを目安に位置を確認する場面。動かす方向と距離を確認し、プレー前に元へ戻します。","dedicated":true}});
+Object.assign(mappings.standard,{"10":"reviewed-person-hit","35":"reviewed-green-damage","56":"reviewed-green-damage","63":"reviewed-bunker-footing"});
+Object.assign(mappings.competition,{"10":"reviewed-person-hit","97":"reviewed-interfering-marker","199":"reviewed-marked-green-lift","228":"reviewed-marked-green-lift","290":"reviewed-marked-green-lift","291":"reviewed-flag-handling"});
 // Rule 7: searching movement and marked identification are distinct scenes.
 Object.assign(scenes,{
  'search-moved-ball':{src:'assets/dedicated-guides/search-moved-ball-20261014.png',caption:'球を探している途中、靴が触れて偶然球が動いた例。合理的な捜索中なら罰はなく、元の箇所へリプレースします。不明なら元の箇所を推定します。',dedicated:true},

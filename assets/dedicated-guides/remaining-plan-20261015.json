@@ -664,6 +664,48 @@
       "status": "planned",
       "format": "precise-diagram",
       "reason": "落ちた枝葉と生えている枝葉の違いを区別する位置・状態の図が必要。"
+    },
+    {
+      "key": "club-length-broken",
+      "title": "折れたクラブとクラブレングスの測定基準",
+      "targets": {
+        "standard": [],
+        "competition": [
+          218
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "既存画像は損傷のないクラブのみで、折れた場合の基準を示せない。公式定義のClarification確認後に制作。",
+      "origin": "reuse-review"
+    },
+    {
+      "key": "wrong-partner-ball",
+      "title": "フォアボールでパートナーの球を打つ",
+      "targets": {
+        "standard": [],
+        "competition": [
+          198
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "既存画像は球の識別・マーク前の場面で、パートナーの球を打った場面ではない。",
+      "origin": "reuse-review"
+    },
+    {
+      "key": "movable-object-ball",
+      "title": "動かせる障害物の中の球",
+      "targets": {
+        "standard": [],
+        "competition": [
+          293
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "既存画像はタオルの上の球。対象の「中・下」と一致しない。本文の中・上、見出しの中・下、規則15.2b参照の不整合を先に確認する。",
+      "origin": "reuse-review"
     }
   ],
   "reuseCandidates": [
@@ -678,8 +720,12 @@
           10
         ]
       },
-      "status": "candidate-not-approved",
-      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。"
+      "status": "implemented",
+      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。",
+      "implementedScene": "reviewed-person-hit",
+      "asset": "artwork-archive/recovered-20261013/80cdf135947e52bcb673.png"
     },
     {
       "key": "green-damage",
@@ -691,8 +737,12 @@
         ],
         "competition": []
       },
-      "status": "candidate-not-approved",
-      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。"
+      "status": "implemented",
+      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。",
+      "implementedScene": "reviewed-green-damage",
+      "asset": "artwork-archive/recovered-20261013/4d0208cf19725e303d6c.png"
     },
     {
       "key": "bunker-footing",
@@ -703,8 +753,12 @@
         ],
         "competition": []
       },
-      "status": "candidate-not-approved",
-      "reason": "足を適度に砂へ入れる行為の図。クラブを使う練習スイングとは混同しない。"
+      "status": "implemented",
+      "reason": "足を適度に砂へ入れる行為の図。クラブを使う練習スイングとは混同しない。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "足を適度に砂へ入れる行為の図。クラブを使う練習スイングとは混同しない。",
+      "implementedScene": "reviewed-bunker-footing",
+      "asset": "artwork-archive/recovered-20261013/69010eb9a21c842538e5.png"
     },
     {
       "key": "club-length-broken",
@@ -715,8 +769,10 @@
           218
         ]
       },
-      "status": "candidate-not-approved",
-      "reason": "ラウンド開始時の測定基準を説明。折れた長さ自体を基準にする絵にしない。"
+      "status": "rejected-new-asset",
+      "reason": "ラウンド開始時の測定基準を説明。折れた長さ自体を基準にする絵にしない。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "既存画像は損傷のないクラブのみで、折れた場合の基準を示せない。公式定義のClarification確認後に制作。"
     },
     {
       "key": "wrong-partner-ball",
@@ -727,8 +783,10 @@
           198
         ]
       },
-      "status": "candidate-not-approved",
-      "reason": "別のプレーヤーの球を打つ同じ場面。所有者と競技形式による罰は本文に委ねる。"
+      "status": "rejected-new-asset",
+      "reason": "別のプレーヤーの球を打つ同じ場面。所有者と競技形式による罰は本文に委ねる。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "既存画像は球の識別・マーク前の場面で、パートナーの球を打った場面ではない。"
     },
     {
       "key": "marked-green-lift",
@@ -741,8 +799,12 @@
           290
         ]
       },
-      "status": "candidate-not-approved",
-      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+      "status": "implemented",
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。",
+      "implementedScene": "reviewed-marked-green-lift",
+      "asset": "assets/scene-guides/mark.webp"
     },
     {
       "key": "movable-object-ball",
@@ -753,8 +815,10 @@
           293
         ]
       },
-      "status": "candidate-not-approved",
-      "reason": "球が物の上にある代表例。中・下の全形状を描いたとは扱わず本文と整合させる。"
+      "status": "rejected-new-asset",
+      "reason": "球が物の上にある代表例。中・下の全形状を描いたとは扱わず本文と整合させる。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "既存画像はタオルの上の球。対象の「中・下」と一致しない。本文の中・上、見出しの中・下、規則15.2b参照の不整合を先に確認する。"
     },
     {
       "key": "flag-handling",
@@ -765,8 +829,12 @@
           291
         ]
       },
-      "status": "candidate-not-approved",
-      "reason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。"
+      "status": "implemented",
+      "reason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。",
+      "implementedScene": "reviewed-flag-handling",
+      "asset": "artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png"
     },
     {
       "key": "interfering-marker",
@@ -777,8 +845,12 @@
           97
         ]
       },
-      "status": "candidate-not-approved",
-      "reason": "他人のプレーを妨げるマーカーを一時移動して元に戻す説明図。球自体を拾い上げる場面とは分けて本文と確認する。"
+      "status": "implemented",
+      "reason": "他人のプレーを妨げるマーカーを一時移動して元に戻す説明図。球自体を拾い上げる場面とは分けて本文と確認する。",
+      "reviewedOn": "2026-10-15",
+      "reviewReason": "他人のプレーを妨げるマーカーを一時移動して元に戻す説明図。球自体を拾い上げる場面とは分けて本文と確認する。",
+      "implementedScene": "reviewed-interfering-marker",
+      "asset": "assets/minimal-guides/marker-shift-hd.png"
     }
   ],
   "items": [
@@ -799,7 +871,8 @@
       "currentScene": "stroke",
       "decision": "reuse-review",
       "group": "person-hit",
-      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。"
+      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -882,7 +955,8 @@
       "currentScene": "green",
       "decision": "reuse-review",
       "group": "green-damage",
-      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。"
+      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -937,7 +1011,8 @@
       "currentScene": "green",
       "decision": "reuse-review",
       "group": "green-damage",
-      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。"
+      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -947,7 +1022,8 @@
       "currentScene": "bunker",
       "decision": "reuse-review",
       "group": "bunker-footing",
-      "reason": "足を適度に砂へ入れる行為の図。クラブを使う練習スイングとは混同しない。"
+      "reason": "足を適度に砂へ入れる行為の図。クラブを使う練習スイングとは混同しない。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -1768,7 +1844,8 @@
       "currentScene": "stroke",
       "decision": "reuse-review",
       "group": "person-hit",
-      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。"
+      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2232,7 +2309,8 @@
       "currentScene": "mark",
       "decision": "reuse-review",
       "group": "interfering-marker",
-      "reason": "他人のプレーを妨げるマーカーを一時移動して元に戻す説明図。球自体を拾い上げる場面とは分けて本文と確認する。"
+      "reason": "他人のプレーを妨げるマーカーを一時移動して元に戻す説明図。球自体を拾い上げる場面とは分けて本文と確認する。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2836,7 +2914,8 @@
       "currentScene": "consult",
       "decision": "reuse-review",
       "group": "wrong-partner-ball",
-      "reason": "別のプレーヤーの球を打つ同じ場面。所有者と競技形式による罰は本文に委ねる。"
+      "reason": "別のプレーヤーの球を打つ同じ場面。所有者と競技形式による罰は本文に委ねる。",
+      "resolution": "rejected-new-asset"
     },
     {
       "mode": "competition",
@@ -2846,7 +2925,8 @@
       "currentScene": "mark",
       "decision": "reuse-review",
       "group": "marked-green-lift",
-      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2977,7 +3057,8 @@
       "currentScene": "equipment",
       "decision": "reuse-review",
       "group": "club-length-broken",
-      "reason": "ラウンド開始時の測定基準を説明。折れた長さ自体を基準にする絵にしない。"
+      "reason": "ラウンド開始時の測定基準を説明。折れた長さ自体を基準にする絵にしない。",
+      "resolution": "rejected-new-asset"
     },
     {
       "mode": "competition",
@@ -3061,7 +3142,8 @@
       "currentScene": "consult",
       "decision": "reuse-review",
       "group": "marked-green-lift",
-      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3426,7 +3508,8 @@
       "currentScene": null,
       "decision": "reuse-review",
       "group": "marked-green-lift",
-      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3436,7 +3519,8 @@
       "currentScene": null,
       "decision": "reuse-review",
       "group": "flag-handling",
-      "reason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。"
+      "reason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3456,7 +3540,8 @@
       "currentScene": null,
       "decision": "reuse-review",
       "group": "movable-object-ball",
-      "reason": "球が物の上にある代表例。中・下の全形状を描いたとは扱わず本文と整合させる。"
+      "reason": "球が物の上にある代表例。中・下の全形状を描いたとは扱わず本文と整合させる。",
+      "resolution": "rejected-new-asset"
     },
     {
       "mode": "competition",
@@ -3672,14 +3757,17 @@
   ],
   "counts": {
     "reviewedItems": 311,
-    "newAssets": 48,
-    "newAssetItems": 75,
+    "newAssets": 51,
+    "newAssetItems": 78,
     "reuseReviewItems": 13,
-    "textSufficientItems": 223
+    "textSufficientItems": 223,
+    "baselineNewAssets": 48
   },
   "progress": {
     "implementedNewAssets": 2,
-    "remainingNewAssets": 46,
-    "reusePendingItems": 13
+    "remainingNewAssets": 49,
+    "reusePendingItems": 0,
+    "reuseImplementedItems": 10,
+    "reuseRejectedItems": 3
   }
 }
