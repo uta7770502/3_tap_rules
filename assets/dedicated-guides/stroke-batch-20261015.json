@@ -1,0 +1,67 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-9",
+    "https://www.randa.org/en/players-rule-finder/players-rule-finder/general-area/ball-at-rest-moved-or-lifted-by-your-practice-swing"
+  ],
+  "records": [
+    {
+      "key": "anchor-putter",
+      "src": "assets/dedicated-guides/anchor-putter-style-a-20261015.png",
+      "sha256": "78d030eef0a6881916bb95c617950f54d18d45cf30137d9b5ccc0408a8b35a6c",
+      "targets": {
+        "standard": [],
+        "competition": [
+          56,
+          157
+        ]
+      },
+      "caption": "長尺パターの握り手を胸に押し当て、固定している例。衣服に偶然触れただけの状態とは区別します。",
+      "rule": "10.1b"
+    },
+    {
+      "key": "self-standing-putter",
+      "src": "assets/dedicated-guides/self-standing-putter-style-a-20261015.png",
+      "sha256": "951166942eefd8d17af7884bfce750e9f2cdac8e96ad3dc46bbcf1e5ae8f63d9",
+      "targets": {
+        "standard": [],
+        "competition": [
+          162
+        ]
+      },
+      "caption": "手を離して自立させたパターを使い、後方から方向を確認する例。クラブをアラインメントの援助に使う場面です。",
+      "rule": "10.2b"
+    },
+    {
+      "key": "moved-general-area",
+      "src": "assets/dedicated-guides/moved-general-area-style-a-20261015.png",
+      "sha256": "d6c9870bd59391736f6fa05c9625b710a6e35ac7ac604e3f30aadb10c6bcf02a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          8,
+          146,
+          275
+        ]
+      },
+      "caption": "捜索中ではない場面で、ジェネラルエリアの球に靴が触れて偶然動いた例。原因や例外条件を本文で確認します。",
+      "rule": "9.4"
+    },
+    {
+      "key": "practice-hit-ball",
+      "src": "assets/dedicated-guides/practice-hit-ball-style-a-20261015.png",
+      "sha256": "61f6dace0a68e7fdd625c1accc34e581c571d2aea3e458b27d05abf8a3ecc51c",
+      "targets": {
+        "standard": [],
+        "competition": [
+          220
+        ]
+      },
+      "caption": "素振り中にクラブが球に当たり、球が動いた場面のイメージ。球を打つ意思や球の場所によって判断するため、本文の条件を確認します。",
+      "rule": "ストロークの定義 / 9.4"
+    }
+  ],
+  "remainingNewAssets": 32
+}

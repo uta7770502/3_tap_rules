@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261015-style-a-batch2';
+const version='20261015-style-a-batch3';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -87,6 +87,19 @@ mappings.competition[276]="marker-moved";
 scenes["play-inside-pa"]={"src": "assets/dedicated-guides/play-inside-pa-style-a-20261015.png", "caption": "赤杭で示されたペナルティーエリア内の乾いた場所にある球を、そのまま打つ準備をしている場面。プレー禁止区域ではない例です。", "dedicated": true};
 mappings.standard[161]="play-inside-pa";
 mappings.competition[296]="play-inside-pa";
+
+// Four stroke-related scenes using the original approved style master.
+scenes["anchor-putter"]={"src": "assets/dedicated-guides/anchor-putter-style-a-20261015.png", "caption": "長尺パターの握り手を胸に押し当て、固定している例。衣服に偶然触れただけの状態とは区別します。", "dedicated": true};
+mappings.competition[56]="anchor-putter";
+mappings.competition[157]="anchor-putter";
+scenes["self-standing-putter"]={"src": "assets/dedicated-guides/self-standing-putter-style-a-20261015.png", "caption": "手を離して自立させたパターを使い、後方から方向を確認する例。クラブをアラインメントの援助に使う場面です。", "dedicated": true};
+mappings.competition[162]="self-standing-putter";
+scenes["moved-general-area"]={"src": "assets/dedicated-guides/moved-general-area-style-a-20261015.png", "caption": "捜索中ではない場面で、ジェネラルエリアの球に靴が触れて偶然動いた例。原因や例外条件を本文で確認します。", "dedicated": true};
+mappings.competition[8]="moved-general-area";
+mappings.competition[146]="moved-general-area";
+mappings.competition[275]="moved-general-area";
+scenes["practice-hit-ball"]={"src": "assets/dedicated-guides/practice-hit-ball-style-a-20261015.png", "caption": "素振り中にクラブが球に当たり、球が動いた場面のイメージ。球を打つ意思や球の場所によって判断するため、本文の条件を確認します。", "dedicated": true};
+mappings.competition[220]="practice-hit-ball";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

@@ -51,3 +51,11 @@
 - 救済確認の拾い上げ、グリーンでの偶然の球移動、マーカー移動、ペナルティーエリア内からそのまま打つ場面を追加。
 - すべてstroke.webpを直接参照。赤杭のみ識別に必要な赤色を使用。
 - assets/dedicated-guides/situations-batch-20261015.jsonに対象・ハッシュ・出典を保存。プロンプトは同名-prompts.json。残り新規制作36点（全画像トーン監査は別途未完了）。
+
+
+## 2026-10-15: style A stroke situations batch 3
+- Added four illustrations: anchor-putter, self-standing-putter, moved-general-area, practice-hit-ball; mapped to 7 competition items.
+- Original stroke.webp remains the sole style master; white background, muted mint and sparse dark teal outlines.
+- Prompts, SHA256 and rule sources: assets/dedicated-guides/stroke-batch-20261015*.json.
+- Remaining planned assets: 32 (19 implemented). Representative scenes; captions defer conditions to the existing rule text.
+- Cache version: 20261015-style-a-batch3. Deployment READY can be checked separately; protected live UI has not been visually verified.

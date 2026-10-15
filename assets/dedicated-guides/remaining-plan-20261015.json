@@ -263,9 +263,11 @@
           275
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「捜索中でない球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「捜索中でない球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/moved-general-area-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "straddle-putting-line",
@@ -291,9 +293,11 @@
           157
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「クラブ・握り手を体に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「クラブ・握り手を体に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/anchor-putter-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "caddie-behind",
@@ -428,9 +432,11 @@
           162
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「自立パターを使ったアラインメント援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「自立パターを使ったアラインメント援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/self-standing-putter-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "raincoat-contact",
@@ -519,9 +525,11 @@
           220
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「素振りで誤って球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「素振りで誤って球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/practice-hit-ball-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "stopped-downswing",
@@ -3790,8 +3798,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 15,
-    "remainingNewAssets": 36,
+    "implementedNewAssets": 19,
+    "remainingNewAssets": 32,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3
