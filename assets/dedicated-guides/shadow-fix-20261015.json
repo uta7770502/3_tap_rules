@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-15",
+  "method": "built-in image_gen edit",
+  "asset": "assets/dedicated-guides/shadow-putting-line-20261015.png",
+  "prompt": "Edit this existing golf illustration, preserve exact 1536x1024 composition, golfer position/size/pose, shadow silhouette connected to shoes and crossing ball-to-cup corridor, ball position, dark teal rounded lines and minimalist white/pale mint palette. Two required changes: (1) Clearly show a putting GREEN: smooth very pale mint green surface across the playing area, with a gently curving outer boundary/fringe visible along the top and right edges and slightly darker mint longer grass outside. Remove scattered tuft symbols inside the closely mown putting surface; keep it smooth and clean. No detailed scenery, no new people. (2) Existing cup is far too large relative to golfer. Keep cup center exactly same position but shrink its width and height to 40 percent of original, so its width is about 30 pixels rather than 80, much narrower than golfer's shoe length. A small subtle dark ellipse, flush with turf, not a raised rim or bowl. Preserve ball, person, shadow and their scale unchanged. No flagstick, text, arrows, labels, watermark. Keep silhouette readable on pale mint surface.",
+  "changes": [
+    "グリーン面の淡いミント塗りと周囲の芝の境界を追加",
+    "カップを縮小"
+  ],
+  "targets": {
+    "standard": [
+      89,
+      99
+    ]
+  },
+  "remainingNewAssets": 47
+}
