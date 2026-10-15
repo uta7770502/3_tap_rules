@@ -1,0 +1,38 @@
+{
+  "mode": "built-in image_gen",
+  "records": [
+    {
+      "key": "wind-outside-green",
+      "filename": "wind-outside-green-20261015.png",
+      "targets": {
+        "standard": [
+          200
+        ],
+        "competition": [
+          147
+        ]
+      },
+      "caption": "グリーン外の短い芝で、自然の風により球が動いた場面。人・クラブ・動物は触れていません。次にプレーする場所は本文の条件を確認してください。",
+      "prompt": "Use case: illustration-story. Asset type: golf rules app explanatory illustration. One landscape 1536x1024 minimal flat image. White background, dark teal rounded contour lines, white fills and very pale mint accents only. A single white dimpled golf ball moving gently rightward over short FAIRWAY GRASS, outside the putting green. Three thin gently curved wind strokes in air behind it and several nearby grass tufts bent consistently to the right establish wind as cause. Two tiny motion ticks close behind ball show rolling; ball touches ground, not floating or flying. No second ghost ball, arrows, numbers, words, labels, hole, flag, tee, clubs, shoes, hands or people. No boundary lines or artificial objects. Low oblique close view, large readable ball centered lower half, simple pale mint patch of short fairway with scattered tufts. Sparse clean linework, ample white margin, no realistic lighting, gradient, complex texture or extra colors. This is wind moving a resting ball on fairway, not a stroke."
+    },
+    {
+      "key": "cleaning-restricted",
+      "filename": "cleaning-restricted-20261015.png",
+      "targets": {
+        "standard": [
+          246
+        ],
+        "competition": [
+          176,
+          254
+        ]
+      },
+      "caption": "拾い上げた球をタオルで拭いている場面。拭いてよいかは拾い上げた理由によって異なります。この項目では清掃の制限を本文で確認してください。",
+      "prompt": "Use case: illustration-story. Asset type: golf rules app explanatory illustration. One landscape 1536x1024 image. Minimal dark teal rounded outline drawing, white fills and very pale mint flat accents only on white background. Close-up of TWO anatomically correct adult hands, one holding a SINGLE white dimpled golf ball and the other holding a folded small soft towel wiping the ball's surface. The towel clearly contacts one side of the ball, leaving most of the ball visible; two tiny motion ticks show wiping. Hands have natural fingers, no gloves or jewelry, no extra fingers. No face, body, golf green, cup, flag, club, shoes, marker, second ball, water or washing basin. Only hands, ball and folded towel, with large uncluttered white margins. No text, symbols of permission, check marks, crosses, labels, arrows or numbers. This is a neutral scene of cleaning a lifted ball; do not imply cleaning is always permitted. Flat simple line art matching dark teal and mint golf UI, no gradients or photorealism."
+    }
+  ],
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-9",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+  ]
+}

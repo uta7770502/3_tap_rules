@@ -1,0 +1,3685 @@
+{
+  "date": "2026-10-15",
+  "scope": "通常247項目＋競技318項目のうち、専用場面画像・既存説明図に未対応だった311項目。いろは40項目は別の表示経路で本集計の対象外。",
+  "baselineCommit": "36a28987a09a93da835f71cc698b5a50c7afb156",
+  "criterion": "位置関係・身体動作・球の状態を図が補う項目を新規制作。得点計算・宣言・期限・採用条件・権限・競技手続は文章優先。画像枚数と対応項目数を区別する。共用候補は裏取り・目視確認前に完了扱いにしない。",
+  "newAssets": [
+    {
+      "key": "two-ball-contact",
+      "title": "2球を同時に打った場面",
+      "targets": {
+        "standard": [
+          20
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「2球を同時に打った場面」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "adjacent-boundaries",
+      "title": "白杭と赤杭の隣接境界",
+      "targets": {
+        "standard": [
+          71
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「白杭と赤杭の隣接境界」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "excess-clubs",
+      "title": "超過クラブを除外する状態",
+      "targets": {
+        "standard": [
+          75,
+          98
+        ],
+        "competition": [
+          3
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "moving-ball-stroke",
+      "title": "動いている球への別ストローク",
+      "targets": {
+        "standard": [
+          80
+        ],
+        "competition": [
+          155,
+          159
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「動いている球への別ストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "flag-held-putt",
+      "title": "旗竿を自分で持ちながらパット",
+      "targets": {
+        "standard": [
+          85
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「旗竿を自分で持ちながらパット」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "blow-green-sand",
+      "title": "グリーンの砂を吹き払う",
+      "targets": {
+        "standard": [
+          86
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「グリーンの砂を吹き払う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "shadow-putting-line",
+      "title": "他人のパットラインに影がかかる",
+      "targets": {
+        "standard": [
+          89,
+          99
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「他人のパットラインに影がかかる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "practice-divot",
+      "title": "素振りで球の近くの芝を削る",
+      "targets": {
+        "standard": [
+          94
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「素振りで球の近くの芝を削る」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "own-umbrella-stroke",
+      "title": "自分で傘を持つストローク",
+      "targets": {
+        "standard": [
+          133
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「自分で傘を持つストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "play-inside-pa",
+      "title": "ペナルティーエリア内の球をそのまま打つ",
+      "targets": {
+        "standard": [
+          161
+        ],
+        "competition": [
+          296
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「ペナルティーエリア内の球をそのまま打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "wind-outside-green",
+      "title": "風でグリーン外の球が動く",
+      "targets": {
+        "standard": [
+          200
+        ],
+        "competition": [
+          147
+        ]
+      },
+      "status": "implemented",
+      "format": "illustration",
+      "reason": "本文に加え「風でグリーン外の球が動く」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "src": "assets/dedicated-guides/wind-outside-green-20261015.png"
+    },
+    {
+      "key": "internal-ob-holes",
+      "title": "ホールによって適用が変わる内部OB",
+      "targets": {
+        "standard": [
+          208
+        ],
+        "competition": [
+          120,
+          231,
+          261
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "road-crossing",
+      "title": "公道を横切って別のホールに止まる球",
+      "targets": {
+        "standard": [
+          209
+        ],
+        "competition": [
+          121
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "carry-run",
+      "title": "キャリーとランの区別",
+      "targets": {
+        "standard": [
+          241
+        ],
+        "competition": []
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「キャリーとランの区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "lift-relief-check",
+      "title": "救済対象か確認するためマークして拾う",
+      "targets": {
+        "standard": [
+          245
+        ],
+        "competition": [
+          253
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「救済対象か確認するためマークして拾う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "cleaning-restricted",
+      "title": "清掃が制限される球をタオルで拭く",
+      "targets": {
+        "standard": [
+          246
+        ],
+        "competition": [
+          176,
+          254
+        ]
+      },
+      "status": "implemented",
+      "format": "illustration",
+      "reason": "本文に加え「清掃が制限される球をタオルで拭く」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "src": "assets/dedicated-guides/cleaning-restricted-20261015.png"
+    },
+    {
+      "key": "moved-general-area",
+      "title": "捜索中でない球の偶然の移動",
+      "targets": {
+        "standard": [],
+        "competition": [
+          8,
+          146,
+          275
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「捜索中でない球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "straddle-putting-line",
+      "title": "パットの線をまたぐスタンス",
+      "targets": {
+        "standard": [],
+        "competition": [
+          55,
+          158
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "anchor-putter",
+      "title": "クラブ・握り手を体に固定",
+      "targets": {
+        "standard": [],
+        "competition": [
+          56,
+          157
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「クラブ・握り手を体に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "caddie-behind",
+      "title": "構え始めた選手の後方延長線上のキャディー",
+      "targets": {
+        "standard": [],
+        "competition": [
+          58,
+          163
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「構え始めた選手の後方延長線上のキャディー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "provisional-nearer",
+      "title": "暫定球を本球推定地点よりホール寄りから打つ",
+      "targets": {
+        "standard": [],
+        "competition": [
+          73,
+          189
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "nearest-complete-relief",
+      "title": "仮のスタンスを含めた完全救済のニアレストポイント",
+      "targets": {
+        "standard": [],
+        "competition": [
+          113
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「仮のスタンスを含めた完全救済のニアレストポイント」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "relief-area-boundary",
+      "title": "救済エリアの範囲と縁にかかる球",
+      "targets": {
+        "standard": [],
+        "competition": [
+          114,
+          210
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "course-areas",
+      "title": "コースの5区域の区別",
+      "targets": {
+        "standard": [],
+        "competition": [
+          112,
+          273
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "boundary-v-obstruction",
+      "title": "境界物と動かせない障害物の区別",
+      "targets": {
+        "standard": [],
+        "competition": [
+          119
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「境界物と動かせない障害物の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "wrong-tee-hole",
+      "title": "別のホールのティーからの打撃",
+      "targets": {
+        "standard": [],
+        "competition": [
+          136,
+          137
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "accidental-green-move",
+      "title": "グリーン上での球の偶然の移動",
+      "targets": {
+        "standard": [],
+        "competition": [
+          150
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「グリーン上での球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "push-ball",
+      "title": "球を押し出す不正な打ち方",
+      "targets": {
+        "standard": [],
+        "competition": [
+          156
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「球を押し出す不正な打ち方」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "self-standing-putter",
+      "title": "自立パターを使ったアラインメント援助",
+      "targets": {
+        "standard": [],
+        "competition": [
+          162
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「自立パターを使ったアラインメント援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "raincoat-contact",
+      "title": "雨具に偶然接触しているだけの状態",
+      "targets": {
+        "standard": [],
+        "competition": [
+          167
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「雨具に偶然接触しているだけの状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "clothes-anchor",
+      "title": "衣服を握ってクラブを意図的に固定",
+      "targets": {
+        "standard": [],
+        "competition": [
+          168
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「衣服を握ってクラブを意図的に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "off-back-line",
+      "title": "後方線から外れた地点へのドロップ",
+      "targets": {
+        "standard": [],
+        "competition": [
+          179
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「後方線から外れた地点へのドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "snake-in-pa",
+      "title": "ペナルティーエリア内の危険な蛇",
+      "targets": {
+        "standard": [],
+        "competition": [
+          184
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「ペナルティーエリア内の危険な蛇」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "wheelchair-bunker-unplayable",
+      "title": "移動補助器具使用者のバンカー内アンプレヤブル",
+      "targets": {
+        "standard": [],
+        "competition": [
+          207
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「移動補助器具使用者のバンカー内アンプレヤブル」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "pa-touching-line",
+      "title": "球の一部がペナルティーエリアの縁に触れる",
+      "targets": {
+        "standard": [],
+        "competition": [
+          209
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「球の一部がペナルティーエリアの縁に触れる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "practice-hit-ball",
+      "title": "素振りで誤って球に接触",
+      "targets": {
+        "standard": [],
+        "competition": [
+          220
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「素振りで誤って球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "stopped-downswing",
+      "title": "ダウンスイングを中止しようとして球に接触",
+      "targets": {
+        "standard": [],
+        "competition": [
+          221
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「ダウンスイングを中止しようとして球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "ball-in-pitchmark",
+      "title": "他人の未修復ピッチマークに球が沈む",
+      "targets": {
+        "standard": [],
+        "competition": [
+          236
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「他人の未修復ピッチマークに球が沈む」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "search-move-grass",
+      "title": "球を探すため合理的に草を動かす",
+      "targets": {
+        "standard": [],
+        "competition": [
+          241,
+          286
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「球を探すため合理的に草を動かす」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "drop-instead-place",
+      "title": "プレースすべき球を誤ってドロップ",
+      "targets": {
+        "standard": [],
+        "competition": [
+          246
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「プレースすべき球を誤ってドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "unfound-gur",
+      "title": "修理地内で見つからない球の基準点",
+      "targets": {
+        "standard": [],
+        "competition": [
+          257
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「修理地内で見つからない球の基準点」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "wheelchair-bunker-relief",
+      "title": "車輪付き移動器具のバンカー付近の救済",
+      "targets": {
+        "standard": [],
+        "competition": [
+          263
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「車輪付き移動器具のバンカー付近の救済」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "marker-moved",
+      "title": "動いてしまったボールマーカー",
+      "targets": {
+        "standard": [],
+        "competition": [
+          276
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「動いてしまったボールマーカー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "replay-previous-spot",
+      "title": "前の場所から打ち直す区域別の方法",
+      "targets": {
+        "standard": [],
+        "competition": [
+          100,
+          292
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "partner-behind",
+      "title": "ストローク時に後方延長線上にいるパートナー",
+      "targets": {
+        "standard": [],
+        "competition": [
+          305,
+          310
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "blind-alignment",
+      "title": "視覚障害のあるプレーヤーへの方向合わせ援助",
+      "targets": {
+        "standard": [],
+        "competition": [
+          206,
+          314
+        ]
+      },
+      "status": "planned",
+      "format": "illustration",
+      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "key": "pa-reentry",
+      "title": "ペナルティーエリアから打った球が同じ区域へ戻る",
+      "targets": {
+        "standard": [],
+        "competition": [
+          99
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "ペナルティーエリアから打った球が同じ区域へ戻るを区別する位置・状態の図が必要。"
+    },
+    {
+      "key": "loose-v-attached",
+      "title": "落ちた枝葉と生えている枝葉の違い",
+      "targets": {
+        "standard": [],
+        "competition": [
+          118
+        ]
+      },
+      "status": "planned",
+      "format": "precise-diagram",
+      "reason": "落ちた枝葉と生えている枝葉の違いを区別する位置・状態の図が必要。"
+    }
+  ],
+  "reuseCandidates": [
+    {
+      "key": "person-hit",
+      "scene": "companion-hit",
+      "targets": {
+        "standard": [
+          10
+        ],
+        "competition": [
+          10
+        ]
+      },
+      "status": "candidate-not-approved",
+      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。"
+    },
+    {
+      "key": "green-damage",
+      "scene": "pitchmark-repair",
+      "targets": {
+        "standard": [
+          35,
+          56
+        ],
+        "competition": []
+      },
+      "status": "candidate-not-approved",
+      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。"
+    },
+    {
+      "key": "bunker-footing",
+      "scene": "bunker-stance",
+      "targets": {
+        "standard": [
+          63
+        ],
+        "competition": []
+      },
+      "status": "candidate-not-approved",
+      "reason": "足を適度に砂へ入れる行為の図。クラブを使う練習スイングとは混同しない。"
+    },
+    {
+      "key": "club-length-broken",
+      "scene": "club-length",
+      "targets": {
+        "standard": [],
+        "competition": [
+          218
+        ]
+      },
+      "status": "candidate-not-approved",
+      "reason": "ラウンド開始時の測定基準を説明。折れた長さ自体を基準にする絵にしない。"
+    },
+    {
+      "key": "wrong-partner-ball",
+      "scene": "wrong-ball",
+      "targets": {
+        "standard": [],
+        "competition": [
+          198
+        ]
+      },
+      "status": "candidate-not-approved",
+      "reason": "別のプレーヤーの球を打つ同じ場面。所有者と競技形式による罰は本文に委ねる。"
+    },
+    {
+      "key": "marked-green-lift",
+      "scene": "mark",
+      "targets": {
+        "standard": [],
+        "competition": [
+          199,
+          228,
+          290
+        ]
+      },
+      "status": "candidate-not-approved",
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+    },
+    {
+      "key": "movable-object-ball",
+      "scene": "ball-on-towel",
+      "targets": {
+        "standard": [],
+        "competition": [
+          293
+        ]
+      },
+      "status": "candidate-not-approved",
+      "reason": "球が物の上にある代表例。中・下の全形状を描いたとは扱わず本文と整合させる。"
+    },
+    {
+      "key": "flag-handling",
+      "scene": "flag-left-in",
+      "targets": {
+        "standard": [],
+        "competition": [
+          291
+        ]
+      },
+      "status": "candidate-not-approved",
+      "reason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。"
+    },
+    {
+      "key": "interfering-marker",
+      "guide": "marker-shift",
+      "targets": {
+        "standard": [],
+        "competition": [
+          97
+        ]
+      },
+      "status": "candidate-not-approved",
+      "reason": "他人のプレーを妨げるマーカーを一時移動して元に戻す説明図。球自体を拾い上げる場面とは分けて本文と確認する。"
+    }
+  ],
+  "items": [
+    {
+      "mode": "standard",
+      "id": 9,
+      "title": "ティーショットで他人の順番を抜かす",
+      "procedure": "前方と周囲の安全を確認してプレーします。マッチプレーでは打つ順番がより重要なので、基本の順番を守ります。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 10,
+      "title": "ティーショットが人や物に当たった",
+      "procedure": "通常は、ボールが止まった場所からそのまま次を打ちます。",
+      "currentScene": "stroke",
+      "decision": "reuse-review",
+      "group": "person-hit",
+      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。"
+    },
+    {
+      "mode": "standard",
+      "id": 11,
+      "title": "ティーイングエリアでの練習打",
+      "procedure": "プレー中は練習球を打たず、確認したいときは素振りにします。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 13,
+      "title": "打順の優先（オナー）",
+      "procedure": "基本の順番を確認しつつ、安全とプレーの速さも優先します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 14,
+      "title": "プレーの準備",
+      "procedure": "前方と周囲を見て、安全を確認してから打ちます。届くか迷うときは待ちましょう。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 15,
+      "title": "隣のホールへの打球",
+      "procedure": "周囲のプレーヤーに注意し、安全を確認してからボールが止まった場所からプレーします。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 20,
+      "title": "誤って2つのボールを打った",
+      "procedure": "まず自分のボールを確認します。競技で判断に迷う場合は、そのまま自己判断せず競技委員会に確認してください。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "two-ball-contact",
+      "reason": "本文に加え「2球を同時に打った場面」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 21,
+      "title": "ボールが止まらず動いた",
+      "procedure": "風など自然に動いたなら基本は新しい場所から打ちます。自分が動かしたなら基本は元の場所へ戻します。グリーン上は例外があるので注意します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 23,
+      "title": "ボールを探す時間",
+      "procedure": "3分で見つからなければ紛失球です。1罰打を足して前に打った場所から打ち直します。OBや紛失の可能性があるときは、先に暫定球を打っておくと戻らずに済みます。",
+      "currentScene": "search",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 34,
+      "title": "プレー中のアドバイス",
+      "procedure": "クラブ選びや打ち方の相談は、自分のキャディーなど規則で認められた相手だけにします。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "standard",
+      "id": 35,
+      "title": "誤って他人のラインを修復",
+      "procedure": "ボールマークやスパイク傷など、認められている損傷だけを元の状態に近づけます。",
+      "currentScene": "green",
+      "decision": "reuse-review",
+      "group": "green-damage",
+      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。"
+    },
+    {
+      "mode": "standard",
+      "id": 36,
+      "title": "ストローク中に風で動いた旗竿",
+      "procedure": "そのままプレーを続けます。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 37,
+      "title": "グリーン外からのチップイン",
+      "procedure": "ボールがホールの中に入って止まっていれば、そのホールは終了です。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 40,
+      "title": "プレー中の安全確認",
+      "procedure": "ボールが届きそうなら打たずに待ちます。危ない方向へ飛んだら、すぐに『ファー！』など大声で知らせます。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 45,
+      "title": "グリーン上の練習パット",
+      "procedure": "ホールアウトするまでは練習球を打ちません。ホール間の練習は、その日の競技ローカルルールも確認します。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 50,
+      "title": "グリーン上での音や会話",
+      "procedure": "ストロークの準備に入ったら会話や大きな音を控え、打ち終わるまで待ちます。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 56,
+      "title": "パットライン上のディボット",
+      "procedure": "ボールマークやスパイク傷など、直してよい傷か確認して、元の状態に近づけます。",
+      "currentScene": "green",
+      "decision": "reuse-review",
+      "group": "green-damage",
+      "reason": "認められる損傷の代表例。スパイク跡や自然の凹凸との違いをキャプションで限定する。"
+    },
+    {
+      "mode": "standard",
+      "id": 63,
+      "title": "バンカー内でのスタンス練習",
+      "procedure": "素振りをするときはクラブが砂に触れないようにします。",
+      "currentScene": "bunker",
+      "decision": "reuse-review",
+      "group": "bunker-footing",
+      "reason": "足を適度に砂へ入れる行為の図。クラブを使う練習スイングとは混同しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 71,
+      "title": "白杭と赤杭の間（境界）",
+      "procedure": "白杭で決まるOB境界と、赤杭・赤線で決まるペナルティーエリアの境界を別々に確認して、ボールがどちらにあるか判断します。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "adjacent-boundaries",
+      "reason": "本文に加え「白杭と赤杭の隣接境界」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 73,
+      "title": "プレー順を守らなかった",
+      "procedure": "周囲の安全とプレーの進行を優先します。マッチプレーでは扱いが違うので順番に注意します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 74,
+      "title": "他人のクラブを使った",
+      "procedure": "自分が正しく持っているクラブを使います。パートナー競技などには例外があります。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 75,
+      "title": "14本以上クラブを入れていた",
+      "procedure": "スタート前に本数を確認します。多いことに気づいたら、使わないクラブをすぐ明確にしてプレーから外します。",
+      "currentScene": "equipment",
+      "decision": "new-asset",
+      "group": "excess-clubs",
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 80,
+      "title": "動いているボールを打った",
+      "procedure": "通常はボールが止まるまで待ちます。特殊な状況では例外があるので、競技なら規則を確認します。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "moving-ball-stroke",
+      "reason": "本文に加え「動いている球への別ストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 81,
+      "title": "同伴者の邪魔をした",
+      "procedure": "打つ人が構えたら静かにして、視界の邪魔にならない場所で待ちます。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 83,
+      "title": "打順を間違えた（マッチプレー）",
+      "procedure": "相手がすぐに取消しを求めたら、正しい順番で打ち直します。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 84,
+      "title": "他人のショットに口出しした",
+      "procedure": "規則や距離などの情報は伝えられますが、クラブ選びや打ち方を指示しないようにします。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 85,
+      "title": "旗竿を持ちながらパットした",
+      "procedure": "ボールの動きに不当に影響しないように扱ってプレーします。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "flag-held-putt",
+      "reason": "本文に加え「旗竿を自分で持ちながらパット」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 86,
+      "title": "ライン上の砂を吹き払った",
+      "procedure": "砂だけを取り除き、グリーン面を押したり削ったりしてラインを良くしないようにします。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "blow-green-sand",
+      "reason": "本文に加え「グリーンの砂を吹き払う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 87,
+      "title": "ホールアウトの確認忘れ",
+      "procedure": "入れ忘れに気づいたら、まだ訂正できるうちに元のホールへ戻ってカップインします。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 89,
+      "title": "グリーン上での影の位置",
+      "procedure": "影がかかっていたら、邪魔にならない位置へ移動します。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "shadow-putting-line",
+      "reason": "本文に加え「他人のパットラインに影がかかる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 91,
+      "title": "クラブで地面を叩いた",
+      "procedure": "クラブで地面を傷つけないようにします。傷つけた場合は可能なら直し、必要ならゴルフ場や競技委員会へ伝えます。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 92,
+      "title": "クラブを投げた",
+      "procedure": "クラブは投げません。人や物に危険が及んだ場合は、まず安全を確保して競技委員会やゴルフ場へ報告します。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 93,
+      "title": "他人のパット中に動いた",
+      "procedure": "相手が打ち終わるまで静かにして、できるだけ動かず待ちます。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 94,
+      "title": "素振りで芝を削った",
+      "procedure": "ボールの周りやスイングに影響する場所を傷つけないように素振りします。",
+      "currentScene": "grass",
+      "decision": "new-asset",
+      "group": "practice-divot",
+      "reason": "本文に加え「素振りで球の近くの芝を削る」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 95,
+      "title": "同伴者のショット時に話した",
+      "procedure": "打つ人が構え始めたら静かにして、打ち終わるまで待ちます。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 96,
+      "title": "グリーン上で携帯を鳴らした",
+      "procedure": "スタート前に消音にします。鳴ってしまったらすぐ止め、その競技の行動規範を確認します。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 97,
+      "title": "前の組への打ち込み",
+      "procedure": "前の組が確実に届かない位置まで進むのを待ちます。危険な方向へ飛んだらすぐ大声で『フォア！』と知らせます。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 98,
+      "title": "クラブの本数申告忘れ",
+      "procedure": "スタート前に14本以下か確認します。多いことに気づいたら、使わないクラブをすぐプレーから外します。",
+      "currentScene": "equipment",
+      "decision": "new-asset",
+      "group": "excess-clubs",
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 99,
+      "title": "グリーン上で他人の影が気になった",
+      "procedure": "静かに声をかけて、影がラインにかからない位置へ移動してもらいます。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "shadow-putting-line",
+      "reason": "本文に加え「他人のパットラインに影がかかる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 101,
+      "title": "プレー中にクラブを交換した",
+      "procedure": "クラブを交換する前に、14本制限と交換できる理由を確認します。競技で迷う場合は委員会へ確認します。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 102,
+      "title": "誤所プレー（誤った場所から打った）",
+      "procedure": "競技では、まず重大な違反かを確認します。判断が難しければ競技委員会へ。重大な違反なら正しい場所から訂正します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 105,
+      "title": "プレーの遅延",
+      "procedure": "自分の番になる前に準備し、無理のない範囲でスムーズにプレーします。遅延の警告を受けたらすぐ改善します。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 106,
+      "title": "同伴者のクラブを借りた",
+      "procedure": "自分が正しく持っているクラブを使います。パートナー競技では例外がある場合があります。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 111,
+      "title": "誤所からのプレー",
+      "procedure": "重大な違反かどうかで対応が変わります。競技で迷ったら委員会へ確認し、必要なら正しい場所から訂正します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 117,
+      "title": "暫定球を宣言せず打った",
+      "procedure": "宣言せずに前の場所から別のボールを打つと、そのボールが1罰打を伴うストロークと距離の処置でインプレーになります。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 118,
+      "title": "プレー順を間違えた（ストロークプレー）",
+      "procedure": "安全とスムーズな進行を優先してプレーします。ただし有利になるために順番を変える合意などは別問題です。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 126,
+      "title": "誤って他人の方向に打った（危険球）",
+      "procedure": "危険な方向へ飛んだ瞬間に警告し、必要なら周囲の安全やけが人がいないか確認します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 130,
+      "title": "暫定球を打ってから元のボールが見つかった",
+      "procedure": "元のボールが有効なら暫定球は拾い上げ、元のボールをプレーします。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 133,
+      "title": "雨天時に傘を差したままショットした",
+      "procedure": "ストロークするときに傘を使うなら自分で持ちます。他の人から雨・風・日差しを避ける援助を受けたまま打たないようにします。",
+      "currentScene": "equipment",
+      "decision": "new-asset",
+      "group": "own-umbrella-stroke",
+      "reason": "本文に加え「自分で傘を持つストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 138,
+      "title": "他人のクラブで素振りした",
+      "procedure": "混乱を避けるため自分のクラブで素振りするのがおすすめです。他の人のクラブで実際のストロークはしないようにします。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 145,
+      "title": "フェアウェイで他人のラインを踏んだ",
+      "procedure": "他の人のボール周辺や打つ方向をできるだけ避けて歩きます。",
+      "currentScene": "grass",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 150,
+      "title": "刈り込み中のラフでプレー",
+      "procedure": "修理地の表示やローカルルールを確認します。救済対象なら、邪魔が完全になくなる場所を基準に規則どおり救済します。",
+      "currentScene": "grass",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 151,
+      "title": "新ペリア（ダブルペリア）の計算方法",
+      "procedure": "隠し12ホールのスコアを使ってハンディを計算し、グロススコアから引いてネット順位を決めます。打数上限やハンディ上限などは主催者の設定を確認します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 152,
+      "title": "同スコア時の順位決定方法",
+      "procedure": "カウントバック、年齢順、ハンディ順など、その日の競技条件を確認します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 153,
+      "title": "コンペでのスコア誤記入",
+      "procedure": "提出前に各ホールのスコアをマーカーと確認します。罰打が付くか分からないときは、提出する前に競技委員会へ確認します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 154,
+      "title": "スコアカードの代筆・証明",
+      "procedure": "競技で指定された方法でスコアを確認し、必要な証明をしてから提出します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 155,
+      "title": "ローカルルールと競技条件",
+      "procedure": "スタート前にスコアカード、掲示、競技要項、カートナビなどでその日のルールを確認します。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 161,
+      "title": "ペナルティーエリア内からそのまま打つ",
+      "procedure": "そのまま打つか、難しければ1罰打の救済を選びます。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "play-inside-pa",
+      "reason": "本文に加え「ペナルティーエリア内の球をそのまま打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 165,
+      "title": "暫定球を打てないケース",
+      "procedure": "暫定球にするときは、打つ前に『暫定球を打ちます』とはっきり伝えます。池に入ったことだけが疑われる場合はペナルティーエリアの処置を使います。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 167,
+      "title": "球を取り替えてよい場面",
+      "procedure": "今の処置が『リプレース』なのか『救済のドロップ／プレース』なのか確認してから、ボールを替えられるか判断します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 169,
+      "title": "ネットスコア同点時の賞品順位",
+      "procedure": "コンペ要項に書かれた同点時の順位決定方法を確認します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 170,
+      "title": "重大なマナー・行動規範違反",
+      "procedure": "その競技の行動規範を確認し、警告や競技委員会の指示に従います。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 200,
+      "title": "風で球が動いた（グリーン以外）",
+      "procedure": "ボールが自然に止まった新しい場所からプレーします。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "wind-outside-green",
+      "reason": "本文に加え「風でグリーン外の球が動く」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 208,
+      "title": "内部OB（コース内の白杭）",
+      "procedure": "ティー看板やスコアカードで『○番ホールでは右側白杭がOB』などの表示を確認します。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "internal-ob-holes",
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 209,
+      "title": "道路を越えて別のホールに止まった球",
+      "procedure": "道路付近の白杭・白線とローカルルールを確認します。道路を越えた球をOBにする指定があれば、それに従います。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "road-crossing",
+      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 210,
+      "title": "OB杭の色・境界表示が特殊なコース",
+      "procedure": "ラウンド前にスコアカードやローカルルールで、その日のOB境界を確認します。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 211,
+      "title": "ペリア方式の計算方法",
+      "procedure": "隠しホールのスコアからハンディを計算し、グロスから引いてネットスコアを出します。細かな設定は主催者やゴルフ場に確認します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 212,
+      "title": "新新ペリア方式",
+      "procedure": "隠しホールのスコアを使ってハンディを計算し、グロスから引いて順位を決めます。計算条件は主催者設定を確認します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 213,
+      "title": "隠しホールとは？",
+      "procedure": "幹事やゴルフ場が事前に設定し、プレー後に発表するのが一般的です。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 214,
+      "title": "ダブルパーカットとは？",
+      "procedure": "コンペ開始前に、ダブルパーカットを使うかどうか決めておきます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 215,
+      "title": "ハンディキャップ上限36",
+      "procedure": "開催前に上限を決め、参加者やゴルフ場の集計担当へ伝えます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 216,
+      "title": "同ネットの順位はどう決める？",
+      "procedure": "年齢順、ハンディ順、カウントバックなど、同点時の優先順位を事前に決めて案内します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 217,
+      "title": "ドラコン賞",
+      "procedure": "安全で広いPar4やPar5を指定し、有効になるエリアを決めて、一番遠い人の名前を記録します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 218,
+      "title": "ニアピン賞",
+      "procedure": "グリーンに乗ったボールのうち、ピンまで最も近い人を記録します。細かな条件はコンペ開始前に決めます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 219,
+      "title": "ベスグロ賞（BG）",
+      "procedure": "全員のグロススコアを比べ、一番少ない人を表彰します。同点時の決め方は事前に決めます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 220,
+      "title": "ブービー賞（BB）・ブービーメーカー（BM）",
+      "procedure": "最終順位が決まったら、下から2番目をBB、最下位をBMとして表彰します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 221,
+      "title": "飛び賞",
+      "procedure": "参加人数と賞品数に合わせて、対象順位を事前に決めます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 222,
+      "title": "当日賞・開催日賞",
+      "procedure": "対象順位を事前に決めるか、表彰式でサプライズ発表します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 223,
+      "title": "大波賞・小波賞",
+      "procedure": "たとえば『後半に一番良くなった人＝大波』『前後半の差が一番小さい人＝小波』など、ルールを事前に共有します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 224,
+      "title": "水平賞",
+      "procedure": "前半と後半のスコアを比べ、同じ人を対象にします。複数いる場合の決め方も先に決めます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 225,
+      "title": "オネストジョン方式",
+      "procedure": "プレー前に予想スコアを申告し、終了後に実際のスコアとの差を計算します。差が小さい人が上位です。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 226,
+      "title": "OKパットありのコンペ",
+      "procedure": "プライベートコンペでOKを使うなら、距離や数え方を全員で統一します。正式競技ではOKパットと混同しないようにします。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 227,
+      "title": "ワンオン賞",
+      "procedure": "対象ホールと条件を決め、ワンオンした人を記録して表彰や抽選をします。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 228,
+      "title": "バーディー賞・パー賞",
+      "procedure": "対象ホールと必要なスコアを決め、達成した人を記録します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 229,
+      "title": "最多パー賞・最多バーディー賞",
+      "procedure": "スコアカードからパーやバーディーの数を数えて、一番多い人を決めます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 230,
+      "title": "チーム戦（組対抗）",
+      "procedure": "何人分のスコアを使うか、グロスかネットか、同点時の決め方を先に決めておきます。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 231,
+      "title": "ベストボール方式のチーム戦",
+      "procedure": "各自がプレーし、ホールごとに採用する人数分のベストスコアを記録して合計します。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 232,
+      "title": "じゃんけん・抽選賞",
+      "procedure": "全員を対象にするか、まだ賞を取っていない人だけにするかを決めて、表彰式で抽選やじゃんけんをします。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "standard",
+      "id": 233,
+      "title": "クラブ別・番手別の飛距離目安",
+      "procedure": "目安：ドライバー 男性200〜250yd／女性150〜190yd、7I 男性125〜155yd／女性90〜120ydなど。最終的には自分の実際のキャリーを測って選びます。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 234,
+      "title": "ドライバー（1W）の飛距離目安",
+      "procedure": "一番飛んだ1球ではなく、普段のナイスショットでどれくらい飛ぶかを基準にします。できればキャリーと総距離を分けて測ります。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 235,
+      "title": "フェアウェイウッド（3W・5W）の飛距離目安",
+      "procedure": "ライが悪いときは無理にウッドを使わず、UTやアイアンなど打ちやすいクラブを選びます。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 236,
+      "title": "ユーティリティ（UT）の飛距離目安",
+      "procedure": "自分のフェアウェイウッドとアイアンの間の距離を埋めるように選びます。番手表示やロフトはメーカーによって違います。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 237,
+      "title": "7番アイアンは何ヤード？",
+      "procedure": "まず自分の7番アイアンの平均キャリーを測ります。そこから前後の番手も測って、自分専用の距離表を作るとクラブ選びが簡単になります。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 238,
+      "title": "アイアン（6I〜9I）の飛距離目安",
+      "procedure": "まず7Iを基準に6I・8I・9Iのキャリーを測り、自分の番手ごとの距離をメモしておきます。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 239,
+      "title": "ウェッジ（PW・AW・SW）の飛距離目安",
+      "procedure": "各ウェッジでフルショット、3/4、ハーフのキャリーを測っておくと、短い距離のクラブ選びがかなり楽になります。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 240,
+      "title": "残り距離からクラブを選ぶ方法",
+      "procedure": "①残り距離を見る→②必要なキャリーを考える→③自分の距離表からクラブを選ぶ→④風・高低差・ラフなどで1番手前後調整、の順で考えます。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "距離は個人差と計測値が中心。数値・本文が適切で固定の場面画像を追加しない。"
+    },
+    {
+      "mode": "standard",
+      "id": 241,
+      "title": "キャリーとランの違い",
+      "procedure": "アイアンやウェッジは特に『何ヤード飛んだか』より『何ヤード先に落ちるか＝キャリー』を覚えると、コースでクラブを選びやすくなります。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "carry-run",
+      "reason": "本文に加え「キャリーとランの区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 245,
+      "title": "救済できるか確認するため球を拾い上げたい",
+      "procedure": "先に位置をマークし、グリーン以外では球を拭かずに確認します。救済できない、または救済を受けない場合は元の場所にリプレースします。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "lift-relief-check",
+      "reason": "本文に加え「救済対象か確認するためマークして拾う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "standard",
+      "id": 246,
+      "title": "救済確認で拾った球を拭いたが救済できなかった",
+      "procedure": "救済が認められない、または認められても受けない場合、拭くことが許されていなければ1罰打で元の場所に戻します。救済が認められて実際に受ける場合は、この拭いた行為による罰はありません。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "cleaning-restricted",
+      "reason": "本文に加え「清掃が制限される球をタオルで拭く」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 1,
+      "title": "自分の罰は自分で適用する",
+      "procedure": "事実関係を確認→該当規則を確認→必要な罰をスコアに反映。判断できなければ委員会へ。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 2,
+      "title": "スコアカードの提出",
+      "procedure": "ホール別スコアを確認→必要な証明を受ける→提出。提出後にプレーヤーが自由に変更できるものではない。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 3,
+      "title": "クラブは14本まで",
+      "procedure": "スタート前に本数確認。違反に気付いたら超過クラブを直ちにプレーから除外する手続きを行う。",
+      "currentScene": "equipment",
+      "decision": "new-asset",
+      "group": "excess-clubs",
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 4,
+      "title": "距離計・機器を競技で使える？",
+      "procedure": "競技のローカルルールを確認→許される機能だけを使用。高低差など禁止機能は使用しない。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 5,
+      "title": "スタート時刻に遅れた",
+      "procedure": "遅刻・早着の時間と事情を確認し、プレー前に委員会へ申告。",
+      "currentScene": "clubhouse",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 8,
+      "title": "自分の球を偶然動かした",
+      "procedure": "まず規則上の例外か確認。例外でなければ球を元の箇所へリプレース。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "moved-general-area",
+      "reason": "本文に加え「捜索中でない球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 9,
+      "title": "同伴者にクラブを聞いた",
+      "procedure": "距離や公開情報と、プレー方法・クラブ選択の助言を区別する。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 10,
+      "title": "打った球が人や物に偶然当たった",
+      "procedure": "故意性と例外を確認。通常は球が止まった場所からプレー。",
+      "currentScene": "stroke",
+      "decision": "reuse-review",
+      "group": "person-hit",
+      "reason": "人への偶然の衝突の代表例。物への衝突一般をすべて説明する図とは扱わない。"
+    },
+    {
+      "mode": "competition",
+      "id": 16,
+      "title": "暫定球を打つ",
+      "procedure": "暫定球であることを明確にしてからプレー。元球の状況により暫定球を放棄するかインプレーにする。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 18,
+      "title": "ストロークプレーで処置が分からない",
+      "procedure": "決める前に要件を確認→どちらの球を採用したいか示す→2球でホールアウト→スコア提出前に委員会へ報告。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 19,
+      "title": "委員会の裁定",
+      "procedure": "事実関係を整理し、適用した処置とスコアを委員会へ説明する。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 20,
+      "title": "ステーブルフォード等の競技形式",
+      "procedure": "競技要項でプレー形式を確認し、その形式の特則を適用。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 21,
+      "title": "障がいのあるプレーヤーへの修正規則",
+      "procedure": "該当するカテゴリーと競技条件を確認して規則25を適用。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 22,
+      "title": "規則1｜ゲーム、プレーヤーの行動、規則",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 23,
+      "title": "規則2｜コース",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 24,
+      "title": "規則3｜競技",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 25,
+      "title": "規則4｜プレーヤーの用具",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 26,
+      "title": "規則5｜ラウンドをプレーする",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 27,
+      "title": "規則6｜ホールをプレーする",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 28,
+      "title": "規則7｜球の捜索・確認",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "search",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 29,
+      "title": "規則8｜コースはあるがままにプレー",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 30,
+      "title": "規則9｜球はあるがままにプレー",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 31,
+      "title": "規則10｜ストロークの準備と実行・アドバイス",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 32,
+      "title": "規則11｜動いている球が偶然人・物に当たる",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 33,
+      "title": "規則12｜バンカー",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "bunker",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 34,
+      "title": "規則13｜パッティンググリーン",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 35,
+      "title": "規則14｜球の処置",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 36,
+      "title": "規則15｜ルースインペディメント・動かせる障害物",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 37,
+      "title": "規則16｜異常なコース状態・危険な動物・地面にくい込んだ球",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 38,
+      "title": "規則17｜ペナルティーエリア",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 41,
+      "title": "規則20｜ラウンド中の規則問題・レフェリー・委員会",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 42,
+      "title": "規則21｜その他の個人ストロークプレー・マッチプレー形式",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 43,
+      "title": "規則22｜フォアサム",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 44,
+      "title": "規則23｜フォアボール",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 45,
+      "title": "規則24｜チーム競技",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 46,
+      "title": "規則25｜障がいのあるプレーヤーのための修正",
+      "procedure": "この規則に属する具体的な状況を一覧から選び、該当する処置・罰・例外を確認する。競技の条件やローカルルールがある場合は併せて確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "規則章の入口・総論。具体的な状況ページの説明図へ委ね、新規場面画像は不要。"
+    },
+    {
+      "mode": "competition",
+      "id": 47,
+      "title": "相手がホールをコンシードした",
+      "procedure": "相手の言動が明確なコンシードか確認し、不明なら確認してから球を拾う。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 48,
+      "title": "マーカーのスコア証明がない",
+      "procedure": "提出前に各ホールのスコアと必要な証明を確認。不備は委員会へ。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 49,
+      "title": "実際より少ないスコアを提出した",
+      "procedure": "誤りに気付いた時点で直ちに委員会へ事実を報告する。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 50,
+      "title": "ストロークプレー前にコースで練習した",
+      "procedure": "競技条件とローカルルールを確認し、練習した内容・場所を委員会へ申告。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 51,
+      "title": "ホール間で練習パットした",
+      "procedure": "直前グリーン、次のティー、練習グリーン等かを確認し、当日のローカルルールも確認。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 53,
+      "title": "順番を間違えて打った",
+      "procedure": "プレー形式を確認。マッチプレーでは相手がストローク取消を選べる場合がある。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 55,
+      "title": "パットでラインをまたいで構えた",
+      "procedure": "偶然か、他人のラインを避けるためか等の例外を確認。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "straddle-putting-line",
+      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 56,
+      "title": "クラブを体に固定して打った",
+      "procedure": "グリップや前腕が体に意図的に固定されていないか確認。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "anchor-putter",
+      "reason": "本文に加え「クラブ・握り手を体に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 58,
+      "title": "キャディーが後方に立ったまま構えた",
+      "procedure": "スタンスを取り始めた時点のキャディー位置と、意図的な援助かを確認。",
+      "currentScene": "consult",
+      "decision": "new-asset",
+      "group": "caddie-behind",
+      "reason": "本文に加え「構え始めた選手の後方延長線上のキャディー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 66,
+      "title": "誤所からプレーした",
+      "procedure": "ストロークプレーでは重大な違反かを判断。重大な違反の可能性があれば訂正し委員会へ。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 72,
+      "title": "3分探しても球が見つからない",
+      "procedure": "3分以内に見つからなければ紛失球としてストロークと距離の救済を行う。",
+      "currentScene": "search",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 73,
+      "title": "暫定球が本球になった",
+      "procedure": "元球の位置関係と暫定球をプレーした地点を確認。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "provisional-nearer",
+      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 75,
+      "title": "処置が分からないので2球でプレーしたい",
+      "procedure": "さらにプレーする前に2球プレーを決め、採用希望球を示し、ホール終了後スコア提出前に委員会へ報告。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 76,
+      "title": "重大な非行があった",
+      "procedure": "何が起きたかを委員会へ報告し、行動規範のローカルルールも確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 77,
+      "title": "複数の規則違反が続けて起きた",
+      "procedure": "違反の順序と、その間にストロークや違反認識等があったか整理して委員会へ。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 81,
+      "title": "球に線を引いて使いたい",
+      "procedure": "自分の球を識別できる印を付け、競技で球リスト条件がある場合は確認。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 82,
+      "title": "スマホで天気や風向きを確認した",
+      "procedure": "一般公開情報か、プレーに不当に役立つ測定・分析かを確認。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 83,
+      "title": "プレーを不当に遅らせた",
+      "procedure": "遅れの理由と競技のペース方針を確認し、速やかにプレーを再開。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 84,
+      "title": "雷でプレーを中断したい",
+      "procedure": "危険ならプレーを止め、委員会へ報告。中断・再開の合図と場所を確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 86,
+      "title": "ホール途中で別の球に替えた",
+      "procedure": "救済など取り替え可能な場面か、同じ球をリプレースすべき場面か確認。",
+      "currentScene": "ball",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 90,
+      "title": "キャディーは何をしてよい？",
+      "procedure": "キャディーの行為が規則10.3で認められる範囲か確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 95,
+      "title": "拾い上げた球はいつインプレーに戻る？",
+      "procedure": "処置方法が正しかったか確認し、必要ならストローク前に訂正。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 97,
+      "title": "他の球やボールマーカーが邪魔",
+      "procedure": "障害になる球なら規則に従い拾い上げを要求。マークして必要な手順で戻す。",
+      "currentScene": "mark",
+      "decision": "reuse-review",
+      "group": "interfering-marker",
+      "reason": "他人のプレーを妨げるマーカーを一時移動して元に戻す説明図。球自体を拾い上げる場面とは分けて本文と確認する。"
+    },
+    {
+      "mode": "competition",
+      "id": 99,
+      "title": "ペナルティーエリアから打った球がまた同じ区域へ入った",
+      "procedure": "直前のストローク位置と最後に境界を横切った地点を確認して選択肢を整理。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "pa-reentry",
+      "reason": "ペナルティーエリアから打った球が同じ区域へ戻るを区別する位置・状態の図が必要。"
+    },
+    {
+      "mode": "competition",
+      "id": 100,
+      "title": "いつでも前の場所から打ち直したい",
+      "procedure": "直前のストロークをした場所を特定し、規則14.6に従って前の場所からプレー。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "replay-previous-spot",
+      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 102,
+      "title": "ステーブルフォードの罰はどう扱う？",
+      "procedure": "競技条件のポイント配分と規則21.1の修正を確認。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 103,
+      "title": "最大スコア方式で上限に達した",
+      "procedure": "競技条件の最大スコアを確認し、上限到達後のホール終了方法を確認。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 104,
+      "title": "パー／ボギー競技の勝敗計算",
+      "procedure": "競技条件の目標スコアとハンディキャップ適用を確認。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 105,
+      "title": "フォアサムで順番を間違えた",
+      "procedure": "どちらが打つべきだったか確認し、プレー形式に応じて訂正。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 106,
+      "title": "フォアボールで片方がホールアウトしなかった",
+      "procedure": "採用できるパートナーの正しいスコアがあるか確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 107,
+      "title": "パートナーの行為で罰を受ける？",
+      "procedure": "誰の行為が誰のプレーに影響したか整理して規則23を確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 108,
+      "title": "チームのアドバイス係から助言を受けた",
+      "procedure": "競技条件でアドバイス係の指定と権限を確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 109,
+      "title": "視覚障がいのあるプレーヤーの援助",
+      "procedure": "該当する規則25のカテゴリーと競技条件を確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 110,
+      "title": "切断・義肢を使用するプレーヤー",
+      "procedure": "該当する修正規則と使用する補助具を確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 111,
+      "title": "移動補助器具を使うプレーヤー",
+      "procedure": "使用器具と該当カテゴリーを確認し規則25を適用。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 112,
+      "title": "ジェネラルエリアとは？",
+      "procedure": "球がどのコースエリアにあるかを最初に特定すると、適用する救済規則を絞り込める。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "course-areas",
+      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 113,
+      "title": "完全救済のニアレストポイントとは？",
+      "procedure": "仮のクラブ・スタンス・スイングを想定して完全救済になる最も近い地点を決める。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "nearest-complete-relief",
+      "reason": "本文に加え「仮のスタンスを含めた完全救済のニアレストポイント」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 114,
+      "title": "救済エリアとは？",
+      "procedure": "適用規則→基点→1または2クラブレングス→ホールに近づかない等の制限を順に確認。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "relief-area-boundary",
+      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 116,
+      "title": "分かっている、または事実上確実とは？",
+      "procedure": "入った可能性だけで処置せず、目撃情報や周囲の状況など合理的に入手できる情報を評価。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 117,
+      "title": "外的影響とは？",
+      "procedure": "誰・何が球を動かしたかを特定して規則9等を適用。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 118,
+      "title": "ルースインペディメントとは？",
+      "procedure": "球の場所と、取り除いたことで球が動く可能性を確認して扱う。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "loose-v-attached",
+      "reason": "落ちた枝葉と生えている枝葉の違いを区別する位置・状態の図が必要。"
+    },
+    {
+      "mode": "competition",
+      "id": 119,
+      "title": "障害物と境界物の違い",
+      "procedure": "杭・フェンス等が何を定義しているか当日のコース表示とローカルルールを確認。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "boundary-v-obstruction",
+      "reason": "本文に加え「境界物と動かせない障害物の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 120,
+      "title": "インターナルOB",
+      "procedure": "当日のローカルルールで対象ホール、境界、どのストロークに適用されるか確認。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "internal-ob-holes",
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 121,
+      "title": "公道がコースを横切る場合のOB",
+      "procedure": "道路を越えた球の扱いを当日のローカルルールで確認。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "road-crossing",
+      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 123,
+      "title": "球を動かしたことに気付かなかった場合",
+      "procedure": "採用有無と条件を委員会に確認し、自己判断で適用しない。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 126,
+      "title": "競技でカート使用が禁止されている",
+      "procedure": "競技条件と例外・許可手続きをスタート前に確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 128,
+      "title": "グリーンリーディング資料の制限",
+      "procedure": "競技のハードカード等でG-11採用有無を確認。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 129,
+      "title": "競技前に必ず確認するもの",
+      "procedure": "スタート前に競技要項・ハードカード・追加ローカルルールを確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 130,
+      "title": "競技中にレフェリーを呼びたい",
+      "procedure": "安全にプレーを止められる状況ならレフェリー・委員会へ確認。ストロークプレーで即時裁定が得られない場合は規則20.1c(3)も確認。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 131,
+      "title": "競技終了後にスコアや罰の問題が判明した",
+      "procedure": "判明した事実を速やかに委員会へ伝え、委員会の調査・裁定を受ける。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 132,
+      "title": "ローカルルールは公式規則より弱い？",
+      "procedure": "スコアカード、掲示、競技要項、デジタル配布等で当日のローカルルールを確認。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 133,
+      "title": "規則にない特殊な競技形式",
+      "procedure": "特殊形式では競技要項の修正規則を確認し、未規定の状況は委員会裁定を受ける。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 136,
+      "title": "違うホールのティーから打ってしまった（ストロークプレー）",
+      "procedure": "一般の罰2打を加え、正しいティーイングエリアから打ち直して誤りを訂正します。間違った場所からのストロークと、その球で訂正前に行ったストロークはカウントしません。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "wrong-tee-hole",
+      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 137,
+      "title": "違うホールのティーから打ってしまった（マッチプレー）",
+      "procedure": "罰はありませんが、相手はそのストロークを速やかに取り消せます。取り消されたら正しいティーイングエリアからプレーします。",
+      "currentScene": "consult",
+      "decision": "new-asset",
+      "group": "wrong-tee-hole",
+      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 140,
+      "title": "打つ順番を間違えた（ストロークプレー）",
+      "procedure": "通常は罰なしで、そのストロークはそのままカウントします。安全で責任あるレディーゴルフも認められます。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 141,
+      "title": "打つ順番を間違えた（マッチプレー）",
+      "procedure": "罰はありませんが、相手は順番を間違えて行ったストロークを速やかに取り消せます。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 142,
+      "title": "ラウンド中に球を別メーカーへ替えたい",
+      "procedure": "ホールとホールの間なら適合球へ交換できます。ホールの途中は、規則で球の取り替えが認められる場合を除き、原則同じ球でホールアウトします。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 143,
+      "title": "他人のクラブを借りて打ちたい",
+      "procedure": "他のプレーヤーがコース上でプレーするために使用しているクラブを借りてストロークすることはできません。クラブ共有が認められるパートナー形式などは条件を確認します。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 146,
+      "title": "キャディーが自分の球を偶然動かした",
+      "procedure": "プレーヤー側が球を動かした場合の規則を確認します。捜索中など例外に当たるかで罰の有無が変わります。原則として球は元の箇所にリプレースします。",
+      "currentScene": "consult",
+      "decision": "new-asset",
+      "group": "moved-general-area",
+      "reason": "本文に加え「捜索中でない球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 147,
+      "title": "風で止まっていた球が動いた（グリーン外）",
+      "procedure": "自然の力で球が動いた場合、原則として罰なしで新しい場所からプレーします。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "wind-outside-green",
+      "reason": "本文に加え「風でグリーン外の球が動く」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 150,
+      "title": "グリーン上で自分の球を偶然動かした",
+      "procedure": "パッティンググリーン上でプレーヤー、相手、キャディー等が偶然球やボールマーカーを動かした場合は罰なし。元の箇所にリプレースします。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "accidental-green-move",
+      "reason": "本文に加え「グリーン上での球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 152,
+      "title": "救済を受けたが間違った場所から打ったかもしれない",
+      "procedure": "誤所からプレーした場合は一般の罰。ストロークプレーで重大な違反の可能性がある場合は、次のホール開始前に訂正が必要になることがあります。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 153,
+      "title": "規則が分からず2球でプレーしたい",
+      "procedure": "ストロークプレーでは、処置に迷ったとき一定の手順で2球をプレーしてホールを終え、スコアカード提出前に委員会へ報告できます。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 155,
+      "title": "動いている自分の球を故意にもう一度打った",
+      "procedure": "規則10.1dの例外に該当しなければ、ストロークプレーではそのストロークを数えて2罰打。マッチプレーでは一般の罰（そのホールの負け）。動いている水中の球などの例外を確認します。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "moving-ball-stroke",
+      "reason": "本文に加え「動いている球への別ストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 156,
+      "title": "球を押し出すように打った",
+      "procedure": "球はクラブヘッドで正しく打つ必要があり、押す・掻き寄せる・すくい上げる方法は認められません。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "push-ball",
+      "reason": "本文に加え「球を押し出す不正な打ち方」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 157,
+      "title": "長尺パターを体に固定して打った",
+      "procedure": "クラブや握っている手を体に直接固定したり、前腕を使ってアンカーポイントを作る方法は認められません。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "anchor-putter",
+      "reason": "本文に加え「クラブ・握り手を体に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 158,
+      "title": "パットでラインをまたいで打った",
+      "procedure": "故意にプレーの線やその後方延長線を跨ぐ、または足で触れるスタンスからストロークすることは原則認められません。",
+      "currentScene": "green",
+      "decision": "new-asset",
+      "group": "straddle-putting-line",
+      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 159,
+      "title": "動いている球を打った",
+      "procedure": "原則、動いている球にストロークしてはいけません。水中で動いている球など規則上の例外があります。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "moving-ball-stroke",
+      "reason": "本文に加え「動いている球への別ストローク」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 160,
+      "title": "観客から勝手にアドバイスされた",
+      "procedure": "求めていないアドバイスを一度聞かされただけなら罰はありません。同じ人が継続する場合は止めさせようとする必要があります。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 161,
+      "title": "他の選手に何番で打ったか聞いた",
+      "procedure": "ラウンド中、競技相手にクラブ選択などのアドバイスを求めることは原則認められません。公開情報や距離などは別です。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 162,
+      "title": "セルフスタンドパターを立ててラインを合わせた",
+      "procedure": "適合する自立式パターでも、立てた状態をアラインメントやスタンスの援助として使うことは認められません。",
+      "currentScene": "consult",
+      "decision": "new-asset",
+      "group": "self-standing-putter",
+      "reason": "本文に加え「自立パターを使ったアラインメント援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 163,
+      "title": "キャディーが後方に立ったままアドレスした",
+      "procedure": "キャディーがプレーの線の後方延長線上やその近くに故意に立って、スタンスの援助をすることには制限があります。",
+      "currentScene": "consult",
+      "decision": "new-asset",
+      "group": "caddie-behind",
+      "reason": "本文に加え「構え始めた選手の後方延長線上のキャディー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 167,
+      "title": "雨具にクラブが偶然触れたまま打った",
+      "procedure": "ゆったりした雨具などにクラブや手が偶然触れるだけなら、アンカリング違反にはなりません。",
+      "currentScene": "equipment",
+      "decision": "new-asset",
+      "group": "raincoat-contact",
+      "reason": "本文に加え「雨具に偶然接触しているだけの状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 168,
+      "title": "服を手で押さえてクラブを固定して打った",
+      "procedure": "衣服を意図的に利用してクラブや手を固定したり、ストロークを助ける目的で通常と異なる使い方をすることは認められません。",
+      "currentScene": "equipment",
+      "decision": "new-asset",
+      "group": "clothes-anchor",
+      "reason": "本文に加え「衣服を握ってクラブを意図的に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 176,
+      "title": "拾い上げた球を必要以上にきれいに拭いた",
+      "procedure": "球をふくことが禁止・制限される理由で拾い上げた場合は、認められる範囲を超えて清掃しないようにします。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "cleaning-restricted",
+      "reason": "本文に加え「清掃が制限される球をタオルで拭く」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 179,
+      "title": "後方線上救済で線から横にずらしてドロップした",
+      "procedure": "後方線上救済で規則上要求される線上に正しくドロップし直します。打つ前なら訂正できます。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "off-back-line",
+      "reason": "本文に加え「後方線から外れた地点へのドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 182,
+      "title": "他人の球が自分のプレーの邪魔なので勝手に拾った",
+      "procedure": "妨げとなる他の球は、その球の所有者にマークして拾い上げてもらう手順が基本です。",
+      "currentScene": "ball",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 184,
+      "title": "危険な蛇の近くに球があるがペナルティーエリア内",
+      "procedure": "危険な動物の状態については球のあるコースエリアに応じた救済手順を使います。ペナルティーエリア内では救済場所にも制限があります。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "snake-in-pa",
+      "reason": "本文に加え「ペナルティーエリア内の危険な蛇」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 186,
+      "title": "ペナルティーエリア内の球を拾ってしまった",
+      "procedure": "そのままプレーするつもりなら勝手に拾い上げられません。救済を受ける場合は1罰打でRule 17の選択肢に従います。",
+      "currentScene": "course",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 188,
+      "title": "暫定球を宣言せずに別の球を打った",
+      "procedure": "ストローク前に誰かへ暫定球としてプレーする意思を明確に伝えず、元の場所から別球をプレーした場合、その球はストロークと距離の罰の下でインプレーの球になります。",
+      "currentScene": "ball",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 189,
+      "title": "暫定球を本球よりホールに近い場所から打った",
+      "procedure": "本球があると推定される地点よりホールに近い場所から暫定球をプレーすると、条件により暫定球がインプレーの球になります。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "provisional-nearer",
+      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 190,
+      "title": "3分以内に球を見つけたが時間切れ後に本人確認した",
+      "procedure": "3分以内に球らしきものを見つけた場合、本人が確認するための合理的な時間が追加で認められる場合があります。",
+      "currentScene": "ball",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 194,
+      "title": "マッチプレーで相手が間違った罰打数を伝えた",
+      "procedure": "相手がホールやマッチの結果に影響する誤った情報を期限内に訂正しなかった場合、罰が生じることがあります。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 195,
+      "title": "マッチプレーで相手の短いパットをOKした後に取り消したい",
+      "procedure": "正しく行ったコンシードは最終で、拒否も取り消しもできません。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 196,
+      "title": "相手がOKしていないのに短いパットを拾った",
+      "procedure": "コンシードされていない球を自分で拾った場合は、球をリプレースし、該当する罰を適用します。",
+      "currentScene": "green",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 197,
+      "title": "フォアボールで自分の球を拾った後、パートナーの球がトラブルになった",
+      "procedure": "パートナーのプレーを助けるために自分の球を残せる場面もありますが、一度拾った球を後から都合よく復活させられるとは限りません。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 198,
+      "title": "フォアボールでパートナーの球を自分が打った",
+      "procedure": "パートナー同士でもそれぞれ別の球をプレーします。誤球をプレーした側に誤球の罰を適用し、正しい球で訂正します。",
+      "currentScene": "consult",
+      "decision": "reuse-review",
+      "group": "wrong-partner-ball",
+      "reason": "別のプレーヤーの球を打つ同じ場面。所有者と競技形式による罰は本文に委ねる。"
+    },
+    {
+      "mode": "competition",
+      "id": 199,
+      "title": "フォアボールでパートナーが自分の球をマークして拾った",
+      "procedure": "パートナーはプレーヤーの球について、規則上プレーヤー本人ができる一定の行為を行えます。",
+      "currentScene": "mark",
+      "decision": "reuse-review",
+      "group": "marked-green-lift",
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+    },
+    {
+      "mode": "competition",
+      "id": 200,
+      "title": "フォーサムで打つ順番を間違えた",
+      "procedure": "パートナーは交互にストロークしなければなりません。順番を間違えた場合の処置はマッチプレーとストロークプレーで異なります。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 201,
+      "title": "フォーサムでティーショット担当をホール途中で変えた",
+      "procedure": "ホール中は交互にストロークする順番を守ります。ティーイングエリアでの担当順もラウンドを通じた規則に従います。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 202,
+      "title": "スリーボールマッチで1球が別の相手にも影響した",
+      "procedure": "各プレーヤーは同時に2つの別々のマッチを行っています。同じ出来事でも、それぞれのマッチで規則適用や結果が異なる場合があります。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 203,
+      "title": "最大スコア方式で上限に達したので球を拾った",
+      "procedure": "委員会が定めた最大スコアに達することが確定した場合、ホールアウトせず球を拾える運用があります。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 204,
+      "title": "ステーブルフォードでホールアウトしなかった",
+      "procedure": "そのホールで得点できないことが確定した場合、ホールアウトしなくても通常のストロークプレーのような失格にはなりません。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 205,
+      "title": "障がいのあるプレーヤーがキャディーとエイドの両方を使いたい",
+      "procedure": "Rule 25は特定の障がいカテゴリーについて通常規則を修正します。キャディー、エイド、補助者等の利用可否は該当カテゴリーとRule 25の条件で確認します。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 206,
+      "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた",
+      "procedure": "視覚障がいのあるプレーヤーには、通常のRule 10.2bとは異なる一定の援助が認められます。",
+      "currentScene": "consult",
+      "decision": "new-asset",
+      "group": "blind-alignment",
+      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 207,
+      "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル",
+      "procedure": "移動補助器具を使うプレーヤーには、アンプレヤブルやバンカー等についてRule 25による修正が適用される場合があります。",
+      "currentScene": "bunker",
+      "decision": "new-asset",
+      "group": "wheelchair-bunker-unplayable",
+      "reason": "本文に加え「移動補助器具使用者のバンカー内アンプレヤブル」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 209,
+      "title": "球がペナルティーエリアの線に少し触れている",
+      "procedure": "球の一部がペナルティーエリアの縁に触れている、またはその上方にある場合、球はペナルティーエリア内にあります。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "pa-touching-line",
+      "reason": "本文に加え「球の一部がペナルティーエリアの縁に触れる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 210,
+      "title": "球が救済エリアの線上に止まった",
+      "procedure": "球の一部が救済エリア内にあり、その他の救済条件も満たしていれば、球は救済エリア内に止まった扱いになります。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "relief-area-boundary",
+      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 212,
+      "title": "距離計で高低差を測った",
+      "procedure": "距離や方向の情報取得は認められますが、プレーに影響する高低差を測定して実質的なプレー距離を算出する機能の使用は原則認められません。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 213,
+      "title": "スマホの天気アプリで風向きを確認した",
+      "procedure": "一般に公開されている天気情報を見ること自体と、現場で風速・風向きを測定する機器を使用することは区別されます。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 214,
+      "title": "コンパスを使って風向きや方向を確認した",
+      "procedure": "方向に関する情報取得が認められる範囲と、プレー条件を測定・分析する禁止機能を区別します。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 218,
+      "title": "一番長いクラブが折れているときのクラブレングス",
+      "procedure": "クラブレングスはラウンド開始時に持っている14本以下のクラブのうちパター以外で最も長いクラブを基準にします。損傷した場合の測定は定義Clarificationに従います。",
+      "currentScene": "equipment",
+      "decision": "reuse-review",
+      "group": "club-length-broken",
+      "reason": "ラウンド開始時の測定基準を説明。折れた長さ自体を基準にする絵にしない。"
+    },
+    {
+      "mode": "competition",
+      "id": 219,
+      "title": "公開情報を言っただけなのにアドバイスになる？",
+      "procedure": "距離など公開情報そのものはアドバイスではありませんが、クラブ選択やストローク方法に影響させる意図で情報を組み合わせたり勧めたりするとアドバイスになる場合があります。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 220,
+      "title": "素振りのつもりが球に当たった",
+      "procedure": "球を打つ意思がなかった素振りなら通常『ストローク』ではありません。ただし球を動かしたことについてRule 9.4等の処置・罰を確認します。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "practice-hit-ball",
+      "reason": "本文に加え「素振りで誤って球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 221,
+      "title": "ダウンスイング中に打つのをやめたが球に当たった",
+      "procedure": "ダウンスイング中に意図的にチェックしてストロークを中止しようとした場合、球に当たってもストロークにならないことがあります。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "stopped-downswing",
+      "reason": "本文に加え「ダウンスイングを中止しようとして球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 223,
+      "title": "マッチで後から相手の違反に気づいた",
+      "procedure": "裁定要求が認められるかは、違反規則を知った時ではなく、関連する事実をいつ知ったかと、いつ裁定を求めたかで判断されます。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 224,
+      "title": "レフェリーが来ないので待ち続けている",
+      "procedure": "規則の助けを待つためプレーを不当に遅らせてはいけません。合理的な時間でレフェリー等が来なければ、プレーを続けて後で裁定を得る手順を使います。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 225,
+      "title": "2球プレーしたが委員会に報告せずスコア提出した",
+      "procedure": "ストロークプレーで2球をプレーした場合、どちらのスコアが同じでも、スコアカード提出前に事実を委員会へ報告しなければなりません。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 226,
+      "title": "ステーブルフォードで罰によりそのホール0点になった",
+      "procedure": "ステーブルフォードでは罰の種類によって、そのホールのポイントが0になるものや、ラウンド合計ポイントから差し引くものがあります。",
+      "currentScene": "score",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 227,
+      "title": "パー・ボギー競技で一般の罰を受けた",
+      "procedure": "パー／ボギー競技ではホールごとの勝ち・負け・分けでスコアリングし、罰の適用も通常ストロークプレーから修正されるものがあります。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 228,
+      "title": "フォーサムでパートナーのために球をマークした",
+      "procedure": "フォーサムではパートナーはサイドとして行動し、規則上プレーヤー本人が球についてできる一定の行為をパートナーが行えます。",
+      "currentScene": "consult",
+      "decision": "reuse-review",
+      "group": "marked-green-lift",
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+    },
+    {
+      "mode": "competition",
+      "id": 229,
+      "title": "フォアボールで一人が失格になった",
+      "procedure": "一方のパートナーの違反がその本人だけに適用される場合、サイド全体が必ず失格になるわけではありません。違反の種類によってパートナーまたはサイドにも罰が及ぶ場合があります。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 230,
+      "title": "チームキャプテンからプレー中に助言を受けた",
+      "procedure": "委員会が各チームにアドバイスギバーを指定することを認めた場合、その人から規則の範囲内でアドバイスを受けられます。",
+      "currentScene": "consult",
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 231,
+      "title": "内部OBがティーショットだけに適用される",
+      "procedure": "2026年のMLR A-4には、内部OBをティーイングエリアから行うストロークだけに適用する選択肢があります。2打目以降は同じ杭等が境界物ではなく障害物として扱われる設定も可能です。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "internal-ob-holes",
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 232,
+      "title": "テレビ映像で後から自分が球を動かしたと判明した",
+      "procedure": "委員会がMLR E-14を採用している場合、プレーヤーが球を動かした可能性を完全に認識していなかった特定状況について、後の映像証拠による誤所の扱いを修正します。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 233,
+      "title": "競技でカート禁止なのに善意の送迎に乗った",
+      "procedure": "カート禁止のMLR G-6が採用されていても、委員会が後から合理的に権限がある送迎だと誤認した乗車を承認できる場合があります。",
+      "currentScene": "stroke",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 235,
+      "title": "G-9採用競技でバッグに持っていた部品を使ってクラブを修理した",
+      "procedure": "2026年更新のG-9では、条件を満たす損傷クラブの修理に、バッグ内またはコース上で誰かが携行していた部品を使用できる扱いがあります。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 236,
+      "title": "他人の古いピッチマークに球が沈んだがテレビ中継競技ではない",
+      "procedure": "2026年追加の他人の未修復ピッチマークからの救済オプションは、ライブテレビ中継とレフェリーがいる競技向けの限定的MLRです。通常のクラブ競技で自動適用される規則ではありません。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "ball-in-pitchmark",
+      "reason": "本文に加え「他人の未修復ピッチマークに球が沈む」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 237,
+      "title": "競技中にスマホでゴルフ規則を調べた",
+      "procedure": "電子版のゴルフ規則などを参照すること自体は認められます。ただし端末の禁止機能をプレー援助に使用しないようにします。",
+      "currentScene": "equipment",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 241,
+      "title": "球を探すため長い草を大きく動かしたらライが改善した",
+      "procedure": "球を見つけるため合理的な捜索行為は認められます。合理的な範囲を超えてプレー条件を改善した場合は罰が生じます。",
+      "currentScene": "search",
+      "decision": "new-asset",
+      "group": "search-move-grass",
+      "reason": "本文に加え「球を探すため合理的に草を動かす」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 242,
+      "title": "自分の球だと思って拾ったら他人の球だった",
+      "procedure": "球の確認手順と、外的影響として他人の球を動かした扱いを分けて判断します。動かした他人の球は元の箇所にリプレースします。",
+      "currentScene": "ball",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 246,
+      "title": "プレースすべき球をドロップして打った",
+      "procedure": "打つ前なら球を拾い、正しい方法でリプレース。正しい箇所に止まった球を誤った方法のまま打つと1罰打。誤所から打った場合は規則14.7の一般の罰で、ストロークプレーの重大な違反なら訂正が必要です。",
+      "currentScene": "stroke",
+      "decision": "new-asset",
+      "group": "drop-instead-place",
+      "reason": "本文に加え「プレースすべき球を誤ってドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 253,
+      "title": "救済できるか確認するため球を拾い上げたい",
+      "procedure": "先に位置をマークし、グリーン以外では球を拭かずに確認します。救済できない、または救済を受けない場合は元の場所にリプレースします。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "lift-relief-check",
+      "reason": "本文に加え「救済対象か確認するためマークして拾う」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 254,
+      "title": "救済確認で拾った球を拭いたが救済できなかった",
+      "procedure": "救済が認められない、または認められても受けない場合、拭くことが許されていなければ1罰打で元の場所に戻します。救済が認められて実際に受ける場合は、この拭いた行為による罰はありません。",
+      "currentScene": "course",
+      "decision": "new-asset",
+      "group": "cleaning-restricted",
+      "reason": "本文に加え「清掃が制限される球をタオルで拭く」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 257,
+      "title": "修理地に入った球が見つからない",
+      "procedure": "最後にその異常なコース状態の縁を横切った推定点を球の位置とみなし、完全救済のニアレストポイントを決めます。区域に応じて16.1b～dの処置。単にその方向へ飛んだだけでは不十分です。",
+      "currentScene": "search",
+      "decision": "new-asset",
+      "group": "unfound-gur",
+      "reason": "本文に加え「修理地内で見つからない球の基準点」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 258,
+      "title": "泥に埋まったはずの球が見つからない",
+      "procedure": "一時的な水・修理地など異常なコース状態の中に止まったことが分かっているか事実上確実なら16.1eを確認。それ以外で捜索3分以内に見つからなければ紛失球として規則18.2のストロークと距離の救済。くい込んだ球の救済16.3と混同しない。",
+      "currentScene": "search",
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 260,
+      "title": "スコアカードを提出済みとみなす時点",
+      "procedure": "大会のスコアリングエリアと返却完了の定義を確認。返却完了後はプレーヤーが自由に変更できない。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 261,
+      "title": "特定ホールだけ内部OBが設定されている",
+      "procedure": "競技のローカルルールと現地の境界表示を確認し、そのホールで境界物がOB境界として扱われる条件を確認する。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "internal-ob-holes",
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 263,
+      "title": "車輪付き移動機器を使うプレーヤーのバンカー付近の救済",
+      "procedure": "大会でMLR M-4が採用されていることを確認し、規定された条件と救済方法に従う。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "wheelchair-bunker-relief",
+      "reason": "本文に加え「車輪付き移動器具のバンカー付近の救済」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 266,
+      "title": "他のプレーヤーの球に影響する状態を変えた",
+      "procedure": "誰の球に影響する変更か、意図的だったかを確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 267,
+      "title": "次のストロークに影響する状態を意図的に変えた",
+      "procedure": "変更の対象、時点、意図を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 268,
+      "title": "チーム競技で個人戦とチーム戦が同時に行われる",
+      "procedure": "競技規定で個人結果とチーム結果の計算方法を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 269,
+      "title": "チーム競技の競技条件を確認する",
+      "procedure": "大会の競技条件・チーム編成・採用スコアを確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 270,
+      "title": "チームキャプテンの役割を確認する",
+      "procedure": "キャプテンに認められた役割と、アドバイスを与えられる者の指定を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 271,
+      "title": "コースはあるがまま、球はあるがままにプレーする",
+      "procedure": "別の規則で救済・拾い上げ・リプレース等が認められているか確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 272,
+      "title": "大会独自の行動規範に違反した",
+      "procedure": "その大会の行動規範と設定された罰を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 273,
+      "title": "球がコースのどのエリアにあるか判断する",
+      "procedure": "球が触れている場所と各エリアの境界を確認し、適用する規則を決める。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "course-areas",
+      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 274,
+      "title": "球が本当に動いたか・何が原因か分からない",
+      "procedure": "合理的に得られる情報を確認し、球が動いたかと原因を判断する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 275,
+      "title": "マッチプレーの相手が自分の球を動かした",
+      "procedure": "相手が動かしたことが分かっているか事実上確実か、例外に該当するか確認してリプレースする。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "moved-general-area",
+      "reason": "本文に加え「捜索中でない球の偶然の移動」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 276,
+      "title": "ボールマーカーが動いた",
+      "procedure": "元の位置に球をリプレースするか、元の位置をボールマーカーで再度マークする。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "marker-moved",
+      "reason": "本文に加え「動いてしまったボールマーカー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 279,
+      "title": "バンカー内の球から救済を受けたい",
+      "procedure": "救済理由を特定し、Rule 16またはRule 19など該当規則のバンカー特則を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 280,
+      "title": "スコアカードにハンディキャップを自分で記入する必要がある？",
+      "procedure": "ホールスコアを確認し、マーカーの証明と提出方法を大会のスコアリング手順に従って完了する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 281,
+      "title": "実際より多いスコアを提出した",
+      "procedure": "提出前に各ホールのスコアを確認する。提出後に高いスコアと判明した場合は委員会へ伝える。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 282,
+      "title": "ストロークプレーで別の組と一緒に回った",
+      "procedure": "組を離れたり別組に合流する必要が生じたら自己判断せず委員会へ確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 283,
+      "title": "ホールのプレー中に練習ストロークをした",
+      "procedure": "ホール終了前は練習のため別の球を打たない。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 284,
+      "title": "40秒以内を目安にプレーする",
+      "procedure": "自分の番になる前に準備し、安全を確認して速やかにプレーする。大会のペースポリシーも確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 285,
+      "title": "球を取り替えてよい場面か分からない",
+      "procedure": "適用する救済規則が球の取り替えを認めているか確認してから別球を使用する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 286,
+      "title": "球を探すため砂や草を動かした",
+      "procedure": "球を見つけるために合理的に必要な範囲にとどめる。必要以上にライを改善しない。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "search-move-grass",
+      "reason": "本文に加え「球を探すため合理的に草を動かす」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 288,
+      "title": "自分のキャディー以外から助言を受けた",
+      "procedure": "助言を求めず、継続的に助言される場合は止めるための行動を取る。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 290,
+      "title": "グリーン上の球をマークして拾い上げる",
+      "procedure": "球の直後またはすぐ近くにボールマーカーを置くかクラブを地面に置いて位置をマークしてから拾う。",
+      "currentScene": null,
+      "decision": "reuse-review",
+      "group": "marked-green-lift",
+      "reason": "正しくマークしてから拾う場面。既存mark画像の位置関係を目視確認後に採用する。"
+    },
+    {
+      "mode": "competition",
+      "id": 291,
+      "title": "旗竿を動かす・取り除く・付き添う",
+      "procedure": "ストローク前に旗竿の扱いを決め、球の動きに不当に影響させない。",
+      "currentScene": null,
+      "decision": "reuse-review",
+      "group": "flag-handling",
+      "reason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。"
+    },
+    {
+      "mode": "competition",
+      "id": 292,
+      "title": "前の場所から打ち直すときの場所",
+      "procedure": "直前のストロークがティーイングエリア、グリーン、その他の場所のどこだったか確認しRule 14.6の方法でプレーする。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "replay-previous-spot",
+      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 293,
+      "title": "動かせる障害物の中や下に球が入った",
+      "procedure": "球の推定位置を基点に、該当するコースエリアの救済方法に従ってドロップまたはプレースする。",
+      "currentScene": null,
+      "decision": "reuse-review",
+      "group": "movable-object-ball",
+      "reason": "球が物の上にある代表例。中・下の全形状を描いたとは扱わず本文と整合させる。"
+    },
+    {
+      "mode": "competition",
+      "id": 296,
+      "title": "ペナルティーエリア内の球をそのまま打つ",
+      "procedure": "そのままプレーするか、1罰打の救済を選ぶ。プレー禁止区域の場合は別途救済が必要。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "play-inside-pa",
+      "reason": "本文に加え「ペナルティーエリア内の球をそのまま打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 297,
+      "title": "暫定球をプレーできる条件",
+      "procedure": "ストローク前に暫定球であることを告げ、前の場所からプレーする。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 298,
+      "title": "アンプレヤブルを宣言できるのは誰？",
+      "procedure": "球がペナルティーエリア外であることを確認し、Rule 19.2またはバンカー内なら19.3の救済を選ぶ。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 299,
+      "title": "規則にない状況が起きた",
+      "procedure": "自己判断で新しい処置を作らず、レフェリーまたは委員会へ事実関係を伝えて裁定を求める。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 300,
+      "title": "3人で同時に別々のマッチをするスリーボール",
+      "procedure": "コンシードや罰などがどのマッチに影響するかを、それぞれの対戦ごとに判定する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 301,
+      "title": "複数のストロークプレー形式へ同時参加している",
+      "procedure": "各競技形式のスコアリング条件と競技の条件を個別に確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 302,
+      "title": "フォアサムでパートナーが球をマーク・ドロップしてよい？",
+      "procedure": "処置自体が規則上認められていることを確認し、サイドとして正しい場所・方法で処置する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 303,
+      "title": "フォアサムのスタート順を間違えた",
+      "procedure": "競技の条件で決めた開始順と、ホールごとの交互のティー順を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 304,
+      "title": "フォアサムでパートナー同士がクラブを共有したい",
+      "procedure": "ラウンド開始時と追加・共有時にサイド全体のクラブ本数とRule 4.1bの条件を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 305,
+      "title": "パートナーの後方に立ったまま打たせた",
+      "procedure": "パートナーがスタンスを取り始める前に、制限される後方位置から離れる。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "partner-behind",
+      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 306,
+      "title": "フォアボールのスコアをどちらが出したか書いていない",
+      "procedure": "採用候補の各ホールスコアを、実際にそのスコアを出したパートナー名と対応させて提出する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "数値・集計・提出手続の説明が中心。本文で条件を示し、装飾目的の新規画像は作らない。"
+    },
+    {
+      "mode": "competition",
+      "id": 307,
+      "title": "フォアボールでパートナーの1人だけでプレーする",
+      "procedure": "その時点でプレーしているパートナーの球でサイドのスコアを成立させる。参加・復帰の時点はRule 23.4を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 308,
+      "title": "フォアボールでパートナー同士の打順を変えたい",
+      "procedure": "相手サイドとのプレー順は守りつつ、サイド内では状況に応じてパートナーの順番を選ぶ。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 309,
+      "title": "フォアボールでクラブを共有したい",
+      "procedure": "サイド全体のクラブ本数とRule 4.1bの条件を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 310,
+      "title": "パートナーの後方に立ったままストロークした",
+      "procedure": "ストローク時にパートナーが制限される後方位置にいないことを確認する。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "partner-behind",
+      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 311,
+      "title": "フォアボールで1人の違反がパートナーにも影響する？",
+      "procedure": "違反した規則と、その違反がパートナーのプレーを助けたか等を確認してRule 23.9で適用範囲を判断する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 312,
+      "title": "チーム競技でアドバイスを与える人が指定されている",
+      "procedure": "競技の条件でアドバイスを与えられる人物と、その人がプレー中の選手でもある場合の制限を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 313,
+      "title": "Rule 25が適用される競技・プレーヤーか確認する",
+      "procedure": "プレーヤーの障害区分と競技条件を確認し、Rule 25の該当項目を通常の規則と合わせて適用する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "判断の中心は本文記載の意思・時点・手続・採用条件。特定の一場面を足しても判定を説明し切れないため新規制作しない。既存の有効な画像は削除しない。"
+    },
+    {
+      "mode": "competition",
+      "id": 314,
+      "title": "視覚障害のあるプレーヤーが補助を受ける",
+      "procedure": "Rule 25.2で認められるエイマーの役割・位置と、通常Rule 10等との違いを確認する。",
+      "currentScene": null,
+      "decision": "new-asset",
+      "group": "blind-alignment",
+      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+    },
+    {
+      "mode": "competition",
+      "id": 315,
+      "title": "切断・四肢欠損のあるプレーヤーが補助器具を使う",
+      "procedure": "Rule 25.3の該当修正と使用する補助器具・方法を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 316,
+      "title": "移動補助器具を使用してプレーする",
+      "procedure": "Rule 25.4と、その競技で採用される関連する修正・ローカルルールを確認して処置する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 317,
+      "title": "知的障害のあるプレーヤーが補助者を使う",
+      "procedure": "Rule 25.5で認められる補助者の役割と人数、通常のキャディー・アドバイス規則との関係を確認する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    },
+    {
+      "mode": "competition",
+      "id": 318,
+      "title": "障害区分に共通するペース・救済上の配慮を確認する",
+      "procedure": "通常規則を先に確認し、Rule 25で明示的に変更されている部分だけ置き換えて適用する。",
+      "currentScene": null,
+      "decision": "text-sufficient",
+      "reason": "許可される相手・役割・適用条件の説明が中心。特定の姿勢図が必要な項目は別の制作対象へ分離済み。"
+    }
+  ],
+  "counts": {
+    "reviewedItems": 311,
+    "newAssets": 48,
+    "newAssetItems": 75,
+    "reuseReviewItems": 13,
+    "textSufficientItems": 223
+  },
+  "progress": {
+    "implementedNewAssets": 2,
+    "remainingNewAssets": 46,
+    "reusePendingItems": 13
+  }
+}
