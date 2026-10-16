@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024"><rect width="1536" height="1024" fill="white"/><g stroke="#315e57" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M768 200V820" stroke="#e0ece7" stroke-width="3"/>
+<path d="M160 720H660M880 720H1380" stroke="#a9c9bd" stroke-width="3"/>
+<path d="M230 450H600V475H230ZM230 560H600V585H230Z" fill="white"/>
+<path d="M240 410H270V720H240ZM550 410H580V720H550Z" fill="white"/>
+<rect x="335" y="350" width="160" height="85" rx="8" fill="white" stroke-width="3"/>
+<path d="M930 450H1300V475H930ZM930 560H1300V585H930Z" fill="#e2f0e9"/>
+<path d="M940 410H970V720H940ZM1250 410H1280V720H1250Z" fill="#e2f0e9"/>
+<g fill="#315e57" stroke="none" font-family="sans-serif" font-size="40" text-anchor="middle"><text x="415" y="405">OB</text><text x="415" y="810">A</text><text x="1115" y="810">B</text></g></g></svg>

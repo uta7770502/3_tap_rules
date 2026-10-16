@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261017-style-a-batch10';
+const version='20261017-style-a-batch11';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -146,6 +146,11 @@ scenes["loose-v-attached"]={"src":"assets/dedicated-guides/loose-v-attached-styl
 mappings.competition[118]="loose-v-attached";
 scenes["club-length-broken"]={"src":"assets/dedicated-guides/club-length-broken-style-a-20261017.svg","caption":"Aは折れる前、Bは折れた後の同じクラブを元の位置に並べた模式図。パター以外で最も長いクラブが折れても、測定基準Lは元の長さです。短い破片の長さには変わりません。認められた取り替えや、より長いクラブの追加をした場合の扱いは本文で確認します。","dedicated":true};
 mappings.competition[218]="club-length-broken";
+scenes["road-crossing"]={"src":"assets/dedicated-guides/road-crossing-style-a-20261017.svg","caption":"上から見た模式図。球がAから公道Cを越え、別のホール側のBに止まった例です。道路上や道路を越えた球をOBとするローカルルールA-5が、この道路・ホールに採用されている場合はBもOBになります。道路を越えたという事実だけで一律にOBとは判断せず、当日の指定を確認します。","dedicated":true};
+mappings.standard[209]="road-crossing";
+mappings.competition[121]="road-crossing";
+scenes["boundary-v-obstruction"]={"src":"assets/dedicated-guides/boundary-v-obstruction-style-a-20261017.svg","caption":"AはOBを定める境界フェンス、Bは境界物でも不可分な物でもない、コース内の固定されたフェンスの例。Aからは原則として無罰救済を受けられません。Bは動かせない障害物で、球の区域や障害の条件によって規則16.1の無罰救済が可能です。形や色だけでなく、委員会による指定を確認します。","dedicated":true};
+mappings.competition[119]="boundary-v-obstruction";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

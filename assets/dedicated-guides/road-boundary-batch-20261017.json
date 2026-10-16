@@ -1,0 +1,41 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "deterministic SVG; editable SVG originals",
+  "sources": [
+    "https://www.randa.org/local-rules-creator",
+    "https://www.randa.org/rog/definitions"
+  ],
+  "records": [
+    {
+      "key": "road-crossing",
+      "sha256": "3d0e74aef74aaf3ccb848f3b57f0a9b670cf037457970990a68fa9ea32a55c1d",
+      "targets": {
+        "standard": [
+          209
+        ],
+        "competition": [
+          121
+        ]
+      },
+      "caption": "上から見た模式図。球がAから公道Cを越え、別のホール側のBに止まった例です。道路上や道路を越えた球をOBとするローカルルールA-5が、この道路・ホールに採用されている場合はBもOBになります。道路を越えたという事実だけで一律にOBとは判断せず、当日の指定を確認します。",
+      "src": "assets/dedicated-guides/road-crossing-style-a-20261017.svg"
+    },
+    {
+      "key": "boundary-v-obstruction",
+      "sha256": "e14860a2801dd2be7afdd8714d47f122639440293fdfb363f26498fb62dd3512",
+      "targets": {
+        "standard": [],
+        "competition": [
+          119
+        ]
+      },
+      "caption": "AはOBを定める境界フェンス、Bは境界物でも不可分な物でもない、コース内の固定されたフェンスの例。Aからは原則として無罰救済を受けられません。Bは動かせない障害物で、球の区域や障害の条件によって規則16.1の無罰救済が可能です。形や色だけでなく、委員会による指定を確認します。",
+      "src": "assets/dedicated-guides/boundary-v-obstruction-style-a-20261017.svg"
+    }
+  ],
+  "remainingNewAssets": 13,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

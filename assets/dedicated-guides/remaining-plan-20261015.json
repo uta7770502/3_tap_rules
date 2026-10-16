@@ -205,9 +205,11 @@
           121
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/road-crossing-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "carry-run",
@@ -389,9 +391,11 @@
           119
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「境界物と動かせない障害物の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「境界物と動かせない障害物の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/boundary-v-obstruction-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "wrong-tee-hole",
@@ -1531,7 +1535,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "road-crossing",
-      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -2565,7 +2570,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "boundary-v-obstruction",
-      "reason": "本文に加え「境界物と動かせない障害物の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「境界物と動かせない障害物の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2585,7 +2591,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "road-crossing",
-      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「公道を横切って別のホールに止まる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3855,8 +3862,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 36,
-    "remainingNewAssets": 15,
+    "implementedNewAssets": 38,
+    "remainingNewAssets": 13,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3
