@@ -447,9 +447,11 @@
           167
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「雨具に偶然接触しているだけの状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「雨具に偶然接触しているだけの状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/raincoat-contact-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "clothes-anchor",
@@ -460,9 +462,11 @@
           168
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「衣服を握ってクラブを意図的に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「衣服を握ってクラブを意図的に固定」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/clothes-anchor-style-a-20261015.png",
+      "completedOn": "2026-10-15"
     },
     {
       "key": "off-back-line",
@@ -3798,8 +3802,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 19,
-    "remainingNewAssets": 32,
+    "implementedNewAssets": 21,
+    "remainingNewAssets": 30,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

@@ -59,3 +59,4 @@
 - Prompts, SHA256 and rule sources: assets/dedicated-guides/stroke-batch-20261015*.json.
 - Remaining planned assets: 32 (19 implemented). Representative scenes; captions defer conditions to the existing rule text.
 - Cache version: 20261015-style-a-batch3. Deployment READY can be checked separately; protected live UI has not been visually verified.
+- 2026-10-15 batch 4: raincoat-contact and clothes-anchor added for competition 167/168. Original stroke.webp style reference. R&A 10.1b/2 and /3 checked; incidental loose contact distinguished from gripping clothing. Manifest/prompts: clothing-batch-20261015*.json. Remaining planned assets: 30; implemented: 21. Cache version: 20261015-style-a-batch4.

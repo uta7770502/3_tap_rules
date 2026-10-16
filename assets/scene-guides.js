@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261015-style-a-batch3';
+const version='20261015-style-a-batch4';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -100,6 +100,12 @@ mappings.competition[146]="moved-general-area";
 mappings.competition[275]="moved-general-area";
 scenes["practice-hit-ball"]={"src": "assets/dedicated-guides/practice-hit-ball-style-a-20261015.png", "caption": "素振り中にクラブが球に当たり、球が動いた場面のイメージ。球を打つ意思や球の場所によって判断するため、本文の条件を確認します。", "dedicated": true};
 mappings.competition[220]="practice-hit-ball";
+
+// Clothing contact and deliberate clothing support are distinct scenes.
+scenes["raincoat-contact"]={"src":"assets/dedicated-guides/raincoat-contact-style-a-20261015.png","caption":"ゆったりした雨具が握り手の近くに触れる場面。衣服を握ったり、体へ押し付けて固定したりしていない例です。","dedicated":true};
+mappings.competition[167]="raincoat-contact";
+scenes["clothes-anchor"]={"src":"assets/dedicated-guides/clothes-anchor-style-a-20261015.png","caption":"クラブの握り手で衣服も握り込み、固定に利用している例。単に衣服へ触れる場面とは区別します。推奨する動作ではありません。","dedicated":true};
+mappings.competition[168]="clothes-anchor";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

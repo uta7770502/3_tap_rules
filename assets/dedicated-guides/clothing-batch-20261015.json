@@ -1,0 +1,37 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-10",
+    "https://www.randa.org/rog/clarifications/rule-10"
+  ],
+  "records": [
+    {
+      "key": "raincoat-contact",
+      "caption": "ゆったりした雨具が握り手の近くに触れる場面。衣服を握ったり、体へ押し付けて固定したりしていない例です。",
+      "rule": "10.1b / Clarification 10.1b/3",
+      "src": "assets/dedicated-guides/raincoat-contact-style-a-20261015.png",
+      "targets": {
+        "standard": [],
+        "competition": [
+          167
+        ]
+      },
+      "sha256": "a245339153530d3626faeb90b132d5d59db63933c84e31969a8bc3f329197c2e"
+    },
+    {
+      "key": "clothes-anchor",
+      "caption": "クラブの握り手で衣服も握り込み、固定に利用している例。単に衣服へ触れる場面とは区別します。推奨する動作ではありません。",
+      "rule": "10.1b / 4.3 / Clarification 10.1b/2",
+      "src": "assets/dedicated-guides/clothes-anchor-style-a-20261015.png",
+      "targets": {
+        "standard": [],
+        "competition": [
+          168
+        ]
+      },
+      "sha256": "248b9bf10a9b411f4035d3a9ae3273476dc2d1368c6a911a077fda375f2ef72a"
+    }
+  ],
+  "remainingNewAssets": 30
+}
