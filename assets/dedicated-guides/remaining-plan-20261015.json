@@ -515,9 +515,11 @@
           207
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「移動補助器具使用者のバンカー内アンプレヤブル」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「移動補助器具使用者のバンカー内アンプレヤブル」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/wheelchair-bunker-unplayable-style-a-20261016.png",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "pa-touching-line",
@@ -669,9 +671,11 @@
           310
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/partner-behind-style-a-20261016.png",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "blind-alignment",
@@ -683,9 +687,11 @@
           314
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/blind-alignment-style-a-20261016.png",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "pa-reentry",
@@ -3055,7 +3061,8 @@
       "currentScene": "consult",
       "decision": "new-asset",
       "group": "blind-alignment",
-      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3065,7 +3072,8 @@
       "currentScene": "bunker",
       "decision": "new-asset",
       "group": "wheelchair-bunker-unplayable",
-      "reason": "本文に加え「移動補助器具使用者のバンカー内アンプレヤブル」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「移動補助器具使用者のバンカー内アンプレヤブル」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3698,7 +3706,8 @@
       "currentScene": null,
       "decision": "new-asset",
       "group": "partner-behind",
-      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3744,7 +3753,8 @@
       "currentScene": null,
       "decision": "new-asset",
       "group": "partner-behind",
-      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ストローク時に後方延長線上にいるパートナー」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3781,7 +3791,8 @@
       "currentScene": null,
       "decision": "new-asset",
       "group": "blind-alignment",
-      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「視覚障害のあるプレーヤーへの方向合わせ援助」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3829,8 +3840,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 28,
-    "remainingNewAssets": 23,
+    "implementedNewAssets": 31,
+    "remainingNewAssets": 20,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

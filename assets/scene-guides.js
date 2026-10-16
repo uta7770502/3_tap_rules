@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261016-style-a-batch7';
+const version='20261016-style-a-batch8';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -127,6 +127,14 @@ mappings.competition[55]="straddle-putting-line";
 mappings.competition[158]="straddle-putting-line";
 scenes["wrong-partner-ball"]={"src": "assets/dedicated-guides/wrong-partner-ball-style-a-20261016.png", "caption": "フォアボールで、選手AがパートナーBの球を誤って打とうとしている例。左のAの球が本人の球です。パートナー同士でも、それぞれ自分の球をプレーします。", "dedicated": true};
 mappings.competition[198]="wrong-partner-ball";
+scenes["blind-alignment"]={"src": "assets/dedicated-guides/blind-alignment-style-a-20261016.png", "caption": "視覚障害のある選手が、ストローク前に援助者からクラブの方向合わせの援助を受けている例。ストローク中にクラブを支える場面ではありません。", "dedicated": true};
+mappings.competition[206]="blind-alignment";
+mappings.competition[314]="blind-alignment";
+scenes["wheelchair-bunker-unplayable"]={"src": "assets/dedicated-guides/wheelchair-bunker-unplayable-style-a-20261016.png", "caption": "車椅子を使用する選手の球がバンカー内にある場面。アンプレヤブルの救済を検討する場合は規則25.4を確認します。図は救済地点や罰打を示すものではありません。", "dedicated": true};
+mappings.competition[207]="wheelchair-bunker-unplayable";
+scenes["partner-behind"]={"src": "assets/dedicated-guides/partner-behind-style-a-20261016.png", "caption": "ストローク中の選手の球の後方延長線付近に、パートナーが立っている例。破線はプレーの線です。プレー形式・目的・援助の内容による制限は本文で確認してください。", "dedicated": true};
+mappings.competition[305]="partner-behind";
+mappings.competition[310]="partner-behind";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

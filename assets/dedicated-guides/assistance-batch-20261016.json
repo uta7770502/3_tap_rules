@@ -1,0 +1,57 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-25",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-22",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-23"
+  ],
+  "records": [
+    {
+      "key": "blind-alignment",
+      "src": "assets/dedicated-guides/blind-alignment-style-a-20261016.png",
+      "caption": "視覚障害のある選手が、ストローク前に援助者からクラブの方向合わせの援助を受けている例。ストローク中にクラブを支える場面ではありません。",
+      "rule": "25.2a / 25.2e",
+      "targets": {
+        "standard": [],
+        "competition": [
+          206,
+          314
+        ]
+      },
+      "sha256": "f68906a9bc8f19dbb32393894869471e37b6fb560e0f515219b9f875a023ce2f"
+    },
+    {
+      "key": "wheelchair-bunker-unplayable",
+      "src": "assets/dedicated-guides/wheelchair-bunker-unplayable-style-a-20261016.png",
+      "caption": "車椅子を使用する選手の球がバンカー内にある場面。アンプレヤブルの救済を検討する場合は規則25.4を確認します。図は救済地点や罰打を示すものではありません。",
+      "rule": "25.4n / 19.3b",
+      "targets": {
+        "standard": [],
+        "competition": [
+          207
+        ]
+      },
+      "sha256": "f6761bad6000c78722213fd65651db9aa88c42239a7874a2301ae381db2cfe79"
+    },
+    {
+      "key": "partner-behind",
+      "src": "assets/dedicated-guides/partner-behind-style-a-20261016.png",
+      "caption": "ストローク中の選手の球の後方延長線付近に、パートナーが立っている例。破線はプレーの線です。プレー形式・目的・援助の内容による制限は本文で確認してください。",
+      "rule": "22.6 / 23.8 / 10.2b(4)",
+      "targets": {
+        "standard": [],
+        "competition": [
+          305,
+          310
+        ]
+      },
+      "sha256": "327fa78b7d11002dd7479f430101c5bfa4da1030ebb521db9db90e56346958bc"
+    }
+  ],
+  "remainingNewAssets": 20,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

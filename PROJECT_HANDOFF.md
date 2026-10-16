@@ -87,3 +87,8 @@
 - straddle-putting-line / wrong-partner-ballを元のstroke.webp直接参照で制作。競技55/158/198の3項目へ組込み。競技198の誤った参照規則23.8を23.9a(2)へ訂正（6.3cは維持）。
 - 実装28/51、未実装23点＝新規21点＋原画像回収2点。原本・プロンプト・SHA256はstance-partner-batch-20261016*.json。
 - 直前3点のリモートコミット0175fa7765db481b7d23aa8a7f52ae751f20fe2f。全体監査・実画面目視確認は別途未完了。
+
+## 2026-10-16 援助・移動補助器具・パートナー3点
+- blind-alignment / wheelchair-bunker-unplayable / partner-behindを元のstroke.webp直接参照で制作、競技206/314/207/305/310の5項目へ組込み。R&A25.2/25.4n/22.6/23.8を参照。MLR M-4の263には共用せず別件として維持。
+- 実装31/51、未実装20点＝新規18点＋原画像回収2点。原本・プロンプト・SHA256はassistance-batch-20261016*.json。
+- 前回d660387のVercel成功を確認。関連5テスト成功。全体監査・実画面目視確認は未完了。
