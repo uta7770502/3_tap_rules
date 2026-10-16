@@ -1,0 +1,42 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-10",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-23"
+  ],
+  "records": [
+    {
+      "key": "straddle-putting-line",
+      "src": "assets/dedicated-guides/straddle-putting-line-style-a-20261016.png",
+      "caption": "意図するプレーの線の両側に足を置き、またいだスタンスでパットする例。破線はプレーの線です。偶然のスタンスなどの例外は本文で確認してください。",
+      "rule": "10.1c",
+      "targets": {
+        "standard": [],
+        "competition": [
+          55,
+          158
+        ]
+      },
+      "sha256": "e94581fbab4003015ff92a6790cb90b0b229efcce72d3ccc2f92ad15c2708eef"
+    },
+    {
+      "key": "wrong-partner-ball",
+      "src": "assets/dedicated-guides/wrong-partner-ball-style-a-20261016.png",
+      "caption": "フォアボールで、選手AがパートナーBの球を誤って打とうとしている例。左のAの球が本人の球です。パートナー同士でも、それぞれ自分の球をプレーします。",
+      "rule": "23.9a(2) / 6.3c",
+      "targets": {
+        "standard": [],
+        "competition": [
+          198
+        ]
+      },
+      "sha256": "a64fdc72cc89474ae0e9bfd2f21e4ef4449ba5bd721fcc844fe78f71e59e8043"
+    }
+  ],
+  "remainingNewAssets": 23,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

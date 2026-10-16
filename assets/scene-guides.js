@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261016-style-a-batch6';
+const version='20261016-style-a-batch7';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -122,6 +122,11 @@ mappings.competition[156]="push-ball";
 scenes["caddie-behind"]={"src": "assets/dedicated-guides/caddie-behind-style-a-20261016.png", "caption": "選手が構えているとき、キャディーが球の後方延長線付近に立ち、方向合わせを助ける例。破線はプレーの線を示します。立った理由・時点・やり直しの条件は本文を確認してください。", "dedicated": true};
 mappings.competition[58]="caddie-behind";
 mappings.competition[163]="caddie-behind";
+scenes["straddle-putting-line"]={"src": "assets/dedicated-guides/straddle-putting-line-style-a-20261016.png", "caption": "意図するプレーの線の両側に足を置き、またいだスタンスでパットする例。破線はプレーの線です。偶然のスタンスなどの例外は本文で確認してください。", "dedicated": true};
+mappings.competition[55]="straddle-putting-line";
+mappings.competition[158]="straddle-putting-line";
+scenes["wrong-partner-ball"]={"src": "assets/dedicated-guides/wrong-partner-ball-style-a-20261016.png", "caption": "フォアボールで、選手AがパートナーBの球を誤って打とうとしている例。左のAの球が本人の球です。パートナー同士でも、それぞれ自分の球をプレーします。", "dedicated": true};
+mappings.competition[198]="wrong-partner-ball";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

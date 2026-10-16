@@ -283,9 +283,11 @@
           158
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/straddle-putting-line-style-a-20261016.png",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "anchor-putter",
@@ -734,10 +736,12 @@
           198
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
       "reason": "既存画像は球の識別・マーク前の場面で、パートナーの球を打った場面ではない。",
-      "origin": "reuse-review"
+      "origin": "reuse-review",
+      "asset": "assets/dedicated-guides/wrong-partner-ball-style-a-20261016.png",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "movable-object-ball",
@@ -2213,7 +2217,8 @@
       "currentScene": "green",
       "decision": "new-asset",
       "group": "straddle-putting-line",
-      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2781,7 +2786,8 @@
       "currentScene": "green",
       "decision": "new-asset",
       "group": "straddle-putting-line",
-      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「パットの線をまたぐスタンス」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2974,7 +2980,7 @@
       "decision": "reuse-review",
       "group": "wrong-partner-ball",
       "reason": "別のプレーヤーの球を打つ同じ場面。所有者と競技形式による罰は本文に委ねる。",
-      "resolution": "rejected-new-asset"
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3823,8 +3829,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 26,
-    "remainingNewAssets": 25,
+    "implementedNewAssets": 28,
+    "remainingNewAssets": 23,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

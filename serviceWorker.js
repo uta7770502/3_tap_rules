@@ -2,7 +2,7 @@
    3タップルールズ Service Worker
    =============================== */
 
-const CACHE_NAME = "3tap-v23-style-a-batch6-20261016";
+const CACHE_NAME = "3tap-v24-style-a-batch7-20261016";
 
 /* キャッシュ対象ファイル */
 const urlsToCache = [
