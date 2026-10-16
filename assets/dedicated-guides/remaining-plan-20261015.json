@@ -44,9 +44,11 @@
           3
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/excess-clubs-style-a-20261016.png",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "moving-ball-stroke",
@@ -391,9 +393,11 @@
           137
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/wrong-tee-hole-style-a-20261016.png",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "accidental-green-move",
@@ -1099,7 +1103,8 @@
       "currentScene": "equipment",
       "decision": "new-asset",
       "group": "excess-clubs",
-      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -1249,7 +1254,8 @@
       "currentScene": "equipment",
       "decision": "new-asset",
       "group": "excess-clubs",
-      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -1835,7 +1841,8 @@
       "currentScene": "equipment",
       "decision": "new-asset",
       "group": "excess-clubs",
-      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「超過クラブを除外する状態」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2628,7 +2635,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "wrong-tee-hole",
-      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2638,7 +2646,8 @@
       "currentScene": "consult",
       "decision": "new-asset",
       "group": "wrong-tee-hole",
-      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「別のホールのティーからの打撃」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3802,8 +3811,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 21,
-    "remainingNewAssets": 30,
+    "implementedNewAssets": 23,
+    "remainingNewAssets": 28,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

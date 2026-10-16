@@ -1,0 +1,45 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-4",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+  ],
+  "records": [
+    {
+      "key": "excess-clubs",
+      "src": "assets/dedicated-guides/excess-clubs-style-a-20261016.png",
+      "caption": "使用から外すクラブをバッグへ逆さに入れ、明確に区別する例。本数は省略しています。除外の手続きと罰は本文を確認してください。",
+      "rule": "4.1c(1)",
+      "targets": {
+        "standard": [
+          75,
+          98
+        ],
+        "competition": [
+          3
+        ]
+      },
+      "sha256": "d48c21db482e23d624ba4cf498774db533d260339eab76ebef2e03cfe8cb2aa5"
+    },
+    {
+      "key": "wrong-tee-hole",
+      "src": "assets/dedicated-guides/wrong-tee-hole-style-a-20261016.png",
+      "caption": "6番ホールをプレーすべきところ、7番ホールのティーで構えている例。この場所から打った場合の処置は、ストロークプレーとマッチプレーで異なります。",
+      "rule": "6.1b",
+      "targets": {
+        "standard": [],
+        "competition": [
+          136,
+          137
+        ]
+      },
+      "sha256": "8730968f054a9bd2e5f90c8036114948b24d587f2ba61db410e40d22eb4aae27"
+    }
+  ],
+  "remainingNewAssets": 28,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

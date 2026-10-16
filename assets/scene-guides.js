@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261015-style-a-batch4';
+const version='20261016-style-a-batch5';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -106,6 +106,13 @@ scenes["raincoat-contact"]={"src":"assets/dedicated-guides/raincoat-contact-styl
 mappings.competition[167]="raincoat-contact";
 scenes["clothes-anchor"]={"src":"assets/dedicated-guides/clothes-anchor-style-a-20261015.png","caption":"クラブの握り手で衣服も握り込み、固定に利用している例。単に衣服へ触れる場面とは区別します。推奨する動作ではありません。","dedicated":true};
 mappings.competition[168]="clothes-anchor";
+scenes["excess-clubs"]={"src": "assets/dedicated-guides/excess-clubs-style-a-20261016.png", "caption": "使用から外すクラブをバッグへ逆さに入れ、明確に区別する例。本数は省略しています。除外の手続きと罰は本文を確認してください。", "dedicated": true};
+mappings.standard[75]="excess-clubs";
+mappings.standard[98]="excess-clubs";
+mappings.competition[3]="excess-clubs";
+scenes["wrong-tee-hole"]={"src": "assets/dedicated-guides/wrong-tee-hole-style-a-20261016.png", "caption": "6番ホールをプレーすべきところ、7番ホールのティーで構えている例。この場所から打った場合の処置は、ストロークプレーとマッチプレーで異なります。", "dedicated": true};
+mappings.competition[136]="wrong-tee-hole";
+mappings.competition[137]="wrong-tee-hole";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}
