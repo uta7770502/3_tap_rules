@@ -1,0 +1,58 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "deterministic SVG for precise diagrams",
+  "source": "assets/dedicated-guides/diagram-sources/boundaries-distance-20261016.py",
+  "sources": [
+    "https://www.randa.org/rog/definitions",
+    "https://www.randa.org/rog/definitions-clarifications",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-17",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+  ],
+  "records": [
+    {
+      "key": "pa-touching-line",
+      "src": "assets/dedicated-guides/pa-touching-line-style-a-20261016.svg",
+      "caption": "上から見た赤線の縁の拡大図。淡いミント側がペナルティーエリア（PA）です。赤線自体も区域内なので、一部が線にかかる球Aは区域内、全体が線の外にある球Bは区域外です。",
+      "rule": "定義：ペナルティーエリア / 17.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          209
+        ]
+      },
+      "sha256": "2c40c75c26d986f4d85b64f88a076a68f00181bb9ec07f63ac34820b6edcedad"
+    },
+    {
+      "key": "relief-area-boundary",
+      "src": "assets/dedicated-guides/relief-area-boundary-style-a-20261016.svg",
+      "caption": "救済エリアの距離を測る側の縁を上から見た拡大図。淡いミント側が区域内です。球Aは一部が距離の範囲内、球Bは全体が範囲外です。基準点がある救済では球のどの部分も基準点よりホールに近づいてはならず、完全な救済など他の条件も必要です。図は範囲全体の形を示していません。",
+      "rule": "定義：救済エリア / Relief Area/1 / 14.3c",
+      "targets": {
+        "standard": [],
+        "competition": [
+          114,
+          210
+        ]
+      },
+      "sha256": "ef161d57365ac29c522eb3527f013bb73dedb57f5909c0c270ca8fc855e6776f"
+    },
+    {
+      "key": "carry-run",
+      "src": "assets/dedicated-guides/carry-run-style-a-20261016.svg",
+      "caption": "Aは打った地点、Bは最初に着地した地点、Cは止まった地点。A〜Bがキャリー、B〜Cがラン、A〜Cが総飛距離です。各距離は地面方向で測り、空中の弧の長さではありません。",
+      "rule": "用語解説",
+      "targets": {
+        "standard": [
+          241
+        ],
+        "competition": []
+      },
+      "sha256": "4b06ee2a914cc3c863054920c99e0344e5524478c7a1940804a5e1ba2b4ee489"
+    }
+  ],
+  "remainingNewAssets": 17,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

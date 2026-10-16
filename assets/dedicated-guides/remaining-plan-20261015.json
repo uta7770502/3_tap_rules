@@ -218,9 +218,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「キャリーとランの区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「キャリーとランの区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/carry-run-style-a-20261016.svg",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "lift-relief-check",
@@ -358,9 +360,11 @@
           210
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/relief-area-boundary-style-a-20261016.svg",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "course-areas",
@@ -530,9 +534,11 @@
           209
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「球の一部がペナルティーエリアの縁に触れる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「球の一部がペナルティーエリアの縁に触れる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/pa-touching-line-style-a-20261016.svg",
+      "completedOn": "2026-10-16"
     },
     {
       "key": "practice-hit-ball",
@@ -1810,7 +1816,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "carry-run",
-      "reason": "本文に加え「キャリーとランの区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「キャリーとランの区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -2514,7 +2521,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "relief-area-boundary",
-      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3083,7 +3091,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "pa-touching-line",
-      "reason": "本文に加え「球の一部がペナルティーエリアの縁に触れる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「球の一部がペナルティーエリアの縁に触れる」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3093,7 +3102,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "relief-area-boundary",
-      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「救済エリアの範囲と縁にかかる球」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3840,8 +3850,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 31,
-    "remainingNewAssets": 20,
+    "implementedNewAssets": 34,
+    "remainingNewAssets": 17,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

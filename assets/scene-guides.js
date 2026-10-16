@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261016-style-a-batch8';
+const version='20261016-style-a-batch9';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -135,6 +135,13 @@ mappings.competition[207]="wheelchair-bunker-unplayable";
 scenes["partner-behind"]={"src": "assets/dedicated-guides/partner-behind-style-a-20261016.png", "caption": "ストローク中の選手の球の後方延長線付近に、パートナーが立っている例。破線はプレーの線です。プレー形式・目的・援助の内容による制限は本文で確認してください。", "dedicated": true};
 mappings.competition[305]="partner-behind";
 mappings.competition[310]="partner-behind";
+scenes["pa-touching-line"]={"src": "assets/dedicated-guides/pa-touching-line-style-a-20261016.svg", "caption": "上から見た赤線の縁の拡大図。淡いミント側がペナルティーエリア（PA）です。赤線自体も区域内なので、一部が線にかかる球Aは区域内、全体が線の外にある球Bは区域外です。", "dedicated": true};
+mappings.competition[209]="pa-touching-line";
+scenes["relief-area-boundary"]={"src": "assets/dedicated-guides/relief-area-boundary-style-a-20261016.svg", "caption": "救済エリアの距離を測る側の縁を上から見た拡大図。淡いミント側が区域内です。球Aは一部が距離の範囲内、球Bは全体が範囲外です。基準点がある救済では球のどの部分も基準点よりホールに近づいてはならず、完全な救済など他の条件も必要です。図は範囲全体の形を示していません。", "dedicated": true};
+mappings.competition[114]="relief-area-boundary";
+mappings.competition[210]="relief-area-boundary";
+scenes["carry-run"]={"src": "assets/dedicated-guides/carry-run-style-a-20261016.svg", "caption": "Aは打った地点、Bは最初に着地した地点、Cは止まった地点。A〜Bがキャリー、B〜Cがラン、A〜Cが総飛距離です。各距離は地面方向で測り、空中の弧の長さではありません。", "dedicated": true};
+mappings.standard[241]="carry-run";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

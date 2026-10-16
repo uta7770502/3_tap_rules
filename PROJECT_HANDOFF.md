@@ -92,3 +92,8 @@
 - blind-alignment / wheelchair-bunker-unplayable / partner-behindを元のstroke.webp直接参照で制作、競技206/314/207/305/310の5項目へ組込み。R&A25.2/25.4n/22.6/23.8を参照。MLR M-4の263には共用せず別件として維持。
 - 実装31/51、未実装20点＝新規18点＋原画像回収2点。原本・プロンプト・SHA256はassistance-batch-20261016*.json。
 - 前回d660387のVercel成功を確認。関連5テスト成功。全体監査・実画面目視確認は未完了。
+
+## 2026-10-16 境界・距離の精密図3点
+- pa-touching-line / relief-area-boundary / carry-runを計画のprecise-diagramとしてSVG作成。通常241・競技114/209/210の4項目。A案と同じ淡いミント・ティール線、赤線は識別色。距離・境界は決定的な座標で作図し、生成イラストと区別。
+- 救済エリアは距離側の縁の拡大図に限定。R&A Relief Area/1の基準点よりホールに近づかない制限も説明。原本・生成スクリプト・ハッシュはboundaries-distance-batch-20261016.json。
+- 実装34/51、未実装17点＝新規15点＋原画像回収2点。前回b05795fのVercel成功確認。全体監査・実画面目視確認は別途未完了。
