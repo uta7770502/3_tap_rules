@@ -1,0 +1,40 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "deterministic SVG; editable originals",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-17",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-18",
+    "https://www.randa.org/rog/definitions"
+  ],
+  "records": [
+    {
+      "key": "adjacent-boundaries",
+      "sha256": "bea632762b81a1b03220d55ab969a801d06dbda93ee6b0b02f5863f7ab675bff",
+      "targets": {
+        "standard": [
+          71
+        ],
+        "competition": []
+      },
+      "caption": "杭を上から見た模式図。白い丸は白杭、赤い丸は赤杭、破線はそれぞれの境界です。この例では左がOB、中央のミント色がペナルティーエリア（PA）、右がそれ以外のコース内。球Aは全体が境界外なのでOB、球Bはコース内のPA、球Cはどちらでもありません。白杭が赤杭より常に優先するという意味ではなく、実際の境界指定を別々に確認します。",
+      "src": "assets/dedicated-guides/adjacent-boundaries-style-a-20261017.svg"
+    },
+    {
+      "key": "pa-reentry",
+      "sha256": "e523458d21c42a4fcdf939bf481f1e602b2e511a4433a6f3ceaa9f8b570e1b81",
+      "targets": {
+        "standard": [],
+        "competition": [
+          99
+        ]
+      },
+      "caption": "上から見た球の移動の模式図。PA内のAから打ち、区域外のBで跳ね返るなどしてXから同じPAへ戻り、Cに止まった例です。Xが最後に境界を横切った地点で、後方線上・ラテラル救済を選ぶ場合の基準になります。破線は球の移動で、救済線ではありません。元の場所からの打ち直しなど、他の選択肢と罰打は規則17.2で確認します。",
+      "src": "assets/dedicated-guides/pa-reentry-style-a-20261017.svg"
+    }
+  ],
+  "remainingNewAssets": 11,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

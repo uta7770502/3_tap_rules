@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261017-style-a-batch11';
+const version='20261017-style-a-batch12';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -151,6 +151,10 @@ mappings.standard[209]="road-crossing";
 mappings.competition[121]="road-crossing";
 scenes["boundary-v-obstruction"]={"src":"assets/dedicated-guides/boundary-v-obstruction-style-a-20261017.svg","caption":"AはOBを定める境界フェンス、Bは境界物でも不可分な物でもない、コース内の固定されたフェンスの例。Aからは原則として無罰救済を受けられません。Bは動かせない障害物で、球の区域や障害の条件によって規則16.1の無罰救済が可能です。形や色だけでなく、委員会による指定を確認します。","dedicated":true};
 mappings.competition[119]="boundary-v-obstruction";
+scenes["adjacent-boundaries"]={"src":"assets/dedicated-guides/adjacent-boundaries-style-a-20261017.svg","caption":"杭を上から見た模式図。白い丸は白杭、赤い丸は赤杭、破線はそれぞれの境界です。この例では左がOB、中央のミント色がペナルティーエリア（PA）、右がそれ以外のコース内。球Aは全体が境界外なのでOB、球Bはコース内のPA、球Cはどちらでもありません。白杭が赤杭より常に優先するという意味ではなく、実際の境界指定を別々に確認します。","dedicated":true};
+mappings.standard[71]="adjacent-boundaries";
+scenes["pa-reentry"]={"src":"assets/dedicated-guides/pa-reentry-style-a-20261017.svg","caption":"上から見た球の移動の模式図。PA内のAから打ち、区域外のBで跳ね返るなどしてXから同じPAへ戻り、Cに止まった例です。Xが最後に境界を横切った地点で、後方線上・ラテラル救済を選ぶ場合の基準になります。破線は球の移動で、救済線ではありません。元の場所からの打ち直しなど、他の選択肢と罰打は規則17.2で確認します。","dedicated":true};
+mappings.competition[99]="pa-reentry";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

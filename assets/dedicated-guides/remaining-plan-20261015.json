@@ -28,9 +28,11 @@
         ],
         "competition": []
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「白杭と赤杭の隣接境界」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「白杭と赤杭の隣接境界」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/adjacent-boundaries-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "excess-clubs",
@@ -712,9 +714,11 @@
           99
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "ペナルティーエリアから打った球が同じ区域へ戻るを区別する位置・状態の図が必要。"
+      "reason": "ペナルティーエリアから打った球が同じ区域へ戻るを区別する位置・状態の図が必要。",
+      "asset": "assets/dedicated-guides/pa-reentry-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "loose-v-attached",
@@ -1105,7 +1109,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "adjacent-boundaries",
-      "reason": "本文に加え「白杭と赤杭の隣接境界」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「白杭と赤杭の隣接境界」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -2400,7 +2405,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "pa-reentry",
-      "reason": "ペナルティーエリアから打った球が同じ区域へ戻るを区別する位置・状態の図が必要。"
+      "reason": "ペナルティーエリアから打った球が同じ区域へ戻るを区別する位置・状態の図が必要。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3862,8 +3868,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 38,
-    "remainingNewAssets": 13,
+    "implementedNewAssets": 40,
+    "remainingNewAssets": 11,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3
