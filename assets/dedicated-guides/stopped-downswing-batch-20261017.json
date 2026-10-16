@@ -1,0 +1,27 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image generation",
+  "sources": [
+    "https://www.randa.org/rog/definitions"
+  ],
+  "records": [
+    {
+      "key": "stopped-downswing",
+      "src": "assets/dedicated-guides/stopped-downswing-style-a-20261017.png",
+      "caption": "ダウンスイングを止めようとしたものの、球への接触を避けられなかった場面のイメージ。止めようとした意思だけではストロークは取り消せません。球に届く前にクラブを止めるか、意図的に球を外して接触を回避した場合との違いを本文で確認します。",
+      "targets": {
+        "standard": [],
+        "competition": [
+          221
+        ]
+      },
+      "sha256": "9eae805cbe67caf51bc52c2964f4227c5c978ef7dfae25e1ba0d5607a6782792",
+      "prompt": "Use case: illustration-story. Asset: Japanese golf rules educational app, 1536x1024 landscape. Image 1 is ONLY the original approved style master; match its exact thin uniform dark teal outlines, extremely pale low saturation mint trousers, white polo shirt and cap, featureless face, white background, very few folds and tiny sparse grass marks. Create a new scene with that same golfer and no extra people. Full body, generous white margins. The golfer has begun a downswing but is visibly trying to check/abort it: knees braced, elbows slightly drawing inward, torso restrained, BOTH hands still holding ONE iron. The iron shaft runs continuously from the hands down to the clubhead beside a small white golf ball on short grass. The clubhead is at the ball, with a single tiny contact tick and tiny ball movement marks: the attempted stop did NOT avoid contact. Keep natural believable anatomy, no tangled arms, no detached club, no extra clubs, no dramatic follow-through, no overlong motion arrows. This is a representative moment, not a technical timing diagram. No text, numbers, judgement icons, checkmarks, crosses, labels, no cup, no hole, no flag, no shadows or gradients or textures. Line/detail density and color must be no darker or more detailed than the reference."
+    }
+  ],
+  "remainingNewAssets": 10,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

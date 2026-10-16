@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261017-style-a-batch12';
+const version='20261017-style-a-batch13';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -155,6 +155,8 @@ scenes["adjacent-boundaries"]={"src":"assets/dedicated-guides/adjacent-boundarie
 mappings.standard[71]="adjacent-boundaries";
 scenes["pa-reentry"]={"src":"assets/dedicated-guides/pa-reentry-style-a-20261017.svg","caption":"上から見た球の移動の模式図。PA内のAから打ち、区域外のBで跳ね返るなどしてXから同じPAへ戻り、Cに止まった例です。Xが最後に境界を横切った地点で、後方線上・ラテラル救済を選ぶ場合の基準になります。破線は球の移動で、救済線ではありません。元の場所からの打ち直しなど、他の選択肢と罰打は規則17.2で確認します。","dedicated":true};
 mappings.competition[99]="pa-reentry";
+scenes["stopped-downswing"]={"src":"assets/dedicated-guides/stopped-downswing-style-a-20261017.png","caption":"ダウンスイングを止めようとしたものの、球への接触を避けられなかった場面のイメージ。止めようとした意思だけではストロークは取り消せません。球に届く前にクラブを止めるか、意図的に球を外して接触を回避した場合との違いを本文で確認します。","dedicated":true};
+mappings.competition[221]="stopped-downswing";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

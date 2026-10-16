@@ -570,9 +570,11 @@
           221
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「ダウンスイングを中止しようとして球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ダウンスイングを中止しようとして球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/stopped-downswing-style-a-20261017.png",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "ball-in-pitchmark",
@@ -3188,7 +3190,8 @@
       "currentScene": "stroke",
       "decision": "new-asset",
       "group": "stopped-downswing",
-      "reason": "本文に加え「ダウンスイングを中止しようとして球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ダウンスイングを中止しようとして球に接触」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3868,8 +3871,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 40,
-    "remainingNewAssets": 11,
+    "implementedNewAssets": 41,
+    "remainingNewAssets": 10,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3
