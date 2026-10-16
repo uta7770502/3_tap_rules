@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261016-style-a-batch5';
+const version='20261016-style-a-batch6';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -113,6 +113,15 @@ mappings.competition[3]="excess-clubs";
 scenes["wrong-tee-hole"]={"src": "assets/dedicated-guides/wrong-tee-hole-style-a-20261016.png", "caption": "6番ホールをプレーすべきところ、7番ホールのティーで構えている例。この場所から打った場合の処置は、ストロークプレーとマッチプレーで異なります。", "dedicated": true};
 mappings.competition[136]="wrong-tee-hole";
 mappings.competition[137]="wrong-tee-hole";
+scenes["moving-ball-stroke"]={"src": "assets/dedicated-guides/moving-ball-stroke-style-a-20261016.png", "caption": "すでに転がっている自分の球へ、別のストロークをしようとしている例。1回のストローク中の偶然の複数接触とは区別します。例外と罰は本文を確認してください。", "dedicated": true};
+mappings.standard[80]="moving-ball-stroke";
+mappings.competition[155]="moving-ball-stroke";
+mappings.competition[159]="moving-ball-stroke";
+scenes["push-ball"]={"src": "assets/dedicated-guides/push-ball-style-a-20261016.png", "caption": "クラブヘッドを球に当てたまま押し出す動作のイメージ。瞬間的に球を打つ通常のストロークとは異なり、認められる打ち方ではありません。", "dedicated": true};
+mappings.competition[156]="push-ball";
+scenes["caddie-behind"]={"src": "assets/dedicated-guides/caddie-behind-style-a-20261016.png", "caption": "選手が構えているとき、キャディーが球の後方延長線付近に立ち、方向合わせを助ける例。破線はプレーの線を示します。立った理由・時点・やり直しの条件は本文を確認してください。", "dedicated": true};
+mappings.competition[58]="caddie-behind";
+mappings.competition[163]="caddie-behind";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

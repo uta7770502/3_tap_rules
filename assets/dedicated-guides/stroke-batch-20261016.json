@@ -1,0 +1,57 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image_gen",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+  ],
+  "records": [
+    {
+      "key": "moving-ball-stroke",
+      "src": "assets/dedicated-guides/moving-ball-stroke-style-a-20261016.png",
+      "caption": "すでに転がっている自分の球へ、別のストロークをしようとしている例。1回のストローク中の偶然の複数接触とは区別します。例外と罰は本文を確認してください。",
+      "rule": "10.1d",
+      "targets": {
+        "standard": [
+          80
+        ],
+        "competition": [
+          155,
+          159
+        ]
+      },
+      "sha256": "546c28e60e78a86367b53049cdea661b9e3bb045a7ee03821290d97b0f9028aa"
+    },
+    {
+      "key": "push-ball",
+      "src": "assets/dedicated-guides/push-ball-style-a-20261016.png",
+      "caption": "クラブヘッドを球に当てたまま押し出す動作のイメージ。瞬間的に球を打つ通常のストロークとは異なり、認められる打ち方ではありません。",
+      "rule": "10.1a",
+      "targets": {
+        "standard": [],
+        "competition": [
+          156
+        ]
+      },
+      "sha256": "8aa681221d9562584daa7a785afb65ef64f102b6417435016218a7e3c2358d9e"
+    },
+    {
+      "key": "caddie-behind",
+      "src": "assets/dedicated-guides/caddie-behind-style-a-20261016.png",
+      "caption": "選手が構えているとき、キャディーが球の後方延長線付近に立ち、方向合わせを助ける例。破線はプレーの線を示します。立った理由・時点・やり直しの条件は本文を確認してください。",
+      "rule": "10.2b(4)",
+      "targets": {
+        "standard": [],
+        "competition": [
+          58,
+          163
+        ]
+      },
+      "sha256": "e43e6bcde8d657c255f9a4d2cc5c83e794bdec6a55e01fb099817080176a4581"
+    }
+  ],
+  "remainingNewAssets": 25,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}
