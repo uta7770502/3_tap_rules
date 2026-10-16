@@ -60,3 +60,14 @@
 - Remaining planned assets: 32 (19 implemented). Representative scenes; captions defer conditions to the existing rule text.
 - Cache version: 20261015-style-a-batch3. Deployment READY can be checked separately; protected live UI has not been visually verified.
 - 2026-10-15 batch 4: raincoat-contact and clothes-anchor added for competition 167/168. Original stroke.webp style reference. R&A 10.1b/2 and /3 checked; incidental loose contact distinguished from gripping clothing. Manifest/prompts: clothing-batch-20261015*.json. Remaining planned assets: 30; implemented: 21. Cache version: 20261015-style-a-batch4.
+
+## 2026-10-16 Work引き継ぎ照合
+- 取得元コミット: 41a45bb27c6a3f0bc9f7121e64f263228d78804e。全362追跡ファイルを取得。原本アーカイブのPNG145点も保持。
+- ユーザー添付IMG_4787.png / IMG_4788.pngでは、snake-in-paとdrop-instead-placeの2点制作・組込み・関連9テスト完了、残り28点、Preview反映中と報告されている。
+- ただし上記GitHubコミットの計画は21点実装・30点残。最後の2点の原画像・参照差替え・プロンプト・メタデータはこのコミットでは未確認。紛失扱いで再生成せず、まず回収・照合対象とする。スクリーンショットの報告だけで実装済みへ変更しない。
+- 引継ぎ上は「新規制作28点＋最後の2点の回収／反映確認」を区別する。最後の2点のPreview反映完了は未確認。
+- drop-instead-placeは誤った動作の図と説明文で明示し、正しい処置と誤解させない。
+- 元の唯一のスタイル基準assets/scene-guides/stroke.webpを直接参照。淡いミント、細く均一なティール線、白地と余白、少ない描き込みを固定。生成画像を次の基準にしない。
+- グリーン上と分かる表現、人に対して大きすぎるカップの修正指示も継続。全画像のトーン監査・全605項目の規則／表示確認は別の未完了作業として保持。
+- 通常247、競技318、いろは40。不要な図は作らず、共用は裏取り前提。既存UIとAPIを不用意に変更しない。途中再確認を求めず、完成まで進行。
+- 区切りでPreview反映とバックアップを行う要望、過去に大型バックアップがダウンロードできなかった点も保持。
