@@ -721,9 +721,11 @@
           118
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "落ちた枝葉と生えている枝葉の違いを区別する位置・状態の図が必要。"
+      "reason": "落ちた枝葉と生えている枝葉の違いを区別する位置・状態の図が必要。",
+      "asset": "assets/dedicated-guides/loose-v-attached-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "club-length-broken",
@@ -734,10 +736,12 @@
           218
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
       "reason": "既存画像は損傷のないクラブのみで、折れた場合の基準を示せない。公式定義のClarification確認後に制作。",
-      "origin": "reuse-review"
+      "origin": "reuse-review",
+      "asset": "assets/dedicated-guides/club-length-broken-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "wrong-partner-ball",
@@ -2550,7 +2554,8 @@
       "currentScene": "stroke",
       "decision": "new-asset",
       "group": "loose-v-attached",
-      "reason": "落ちた枝葉と生えている枝葉の違いを区別する位置・状態の図が必要。"
+      "reason": "落ちた枝葉と生えている枝葉の違いを区別する位置・状態の図が必要。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3141,7 +3146,7 @@
       "decision": "reuse-review",
       "group": "club-length-broken",
       "reason": "ラウンド開始時の測定基準を説明。折れた長さ自体を基準にする絵にしない。",
-      "resolution": "rejected-new-asset"
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3850,8 +3855,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 34,
-    "remainingNewAssets": 17,
+    "implementedNewAssets": 36,
+    "remainingNewAssets": 15,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3

@@ -1,0 +1,39 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "deterministic SVG; SVG files are editable originals",
+  "sources": [
+    "https://www.randa.org/rog/definitions",
+    "https://www.randa.org/rog/definitions-clarifications"
+  ],
+  "records": [
+    {
+      "key": "loose-v-attached",
+      "sha256": "f38fd306dcd6f9fc54ef50f4cd4e57118c1516c887f088c64bc36b6f85f4fecf",
+      "src": "assets/dedicated-guides/loose-v-attached-style-a-20261017.svg",
+      "caption": "Aは地面から離れた枝葉、Bは生えている枝葉の模式図。Aのような付着していない自然物はルースインペディメントになり得ますが、生長・付着しているもの、地面に固く埋まったもの、球に付着したものなどは別です。取り除いて球を動かした場合の扱いは本文で確認します。",
+      "targets": {
+        "standard": [],
+        "competition": [
+          118
+        ]
+      }
+    },
+    {
+      "key": "club-length-broken",
+      "sha256": "c3063498573fc99ca97b7b94fba3403802fa7b455c25467318d453c5e7900868",
+      "src": "assets/dedicated-guides/club-length-broken-style-a-20261017.svg",
+      "caption": "Aは折れる前、Bは折れた後の同じクラブを元の位置に並べた模式図。パター以外で最も長いクラブが折れても、測定基準Lは元の長さです。短い破片の長さには変わりません。認められた取り替えや、より長いクラブの追加をした場合の扱いは本文で確認します。",
+      "targets": {
+        "standard": [],
+        "competition": [
+          218
+        ]
+      }
+    }
+  ],
+  "remainingNewAssets": 15,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261016-style-a-batch9';
+const version='20261017-style-a-batch10';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -142,6 +142,10 @@ mappings.competition[114]="relief-area-boundary";
 mappings.competition[210]="relief-area-boundary";
 scenes["carry-run"]={"src": "assets/dedicated-guides/carry-run-style-a-20261016.svg", "caption": "Aは打った地点、Bは最初に着地した地点、Cは止まった地点。A〜Bがキャリー、B〜Cがラン、A〜Cが総飛距離です。各距離は地面方向で測り、空中の弧の長さではありません。", "dedicated": true};
 mappings.standard[241]="carry-run";
+scenes["loose-v-attached"]={"src":"assets/dedicated-guides/loose-v-attached-style-a-20261017.svg","caption":"Aは地面から離れた枝葉、Bは生えている枝葉の模式図。Aのような付着していない自然物はルースインペディメントになり得ますが、生長・付着しているもの、地面に固く埋まったもの、球に付着したものなどは別です。取り除いて球を動かした場合の扱いは本文で確認します。","dedicated":true};
+mappings.competition[118]="loose-v-attached";
+scenes["club-length-broken"]={"src":"assets/dedicated-guides/club-length-broken-style-a-20261017.svg","caption":"Aは折れる前、Bは折れた後の同じクラブを元の位置に並べた模式図。パター以外で最も長いクラブが折れても、測定基準Lは元の長さです。短い破片の長さには変わりません。認められた取り替えや、より長いクラブの追加をした場合の扱いは本文で確認します。","dedicated":true};
+mappings.competition[218]="club-length-broken";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024"><rect width="1536" height="1024" fill="white"/><g stroke="#315e57" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse"><path d="M9 5L1 1L1 9Z" fill="#315e57" stroke="none"/></marker></defs>
+<path d="M270 290H1190M270 680H1190" stroke="#d7e9e1" stroke-width="3"/>
+<path d="M270 275H440V305H270ZM270 665H440V695H270Z" fill="#dcece4"/>
+<path d="M440 283H1140V297H440ZM440 673H710L700 680L712 687H440Z" fill="white"/>
+<path d="M738 673H1140V687H738L748 680Z" fill="white"/>
+<path d="M1140 285Q1220 260 1270 300L1260 340Q1195 355 1140 305ZM1140 675Q1220 650 1270 690L1260 730Q1195 745 1140 695Z" fill="#e2f0e9"/>
+<path d="M710 650L720 630M735 710L745 735" stroke="#8caf9f"/>
+<path d="M270 370V470M1270 370V470M270 760V860M1270 760V860" stroke="#a9c9bd" stroke-width="3"/>
+<path d="M280 430H1260M280 820H1260" stroke-width="3"/>
+<path d="M270 430L292 418V442ZM1270 430L1248 418V442ZM270 820L292 808V832ZM1270 820L1248 808V832Z" fill="#315e57" stroke="none"/>
+<g fill="#315e57" stroke="none" font-family="sans-serif" font-size="42" text-anchor="middle"><text x="170" y="310">A</text><text x="170" y="700">B</text><text x="770" y="410">L</text><text x="770" y="800">L</text></g></g></svg>
