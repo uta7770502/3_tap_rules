@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261017-style-a-batch13';
+const version='20261017-style-a-batch14';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -157,6 +157,8 @@ scenes["pa-reentry"]={"src":"assets/dedicated-guides/pa-reentry-style-a-20261017
 mappings.competition[99]="pa-reentry";
 scenes["stopped-downswing"]={"src":"assets/dedicated-guides/stopped-downswing-style-a-20261017.png","caption":"ダウンスイングを止めようとしたものの、球への接触を避けられなかった場面のイメージ。止めようとした意思だけではストロークは取り消せません。球に届く前にクラブを止めるか、意図的に球を外して接触を回避した場合との違いを本文で確認します。","dedicated":true};
 mappings.competition[221]="stopped-downswing";
+scenes["wheelchair-bunker-relief"]={"src":"assets/dedicated-guides/wheelchair-bunker-relief-style-a-20261017.png","caption":"球がバンカーの外の縁付近にあり、車輪付き移動器具を使う選手が構えられるか確認する場面。MLR M-4採用時には、縁や斜面などにより意図するプレーの線に対してスタンスを取れない、または不合理な努力が必要となる場合に限り、条件付きで無罰救済を受けられます。単にバンカーに近いだけでは救済になりません。図は救済の可否やドロップ地点を確定するものではありません。","dedicated":true};
+mappings.competition[263]="wheelchair-bunker-relief";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

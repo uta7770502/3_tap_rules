@@ -1,0 +1,28 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "built-in image generation",
+  "sources": [
+    "https://www.randa.org/rog/committee-procedures/8",
+    "https://www.usga.org/content/usga/home-page/rules-hub/clarifications-of-the-rules-of-golf.html"
+  ],
+  "records": [
+    {
+      "key": "wheelchair-bunker-relief",
+      "src": "assets/dedicated-guides/wheelchair-bunker-relief-style-a-20261017.png",
+      "caption": "球がバンカーの外の縁付近にあり、車輪付き移動器具を使う選手が構えられるか確認する場面。MLR M-4採用時には、縁や斜面などにより意図するプレーの線に対してスタンスを取れない、または不合理な努力が必要となる場合に限り、条件付きで無罰救済を受けられます。単にバンカーに近いだけでは救済になりません。図は救済の可否やドロップ地点を確定するものではありません。",
+      "targets": {
+        "standard": [],
+        "competition": [
+          263
+        ]
+      },
+      "sha256": "4fe083ed0705d021a89399151dd5531792ef83830c9147f2730a93cb7e735b46",
+      "prompt": "Use case: illustration-story. Asset: golf rules app scene, landscape 1536x1024. Image 1 is ONLY the original approved style reference: replicate thin uniform dark teal outlines, very pale mint clothing fills, white polo and cap, faceless golfer, almost no folds, spare white background, no shading. New scene: a golfer using a simple wheelchair is assessing a golf ball lying OUTSIDE a bunker on a narrow grassy shelf immediately beside its steep lip. Side-three-quarter view. Wheelchair and golfer on safe level grass at left, approaching but NOT tipping over the lip. Ball on short grass to the right, clearly outside the sand. A recessed bunker with a clearly visible steep near wall lies in the foreground/right next to the ball: its depressed sand floor must be visually distinct from the narrow grassy shelf. The narrow shelf next to ball does not offer enough level space for the full wheelchair to take the intended stance; show situation only, no invented drop location. Golfer holds one iron upright and looks toward the ball, not making a stroke. Wheelchair readable with two large simple wheels, small front casters, footrest, minimal mechanical details; no dense spokes. At most 5 tiny grass marks and 3 tiny sand marks. Bunker sand almost white with a very faint warm off-white fill, grass lip faint mint. Plenty of white margin. No text, no labels, no arrows, no distance markings, no relief circles, no cup or flag, no decorative scenery, no gradients, no shadows, no extra people. Keep all outlines and detail density as restrained as the original image."
+    }
+  ],
+  "remainingNewAssets": 9,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ]
+}

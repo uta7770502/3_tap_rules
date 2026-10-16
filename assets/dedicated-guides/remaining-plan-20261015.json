@@ -642,9 +642,11 @@
           263
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「車輪付き移動器具のバンカー付近の救済」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「車輪付き移動器具のバンカー付近の救済」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/wheelchair-bunker-relief-style-a-20261017.png",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "marker-moved",
@@ -3418,7 +3420,8 @@
       "currentScene": null,
       "decision": "new-asset",
       "group": "wheelchair-bunker-relief",
-      "reason": "本文に加え「車輪付き移動器具のバンカー付近の救済」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「車輪付き移動器具のバンカー付近の救済」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3871,8 +3874,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 41,
-    "remainingNewAssets": 10,
+    "implementedNewAssets": 42,
+    "remainingNewAssets": 9,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3
