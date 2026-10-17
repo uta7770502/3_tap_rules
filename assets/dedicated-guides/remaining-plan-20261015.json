@@ -936,7 +936,9 @@
       "reviewedOn": "2026-10-15",
       "reviewReason": "旗竿を残す選択肢の代表例に限定し、付き添いの手順図とは扱わない。",
       "implementedScene": "reviewed-flag-handling",
-      "asset": "artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png"
+      "asset": "assets/dedicated-guides/flag-left-in-style-a-20261017.png",
+      "originalAsset": "artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png",
+      "styleRevisedOn": "2026-10-17"
     },
     {
       "key": "interfering-marker",

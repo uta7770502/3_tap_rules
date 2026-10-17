@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261017-style-a-batch15';
+const version='20261017-style-a-green-review';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -183,6 +183,9 @@ scenes["snake-in-pa"]={"src":"assets/dedicated-guides/snake-in-pa-style-a-replac
 mappings.competition[184]="snake-in-pa";
 scenes["drop-instead-place"]={"src":"assets/dedicated-guides/drop-instead-place-style-a-replacement-20261017.png","caption":"これは誤った方法の例です。元の箇所にリプレースすべき球を、手で置かずにドロップしています。地面の小さなマーカーは元の箇所を示します。打つ前なら拾い上げて正しくリプレースします。正しい箇所に止まった球を誤った方法のまま打つと1罰打、誤所から打った場合は規則14.7の一般の罰となるため、方法と場所を分けて確認します。","dedicated":true};
 mappings.competition[246]="drop-instead-place";
+scenes["flag-left-in"].src="assets/dedicated-guides/flag-left-in-style-a-20261017.png";
+scenes["reviewed-flag-handling"].src="assets/dedicated-guides/flag-left-in-style-a-20261017.png";
+scenes["green-water"].src="assets/dedicated-guides/green-water-style-a-20261017.png";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

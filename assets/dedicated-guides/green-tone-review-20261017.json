@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-17",
+  "method": "built-in image_gen",
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "reviewedSceneEntries": 30,
+  "scope": "Green-related contact sheet review; two dense-background assets revised. Not full artwork or rule audit.",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+  ],
+  "records": [
+    {
+      "key": "flag-left-in",
+      "original": "artwork-archive/recovered-20261013/6aabfdd5fccdc0e814f8.png",
+      "src": "assets/dedicated-guides/flag-left-in-style-a-20261017.png",
+      "sceneKeys": [
+        "flag-left-in",
+        "reviewed-flag-handling"
+      ],
+      "targets": {
+        "standard": [
+          29,
+          43
+        ],
+        "competition": [
+          61,
+          291
+        ]
+      },
+      "prompt": "Use case: style-transfer. Edit input image 2 (flagstick left in the hole) to match the restrained illustration style of input image 1 (style reference only, do not add its golfer). 1536x1024 landscape. Preserve the scene: ONE golf ball on the putting green in foreground left, ONE slender upright flagstick in a realistically small golf hole farther away right. Keep correct perspective: a golf hole diameter about 2.5 ball diameters in real world, with distance making it appear smaller, never an oversized cup. Remove all distant trees, bushes, horizon scenery, dense grass stippling, textures, gradients and shadows. Pure white background and ample margins. Show a single irregular oval putting green with an extremely pale flat mint wash and a thin muted outline so the green is identifiable; only 3 tiny grass tufts OUTSIDE its edge. Thin uniform dark teal contours, tiny pale mint triangular flag, small plain white ball without dimple texture. No people, text, arrows or new objects. The flagstick remains in the cup; the ball is stationary clearly apart from the cup. Do not crop.",
+      "sha256": "ae0f096884b0abf8a92d7c53ec3e73959401e3804ade92f3fe6f69d74c96d379"
+    },
+    {
+      "key": "green-water",
+      "original": "artwork-archive/recovered-20261013/b185813d24145bc7fd31.png",
+      "src": "assets/dedicated-guides/green-water-style-a-20261017.png",
+      "sceneKeys": [
+        "green-water"
+      ],
+      "targets": {
+        "standard": [
+          53
+        ],
+        "competition": [
+          295
+        ]
+      },
+      "prompt": "Use case: style-transfer. Edit input image 2 (temporary water on a putting green) to match the restrained illustration style of input image 1 (style reference only, do not add its golfer). 1536x1024 landscape. Preserve essential positions: ONE stationary golf ball in foreground left on dry putting green, an irregular shallow temporary puddle across the line of play in center, and a small golf hole beyond the puddle upper right. Keep ball OUTSIDE water and all three clearly INSIDE the putting green. Show putting green as one irregular oval with very pale flat mint fill and thin edge on white background, ample margins. Puddle must read as water: near-white fill, thin pale teal outline and just 2 simple small ripple curves. Realistically small hole in perspective, not an oversized cup. Remove trees, bushes, horizon, dense grass, stippling, gradients, textures, shadows. Thin uniform dark teal contours, plain white ball without dimples. Only 3 sparse tufts outside green perimeter. No people, flagstick, text, arrows, labels, relief markers or extra objects. This is a situation illustration, not an exact relief diagram.",
+      "sha256": "f0993bd02f00dacc2fc165abdc41728bf90cc851c81ed36fbe7c0bb8870475c4"
+    }
+  ]
+}

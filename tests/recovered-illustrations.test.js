@@ -2,8 +2,15 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const root=path.join(__dirname,'..'),report=require('../assets/dedicated-guides/recovered-integration-20261014.json'),scenes=require('../assets/scene-guides'),guides=require('../assets/rule-guides');
 class Element{constructor(tag){this.tag=tag;this.children=[];this.dataset={};this.classList={add(){}};this.hidden=false;}append(...c){this.children.push(...c);}replaceChildren(){this.children=[];}setAttribute(){}addEventListener(){}get childNodes(){return this.children;}}
 function images(el){return [...(el.tag==='img'?[el]:[]),...el.children.flatMap(images)]}
-test('recovered originals render on every reviewed target, preserving existing treatment diagrams',()=>{
+test('recovered originals are preserved and reviewed revisions render with treatment diagrams',()=>{
+ const revisions=require('../assets/dedicated-guides/green-tone-review-20261017.json').records;
+ let revisedLinks=0;
+ for(const r of revisions){
+  assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,r.src))).digest('hex'),r.sha256);
+  for(const [mode,ids] of Object.entries(r.targets))for(const id of ids){assert.equal(scenes.select({id},mode).src,r.src,mode+id);revisedLinks++;}
+ }
+ assert.equal(revisedLinks,6);
  const data={standard:require('../rules.json'),competition:require('../competition_rules.json')};global.document={createElement:t=>new Element(t)};global.RuleScenes=scenes;let links=0;
- try{for(const record of report.records){const bytes=fs.readFileSync(path.join(root,record.src));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),record.sha256);for(const [mode,ids] of Object.entries(record.targets)){for(const id of ids){const rule=data[mode].find(r=>r.id===id);assert.ok(rule);assert.equal(scenes.select(rule,mode).src,record.src);const el=new Element('section');guides.render(el,rule,mode);assert.equal(el.hidden,false);const imgs=images(el);assert.ok(imgs.some(i=>i.src.split('?')[0]===record.src));if(guides.select(rule,mode))assert.ok(imgs.some(i=>i.src.startsWith('assets/minimal-guides/')),'retained guide '+mode+id);links++;}}}assert.equal(links,113);}finally{delete global.document;delete global.RuleScenes;}
+ try{for(const record of report.records){const expectedSrc=revisions.find(r=>r.original===record.src)?.src||record.src;const bytes=fs.readFileSync(path.join(root,record.src));assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),record.sha256);for(const [mode,ids] of Object.entries(record.targets)){for(const id of ids){const rule=data[mode].find(r=>r.id===id);assert.ok(rule);assert.equal(scenes.select(rule,mode).src,expectedSrc);const el=new Element('section');guides.render(el,rule,mode);assert.equal(el.hidden,false);const imgs=images(el);assert.ok(imgs.some(i=>i.src.split('?')[0]===expectedSrc));if(guides.select(rule,mode))assert.ok(imgs.some(i=>i.src.startsWith('assets/minimal-guides/')),'retained guide '+mode+id);links++;}}}assert.equal(links,113);}finally{delete global.document;delete global.RuleScenes;}
 });
 test('similar but materially different scenes stay distinct',()=>{for(const [a,b] of [[172,169],[216,222],[54,88],[248,249]])assert.notEqual(scenes.select({id:a},'competition').src,scenes.select({id:b},'competition')?.src);assert.notEqual(scenes.select({id:4},'standard').src,scenes.select({id:248},'standard').src);});
