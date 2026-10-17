@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024"><rect width="1536" height="1024" fill="white"/><g stroke="#315e57" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><rect x="190" y="130" width="1150" height="760" rx="120" fill="#f3f8f5" stroke="#aecbbc"/>
+<path d="M510 820Q310 600 630 440T1010 200" fill="none" stroke="#e2f0e7" stroke-width="150"/>
+<ellipse cx="1060" cy="270" rx="160" ry="100" fill="#d4e9dc"/>
+<circle cx="1100" cy="250" r="7" fill="#315e57"/><path d="M1100 250v-90l55 20-55 20" fill="#e2f0e9"/><path d="M800 240Q900 260 850 370Q770 400 730 330Q720 260 800 240Z" fill="#faf6ed" stroke="#aabeb0"/>
+<path d="M970 510Q1240 430 1220 650Q1050 730 970 660Z" fill="#e4eeeb" stroke="#b56c68"/>
+<rect x="390" y="720" width="240" height="110" fill="#d6eadf"/><circle cx="390" cy="720" r="9" fill="#315e57"/><circle cx="630" cy="720" r="9" fill="#315e57"/>
+<text x="510" y="790" fill="#315e57" stroke="none" font-family="sans-serif" font-size="38" text-anchor="middle">1</text><text x="1110" y="610" fill="#315e57" stroke="none" font-family="sans-serif" font-size="38" text-anchor="middle">2</text><text x="795" y="330" fill="#315e57" stroke="none" font-family="sans-serif" font-size="38" text-anchor="middle">3</text><text x="1000" y="295" fill="#315e57" stroke="none" font-family="sans-serif" font-size="38" text-anchor="middle">4</text><text x="550" y="490" fill="#315e57" stroke="none" font-family="sans-serif" font-size="38" text-anchor="middle">5</text></g></svg>

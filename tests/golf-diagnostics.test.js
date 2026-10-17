@@ -38,7 +38,7 @@ test('diagnostics classify failures without exposing keys, requests, or upstream
     }
     global.fetch=async()=>({ok:true,json:async()=>{throw Error('not json');}});
     r=response();await handler(req,r);assert.equal(r.data.code,'AI_RESPONSE');
-    r=response();await handler({method:'GET'},r);assert.equal(r.data.configured,true);assert.equal(r.data.version,'2026-09-29-search-recovery-1');
+    r=response();await handler({method:'GET'},r);assert.equal(r.data.configured,true);assert.equal(r.data.version,'2026-10-07-official-index-1');
     delete process.env.OPENAI_API_KEY;
     r=response();await handler({method:'GET'},r);assert.equal(r.data.configured,false);
     const allLogs=logs.join('\n');

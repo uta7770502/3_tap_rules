@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-17",
+  "method": "built-in image_gen",
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "originalRecoveryStatus": "unresolved for both; these are new non-destructive replacement assets",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-16",
+    "https://www.randa.org/rog/clarifications/rule-14"
+  ],
+  "records": [
+    {
+      "key": "snake-in-pa",
+      "src": "assets/dedicated-guides/snake-in-pa-style-a-replacement-20261017.png",
+      "targets": {
+        "standard": [],
+        "competition": [
+          184
+        ]
+      },
+      "caption": "赤い境界の内側にある球の近くに危険な蛇がいる場面です。蛇には近づかず、安全を優先してください。ペナルティーエリア内で罰なしの危険な動物の救済を受ける場合、完全救済のニアレストポイントと救済エリアは同じペナルティーエリア内に必要です。外へ出す選択肢と罰は本文で確認します。図は救済地点を指定するものではありません。",
+      "prompt": "Use case: illustration-story. New golf rule app asset 1536x1024 landscape. Input image 1 is solely the approved original style reference: thin uniform dark teal outlines, very pale muted mint fills, pure white background, no gradients, shadows or textures, extremely few details and generous margins. Scene: a small golf ball rests on grass beside a coiled snake, both clearly BEHIND a red penalty area boundary line connecting two short red stakes. Oblique ground-level view. Snake at center-right has a gently raised head, minimal unpatterned mint body and tiny forked tongue, not comic or aggressive. Ball center-left distinctly separated from snake by a few ball widths. Two red stakes far left/right frame foreground red line; all snake and ball lie on the same far side of the line, within the penalty area. Only 4 tiny sparse grass tufts. No person, no clubs, no water required, no arrows, no labels, no warning icon, no extra objects. Match the reference palette and restrained detail, using red only for boundary identification. This is a situation illustration, not a measured relief diagram.",
+      "sha256": "6f25df6a5ca514bf62c0a80d6787e2a417cc691576711bf4463208fdd52a3136"
+    },
+    {
+      "key": "drop-instead-place",
+      "src": "assets/dedicated-guides/drop-instead-place-style-a-replacement-20261017.png",
+      "targets": {
+        "standard": [],
+        "competition": [
+          246
+        ]
+      },
+      "caption": "これは誤った方法の例です。元の箇所にリプレースすべき球を、手で置かずにドロップしています。地面の小さなマーカーは元の箇所を示します。打つ前なら拾い上げて正しくリプレースします。正しい箇所に止まった球を誤った方法のまま打つと1罰打、誤所から打った場合は規則14.7の一般の罰となるため、方法と場所を分けて確認します。",
+      "prompt": "Use case: illustration-story. New golf rule app asset, 1536x1024 landscape. Input image 1 is solely the approved original style reference: thin uniform dark teal outlines, very pale mint trousers, white polo shirt and cap, blank faceless head, white background, very sparse grass, no shadows or gradients. Show one golfer full body in side three-quarter view, bending slightly forward and releasing ONE small white golf ball from an open hand at knee height. The ball is visibly airborne just below the hand. Directly below the ball on the ground is a small flat circular ball marker indicating the original spot. This illustrates the WRONG action of dropping a ball when it should be placed; explanatory warning will be in the app caption, so NO text or symbols in the image. Keep anatomy natural, feet firmly on ground, other hand resting lightly on thigh. No club, no flag, no hole, no other balls, no motion trail, no extra objects, no face details, minimal clothing folds. Match original reference restraint and palette, plenty of white space around the figure.",
+      "sha256": "cfca76378ed30274dc8ad00b90168c64442ab30a186bb4793180c882c717107d"
+    }
+  ]
+}

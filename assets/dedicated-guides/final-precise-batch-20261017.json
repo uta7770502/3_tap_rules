@@ -1,0 +1,111 @@
+{
+  "styleMaster": "assets/scene-guides/stroke.webp",
+  "method": "deterministic SVG; editable originals",
+  "sources": [
+    "https://www.randa.org/rog/the-rules-of-golf/rule-2",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-14",
+    "https://www.randa.org/rog/clarifications/rule-14",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-16",
+    "https://www.randa.org/rog/the-rules-of-golf/rule-18",
+    "https://www.randa.org/rog/committee-procedures/8"
+  ],
+  "records": [
+    {
+      "key": "internal-ob-holes",
+      "src": "assets/dedicated-guides/internal-ob-holes-style-a-20261017.svg",
+      "targets": {
+        "standard": [
+          208
+        ],
+        "competition": [
+          120,
+          231,
+          261
+        ]
+      },
+      "caption": "AとBは隣接する別ホール、白い丸は内部境界の杭、Xは球の停止地点です。AからB側をOBとする指定がある場合の位置関係を示します。A-4.1は指定ホールのプレー中、A-4.2は指定されたティーイングエリアから行うストロークに限る設定です。A-4.2を単に「1打目だけ」とは判断せず、ティーからの打ち直しも含め当日の文言を確認します。",
+      "sha256": "3c31c4425bc530f08152b75624c04f17ba4606f45a7569aca1eab318d379db6d"
+    },
+    {
+      "key": "provisional-nearer",
+      "src": "assets/dedicated-guides/provisional-nearer-style-a-20261017.svg",
+      "targets": {
+        "standard": [],
+        "competition": [
+          73,
+          189
+        ]
+      },
+      "caption": "Hはホール、Aは元の球があると推定される地点、Bは暫定球をプレーする地点です。BはAよりホールに近い位置。このBから暫定球をプレーすると、規則18.3cの条件により暫定球がストロークと距離の罰のもとでインプレーとなります。Bに止まっただけの段階とは区別します。",
+      "sha256": "d6853dfcb32fcc271b548d062c289e7c34391d0cd764c16d3fce27b7e95b97e6"
+    },
+    {
+      "key": "nearest-complete-relief",
+      "src": "assets/dedicated-guides/nearest-complete-relief-style-a-20261017.svg",
+      "targets": {
+        "standard": [],
+        "competition": [
+          113
+        ]
+      },
+      "caption": "上面図で灰色は舗装路、足形は想定スタンス、短い線はクラブの位置、H方向がホールです。Aは球が道の外でも足が道に残るので完全救済ではありません。Bは球とスタンスが道から離れた候補の例です。Bをニアレストポイントと確定した図ではありません。実際には使用予定のクラブ・スタンス・スイングで、ホールに近づかず障害が完全になくなる最も近い点を、両側も比較して求めます。",
+      "sha256": "9a7a61753e7011e739b72b67908f6d628a672833bd279dab69312e95bd90c185"
+    },
+    {
+      "key": "course-areas",
+      "src": "assets/dedicated-guides/course-areas-style-a-20261017.svg",
+      "targets": {
+        "standard": [],
+        "competition": [
+          112,
+          273
+        ]
+      },
+      "caption": "コースの5区域の上面模式図。1＝このホールを始めるために使うティーイングエリア、2＝ペナルティーエリア、3＝バンカー、4＝プレー中のホールのパッティンググリーン、5＝それ以外のジェネラルエリア。別ホールのグリーンや使用しないティーはジェネラルエリアです。OBはコース外で、5区域には含まれません。",
+      "sha256": "6e69a00f160e36e709f8bff7eeb373f29a013567805e49be8e0ce21d4fb6f7f8"
+    },
+    {
+      "key": "off-back-line",
+      "src": "assets/dedicated-guides/off-back-line-style-a-20261017.svg",
+      "targets": {
+        "standard": [],
+        "competition": [
+          179
+        ]
+      },
+      "caption": "上面図。Hはホール、Xは後方線の基準となる地点、縦の破線は後方線です。Aは線から横へ外れて最初に地面に触れた場所、Bはその後線上へ転がった停止地点。Aへドロップした誤りはBへ転がっても解消されず、プレー前に正しくドロップし直します。図は最初から線上に正しくドロップした後の転がりを禁止するものではありません。",
+      "sha256": "a58337c9b089bc147b37f4b9df15f827be8348c82b7355cbb752b013291e7231"
+    },
+    {
+      "key": "unfound-gur",
+      "src": "assets/dedicated-guides/unfound-gur-style-a-20261017.svg",
+      "targets": {
+        "standard": [],
+        "competition": [
+          257
+        ]
+      },
+      "caption": "上面図。ミント色のGURは修理地、Xは球が最後にその縁を横切った推定点です。球の最終位置が不明でも、その修理地内に止まったことが分かっているか事実上確実な場合に、Xを球の位置とみなして完全救済のニアレストポイントを求めます。X自体をドロップの基準点と決めつける図ではありません。単にAから修理地の方向へ飛んだだけでは不十分です。",
+      "sha256": "d7c0fb346f03a45f24f7a5fb8ead183fa29961207998d795264bd42b679d42ef"
+    },
+    {
+      "key": "replay-previous-spot",
+      "src": "assets/dedicated-guides/replay-previous-spot-style-a-20261017.svg",
+      "targets": {
+        "standard": [],
+        "competition": [
+          100,
+          292
+        ]
+      },
+      "caption": "前のストロークをした区域による違い。A＝ティーイングエリア内のどこからでもプレーでき、ティーアップも可能。B＝ジェネラルエリア・バンカー・PAでは前の箇所を基準に1クラブレングス以内、同じ区域でホールに近づかない救済エリアへドロップ。図は一例でH方向がホールです。C＝パッティンググリーンでは前の箇所にプレース。罰打は打ち直しを行う理由の規則で確認します。",
+      "sha256": "325374988821a610c90d03895e761ea12e2759edc65e7838c8d9e1b0e6aee68a"
+    }
+  ],
+  "remainingNewAssets": 0,
+  "unrecoveredAssets": [
+    "snake-in-pa",
+    "drop-instead-place"
+  ],
+  "replacementManifest": "assets/dedicated-guides/replacement-batch-20261017.json"
+}

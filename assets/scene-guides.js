@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261017-style-a-batch14';
+const version='20261017-style-a-batch15';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -159,6 +159,30 @@ scenes["stopped-downswing"]={"src":"assets/dedicated-guides/stopped-downswing-st
 mappings.competition[221]="stopped-downswing";
 scenes["wheelchair-bunker-relief"]={"src":"assets/dedicated-guides/wheelchair-bunker-relief-style-a-20261017.png","caption":"球がバンカーの外の縁付近にあり、車輪付き移動器具を使う選手が構えられるか確認する場面。MLR M-4採用時には、縁や斜面などにより意図するプレーの線に対してスタンスを取れない、または不合理な努力が必要となる場合に限り、条件付きで無罰救済を受けられます。単にバンカーに近いだけでは救済になりません。図は救済の可否やドロップ地点を確定するものではありません。","dedicated":true};
 mappings.competition[263]="wheelchair-bunker-relief";
+scenes["internal-ob-holes"]={"src":"assets/dedicated-guides/internal-ob-holes-style-a-20261017.svg","caption":"AとBは隣接する別ホール、白い丸は内部境界の杭、Xは球の停止地点です。AからB側をOBとする指定がある場合の位置関係を示します。A-4.1は指定ホールのプレー中、A-4.2は指定されたティーイングエリアから行うストロークに限る設定です。A-4.2を単に「1打目だけ」とは判断せず、ティーからの打ち直しも含め当日の文言を確認します。","dedicated":true};
+mappings.standard[208]="internal-ob-holes";
+mappings.competition[120]="internal-ob-holes";
+mappings.competition[231]="internal-ob-holes";
+mappings.competition[261]="internal-ob-holes";
+scenes["provisional-nearer"]={"src":"assets/dedicated-guides/provisional-nearer-style-a-20261017.svg","caption":"Hはホール、Aは元の球があると推定される地点、Bは暫定球をプレーする地点です。BはAよりホールに近い位置。このBから暫定球をプレーすると、規則18.3cの条件により暫定球がストロークと距離の罰のもとでインプレーとなります。Bに止まっただけの段階とは区別します。","dedicated":true};
+mappings.competition[73]="provisional-nearer";
+mappings.competition[189]="provisional-nearer";
+scenes["nearest-complete-relief"]={"src":"assets/dedicated-guides/nearest-complete-relief-style-a-20261017.svg","caption":"上面図で灰色は舗装路、足形は想定スタンス、短い線はクラブの位置、H方向がホールです。Aは球が道の外でも足が道に残るので完全救済ではありません。Bは球とスタンスが道から離れた候補の例です。Bをニアレストポイントと確定した図ではありません。実際には使用予定のクラブ・スタンス・スイングで、ホールに近づかず障害が完全になくなる最も近い点を、両側も比較して求めます。","dedicated":true};
+mappings.competition[113]="nearest-complete-relief";
+scenes["course-areas"]={"src":"assets/dedicated-guides/course-areas-style-a-20261017.svg","caption":"コースの5区域の上面模式図。1＝このホールを始めるために使うティーイングエリア、2＝ペナルティーエリア、3＝バンカー、4＝プレー中のホールのパッティンググリーン、5＝それ以外のジェネラルエリア。別ホールのグリーンや使用しないティーはジェネラルエリアです。OBはコース外で、5区域には含まれません。","dedicated":true};
+mappings.competition[112]="course-areas";
+mappings.competition[273]="course-areas";
+scenes["off-back-line"]={"src":"assets/dedicated-guides/off-back-line-style-a-20261017.svg","caption":"上面図。Hはホール、Xは後方線の基準となる地点、縦の破線は後方線です。Aは線から横へ外れて最初に地面に触れた場所、Bはその後線上へ転がった停止地点。Aへドロップした誤りはBへ転がっても解消されず、プレー前に正しくドロップし直します。図は最初から線上に正しくドロップした後の転がりを禁止するものではありません。","dedicated":true};
+mappings.competition[179]="off-back-line";
+scenes["unfound-gur"]={"src":"assets/dedicated-guides/unfound-gur-style-a-20261017.svg","caption":"上面図。ミント色のGURは修理地、Xは球が最後にその縁を横切った推定点です。球の最終位置が不明でも、その修理地内に止まったことが分かっているか事実上確実な場合に、Xを球の位置とみなして完全救済のニアレストポイントを求めます。X自体をドロップの基準点と決めつける図ではありません。単にAから修理地の方向へ飛んだだけでは不十分です。","dedicated":true};
+mappings.competition[257]="unfound-gur";
+scenes["replay-previous-spot"]={"src":"assets/dedicated-guides/replay-previous-spot-style-a-20261017.svg","caption":"前のストロークをした区域による違い。A＝ティーイングエリア内のどこからでもプレーでき、ティーアップも可能。B＝ジェネラルエリア・バンカー・PAでは前の箇所を基準に1クラブレングス以内、同じ区域でホールに近づかない救済エリアへドロップ。図は一例でH方向がホールです。C＝パッティンググリーンでは前の箇所にプレース。罰打は打ち直しを行う理由の規則で確認します。","dedicated":true};
+mappings.competition[100]="replay-previous-spot";
+mappings.competition[292]="replay-previous-spot";
+scenes["snake-in-pa"]={"src":"assets/dedicated-guides/snake-in-pa-style-a-replacement-20261017.png","caption":"赤い境界の内側にある球の近くに危険な蛇がいる場面です。蛇には近づかず、安全を優先してください。ペナルティーエリア内で罰なしの危険な動物の救済を受ける場合、完全救済のニアレストポイントと救済エリアは同じペナルティーエリア内に必要です。外へ出す選択肢と罰は本文で確認します。図は救済地点を指定するものではありません。","dedicated":true};
+mappings.competition[184]="snake-in-pa";
+scenes["drop-instead-place"]={"src":"assets/dedicated-guides/drop-instead-place-style-a-replacement-20261017.png","caption":"これは誤った方法の例です。元の箇所にリプレースすべき球を、手で置かずにドロップしています。地面の小さなマーカーは元の箇所を示します。打つ前なら拾い上げて正しくリプレースします。正しい箇所に止まった球を誤った方法のまま打つと1罰打、誤所から打った場合は規則14.7の一般の罰となるため、方法と場所を分けて確認します。","dedicated":true};
+mappings.competition[246]="drop-instead-place";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

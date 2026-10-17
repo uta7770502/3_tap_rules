@@ -1,12 +1,15 @@
 const {test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const vm=require('node:vm');const path=require('node:path');
 const root=path.join(__dirname,'..');const scenes=require('../assets/scene-guides.js');const guides=require('../assets/rule-guides.js');
+const plan=require('../assets/dedicated-guides/remaining-plan-20261015.json');
 class Element{constructor(tag){this.tag=tag;this.children=[];this.dataset={};this.classList={add(){}};this.hidden=false;}append(...c){this.children.push(...c);}replaceChildren(){this.children=[];}setAttribute(){}addEventListener(){}get childNodes(){return this.children;}}
 const walk=(el,tag)=>el.tag===tag?el:el.children.map(x=>walk(x,tag)).find(Boolean);
-test('every standard and competition case renders existing precise artwork or a context scene',()=>{
+test('every standard and competition case renders artwork or has an explicit text-sufficient decision',()=>{
  global.document={createElement:t=>new Element(t)};global.RuleScenes=scenes;
- try{for(const [mode,file,count] of [['standard','rules.json',247],['competition','competition_rules.json',258]]){
+ try{for(const [mode,file,count] of [['standard','rules.json',247],['competition','competition_rules.json',318]]){
  const rules=JSON.parse(fs.readFileSync(path.join(root,file)));assert.equal(rules.length,count);
- for(const rule of rules){const el=new Element('section');guides.render(el,rule,mode);assert.equal(el.hidden,false,mode+rule.id);const img=walk(el,'img');assert.ok(img,mode+rule.id);assert.ok(fs.existsSync(path.join(root,img.src.split('?')[0])),img.src);if(!guides.select(rule,mode)){assert.ok(walk(el,'details'));assert.equal(walk(el,'h2').textContent,scenes.select(rule,mode).dedicated?'このケースの状況':'場面をイメージ');}}
+ for(const rule of rules){const el=new Element('section');guides.render(el,rule,mode);
+ if(el.hidden){const decision=plan.items.find(x=>x.mode===mode&&x.id===rule.id);assert.equal(decision?.decision,'text-sufficient',mode+rule.id);assert.ok(decision.reason);assert.equal(walk(el,'img'),undefined);continue;}
+ const img=walk(el,'img');assert.ok(img,mode+rule.id);assert.ok(fs.existsSync(path.join(root,img.src.split('?')[0])),img.src);if(!guides.select(rule,mode)){assert.ok(walk(el,'details'));assert.equal(walk(el,'h2').textContent,scenes.select(rule,mode).dedicated?'このケースの状況':'場面をイメージ');}}
  }}finally{delete global.document;delete global.RuleScenes;}
 });
 test('all 40 iroha pages resolve artwork, while unknown IDs do not gain arbitrary images',()=>{

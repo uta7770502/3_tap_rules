@@ -192,9 +192,11 @@
           261
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/internal-ob-holes-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "road-crossing",
@@ -337,9 +339,11 @@
           189
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/provisional-nearer-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "nearest-complete-relief",
@@ -350,9 +354,11 @@
           113
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「仮のスタンスを含めた完全救済のニアレストポイント」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「仮のスタンスを含めた完全救済のニアレストポイント」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/nearest-complete-relief-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "relief-area-boundary",
@@ -380,9 +386,11 @@
           273
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/course-areas-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "boundary-v-obstruction",
@@ -499,9 +507,11 @@
           179
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「後方線から外れた地点へのドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「後方線から外れた地点へのドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/off-back-line-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "snake-in-pa",
@@ -512,9 +522,13 @@
           184
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「ペナルティーエリア内の危険な蛇」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ペナルティーエリア内の危険な蛇」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/snake-in-pa-style-a-replacement-20261017.png",
+      "completedOn": "2026-10-17",
+      "originalRecoveryStatus": "unresolved",
+      "provenance": "new replacement generated from original style reference; not recovered original"
     },
     {
       "key": "wheelchair-bunker-unplayable",
@@ -616,9 +630,13 @@
           246
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "illustration",
-      "reason": "本文に加え「プレースすべき球を誤ってドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「プレースすべき球を誤ってドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/drop-instead-place-style-a-replacement-20261017.png",
+      "completedOn": "2026-10-17",
+      "originalRecoveryStatus": "unresolved",
+      "provenance": "new replacement generated from original style reference; not recovered original"
     },
     {
       "key": "unfound-gur",
@@ -629,9 +647,11 @@
           257
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「修理地内で見つからない球の基準点」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「修理地内で見つからない球の基準点」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/unfound-gur-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "wheelchair-bunker-relief",
@@ -673,9 +693,11 @@
           292
         ]
       },
-      "status": "planned",
+      "status": "implemented",
       "format": "precise-diagram",
-      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "asset": "assets/dedicated-guides/replay-previous-spot-style-a-20261017.svg",
+      "completedOn": "2026-10-17"
     },
     {
       "key": "partner-behind",
@@ -1534,7 +1556,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "internal-ob-holes",
-      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "standard",
@@ -2298,7 +2321,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "provisional-nearer",
-      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2420,7 +2444,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "replay-previous-spot",
-      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2520,7 +2545,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "course-areas",
-      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2530,7 +2556,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "nearest-complete-relief",
-      "reason": "本文に加え「仮のスタンスを含めた完全救済のニアレストポイント」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「仮のスタンスを含めた完全救済のニアレストポイント」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2591,7 +2618,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "internal-ob-holes",
-      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2913,7 +2941,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "off-back-line",
-      "reason": "本文に加え「後方線から外れた地点へのドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「後方線から外れた地点へのドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2932,7 +2961,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "snake-in-pa",
-      "reason": "本文に加え「ペナルティーエリア内の危険な蛇」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ペナルティーエリア内の危険な蛇」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -2960,7 +2990,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "provisional-nearer",
-      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「暫定球を本球推定地点よりホール寄りから打つ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3277,7 +3308,8 @@
       "currentScene": "course",
       "decision": "new-asset",
       "group": "internal-ob-holes",
-      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3352,7 +3384,8 @@
       "currentScene": "stroke",
       "decision": "new-asset",
       "group": "drop-instead-place",
-      "reason": "本文に加え「プレースすべき球を誤ってドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「プレースすべき球を誤ってドロップ」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3382,7 +3415,8 @@
       "currentScene": "search",
       "decision": "new-asset",
       "group": "unfound-gur",
-      "reason": "本文に加え「修理地内で見つからない球の基準点」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「修理地内で見つからない球の基準点」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3410,7 +3444,8 @@
       "currentScene": null,
       "decision": "new-asset",
       "group": "internal-ob-holes",
-      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「ホールによって適用が変わる内部OB」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3494,7 +3529,8 @@
       "currentScene": null,
       "decision": "new-asset",
       "group": "course-areas",
-      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「コースの5区域の区別」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3637,7 +3673,8 @@
       "currentScene": null,
       "decision": "new-asset",
       "group": "replay-previous-spot",
-      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。"
+      "reason": "本文に加え「前の場所から打ち直す区域別の方法」の位置関係・状態・動作を図示する。複数対象では罰や条件を共通と断定せず、共有可能な場面だけを描く。",
+      "resolution": "implemented"
     },
     {
       "mode": "competition",
@@ -3874,8 +3911,8 @@
     "baselineNewAssets": 48
   },
   "progress": {
-    "implementedNewAssets": 42,
-    "remainingNewAssets": 9,
+    "implementedNewAssets": 51,
+    "remainingNewAssets": 0,
     "reusePendingItems": 0,
     "reuseImplementedItems": 10,
     "reuseRejectedItems": 3
