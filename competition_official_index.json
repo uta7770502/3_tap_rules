@@ -2261,6 +2261,238 @@
       ]
     },
     {
+      "rule": 16,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-16",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "16.1",
+          "title": "異常なコース状態からの救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.1a",
+          "title": "救済が認められる場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.1b",
+          "title": "ジェネラルエリアの球の救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.1c",
+          "title": "バンカー内の球の救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.1d",
+          "title": "グリーン上の球の救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.1e",
+          "title": "異常なコース状態内で球が見つからない場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.1f",
+          "title": "異常なコース状態内のプレー禁止区域からの救済義務",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.2",
+          "title": "危険な動物の状態",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.2a",
+          "title": "救済が認められる場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.2b",
+          "title": "危険な動物からの救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.3",
+          "title": "地面にくい込んだ球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.3a",
+          "title": "救済が認められる場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.3b",
+          "title": "地面にくい込んだ球の救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        },
+        {
+          "id": "16.4",
+          "title": "救済可能な状態か確認するための球の拾い上げ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-16"
+        }
+      ]
+    },
+    {
+      "rule": 17,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-17",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "17.1",
+          "title": "ペナルティーエリア内の球の選択肢",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.1a",
+          "title": "球がペナルティーエリア内にある場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.1b",
+          "title": "そのままプレーまたは罰あり救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.1c",
+          "title": "見つからない球がペナルティーエリア内にある場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.1d",
+          "title": "ペナルティーエリアからの救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.1e",
+          "title": "プレー禁止区域からの救済義務",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.2",
+          "title": "ペナルティーエリアから打った後の選択肢",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.2a",
+          "title": "同じ・別のペナルティーエリア内に止まった場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.2b",
+          "title": "紛失・OB・エリア外でアンプレヤブルの場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        },
+        {
+          "id": "17.3",
+          "title": "ペナルティーエリア内の球に他の救済規則は使えない",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-17"
+        }
+      ]
+    },
+    {
+      "rule": 18,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-18",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "18.1",
+          "title": "ストロークと距離の救済はいつでも選べる",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        },
+        {
+          "id": "18.2",
+          "title": "紛失・OBの場合のストロークと距離の義務",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        },
+        {
+          "id": "18.2a",
+          "title": "紛失・OBの判定",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        },
+        {
+          "id": "18.2b",
+          "title": "紛失・OBの処置",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        },
+        {
+          "id": "18.3",
+          "title": "暫定球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        },
+        {
+          "id": "18.3a",
+          "title": "暫定球を打てる場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        },
+        {
+          "id": "18.3b",
+          "title": "暫定球の宣言",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        },
+        {
+          "id": "18.3c",
+          "title": "暫定球がインプレーになる・放棄されるまで",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-18"
+        }
+      ]
+    },
+    {
+      "rule": 19,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-19",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "19.1",
+          "title": "ペナルティーエリア以外でアンプレヤブルを宣言できる",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        },
+        {
+          "id": "19.2",
+          "title": "ジェネラルエリア・グリーン上での救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        },
+        {
+          "id": "19.2a",
+          "title": "ストロークと距離",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        },
+        {
+          "id": "19.2b",
+          "title": "後方線上の救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        },
+        {
+          "id": "19.2c",
+          "title": "ラテラル救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        },
+        {
+          "id": "19.3",
+          "title": "バンカー内でのアンプレヤブル救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        },
+        {
+          "id": "19.3a",
+          "title": "通常の救済：1罰打",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        },
+        {
+          "id": "19.3b",
+          "title": "追加の救済：2罰打",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-19"
+        }
+      ]
+    },
+    {
       "rule": 25,
       "source": "https://www.randa.org/rog/the-rules-of-golf/rule-25",
       "verifiedDate": "2026-10-29",
