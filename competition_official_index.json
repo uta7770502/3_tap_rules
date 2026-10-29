@@ -1050,5 +1050,209 @@
     "officialCount": 91,
     "codeSetMatched": true,
     "note": "R&A Section 8 index codes A-1 through M-4, including E-14; code-level only, not text or navigation verification"
-  }
+  },
+  "officialRuleSubrules": [
+    {
+      "rule": 25,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-25",
+      "verifiedDate": "2026-10-29",
+      "subrules": [
+        {
+          "id": "25.1",
+          "title": "適用対象と概要",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2",
+          "title": "視覚障害のあるプレーヤー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2a",
+          "title": "補助者からの援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2b",
+          "title": "補助者は同時に1人",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2c",
+          "title": "狙いやスタンスを助ける物の設置",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2d",
+          "title": "ストローク前のキャディー等の後方位置",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2e",
+          "title": "キャディーに関する修正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2f",
+          "title": "バンカーの砂への接触",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2g",
+          "title": "球を拾い上げられる人",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.2h",
+          "title": "ドロップ・プレース・リプレースの援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.3",
+          "title": "切断・四肢欠損のあるプレーヤー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.3a",
+          "title": "義肢の取り扱い",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.3b",
+          "title": "クラブのアンカリング",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.3c",
+          "title": "ドロップ・プレース・リプレースの援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.3d",
+          "title": "リプレースの定義の修正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4",
+          "title": "移動補助器具を使用するプレーヤー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4a",
+          "title": "補助者などからの援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4b",
+          "title": "補助者からのアドバイス",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4c",
+          "title": "補助者は同時に1人",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4d",
+          "title": "スタンスの定義の修正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4e",
+          "title": "リプレースの定義の修正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4f",
+          "title": "用具の使用",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4g",
+          "title": "移動補助器具を使ったスタンス",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4h",
+          "title": "クラブのアンカリング",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4i",
+          "title": "プレーの線をまたぐスタンス",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4j",
+          "title": "キャディーに関する修正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4k",
+          "title": "動いている球と移動補助器具の接触",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4l",
+          "title": "バンカーの砂の状態のテスト",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4m",
+          "title": "車輪付き移動補助器具：ラテラル救済エリアの拡張",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.4n",
+          "title": "車輪付き移動補助器具：バンカー外へのアンプレヤブル救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.5",
+          "title": "知的障害のあるプレーヤー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.5a",
+          "title": "補助者または監督者の援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.5b",
+          "title": "補助者は同時に1人",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.5c",
+          "title": "キャディーに関する修正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.5d",
+          "title": "球を拾い上げられる人",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.5e",
+          "title": "知的障害と身体障害の両方がある場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.6",
+          "title": "全障害区分に共通する規定",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.6a",
+          "title": "不当の遅延",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        },
+        {
+          "id": "25.6b",
+          "title": "ドロップ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+        }
+      ]
+    }
+  ]
 }
