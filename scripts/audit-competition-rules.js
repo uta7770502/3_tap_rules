@@ -44,7 +44,10 @@ for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNum
   if(!mainHtml.includes(tab)||!indexHtml.includes(tab))errors.push('official navigation tab not wired in both pages: '+tab);
 }
 if(!mainHtml.includes('data-rule="25"')||!mainHtml.includes('data-rule="1"'))errors.push('Rule-number navigation missing');
-if(!idx.officialDefinitionsVerified?.complete)errors.push('Definitions not individually reconciled against current official definition names and content');
+if(new Set((idx.definitions||[]).map(x=>x.officialTerm)).size!==74)errors.push('Definitions official English terms are missing or duplicated');
+if((idx.definitions||[]).some(x=>!x.title||!x.officialTerm||!x.source?.includes('randa.org')))errors.push('Definitions lack bilingual names or official source');
+if(!idx.officialDefinitionsVerified?.nameSetMatched)errors.push('Definitions name set not checked against current official list');
+if(!idx.officialDefinitionsVerified?.complete)errors.push('Definitions full content review remains incomplete');
 if(!idx.navigationAudit?.verifiedOnDevice||!idx.navigationAudit?.evidence?.length)errors.push('end-to-end search/category/Rule-number navigation has no recorded verification evidence');
 console.log(JSON.stringify({ok:!errors.length,cases:rules.length,definitions:(idx.definitions||[]).length,mlr:(idx.modelLocalRules||[]).length,individualClarifications:(idx.clarifications||[]).length,committee:(idx.committeeProcedures||[]).length,committeeFirstLevel:firstLevel.length,committeeNumbered:numbered.length,clarificationGroups:(idx.clarificationGroups||[]).length,errors},null,2));
 if(errors.length)process.exitCode=1;
