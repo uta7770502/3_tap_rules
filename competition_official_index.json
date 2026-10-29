@@ -1546,6 +1546,361 @@
       ]
     },
     {
+      "rule": 6,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-6",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "6.1",
+          "title": "ホールのプレーの開始",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.1a",
+          "title": "ホールが開始する時点",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.1b",
+          "title": "ティーイングエリア内からのプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.2",
+          "title": "ティーイングエリアからのプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.2a",
+          "title": "ティーイングエリアの規則が適用されるとき",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.2b",
+          "title": "ティーイングエリアの規則",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.3",
+          "title": "ホールのプレーで使用する球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.3a",
+          "title": "ティーからの同じ球でホールアウト",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.3b",
+          "title": "ホールプレー中の球の取り替え",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.3c",
+          "title": "誤球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.3d",
+          "title": "同時に複数の球をプレーできる場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.4",
+          "title": "ホールプレー中のプレー順",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.4a",
+          "title": "マッチプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.4b",
+          "title": "ストロークプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.4c",
+          "title": "ティーイングエリアから暫定球等をプレーするとき",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.4d",
+          "title": "ティー以外から救済や暫定球をプレーするとき",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        },
+        {
+          "id": "6.5",
+          "title": "ホールのプレーの終了",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-6"
+        }
+      ]
+    },
+    {
+      "rule": 7,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-7",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "7.1",
+          "title": "公平な球の捜索",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-7"
+        },
+        {
+          "id": "7.1a",
+          "title": "球を探し確認する合理的な行為",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-7"
+        },
+        {
+          "id": "7.1b",
+          "title": "捜索で砂が動いた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-7"
+        },
+        {
+          "id": "7.2",
+          "title": "球の確認方法",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-7"
+        },
+        {
+          "id": "7.3",
+          "title": "確認のための球の拾い上げ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-7"
+        },
+        {
+          "id": "7.4",
+          "title": "捜索・確認中に偶然球が動いた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-7"
+        }
+      ]
+    },
+    {
+      "rule": 8,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-8",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "8.1",
+          "title": "ストロークに影響する状態の改善",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.1a",
+          "title": "認められない行為",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.1b",
+          "title": "認められる行為",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.1c",
+          "title": "違反して改善した状態の復元",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.1d",
+          "title": "球停止後に悪化した状態の復元",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.2",
+          "title": "自分の球・ストロークに影響するその他の物理的状態の変更",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.2a",
+          "title": "規則8.2が適用されるとき",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.2b",
+          "title": "その他の物理的状態を変える禁止行為",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.3",
+          "title": "他の競技者の球・ストロークに影響する状態の変更",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.3a",
+          "title": "規則8.3が適用されるとき",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        },
+        {
+          "id": "8.3b",
+          "title": "その他の物理的状態を変える禁止行為",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-8"
+        }
+      ]
+    },
+    {
+      "rule": 9,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-9",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "9.1",
+          "title": "球はあるがままにプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.1a",
+          "title": "止まった場所からのプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.1b",
+          "title": "バックスイング中・ストローク中に球が動いた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.2",
+          "title": "球が動いたか・原因の判定",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.2a",
+          "title": "球が動いたかの判定",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.2b",
+          "title": "球が動いた原因の判定",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.3",
+          "title": "自然の力で動いた球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.4",
+          "title": "競技者が拾い上げ・動かした球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.4a",
+          "title": "リプレースが必要なとき",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.4b",
+          "title": "拾い上げ・故意の接触・移動の罰",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.5",
+          "title": "マッチの相手が拾い上げ・動かした球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.5a",
+          "title": "リプレースが必要なとき",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.5b",
+          "title": "拾い上げ・故意の接触・移動の罰",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.6",
+          "title": "外的影響で拾い上げ・動かされた球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.7",
+          "title": "動いたボールマーカー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.7a",
+          "title": "球・ボールマーカーのリプレース",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        },
+        {
+          "id": "9.7b",
+          "title": "ボールマーカーを動かした罰",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-9"
+        }
+      ]
+    },
+    {
+      "rule": 10,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-10",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "10.1",
+          "title": "ストロークの方法",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.1a",
+          "title": "正しく球を打つ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.1b",
+          "title": "クラブのアンカリング",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.1c",
+          "title": "プレーの線をまたぐ・踏むスタンス",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.1d",
+          "title": "動いている球へのストローク",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.2",
+          "title": "アドバイスとその他の援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.2a",
+          "title": "アドバイス",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.2b",
+          "title": "その他の援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.3",
+          "title": "キャディー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.3a",
+          "title": "ラウンド中のキャディーによる援助",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.3b",
+          "title": "キャディーができること",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        },
+        {
+          "id": "10.3c",
+          "title": "キャディーの行為・違反への競技者の責任",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-10"
+        }
+      ]
+    },
+    {
       "rule": 25,
       "source": "https://www.randa.org/rog/the-rules-of-golf/rule-25",
       "verifiedDate": "2026-10-29",
