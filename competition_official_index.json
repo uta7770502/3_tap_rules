@@ -451,219 +451,262 @@
     {
       "id": "CP1",
       "title": "1 委員会の役割",
-      "section": 1
+      "section": 1,
+      "source": "https://www.randa.org/rog/committee-procedures/1"
     },
     {
       "id": "CP2",
       "title": "2 一般的なプレーのためのコースマーキング",
-      "section": 2
+      "section": 2,
+      "source": "https://www.randa.org/rog/committee-procedures/2"
     },
     {
       "id": "CP3",
       "title": "3 一般的なプレーのためのローカルルール",
-      "section": 3
+      "section": 3,
+      "source": "https://www.randa.org/rog/committee-procedures/3"
     },
     {
       "id": "CP4",
       "title": "4 一般的なプレーのための追加の検討事項",
-      "section": 4
+      "section": 4,
+      "source": "https://www.randa.org/rog/committee-procedures/4"
     },
     {
       "id": "CP5",
       "title": "5 競技前",
-      "section": 5
+      "section": 5,
+      "source": "https://www.randa.org/rog/committee-procedures/5"
     },
     {
       "id": "CP6",
       "title": "6 競技中",
-      "section": 6
+      "section": 6,
+      "source": "https://www.randa.org/rog/committee-procedures/6"
     },
     {
       "id": "CP7",
       "title": "7 競技後",
-      "section": 7
+      "section": 7,
+      "source": "https://www.randa.org/rog/committee-procedures/7"
     },
     {
       "id": "CP8",
       "title": "8 ローカルルールひな型",
-      "section": 8
+      "section": 8,
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "CP9",
       "title": "9 他のプレー形式",
-      "section": 9
+      "section": 9,
+      "source": "https://www.randa.org/rog/committee-procedures/9"
     }
   ],
   "modelLocalRules": [
     {
       "id": "A-1",
       "title": "境界と境界縁を定める一般的な方法",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "A-2",
       "title": "壁、道路、他の物を使う場合の境界の明確化",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "A-3",
       "title": "境界フェンスは異なった方法で扱われる",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "A-4",
       "title": "コース内のアウトオブバウンズ",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "A-5",
       "title": "公道がコース内を通り抜けている場合のアウトオブバウンズ",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "A-6",
       "title": "アウトオブバウンズを示す杭",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "B-1",
       "title": "ペナルティーエリアを定める",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "B-2",
       "title": "レッドペナルティーエリアの反対側での救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "B-3",
       "title": "ペナルティーエリアの中にある球についての暫定球",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "B-4",
       "title": "水路をジェネラルエリアとして定める",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "B-5",
       "title": "ペナルティーエリアがバンカーの隣にある場合の特別な救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "C-1",
       "title": "バンカーの縁の明確化",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "C-2",
       "title": "砂の区域のステータスの変更",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "C-3",
       "title": "バンカー内にない砂に類似する素材のステータスの明確化",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "C-4",
       "title": "バンカー練習場をジェネラルエリアの一部と宣言する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "D-1",
       "title": "パッティンググリーンの縁の明確化",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "D-2",
       "title": "臨時のパッティンググリーンを使用している場合のパッティンググリーンのステータス",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "D-3",
       "title": "スタンスの障害のみの場合に目的外グリーンからの救済を禁止する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "D-4",
       "title": "目的外グリーンのフリンジからのプレーを禁止する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "D-5",
       "title": "練習グリーンや臨時のパッティンググリーンのステータス",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "D-6",
       "title": "ダブルグリーンを2つの別々のグリーンに分割する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-1",
       "title": "ドロップゾーン",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-2",
       "title": "球をふくこと",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-3",
       "title": "プリファードライ",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-4",
       "title": "エアレーションホールからの救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-5",
       "title": "紛失球やアウトオブバウンズの球についてストロークと距離に代わる選択肢",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-6",
       "title": "保護フェンスに対するプレーの線の救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-7",
       "title": "電気が流れる境界フェンスからの救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-8",
       "title": "プレー禁止区域を定める",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-9",
       "title": "アウトオブバウンズの区域をプレー禁止区域として定める",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-10",
       "title": "若木の保護",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-11",
       "title": "送電線によって方向を変えられた球",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-12",
       "title": "フェアウェイマットの強制的な使用",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-13",
       "title": "ルースインペディメントと定義されない動物を球の近くから取り除く",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "E-14",
@@ -676,282 +719,338 @@
     {
       "id": "F-1",
       "title": "異常なコース状態や不可分な物を定める",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-2",
       "title": "地面にくい込んだ球の救済の制限",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-3",
       "title": "修理地を近くにある障害物の一部として扱う",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-4",
       "title": "豪雨や通行による広範囲の損傷",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-5",
       "title": "パッティンググリーンに近接する動かせない障害物",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-6",
       "title": "スタンスへの障害のみの場合に異常なコース状態からの救済を認めない",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-7",
       "title": "張芝の継ぎ目からの救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-8",
       "title": "地面のひび割れからの救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-9",
       "title": "フェアウェイの、またはフェアウェイに近接する木の根からの救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-10",
       "title": "動物による損傷",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-11",
       "title": "蟻塚",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-12",
       "title": "動物の糞",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-13",
       "title": "動物の蹄による損傷",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-14",
       "title": "ルースインペディメントの堆積",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-15",
       "title": "パッティンググリーン上のキノコ",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-16",
       "title": "一時的な水で満ちたバンカー",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-17",
       "title": "すべての道路や通路を障害物として扱う",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-18",
       "title": "動かせる障害物を動かせない障害物として扱う",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-19",
       "title": "パッティンググリーン周辺の縁取り用の溝",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-20",
       "title": "コンクリート製の排水路",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-21",
       "title": "ペイントした線や点",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-22",
       "title": "臨時の動力線とケーブル",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-23",
       "title": "臨時の動かせない障害物",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-24",
       "title": "ペナルティーエリア内の動かせない障害物からの罰なしの救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-25",
       "title": "異常なコース状態の上、中、下を通さずに完全な救済のニヤレストポイントを決定する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "F-26",
       "title": "境界フェンスや壁の門",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-1",
       "title": "適合ドライバーヘッドリスト",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-2",
       "title": "溝とパンチマークの仕様",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-3",
       "title": "適合球リスト",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-4",
       "title": "ワンボールルール",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-5",
       "title": "距離計測機器の使用を禁止する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-6",
       "title": "動力付き移動機器の使用を禁止する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-7",
       "title": "特定の種類のシューズの使用を禁止する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-8",
       "title": "オーディオ・ビデオ機器の使用を禁止、または制限する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-9",
       "title": "壊れた、または著しく損傷したクラブは類似のクラブと取り替える",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-10",
       "title": "46インチを超える長さのクラブの使用を禁止する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-11",
       "title": "グリーンリーディング資料の使用を制限する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "G-12",
       "title": "パッティンググリーンからのストロークのためにプレーの線を読む支援となる資料の使用の禁止",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "H-1",
       "title": "キャディーの使用を禁止したり、要求する；キャディーの制限",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "H-2",
       "title": "チーム競技でアドバイス・ギバーを指名する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "H-3",
       "title": "チームキャプテンになることができる人の制限",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "H-4",
       "title": "アドバイス・ギバーをプレーヤーサイドの一部として扱う",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "H-5",
       "title": "アドバイス：同じ組のチームメンバー",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "I-1",
       "title": "ラウンド前の練習",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "I-2",
       "title": "直前のパッティンググリーン上やその近くでの練習を禁止する",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "J-1",
       "title": "プレーの中断と再開の方法",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "J-2",
       "title": "一時的な水の除去",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "K-1",
       "title": "ラウンドやラウンドの一部についての最大時間",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "K-2",
       "title": "ホール毎とショット毎のプレーのペースの方針",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "K-3",
       "title": "プレーのペースの罰の段階の修正",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "L-1",
       "title": "プレーヤーまたはマーカーの証明がないことに対するRule 3.3b(2)に基づく罰の修正",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "L-2",
       "title": "スコアカードのハンディキャップをプレーヤーの責任とする",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "M-1",
       "title": "車輪付きの移動器具を使用するプレーヤーのための球のプレース",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "M-2",
       "title": "車輪付き移動器具を使用するプレーヤーに対する特定のバンカーからの罰なしの救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "M-3",
       "title": "運動失調症やアテトーシスのプレーヤーのためのRule 10.1bの制限された例外",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     },
     {
       "id": "M-4",
       "title": "車輪付き移動器具を使用するプレーヤーのバンカー内・付近の限定的救済",
-      "status": "採用時のみ"
+      "status": "採用時のみ",
+      "source": "https://www.randa.org/rog/committee-procedures/8"
     }
   ],
   "clarificationGroups": [
@@ -4293,5 +4392,11 @@
     "nameSetMatched": true,
     "contentVerified": false,
     "complete": false
+  },
+  "navigationAudit": {
+    "verifiedOnDevice": false,
+    "evidence": [],
+    "checkedDate": "2026-10-29",
+    "note": "Official index link destinations populated; interactive end-to-end verification remains pending."
   }
 }
