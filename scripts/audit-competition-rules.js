@@ -12,9 +12,11 @@ if(mlr.length<91)errors.push('MLR index below known 2026 minimum: '+mlr.length);
 if(!mlr.some(x=>x.id==='E-14'))errors.push('2026 MLR E-14 missing');
 if(new Set(mlr.map(x=>x.id)).size!==mlr.length)errors.push('duplicate MLR codes');
 if(mlr.some(x=>!x.id||!x.title))errors.push('MLR with missing code or title');
+if(mlr.some(x=>!x.source?.startsWith('https://www.randa.org/')))errors.push('MLR official source URL missing');
 if(!Array.isArray(idx.officialMlrIds)||idx.officialMlrIds.length<91)errors.push('official MLR code-by-code source checklist missing; count alone cannot certify completeness');
 else for(const id of idx.officialMlrIds){if(!mlr.some(x=>x.id===id))errors.push('missing official MLR: '+id);}
 if((idx.committeeProcedures||[]).length!==9)errors.push('committee procedures sections incomplete: '+(idx.committeeProcedures||[]).length);
+if((idx.committeeProcedures||[]).some(x=>!x.source?.startsWith('https://www.randa.org/')))errors.push('committee section source URL missing');
 if((idx.clarificationGroups||[]).length!==24)errors.push('clarification groups incomplete: '+(idx.clarificationGroups||[]).length);
 if(!Array.isArray(idx.officialRuleSubrules)||idx.officialRuleSubrules.length<25)errors.push('official Rule 1-25 subrule-by-subrule checklist missing');
 else for(const x of idx.officialRuleSubrules){if(!x.rule||!Array.isArray(x.subrules)||!x.subrules.length)errors.push('incomplete official subrule mapping: '+x.rule);}
@@ -54,6 +56,9 @@ for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNum
   if(!mainHtml.includes(tab)||!indexHtml.includes(tab))errors.push('official navigation tab not wired in both pages: '+tab);
 }
 if(!mainHtml.includes('data-rule="25"')||!mainHtml.includes('data-rule="1"'))errors.push('Rule-number navigation missing');
+if(!mainHtml.includes('encodeURIComponent(x.id)')||!mainHtml.includes('&id=${encodeURIComponent(x.id)}'))errors.push('official index exact-ID deep link missing');
+if(!indexHtml.includes('exactId')||!indexHtml.includes('x.id===exactId'))errors.push('official index exact-ID selection missing');
+if(!indexHtml.includes('(x.url||x.source)'))errors.push('official source fallback link missing');
 if(new Set((idx.definitions||[]).map(x=>x.officialTerm)).size!==74)errors.push('Definitions official English terms are missing or duplicated');
 if((idx.definitions||[]).some(x=>!x.title||!x.officialTerm||!x.source?.includes('randa.org')))errors.push('Definitions lack bilingual names or official source');
 if(!idx.officialDefinitionsVerified?.nameSetMatched)errors.push('Definitions name set not checked against current official list');
