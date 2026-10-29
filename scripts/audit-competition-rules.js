@@ -18,6 +18,16 @@ if((idx.committeeProcedures||[]).length!==9)errors.push('committee procedures se
 if((idx.clarificationGroups||[]).length!==24)errors.push('clarification groups incomplete: '+(idx.clarificationGroups||[]).length);
 if(!Array.isArray(idx.officialRuleSubrules)||idx.officialRuleSubrules.length<25)errors.push('official Rule 1-25 subrule-by-subrule checklist missing');
 else for(const x of idx.officialRuleSubrules){if(!x.rule||!Array.isArray(x.subrules)||!x.subrules.length)errors.push('incomplete official subrule mapping: '+x.rule);}
+
+// Verified against R&A Rule 25 section headings (2026-10-29).
+const expected25=['25.1','25.2',...'abcdefgh'.split('').map(x=>'25.2'+x),'25.3',...'abcd'.split('').map(x=>'25.3'+x),'25.4',...'abcdefghijklmn'.split('').map(x=>'25.4'+x),'25.5',...'abcde'.split('').map(x=>'25.5'+x),'25.6','25.6a','25.6b'];
+const rule25=(idx.officialRuleSubrules||[]).find(x=>x.rule===25);
+const actual25=(rule25?.subrules||[]).map(x=>x.id);
+for(const id of expected25)if(!actual25.includes(id))errors.push('missing official Rule 25 subrule: '+id);
+for(const id of actual25)if(!expected25.includes(id))errors.push('unverified extra Rule 25 subrule: '+id);
+if(new Set(actual25).size!==actual25.length)errors.push('duplicate Rule 25 subrule');
+if(!rule25?.source?.includes('randa.org'))errors.push('Rule 25 official source URL missing');
+
 if(!Array.isArray(idx.clarifications)||!idx.clarifications.length)errors.push('individual Clarifications have not been indexed');
 if(!Array.isArray(idx.committeeProcedureItems)||idx.committeeProcedureItems.length<=9)errors.push('Committee Procedures subsection-by-subsection checklist missing');
 if(!idx.navigationAudit?.verifiedOnDevice)errors.push('search/category/Rule-number end-to-end navigation not verified on device');
