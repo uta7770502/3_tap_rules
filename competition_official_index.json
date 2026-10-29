@@ -1737,7 +1737,729 @@
   "committeeProcedureAudit": {
     "source": "https://www.randa.org/rog/committee-procedures",
     "checkedDate": "2026-10-29",
-    "scope": "first-level section headings only; nested numbered subheadings and full text not yet verified",
+    "scope": "53 first-level headings and 80 numbered subheadings indexed; content and full navigation not yet verified",
     "complete": false
-  }
+  },
+  "committeeProcedureNumberedItems": [
+    {
+      "id": "CP2A(1)",
+      "section": 2,
+      "parent": "CP2A",
+      "title": "境界の決定とマーキングの一般指針",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2A(2)",
+      "section": 2,
+      "parent": "CP2A",
+      "title": "コース内の境界のマーキング",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C(1)",
+      "section": 2,
+      "parent": "CP2C",
+      "title": "水のない区域をペナルティーエリアに指定する判断",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C(2)",
+      "section": 2,
+      "parent": "CP2C",
+      "title": "ペナルティーエリアの縁のマーキング方法",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C(3)",
+      "section": 2,
+      "parent": "CP2C",
+      "title": "ペナルティーエリアの縁を設定する位置",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C(4)",
+      "section": 2,
+      "parent": "CP2C",
+      "title": "赤・黄の区分を決める",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C(5)",
+      "section": 2,
+      "parent": "CP2C",
+      "title": "赤・黄の区分を変更する",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C(6)",
+      "section": 2,
+      "parent": "CP2C",
+      "title": "プレー禁止区域としての指定",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C(7)",
+      "section": 2,
+      "parent": "CP2C",
+      "title": "コースに隣接する水域",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2F(1)",
+      "section": 2,
+      "parent": "CP2F",
+      "title": "修理地に指定する区域の判断",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2F(2)",
+      "section": 2,
+      "parent": "CP2F",
+      "title": "修理地の縁の表示方法",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2G(1)",
+      "section": 2,
+      "parent": "CP2G",
+      "title": "プレー禁止区域に指定できる対象",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2G(2)",
+      "section": 2,
+      "parent": "CP2G",
+      "title": "プレー禁止区域の表示方法",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2I(1)",
+      "section": 2,
+      "parent": "CP2I",
+      "title": "ドロップゾーンを使用する場合",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2I(2)",
+      "section": 2,
+      "parent": "CP2I",
+      "title": "ドロップゾーンの設置場所",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP4A(1)",
+      "section": 4,
+      "parent": "CP4A",
+      "title": "スタート間隔",
+      "source": "https://www.randa.org/rog/committee-procedures/4",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP4A(2)",
+      "section": 4,
+      "parent": "CP4A",
+      "title": "プレーのペース方針",
+      "source": "https://www.randa.org/rog/committee-procedures/4",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP4A(3)",
+      "section": 4,
+      "parent": "CP4A",
+      "title": "行動規範方針",
+      "source": "https://www.randa.org/rog/committee-procedures/4",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(1)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "参加資格",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(2)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "エントリー要件と期限",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(3)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "競技形式とハンディキャップ",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(4)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "その他のプレー形式の条件",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(5)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "スコアカード提出の成立時点",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(6)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "タイの決定方法",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(7)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "競技結果の確定時点",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(8)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "競技開始後の競技条件の変更",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A(9)",
+      "section": 5,
+      "parent": "CP5A",
+      "title": "アンチドーピング",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5B(1)",
+      "section": 5,
+      "parent": "CP5B",
+      "title": "アウトオブバウンズ",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5B(2)",
+      "section": 5,
+      "parent": "CP5B",
+      "title": "ペナルティーエリア",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5B(3)",
+      "section": 5,
+      "parent": "CP5B",
+      "title": "バンカー",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5B(4)",
+      "section": 5,
+      "parent": "CP5B",
+      "title": "異常なコース状態と不可分な物",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5B(5)",
+      "section": 5,
+      "parent": "CP5B",
+      "title": "プレー禁止区域",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5B(6)",
+      "section": 5,
+      "parent": "CP5B",
+      "title": "臨時の障害物",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5F(1)",
+      "section": 5,
+      "parent": "CP5F",
+      "title": "ティーイングエリアの選定",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5F(2)",
+      "section": 5,
+      "parent": "CP5F",
+      "title": "ホール位置の選定",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5G(1)",
+      "section": 5,
+      "parent": "CP5G",
+      "title": "組合せの決定",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5G(2)",
+      "section": 5,
+      "parent": "CP5G",
+      "title": "スタート時刻と組",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5G(3)",
+      "section": 5,
+      "parent": "CP5G",
+      "title": "マーカー",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5G(4)",
+      "section": 5,
+      "parent": "CP5G",
+      "title": "スタート区域",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5I(1)",
+      "section": 5,
+      "parent": "CP5I",
+      "title": "行動規範の設定",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5I(2)",
+      "section": 5,
+      "parent": "CP5I",
+      "title": "行動規範で許容・禁止できる事項",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5I(3)",
+      "section": 5,
+      "parent": "CP5I",
+      "title": "行動規範違反の罰の設定",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5I(4)",
+      "section": 5,
+      "parent": "CP5I",
+      "title": "行動規範の罰の段階例",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5I(5)",
+      "section": 5,
+      "parent": "CP5I",
+      "title": "ゲームの精神と重大な非行",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J(1)",
+      "section": 5,
+      "parent": "CP5J",
+      "title": "ローカルルール",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J(2)",
+      "section": 5,
+      "parent": "CP5J",
+      "title": "組合せ表",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J(3)",
+      "section": 5,
+      "parent": "CP5J",
+      "title": "ホール位置表",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J(4)",
+      "section": 5,
+      "parent": "CP5J",
+      "title": "スコアカードとハンディキャップストローク指数",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J(5)",
+      "section": 5,
+      "parent": "CP5J",
+      "title": "ペースと行動規範",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J(6)",
+      "section": 5,
+      "parent": "CP5J",
+      "title": "避難計画",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J(7)",
+      "section": 5,
+      "parent": "CP5J",
+      "title": "バックストッピング防止の説明",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6B(1)",
+      "section": 6,
+      "parent": "CP6B",
+      "title": "ラウンド中のコース整備",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6B(2)",
+      "section": 6,
+      "parent": "CP6B",
+      "title": "ホール位置とティーイングエリアの設定",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(1)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "レフェリーと委員の職務・権限",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(2)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "レフェリーが規則違反を誤って認めた場合",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(3)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "違反直前の競技者への警告",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(4)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "レフェリーの裁定への異議",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(5)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "競技者が正しい情報を伝える責任",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(6)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "事実認定の方法",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(7)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "マッチの実際の状況を確定できない場合",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(8)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "適用されない規則で処置した場合",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(9)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "マッチプレーでの誤裁定",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(10)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "ストロークプレーでの誤裁定",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C(11)",
+      "section": 6,
+      "parent": "CP6C",
+      "title": "マッチプレーとストロークプレーの併用",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E(1)",
+      "section": 6,
+      "parent": "CP6E",
+      "title": "即時中断と通常の中断",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E(2)",
+      "section": 6,
+      "parent": "CP6E",
+      "title": "中断・再開の判断",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E(3)",
+      "section": 6,
+      "parent": "CP6E",
+      "title": "プレーの再開",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E(4)",
+      "section": 6,
+      "parent": "CP6E",
+      "title": "ラウンドの取り消し",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E(5)",
+      "section": 6,
+      "parent": "CP6E",
+      "title": "天候を理由にスタート・プレーを拒む場合",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E(6)",
+      "section": 6,
+      "parent": "CP6E",
+      "title": "グリーン上の一時的な水やルースインペディメントの除去",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E(7)",
+      "section": 6,
+      "parent": "CP6E",
+      "title": "コース閉鎖を知らずに開始したマッチ",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6F(1)",
+      "section": 6,
+      "parent": "CP6F",
+      "title": "マッチプレーのスコア",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6F(2)",
+      "section": 6,
+      "parent": "CP6F",
+      "title": "ストロークプレーのスコア",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6G(1)",
+      "section": 6,
+      "parent": "CP6G",
+      "title": "カットと組の再編",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6G(2)",
+      "section": 6,
+      "parent": "CP6G",
+      "title": "マッチプレーの棄権・失格",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6G(3)",
+      "section": 6,
+      "parent": "CP6G",
+      "title": "ストロークプレーの棄権・失格",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6G(4)",
+      "section": 6,
+      "parent": "CP6G",
+      "title": "マッチプレーへの予選",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6G(5)",
+      "section": 6,
+      "parent": "CP6G",
+      "title": "ハンディキャップ誤適用が組合せに影響した場合",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP7A(1)",
+      "section": 7,
+      "parent": "CP7A",
+      "title": "ストロークプレーのプレーオフにおける失格・敗北容認",
+      "source": "https://www.randa.org/rog/committee-procedures/7",
+      "level": "numbered",
+      "contentAudited": false
+    },
+    {
+      "id": "CP7A(2)",
+      "section": 7,
+      "parent": "CP7A",
+      "title": "プレーオフを全員が完了しなかった場合",
+      "source": "https://www.randa.org/rog/committee-procedures/7",
+      "level": "numbered",
+      "contentAudited": false
+    }
+  ]
 }
