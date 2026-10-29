@@ -24,7 +24,10 @@ for(const x of idx.officialRuleSubrules||[]){
   if(new Set(ids).size!==ids.length)errors.push('duplicate subrule ID in Rule '+x.rule);
   for(const sub of x.subrules||[])if(!sub.id||!sub.title||!sub.url?.includes('randa.org'))errors.push('unlinked official subrule in Rule '+x.rule);
 }
-if((idx.officialRuleSubrules||[]).some(x=>x.verificationScope?.includes('pending')))errors.push('Rule subrule headings have not been mapped to verified cases');
+const caseRuleIds=new Set(rules.map(x=>String(x.rule).trim()));
+const unlinkedSubrules=(idx.officialRuleSubrules||[]).flatMap(g=>(g.subrules||[]).filter(x=>!caseRuleIds.has(x.id)&&!(Array.isArray(x.verifiedCaseIds)&&x.verifiedCaseIds.length)).map(x=>x.id));
+if(unlinkedSubrules.length)errors.push(unlinkedSubrules.length+' official subrules lack an explicit case ID or reviewed cross-reference: '+unlinkedSubrules.slice(0,15).join(', '));
+if((idx.officialRuleSubrules||[]).some(x=>x.verificationScope?.includes('pending')))errors.push('Rule subrule full-text and case review incomplete');
 
 // Verified against R&A Rule 25 section headings (2026-10-29).
 const expected25=['25.1','25.2',...'abcdefgh'.split('').map(x=>'25.2'+x),'25.3',...'abcd'.split('').map(x=>'25.3'+x),'25.4',...'abcdefghijklmn'.split('').map(x=>'25.4'+x),'25.5',...'abcde'.split('').map(x=>'25.5'+x),'25.6','25.6a','25.6b'];
@@ -56,5 +59,5 @@ if((idx.definitions||[]).some(x=>!x.title||!x.officialTerm||!x.source?.includes(
 if(!idx.officialDefinitionsVerified?.nameSetMatched)errors.push('Definitions name set not checked against current official list');
 if(!idx.officialDefinitionsVerified?.complete)errors.push('Definitions full content review remains incomplete');
 if(!idx.navigationAudit?.verifiedOnDevice||!idx.navigationAudit?.evidence?.length)errors.push('end-to-end search/category/Rule-number navigation has no recorded verification evidence');
-console.log(JSON.stringify({ok:!errors.length,cases:rules.length,definitions:(idx.definitions||[]).length,mlr:(idx.modelLocalRules||[]).length,individualClarifications:(idx.clarifications||[]).length,committee:(idx.committeeProcedures||[]).length,committeeFirstLevel:firstLevel.length,committeeNumbered:numbered.length,clarificationGroups:(idx.clarificationGroups||[]).length,errors},null,2));
+console.log(JSON.stringify({ok:!errors.length,cases:rules.length,definitions:(idx.definitions||[]).length,mlr:(idx.modelLocalRules||[]).length,individualClarifications:(idx.clarifications||[]).length,committee:(idx.committeeProcedures||[]).length,committeeFirstLevel:firstLevel.length,committeeNumbered:numbered.length,clarificationGroups:(idx.clarificationGroups||[]).length,subruleGroups:(idx.officialRuleSubrules||[]).length,unlinkedSubrules:unlinkedSubrules.length,errors},null,2));
 if(errors.length)process.exitCode=1;
