@@ -4,299 +4,447 @@
   "definitions": [
     {
       "id": "D1",
-      "title": "アウトオブバウンズ"
+      "title": "アウトオブバウンズ",
+      "officialTerm": "Out of Bounds",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D2",
-      "title": "アドバイス"
+      "title": "アドバイス",
+      "officialTerm": "Advice",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D3",
-      "title": "インプレー"
+      "title": "インプレー",
+      "officialTerm": "In Play",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D4",
-      "title": "オナー"
+      "title": "オナー",
+      "officialTerm": "Honour",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D5",
-      "title": "キャディー"
+      "title": "キャディー",
+      "officialTerm": "Caddie",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D6",
-      "title": "クラブレングス"
+      "title": "クラブレングス",
+      "officialTerm": "Club-Length",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D7",
-      "title": "コース"
+      "title": "コース",
+      "officialTerm": "Course",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D8",
-      "title": "コースエリア"
+      "title": "コースエリア",
+      "officialTerm": "Areas of the Course",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D9",
-      "title": "サイド"
+      "title": "サイド",
+      "officialTerm": "Side",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D10",
-      "title": "ジェネラルエリア"
+      "title": "ジェネラルエリア",
+      "officialTerm": "General Area",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D11",
-      "title": "スコアカード"
+      "title": "スコアカード",
+      "officialTerm": "Scorecard",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D12",
-      "title": "スタンス"
+      "title": "スタンス",
+      "officialTerm": "Stance",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D13",
-      "title": "ステーブルフォード"
+      "title": "ステーブルフォード",
+      "officialTerm": "Stableford",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D14",
-      "title": "ストローク"
+      "title": "ストローク",
+      "officialTerm": "Stroke",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D15",
-      "title": "ストロークと距離"
+      "title": "ストロークと距離",
+      "officialTerm": "Stroke and Distance",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D16",
-      "title": "ストロークに影響を及ぼす状態"
+      "title": "ストロークに影響を及ぼす状態",
+      "officialTerm": "Conditions Affecting the Stroke",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D17",
-      "title": "ストロークプレー"
+      "title": "ストロークプレー",
+      "officialTerm": "Stroke Play",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D18",
-      "title": "スリーボール"
+      "title": "スリーボール",
+      "officialTerm": "Three-Ball",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D19",
-      "title": "ティー"
+      "title": "ティー",
+      "officialTerm": "Tee",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D20",
-      "title": "ティーイングエリア"
+      "title": "ティーイングエリア",
+      "officialTerm": "Teeing Area",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D21",
-      "title": "ドロップ"
+      "title": "ドロップ",
+      "officialTerm": "Drop",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D22",
-      "title": "パー/ボギー"
+      "title": "パー/ボギー",
+      "officialTerm": "Par/Bogey",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D23",
-      "title": "パートナー"
+      "title": "パートナー",
+      "officialTerm": "Partner",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D24",
-      "title": "パッティンググリーン"
+      "title": "パッティンググリーン",
+      "officialTerm": "Putting Green",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D25",
-      "title": "バンカー"
+      "title": "バンカー",
+      "officialTerm": "Bunker",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D26",
-      "title": "フォアサム"
+      "title": "フォアサム",
+      "officialTerm": "Foursomes",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D27",
-      "title": "フォアボール"
+      "title": "フォアボール",
+      "officialTerm": "Four-Ball",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D28",
-      "title": "プレーの線"
+      "title": "プレーの線",
+      "officialTerm": "Line of Play",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D29",
-      "title": "プレー禁止区域"
+      "title": "プレー禁止区域",
+      "officialTerm": "No Play Zone",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D30",
-      "title": "ペナルティーエリア"
+      "title": "ペナルティーエリア",
+      "officialTerm": "Penalty Area",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D31",
-      "title": "ホール"
+      "title": "ホール",
+      "officialTerm": "Hole",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D32",
-      "title": "ホールに入る"
+      "title": "ホールに入る",
+      "officialTerm": "Holed",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D33",
-      "title": "ボールマーカー"
+      "title": "ボールマーカー",
+      "officialTerm": "Ball-Marker",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D34",
-      "title": "マーカー"
+      "title": "マーカー",
+      "officialTerm": "Marker",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D35",
-      "title": "マーク"
+      "title": "マーク",
+      "officialTerm": "Mark",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D36",
-      "title": "マッチプレー"
+      "title": "マッチプレー",
+      "officialTerm": "Match Play",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D37",
-      "title": "ライ"
+      "title": "ライ",
+      "officialTerm": "Lie",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D38",
-      "title": "ラウンド"
+      "title": "ラウンド",
+      "officialTerm": "Round",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D39",
-      "title": "リプレース"
+      "title": "リプレース",
+      "officialTerm": "Replace",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D40",
-      "title": "ルースインペディメント"
+      "title": "ルースインペディメント",
+      "officialTerm": "Loose Impediment",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D41",
-      "title": "レフェリー"
+      "title": "レフェリー",
+      "officialTerm": "Referee",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D42",
-      "title": "委員会"
+      "title": "委員会",
+      "officialTerm": "Committee",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D43",
-      "title": "異常なコース状態"
+      "title": "異常なコース状態",
+      "officialTerm": "Abnormal Course Condition",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D44",
-      "title": "一時的な水"
+      "title": "一時的な水",
+      "officialTerm": "Temporary Water",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D45",
-      "title": "一般の罰"
+      "title": "一般の罰",
+      "officialTerm": "General Penalty",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D46",
-      "title": "改善"
+      "title": "改善",
+      "officialTerm": "Improve",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D47",
-      "title": "外的影響"
+      "title": "外的影響",
+      "officialTerm": "Outside Influence",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D48",
-      "title": "完全な救済のニヤレストポイント"
+      "title": "完全な救済のニヤレストポイント",
+      "officialTerm": "Nearest Point of Complete Relief",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D49",
-      "title": "旗竿"
+      "title": "旗竿",
+      "officialTerm": "Flagstick",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D50",
-      "title": "救済エリア"
+      "title": "救済エリア",
+      "officialTerm": "Relief Area",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D51",
-      "title": "境界物"
+      "title": "境界物",
+      "officialTerm": "Boundary Object",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D52",
-      "title": "誤球"
+      "title": "誤球",
+      "officialTerm": "Wrong Ball",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D53",
-      "title": "誤所"
+      "title": "誤所",
+      "officialTerm": "Wrong Place",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D54",
-      "title": "最大スコア"
+      "title": "最大スコア",
+      "officialTerm": "Maximum Score",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D55",
-      "title": "最大限の救済を受けることができるポイント"
+      "title": "最大限の救済を受けることができるポイント",
+      "officialTerm": "Point of Maximum Available Relief",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D56",
-      "title": "暫定球"
+      "title": "暫定球",
+      "officialTerm": "Provisional Ball",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D57",
-      "title": "自然の力"
+      "title": "自然の力",
+      "officialTerm": "Natural Forces",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D58",
-      "title": "取り替え"
+      "title": "取り替え",
+      "officialTerm": "Substitute",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D59",
-      "title": "修理地"
+      "title": "修理地",
+      "officialTerm": "Ground Under Repair",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D60",
-      "title": "重大な違反"
+      "title": "重大な違反",
+      "officialTerm": "Serious Breach",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D61",
-      "title": "障害物"
+      "title": "障害物",
+      "officialTerm": "Obstruction",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D62",
-      "title": "相手"
+      "title": "相手",
+      "officialTerm": "Opponent",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D63",
-      "title": "地面にくい込む"
+      "title": "地面にくい込む",
+      "officialTerm": "Embedded",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D64",
-      "title": "動いた"
+      "title": "動いた",
+      "officialTerm": "Moved",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D65",
-      "title": "動かせない障害物"
+      "title": "動かせない障害物",
+      "officialTerm": "Immovable Obstruction",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D66",
-      "title": "動かせる障害物"
+      "title": "動かせる障害物",
+      "officialTerm": "Movable Obstruction",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D67",
-      "title": "動物"
+      "title": "動物",
+      "officialTerm": "Animal",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D68",
-      "title": "動物の穴"
+      "title": "動物の穴",
+      "officialTerm": "Animal Hole",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D69",
-      "title": "不可分な物"
+      "title": "不可分な物",
+      "officialTerm": "Integral Object",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D70",
-      "title": "分かっている、または事実上確実"
+      "title": "分かっている、または事実上確実",
+      "officialTerm": "Known or Virtually Certain",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D71",
-      "title": "紛失"
+      "title": "紛失",
+      "officialTerm": "Lost",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D72",
-      "title": "目的外グリーン"
+      "title": "目的外グリーン",
+      "officialTerm": "Wrong Green",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D73",
-      "title": "用具"
+      "title": "用具",
+      "officialTerm": "Equipment",
+      "source": "https://www.randa.org/rog/definitions"
     },
     {
       "id": "D74",
-      "title": "用具規則"
+      "title": "用具規則",
+      "officialTerm": "Equipment Rules",
+      "source": "https://www.randa.org/rog/definitions"
     }
   ],
   "committeeProcedures": [
@@ -2461,5 +2609,12 @@
       "level": "numbered",
       "contentAudited": false
     }
-  ]
+  ],
+  "officialDefinitionsVerified": {
+    "checkedDate": "2026-10-29",
+    "source": "https://www.randa.org/rog/definitions",
+    "nameSetMatched": true,
+    "contentVerified": false,
+    "complete": false
+  }
 }
