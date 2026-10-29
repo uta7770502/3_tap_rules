@@ -1254,5 +1254,490 @@
         }
       ]
     }
-  ]
+  ],
+  "committeeProcedureItems": [
+    {
+      "id": "CP1A",
+      "section": 1,
+      "title": "一般プレー",
+      "english": "General Play",
+      "source": "https://www.randa.org/rog/committee-procedures/1",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP1B",
+      "section": 1,
+      "title": "競技",
+      "english": "Competitions",
+      "source": "https://www.randa.org/rog/committee-procedures/1",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2A",
+      "section": 2,
+      "title": "アウトオブバウンズ",
+      "english": "Out of Bounds",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2B",
+      "section": 2,
+      "title": "ティーイングエリア",
+      "english": "Teeing Areas",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2C",
+      "section": 2,
+      "title": "ペナルティーエリア",
+      "english": "Penalty Areas",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2D",
+      "section": 2,
+      "title": "バンカー",
+      "english": "Bunkers",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2E",
+      "section": 2,
+      "title": "パッティンググリーン",
+      "english": "Putting Greens",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2F",
+      "section": 2,
+      "title": "異常なコース状態",
+      "english": "Abnormal Course Conditions",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2G",
+      "section": 2,
+      "title": "プレー禁止区域",
+      "english": "No Play Zones",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2H",
+      "section": 2,
+      "title": "不可分な物",
+      "english": "Integral Objects",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP2I",
+      "section": 2,
+      "title": "ドロップゾーン",
+      "english": "Dropping Zones",
+      "source": "https://www.randa.org/rog/committee-procedures/2",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP3",
+      "section": 3,
+      "title": "一般プレーのローカルルール",
+      "english": "Local Rules for General Play",
+      "source": "https://www.randa.org/rog/committee-procedures/3",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP4A",
+      "section": 4,
+      "title": "プレーのペースと行動規範",
+      "english": "Pace of Play and Code of Conduct",
+      "source": "https://www.randa.org/rog/committee-procedures/4",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP4B",
+      "section": 4,
+      "title": "プレーの中断",
+      "english": "Suspending Play",
+      "source": "https://www.randa.org/rog/committee-procedures/4",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP4C",
+      "section": 4,
+      "title": "規則に関する支援",
+      "english": "Providing Rules Support",
+      "source": "https://www.randa.org/rog/committee-procedures/4",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5A",
+      "section": 5,
+      "title": "競技の条件の設定",
+      "english": "Setting the Terms of the Competition",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5B",
+      "section": 5,
+      "title": "コースのマーキング",
+      "english": "Marking the Course",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5C",
+      "section": 5,
+      "title": "ローカルルール",
+      "english": "Local Rules",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5D",
+      "section": 5,
+      "title": "Rule 25適用資格",
+      "english": "Eligibility Requirements for Players with Disabilities to use Rule 25",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5E",
+      "section": 5,
+      "title": "練習区域の指定",
+      "english": "Defining Practice Areas",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5F",
+      "section": 5,
+      "title": "ティーとホール位置",
+      "english": "Teeing Areas and Hole Locations",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5G",
+      "section": 5,
+      "title": "組合せ・組・スタート時間",
+      "english": "Draw, Groups and Starting Times",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5H",
+      "section": 5,
+      "title": "プレーのペース方針",
+      "english": "Pace of Play Policy",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5I",
+      "section": 5,
+      "title": "行動規範方針",
+      "english": "Code of Conduct Policy",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP5J",
+      "section": 5,
+      "title": "競技者とレフェリーへの情報",
+      "english": "Information for Players and Referees",
+      "source": "https://www.randa.org/rog/committee-procedures/5",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6A",
+      "section": 6,
+      "title": "スタート",
+      "english": "Starting",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6B",
+      "section": 6,
+      "title": "コース",
+      "english": "The Course",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6C",
+      "section": 6,
+      "title": "競技者への規則支援",
+      "english": "Providing Rules Assistance to Players",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6D",
+      "section": 6,
+      "title": "プレーのペースの運用",
+      "english": "Enforcing Pace of Play",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6E",
+      "section": 6,
+      "title": "中断と再開",
+      "english": "Suspensions and Resumptions",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6F",
+      "section": 6,
+      "title": "スコア処理",
+      "english": "Scoring",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP6G",
+      "section": 6,
+      "title": "カット・組合せ・組の再編",
+      "english": "Making Cuts; Establishing Draws; Creating New Groups",
+      "source": "https://www.randa.org/rog/committee-procedures/6",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP7A",
+      "section": 7,
+      "title": "ストロークプレーのタイの決定",
+      "english": "Resolving Ties in Stroke Play",
+      "source": "https://www.randa.org/rog/committee-procedures/7",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP7B",
+      "section": 7,
+      "title": "結果の確定",
+      "english": "Finalizing Results",
+      "source": "https://www.randa.org/rog/committee-procedures/7",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP7C",
+      "section": 7,
+      "title": "賞の授与",
+      "english": "Awarding Prizes",
+      "source": "https://www.randa.org/rog/committee-procedures/7",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP7D",
+      "section": 7,
+      "title": "競技終了後の規則・スコア問題",
+      "english": "Rules or Scoring Issues Arising After Competition",
+      "source": "https://www.randa.org/rog/committee-procedures/7",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8A",
+      "section": 8,
+      "title": "境界とOB",
+      "english": "Course Boundaries and Out of Bounds",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8B",
+      "section": 8,
+      "title": "ペナルティーエリア",
+      "english": "Penalty Areas",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8C",
+      "section": 8,
+      "title": "バンカー",
+      "english": "Bunkers",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8D",
+      "section": 8,
+      "title": "グリーン",
+      "english": "Putting Greens",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8E",
+      "section": 8,
+      "title": "特別・義務的な救済",
+      "english": "Special or Required Relief Procedures",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8F",
+      "section": 8,
+      "title": "異常なコース状態と不可分な物",
+      "english": "Abnormal Course Conditions and Integral Objects",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8G",
+      "section": 8,
+      "title": "用具使用制限",
+      "english": "Restrictions on Use of Specific Equipment",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8H",
+      "section": 8,
+      "title": "援助とアドバイス",
+      "english": "Defining Who May Help or Give Advice",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8I",
+      "section": 8,
+      "title": "練習の場所と時期",
+      "english": "Defining When and Where Players May Practise",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8J",
+      "section": 8,
+      "title": "悪天候と中断",
+      "english": "Bad Weather and Suspensions",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8K",
+      "section": 8,
+      "title": "プレーのペース",
+      "english": "Pace of Play Policies",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8L",
+      "section": 8,
+      "title": "スコアカード",
+      "english": "Scorecard Responsibilities",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP8M",
+      "section": 8,
+      "title": "障害のあるプレーヤー",
+      "english": "Players with Disabilities",
+      "source": "https://www.randa.org/rog/committee-procedures/8",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP9A",
+      "section": 9,
+      "title": "修正ステーブルフォード",
+      "english": "Modified Stableford",
+      "source": "https://www.randa.org/rog/committee-procedures/9",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP9B",
+      "section": 9,
+      "title": "グリーンサム",
+      "english": "Greensomes",
+      "source": "https://www.randa.org/rog/committee-procedures/9",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP9C",
+      "section": 9,
+      "title": "スクランブル",
+      "english": "Scramble",
+      "source": "https://www.randa.org/rog/committee-procedures/9",
+      "level": "first-level",
+      "contentAudited": false
+    },
+    {
+      "id": "CP9D",
+      "section": 9,
+      "title": "4人中ベスト2スコア採用",
+      "english": "Best Two of Four Scores to Count",
+      "source": "https://www.randa.org/rog/committee-procedures/9",
+      "level": "first-level",
+      "contentAudited": false
+    }
+  ],
+  "committeeProcedureAudit": {
+    "source": "https://www.randa.org/rog/committee-procedures",
+    "checkedDate": "2026-10-29",
+    "scope": "first-level section headings only; nested numbered subheadings and full text not yet verified",
+    "complete": false
+  }
 }
