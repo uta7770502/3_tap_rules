@@ -17,7 +17,7 @@ function textOf(r){return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...
 function draw(){
   const v=q.value.trim().toLowerCase();
   const om=document.getElementById("officialMatches");
-  const oa=v?official.filter(x=>(x.id+" "+x.title).toLowerCase().includes(v)):(mode.type==="rule"?official.filter(x=>x.tab==="rule25Subrules"&&parseInt(x.id,10)===Number(mode.value)):[]);
+  const oa=v?official.filter(x=>(x.id+" "+x.title+" "+(x.officialTerm||"")+" "+(x.english||"")).toLowerCase().includes(v)):(mode.type==="rule"?official.filter(x=>x.tab==="rule25Subrules"&&parseInt(x.id,10)===Number(mode.value)):[]);
   om.innerHTML=oa.length?`<div class="navTitle">公式索引の一致</div>${oa.map(x=>`<a class="item" style="display:block;text-decoration:none;color:inherit" href="competition_official_index.html?tab=${encodeURIComponent(x.tab)}&q=${encodeURIComponent(x.id)}"><div class="rule">公式索引 ・ ${esc(x.id)}</div><h2>${esc(x.title)}</h2></a>`).join("")}`:"";
   let a=rules.filter(r=>!v||textOf(r).includes(v));
   if(!v&&mode.type==="rule")a=a.filter(r=>parseInt(String(r.rule),10)===Number(mode.value));
