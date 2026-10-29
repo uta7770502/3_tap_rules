@@ -1901,6 +1901,366 @@
       ]
     },
     {
+      "rule": 11,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-11",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "11.1",
+          "title": "動いている球が偶然人・外的影響に当たる",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        },
+        {
+          "id": "11.1a",
+          "title": "競技者への罰",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        },
+        {
+          "id": "11.1b",
+          "title": "球をプレーすべき場所",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        },
+        {
+          "id": "11.2",
+          "title": "動いている球を故意に方向変更・停止",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        },
+        {
+          "id": "11.2a",
+          "title": "適用条件",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        },
+        {
+          "id": "11.2b",
+          "title": "競技者に罰が適用される場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        },
+        {
+          "id": "11.2c",
+          "title": "故意に止められた球の処置",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        },
+        {
+          "id": "11.3",
+          "title": "動いている球に影響するため物を除去・状態を変更",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-11"
+        }
+      ]
+    },
+    {
+      "rule": 12,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-12",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "12.1",
+          "title": "球がバンカー内にある場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-12"
+        },
+        {
+          "id": "12.2",
+          "title": "バンカー内の球のプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-12"
+        },
+        {
+          "id": "12.2a",
+          "title": "ルースインペディメント・動かせる障害物の除去",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-12"
+        },
+        {
+          "id": "12.2b",
+          "title": "バンカーの砂に触れる制限",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-12"
+        },
+        {
+          "id": "12.3",
+          "title": "バンカー内の球の救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-12"
+        }
+      ]
+    },
+    {
+      "rule": 13,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-13",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "13.1",
+          "title": "グリーン上で認められる・必要な行為",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.1a",
+          "title": "球がグリーン上にある場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.1b",
+          "title": "グリーン上の球のマーク・拾い上げ・清掃",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.1c",
+          "title": "グリーン上で認められる改善",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.1d",
+          "title": "グリーン上で球・マーカーが動いた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.1e",
+          "title": "グリーンの故意のテスト禁止",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.1f",
+          "title": "目的外グリーンからの救済義務",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.2",
+          "title": "旗竿",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.2a",
+          "title": "旗竿を立てたままプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.2b",
+          "title": "旗竿を抜く",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.2c",
+          "title": "球がホール内の旗竿に寄りかかる",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.3",
+          "title": "ホールの縁にかかる球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.3a",
+          "title": "球が落ちるか待つ時間",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        },
+        {
+          "id": "13.3b",
+          "title": "待機時間終了前に球が動かされた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-13"
+        }
+      ]
+    },
+    {
+      "rule": 14,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-14",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "14.1",
+          "title": "球のマーク・拾い上げ・清掃",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.1a",
+          "title": "拾い上げる球の位置をマークする義務",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.1b",
+          "title": "球を拾い上げられる人",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.1c",
+          "title": "球の清掃",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.2",
+          "title": "元の場所へのリプレース",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.2a",
+          "title": "元の球の使用",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.2b",
+          "title": "リプレースできる人と方法",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.2c",
+          "title": "リプレースする位置",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.2d",
+          "title": "元のライが変わった場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.2e",
+          "title": "リプレースした球が止まらない場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.3",
+          "title": "救済エリアへのドロップ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.3a",
+          "title": "元の球または別の球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.3b",
+          "title": "正しいドロップ方法",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.3c",
+          "title": "救済エリア内に止まる必要",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.3d",
+          "title": "ドロップ球が故意に方向変更・停止された場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.4",
+          "title": "球が再びインプレーとなる時点",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.5",
+          "title": "取り替え・リプレース・ドロップ・プレースの誤り訂正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.5a",
+          "title": "プレー前の誤り訂正",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.5b",
+          "title": "誤り訂正時の別規則・別救済選択",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.5c",
+          "title": "誤りの後に行った行為の罰",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.6",
+          "title": "前のストローク地点から次を打つ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.6a",
+          "title": "前のストロークがティーイングエリアから",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.6b",
+          "title": "前のストロークがジェネラルエリア・ペナルティーエリア・バンカーから",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.6c",
+          "title": "前のストロークがグリーンから",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.7",
+          "title": "誤所からのプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.7a",
+          "title": "球をプレーすべき場所",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        },
+        {
+          "id": "14.7b",
+          "title": "ストロークプレーで誤所からプレーした後のホール完了",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-14"
+        }
+      ]
+    },
+    {
+      "rule": 15,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-15",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "15.1",
+          "title": "ルースインペディメント",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.1a",
+          "title": "ルースインペディメントの除去",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.1b",
+          "title": "除去時に球が動いた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.2",
+          "title": "動かせる障害物",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.2a",
+          "title": "動かせる障害物からの救済",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.2b",
+          "title": "動かせる障害物の中・上で球が見つからない場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.3",
+          "title": "プレーを助け・妨げる球やマーカー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.3a",
+          "title": "プレーを助けるグリーン上の球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.3b",
+          "title": "プレーを妨げるコース上の球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        },
+        {
+          "id": "15.3c",
+          "title": "プレーを助け・妨げるマーカー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-15"
+        }
+      ]
+    },
+    {
       "rule": 25,
       "source": "https://www.randa.org/rog/the-rules-of-golf/rule-25",
       "verifiedDate": "2026-10-29",
