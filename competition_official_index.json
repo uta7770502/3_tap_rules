@@ -1201,6 +1201,351 @@
   },
   "officialRuleSubrules": [
     {
+      "rule": 1,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-1",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "1.1",
+          "title": "ゴルフゲーム",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        },
+        {
+          "id": "1.2",
+          "title": "競技者の行動基準",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        },
+        {
+          "id": "1.2a",
+          "title": "全競技者に期待される行動",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        },
+        {
+          "id": "1.2b",
+          "title": "行動規範",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        },
+        {
+          "id": "1.3",
+          "title": "規則に従うプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        },
+        {
+          "id": "1.3a",
+          "title": "規則と競技の条件",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        },
+        {
+          "id": "1.3b",
+          "title": "規則の適用",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        },
+        {
+          "id": "1.3c",
+          "title": "罰",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-1"
+        }
+      ]
+    },
+    {
+      "rule": 2,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-2",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "2.1",
+          "title": "コースの境界とアウトオブバウンズ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-2"
+        },
+        {
+          "id": "2.2",
+          "title": "コースの定義された区域",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-2"
+        },
+        {
+          "id": "2.2a",
+          "title": "ジェネラルエリア",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-2"
+        },
+        {
+          "id": "2.2b",
+          "title": "4つの特定区域",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-2"
+        },
+        {
+          "id": "2.2c",
+          "title": "球があるコース区域の決定",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-2"
+        },
+        {
+          "id": "2.3",
+          "title": "プレーを妨げる物・状態",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-2"
+        },
+        {
+          "id": "2.4",
+          "title": "プレー禁止区域",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-2"
+        }
+      ]
+    },
+    {
+      "rule": 3,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-3",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "3.1",
+          "title": "すべての競技の基本要素",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.1a",
+          "title": "マッチプレーとストロークプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.1b",
+          "title": "個人・パートナーでの競技",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.1c",
+          "title": "グロス・ネットスコア",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.2",
+          "title": "マッチプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.2a",
+          "title": "ホールとマッチの結果",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.2b",
+          "title": "コンシード",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.2c",
+          "title": "ハンディキャップマッチ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.2d",
+          "title": "競技者と相手の責任",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.3",
+          "title": "ストロークプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.3a",
+          "title": "ストロークプレーの勝者",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.3b",
+          "title": "ストロークプレーのスコア",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        },
+        {
+          "id": "3.3c",
+          "title": "ホールアウトしなかった場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"
+        }
+      ]
+    },
+    {
+      "rule": 4,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-4",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "4.1",
+          "title": "クラブ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.1a",
+          "title": "ストロークで使用できるクラブ",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.1b",
+          "title": "14本制限・共有・追加・交換",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.1c",
+          "title": "クラブをプレーから除外する手続",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.2",
+          "title": "球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.2a",
+          "title": "使用できる球",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.2b",
+          "title": "プレー中に球が割れた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.2c",
+          "title": "球に切れ目・ひびが生じた場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.3",
+          "title": "用具の使用",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.3a",
+          "title": "認められる用具使用と禁止行為",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        },
+        {
+          "id": "4.3b",
+          "title": "医療上の理由による用具",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-4"
+        }
+      ]
+    },
+    {
+      "rule": 5,
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-5",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "5.1",
+          "title": "ラウンドの意味",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.2",
+          "title": "ラウンド前・ラウンド間の練習",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.2a",
+          "title": "マッチプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.2b",
+          "title": "ストロークプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.3",
+          "title": "ラウンドの開始と終了",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.3a",
+          "title": "開始時間",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.3b",
+          "title": "ラウンド終了",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.4",
+          "title": "組でのプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.4a",
+          "title": "マッチプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.4b",
+          "title": "ストロークプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.5",
+          "title": "ラウンド中・中断中の練習",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.5a",
+          "title": "ホールプレー中の練習ストローク禁止",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.5b",
+          "title": "ホール終了後の練習制限",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.5c",
+          "title": "プレー中断中の練習",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.6",
+          "title": "不当の遅延・速やかなプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.6a",
+          "title": "不当の遅延",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.6b",
+          "title": "速やかなプレー",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.7",
+          "title": "プレーの中断と再開",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.7a",
+          "title": "プレーを止められる・止めなければならない場合",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.7b",
+          "title": "委員会による中断時の対応",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.7c",
+          "title": "プレー再開時の対応",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        },
+        {
+          "id": "5.7d",
+          "title": "中断時の拾い上げ・再開時のリプレースと取り替え",
+          "url": "https://www.randa.org/rog/the-rules-of-golf/rule-5"
+        }
+      ]
+    },
+    {
       "rule": 25,
       "source": "https://www.randa.org/rog/the-rules-of-golf/rule-25",
       "verifiedDate": "2026-10-29",
