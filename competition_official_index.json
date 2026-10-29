@@ -2493,6 +2493,74 @@
       ]
     },
     {
+      "rule": 20,
+      "source": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20",
+      "verifiedDate": "2026-10-29",
+      "verificationScope": "official subrule headings only; full text and case mapping pending",
+      "subrules": [
+        {
+          "id": "20.1",
+          "title": "ラウンド中の規則問題の解決",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.1a",
+          "title": "不当の遅延を避ける",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.1b",
+          "title": "マッチプレーの規則問題",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.1c",
+          "title": "ストロークプレーの規則問題",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.2",
+          "title": "裁定",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.2a",
+          "title": "レフェリーによる裁定",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.2b",
+          "title": "委員会による裁定",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.2c",
+          "title": "ビデオ証拠と肉眼基準",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.2d",
+          "title": "誤裁定と事務的誤り",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.2e",
+          "title": "結果確定後の失格",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.2f",
+          "title": "参加資格のない競技者",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        },
+        {
+          "id": "20.3",
+          "title": "規則に扱われていない状況",
+          "url": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20"
+        }
+      ]
+    },
+    {
       "rule": 21,
       "source": "https://www.randa.org/rog/the-rules-of-golf/rule-21",
       "verifiedDate": "2026-10-29",
