@@ -18,6 +18,13 @@ if((idx.committeeProcedures||[]).length!==9)errors.push('committee procedures se
 if((idx.clarificationGroups||[]).length!==24)errors.push('clarification groups incomplete: '+(idx.clarificationGroups||[]).length);
 if(!Array.isArray(idx.officialRuleSubrules)||idx.officialRuleSubrules.length<25)errors.push('official Rule 1-25 subrule-by-subrule checklist missing');
 else for(const x of idx.officialRuleSubrules){if(!x.rule||!Array.isArray(x.subrules)||!x.subrules.length)errors.push('incomplete official subrule mapping: '+x.rule);}
+for(const x of idx.officialRuleSubrules||[]){
+  if(!x.source?.includes('randa.org'))errors.push('official Rule source missing: '+x.rule);
+  const ids=(x.subrules||[]).map(s=>s.id);
+  if(new Set(ids).size!==ids.length)errors.push('duplicate subrule ID in Rule '+x.rule);
+  for(const sub of x.subrules||[])if(!sub.id||!sub.title||!sub.url?.includes('randa.org'))errors.push('unlinked official subrule in Rule '+x.rule);
+}
+if((idx.officialRuleSubrules||[]).some(x=>x.verificationScope?.includes('pending')))errors.push('Rule subrule headings have not been mapped to verified cases');
 
 // Verified against R&A Rule 25 section headings (2026-10-29).
 const expected25=['25.1','25.2',...'abcdefgh'.split('').map(x=>'25.2'+x),'25.3',...'abcd'.split('').map(x=>'25.3'+x),'25.4',...'abcdefghijklmn'.split('').map(x=>'25.4'+x),'25.5',...'abcde'.split('').map(x=>'25.5'+x),'25.6','25.6a','25.6b'];
@@ -40,7 +47,7 @@ for(const group of [firstLevel,numbered]){
 if(!idx.committeeProcedureAudit?.complete||[...firstLevel,...numbered].some(x=>!x.contentAudited))errors.push('Committee Procedures full-text/content review incomplete');
 const mainHtml=fs.readFileSync('competition_rules.html','utf8');
 const indexHtml=fs.readFileSync('competition_official_index.html','utf8');
-for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNumberedItems','clarificationGroups','modelLocalRules','rule25Subrules']){
+for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNumberedItems','clarificationGroups','modelLocalRules','ruleSubrules']){
   if(!mainHtml.includes(tab)||!indexHtml.includes(tab))errors.push('official navigation tab not wired in both pages: '+tab);
 }
 if(!mainHtml.includes('data-rule="25"')||!mainHtml.includes('data-rule="1"'))errors.push('Rule-number navigation missing');
