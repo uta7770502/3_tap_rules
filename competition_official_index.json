@@ -4847,6 +4847,62 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
       "verifiedDate": "2026-10-30",
       "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "6.1b(1)/1",
+      "title": "マッチプレーでティーイングエリアの外から球をプレーしたが、相手がそのストロークを取り消さない場合",
+      "rule": 6,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-6",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual code and heading checked against R&A Rule 6 index; full ruling content not audited"
+    },
+    {
+      "id": "6.2b(4)/1",
+      "title": "Tee-Marker Moved Without Improvement",
+      "rule": 6,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-6",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual code and heading checked against R&A Rule 6 index; full ruling content not audited"
+    },
+    {
+      "id": "6.3a/1",
+      "title": "球がどこで入れ替わったのか分からない場合にはどうすべきか",
+      "rule": 6,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-6",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual code and heading checked against R&A Rule 6 index; full ruling content not audited"
+    },
+    {
+      "id": "6.3c(1)/1",
+      "title": "「単にその球をプレーしたことに対する罰打」の意味",
+      "rule": 6,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-6",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual code and heading checked against R&A Rule 6 index; full ruling content not audited"
+    },
+    {
+      "id": "6.4b(1)/1",
+      "title": "プレーヤーが前のティーイングエリアで違う順番でプレーした場合の規則6.4b(1)の「同じ順番」の意味",
+      "rule": 6,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-6",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual code and heading checked against R&A Rule 6 index; full ruling content not audited"
+    },
+    {
+      "id": "6.4c/1",
+      "title": "ティーイングエリアから違った順番で暫定球をプレーした場合、そのストロークを取り消すことはできない",
+      "rule": 6,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-6",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual code and heading checked against R&A Rule 6 index; full ruling content not audited"
+    },
+    {
+      "id": "6.5/1",
+      "title": "プレーヤーまたはサイドがホールを終了した時点",
+      "rule": 6,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-6",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual code and heading checked against R&A Rule 6 index; full ruling content not audited"
     }
   ],
   "clarificationCoverage": {
@@ -4854,16 +4910,18 @@
     "verifiedRuleGroups": [
       1,
       3,
-      5
+      5,
+      6
     ],
-    "verifiedIndividualHeadingCount": 56,
+    "verifiedIndividualHeadingCount": 63,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
       "C-R1",
       "C-R3",
-      "C-R5"
+      "C-R5",
+      "C-R6"
     ],
-    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18) heading inventories checked; Rule 4 (10) partially indexed; all remaining groups and full-text rulings pending"
+    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7) heading inventories checked; Rule 4 (10) partially indexed; remaining groups and full-text rulings pending"
   }
 }
