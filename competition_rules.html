@@ -17,8 +17,8 @@ function textOf(r){return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...
 function draw(){
   const v=q.value.trim().toLowerCase();
   const om=document.getElementById("officialMatches");
-  const oa=v?official.filter(x=>(x.id+" "+x.title+" "+(x.officialTerm||"")+" "+(x.english||"")).toLowerCase().includes(v)):(mode.type==="rule"?official.filter(x=>x.tab==="ruleSubrules"&&parseInt(x.id,10)===Number(mode.value)):[]);
-  om.innerHTML=oa.length?`<div class="navTitle">公式索引の一致</div>${oa.map(x=>`<a class="item" style="display:block;text-decoration:none;color:inherit" href="competition_official_index.html?tab=${encodeURIComponent(x.tab)}&id=${encodeURIComponent(x.id)}"><div class="rule">公式索引 ・ ${esc(x.id)}</div><h2>${esc(x.title)}</h2></a>`).join("")}`:"";
+  const oa=v?official.filter(x=>(x.id+" "+x.title+" "+(x.officialTerm||"")+" "+(x.english||"")).toLowerCase().includes(v)):(mode.type==="rule"?official.filter(x=>["ruleSubrules","clarifications","clarificationGroups"].includes(x.tab)&&Number(x.rule??parseInt(x.id,10))===Number(mode.value)):[]);
+  om.innerHTML=oa.length?`<div class="navTitle">公式索引の一致</div>${oa.slice(0,60).map(x=>`<a class="item" style="display:block;text-decoration:none;color:inherit" href="competition_official_index.html?tab=${encodeURIComponent(x.tab)}&id=${encodeURIComponent(x.id)}"><div class="rule">公式索引 ・ ${esc(x.id)}</div><h2>${esc(x.title)}</h2></a>`).join("")}${oa.length>60?`<p class="count">公式索引は先頭60件を表示中。項目名や番号で絞り込んでください。</p>`:""}`:"";
   let a=rules.filter(r=>!v||textOf(r).includes(v));
   if(!v&&mode.type==="rule")a=a.filter(r=>parseInt(String(r.rule),10)===Number(mode.value));
   if(!v&&mode.type==="filter"){const terms=mode.value.toLowerCase().split(/\s+/);a=a.filter(r=>terms.some(t=>textOf(r).includes(t)));}
