@@ -50,6 +50,19 @@ if((idx.clarifications||[]).some(x=>x.verificationScope?.includes('not audited')
 
 if((idx.clarifications||[]).some(x=>!x.id||!x.title||!x.source?.includes('randa.org')))errors.push('individual Clarifications contain missing IDs, titles or official sources');
 if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]).length)errors.push('duplicate individual Clarification IDs');
+
+// Regression checks for individually source-verified Clarification heading inventories.
+// These are *minimums*, not a declaration that all 24 groups have been audited.
+const clarificationMinimums={1:9,3:19,4:10};
+for(const [rule,min] of Object.entries(clarificationMinimums)){
+  const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===Number(rule));
+  if(actual.length<min)errors.push('verified Rule '+rule+' Clarification headings regressed: '+actual.length+' < '+min);
+}
+const expectedRule3=['3.2b(1)/1','3.2b(1)/2','3.2b(2)/1','3.2c(1)/1','3.2c(1)/2','3.2d(1)/1','3.2d(1)/2','3.2d(1)/3','3.2d(1)/4','3.2d(2)/1','3.2d(3)/1','3.2d(4)/1','3.3b/1','3.3b/2','3.3b/3','3.3b(2)/1','3.3b(2)/2','3.3b(3)/1','3.3b(4)/1'];
+const rule3Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===3).map(x=>x.id));
+for(const id of expectedRule3)if(!rule3Ids.has(id))errors.push('source-verified Rule 3 Clarification missing: '+id);
+if((idx.clarifications||[]).some(x=>!x.source?.includes('/clarifications/rule-')||!x.verifiedDate))errors.push('individual Clarification source provenance incomplete');
+
 const firstLevel=idx.committeeProcedureItems||[];
 const numbered=idx.committeeProcedureNumberedItems||[];
 if(firstLevel.length!==53)errors.push('Committee Procedures first-level index not matched to 53 official headings: '+firstLevel.length);
