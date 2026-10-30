@@ -4398,5 +4398,88 @@
     "evidence": [],
     "checkedDate": "2026-10-29",
     "note": "Official index link destinations populated; interactive end-to-end verification remains pending."
+  },
+  "clarifications": [
+    {
+      "id": "1.2a/1",
+      "title": "プレーヤーが重大な非行をしたかどうかの決定",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3b(1)/1",
+      "title": "知っている規則を無視することに同意したプレーヤーを失格にする",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3b(1)/2",
+      "title": "規則や罰を無視することに同意するにはプレーヤーはその規則の存在を知っていなければならない",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3b/2",
+      "title": "規則1.3b(2)の合理的な判断に関する関連解釈",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3c/1",
+      "title": "そのラウンドのスコアがカウントされない場合の競技全体からの失格",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3c/2",
+      "title": "ストロークプレーのプレーオフでの失格の罰の適用、コンシードと間違ったストローク数の通知",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3c(1)/1",
+      "title": "プレーヤーのために規則違反をする別の人の行動",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3c(4)/1",
+      "title": "介在する出来事がある場合、プレーヤーは2つの1罰打を受ける",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3c(4)/2",
+      "title": "プレーヤーが規則に違反した後、次のストロークの一部として別の規則に違反する",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    }
+  ],
+  "clarificationCoverage": {
+    "asOf": "2026-10-30",
+    "verifiedRuleGroups": [
+      1
+    ],
+    "verifiedIndividualHeadingCount": 9,
+    "allGroupsComplete": false,
+    "contentAudited": false
   }
 }
