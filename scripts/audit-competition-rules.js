@@ -42,6 +42,12 @@ if(!rule25?.source?.includes('randa.org'))errors.push('Rule 25 official source U
 
 if(!Array.isArray(idx.clarifications)||!idx.clarifications.length)errors.push('individual Clarifications have not been indexed');
 if(!idx.clarificationCoverage?.allGroupsComplete||!idx.clarificationCoverage?.contentAudited)errors.push('individual Clarifications are not fully verified against every official group and full text');
+const clarificationGroupIds=new Set((idx.clarificationGroups||[]).map(x=>x.id));
+const reviewedGroupIds=new Set(idx.clarificationCoverage?.verifiedGroupIds||[]);
+for(const id of clarificationGroupIds)if(!reviewedGroupIds.has(id))errors.push('unverified Clarification group: '+id);
+if((idx.clarifications||[]).some(x=>!x.verifiedDate||!x.verificationScope))errors.push('individual Clarifications lack provenance and review scope');
+if((idx.clarifications||[]).some(x=>x.verificationScope?.includes('not audited')))errors.push('individual Clarification full-content review pending');
+
 if((idx.clarifications||[]).some(x=>!x.id||!x.title||!x.source?.includes('randa.org')))errors.push('individual Clarifications contain missing IDs, titles or official sources');
 if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]).length)errors.push('duplicate individual Clarification IDs');
 const firstLevel=idx.committeeProcedureItems||[];
