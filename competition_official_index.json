@@ -4623,6 +4623,86 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
       "verifiedDate": "2026-10-30",
       "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "4.1a(1)/1",
+      "title": "通常の使用による摩滅は適合性を変えない",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.1a(1)/2",
+      "title": "不適合クラブでストロークしてもそのストロークを無視する場合には罰はない",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.1a(2)/1",
+      "title": "「修理」の意味",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.1b/1",
+      "title": "マッチでプレーヤーの1人がホールのプレーを始めた後の調整の罰の適用方法",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.1b(1)/1",
+      "title": "プレーヤーのために持ち運ぶクラブは14本のクラブ制限にカウントする",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.1b(2)/1",
+      "title": "複数のプレーヤーは1つのバッグにクラブを入れて持ち運ぶことができる",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.1b(2)/2",
+      "title": "プレーヤーのスコアにカウントするストロークではクラブの共有は認められない",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.1b(4)/1",
+      "title": "プレーヤーによって、あるいはプレーヤーのために持ち運ばれていなかったクラブの部品を組み立てることができる",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.3a/2",
+      "title": "アラインメント機器の使用が規則違反となる場合",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "4.3a(1)/1",
+      "title": "傾斜を測定するための用具の使用制限",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
     }
   ],
   "clarificationCoverage": {
@@ -4631,13 +4711,13 @@
       1,
       3
     ],
-    "verifiedIndividualHeadingCount": 28,
+    "verifiedIndividualHeadingCount": 38,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
       "C-R1",
       "C-R3"
     ],
-    "verificationScope": "Rule 1 (9 headings) and Rule 3 (19 headings) indexed from R&A; all detailed rulings and remaining groups not audited"
+    "verificationScope": "Rule 1 (9) and Rule 3 (19) headings indexed; Rule 4 (10) headings partially indexed; remaining groups and full-text rulings pending"
   }
 }
