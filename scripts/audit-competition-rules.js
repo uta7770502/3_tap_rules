@@ -41,6 +41,9 @@ if(new Set(actual25).size!==actual25.length)errors.push('duplicate Rule 25 subru
 if(!rule25?.source?.includes('randa.org'))errors.push('Rule 25 official source URL missing');
 
 if(!Array.isArray(idx.clarifications)||!idx.clarifications.length)errors.push('individual Clarifications have not been indexed');
+if(!idx.clarificationCoverage?.allGroupsComplete||!idx.clarificationCoverage?.contentAudited)errors.push('individual Clarifications are not fully verified against every official group and full text');
+if((idx.clarifications||[]).some(x=>!x.id||!x.title||!x.source?.includes('randa.org')))errors.push('individual Clarifications contain missing IDs, titles or official sources');
+if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]).length)errors.push('duplicate individual Clarification IDs');
 const firstLevel=idx.committeeProcedureItems||[];
 const numbered=idx.committeeProcedureNumberedItems||[];
 if(firstLevel.length!==53)errors.push('Committee Procedures first-level index not matched to 53 official headings: '+firstLevel.length);
@@ -52,7 +55,7 @@ for(const group of [firstLevel,numbered]){
 if(!idx.committeeProcedureAudit?.complete||[...firstLevel,...numbered].some(x=>!x.contentAudited))errors.push('Committee Procedures full-text/content review incomplete');
 const mainHtml=fs.readFileSync('competition_rules.html','utf8');
 const indexHtml=fs.readFileSync('competition_official_index.html','utf8');
-for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNumberedItems','clarificationGroups','modelLocalRules','ruleSubrules']){
+for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNumberedItems','clarificationGroups','clarifications','modelLocalRules','ruleSubrules']){
   if(!mainHtml.includes(tab)||!indexHtml.includes(tab))errors.push('official navigation tab not wired in both pages: '+tab);
 }
 if(!mainHtml.includes('data-rule="25"')||!mainHtml.includes('data-rule="1"'))errors.push('Rule-number navigation missing');
