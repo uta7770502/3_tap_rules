@@ -4480,6 +4480,10 @@
     ],
     "verifiedIndividualHeadingCount": 9,
     "allGroupsComplete": false,
-    "contentAudited": false
+    "contentAudited": false,
+    "verifiedGroupIds": [
+      "C-R1"
+    ],
+    "verificationScope": "Rule 1: nine individual headings verified against live R&A page on 2026-10-30; full interpretation text and remaining groups not yet audited"
   }
 }
