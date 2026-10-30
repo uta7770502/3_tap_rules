@@ -4471,19 +4471,173 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
       "verifiedDate": "2026-10-30",
       "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2b(1)/1",
+      "title": "プレーヤーたちはマッチを短縮するためにホールをコンシードしてはならない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2b(1)/2",
+      "title": "ホールの結果がすでに決定している場合、コンシードは有効とはならない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2b(2)/1",
+      "title": "キャディーがコンシードしようとしてもそのコンシードは有効とはならない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2c(1)/1",
+      "title": "多いハンディキャップを宣言することはホールをまだプレーしていなくても違反となる",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2c(1)/2",
+      "title": "ハンディキャップマッチの前にプレーヤーが相手に正しくないハンディキャップの情報を与える",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2d(1)/1",
+      "title": "「ホールの結果に影響しなければ罰はない」という例外の意味",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2d(1)/2",
+      "title": "ホール終了後にプレーヤーが間違ったストローク数を教え、その誤りが数ホール後になって発覚する",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2d(1)/3",
+      "title": "ホール終了後にプレーヤーが間違ったストローク数を教え、その誤りがマッチの結果が最終となった後で発覚する",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2d(1)/4",
+      "title": "罰ありの救済を受けることについて心変わりすることはすでに行った正しくないストローク数を教えたことにはならない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2d(2)/1",
+      "title": "「合理的にできる限り速やかに」とは、必ずしも相手の次のストロークの前ではない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2d(3)/1",
+      "title": "故意に正しくないマッチのスコアを教えたり、あるいはマッチのスコアについての相手の誤解を訂正しないことは失格となることがある",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.2d(4)/1",
+      "title": "規則3.2d(4)の「同意」の意味",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b/1",
+      "title": "プレーヤーはラウンド全体を通じてマーカーを伴っていなければならない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b/2",
+      "title": "スコアカードの間違った場所に記入された情報は依然として受け入れられる",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b/3",
+      "title": "正式なスコアカードを損傷したりどこかに置き忘れた場合、別のスコアカードを使うことができる",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b(2)/1",
+      "title": "プレーヤーはスコアカードにスコアだけ入力することを求められる",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b(2)/2",
+      "title": "マーカーがその責任を果たさない場合の例外の適用",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b(3)/1",
+      "title": "スコアカードに記入されるスコアは正しいホールが識別できなければならない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b(4)/1",
+      "title": "運営上の誤りを故意に委員会に通報しないプレーヤーに対する罰",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
     }
   ],
   "clarificationCoverage": {
     "asOf": "2026-10-30",
     "verifiedRuleGroups": [
-      1
+      1,
+      3
     ],
-    "verifiedIndividualHeadingCount": 9,
+    "verifiedIndividualHeadingCount": 28,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
-      "C-R1"
+      "C-R1",
+      "C-R3"
     ],
-    "verificationScope": "Rule 1: nine individual headings verified against live R&A page on 2026-10-30; full interpretation text and remaining groups not yet audited"
+    "verificationScope": "Rule 1 (9 headings) and Rule 3 (19 headings) indexed from R&A; all detailed rulings and remaining groups not audited"
   }
 }
