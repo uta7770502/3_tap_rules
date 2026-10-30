@@ -4703,21 +4703,167 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
       "verifiedDate": "2026-10-30",
       "verificationScope": "R&A clarification code and subject verified; Japanese title is a paraphrase; full Rule 4 inventory and ruling text not audited"
+    },
+    {
+      "id": "5.2b/1",
+      "title": "ストロークプレーでの「その日の自分の最終ラウンドの終了」の意味",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.2b/2",
+      "title": "連日に及ぶ競技会ではラウンド前のコース上での練習が認められる場合がある",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.2b/3",
+      "title": "ストロークプレーでラウンド前にコース上で練習した場合の罰の適用",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.2/1",
+      "title": "規則5.2の「コース」の意味",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.3a/1",
+      "title": "スタート時間の罰を免除する例外的な状況",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.3a/2",
+      "title": "「スタート地点」の意味",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.3a/3",
+      "title": "「プレーをすぐに始めることができる状態」の意味",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.3a/4",
+      "title": "スタート地点にいたプレーヤーがスタート地点から離れる",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.3a/5",
+      "title": "両方のプレーヤーが遅刻した場合、マッチは2番ホールから始まる",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.5a/1",
+      "title": "適合球と同様のサイズの球で練習ストロークをすることは違反となる",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.5c/1",
+      "title": "ストロークプレーのラウンドが再開したときは追加の練習の許可はもはや適用されない",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.6a/1",
+      "title": "正当あるいは不当とみなされる遅延の例",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.6a/2",
+      "title": "突然の病気や怪我に見舞われたプレーヤーには回復のために通常15分の時間が認められる",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.7a/1",
+      "title": "どのような場合にプレーヤーがプレーを中断したことになるか",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.7b/1",
+      "title": "プレーが中断された後に球をドロップしたことはプレーを中断しなかったことにはならない",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.7b(1)/1",
+      "title": "プレーヤーがプレーを中断しなかったことが正当化される状況",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.7c/1",
+      "title": "委員会が雷の危険はないと結論づけた場合、プレーヤーはプレーを再開しなければならない",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
+    },
+    {
+      "id": "5.7d(1)/1",
+      "title": "プレーヤーは中断中に改善されたり、悪化したバンカー内のライを受け入れなければならないのかどうか",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
     }
   ],
   "clarificationCoverage": {
     "asOf": "2026-10-30",
     "verifiedRuleGroups": [
       1,
-      3
+      3,
+      5
     ],
-    "verifiedIndividualHeadingCount": 38,
+    "verifiedIndividualHeadingCount": 56,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
       "C-R1",
-      "C-R3"
+      "C-R3",
+      "C-R5"
     ],
-    "verificationScope": "Rule 1 (9) and Rule 3 (19) headings indexed; Rule 4 (10) headings partially indexed; remaining groups and full-text rulings pending"
+    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18) heading inventories checked; Rule 4 (10) partially indexed; all remaining groups and full-text rulings pending"
   }
 }
