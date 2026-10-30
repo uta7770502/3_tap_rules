@@ -53,7 +53,7 @@ if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]
 
 // Regression checks for individually source-verified Clarification heading inventories.
 // These are *minimums*, not a declaration that all 24 groups have been audited.
-const clarificationMinimums={1:9,3:19,4:10};
+const clarificationMinimums={1:9,3:19,4:10,5:18};
 for(const [rule,min] of Object.entries(clarificationMinimums)){
   const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===Number(rule));
   if(actual.length<min)errors.push('verified Rule '+rule+' Clarification headings regressed: '+actual.length+' < '+min);
@@ -61,6 +61,10 @@ for(const [rule,min] of Object.entries(clarificationMinimums)){
 const expectedRule3=['3.2b(1)/1','3.2b(1)/2','3.2b(2)/1','3.2c(1)/1','3.2c(1)/2','3.2d(1)/1','3.2d(1)/2','3.2d(1)/3','3.2d(1)/4','3.2d(2)/1','3.2d(3)/1','3.2d(4)/1','3.3b/1','3.3b/2','3.3b/3','3.3b(2)/1','3.3b(2)/2','3.3b(3)/1','3.3b(4)/1'];
 const rule3Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===3).map(x=>x.id));
 for(const id of expectedRule3)if(!rule3Ids.has(id))errors.push('source-verified Rule 3 Clarification missing: '+id);
+const expectedRule5=['5.2b/1','5.2b/2','5.2b/3','5.2/1','5.3a/1','5.3a/2','5.3a/3','5.3a/4','5.3a/5','5.5a/1','5.5c/1','5.6a/1','5.6a/2','5.7a/1','5.7b/1','5.7b(1)/1','5.7c/1','5.7d(1)/1'];
+const rule5Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===5).map(x=>x.id));
+for(const id of expectedRule5)if(!rule5Ids.has(id))errors.push('source-verified Rule 5 Clarification missing: '+id);
+for(const id of rule5Ids)if(!expectedRule5.includes(id))errors.push('Rule 5 Clarification not in reviewed source heading inventory: '+id);
 if((idx.clarifications||[]).some(x=>!x.source?.includes('/clarifications/rule-')||!x.verifiedDate))errors.push('individual Clarification source provenance incomplete');
 
 const firstLevel=idx.committeeProcedureItems||[];
