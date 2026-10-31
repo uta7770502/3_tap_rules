@@ -53,7 +53,7 @@ if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]
 
 // Regression checks for individually source-verified Clarification heading inventories.
 // These are *minimums*, not a declaration that all 24 groups have been audited.
-const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5};
+const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23};
 for(const [rule,min] of Object.entries(clarificationMinimums)){
   const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===Number(rule));
   if(actual.length<min)errors.push('verified Rule '+rule+' Clarification headings regressed: '+actual.length+' < '+min);
@@ -73,6 +73,10 @@ const expectedRule7=['7.1a/1','7.2/1','7.4/1','7.4/2','7.4/3'];
 const rule7Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===7).map(x=>x.id));
 for(const id of expectedRule7)if(!rule7Ids.has(id))errors.push('source-verified Rule 7 Clarification missing: '+id);
 for(const id of rule7Ids)if(!expectedRule7.includes(id))errors.push('Rule 7 Clarification not in reviewed source heading inventory: '+id);
+const expectedRule8=['8.1a/1','8.1a/2','8.1a/3','8.1a/4','8.1a/5','8.1a/6','8.1a/7','8.1a/8','8.1a/9','8.1a/10','8.1b/1','8.1b/2','8.1b/3','8.1b/4','8.1b/5','8.1b/6','8.1d(1)/1','8.1d(1)/2','8.1d(2)/1','8.1d(2)/2','8.1d(2)/3','8.2b/1','8.3/1'];
+const rule8Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===8).map(x=>x.id));
+for(const id of expectedRule8)if(!rule8Ids.has(id))errors.push('source-verified Rule 8 Clarification missing: '+id);
+for(const id of rule8Ids)if(!expectedRule8.includes(id))errors.push('Rule 8 Clarification not in reviewed source heading inventory: '+id);
 if((idx.clarifications||[]).some(x=>!x.source?.includes('/clarifications/rule-')||!x.verifiedDate))errors.push('individual Clarification source provenance incomplete');
 
 const firstLevel=idx.committeeProcedureItems||[];
