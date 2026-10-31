@@ -4433,22 +4433,6 @@
       "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
     },
     {
-      "id": "1.3c/1",
-      "title": "そのラウンドのスコアがカウントされない場合の競技全体からの失格",
-      "rule": 1,
-      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
-      "verifiedDate": "2026-10-30",
-      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
-    },
-    {
-      "id": "1.3c/2",
-      "title": "ストロークプレーのプレーオフでの失格の罰の適用、コンシードと間違ったストローク数の通知",
-      "rule": 1,
-      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
-      "verifiedDate": "2026-10-30",
-      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
-    },
-    {
       "id": "1.3c(1)/1",
       "title": "プレーヤーのために規則違反をする別の人の行動",
       "rule": 1,
@@ -4467,6 +4451,22 @@
     {
       "id": "1.3c(4)/2",
       "title": "プレーヤーが規則に違反した後、次のストロークの一部として別の規則に違反する",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3c/1",
+      "title": "そのラウンドのスコアがカウントされない場合の競技全体からの失格",
+      "rule": 1,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "1.3c/2",
+      "title": "ストロークプレーのプレーオフでの失格の罰の適用、コンシードと間違ったストローク数の通知",
       "rule": 1,
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-1",
       "verifiedDate": "2026-10-30",
@@ -4569,30 +4569,6 @@
       "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
     },
     {
-      "id": "3.3b/1",
-      "title": "プレーヤーはラウンド全体を通じてマーカーを伴っていなければならない",
-      "rule": 3,
-      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
-      "verifiedDate": "2026-10-30",
-      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
-    },
-    {
-      "id": "3.3b/2",
-      "title": "スコアカードの間違った場所に記入された情報は依然として受け入れられる",
-      "rule": 3,
-      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
-      "verifiedDate": "2026-10-30",
-      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
-    },
-    {
-      "id": "3.3b/3",
-      "title": "正式なスコアカードを損傷したりどこかに置き忘れた場合、別のスコアカードを使うことができる",
-      "rule": 3,
-      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
-      "verifiedDate": "2026-10-30",
-      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
-    },
-    {
       "id": "3.3b(2)/1",
       "title": "プレーヤーはスコアカードにスコアだけ入力することを求められる",
       "rule": 3,
@@ -4625,6 +4601,30 @@
       "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
     },
     {
+      "id": "3.3b/1",
+      "title": "プレーヤーはラウンド全体を通じてマーカーを伴っていなければならない",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b/2",
+      "title": "スコアカードの間違った場所に記入された情報は依然として受け入れられる",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
+      "id": "3.3b/3",
+      "title": "正式なスコアカードを損傷したりどこかに置き忘れた場合、別のスコアカードを使うことができる",
+      "rule": 3,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-3",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; detailed case ruling not audited"
+    },
+    {
       "id": "4.1a(1)/1",
       "title": "通常の使用による摩滅は適合性を変えない",
       "rule": 4,
@@ -4643,14 +4643,6 @@
     {
       "id": "4.1a(2)/1",
       "title": "「修理」の意味",
-      "rule": 4,
-      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
-      "verifiedDate": "2026-10-30",
-      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
-    },
-    {
-      "id": "4.1b/1",
-      "title": "マッチでプレーヤーの1人がホールのプレーを始めた後の調整の罰の適用方法",
       "rule": 4,
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
       "verifiedDate": "2026-10-30",
@@ -4689,8 +4681,8 @@
       "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
     },
     {
-      "id": "4.3a/2",
-      "title": "アラインメント機器の使用が規則違反となる場合",
+      "id": "4.1b/1",
+      "title": "マッチでプレーヤーの1人がホールのプレーを始めた後の調整の罰の適用方法",
       "rule": 4,
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
       "verifiedDate": "2026-10-30",
@@ -4703,6 +4695,22 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
       "verifiedDate": "2026-10-30",
       "verificationScope": "R&A clarification code and subject verified; Japanese title is a paraphrase; full Rule 4 inventory and ruling text not audited"
+    },
+    {
+      "id": "4.3a/2",
+      "title": "アラインメント機器の使用が規則違反となる場合",
+      "rule": 4,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-4",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading verified against R&A; full Rule 4 heading inventory and detailed case ruling not audited"
+    },
+    {
+      "id": "5.2/1",
+      "title": "規則5.2の「コース」の意味",
+      "rule": 5,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
+      "verifiedDate": "2026-10-30",
+      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
     },
     {
       "id": "5.2b/1",
@@ -4723,14 +4731,6 @@
     {
       "id": "5.2b/3",
       "title": "ストロークプレーでラウンド前にコース上で練習した場合の罰の適用",
-      "rule": 5,
-      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
-      "verifiedDate": "2026-10-30",
-      "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
-    },
-    {
-      "id": "5.2/1",
-      "title": "規則5.2の「コース」の意味",
       "rule": 5,
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
       "verifiedDate": "2026-10-30",
@@ -4817,16 +4817,16 @@
       "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
     },
     {
-      "id": "5.7b/1",
-      "title": "プレーが中断された後に球をドロップしたことはプレーを中断しなかったことにはならない",
+      "id": "5.7b(1)/1",
+      "title": "プレーヤーがプレーを中断しなかったことが正当化される状況",
       "rule": 5,
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
       "verifiedDate": "2026-10-30",
       "verificationScope": "individual heading and code checked against R&A Japanese Rule 5 index; full ruling content not audited"
     },
     {
-      "id": "5.7b(1)/1",
-      "title": "プレーヤーがプレーを中断しなかったことが正当化される状況",
+      "id": "5.7b/1",
+      "title": "プレーが中断された後に球をドロップしたことはプレーを中断しなかったことにはならない",
       "rule": 5,
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-5",
       "verifiedDate": "2026-10-30",
@@ -5127,6 +5127,42 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
       "verifiedDate": "2026-10-31",
       "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "10.2b(3)/1",
+      "title": "スタンスをとるために球の後ろの地面にクラブヘッドを置くことは認められる",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "additionalClarificationsSource": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading verified against R&A/USGA 2026-10-02 Additional Clarifications PDF; group inventory and full ruling content not audited"
+    },
+    {
+      "id": "10.2b/1",
+      "title": "自立式パターをアライメントの補助に使用することは認められない",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "additionalClarificationsSource": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading verified against R&A/USGA 2026-10-02 Additional Clarifications PDF; group inventory and full ruling content not audited"
+    },
+    {
+      "id": "11.1b(2)/1",
+      "title": "パッティンググリーンからプレーした球がグリーン上で動いている別の球に当たった場合",
+      "rule": 11,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-11",
+      "additionalClarificationsSource": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading verified against R&A/USGA 2026-10-02 Additional Clarifications PDF; group inventory and full ruling content not audited"
+    },
+    {
+      "id": "14.3b(4)/1",
+      "title": "誤所からのプレーに対する一般の罰は規則14.7aに基づいて適用される",
+      "rule": 14,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-14",
+      "additionalClarificationsSource": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading verified against R&A/USGA 2026-10-02 Additional Clarifications PDF; group inventory and full ruling content not audited"
     }
   ],
   "clarificationCoverage": {
@@ -5150,7 +5186,20 @@
       "C-R7",
       "C-R8"
     ],
-    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5), Rule 8 (23) heading inventories checked; Rule 4 (10) partially indexed; other groups and full-text rulings pending",
-    "indexedIndividualHeadingCount": 91
+    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5), Rule 8 (23) heading inventories checked; Rule 4 (10) partially indexed; other groups and full-text rulings pending; Rules 10 (2), 11 (1), 14 (1) partially indexed from 2026-10-02 official Additional Clarifications PDF; full group inventories pending",
+    "indexedIndividualHeadingCount": 95,
+    "additionalClarificationsUpdate": {
+      "date": "2026-10-02",
+      "source": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
+      "newClarificationsThisUpdate": false,
+      "verifiedPartialCodes": [
+        "10.2b/1",
+        "10.2b(3)/1",
+        "11.1b(2)/1",
+        "14.3b(4)/1"
+      ],
+      "withdrawnCodeNotIndexed": "10.2b(3)/2",
+      "scope": "Additional Clarifications PDF only; not the full Clarifications inventory"
+    }
   }
 }
