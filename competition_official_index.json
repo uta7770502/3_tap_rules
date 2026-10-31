@@ -4943,6 +4943,190 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-7",
       "verifiedDate": "2026-10-31",
       "verificationScope": "individual code and heading checked against R&A Rule 7 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/1",
+      "title": "潜在的な利益となる可能性が高い行動の例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/2",
+      "title": "潜在的な利益となる可能性が低い行動の例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/3",
+      "title": "意図するストロークのための状態を改善したプレーヤーは別のストロークを行ったとしても違反となる",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/4",
+      "title": "動かせない障害物を動かしたり、曲げたり、壊す例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/5",
+      "title": "タオルなどの物を所定の位置に置いてスタンスの場所を作ることは許されない",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/6",
+      "title": "スタンスの場所を作るために地面を変えることは許されない",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/7",
+      "title": "プレーヤーは地面の下に木の根、岩盤、あるいは障害物があるかどうかを確認するために探ることができるが、状態を改善しない場合に限る",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/8",
+      "title": "救済エリアの地面を変えることは認められない",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/9",
+      "title": "どのような場合にディボットは元の位置に戻されたことになるのか、また、取り除いたり、押さえつけてはならないのか",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1a/10",
+      "title": "プレーヤーは動かせない障害物の動かせる部分を所定の位置に戻すことが認められる",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1b/1",
+      "title": "プレーヤーはスタンスをとるときに何度でも両足をしっかり据えることが認められる",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1b/2",
+      "title": "「フェアにスタンスをとること」の例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1b/3",
+      "title": "「フェアにスタンスをとること」にならない例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1b/4",
+      "title": "ティーイングエリアの状態を改善することは地面に限定される",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1b/5",
+      "title": "プレーヤーがバンカーからプレーして脱出した後で「コースを保護するため」にバンカーをならす",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1b/6",
+      "title": "損傷の一部がパッティンググリーン上で一部がパッティンググリーン外でも修理できる場合がある",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1d(1)/1",
+      "title": "別の人の行動や外的影響によって変えられた状態をプレーヤーが復元することが認められる例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1d(1)/2",
+      "title": "プレーヤーには球が止まったときにその場所にあったルースインペディメントや動かせる障害物をそのまま残しておく権利がある",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1d(2)/1",
+      "title": "プレーヤーが悪化した状態を復元することが認められない自然物や自然の力によって変えられた状態の例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1d(2)/2",
+      "title": "キャディーやプレーヤーの要請で別の人が悪化させた場合、プレーヤーはストロークに影響を及ぼす状態を復元することが認められない",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.1d(2)/3",
+      "title": "プレーヤーがプレーの線上のバンカーに入った場合、悪化させた状態を復元してはならない",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.2b/1",
+      "title": "自分自身のプレーに影響を及ぼす他の物理的状態を改善するプレーヤーの故意の行動の例",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
+    },
+    {
+      "id": "8.3/1",
+      "title": "お互いが承知の上で物理的状態を改善した場合、両方のプレーヤーが罰を受ける",
+      "rule": 8,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-8",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
     }
   ],
   "clarificationCoverage": {
@@ -4952,9 +5136,10 @@
       3,
       5,
       6,
-      7
+      7,
+      8
     ],
-    "verifiedIndividualHeadingCount": 58,
+    "verifiedIndividualHeadingCount": 81,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
@@ -4962,9 +5147,10 @@
       "C-R3",
       "C-R5",
       "C-R6",
-      "C-R7"
+      "C-R7",
+      "C-R8"
     ],
-    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5) heading inventories checked; Rule 4 (10) partially indexed; remaining groups and full-text rulings pending; indexed total includes unverified Rule 4 headings",
-    "indexedIndividualHeadingCount": 68
+    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5), Rule 8 (23) heading inventories checked; Rule 4 (10) partially indexed; other groups and full-text rulings pending",
+    "indexedIndividualHeadingCount": 91
   }
 }
