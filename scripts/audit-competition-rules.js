@@ -59,7 +59,7 @@ if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]
 
 // Regression checks for individually source-verified Clarification heading inventories.
 // These are *minimums*, not a declaration that all 24 groups have been audited.
-const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23};
+const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23,9:13};
 for(const [rule,min] of Object.entries(clarificationMinimums)){
   const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===Number(rule));
   if(actual.length<min)errors.push('verified Rule '+rule+' Clarification headings regressed: '+actual.length+' < '+min);
@@ -83,6 +83,12 @@ const expectedRule8=['8.1a/1','8.1a/2','8.1a/3','8.1a/4','8.1a/5','8.1a/6','8.1a
 const rule8Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===8).map(x=>x.id));
 for(const id of expectedRule8)if(!rule8Ids.has(id))errors.push('source-verified Rule 8 Clarification missing: '+id);
 for(const id of rule8Ids)if(!expectedRule8.includes(id))errors.push('Rule 8 Clarification not in reviewed source heading inventory: '+id);
+// Rule 9 heading inventory verified against the current R&A Rule 9 Clarifications page on 2026-10-31.
+// This verifies codes only; full rulings, penalties, and end-to-end navigation remain unaudited.
+const expectedRule9=["9.2a/1","9.2a/2","9.2b/1","9.4a/1","9.4b/1","9.4b/2","9.4b/3","9.4b/4","9.5b/1","9.6/1","9.6/2","9.6/3","9.6/4"];
+const rule9Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===9).map(x=>x.id));
+for(const id of expectedRule9)if(!rule9Ids.has(id))errors.push('source-verified Rule 9 Clarification missing: '+id);
+for(const id of rule9Ids)if(!expectedRule9.includes(id))errors.push('Rule 9 Clarification not in reviewed source heading inventory: '+id);
 // October 2, 2026 R&A/USGA supplemental PDF: no new clarifications this quarter.
 // These four entries are individually confirmed in that PDF, not full group inventories.
 const supplementalIds={'10':['10.2b/1','10.2b(3)/1'],'11':['11.1b(2)/1'],'14':['14.3b(4)/1']};
