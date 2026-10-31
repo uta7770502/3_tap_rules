@@ -5129,6 +5129,110 @@
       "verificationScope": "individual code and heading checked against R&A Rule 8 index; full ruling content not audited"
     },
     {
+      "id": "9.2a/1",
+      "title": "どのような場合に球が動いたとして扱われるか",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.2a/2",
+      "title": "球が動いたことを知らなくても、球を動かす原因となった行動についてプレーヤーは責任を負う",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.2b/1",
+      "title": "用具が関係した場合にプレーヤーの行動が球を動かしたかどうかの決定",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.4a/1",
+      "title": "木から落とされたプレーヤーの球についての処置",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.4b/1",
+      "title": "球を故意に触ったが動かさなかった場合の罰",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.4b/2",
+      "title": "規則9.4b例外4における「間に」の意味",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.4b/3",
+      "title": "規則9.4b例外4における「合理的な行動」の意味",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.4b/4",
+      "title": "規則16.1bに基づいて球を拾い上げた後、無罰の救済を受けないことにした場合",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.5b/1",
+      "title": "見つけた球を自分の球と宣言したため、相手が別の球を拾い上げた場合",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.6/1",
+      "title": "風によって動かされた外的影響が球を動かす原因となる",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.6/2",
+      "title": "どこから動かされたのか分からないときに球をリプレースする場所",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.6/3",
+      "title": "ストロークを行った後で、プレーヤーはその球が動かされていたことを知った",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
+      "id": "9.6/4",
+      "title": "止まっている球をプレーした後で、外的影響によって動かされていたことが発覚した；その球は誤球と判明",
+      "rule": 9,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-9",
+      "verifiedDate": "2026-10-31",
+      "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
+    },
+    {
       "id": "10.2b(3)/1",
       "title": "スタンスをとるために球の後ろの地面にクラブヘッドを置くことは認められる",
       "rule": 10,
@@ -5173,9 +5277,10 @@
       5,
       6,
       7,
-      8
+      8,
+      9
     ],
-    "verifiedIndividualHeadingCount": 81,
+    "verifiedIndividualHeadingCount": 94,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
@@ -5184,10 +5289,11 @@
       "C-R5",
       "C-R6",
       "C-R7",
-      "C-R8"
+      "C-R8",
+      "C-R9"
     ],
-    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5), Rule 8 (23) heading inventories checked; Rule 4 (10) partially indexed; other groups and full-text rulings pending; Rules 10 (2), 11 (1), 14 (1) partially indexed from 2026-10-02 official Additional Clarifications PDF; full group inventories pending",
-    "indexedIndividualHeadingCount": 95,
+    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5), Rule 8 (23) heading inventories checked; Rule 4 (10) partially indexed; other groups and full-text rulings pending; Rules 10 (2), 11 (1), 14 (1) partially indexed from 2026-10-02 official Additional Clarifications PDF; full group inventories pending; Rule 9 (13) official codes/headings checked on 2026-10-31; ruling full-text still pending",
+    "indexedIndividualHeadingCount": 108,
     "additionalClarificationsUpdate": {
       "date": "2026-10-02",
       "source": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
