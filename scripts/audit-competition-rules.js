@@ -14,7 +14,13 @@ if(new Set(mlr.map(x=>x.id)).size!==mlr.length)errors.push('duplicate MLR codes'
 if(mlr.some(x=>!x.id||!x.title))errors.push('MLR with missing code or title');
 if(mlr.some(x=>!x.source?.startsWith('https://www.randa.org/')))errors.push('MLR official source URL missing');
 if(!Array.isArray(idx.officialMlrIds)||idx.officialMlrIds.length<91)errors.push('official MLR code-by-code source checklist missing; count alone cannot certify completeness');
-else for(const id of idx.officialMlrIds){if(!mlr.some(x=>x.id===id))errors.push('missing official MLR: '+id);}
+else {
+  const officialMlrSet=new Set(idx.officialMlrIds);
+  if(officialMlrSet.size!==idx.officialMlrIds.length)errors.push('duplicate official MLR checklist code');
+  for(const id of officialMlrSet)if(!mlr.some(x=>x.id===id))errors.push('missing official MLR: '+id);
+  for(const x of mlr)if(!officialMlrSet.has(x.id))errors.push('MLR not in official code checklist: '+x.id);
+  if(mlr.length!==idx.officialMlrIds.length)errors.push('MLR official/app index length mismatch');
+}
 if((idx.committeeProcedures||[]).length!==9)errors.push('committee procedures sections incomplete: '+(idx.committeeProcedures||[]).length);
 if((idx.committeeProcedures||[]).some(x=>!x.source?.startsWith('https://www.randa.org/')))errors.push('committee section source URL missing');
 if((idx.clarificationGroups||[]).length!==24)errors.push('clarification groups incomplete: '+(idx.clarificationGroups||[]).length);
@@ -77,6 +83,16 @@ const expectedRule8=['8.1a/1','8.1a/2','8.1a/3','8.1a/4','8.1a/5','8.1a/6','8.1a
 const rule8Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===8).map(x=>x.id));
 for(const id of expectedRule8)if(!rule8Ids.has(id))errors.push('source-verified Rule 8 Clarification missing: '+id);
 for(const id of rule8Ids)if(!expectedRule8.includes(id))errors.push('Rule 8 Clarification not in reviewed source heading inventory: '+id);
+// October 2, 2026 R&A/USGA supplemental PDF: no new clarifications this quarter.
+// These four entries are individually confirmed in that PDF, not full group inventories.
+const supplementalIds={'10':['10.2b/1','10.2b(3)/1'],'11':['11.1b(2)/1'],'14':['14.3b(4)/1']};
+for(const [rule,ids] of Object.entries(supplementalIds))for(const id of ids){
+  const entry=(idx.clarifications||[]).find(x=>x.id===id&&Number(x.rule)===Number(rule));
+  if(!entry)errors.push('October 2026 supplemental Clarification missing: '+id);
+  else if(!entry.additionalClarificationsSource?.includes('2%20October%202026.pdf'))errors.push('supplemental PDF provenance missing: '+id);
+}
+if((idx.clarifications||[]).some(x=>x.id==='10.2b(3)/2'))errors.push('withdrawn Clarification 10.2b(3)/2 must not be indexed as current');
+if(idx.clarificationCoverage?.additionalClarificationsUpdate?.date!=='2026-10-02'||idx.clarificationCoverage?.additionalClarificationsUpdate?.newClarificationsThisUpdate!==false)errors.push('October 2026 supplemental update provenance missing');
 if((idx.clarifications||[]).some(x=>!x.source?.includes('/clarifications/rule-')||!x.verifiedDate))errors.push('individual Clarification source provenance incomplete');
 
 const firstLevel=idx.committeeProcedureItems||[];
