@@ -4954,7 +4954,7 @@
       6,
       7
     ],
-    "verifiedIndividualHeadingCount": 68,
+    "verifiedIndividualHeadingCount": 58,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
@@ -4964,6 +4964,7 @@
       "C-R6",
       "C-R7"
     ],
-    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5) heading inventories checked; Rule 4 (10) partially indexed; remaining groups and full-text rulings pending"
+    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5) heading inventories checked; Rule 4 (10) partially indexed; remaining groups and full-text rulings pending; indexed total includes unverified Rule 4 headings",
+    "indexedIndividualHeadingCount": 68
   }
 }
