@@ -59,7 +59,7 @@ if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]
 
 // Regression checks for individually source-verified Clarification heading inventories.
 // These are *minimums*, not a declaration that all 24 groups have been audited.
-const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23,9:13};
+const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23,9:13,10:14,11:6,12:4};
 for(const [rule,min] of Object.entries(clarificationMinimums)){
   const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===Number(rule));
   if(actual.length<min)errors.push('verified Rule '+rule+' Clarification headings regressed: '+actual.length+' < '+min);
@@ -89,6 +89,19 @@ const expectedRule9=["9.2a/1","9.2a/2","9.2b/1","9.4a/1","9.4b/1","9.4b/2","9.4b
 const rule9Ids=new Set((idx.clarifications||[]).filter(x=>Number(x.rule)===9).map(x=>x.id));
 for(const id of expectedRule9)if(!rule9Ids.has(id))errors.push('source-verified Rule 9 Clarification missing: '+id);
 for(const id of rule9Ids)if(!expectedRule9.includes(id))errors.push('Rule 9 Clarification not in reviewed source heading inventory: '+id);
+
+// R&A individual Clarifications heading inventories verified 2026-11-01.
+// Heading/code parity only; full ruling text and end-to-end navigation are still pending.
+const expectedRule10=["10.1a/1","10.1a/2","10.1b/1","10.1b/2","10.1b/3","10.2a/1","10.2a/2","10.2b/1","10.2b(3)/1","10.2b(4)/1","10.2b(5)/1","10.2b(5)/2","10.3a/1","10.3a/2"];
+const expectedRule11=["11.1b/1","11.1b/2","11.1b/3","11.1b(2)/1","11.2a/1","11.3/1"];
+const expectedRule12=["12.2a/1","12.2b/1","12.2b/2","12.2b/3"];
+for(const [rule,expected] of [[10,expectedRule10],[11,expectedRule11],[12,expectedRule12]]){
+  const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===rule).map(x=>x.id);
+  for(const id of expected)if(!actual.includes(id))errors.push('source-verified Rule '+rule+' Clarification missing: '+id);
+  for(const id of actual)if(!expected.includes(id))errors.push('Rule '+rule+' Clarification not in reviewed official heading inventory: '+id);
+  if(actual.length!==expected.length)errors.push('Rule '+rule+' Clarification heading count mismatch: '+actual.length+' vs '+expected.length);
+}
+
 // October 2, 2026 R&A/USGA supplemental PDF: no new clarifications this quarter.
 // These four entries are individually confirmed in that PDF, not full group inventories.
 const supplementalIds={'10':['10.2b/1','10.2b(3)/1'],'11':['11.1b(2)/1'],'14':['14.3b(4)/1']};
