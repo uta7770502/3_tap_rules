@@ -5428,6 +5428,78 @@
       "verificationScope": "individual code and heading cross-checked against R&A current Rule 12 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
     },
     {
+      "id": "13.1c(2)/1",
+      "title": "損傷したホールはパッティンググリーンの損傷に含まれる",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.1c(2)/2",
+      "title": "グリーンの損傷を修理できない場合、委員会に援助を求めることができる",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.1d(2)/1",
+      "title": "救済のためプレースした球が動いた場合はリプレースしなければならない",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.1e/1",
+      "title": "グリーンを故意にテストすることは認められない",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.2a(1)/1",
+      "title": "前の組が残した位置に旗竿をそのまま置くことができる",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.2a(4)/1",
+      "title": "プレーヤーの承認なく取り除かれた旗竿は戻すことができる",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.2b(1)/1",
+      "title": "旗竿を持ったままストロークを行うことができる",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.3a/1",
+      "title": "ホールに到達するための合理的な時間の意味",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "13.3b/1",
+      "title": "ホールにせり出した球が旗竿を取り除いたときに動いた場合の処置",
+      "rule": 13,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-13",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against current R&A Rule 13 Clarifications index; Japanese titles summarized; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
       "id": "14.3b(4)/1",
       "title": "誤所からのプレーに対する一般の罰は規則14.7aに基づいて適用される",
       "rule": 14,
@@ -5449,9 +5521,10 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
-    "verifiedIndividualHeadingCount": 118,
+    "verifiedIndividualHeadingCount": 127,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
@@ -5464,10 +5537,11 @@
       "C-R9",
       "C-R10",
       "C-R11",
-      "C-R12"
+      "C-R12",
+      "C-R13"
     ],
-    "verificationScope": "Rule 1,3,5-12: individual Clarifications codes/headings cross-checked with R&A official indices (Rule 4 partially indexed); Rule 2 has no Clarifications group. Rule 10 (14), 11 (6), 12 (4) added/verified 2026-11-01. All individual rulings/full-text, penalties, committee procedures and real-device navigation remain unaudited.",
-    "indexedIndividualHeadingCount": 129,
+    "verificationScope": "Official individual Clarifications code/heading inventories verified for Rules 1,3,5-13 (Rule 4 partially indexed). Rule 13 (9 entries) verified on 2026-11-01. Full ruling content, all remaining groups, Rules 1-25 cases, definitions, MLR, committee procedures and end-to-end navigation remain unaudited.",
+    "indexedIndividualHeadingCount": 138,
     "additionalClarificationsUpdate": {
       "date": "2026-10-02",
       "source": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
