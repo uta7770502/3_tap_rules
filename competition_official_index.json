@@ -5233,6 +5233,62 @@
       "verificationScope": "individual code and heading cross-checked against R&A Rule 9 index; Japanese heading summarized where needed; full ruling content not audited"
     },
     {
+      "id": "10.1a/1",
+      "title": "押し出し・掻き寄せ・すくい上げの例",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.1a/2",
+      "title": "ストローク中に球とクラブヘッドの間に他の物質が介在してもよい",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.1b/1",
+      "title": "プレーヤーは前腕を体に固定してクラブをアンカリングしてはならない",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.1b/2",
+      "title": "ストローク中に故意に衣服へ接触させることは違反となる",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.1b/3",
+      "title": "ストローク中の偶然の衣服への接触は違反とならない",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.2a/1",
+      "title": "共用キャディーから情報を得ることができる",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.2a/2",
+      "title": "自発的に与えられるアドバイスを止めさせる必要がある",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
       "id": "10.2b(3)/1",
       "title": "スタンスをとるために球の後ろの地面にクラブヘッドを置くことは認められる",
       "rule": 10,
@@ -5240,6 +5296,30 @@
       "additionalClarificationsSource": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
       "verifiedDate": "2026-10-31",
       "verificationScope": "individual code and heading verified against R&A/USGA 2026-10-02 Additional Clarifications PDF; group inventory and full ruling content not audited"
+    },
+    {
+      "id": "10.2b(4)/1",
+      "title": "スタンス開始前に制限区域内でキャディーが援助を与える場合",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.2b(5)/1",
+      "title": "故意に配置されていない人に移動またはその場に留まるよう依頼できる",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.2b(5)/2",
+      "title": "保護用の衣服を着用できる",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
     },
     {
       "id": "10.2b/1",
@@ -5251,6 +5331,22 @@
       "verificationScope": "individual code and heading verified against R&A/USGA 2026-10-02 Additional Clarifications PDF; group inventory and full ruling content not audited"
     },
     {
+      "id": "10.3a/1",
+      "title": "動力付きカートでクラブを運び別の人をキャディーとして雇う場合",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "10.3a/2",
+      "title": "自分のラウンド中でなければ別のプレーヤーのキャディーになれる",
+      "rule": 10,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-10",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 10 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
       "id": "11.1b(2)/1",
       "title": "パッティンググリーンからプレーした球がグリーン上で動いている別の球に当たった場合",
       "rule": 11,
@@ -5258,6 +5354,78 @@
       "additionalClarificationsSource": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
       "verifiedDate": "2026-10-31",
       "verificationScope": "individual code and heading verified against R&A/USGA 2026-10-02 Additional Clarifications PDF; group inventory and full ruling content not audited"
+    },
+    {
+      "id": "11.1b/1",
+      "title": "ストロークを再プレーすべきときに止まった場所からプレーしても誤所からのプレーではない",
+      "rule": 11,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-11",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 11 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "11.1b/2",
+      "title": "偶然に方向を変えられたり止められた後に球が動いた場合の処置",
+      "rule": 11,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-11",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 11 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "11.1b/3",
+      "title": "パッティンググリーン以外からプレーした球を動物が方向変更・拾い上げした場合",
+      "rule": 11,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-11",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 11 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "11.2a/1",
+      "title": "球に当たれば有利と気づいた後で用具をそのまま残した場合",
+      "rule": 11,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-11",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 11 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "11.3/1",
+      "title": "動いている球に影響させる故意の行動は結果にかかわらず違反となる",
+      "rule": 11,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-11",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 11 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "12.2a/1",
+      "title": "バンカー内でルースインペディメントや動かせる障害物を除去した結果の改善",
+      "rule": 12,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-12",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 12 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "12.2b/1",
+      "title": "バンカー内の動物の穴から出た砂の山にも規則12.2bを適用",
+      "rule": 12,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-12",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 12 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "12.2b/2",
+      "title": "バンカー内で砂を調べる行為が認められる場合",
+      "rule": 12,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-12",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 12 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
+    },
+    {
+      "id": "12.2b/3",
+      "title": "救済を受けるために球を拾い上げたがバンカー内外の救済を未決定の場合",
+      "rule": 12,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-12",
+      "verifiedDate": "2026-11-01",
+      "verificationScope": "individual code and heading cross-checked against R&A current Rule 12 Clarifications index; full ruling content, penalties and end-to-end navigation not audited"
     },
     {
       "id": "14.3b(4)/1",
@@ -5270,7 +5438,7 @@
     }
   ],
   "clarificationCoverage": {
-    "asOf": "2026-10-31",
+    "asOf": "2026-11-01",
     "verifiedRuleGroups": [
       1,
       3,
@@ -5278,9 +5446,12 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11,
+      12
     ],
-    "verifiedIndividualHeadingCount": 94,
+    "verifiedIndividualHeadingCount": 118,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
@@ -5290,10 +5461,13 @@
       "C-R6",
       "C-R7",
       "C-R8",
-      "C-R9"
+      "C-R9",
+      "C-R10",
+      "C-R11",
+      "C-R12"
     ],
-    "verificationScope": "Rule 1 (9), Rule 3 (19), Rule 5 (18), Rule 6 (7), Rule 7 (5), Rule 8 (23) heading inventories checked; Rule 4 (10) partially indexed; other groups and full-text rulings pending; Rules 10 (2), 11 (1), 14 (1) partially indexed from 2026-10-02 official Additional Clarifications PDF; full group inventories pending; Rule 9 (13) official codes/headings checked on 2026-10-31; ruling full-text still pending",
-    "indexedIndividualHeadingCount": 108,
+    "verificationScope": "Rule 1,3,5-12: individual Clarifications codes/headings cross-checked with R&A official indices (Rule 4 partially indexed); Rule 2 has no Clarifications group. Rule 10 (14), 11 (6), 12 (4) added/verified 2026-11-01. All individual rulings/full-text, penalties, committee procedures and real-device navigation remain unaudited.",
+    "indexedIndividualHeadingCount": 129,
     "additionalClarificationsUpdate": {
       "date": "2026-10-02",
       "source": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
