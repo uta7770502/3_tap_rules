@@ -59,7 +59,7 @@ if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]
 
 // Regression checks for individually source-verified Clarification heading inventories.
 // These are *minimums*, not a declaration that all 24 groups have been audited.
-const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23,9:13,10:14,11:6,12:4};
+const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23,9:13,10:14,11:6,12:4,13:9};
 for(const [rule,min] of Object.entries(clarificationMinimums)){
   const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===Number(rule));
   if(actual.length<min)errors.push('verified Rule '+rule+' Clarification headings regressed: '+actual.length+' < '+min);
@@ -101,6 +101,14 @@ for(const [rule,expected] of [[10,expectedRule10],[11,expectedRule11],[12,expect
   for(const id of actual)if(!expected.includes(id))errors.push('Rule '+rule+' Clarification not in reviewed official heading inventory: '+id);
   if(actual.length!==expected.length)errors.push('Rule '+rule+' Clarification heading count mismatch: '+actual.length+' vs '+expected.length);
 }
+
+
+// R&A Rule 13 individual Clarifications headings verified 2026-11-01.
+const expectedRule13=["13.1c(2)/1","13.1c(2)/2","13.1d(2)/1","13.1e/1","13.2a(1)/1","13.2a(4)/1","13.2b(1)/1","13.3a/1","13.3b/1"];
+const actualRule13=(idx.clarifications||[]).filter(x=>Number(x.rule)===13).map(x=>x.id);
+for(const id of expectedRule13)if(!actualRule13.includes(id))errors.push('source-verified Rule 13 Clarification missing: '+id);
+for(const id of actualRule13)if(!expectedRule13.includes(id))errors.push('Rule 13 Clarification not in reviewed official heading inventory: '+id);
+if(actualRule13.length!==expectedRule13.length)errors.push('Rule 13 Clarification heading count mismatch');
 
 // October 2, 2026 R&A/USGA supplemental PDF: no new clarifications this quarter.
 // These four entries are individually confirmed in that PDF, not full group inventories.
