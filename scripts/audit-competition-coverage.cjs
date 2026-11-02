@@ -9,7 +9,7 @@ const index=read("competition_official_index.json");
 const groups=index.officialRuleSubrules||[];
 const subrules=groups.flatMap(g=>(g.subrules||[]).map(s=>({...s,parentRule:g.rule})));
 const norm=v=>String(v??"").toLowerCase().replace(/[^0-9a-z]/g,"");
-const ruleOf=v=>String(v??"").match(/^(?:rule\\s*)?(\\d{1,2})(?:[.\\-]|$)/i)?.[1];
+const ruleOf=v=>String(v??"").match(/^(?:rule\s*)?(\d{1,2})(?:[.-]|$)/i)?.[1];
 const mapped=subrules.map(s=>{
   const id=norm(s.id);
   const hits=cases.filter(c=>norm(c.rule)===id || (Array.isArray(c.officialSubruleIds)&&c.officialSubruleIds.some(v=>norm(v)===id)));
