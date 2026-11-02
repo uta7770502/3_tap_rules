@@ -1190,7 +1190,7 @@
       "id": "C-R24",
       "title": "Rule 24 Clarifications",
       "rule": 24,
-      "url": "https://www.randa.org/ja-JP/rog/clarifications/rule-24"
+      "url": "https://www.randa.org/rog/clarifications/rule-24"
     },
     {
       "id": "C-D",
@@ -6019,10 +6019,146 @@
       "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-19",
       "verifiedDate": "2026-11-01",
       "verificationScope": "R&A official Japanese Rule 19 Clarifications individual code and heading inventory cross-check on 2026-11-01; full ruling text, penalties, and end-to-end navigation not audited"
+    },
+    {
+      "id": "22.3/1",
+      "title": "ミックスフォアサムで打ち直す際は元のティーイングエリアを使用する",
+      "rule": 22,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-22",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "22.3/2",
+      "title": "フォアサムの両パートナーが同じティーから打った場合のインプレー球",
+      "rule": 22,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-22",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "22.3/3",
+      "title": "次の打順を変える目的で故意に空振りすることはできない",
+      "rule": 22,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-22",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "22.3/4",
+      "title": "暫定球を打つパートナーの順番を誤った場合の処置",
+      "rule": 22,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-22",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.2a/1",
+      "title": "正しくホールアウトした球がないときのホール結果",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.2b/1",
+      "title": "フォアボールのホールスコアは正しいパートナーに特定する",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.2b/2",
+      "title": "誤ったスコアカードを提出した場合の規則3.3b(3)例外",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.4/1",
+      "title": "一方が出場できないフォアボールマッチのハンディキャップ算定",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.6/1",
+      "title": "サイドが有利と考える打順でプレーする権利の放棄",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.6/2",
+      "title": "有利な打順を選んでも不当なプレー遅延は認められない",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.6/3",
+      "title": "フォアボールマッチで相手がストロークを取り消せる場合",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.7/1",
+      "title": "同時進行のマッチ終了後もクラブ共有とアドバイスが認められる場合",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.8/1",
+      "title": "パートナーのプレー線の後方に立った場合の罰の適用",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.9a(2)/1",
+      "title": "一方の違反がパートナーのプレーを助ける場合の例",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.9a(2)/2",
+      "title": "一方の違反が相手のプレーに悪影響を及ぼす場合の例",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "23.9a(2)/3",
+      "title": "ホールの勝敗に関係しないプレーヤーの誤情報と相手への影響",
+      "rule": 23,
+      "source": "https://www.randa.org/ja-JP/rog/clarifications/rule-23",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
+    },
+    {
+      "id": "24.4/1",
+      "title": "委員会はチームキャプテンやアドバイス担当者に制限を設けられる",
+      "rule": 24,
+      "source": "https://www.randa.org/rog/clarifications/rule-24",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official individual Clarifications code and heading inventory cross-check on 2026-11-02; heading paraphrased in Japanese; full ruling text, penalty logic, and end-to-end navigation not audited"
     }
   ],
   "clarificationCoverage": {
-    "asOf": "2026-11-01",
+    "asOf": "2026-11-02",
     "verifiedRuleGroups": [
       1,
       3,
@@ -6040,9 +6176,12 @@
       16,
       17,
       18,
-      19
+      19,
+      22,
+      23,
+      24
     ],
-    "verifiedIndividualHeadingCount": 192,
+    "verifiedIndividualHeadingCount": 209,
     "allGroupsComplete": false,
     "contentAudited": false,
     "verifiedGroupIds": [
@@ -6062,10 +6201,13 @@
       "C-R16",
       "C-R17",
       "C-R18",
-      "C-R19"
+      "C-R19",
+      "C-R22",
+      "C-R23",
+      "C-R24"
     ],
-    "verificationScope": "Official individual Clarifications code/heading inventories checked for Rules 1,3,5-19 (Rule 4 partially indexed). Full ruling text, Rule 4, Rules 20-24, Definitions Clarifications, Rules 1-25 cases, definitions, MLR, committee procedures and end-to-end navigation remain unaudited.",
-    "indexedIndividualHeadingCount": 202,
+    "verificationScope": "Official individual Clarifications code/heading inventories checked for Rules 1,3,5-19,22-24 (Rule 4 partially indexed). Full ruling text, Rule 4, Rules 20-21, Definitions Clarifications, Rules 1-25 cases, definitions, MLR, committee procedures and end-to-end navigation remain unaudited.",
+    "indexedIndividualHeadingCount": 219,
     "additionalClarificationsUpdate": {
       "date": "2026-10-02",
       "source": "https://assets-us-01.kc-usercontent.com/c42c7bf4-dca7-00ea-4f2e-373223f80f76/a6163d41-a985-404b-92a3-d721e4c28ddc/Additional%20Clarifications%20of%20the%202023%20Rules%20of%20Golf%20-%202%20October%202026.pdf",
