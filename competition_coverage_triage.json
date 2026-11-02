@@ -1,0 +1,2190 @@
+{
+  "schemaVersion": 1,
+  "scope": "Unlinked official subrules only. Parent-rule candidates are NOT verified mappings.",
+  "source": "competition_coverage_audit.json",
+  "counts": {
+    "total": 179,
+    "parentRuleCandidates": 140,
+    "requiresContentReview": 39
+  },
+  "items": [
+    {
+      "id": "1.2a",
+      "title": "全競技者に期待される行動",
+      "rule": 1,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        33,
+        76
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "1.3a",
+      "title": "規則と競技の条件",
+      "rule": 1,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        1,
+        34
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "1.3c",
+      "title": "罰",
+      "rule": 1,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        1,
+        34
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "2.2a",
+      "title": "ジェネラルエリア",
+      "rule": 2,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        43,
+        273
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "2.2b",
+      "title": "4つの特定区域",
+      "rule": 2,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        43,
+        273
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "2.2c",
+      "title": "球があるコース区域の決定",
+      "rule": 2,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        43,
+        273
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.1",
+      "title": "すべての競技の基本要素",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.1a",
+      "title": "マッチプレーとストロークプレー",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.1b",
+      "title": "個人・パートナーでの競技",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.1c",
+      "title": "グロス・ネットスコア",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.2a",
+      "title": "ホールとマッチの結果",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        47
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.2c",
+      "title": "ハンディキャップマッチ",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        47
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.3",
+      "title": "ストロークプレー",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.3a",
+      "title": "ストロークプレーの勝者",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "3.3c",
+      "title": "ホールアウトしなかった場合",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "4.1c",
+      "title": "クラブをプレーから除外する手続",
+      "rule": 4,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        3
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "4.2",
+      "title": "球",
+      "rule": 4,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "4.3b",
+      "title": "医療上の理由による用具",
+      "rule": 4,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        4,
+        237
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.1",
+      "title": "ラウンドの意味",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.2",
+      "title": "ラウンド前・ラウンド間の練習",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.2a",
+      "title": "マッチプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.3",
+      "title": "ラウンドの開始と終了",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.3b",
+      "title": "ラウンド終了",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.4a",
+      "title": "マッチプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        282
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.4b",
+      "title": "ストロークプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        282
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.5b",
+      "title": "ホール終了後の練習制限",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        51
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.5c",
+      "title": "プレー中断中の練習",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        51
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.6",
+      "title": "不当の遅延・速やかなプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.7a",
+      "title": "プレーを止められる・止めなければならない場合",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        84
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.7b",
+      "title": "委員会による中断時の対応",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        84
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.7c",
+      "title": "プレー再開時の対応",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        84
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "5.7d",
+      "title": "中断時の拾い上げ・再開時のリプレースと取り替え",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        84
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.1",
+      "title": "ホールのプレーの開始",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.1a",
+      "title": "ホールが開始する時点",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.2",
+      "title": "ティーイングエリアからのプレー",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.2a",
+      "title": "ティーイングエリアの規則が適用されるとき",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.3",
+      "title": "ホールのプレーで使用する球",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.3d",
+      "title": "同時に複数の球をプレーできる場合",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.4c",
+      "title": "ティーイングエリアから暫定球等をプレーするとき",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        53
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.4d",
+      "title": "ティー以外から救済や暫定球をプレーするとき",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        53
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "6.5",
+      "title": "ホールのプレーの終了",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "7.1",
+      "title": "公平な球の捜索",
+      "rule": 7,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "7.1b",
+      "title": "捜索で砂が動いた場合",
+      "rule": 7,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "8.1d",
+      "title": "球停止後に悪化した状態の復元",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        54,
+        250
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "8.2a",
+      "title": "規則8.2が適用されるとき",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        266
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "8.2b",
+      "title": "その他の物理的状態を変える禁止行為",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        266
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "8.3a",
+      "title": "規則8.3が適用されるとき",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        267
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "8.3b",
+      "title": "その他の物理的状態を変える禁止行為",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        267
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.1",
+      "title": "球はあるがままにプレー",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.1a",
+      "title": "止まった場所からのプレー",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.1b",
+      "title": "バックスイング中・ストローク中に球が動いた場合",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.2a",
+      "title": "球が動いたかの判定",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        274
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.2b",
+      "title": "球が動いた原因の判定",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        274
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.4a",
+      "title": "リプレースが必要なとき",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        8,
+        146
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.4b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        8,
+        146
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.5a",
+      "title": "リプレースが必要なとき",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        275
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.5b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        275
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.7a",
+      "title": "球・ボールマーカーのリプレース",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        276
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "9.7b",
+      "title": "ボールマーカーを動かした罰",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        276
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "10.1",
+      "title": "ストロークの方法",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "10.3a",
+      "title": "ラウンド中のキャディーによる援助",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        90
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "10.3b",
+      "title": "キャディーができること",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        90
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "10.3c",
+      "title": "キャディーの行為・違反への競技者の責任",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        90
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "11.2a",
+      "title": "適用条件",
+      "rule": 11,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        91,
+        173
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "11.2b",
+      "title": "競技者に罰が適用される場合",
+      "rule": 11,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        91,
+        173
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "11.2c",
+      "title": "故意に止められた球の処置",
+      "rule": 11,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        91,
+        173
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "13.1",
+      "title": "グリーン上で認められる・必要な行為",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "13.1a",
+      "title": "球がグリーン上にある場合",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "13.1f",
+      "title": "目的外グリーンからの救済義務",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "13.2b",
+      "title": "旗竿を抜く",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        61
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "13.3b",
+      "title": "待機時間終了前に球が動かされた場合",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        94
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.1b",
+      "title": "球を拾い上げられる人",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        62
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.2a",
+      "title": "元の球の使用",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        63
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.2c",
+      "title": "リプレースする位置",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        63
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.2d",
+      "title": "元のライが変わった場合",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        63
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.3a",
+      "title": "元の球または別の球",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        11,
+        64,
+        65
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.5a",
+      "title": "プレー前の誤り訂正",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        96,
+        178
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.5b",
+      "title": "誤り訂正時の別規則・別救済選択",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        96,
+        178
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.5c",
+      "title": "誤りの後に行った行為の罰",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        96,
+        178
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.6a",
+      "title": "前のストロークがティーイングエリアから",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        292
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.6b",
+      "title": "前のストロークがジェネラルエリア・ペナルティーエリア・バンカーから",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        292
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.6c",
+      "title": "前のストロークがグリーンから",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        292
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.7a",
+      "title": "球をプレーすべき場所",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        66,
+        152
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "14.7b",
+      "title": "ストロークプレーで誤所からプレーした後のホール完了",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        66,
+        152
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "15.1a",
+      "title": "ルースインペディメントの除去",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        67
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "15.1b",
+      "title": "除去時に球が動いた場合",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        67
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "15.3a",
+      "title": "プレーを助けるグリーン上の球",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        97
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "15.3c",
+      "title": "プレーを助け・妨げるマーカー",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        97
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "16.1a",
+      "title": "救済が認められる場合",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        12,
+        183
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "16.2a",
+      "title": "救済が認められる場合",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        98,
+        184
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "16.2b",
+      "title": "危険な動物からの救済",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        98,
+        184
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "16.3a",
+      "title": "救済が認められる場合",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        13
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "16.3b",
+      "title": "地面にくい込んだ球の救済",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        13
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "17.1a",
+      "title": "球がペナルティーエリア内にある場合",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        14
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "17.1b",
+      "title": "そのままプレーまたは罰あり救済",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        14
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "17.1e",
+      "title": "プレー禁止区域からの救済義務",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        14
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "17.2a",
+      "title": "同じ・別のペナルティーエリア内に止まった場合",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        99
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "17.2b",
+      "title": "紛失・OB・エリア外でアンプレヤブルの場合",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        99
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "17.3",
+      "title": "ペナルティーエリア内の球に他の救済規則は使えない",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "18.2b",
+      "title": "紛失・OBの処置",
+      "rule": 18,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        15
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "19.2a",
+      "title": "ストロークと距離",
+      "rule": 19,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        17,
+        101,
+        193
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "19.2b",
+      "title": "後方線上の救済",
+      "rule": 19,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        17,
+        101,
+        193
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "19.3a",
+      "title": "通常の救済：1罰打",
+      "rule": 19,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        74
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.1",
+      "title": "ラウンド中の規則問題の解決",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.1b",
+      "title": "マッチプレーの規則問題",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.2a",
+      "title": "レフェリーによる裁定",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        19
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.2b",
+      "title": "委員会による裁定",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        19
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.2c",
+      "title": "ビデオ証拠と肉眼基準",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        19
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.2d",
+      "title": "誤裁定と事務的誤り",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        19
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.2e",
+      "title": "結果確定後の失格",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        19
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "20.2f",
+      "title": "参加資格のない競技者",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        19
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.1a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        102,
+        204,
+        226
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.1b",
+      "title": "スコアリング",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        102,
+        204,
+        226
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.1c",
+      "title": "罰",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        102,
+        204,
+        226
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.1d",
+      "title": "規則11.2の例外",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        102,
+        204,
+        226
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.1e",
+      "title": "ラウンド終了時点",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        102,
+        204,
+        226
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.2a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        103,
+        203
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.2b",
+      "title": "スコアリング",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        103,
+        203
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.2c",
+      "title": "罰",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        103,
+        203
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.2d",
+      "title": "規則11.2の例外",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        103,
+        203
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.2e",
+      "title": "ラウンド終了時点",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        103,
+        203
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.3a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        104,
+        227
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.3b",
+      "title": "スコアリング",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        104,
+        227
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.3c",
+      "title": "罰",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        104,
+        227
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.3d",
+      "title": "規則11.2の例外",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        104,
+        227
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.3e",
+      "title": "ラウンド終了時点",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        104,
+        227
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.4a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        202,
+        300
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.4b",
+      "title": "プレー順違反",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        202,
+        300
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "21.4c",
+      "title": "一方の相手による球・マーカーの移動",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        202,
+        300
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "22.1",
+      "title": "フォアサムの概要",
+      "rule": 22,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "22.4a",
+      "title": "最初にプレーするパートナー",
+      "rule": 22,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        303
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "22.4b",
+      "title": "開始時間と開始場所",
+      "rule": 22,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        303
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.1",
+      "title": "フォアボールの概要",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.2a",
+      "title": "マッチ・ストロークプレーでのサイドのスコア",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        106
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.2c",
+      "title": "規則11.2が適用されない場合",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        106
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.3",
+      "title": "ラウンド・ホールの開始と終了",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.3a",
+      "title": "ラウンドの開始",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.3b",
+      "title": "ラウンドの終了",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.3c",
+      "title": "ホールの終了",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "requires_content_review",
+      "candidateCaseIds": [],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.5a",
+      "title": "パートナーの球について許される行為",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        107,
+        199
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.5b",
+      "title": "パートナーの行為に対する責任",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        107,
+        199
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.9a",
+      "title": "失格以外の罰",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        229,
+        311
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "23.9b",
+      "title": "失格の罰",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        229,
+        311
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "24.4a",
+      "title": "アドバイスを与えられる人",
+      "rule": 24,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        108,
+        230,
+        312
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "24.4b",
+      "title": "プレー中のアドバイスギバーの制限",
+      "rule": 24,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        108,
+        230,
+        312
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "24.4c",
+      "title": "パートナー以外のチームメンバー間のアドバイス禁止",
+      "rule": 24,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        108,
+        230,
+        312
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2a",
+      "title": "補助者からの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2b",
+      "title": "補助者は同時に1人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2c",
+      "title": "狙いやスタンスを助ける物の設置",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2d",
+      "title": "ストローク前のキャディー等の後方位置",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2e",
+      "title": "キャディーに関する修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2f",
+      "title": "バンカーの砂への接触",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2g",
+      "title": "球を拾い上げられる人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.2h",
+      "title": "ドロップ・プレース・リプレースの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        109,
+        206,
+        314
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.3a",
+      "title": "義肢の取り扱い",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        110,
+        315
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.3b",
+      "title": "クラブのアンカリング",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        110,
+        315
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.3c",
+      "title": "ドロップ・プレース・リプレースの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        110,
+        315
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.3d",
+      "title": "リプレースの定義の修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        110,
+        315
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4a",
+      "title": "補助者などからの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4b",
+      "title": "補助者からのアドバイス",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4c",
+      "title": "補助者は同時に1人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4d",
+      "title": "スタンスの定義の修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4e",
+      "title": "リプレースの定義の修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4f",
+      "title": "用具の使用",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4g",
+      "title": "移動補助器具を使ったスタンス",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4h",
+      "title": "クラブのアンカリング",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4i",
+      "title": "プレーの線をまたぐスタンス",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4j",
+      "title": "キャディーに関する修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4k",
+      "title": "動いている球と移動補助器具の接触",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4l",
+      "title": "バンカーの砂の状態のテスト",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4m",
+      "title": "車輪付き移動補助器具：ラテラル救済エリアの拡張",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.4n",
+      "title": "車輪付き移動補助器具：バンカー外へのアンプレヤブル救済",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        111,
+        207,
+        316
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.5a",
+      "title": "補助者または監督者の援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        317
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.5b",
+      "title": "補助者は同時に1人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        317
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.5c",
+      "title": "キャディーに関する修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        317
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.5d",
+      "title": "球を拾い上げられる人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        317
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.5e",
+      "title": "知的障害と身体障害の両方がある場合",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        317
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.6a",
+      "title": "不当の遅延",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        318
+      ],
+      "verification": "candidate only; not semantically verified"
+    },
+    {
+      "id": "25.6b",
+      "title": "ドロップ",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review",
+      "reviewClass": "parent_rule_case_candidate",
+      "candidateCaseIds": [
+        318
+      ],
+      "verification": "candidate only; not semantically verified"
+    }
+  ]
+}
