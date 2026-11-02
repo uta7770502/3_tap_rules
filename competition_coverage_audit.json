@@ -1,0 +1,2904 @@
+{
+  "schemaVersion": 1,
+  "auditScope": "Exact Rule reference / explicit officialSubruleIds mapping only; not semantic equivalence or substantive legal validation",
+  "sourceFiles": [
+    "competition_rules.json",
+    "competition_official_index.json"
+  ],
+  "counts": {
+    "cases": 318,
+    "officialSubrules": 336,
+    "linked": 157,
+    "needsReview": 179
+  },
+  "byRule": [
+    {
+      "rule": 1,
+      "total": 8,
+      "linked": 5,
+      "needsReview": 3
+    },
+    {
+      "rule": 2,
+      "total": 7,
+      "linked": 4,
+      "needsReview": 3
+    },
+    {
+      "rule": 3,
+      "total": 13,
+      "linked": 4,
+      "needsReview": 9
+    },
+    {
+      "rule": 4,
+      "total": 11,
+      "linked": 8,
+      "needsReview": 3
+    },
+    {
+      "rule": 5,
+      "total": 22,
+      "linked": 8,
+      "needsReview": 14
+    },
+    {
+      "rule": 6,
+      "total": 17,
+      "linked": 8,
+      "needsReview": 9
+    },
+    {
+      "rule": 7,
+      "total": 6,
+      "linked": 4,
+      "needsReview": 2
+    },
+    {
+      "rule": 8,
+      "total": 11,
+      "linked": 6,
+      "needsReview": 5
+    },
+    {
+      "rule": 9,
+      "total": 17,
+      "linked": 6,
+      "needsReview": 11
+    },
+    {
+      "rule": 10,
+      "total": 12,
+      "linked": 8,
+      "needsReview": 4
+    },
+    {
+      "rule": 11,
+      "total": 8,
+      "linked": 5,
+      "needsReview": 3
+    },
+    {
+      "rule": 12,
+      "total": 5,
+      "linked": 5,
+      "needsReview": 0
+    },
+    {
+      "rule": 13,
+      "total": 14,
+      "linked": 9,
+      "needsReview": 5
+    },
+    {
+      "rule": 14,
+      "total": 27,
+      "linked": 14,
+      "needsReview": 13
+    },
+    {
+      "rule": 15,
+      "total": 10,
+      "linked": 6,
+      "needsReview": 4
+    },
+    {
+      "rule": 16,
+      "total": 14,
+      "linked": 9,
+      "needsReview": 5
+    },
+    {
+      "rule": 17,
+      "total": 10,
+      "linked": 4,
+      "needsReview": 6
+    },
+    {
+      "rule": 18,
+      "total": 8,
+      "linked": 7,
+      "needsReview": 1
+    },
+    {
+      "rule": 19,
+      "total": 8,
+      "linked": 5,
+      "needsReview": 3
+    },
+    {
+      "rule": 20,
+      "total": 12,
+      "linked": 4,
+      "needsReview": 8
+    },
+    {
+      "rule": 21,
+      "total": 23,
+      "linked": 5,
+      "needsReview": 18
+    },
+    {
+      "rule": 22,
+      "total": 8,
+      "linked": 5,
+      "needsReview": 3
+    },
+    {
+      "rule": 23,
+      "total": 19,
+      "linked": 8,
+      "needsReview": 11
+    },
+    {
+      "rule": 24,
+      "total": 7,
+      "linked": 4,
+      "needsReview": 3
+    },
+    {
+      "rule": 25,
+      "total": 39,
+      "linked": 6,
+      "needsReview": 33
+    }
+  ],
+  "rows": [
+    {
+      "id": "1.1",
+      "title": "ゴルフゲーム",
+      "rule": 1,
+      "caseIds": [
+        32,
+        271
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "1.2",
+      "title": "競技者の行動基準",
+      "rule": 1,
+      "caseIds": [
+        33,
+        76
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "1.2a",
+      "title": "全競技者に期待される行動",
+      "rule": 1,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "1.2b",
+      "title": "行動規範",
+      "rule": 1,
+      "caseIds": [
+        272
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "1.3",
+      "title": "規則に従うプレー",
+      "rule": 1,
+      "caseIds": [
+        1,
+        34
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "1.3a",
+      "title": "規則と競技の条件",
+      "rule": 1,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "1.3b",
+      "title": "規則の適用",
+      "rule": 1,
+      "caseIds": [
+        77
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "1.3c",
+      "title": "罰",
+      "rule": 1,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "2.1",
+      "title": "コースの境界とアウトオブバウンズ",
+      "rule": 2,
+      "caseIds": [
+        20,
+        42,
+        78
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "2.2",
+      "title": "コースの定義された区域",
+      "rule": 2,
+      "caseIds": [
+        43,
+        273
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "2.2a",
+      "title": "ジェネラルエリア",
+      "rule": 2,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "2.2b",
+      "title": "4つの特定区域",
+      "rule": 2,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "2.2c",
+      "title": "球があるコース区域の決定",
+      "rule": 2,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "2.3",
+      "title": "プレーを妨げる物・状態",
+      "rule": 2,
+      "caseIds": [
+        44
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "2.4",
+      "title": "プレー禁止区域",
+      "rule": 2,
+      "caseIds": [
+        45,
+        79
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "3.1",
+      "title": "すべての競技の基本要素",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.1a",
+      "title": "マッチプレーとストロークプレー",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.1b",
+      "title": "個人・パートナーでの競技",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.1c",
+      "title": "グロス・ネットスコア",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.2",
+      "title": "マッチプレー",
+      "rule": 3,
+      "caseIds": [
+        47
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "3.2a",
+      "title": "ホールとマッチの結果",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.2b",
+      "title": "コンシード",
+      "rule": 3,
+      "caseIds": [
+        195
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "3.2c",
+      "title": "ハンディキャップマッチ",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.2d",
+      "title": "競技者と相手の責任",
+      "rule": 3,
+      "caseIds": [
+        194
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "3.3",
+      "title": "ストロークプレー",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.3a",
+      "title": "ストロークプレーの勝者",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "3.3b",
+      "title": "ストロークプレーのスコア",
+      "rule": 3,
+      "caseIds": [
+        2,
+        48,
+        49
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "3.3c",
+      "title": "ホールアウトしなかった場合",
+      "rule": 3,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "4.1",
+      "title": "クラブ",
+      "rule": 4,
+      "caseIds": [
+        3
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.1a",
+      "title": "ストロークで使用できるクラブ",
+      "rule": 4,
+      "caseIds": [
+        80,
+        144
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.1b",
+      "title": "14本制限・共有・追加・交換",
+      "rule": 4,
+      "caseIds": [
+        143
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.1c",
+      "title": "クラブをプレーから除外する手続",
+      "rule": 4,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "4.2",
+      "title": "球",
+      "rule": 4,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "4.2a",
+      "title": "使用できる球",
+      "rule": 4,
+      "caseIds": [
+        81
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.2b",
+      "title": "プレー中に球が割れた場合",
+      "rule": 4,
+      "caseIds": [
+        134
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.2c",
+      "title": "球に切れ目・ひびが生じた場合",
+      "rule": 4,
+      "caseIds": [
+        135
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.3",
+      "title": "用具の使用",
+      "rule": 4,
+      "caseIds": [
+        4,
+        237
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.3a",
+      "title": "認められる用具使用と禁止行為",
+      "rule": 4,
+      "caseIds": [
+        82,
+        212,
+        213,
+        214
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "4.3b",
+      "title": "医療上の理由による用具",
+      "rule": 4,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.1",
+      "title": "ラウンドの意味",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.2",
+      "title": "ラウンド前・ラウンド間の練習",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.2a",
+      "title": "マッチプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.2b",
+      "title": "ストロークプレー",
+      "rule": 5,
+      "caseIds": [
+        50
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.3",
+      "title": "ラウンドの開始と終了",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.3a",
+      "title": "開始時間",
+      "rule": 5,
+      "caseIds": [
+        5
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.3b",
+      "title": "ラウンド終了",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.4",
+      "title": "組でのプレー",
+      "rule": 5,
+      "caseIds": [
+        282
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.4a",
+      "title": "マッチプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.4b",
+      "title": "ストロークプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.5",
+      "title": "ラウンド中・中断中の練習",
+      "rule": 5,
+      "caseIds": [
+        51
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.5a",
+      "title": "ホールプレー中の練習ストローク禁止",
+      "rule": 5,
+      "caseIds": [
+        283
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.5b",
+      "title": "ホール終了後の練習制限",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.5c",
+      "title": "プレー中断中の練習",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.6",
+      "title": "不当の遅延・速やかなプレー",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.6a",
+      "title": "不当の遅延",
+      "rule": 5,
+      "caseIds": [
+        83
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.6b",
+      "title": "速やかなプレー",
+      "rule": 5,
+      "caseIds": [
+        284
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.7",
+      "title": "プレーの中断と再開",
+      "rule": 5,
+      "caseIds": [
+        84
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "5.7a",
+      "title": "プレーを止められる・止めなければならない場合",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.7b",
+      "title": "委員会による中断時の対応",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.7c",
+      "title": "プレー再開時の対応",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "5.7d",
+      "title": "中断時の拾い上げ・再開時のリプレースと取り替え",
+      "rule": 5,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.1",
+      "title": "ホールのプレーの開始",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.1a",
+      "title": "ホールが開始する時点",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.1b",
+      "title": "ティーイングエリア内からのプレー",
+      "rule": 6,
+      "caseIds": [
+        52
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.2",
+      "title": "ティーイングエリアからのプレー",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.2a",
+      "title": "ティーイングエリアの規則が適用されるとき",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.2b",
+      "title": "ティーイングエリアの規則",
+      "rule": 6,
+      "caseIds": [
+        85
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.3",
+      "title": "ホールのプレーで使用する球",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.3a",
+      "title": "ティーからの同じ球でホールアウト",
+      "rule": 6,
+      "caseIds": [
+        86,
+        142
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.3b",
+      "title": "ホールプレー中の球の取り替え",
+      "rule": 6,
+      "caseIds": [
+        285
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.3c",
+      "title": "誤球",
+      "rule": 6,
+      "caseIds": [
+        6,
+        139
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.3d",
+      "title": "同時に複数の球をプレーできる場合",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.4",
+      "title": "ホールプレー中のプレー順",
+      "rule": 6,
+      "caseIds": [
+        53
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.4a",
+      "title": "マッチプレー",
+      "rule": 6,
+      "caseIds": [
+        141
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.4b",
+      "title": "ストロークプレー",
+      "rule": 6,
+      "caseIds": [
+        140
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "6.4c",
+      "title": "ティーイングエリアから暫定球等をプレーするとき",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.4d",
+      "title": "ティー以外から救済や暫定球をプレーするとき",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "6.5",
+      "title": "ホールのプレーの終了",
+      "rule": 6,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "7.1",
+      "title": "公平な球の捜索",
+      "rule": 7,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "7.1a",
+      "title": "球を探し確認する合理的な行為",
+      "rule": 7,
+      "caseIds": [
+        286
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "7.1b",
+      "title": "捜索で砂が動いた場合",
+      "rule": 7,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "7.2",
+      "title": "球の確認方法",
+      "rule": 7,
+      "caseIds": [
+        87
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "7.3",
+      "title": "確認のための球の拾い上げ",
+      "rule": 7,
+      "caseIds": [
+        287
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "7.4",
+      "title": "捜索・確認中に偶然球が動いた場合",
+      "rule": 7,
+      "caseIds": [
+        7,
+        145
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "8.1",
+      "title": "ストロークに影響する状態の改善",
+      "rule": 8,
+      "caseIds": [
+        54,
+        250
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "8.1a",
+      "title": "認められない行為",
+      "rule": 8,
+      "caseIds": [
+        211,
+        264
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "8.1b",
+      "title": "認められる行為",
+      "rule": 8,
+      "caseIds": [
+        265
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "8.1c",
+      "title": "違反して改善した状態の復元",
+      "rule": 8,
+      "caseIds": [
+        88
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "8.1d",
+      "title": "球停止後に悪化した状態の復元",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "8.2",
+      "title": "自分の球・ストロークに影響するその他の物理的状態の変更",
+      "rule": 8,
+      "caseIds": [
+        266
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "8.2a",
+      "title": "規則8.2が適用されるとき",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "8.2b",
+      "title": "その他の物理的状態を変える禁止行為",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "8.3",
+      "title": "他の競技者の球・ストロークに影響する状態の変更",
+      "rule": 8,
+      "caseIds": [
+        267
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "8.3a",
+      "title": "規則8.3が適用されるとき",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "8.3b",
+      "title": "その他の物理的状態を変える禁止行為",
+      "rule": 8,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.1",
+      "title": "球はあるがままにプレー",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.1a",
+      "title": "止まった場所からのプレー",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.1b",
+      "title": "バックスイング中・ストローク中に球が動いた場合",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.2",
+      "title": "球が動いたか・原因の判定",
+      "rule": 9,
+      "caseIds": [
+        274
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "9.2a",
+      "title": "球が動いたかの判定",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.2b",
+      "title": "球が動いた原因の判定",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.3",
+      "title": "自然の力で動いた球",
+      "rule": 9,
+      "caseIds": [
+        147
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "9.4",
+      "title": "競技者が拾い上げ・動かした球",
+      "rule": 9,
+      "caseIds": [
+        8,
+        146
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "9.4a",
+      "title": "リプレースが必要なとき",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.4b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.5",
+      "title": "マッチの相手が拾い上げ・動かした球",
+      "rule": 9,
+      "caseIds": [
+        275
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "9.5a",
+      "title": "リプレースが必要なとき",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.5b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.6",
+      "title": "外的影響で拾い上げ・動かされた球",
+      "rule": 9,
+      "caseIds": [
+        89
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "9.7",
+      "title": "動いたボールマーカー",
+      "rule": 9,
+      "caseIds": [
+        276
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "9.7a",
+      "title": "球・ボールマーカーのリプレース",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "9.7b",
+      "title": "ボールマーカーを動かした罰",
+      "rule": 9,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "10.1",
+      "title": "ストロークの方法",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "10.1a",
+      "title": "正しく球を打つ",
+      "rule": 10,
+      "caseIds": [
+        154,
+        156,
+        165
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.1b",
+      "title": "クラブのアンカリング",
+      "rule": 10,
+      "caseIds": [
+        56,
+        157,
+        167
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.1c",
+      "title": "プレーの線をまたぐ・踏むスタンス",
+      "rule": 10,
+      "caseIds": [
+        55,
+        158
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.1d",
+      "title": "動いている球へのストローク",
+      "rule": 10,
+      "caseIds": [
+        155,
+        159
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.2",
+      "title": "アドバイスとその他の援助",
+      "rule": 10,
+      "caseIds": [
+        9
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.2a",
+      "title": "アドバイス",
+      "rule": 10,
+      "caseIds": [
+        160,
+        161,
+        288
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.2b",
+      "title": "その他の援助",
+      "rule": 10,
+      "caseIds": [
+        57,
+        58,
+        162,
+        163
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.3",
+      "title": "キャディー",
+      "rule": 10,
+      "caseIds": [
+        90
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "10.3a",
+      "title": "ラウンド中のキャディーによる援助",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "10.3b",
+      "title": "キャディーができること",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "10.3c",
+      "title": "キャディーの行為・違反への競技者の責任",
+      "rule": 10,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "11.1",
+      "title": "動いている球が偶然人・外的影響に当たる",
+      "rule": 11,
+      "caseIds": [
+        10,
+        151
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "11.1a",
+      "title": "競技者への罰",
+      "rule": 11,
+      "caseIds": [
+        169,
+        170
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "11.1b",
+      "title": "球をプレーすべき場所",
+      "rule": 11,
+      "caseIds": [
+        172
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "11.2",
+      "title": "動いている球を故意に方向変更・停止",
+      "rule": 11,
+      "caseIds": [
+        91,
+        173
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "11.2a",
+      "title": "適用条件",
+      "rule": 11,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "11.2b",
+      "title": "競技者に罰が適用される場合",
+      "rule": 11,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "11.2c",
+      "title": "故意に止められた球の処置",
+      "rule": 11,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "11.3",
+      "title": "動いている球に影響するため物を除去・状態を変更",
+      "rule": 11,
+      "caseIds": [
+        289
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "12.1",
+      "title": "球がバンカー内にある場合",
+      "rule": 12,
+      "caseIds": [
+        277
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "12.2",
+      "title": "バンカー内の球のプレー",
+      "rule": 12,
+      "caseIds": [
+        59,
+        149
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "12.2a",
+      "title": "ルースインペディメント・動かせる障害物の除去",
+      "rule": 12,
+      "caseIds": [
+        278
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "12.2b",
+      "title": "バンカーの砂に触れる制限",
+      "rule": 12,
+      "caseIds": [
+        92,
+        240
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "12.3",
+      "title": "バンカー内の球の救済",
+      "rule": 12,
+      "caseIds": [
+        279
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.1",
+      "title": "グリーン上で認められる・必要な行為",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "13.1a",
+      "title": "球がグリーン上にある場合",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "13.1b",
+      "title": "グリーン上の球のマーク・拾い上げ・清掃",
+      "rule": 13,
+      "caseIds": [
+        290
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.1c",
+      "title": "グリーン上で認められる改善",
+      "rule": 13,
+      "caseIds": [
+        60,
+        249
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.1d",
+      "title": "グリーン上で球・マーカーが動いた場合",
+      "rule": 13,
+      "caseIds": [
+        93,
+        150
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.1e",
+      "title": "グリーンの故意のテスト禁止",
+      "rule": 13,
+      "caseIds": [
+        252
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.1f",
+      "title": "目的外グリーンからの救済義務",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "13.2",
+      "title": "旗竿",
+      "rule": 13,
+      "caseIds": [
+        61
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.2a",
+      "title": "旗竿を立てたままプレー",
+      "rule": 13,
+      "caseIds": [
+        291
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.2b",
+      "title": "旗竿を抜く",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "13.2c",
+      "title": "球がホール内の旗竿に寄りかかる",
+      "rule": 13,
+      "caseIds": [
+        239
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.3",
+      "title": "ホールの縁にかかる球",
+      "rule": 13,
+      "caseIds": [
+        94
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.3a",
+      "title": "球が落ちるか待つ時間",
+      "rule": 13,
+      "caseIds": [
+        238
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "13.3b",
+      "title": "待機時間終了前に球が動かされた場合",
+      "rule": 13,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.1",
+      "title": "球のマーク・拾い上げ・清掃",
+      "rule": 14,
+      "caseIds": [
+        62
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.1a",
+      "title": "拾い上げる球の位置をマークする義務",
+      "rule": 14,
+      "caseIds": [
+        175
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.1b",
+      "title": "球を拾い上げられる人",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.1c",
+      "title": "球の清掃",
+      "rule": 14,
+      "caseIds": [
+        176
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.2",
+      "title": "元の場所へのリプレース",
+      "rule": 14,
+      "caseIds": [
+        63
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.2a",
+      "title": "元の球の使用",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.2b",
+      "title": "リプレースできる人と方法",
+      "rule": 14,
+      "caseIds": [
+        246
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.2c",
+      "title": "リプレースする位置",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.2d",
+      "title": "元のライが変わった場合",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.2e",
+      "title": "リプレースした球が止まらない場合",
+      "rule": 14,
+      "caseIds": [
+        177
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.3",
+      "title": "救済エリアへのドロップ",
+      "rule": 14,
+      "caseIds": [
+        11,
+        64,
+        65
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.3a",
+      "title": "元の球または別の球",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.3b",
+      "title": "正しいドロップ方法",
+      "rule": 14,
+      "caseIds": [
+        245,
+        247
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.3c",
+      "title": "救済エリア内に止まる必要",
+      "rule": 14,
+      "caseIds": [
+        244
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.3d",
+      "title": "ドロップ球が故意に方向変更・停止された場合",
+      "rule": 14,
+      "caseIds": [
+        174
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.4",
+      "title": "球が再びインプレーとなる時点",
+      "rule": 14,
+      "caseIds": [
+        95
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.5",
+      "title": "取り替え・リプレース・ドロップ・プレースの誤り訂正",
+      "rule": 14,
+      "caseIds": [
+        96,
+        178
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.5a",
+      "title": "プレー前の誤り訂正",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.5b",
+      "title": "誤り訂正時の別規則・別救済選択",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.5c",
+      "title": "誤りの後に行った行為の罰",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.6",
+      "title": "前のストローク地点から次を打つ",
+      "rule": 14,
+      "caseIds": [
+        292
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.6a",
+      "title": "前のストロークがティーイングエリアから",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.6b",
+      "title": "前のストロークがジェネラルエリア・ペナルティーエリア・バンカーから",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.6c",
+      "title": "前のストロークがグリーンから",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.7",
+      "title": "誤所からのプレー",
+      "rule": 14,
+      "caseIds": [
+        66,
+        152
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "14.7a",
+      "title": "球をプレーすべき場所",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "14.7b",
+      "title": "ストロークプレーで誤所からプレーした後のホール完了",
+      "rule": 14,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "15.1",
+      "title": "ルースインペディメント",
+      "rule": 15,
+      "caseIds": [
+        67
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "15.1a",
+      "title": "ルースインペディメントの除去",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "15.1b",
+      "title": "除去時に球が動いた場合",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "15.2",
+      "title": "動かせる障害物",
+      "rule": 15,
+      "caseIds": [
+        68
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "15.2a",
+      "title": "動かせる障害物からの救済",
+      "rule": 15,
+      "caseIds": [
+        181
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "15.2b",
+      "title": "動かせる障害物の中・上で球が見つからない場合",
+      "rule": 15,
+      "caseIds": [
+        293
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "15.3",
+      "title": "プレーを助け・妨げる球やマーカー",
+      "rule": 15,
+      "caseIds": [
+        97
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "15.3a",
+      "title": "プレーを助けるグリーン上の球",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "15.3b",
+      "title": "プレーを妨げるコース上の球",
+      "rule": 15,
+      "caseIds": [
+        182
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "15.3c",
+      "title": "プレーを助け・妨げるマーカー",
+      "rule": 15,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "16.1",
+      "title": "異常なコース状態からの救済",
+      "rule": 16,
+      "caseIds": [
+        12,
+        183
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.1a",
+      "title": "救済が認められる場合",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "16.1b",
+      "title": "ジェネラルエリアの球の救済",
+      "rule": 16,
+      "caseIds": [
+        294
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.1c",
+      "title": "バンカー内の球の救済",
+      "rule": 16,
+      "caseIds": [
+        69
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.1d",
+      "title": "グリーン上の球の救済",
+      "rule": 16,
+      "caseIds": [
+        295
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.1e",
+      "title": "異常なコース状態内で球が見つからない場合",
+      "rule": 16,
+      "caseIds": [
+        257,
+        258
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.1f",
+      "title": "異常なコース状態内のプレー禁止区域からの救済義務",
+      "rule": 16,
+      "caseIds": [
+        222
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.2",
+      "title": "危険な動物の状態",
+      "rule": 16,
+      "caseIds": [
+        98,
+        184
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.2a",
+      "title": "救済が認められる場合",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "16.2b",
+      "title": "危険な動物からの救済",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "16.3",
+      "title": "地面にくい込んだ球",
+      "rule": 16,
+      "caseIds": [
+        13
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "16.3a",
+      "title": "救済が認められる場合",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "16.3b",
+      "title": "地面にくい込んだ球の救済",
+      "rule": 16,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "16.4",
+      "title": "救済可能な状態か確認するための球の拾い上げ",
+      "rule": 16,
+      "caseIds": [
+        253,
+        254
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "17.1",
+      "title": "ペナルティーエリア内の球の選択肢",
+      "rule": 17,
+      "caseIds": [
+        14
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "17.1a",
+      "title": "球がペナルティーエリア内にある場合",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "17.1b",
+      "title": "そのままプレーまたは罰あり救済",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "17.1c",
+      "title": "見つからない球がペナルティーエリア内にある場合",
+      "rule": 17,
+      "caseIds": [
+        296
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "17.1d",
+      "title": "ペナルティーエリアからの救済",
+      "rule": 17,
+      "caseIds": [
+        70,
+        71
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "17.1e",
+      "title": "プレー禁止区域からの救済義務",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "17.2",
+      "title": "ペナルティーエリアから打った後の選択肢",
+      "rule": 17,
+      "caseIds": [
+        99
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "17.2a",
+      "title": "同じ・別のペナルティーエリア内に止まった場合",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "17.2b",
+      "title": "紛失・OB・エリア外でアンプレヤブルの場合",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "17.3",
+      "title": "ペナルティーエリア内の球に他の救済規則は使えない",
+      "rule": 17,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "18.1",
+      "title": "ストロークと距離の救済はいつでも選べる",
+      "rule": 18,
+      "caseIds": [
+        100
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "18.2",
+      "title": "紛失・OBの場合のストロークと距離の義務",
+      "rule": 18,
+      "caseIds": [
+        15
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "18.2a",
+      "title": "紛失・OBの判定",
+      "rule": 18,
+      "caseIds": [
+        72
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "18.2b",
+      "title": "紛失・OBの処置",
+      "rule": 18,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "18.3",
+      "title": "暫定球",
+      "rule": 18,
+      "caseIds": [
+        16
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "18.3a",
+      "title": "暫定球を打てる場合",
+      "rule": 18,
+      "caseIds": [
+        297
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "18.3b",
+      "title": "暫定球の宣言",
+      "rule": 18,
+      "caseIds": [
+        188
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "18.3c",
+      "title": "暫定球がインプレーになる・放棄されるまで",
+      "rule": 18,
+      "caseIds": [
+        73,
+        189
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "19.1",
+      "title": "ペナルティーエリア以外でアンプレヤブルを宣言できる",
+      "rule": 19,
+      "caseIds": [
+        298
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "19.2",
+      "title": "ジェネラルエリア・グリーン上での救済",
+      "rule": 19,
+      "caseIds": [
+        17,
+        101,
+        193
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "19.2a",
+      "title": "ストロークと距離",
+      "rule": 19,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "19.2b",
+      "title": "後方線上の救済",
+      "rule": 19,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "19.2c",
+      "title": "ラテラル救済",
+      "rule": 19,
+      "caseIds": [
+        192
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "19.3",
+      "title": "バンカー内でのアンプレヤブル救済",
+      "rule": 19,
+      "caseIds": [
+        74
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "19.3a",
+      "title": "通常の救済：1罰打",
+      "rule": 19,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "19.3b",
+      "title": "追加の救済：2罰打",
+      "rule": 19,
+      "caseIds": [
+        191
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "20.1",
+      "title": "ラウンド中の規則問題の解決",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.1a",
+      "title": "不当の遅延を避ける",
+      "rule": 20,
+      "caseIds": [
+        224
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "20.1b",
+      "title": "マッチプレーの規則問題",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.1c",
+      "title": "ストロークプレーの規則問題",
+      "rule": 20,
+      "caseIds": [
+        18
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "20.2",
+      "title": "裁定",
+      "rule": 20,
+      "caseIds": [
+        19
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "20.2a",
+      "title": "レフェリーによる裁定",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.2b",
+      "title": "委員会による裁定",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.2c",
+      "title": "ビデオ証拠と肉眼基準",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.2d",
+      "title": "誤裁定と事務的誤り",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.2e",
+      "title": "結果確定後の失格",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.2f",
+      "title": "参加資格のない競技者",
+      "rule": 20,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "20.3",
+      "title": "規則に扱われていない状況",
+      "rule": 20,
+      "caseIds": [
+        299
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "21.1",
+      "title": "ステーブルフォード",
+      "rule": 21,
+      "caseIds": [
+        102,
+        204,
+        226
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "21.1a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.1b",
+      "title": "スコアリング",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.1c",
+      "title": "罰",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.1d",
+      "title": "規則11.2の例外",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.1e",
+      "title": "ラウンド終了時点",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.2",
+      "title": "最大スコア",
+      "rule": 21,
+      "caseIds": [
+        103,
+        203
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "21.2a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.2b",
+      "title": "スコアリング",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.2c",
+      "title": "罰",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.2d",
+      "title": "規則11.2の例外",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.2e",
+      "title": "ラウンド終了時点",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.3",
+      "title": "パー・ボギー",
+      "rule": 21,
+      "caseIds": [
+        104,
+        227
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "21.3a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.3b",
+      "title": "スコアリング",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.3c",
+      "title": "罰",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.3d",
+      "title": "規則11.2の例外",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.3e",
+      "title": "ラウンド終了時点",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.4",
+      "title": "スリーボール・マッチプレー",
+      "rule": 21,
+      "caseIds": [
+        202,
+        300
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "21.4a",
+      "title": "概要",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.4b",
+      "title": "プレー順違反",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.4c",
+      "title": "一方の相手による球・マーカーの移動",
+      "rule": 21,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "21.5",
+      "title": "その他のプレー形式",
+      "rule": 21,
+      "caseIds": [
+        301
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "22.1",
+      "title": "フォアサムの概要",
+      "rule": 22,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "22.2",
+      "title": "どちらのパートナーもサイドのために行為可能",
+      "rule": 22,
+      "caseIds": [
+        228,
+        302
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "22.3",
+      "title": "ストロークを交互に行う義務",
+      "rule": 22,
+      "caseIds": [
+        105,
+        200,
+        201
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "22.4",
+      "title": "ラウンドの開始",
+      "rule": 22,
+      "caseIds": [
+        303
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "22.4a",
+      "title": "最初にプレーするパートナー",
+      "rule": 22,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "22.4b",
+      "title": "開始時間と開始場所",
+      "rule": 22,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "22.5",
+      "title": "パートナー間のクラブ共有",
+      "rule": 22,
+      "caseIds": [
+        304
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "22.6",
+      "title": "パートナーのストローク時の後方位置制限",
+      "rule": 22,
+      "caseIds": [
+        305
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.1",
+      "title": "フォアボールの概要",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.2",
+      "title": "フォアボールのスコア",
+      "rule": 23,
+      "caseIds": [
+        106
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.2a",
+      "title": "マッチ・ストロークプレーでのサイドのスコア",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.2b",
+      "title": "ストロークプレーのサイドのスコアカード",
+      "rule": 23,
+      "caseIds": [
+        306
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.2c",
+      "title": "規則11.2が適用されない場合",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.3",
+      "title": "ラウンド・ホールの開始と終了",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.3a",
+      "title": "ラウンドの開始",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.3b",
+      "title": "ラウンドの終了",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.3c",
+      "title": "ホールの終了",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.4",
+      "title": "一方または両パートナーがサイドを代表",
+      "rule": 23,
+      "caseIds": [
+        307
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.5",
+      "title": "パートナーのプレーに影響する行為",
+      "rule": 23,
+      "caseIds": [
+        107,
+        199
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.5a",
+      "title": "パートナーの球について許される行為",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.5b",
+      "title": "パートナーの行為に対する責任",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.6",
+      "title": "サイドのプレー順",
+      "rule": 23,
+      "caseIds": [
+        197,
+        308
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.7",
+      "title": "クラブの共有",
+      "rule": 23,
+      "caseIds": [
+        309
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.8",
+      "title": "ストローク時のパートナーの後方位置制限",
+      "rule": 23,
+      "caseIds": [
+        310
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.9",
+      "title": "罰が一方・両方に適用される場合",
+      "rule": 23,
+      "caseIds": [
+        229,
+        311
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "23.9a",
+      "title": "失格以外の罰",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "23.9b",
+      "title": "失格の罰",
+      "rule": 23,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "24.1",
+      "title": "チーム競技の概要",
+      "rule": 24,
+      "caseIds": [
+        268
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "24.2",
+      "title": "チーム競技の条件",
+      "rule": 24,
+      "caseIds": [
+        269
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "24.3",
+      "title": "チームキャプテン",
+      "rule": 24,
+      "caseIds": [
+        270
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "24.4",
+      "title": "チーム競技で認められるアドバイス",
+      "rule": 24,
+      "caseIds": [
+        108,
+        230,
+        312
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "24.4a",
+      "title": "アドバイスを与えられる人",
+      "rule": 24,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "24.4b",
+      "title": "プレー中のアドバイスギバーの制限",
+      "rule": 24,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "24.4c",
+      "title": "パートナー以外のチームメンバー間のアドバイス禁止",
+      "rule": 24,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.1",
+      "title": "適用対象と概要",
+      "rule": 25,
+      "caseIds": [
+        313
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "25.2",
+      "title": "視覚障害のあるプレーヤー",
+      "rule": 25,
+      "caseIds": [
+        109,
+        206,
+        314
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "25.2a",
+      "title": "補助者からの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.2b",
+      "title": "補助者は同時に1人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.2c",
+      "title": "狙いやスタンスを助ける物の設置",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.2d",
+      "title": "ストローク前のキャディー等の後方位置",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.2e",
+      "title": "キャディーに関する修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.2f",
+      "title": "バンカーの砂への接触",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.2g",
+      "title": "球を拾い上げられる人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.2h",
+      "title": "ドロップ・プレース・リプレースの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.3",
+      "title": "切断・四肢欠損のあるプレーヤー",
+      "rule": 25,
+      "caseIds": [
+        110,
+        315
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "25.3a",
+      "title": "義肢の取り扱い",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.3b",
+      "title": "クラブのアンカリング",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.3c",
+      "title": "ドロップ・プレース・リプレースの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.3d",
+      "title": "リプレースの定義の修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4",
+      "title": "移動補助器具を使用するプレーヤー",
+      "rule": 25,
+      "caseIds": [
+        111,
+        207,
+        316
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "25.4a",
+      "title": "補助者などからの援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4b",
+      "title": "補助者からのアドバイス",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4c",
+      "title": "補助者は同時に1人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4d",
+      "title": "スタンスの定義の修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4e",
+      "title": "リプレースの定義の修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4f",
+      "title": "用具の使用",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4g",
+      "title": "移動補助器具を使ったスタンス",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4h",
+      "title": "クラブのアンカリング",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4i",
+      "title": "プレーの線をまたぐスタンス",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4j",
+      "title": "キャディーに関する修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4k",
+      "title": "動いている球と移動補助器具の接触",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4l",
+      "title": "バンカーの砂の状態のテスト",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4m",
+      "title": "車輪付き移動補助器具：ラテラル救済エリアの拡張",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.4n",
+      "title": "車輪付き移動補助器具：バンカー外へのアンプレヤブル救済",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.5",
+      "title": "知的障害のあるプレーヤー",
+      "rule": 25,
+      "caseIds": [
+        317
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "25.5a",
+      "title": "補助者または監督者の援助",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.5b",
+      "title": "補助者は同時に1人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.5c",
+      "title": "キャディーに関する修正",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.5d",
+      "title": "球を拾い上げられる人",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.5e",
+      "title": "知的障害と身体障害の両方がある場合",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.6",
+      "title": "全障害区分に共通する規定",
+      "rule": 25,
+      "caseIds": [
+        318
+      ],
+      "status": "linked"
+    },
+    {
+      "id": "25.6a",
+      "title": "不当の遅延",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    },
+    {
+      "id": "25.6b",
+      "title": "ドロップ",
+      "rule": 25,
+      "caseIds": [],
+      "status": "needs_review"
+    }
+  ],
+  "completionVerified": false
+}
