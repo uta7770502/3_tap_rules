@@ -6330,9 +6330,10 @@
       "C-R21",
       "C-R22",
       "C-R23",
-      "C-R24"
+      "C-R24",
+      "C-D"
     ],
-    "verificationScope": "R&A individual Clarifications code/heading inventories checked for all 23 Rule groups (Rules 1,3-24). Definitions Clarifications and full ruling text, Rule 1-25 case/subrule mappings, Definitions, MLR, Committee Procedures and end-to-end navigation remain unaudited.",
+    "verificationScope": "R&A Clarifications heading/code inventories checked for all 24 groups: 23 numbered Rule groups (234 entries) and Definitions Clarifications (32 entries). All full rulings, penalty logic, Rules 1-25 case/subrule mappings, Definitions, MLR, Committee Procedures and end-to-end navigation remain unaudited.",
     "indexedIndividualHeadingCount": 234,
     "additionalClarificationsUpdate": {
       "date": "2026-10-02",
@@ -6346,6 +6347,265 @@
       ],
       "withdrawnCodeNotIndexed": "10.2b(3)/2",
       "scope": "Additional Clarifications PDF only; not the full Clarifications inventory"
+    },
+    "definitionClarificationsHeadingCount": 32
+  },
+  "definitionClarifications": [
+    {
+      "id": "Advice/1",
+      "title": "アドバイスとなる口頭でのコメントや行動",
+      "officialTerm": "Advice",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Advice/2",
+      "title": "アドバイスとはならない口頭でのコメントや行動",
+      "officialTerm": "Advice",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Advice/3",
+      "title": "公開されている情報を含む発言がアドバイスとなる場合",
+      "officialTerm": "Advice",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Boundary Object/1",
+      "title": "境界物に取り付けられている物のステータス",
+      "officialTerm": "Boundary Object",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Club-Length/1",
+      "title": "最も長いクラブが破損した場合の計測方法",
+      "officialTerm": "Club-Length",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Committee/1",
+      "title": "委員会のメンバーの任務と責任の制限",
+      "officialTerm": "Committee",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Ground Under Repair/1",
+      "title": "委員会や管理スタッフが原因となった損傷は必ずしも修理地ではない",
+      "officialTerm": "Ground Under Repair",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Ground Under Repair/2",
+      "title": "修理地に根付いている木の上にある球は修理地の中にある",
+      "officialTerm": "Ground Under Repair",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Ground Under Repair/3",
+      "title": "倒木や切り株は必ずしも修理地ではない",
+      "officialTerm": "Ground Under Repair",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Holed/1",
+      "title": "ホール側面にくい込んだ球は全体が地表面より下でなければホールインではない",
+      "officialTerm": "Holed",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Holed/2",
+      "title": "球が完全に静止していなくてもホールインとなる場合",
+      "officialTerm": "Holed",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Immovable Obstruction/1",
+      "title": "障害物の周りの芝は障害物の一部ではない",
+      "officialTerm": "Immovable Obstruction",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Known or Virtually Certain/1",
+      "title": "球が動いた場合の「分かっている、または事実上確実」基準の適用",
+      "officialTerm": "Known or Virtually Certain",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Known or Virtually Certain/2",
+      "title": "3分の捜索時間後に判明した「事実上確実」は関係ない",
+      "officialTerm": "Known or Virtually Certain",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Known or Virtually Certain/3",
+      "title": "自分の球が別のプレーヤーによってプレーされていたことに気づかなかった場合",
+      "officialTerm": "Known or Virtually Certain",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Loose Impediment/1",
+      "title": "果実のステータス",
+      "officialTerm": "Loose Impediment",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Loose Impediment/2",
+      "title": "ルースインペディメントが障害物となる場合",
+      "officialTerm": "Loose Impediment",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Loose Impediment/3",
+      "title": "唾のステータス",
+      "officialTerm": "Loose Impediment",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Loose Impediment/4",
+      "title": "道路の舗装に使われているルースインペディメント",
+      "officialTerm": "Loose Impediment",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Lost/1",
+      "title": "暫定球をプレーするために戻る場合も捜索時間は継続する",
+      "officialTerm": "Lost",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Lost/2",
+      "title": "2つの球を捜索する場合の捜索時間",
+      "officialTerm": "Lost",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Moved/1",
+      "title": "物に載っている球が動いたことになる場合",
+      "officialTerm": "Moved",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Moved/2",
+      "title": "テレビの証拠が肉眼で認識できない程度の球の移動を示した場合",
+      "officialTerm": "Moved",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Nearest Point of Complete Relief/1",
+      "title": "完全な救済のニヤレストポイントを解説している図",
+      "officialTerm": "Nearest Point of Complete Relief",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Nearest Point of Complete Relief/2",
+      "title": "完全な救済のニヤレストポイントを決める推奨手続きに従わない場合",
+      "officialTerm": "Nearest Point of Complete Relief",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Nearest Point of Complete Relief/3",
+      "title": "救済後に別のクラブでストロークすると障害が残る場合",
+      "officialTerm": "Nearest Point of Complete Relief",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Nearest Point of Complete Relief/4",
+      "title": "完全な救済のニヤレストポイントを決めたが意図するストロークができない場合",
+      "officialTerm": "Nearest Point of Complete Relief",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Nearest Point of Complete Relief/5",
+      "title": "完全な救済のニヤレストポイントを物理的に決められない場合",
+      "officialTerm": "Nearest Point of Complete Relief",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "No Play Zone/1",
+      "title": "プレー禁止区域から突き出ている生長物のステータス",
+      "officialTerm": "No Play Zone",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Relief Area/1",
+      "title": "球が救済エリアにあるかどうかの決定",
+      "officialTerm": "Relief Area",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Stroke/1",
+      "title": "ストロークを行ったかどうかの決定",
+      "officialTerm": "Stroke",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
+    },
+    {
+      "id": "Wrong Ball/1",
+      "title": "誤球の一部は依然として誤球である",
+      "officialTerm": "Wrong Ball",
+      "source": "https://www.randa.org/rog/definitions-clarifications",
+      "verifiedDate": "2026-11-02",
+      "verificationScope": "R&A official Definitions Clarifications heading/code inventory checked 2026-11-02 (English headings, Japanese title paraphrase); full ruling text, penalty logic and end-to-end navigation not audited"
     }
-  }
+  ]
 }
