@@ -6348,7 +6348,9 @@
       "withdrawnCodeNotIndexed": "10.2b(3)/2",
       "scope": "Additional Clarifications PDF only; not the full Clarifications inventory"
     },
-    "definitionClarificationsHeadingCount": 32
+    "definitionClarificationsHeadingCount": 32,
+    "allGroupHeadingsVerified": true,
+    "totalIndexedClarificationHeadings": 266
   },
   "definitionClarifications": [
     {
