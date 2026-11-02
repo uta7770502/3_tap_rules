@@ -180,6 +180,25 @@ if((idx.clarifications||[]).some(x=>x.id==='10.2b(3)/2'))errors.push('withdrawn 
 if(idx.clarificationCoverage?.additionalClarificationsUpdate?.date!=='2026-10-02'||idx.clarificationCoverage?.additionalClarificationsUpdate?.newClarificationsThisUpdate!==false)errors.push('October 2026 supplemental update provenance missing');
 if((idx.clarifications||[]).some(x=>!x.source?.includes('/clarifications/rule-')||!x.verifiedDate))errors.push('individual Clarification source provenance incomplete');
 
+// R&A Definitions Clarifications code/heading inventory checked 2026-11-02.
+// This is heading-only verification; full text and on-device reachability remain pending.
+const expectedDefinitionClarifications={
+ 'Advice':3,'Boundary Object':1,'Club-Length':1,'Committee':1,
+ 'Ground Under Repair':3,'Holed':2,'Immovable Obstruction':1,
+ 'Known or Virtually Certain':3,'Loose Impediment':4,'Lost':2,'Moved':2,
+ 'Nearest Point of Complete Relief':5,'No Play Zone':1,'Relief Area':1,
+ 'Stroke':1,'Wrong Ball':1
+};
+const expectedDefinitionCodes=Object.entries(expectedDefinitionClarifications).flatMap(([term,count])=>Array.from({length:count},(_,i)=>term+'/'+(i+1)));
+const actualDefinitionEntries=idx.definitionClarifications||[];
+const actualDefinitionCodes=actualDefinitionEntries.map(x=>x.id);
+for(const id of expectedDefinitionCodes)if(!actualDefinitionCodes.includes(id))errors.push('missing official Definitions Clarification: '+id);
+for(const id of actualDefinitionCodes)if(!expectedDefinitionCodes.includes(id))errors.push('unverified Definitions Clarification: '+id);
+if(actualDefinitionCodes.length!==expectedDefinitionCodes.length)errors.push('Definitions Clarifications heading count mismatch: '+actualDefinitionCodes.length+' vs '+expectedDefinitionCodes.length);
+if(new Set(actualDefinitionCodes).size!==actualDefinitionCodes.length)errors.push('duplicate Definitions Clarification IDs');
+if(actualDefinitionEntries.some(x=>!x.title||!x.officialTerm||!x.verifiedDate||!x.source?.includes('randa.org/rog/definitions-clarifications')))errors.push('Definitions Clarifications provenance or headings missing');
+if(!idx.clarificationCoverage?.verifiedGroupIds?.includes('C-D'))errors.push('Definitions Clarifications heading group has not been source-verified');
+
 const firstLevel=idx.committeeProcedureItems||[];
 const numbered=idx.committeeProcedureNumberedItems||[];
 if(firstLevel.length!==53)errors.push('Committee Procedures first-level index not matched to 53 official headings: '+firstLevel.length);
@@ -191,7 +210,7 @@ for(const group of [firstLevel,numbered]){
 if(!idx.committeeProcedureAudit?.complete||[...firstLevel,...numbered].some(x=>!x.contentAudited))errors.push('Committee Procedures full-text/content review incomplete');
 const mainHtml=fs.readFileSync('competition_rules.html','utf8');
 const indexHtml=fs.readFileSync('competition_official_index.html','utf8');
-for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNumberedItems','clarificationGroups','clarifications','modelLocalRules','ruleSubrules']){
+for(const tab of ['definitions','committeeProcedureItems','committeeProcedureNumberedItems','clarificationGroups','clarifications','definitionClarifications','modelLocalRules','ruleSubrules']){
   if(!mainHtml.includes(tab)||!indexHtml.includes(tab))errors.push('official navigation tab not wired in both pages: '+tab);
 }
 if(!mainHtml.includes('data-rule="25"')||!mainHtml.includes('data-rule="1"'))errors.push('Rule-number navigation missing');
@@ -203,5 +222,5 @@ if((idx.definitions||[]).some(x=>!x.title||!x.officialTerm||!x.source?.includes(
 if(!idx.officialDefinitionsVerified?.nameSetMatched)errors.push('Definitions name set not checked against current official list');
 if(!idx.officialDefinitionsVerified?.complete)errors.push('Definitions full content review remains incomplete');
 if(!idx.navigationAudit?.verifiedOnDevice||!idx.navigationAudit?.evidence?.length)errors.push('end-to-end search/category/Rule-number navigation has no recorded verification evidence');
-console.log(JSON.stringify({ok:!errors.length,cases:rules.length,definitions:(idx.definitions||[]).length,mlr:(idx.modelLocalRules||[]).length,individualClarifications:(idx.clarifications||[]).length,committee:(idx.committeeProcedures||[]).length,committeeFirstLevel:firstLevel.length,committeeNumbered:numbered.length,clarificationGroups:(idx.clarificationGroups||[]).length,subruleGroups:(idx.officialRuleSubrules||[]).length,unlinkedSubrules:unlinkedSubrules.length,errors},null,2));
+console.log(JSON.stringify({ok:!errors.length,cases:rules.length,definitions:(idx.definitions||[]).length,mlr:(idx.modelLocalRules||[]).length,individualClarifications:(idx.clarifications||[]).length,definitionClarifications:(idx.definitionClarifications||[]).length,committee:(idx.committeeProcedures||[]).length,committeeFirstLevel:firstLevel.length,committeeNumbered:numbered.length,clarificationGroups:(idx.clarificationGroups||[]).length,subruleGroups:(idx.officialRuleSubrules||[]).length,unlinkedSubrules:unlinkedSubrules.length,errors},null,2));
 if(errors.length)process.exitCode=1;
