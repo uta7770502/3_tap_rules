@@ -1296,7 +1296,27 @@
     "checkedDate": "2026-10-28",
     "officialCount": 91,
     "codeSetMatched": true,
-    "note": "R&A Section 8 index codes A-1 through M-4, including E-14; code-level only, not text or navigation verification"
+    "note": "R&A Section 8 index codes A-1 through M-4, including E-14; code-level only, not text or navigation verification",
+    "latestSupplementalReview": {
+      "checkedDate": "2026-11-02",
+      "source": "https://www.usga.org/rules-hub/clarifications-of-the-rules-of-golf.html",
+      "updateDate": "2026-10-02",
+      "noNewClarificationsInOctober": true,
+      "nextExpectedUpdate": "2027-01",
+      "currentVersionItemsRequiringTextReview": [
+        {
+          "id": "G-9",
+          "effectiveDate": "2026-01-01",
+          "note": "replacement version effective January 2026; full model local rule text not yet compared"
+        },
+        {
+          "id": "M-4",
+          "effectiveDate": "2026-07-01",
+          "note": "replacement version effective July 2026; full model local rule text not yet compared"
+        }
+      ],
+      "scope": "USGA supplemental update metadata verified only; full MLR wording and applicability not audited"
+    }
   },
   "officialRuleSubrules": [
     {
