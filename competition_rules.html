@@ -17,7 +17,7 @@ function textOf(r){return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...
 function draw(){
   const v=q.value.trim().toLowerCase();
   const om=document.getElementById("officialMatches");
-  const oa=v?official.filter(x=>(x.id+" "+x.title+" "+(x.officialTerm||"")+" "+(x.english||"")).toLowerCase().includes(v)):(mode.type==="rule"?official.filter(x=>["ruleSubrules","clarifications","clarificationGroups"].includes(x.tab)&&Number(x.rule??parseInt(x.id,10))===Number(mode.value)):[]);
+  const oa=v?official.filter(x=>(x.id+" "+x.title+" "+(x.officialTerm||"")+" "+(x.english||"")+" "+(x.rule||"")).toLowerCase().includes(v)):(mode.type==="rule"?official.filter(x=>["ruleSubrules","clarifications","clarificationGroups"].includes(x.tab)&&Number(x.rule??parseInt(x.id,10))===Number(mode.value)):[]);
   om.innerHTML=oa.length?`<div class="navTitle">公式索引の一致</div>${oa.slice(0,60).map(x=>`<a class="item" style="display:block;text-decoration:none;color:inherit" href="competition_official_index.html?tab=${encodeURIComponent(x.tab)}&id=${encodeURIComponent(x.id)}"><div class="rule">公式索引 ・ ${esc(x.id)}</div><h2>${esc(x.title)}</h2></a>`).join("")}${oa.length>60?`<p class="count">公式索引は先頭60件を表示中。項目名や番号で絞り込んでください。</p>`:""}`:"";
   let a=rules.filter(r=>!v||textOf(r).includes(v));
   if(!v&&mode.type==="rule")a=a.filter(r=>parseInt(String(r.rule),10)===Number(mode.value));
@@ -28,7 +28,7 @@ function draw(){
 }
 Promise.all([fetch("competition_rules.json?v="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("rules HTTP "+r.status);return r.json()}),fetch("competition_official_index.json?v="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("index HTTP "+r.status);return r.json()})]).then(([d,idx])=>{rules=d.map(normalize);official=[...["definitions","committeeProcedures","committeeProcedureItems","committeeProcedureNumberedItems","clarificationGroups","clarifications","definitionClarifications","modelLocalRules"].flatMap(tab=>(idx[tab]||[]).map(x=>({...x,tab}))),...(idx.officialRuleSubrules||[]).flatMap(g=>(g.subrules||[]).map(x=>({...x,rule:g.rule,tab:"ruleSubrules"})))];
 document.querySelectorAll("[data-rule]").forEach(b=>{const n=Number(b.dataset.rule),hits=rules.filter(r=>parseInt(String(r.rule),10)===n).length;b.textContent=n+" ("+hits+")";});
-const p=new URLSearchParams(location.search).get("q");if(p)q.value=p;draw()}).catch(()=>{list.innerHTML="<p>競技ルールを読み込めませんでした。</p>"});
+const params=new URLSearchParams(location.search),p=params.get("q"),rule=params.get("rule");if(p)q.value=p;if(!p&&rule&&/^(?:[1-9]|1\d|2[0-5])$/.test(rule)){mode={type:"rule",value:rule};const b=document.querySelector(`[data-rule="${rule}"]`);if(b)b.classList.add("active");}draw()}).catch(()=>{list.innerHTML="<p>競技ルールを読み込めませんでした。</p>"});
 function activate(el){document.querySelectorAll("[data-filter],[data-rule]").forEach(x=>x.classList.remove("active"));if(el)el.classList.add("active");}
 q.oninput=()=>{mode={type:"all",value:""};activate(null);draw();};
 document.querySelectorAll("[data-filter]").forEach(b=>b.onclick=()=>{q.value="";mode={type:"filter",value:b.dataset.filter};activate(b);draw();});
