@@ -59,7 +59,7 @@ if(new Set((idx.clarifications||[]).map(x=>x.id)).size!==(idx.clarifications||[]
 
 // Regression checks for individually source-verified Clarification heading inventories.
 // These are *minimums*, not a declaration that all 24 groups have been audited.
-const clarificationMinimums={1:9,3:19,4:10,5:18,6:7,7:5,8:23,9:13,10:14,11:6,12:4,13:9,14:21,15:4,16:14,17:4,18:15,19:7,22:4,23:12,24:1};
+const clarificationMinimums={1:9,3:19,4:14,5:18,6:7,7:5,8:23,9:13,10:14,11:6,12:4,13:9,14:21,15:4,16:14,17:4,18:15,19:7,20:9,21:2,22:4,23:12,24:1};
 for(const [rule,min] of Object.entries(clarificationMinimums)){
   const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===Number(rule));
   if(actual.length<min)errors.push('verified Rule '+rule+' Clarification headings regressed: '+actual.length+' < '+min);
@@ -150,6 +150,18 @@ const expectedRule22=["22.3/1","22.3/2","22.3/3","22.3/4"];
 const expectedRule23=["23.2a/1","23.2b/1","23.2b/2","23.4/1","23.6/1","23.6/2","23.6/3","23.7/1","23.8/1","23.9a(2)/1","23.9a(2)/2","23.9a(2)/3"];
 const expectedRule24=["24.4/1"];
 for(const [rule,expected] of [[22,expectedRule22],[23,expectedRule23],[24,expectedRule24]]){
+  const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===rule).map(x=>x.id);
+  for(const id of expected)if(!actual.includes(id))errors.push('source-verified Rule '+rule+' Clarification missing: '+id);
+  for(const id of actual)if(!expected.includes(id))errors.push('Rule '+rule+' Clarification not in reviewed official heading inventory: '+id);
+  if(actual.length!==expected.length)errors.push('Rule '+rule+' Clarification heading count mismatch: '+actual.length+' vs '+expected.length);
+}
+
+// R&A Japanese individual Clarifications heading inventories checked 2026-11-02.
+// Exact code sets only. Full rulings, penalty logic and end-to-end navigation remain unaudited.
+const expectedRule4=["4.1a(1)/1","4.1a(1)/2","4.1a(2)/1","4.1b/1","4.1b(1)/1","4.1b(2)/1","4.1b(2)/2","4.1b(4)/1","4.2a(1)/1","4.2a(1)/2","4.2a(1)/3","4.3a/1","4.3a/2","4.3a(1)/1"];
+const expectedRule20=["20.1b(2)/1","20.1b(2)/2","20.1b(4)/1","20.1c(3)/1","20.1c(3)/2","20.1c(3)/3","20.1c(3)/4","20.1c(3)/5","20.1c(3)/6"];
+const expectedRule21=["21.4/1","21/1"];
+for(const [rule,expected] of [[4,expectedRule4],[20,expectedRule20],[21,expectedRule21]]){
   const actual=(idx.clarifications||[]).filter(x=>Number(x.rule)===rule).map(x=>x.id);
   for(const id of expected)if(!actual.includes(id))errors.push('source-verified Rule '+rule+' Clarification missing: '+id);
   for(const id of actual)if(!expected.includes(id))errors.push('Rule '+rule+' Clarification not in reviewed official heading inventory: '+id);
