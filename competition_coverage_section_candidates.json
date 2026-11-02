@@ -1,0 +1,2383 @@
+{
+  "schemaVersion": 1,
+  "scope": "Candidate matching for all 179 unmapped official subrules; no cases automatically marked verified",
+  "counts": {
+    "total": 179,
+    "sectionCandidates": 163,
+    "noSectionCandidates": 16,
+    "unverified": 179
+  },
+  "items": [
+    {
+      "id": "1.2a",
+      "title": "全競技者に期待される行動",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        76,
+        272
+      ],
+      "sameRuleCandidateCount": 6,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "1.3a",
+      "title": "規則と競技の条件",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        1,
+        77
+      ],
+      "sameRuleCandidateCount": 6,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "1.3c",
+      "title": "罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        1,
+        77
+      ],
+      "sameRuleCandidateCount": 6,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "2.2a",
+      "title": "ジェネラルエリア",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        273
+      ],
+      "sameRuleCandidateCount": 5,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "2.2b",
+      "title": "4つの特定区域",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        273
+      ],
+      "sameRuleCandidateCount": 5,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "2.2c",
+      "title": "球があるコース区域の決定",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        273
+      ],
+      "sameRuleCandidateCount": 5,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.1",
+      "title": "すべての競技の基本要素",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.1a",
+      "title": "マッチプレーとストロークプレー",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.1b",
+      "title": "個人・パートナーでの競技",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.1c",
+      "title": "グロス・ネットスコア",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.2a",
+      "title": "ホールとマッチの結果",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        47,
+        194,
+        195,
+        196
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.2c",
+      "title": "ハンディキャップマッチ",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        47,
+        194,
+        195,
+        196
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.3",
+      "title": "ストロークプレー",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        2,
+        48,
+        49,
+        280,
+        281
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.3a",
+      "title": "ストロークプレーの勝者",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        2,
+        48,
+        49,
+        280,
+        281
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "3.3c",
+      "title": "ホールアウトしなかった場合",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        2,
+        48,
+        49,
+        280,
+        281
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "4.1c",
+      "title": "クラブをプレーから除外する手続",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        3,
+        80,
+        143,
+        144
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "4.2",
+      "title": "球",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        81,
+        134,
+        135
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "4.3b",
+      "title": "医療上の理由による用具",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        4,
+        82,
+        212,
+        213,
+        214,
+        237
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.1",
+      "title": "ラウンドの意味",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.2",
+      "title": "ラウンド前・ラウンド間の練習",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        50
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.2a",
+      "title": "マッチプレー",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        50
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.3",
+      "title": "ラウンドの開始と終了",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        5
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.3b",
+      "title": "ラウンド終了",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        5
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.4a",
+      "title": "マッチプレー",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        282
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.4b",
+      "title": "ストロークプレー",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        282
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.5b",
+      "title": "ホール終了後の練習制限",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        51,
+        283
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.5c",
+      "title": "プレー中断中の練習",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        51,
+        283
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.6",
+      "title": "不当の遅延・速やかなプレー",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        83,
+        284
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.7a",
+      "title": "プレーを止められる・止めなければならない場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        84
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.7b",
+      "title": "委員会による中断時の対応",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        84
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.7c",
+      "title": "プレー再開時の対応",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        84
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "5.7d",
+      "title": "中断時の拾い上げ・再開時のリプレースと取り替え",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        84
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.1",
+      "title": "ホールのプレーの開始",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        52,
+        136,
+        137
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.1a",
+      "title": "ホールが開始する時点",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        52,
+        136,
+        137
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.2",
+      "title": "ティーイングエリアからのプレー",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        85,
+        138,
+        256
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.2a",
+      "title": "ティーイングエリアの規則が適用されるとき",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        85,
+        138,
+        256
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.3",
+      "title": "ホールのプレーで使用する球",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        6,
+        86,
+        139,
+        142,
+        285
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.3d",
+      "title": "同時に複数の球をプレーできる場合",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        6,
+        86,
+        139,
+        142,
+        285
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.4c",
+      "title": "ティーイングエリアから暫定球等をプレーするとき",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        53,
+        140,
+        141
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.4d",
+      "title": "ティー以外から救済や暫定球をプレーするとき",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        53,
+        140,
+        141
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "6.5",
+      "title": "ホールのプレーの終了",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "7.1",
+      "title": "公平な球の捜索",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        241,
+        286
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "7.1b",
+      "title": "捜索で砂が動いた場合",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        241,
+        286
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "8.1d",
+      "title": "球停止後に悪化した状態の復元",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        54,
+        88,
+        250,
+        264,
+        265
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "8.2a",
+      "title": "規則8.2が適用されるとき",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        266
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "8.2b",
+      "title": "その他の物理的状態を変える禁止行為",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        266
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "8.3a",
+      "title": "規則8.3が適用されるとき",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        267
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "8.3b",
+      "title": "その他の物理的状態を変える禁止行為",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        267
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.1",
+      "title": "球はあるがままにプレー",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.1a",
+      "title": "止まった場所からのプレー",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.1b",
+      "title": "バックスイング中・ストローク中に球が動いた場合",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.2a",
+      "title": "球が動いたかの判定",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        274
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.2b",
+      "title": "球が動いた原因の判定",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        274
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.4a",
+      "title": "リプレースが必要なとき",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        8,
+        146
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.4b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        8,
+        146
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.5a",
+      "title": "リプレースが必要なとき",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        275
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.5b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        275
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.7a",
+      "title": "球・ボールマーカーのリプレース",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        276
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "9.7b",
+      "title": "ボールマーカーを動かした罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        276
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "10.1",
+      "title": "ストロークの方法",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        55,
+        56,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        165,
+        166,
+        167,
+        168
+      ],
+      "sameRuleCandidateCount": 23,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "10.3a",
+      "title": "ラウンド中のキャディーによる援助",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        90
+      ],
+      "sameRuleCandidateCount": 23,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "10.3b",
+      "title": "キャディーができること",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        90
+      ],
+      "sameRuleCandidateCount": 23,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "10.3c",
+      "title": "キャディーの行為・違反への競技者の責任",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        90
+      ],
+      "sameRuleCandidateCount": 23,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "11.2a",
+      "title": "適用条件",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        91,
+        173
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "11.2b",
+      "title": "競技者に罰が適用される場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        91,
+        173
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "11.2c",
+      "title": "故意に止められた球の処置",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        91,
+        173
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "13.1",
+      "title": "グリーン上で認められる・必要な行為",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        60,
+        93,
+        148,
+        150,
+        248,
+        249,
+        251,
+        252,
+        290
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "13.1a",
+      "title": "球がグリーン上にある場合",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        60,
+        93,
+        148,
+        150,
+        248,
+        249,
+        251,
+        252,
+        290
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "13.1f",
+      "title": "目的外グリーンからの救済義務",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        60,
+        93,
+        148,
+        150,
+        248,
+        249,
+        251,
+        252,
+        290
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "13.2b",
+      "title": "旗竿を抜く",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        61,
+        239,
+        291
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "13.3b",
+      "title": "待機時間終了前に球が動かされた場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        94,
+        238
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.1b",
+      "title": "球を拾い上げられる人",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        62,
+        175,
+        176,
+        243
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.2a",
+      "title": "元の球の使用",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        63,
+        177,
+        246
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.2c",
+      "title": "リプレースする位置",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        63,
+        177,
+        246
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.2d",
+      "title": "元のライが変わった場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        63,
+        177,
+        246
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.3a",
+      "title": "元の球または別の球",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        11,
+        64,
+        65,
+        174,
+        179,
+        244,
+        245,
+        247
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.5a",
+      "title": "プレー前の誤り訂正",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        96,
+        178
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.5b",
+      "title": "誤り訂正時の別規則・別救済選択",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        96,
+        178
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.5c",
+      "title": "誤りの後に行った行為の罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        96,
+        178
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.6a",
+      "title": "前のストロークがティーイングエリアから",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        292
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.6b",
+      "title": "前のストロークがジェネラルエリア・ペナルティーエリア・バンカーから",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        292
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.6c",
+      "title": "前のストロークがグリーンから",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        292
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.7a",
+      "title": "球をプレーすべき場所",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        66,
+        152
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "14.7b",
+      "title": "ストロークプレーで誤所からプレーした後のホール完了",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        66,
+        152
+      ],
+      "sameRuleCandidateCount": 22,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "15.1a",
+      "title": "ルースインペディメントの除去",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        67,
+        180
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "15.1b",
+      "title": "除去時に球が動いた場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        67,
+        180
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "15.3a",
+      "title": "プレーを助けるグリーン上の球",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        97,
+        182
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "15.3c",
+      "title": "プレーを助け・妨げるマーカー",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        97,
+        182
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "16.1a",
+      "title": "救済が認められる場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        12,
+        69,
+        183,
+        255,
+        257,
+        258,
+        294,
+        295
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "16.2a",
+      "title": "救済が認められる場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        98,
+        184
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "16.2b",
+      "title": "危険な動物からの救済",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        98,
+        184
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "16.3a",
+      "title": "救済が認められる場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        13,
+        185
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "16.3b",
+      "title": "地面にくい込んだ球の救済",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        13,
+        185
+      ],
+      "sameRuleCandidateCount": 15,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "17.1a",
+      "title": "球がペナルティーエリア内にある場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        14,
+        70,
+        71,
+        187,
+        296
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "17.1b",
+      "title": "そのままプレーまたは罰あり救済",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        14,
+        70,
+        71,
+        187,
+        296
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "17.1e",
+      "title": "プレー禁止区域からの救済義務",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        14,
+        70,
+        71,
+        187,
+        296
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "17.2a",
+      "title": "同じ・別のペナルティーエリア内に止まった場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        99
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "17.2b",
+      "title": "紛失・OB・エリア外でアンプレヤブルの場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        99
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "17.3",
+      "title": "ペナルティーエリア内の球に他の救済規則は使えない",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "18.2b",
+      "title": "紛失・OBの処置",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        15,
+        72,
+        190
+      ],
+      "sameRuleCandidateCount": 10,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "19.2a",
+      "title": "ストロークと距離",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        17,
+        101,
+        192,
+        193
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "19.2b",
+      "title": "後方線上の救済",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        17,
+        101,
+        192,
+        193
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "19.3a",
+      "title": "通常の救済：1罰打",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        74,
+        191
+      ],
+      "sameRuleCandidateCount": 8,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.1",
+      "title": "ラウンド中の規則問題の解決",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        18,
+        75,
+        153,
+        223,
+        224,
+        225
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.1b",
+      "title": "マッチプレーの規則問題",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        18,
+        75,
+        153,
+        223,
+        224,
+        225
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.2a",
+      "title": "レフェリーによる裁定",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        19
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.2b",
+      "title": "委員会による裁定",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        19
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.2c",
+      "title": "ビデオ証拠と肉眼基準",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        19
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.2d",
+      "title": "誤裁定と事務的誤り",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        19
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.2e",
+      "title": "結果確定後の失格",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        19
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "20.2f",
+      "title": "参加資格のない競技者",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        19
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.1a",
+      "title": "概要",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        102,
+        204,
+        226
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.1b",
+      "title": "スコアリング",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        102,
+        204,
+        226
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.1c",
+      "title": "罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        102,
+        204,
+        226
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.1d",
+      "title": "規則11.2の例外",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        102,
+        204,
+        226
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.1e",
+      "title": "ラウンド終了時点",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        102,
+        204,
+        226
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.2a",
+      "title": "概要",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        103,
+        203
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.2b",
+      "title": "スコアリング",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        103,
+        203
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.2c",
+      "title": "罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        103,
+        203
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.2d",
+      "title": "規則11.2の例外",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        103,
+        203
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.2e",
+      "title": "ラウンド終了時点",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        103,
+        203
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.3a",
+      "title": "概要",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        104,
+        227
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.3b",
+      "title": "スコアリング",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        104,
+        227
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.3c",
+      "title": "罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        104,
+        227
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.3d",
+      "title": "規則11.2の例外",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        104,
+        227
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.3e",
+      "title": "ラウンド終了時点",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        104,
+        227
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.4a",
+      "title": "概要",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        202,
+        300
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.4b",
+      "title": "プレー順違反",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        202,
+        300
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "21.4c",
+      "title": "一方の相手による球・マーカーの移動",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        202,
+        300
+      ],
+      "sameRuleCandidateCount": 12,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "22.1",
+      "title": "フォアサムの概要",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "22.4a",
+      "title": "最初にプレーするパートナー",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        303
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "22.4b",
+      "title": "開始時間と開始場所",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        303
+      ],
+      "sameRuleCandidateCount": 9,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.1",
+      "title": "フォアボールの概要",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.2a",
+      "title": "マッチ・ストロークプレーでのサイドのスコア",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        106,
+        306
+      ],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.2c",
+      "title": "規則11.2が適用されない場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        106,
+        306
+      ],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.3",
+      "title": "ラウンド・ホールの開始と終了",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.3a",
+      "title": "ラウンドの開始",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.3b",
+      "title": "ラウンドの終了",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.3c",
+      "title": "ホールの終了",
+      "previousClass": "requires_content_review",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.5a",
+      "title": "パートナーの球について許される行為",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        107,
+        199
+      ],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.5b",
+      "title": "パートナーの行為に対する責任",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        107,
+        199
+      ],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.9a",
+      "title": "失格以外の罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        198,
+        229,
+        311
+      ],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "23.9b",
+      "title": "失格の罰",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        198,
+        229,
+        311
+      ],
+      "sameRuleCandidateCount": 13,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "24.4a",
+      "title": "アドバイスを与えられる人",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        108,
+        230,
+        312
+      ],
+      "sameRuleCandidateCount": 7,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "24.4b",
+      "title": "プレー中のアドバイスギバーの制限",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        108,
+        230,
+        312
+      ],
+      "sameRuleCandidateCount": 7,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "24.4c",
+      "title": "パートナー以外のチームメンバー間のアドバイス禁止",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        108,
+        230,
+        312
+      ],
+      "sameRuleCandidateCount": 7,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2a",
+      "title": "補助者からの援助",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2b",
+      "title": "補助者は同時に1人",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2c",
+      "title": "狙いやスタンスを助ける物の設置",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2d",
+      "title": "ストローク前のキャディー等の後方位置",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2e",
+      "title": "キャディーに関する修正",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2f",
+      "title": "バンカーの砂への接触",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2g",
+      "title": "球を拾い上げられる人",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.2h",
+      "title": "ドロップ・プレース・リプレースの援助",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        109,
+        206,
+        314
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.3a",
+      "title": "義肢の取り扱い",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        110,
+        315
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.3b",
+      "title": "クラブのアンカリング",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        110,
+        315
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.3c",
+      "title": "ドロップ・プレース・リプレースの援助",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        110,
+        315
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.3d",
+      "title": "リプレースの定義の修正",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        110,
+        315
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4a",
+      "title": "補助者などからの援助",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4b",
+      "title": "補助者からのアドバイス",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4c",
+      "title": "補助者は同時に1人",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4d",
+      "title": "スタンスの定義の修正",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4e",
+      "title": "リプレースの定義の修正",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4f",
+      "title": "用具の使用",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4g",
+      "title": "移動補助器具を使ったスタンス",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4h",
+      "title": "クラブのアンカリング",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4i",
+      "title": "プレーの線をまたぐスタンス",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4j",
+      "title": "キャディーに関する修正",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4k",
+      "title": "動いている球と移動補助器具の接触",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4l",
+      "title": "バンカーの砂の状態のテスト",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4m",
+      "title": "車輪付き移動補助器具：ラテラル救済エリアの拡張",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.4n",
+      "title": "車輪付き移動補助器具：バンカー外へのアンプレヤブル救済",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        111,
+        207,
+        316
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.5a",
+      "title": "補助者または監督者の援助",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        317
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.5b",
+      "title": "補助者は同時に1人",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        317
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.5c",
+      "title": "キャディーに関する修正",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        317
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.5d",
+      "title": "球を拾い上げられる人",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        317
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.5e",
+      "title": "知的障害と身体障害の両方がある場合",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        317
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.6a",
+      "title": "不当の遅延",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        318
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    },
+    {
+      "id": "25.6b",
+      "title": "ドロップ",
+      "previousClass": "parent_rule_case_candidate",
+      "exactRuleCaseIds": [],
+      "sameSectionCandidateIds": [
+        318
+      ],
+      "sameRuleCandidateCount": 14,
+      "reviewStatus": "requires_human_rules_review",
+      "note": "Candidate linkage only; title/Rule proximity does not establish equivalence"
+    }
+  ]
+}
