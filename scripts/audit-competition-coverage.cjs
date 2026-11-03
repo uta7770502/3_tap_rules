@@ -31,6 +31,22 @@ const report={
   errors,
   gates:{structure:errors.length===0&&groups.length===25,subruleCaseMapping:missing.length===0,officialTextVerified:false,uiEndToEndVerified:false,complete:false}
 };
+// Static navigation checks do not replace browser end-to-end tests.
+const listHtml=fs.readFileSync(path.join(root,"competition_rules.html"),"utf8");
+const indexHtml=fs.readFileSync(path.join(root,"competition_official_index.html"),"utf8");
+const detailHtml=fs.readFileSync(path.join(root,"competition_rule.html"),"utf8");
+const navigationChecks={
+  caseSearch:listHtml.includes('id="q"')&&listHtml.includes("function draw()"),
+  categoryButtons:listHtml.includes("data-filter=")&&listHtml.includes('querySelectorAll("[data-filter]")'),
+  ruleNumberButtons:listHtml.includes("data-rule=")&&listHtml.includes('querySelectorAll("[data-rule]")'),
+  officialIndexLink:listHtml.includes("competition_official_index.html?tab="),
+  officialIndexTabs:indexHtml.includes('data-k="ruleSubrules"')&&indexHtml.includes('data-k="definitions"'),
+  officialDeepLinks:indexHtml.includes('p.get("id")')&&indexHtml.includes("exactId?x.id===exactId"),
+  caseDetailNavigation:detailHtml.includes('new URLSearchParams(location.search).get("id")')
+};
+report.navigation={method:"static source inspection only",checks:navigationChecks,allPresent:Object.values(navigationChecks).every(Boolean),browserVerified:false};
+report.gates.navigationStatic=report.navigation.allPresent;
+if(!report.navigation.allPresent)report.errors.push("missing navigation source hooks: "+Object.entries(navigationChecks).filter(([k,v])=>!v).map(([k])=>k).join(", "));
 const stored=read("competition_coverage_audit.json");
 const stale=stored.counts?.cases!==cases.length ||
   stored.counts?.officialSubrules!==subrules.length ||
