@@ -47,6 +47,30 @@ const navigationChecks={
 report.navigation={method:"static source inspection only",checks:navigationChecks,allPresent:Object.values(navigationChecks).every(Boolean),browserVerified:false};
 report.gates.navigationStatic=report.navigation.allPresent;
 if(!report.navigation.allPresent)report.errors.push("missing navigation source hooks: "+Object.entries(navigationChecks).filter(([k,v])=>!v).map(([k])=>k).join(", "));
+const indexTabs=["definitions","committeeProcedures","committeeProcedureItems","committeeProcedureNumberedItems","clarificationGroups","clarifications","definitionClarifications","modelLocalRules"];
+const indexEntries=indexTabs.flatMap(tab=>(index[tab]||[]).map(item=>({tab,id:String(item.id??""),title:item.title})))
+  .concat(subrules.map(item=>({tab:"ruleSubrules",id:String(item.id??""),title:item.title})));
+const duplicateIndexLinks=[];
+const seenIndexLinks=new Set();
+for(const item of indexEntries){
+  const key=item.tab+":"+item.id;
+  if(!item.id||seenIndexLinks.has(key))duplicateIndexLinks.push(key);
+  seenIndexLinks.add(key);
+}
+const unsupportedIndexTabs=indexTabs.filter(tab=>!indexHtml.includes('data-k="'+tab+'"'));
+const missingRuleButtons=groups.map(g=>Number(g.rule)).filter(n=>!listHtml.includes('data-rule="'+n+'"'));
+const unlinkedCaseIds=mapped.flatMap(x=>x.caseIds).filter(id=>!cases.some(c=>c.id===id));
+report.navigation.indexAudit={
+  indexedItems:indexEntries.length,
+  uniqueDeepLinkKeys:seenIndexLinks.size,
+  duplicateOrMissingKeys:duplicateIndexLinks,
+  unsupportedTabs:unsupportedIndexTabs,
+  missingRuleButtons,
+  orphanCaseReferences:unlinkedCaseIds,
+  indexDeepLinkTemplatePresent:indexHtml.includes('p.get("tab")')&&indexHtml.includes('p.get("id")')
+};
+report.gates.indexStructural=duplicateIndexLinks.length===0&&unsupportedIndexTabs.length===0&&missingRuleButtons.length===0&&unlinkedCaseIds.length===0&&report.navigation.indexAudit.indexDeepLinkTemplatePresent;
+if(!report.gates.indexStructural)report.errors.push("official index deep-link structural audit failed");
 const stored=read("competition_coverage_audit.json");
 const stale=stored.counts?.cases!==cases.length ||
   stored.counts?.officialSubrules!==subrules.length ||
