@@ -3,7 +3,7 @@ const id=Number(new URLSearchParams(location.search).get("id"));
 const content=document.getElementById("content");
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const ruleLabel=r=>/MLR/i.test(r)?"MLR ":/Clarification/i.test(r)?"Clarification ":/Committee/i.test(r)?"Committee ":"Rule ";
-const officialRule=r=>String(r??"").match(/^(?:Rule\\s*)?(\\d{1,2})(?:[.\\-]|$)/i)?.[1];
+const officialRule=r=>String(r??"").match(/^(?:Rule\s*)?(\d{1,2})(?:[.-]|$)/i)?.[1];
 if(!Number.isSafeInteger(id)||id<=0){content.textContent="競技ルールの指定が正しくありません。";}else{
 fetch("competition_rules.json?v="+Date.now(),{cache:"no-store"})
 .then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
