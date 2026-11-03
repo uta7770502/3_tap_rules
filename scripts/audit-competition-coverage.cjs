@@ -31,6 +31,14 @@ const report={
   errors,
   gates:{structure:errors.length===0&&groups.length===25,subruleCaseMapping:missing.length===0,officialTextVerified:false,uiEndToEndVerified:false,complete:false}
 };
+const stored=read("competition_coverage_audit.json");
+const stale=stored.counts?.cases!==cases.length ||
+  stored.counts?.officialSubrules!==subrules.length ||
+  stored.counts?.linked!==report.mapping.mapped ||
+  stored.counts?.needsReview!==report.mapping.unmapped ||
+  JSON.stringify((stored.rows||[]).map(x=>[x.id,x.caseIds]))!==JSON.stringify(mapped.map(x=>[x.id,x.caseIds]));
+report.gates.auditReportFresh=!stale;
+if(stale)report.errors.push("stale competition_coverage_audit.json: regenerate after editing cases or index");
 const output=process.argv.includes("--json")?JSON.stringify(report,null,2):[
   "Competition rules structural audit",
   JSON.stringify(report.counts),
@@ -40,4 +48,4 @@ const output=process.argv.includes("--json")?JSON.stringify(report,null,2):[
   "Complete: NO (official text and end-to-end UI unverified)"
 ].join("\n");
 console.log(output);
-if(errors.length||missing.length)process.exitCode=1;
+if(report.errors.length||missing.length)process.exitCode=1;
