@@ -13,12 +13,12 @@ function normalize(r){
   return {...r,summary:r.summary||r.description||"",action:r.action||r.procedure||"",cat:r.cat||r.category||"",keys};
 }
 function esc(s){return String(s??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));}
-function textOf(r){const refs=Array.isArray(r.officialSubruleIds)?r.officialSubruleIds:[];return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...refs,...r.keys].join(" ").toLowerCase();}
+function textOf(r){const refs=Array.isArray(r.officialSubruleIds)?r.officialSubruleIds:[];return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...refs,...r.keys].join(" ").toLowerCase().normalize("NFKC");}
 function draw(){
-  const v=q.value.trim().toLowerCase();
+  const v=q.value.trim().toLowerCase().normalize("NFKC").replace(/\b(?:rule|規則)\s*(?=\d)/gi,"").trim();
   const om=document.getElementById("officialMatches");
   const terms=v.split(/\s+/).filter(Boolean);
-  const searchable=x=>[x.id,x.title,x.officialTerm,x.english,x.rule].filter(Boolean).join(" ").toLowerCase();
+  const searchable=x=>[x.id,x.title,x.officialTerm,x.english,x.rule].filter(Boolean).join(" ").toLowerCase().normalize("NFKC");
   const oa=v?official.filter(x=>terms.every(t=>searchable(x).includes(t))):(mode.type==="rule"?official.filter(x=>["ruleSubrules","clarifications","clarificationGroups"].includes(x.tab)&&Number(x.rule??parseInt(x.id,10))===Number(mode.value)):(mode.type==="filter"?official.filter(x=>mode.value.toLowerCase().split(/\s+/).some(t=>searchable(x).includes(t))):[]));
   om.innerHTML=oa.length?`<div class="navTitle">公式索引の一致</div>${oa.slice(0,60).map(x=>`<a class="item" style="display:block;text-decoration:none;color:inherit" href="competition_official_index.html?tab=${encodeURIComponent(x.tab)}&id=${encodeURIComponent(x.id)}"><div class="rule">公式索引 ・ ${esc(x.id)}</div><h2>${esc(x.title)}</h2></a>`).join("")}${oa.length>60?`<p class="count">公式索引は先頭60件を表示中。項目名や番号で絞り込んでください。</p>`:""}`:"";
   let a=rules.filter(r=>!v||terms.every(t=>textOf(r).includes(t)));
