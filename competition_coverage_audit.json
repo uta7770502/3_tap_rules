@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 430,
+    "cases": 432,
     "officialSubrules": 336,
-    "linked": 311,
-    "needsReview": 25
+    "linked": 313,
+    "needsReview": 23
   },
   "byRule": [
     {
@@ -153,8 +153,8 @@
     {
       "rule": 23,
       "total": 19,
-      "linked": 16,
-      "needsReview": 3
+      "linked": 18,
+      "needsReview": 1
     },
     {
       "rule": 24,
@@ -2500,13 +2500,17 @@
       "rule": 23,
       "id": "23.9a",
       "title": "失格以外の罰",
-      "caseIds": []
+      "caseIds": [
+        431
+      ]
     },
     {
       "rule": 23,
       "id": "23.9b",
       "title": "失格の罰",
-      "caseIds": []
+      "caseIds": [
+        432
+      ]
     },
     {
       "rule": 24,
