@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 406,
+    "cases": 407,
     "officialSubrules": 336,
-    "linked": 287,
-    "needsReview": 49
+    "linked": 288,
+    "needsReview": 48
   },
   "byRule": [
     {
@@ -99,8 +99,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 25,
-      "needsReview": 2
+      "linked": 26,
+      "needsReview": 1
     },
     {
       "rule": 15,
@@ -1502,7 +1502,7 @@
       "rule": 14,
       "id": "14.5b",
       "title": "誤り訂正時の別規則・別救済選択",
-      "caseIds": []
+      "caseIds": [407]
     },
     {
       "rule": 14,
