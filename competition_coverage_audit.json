@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 436,
+    "cases": 437,
     "officialSubrules": 336,
-    "linked": 317,
-    "needsReview": 19
+    "linked": 318,
+    "needsReview": 18
   },
   "byRule": [
     {
@@ -93,8 +93,8 @@
     {
       "rule": 13,
       "total": 14,
-      "linked": 12,
-      "needsReview": 2
+      "linked": 13,
+      "needsReview": 1
     },
     {
       "rule": 14,
@@ -1384,7 +1384,9 @@
       "rule": 13,
       "id": "13.3b",
       "title": "待機時間終了前に球が動かされた場合",
-      "caseIds": []
+      "caseIds": [
+        437
+      ]
     },
     {
       "rule": 14,
