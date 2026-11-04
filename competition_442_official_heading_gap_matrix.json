@@ -1,0 +1,3991 @@
+{
+  "generatedAt": "2026-11-04",
+  "scope": "Rules 1-25 official heading index vs all 442 loaded cases",
+  "officialIndexFile": "competition_official_index.json",
+  "method": "Exact match of official heading IDs to case.officialSubruleIds across all five runtime JSON files.",
+  "officialHeadingCount": 336,
+  "exactReferencedHeadingCount": 280,
+  "noExactReferenceCount": 56,
+  "byRule": [
+    {
+      "rule": 1,
+      "officialHeadingCount": 8,
+      "directReferenceCount": 6,
+      "unreferencedHeadingIds": [
+        "1.2",
+        "1.3c"
+      ],
+      "headings": [
+        {
+          "id": "1.1",
+          "title": "ゴルフゲーム",
+          "exactCaseIds": [
+            271
+          ],
+          "ruleFieldCaseIds": [
+            271
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "1.2",
+          "title": "競技者の行動基準",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [
+            76
+          ],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "1.2a",
+          "title": "全競技者に期待される行動",
+          "exactCaseIds": [
+            76
+          ],
+          "ruleFieldCaseIds": [],
+          "status": "direct_ref"
+        },
+        {
+          "id": "1.2b",
+          "title": "行動規範",
+          "exactCaseIds": [
+            272
+          ],
+          "ruleFieldCaseIds": [
+            272
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "1.3",
+          "title": "規則に従うプレー",
+          "exactCaseIds": [
+            1
+          ],
+          "ruleFieldCaseIds": [
+            1
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "1.3a",
+          "title": "規則と競技の条件",
+          "exactCaseIds": [
+            365
+          ],
+          "ruleFieldCaseIds": [
+            365
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "1.3b",
+          "title": "規則の適用",
+          "exactCaseIds": [
+            77
+          ],
+          "ruleFieldCaseIds": [
+            77
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "1.3c",
+          "title": "罰",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [
+            366
+          ],
+          "status": "no_exact_ref_content_unverified"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-1",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 2,
+      "officialHeadingCount": 7,
+      "directReferenceCount": 4,
+      "unreferencedHeadingIds": [
+        "2.2",
+        "2.2c",
+        "2.3"
+      ],
+      "headings": [
+        {
+          "id": "2.1",
+          "title": "コースの境界とアウトオブバウンズ",
+          "exactCaseIds": [
+            78
+          ],
+          "ruleFieldCaseIds": [
+            78
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "2.2",
+          "title": "コースの定義された区域",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [
+            273
+          ],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "2.2a",
+          "title": "ジェネラルエリア",
+          "exactCaseIds": [
+            273
+          ],
+          "ruleFieldCaseIds": [],
+          "status": "direct_ref"
+        },
+        {
+          "id": "2.2b",
+          "title": "4つの特定区域",
+          "exactCaseIds": [
+            273
+          ],
+          "ruleFieldCaseIds": [],
+          "status": "direct_ref"
+        },
+        {
+          "id": "2.2c",
+          "title": "球があるコース区域の決定",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "2.3",
+          "title": "プレーを妨げる物・状態",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "2.4",
+          "title": "プレー禁止区域",
+          "exactCaseIds": [
+            79,
+            216
+          ],
+          "ruleFieldCaseIds": [
+            79
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-2",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 3,
+      "officialHeadingCount": 13,
+      "directReferenceCount": 11,
+      "unreferencedHeadingIds": [
+        "3.1",
+        "3.3"
+      ],
+      "headings": [
+        {
+          "id": "3.1",
+          "title": "すべての競技の基本要素",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "3.1a",
+          "title": "マッチプレーとストロークプレー",
+          "exactCaseIds": [
+            319
+          ],
+          "ruleFieldCaseIds": [
+            319
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.1b",
+          "title": "個人・パートナーでの競技",
+          "exactCaseIds": [
+            327
+          ],
+          "ruleFieldCaseIds": [
+            327
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.1c",
+          "title": "グロス・ネットスコア",
+          "exactCaseIds": [
+            323
+          ],
+          "ruleFieldCaseIds": [
+            323
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.2",
+          "title": "マッチプレー",
+          "exactCaseIds": [
+            47
+          ],
+          "ruleFieldCaseIds": [
+            47
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.2a",
+          "title": "ホールとマッチの結果",
+          "exactCaseIds": [
+            367
+          ],
+          "ruleFieldCaseIds": [
+            367
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.2b",
+          "title": "コンシード",
+          "exactCaseIds": [
+            195,
+            196
+          ],
+          "ruleFieldCaseIds": [
+            195
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.2c",
+          "title": "ハンディキャップマッチ",
+          "exactCaseIds": [
+            368
+          ],
+          "ruleFieldCaseIds": [
+            368
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.2d",
+          "title": "競技者と相手の責任",
+          "exactCaseIds": [
+            194
+          ],
+          "ruleFieldCaseIds": [
+            194
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.3",
+          "title": "ストロークプレー",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "3.3a",
+          "title": "ストロークプレーの勝者",
+          "exactCaseIds": [
+            369
+          ],
+          "ruleFieldCaseIds": [
+            369
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.3b",
+          "title": "ストロークプレーのスコア",
+          "exactCaseIds": [
+            2,
+            48,
+            49
+          ],
+          "ruleFieldCaseIds": [
+            2,
+            48,
+            49
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "3.3c",
+          "title": "ホールアウトしなかった場合",
+          "exactCaseIds": [
+            370
+          ],
+          "ruleFieldCaseIds": [
+            370
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-3",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 4,
+      "officialHeadingCount": 11,
+      "directReferenceCount": 9,
+      "unreferencedHeadingIds": [
+        "4.1c",
+        "4.2"
+      ],
+      "headings": [
+        {
+          "id": "4.1",
+          "title": "クラブ",
+          "exactCaseIds": [
+            3
+          ],
+          "ruleFieldCaseIds": [
+            3
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.1a",
+          "title": "ストロークで使用できるクラブ",
+          "exactCaseIds": [
+            80,
+            144
+          ],
+          "ruleFieldCaseIds": [
+            80,
+            144
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.1b",
+          "title": "14本制限・共有・追加・交換",
+          "exactCaseIds": [
+            143
+          ],
+          "ruleFieldCaseIds": [
+            143
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.1c",
+          "title": "クラブをプレーから除外する手続",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "4.2",
+          "title": "球",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [
+            371
+          ],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "4.2a",
+          "title": "使用できる球",
+          "exactCaseIds": [
+            81,
+            371
+          ],
+          "ruleFieldCaseIds": [
+            81
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.2b",
+          "title": "プレー中に球が割れた場合",
+          "exactCaseIds": [
+            134,
+            371
+          ],
+          "ruleFieldCaseIds": [
+            134
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.2c",
+          "title": "球に切れ目・ひびが生じた場合",
+          "exactCaseIds": [
+            135,
+            371
+          ],
+          "ruleFieldCaseIds": [
+            135
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.3",
+          "title": "用具の使用",
+          "exactCaseIds": [
+            4,
+            168,
+            237
+          ],
+          "ruleFieldCaseIds": [
+            4
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.3a",
+          "title": "認められる用具使用と禁止行為",
+          "exactCaseIds": [
+            82,
+            212,
+            213,
+            214
+          ],
+          "ruleFieldCaseIds": [
+            82,
+            212,
+            213,
+            214
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "4.3b",
+          "title": "医療上の理由による用具",
+          "exactCaseIds": [
+            372
+          ],
+          "ruleFieldCaseIds": [
+            372
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-4",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 5,
+      "officialHeadingCount": 22,
+      "directReferenceCount": 16,
+      "unreferencedHeadingIds": [
+        "5.2",
+        "5.3",
+        "5.4b",
+        "5.5b",
+        "5.6",
+        "5.7a"
+      ],
+      "headings": [
+        {
+          "id": "5.1",
+          "title": "ラウンドの意味",
+          "exactCaseIds": [
+            324
+          ],
+          "ruleFieldCaseIds": [
+            324
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.2",
+          "title": "ラウンド前・ラウンド間の練習",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "5.2a",
+          "title": "マッチプレー",
+          "exactCaseIds": [
+            373
+          ],
+          "ruleFieldCaseIds": [
+            373
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.2b",
+          "title": "ストロークプレー",
+          "exactCaseIds": [
+            50
+          ],
+          "ruleFieldCaseIds": [
+            50
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.3",
+          "title": "ラウンドの開始と終了",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "5.3a",
+          "title": "開始時間",
+          "exactCaseIds": [
+            5
+          ],
+          "ruleFieldCaseIds": [
+            5
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.3b",
+          "title": "ラウンド終了",
+          "exactCaseIds": [
+            374
+          ],
+          "ruleFieldCaseIds": [
+            374
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.4",
+          "title": "組でのプレー",
+          "exactCaseIds": [
+            282
+          ],
+          "ruleFieldCaseIds": [
+            282
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.4a",
+          "title": "マッチプレー",
+          "exactCaseIds": [
+            385
+          ],
+          "ruleFieldCaseIds": [
+            385
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.4b",
+          "title": "ストロークプレー",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "5.5",
+          "title": "ラウンド中・中断中の練習",
+          "exactCaseIds": [
+            51
+          ],
+          "ruleFieldCaseIds": [
+            51
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.5a",
+          "title": "ホールプレー中の練習ストローク禁止",
+          "exactCaseIds": [
+            283
+          ],
+          "ruleFieldCaseIds": [
+            283
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.5b",
+          "title": "ホール終了後の練習制限",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "5.5c",
+          "title": "プレー中断中の練習",
+          "exactCaseIds": [
+            386
+          ],
+          "ruleFieldCaseIds": [
+            386
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.6",
+          "title": "不当の遅延・速やかなプレー",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "5.6a",
+          "title": "不当の遅延",
+          "exactCaseIds": [
+            83
+          ],
+          "ruleFieldCaseIds": [
+            83
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.6b",
+          "title": "速やかなプレー",
+          "exactCaseIds": [
+            284
+          ],
+          "ruleFieldCaseIds": [
+            284
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.7",
+          "title": "プレーの中断と再開",
+          "exactCaseIds": [
+            84
+          ],
+          "ruleFieldCaseIds": [
+            84
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.7a",
+          "title": "プレーを止められる・止めなければならない場合",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "5.7b",
+          "title": "委員会による中断時の対応",
+          "exactCaseIds": [
+            375
+          ],
+          "ruleFieldCaseIds": [
+            375
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.7c",
+          "title": "プレー再開時の対応",
+          "exactCaseIds": [
+            380
+          ],
+          "ruleFieldCaseIds": [
+            380
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "5.7d",
+          "title": "中断時の拾い上げ・再開時のリプレースと取り替え",
+          "exactCaseIds": [
+            381
+          ],
+          "ruleFieldCaseIds": [
+            381
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-5",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 6,
+      "officialHeadingCount": 17,
+      "directReferenceCount": 14,
+      "unreferencedHeadingIds": [
+        "6.1",
+        "6.2",
+        "6.3"
+      ],
+      "headings": [
+        {
+          "id": "6.1",
+          "title": "ホールのプレーの開始",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "6.1a",
+          "title": "ホールが開始する時点",
+          "exactCaseIds": [
+            376
+          ],
+          "ruleFieldCaseIds": [
+            376
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.1b",
+          "title": "ティーイングエリア内からのプレー",
+          "exactCaseIds": [
+            52
+          ],
+          "ruleFieldCaseIds": [
+            52
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.2",
+          "title": "ティーイングエリアからのプレー",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "6.2a",
+          "title": "ティーイングエリアの規則が適用されるとき",
+          "exactCaseIds": [
+            382
+          ],
+          "ruleFieldCaseIds": [
+            382
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.2b",
+          "title": "ティーイングエリアの規則",
+          "exactCaseIds": [
+            85
+          ],
+          "ruleFieldCaseIds": [
+            85
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.3",
+          "title": "ホールのプレーで使用する球",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "6.3a",
+          "title": "ティーからの同じ球でホールアウト",
+          "exactCaseIds": [
+            86,
+            142
+          ],
+          "ruleFieldCaseIds": [
+            86,
+            142
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.3b",
+          "title": "ホールプレー中の球の取り替え",
+          "exactCaseIds": [
+            285,
+            371
+          ],
+          "ruleFieldCaseIds": [
+            285
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.3c",
+          "title": "誤球",
+          "exactCaseIds": [
+            6,
+            139,
+            198
+          ],
+          "ruleFieldCaseIds": [
+            6,
+            139
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.3d",
+          "title": "同時に複数の球をプレーできる場合",
+          "exactCaseIds": [
+            377
+          ],
+          "ruleFieldCaseIds": [
+            377
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.4",
+          "title": "ホールプレー中のプレー順",
+          "exactCaseIds": [
+            53
+          ],
+          "ruleFieldCaseIds": [
+            53
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.4a",
+          "title": "マッチプレー",
+          "exactCaseIds": [
+            141
+          ],
+          "ruleFieldCaseIds": [
+            141
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.4b",
+          "title": "ストロークプレー",
+          "exactCaseIds": [
+            140
+          ],
+          "ruleFieldCaseIds": [
+            140
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.4c",
+          "title": "ティーイングエリアから暫定球等をプレーするとき",
+          "exactCaseIds": [
+            387
+          ],
+          "ruleFieldCaseIds": [
+            387
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.4d",
+          "title": "ティー以外から救済や暫定球をプレーするとき",
+          "exactCaseIds": [
+            390
+          ],
+          "ruleFieldCaseIds": [
+            390
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "6.5",
+          "title": "ホールのプレーの終了",
+          "exactCaseIds": [
+            325
+          ],
+          "ruleFieldCaseIds": [
+            325
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-6",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 7,
+      "officialHeadingCount": 6,
+      "directReferenceCount": 6,
+      "unreferencedHeadingIds": [],
+      "headings": [
+        {
+          "id": "7.1",
+          "title": "公平な球の捜索",
+          "exactCaseIds": [
+            241
+          ],
+          "ruleFieldCaseIds": [],
+          "status": "direct_ref"
+        },
+        {
+          "id": "7.1a",
+          "title": "球を探し確認する合理的な行為",
+          "exactCaseIds": [
+            286
+          ],
+          "ruleFieldCaseIds": [
+            286
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "7.1b",
+          "title": "捜索で砂が動いた場合",
+          "exactCaseIds": [
+            378
+          ],
+          "ruleFieldCaseIds": [
+            378
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "7.2",
+          "title": "球の確認方法",
+          "exactCaseIds": [
+            87,
+            190
+          ],
+          "ruleFieldCaseIds": [
+            87
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "7.3",
+          "title": "確認のための球の拾い上げ",
+          "exactCaseIds": [
+            242,
+            287
+          ],
+          "ruleFieldCaseIds": [
+            287
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "7.4",
+          "title": "捜索・確認中に偶然球が動いた場合",
+          "exactCaseIds": [
+            7,
+            145
+          ],
+          "ruleFieldCaseIds": [
+            7,
+            145
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-7",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 8,
+      "officialHeadingCount": 11,
+      "directReferenceCount": 8,
+      "unreferencedHeadingIds": [
+        "8.1d",
+        "8.3a",
+        "8.3b"
+      ],
+      "headings": [
+        {
+          "id": "8.1",
+          "title": "ストロークに影響する状態の改善",
+          "exactCaseIds": [
+            54,
+            241,
+            248,
+            250
+          ],
+          "ruleFieldCaseIds": [
+            54
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.1a",
+          "title": "認められない行為",
+          "exactCaseIds": [
+            164,
+            211,
+            264
+          ],
+          "ruleFieldCaseIds": [
+            264
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.1b",
+          "title": "認められる行為",
+          "exactCaseIds": [
+            265
+          ],
+          "ruleFieldCaseIds": [
+            265
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.1c",
+          "title": "違反して改善した状態の復元",
+          "exactCaseIds": [
+            88
+          ],
+          "ruleFieldCaseIds": [
+            88
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.1d",
+          "title": "球停止後に悪化した状態の復元",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "8.2",
+          "title": "自分の球・ストロークに影響するその他の物理的状態の変更",
+          "exactCaseIds": [
+            266
+          ],
+          "ruleFieldCaseIds": [
+            266
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.2a",
+          "title": "規則8.2が適用されるとき",
+          "exactCaseIds": [
+            442
+          ],
+          "ruleFieldCaseIds": [
+            442
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.2b",
+          "title": "その他の物理的状態を変える禁止行為",
+          "exactCaseIds": [
+            388
+          ],
+          "ruleFieldCaseIds": [
+            388
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.3",
+          "title": "他の競技者の球・ストロークに影響する状態の変更",
+          "exactCaseIds": [
+            267
+          ],
+          "ruleFieldCaseIds": [
+            267
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "8.3a",
+          "title": "規則8.3が適用されるとき",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "8.3b",
+          "title": "その他の物理的状態を変える禁止行為",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-8",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 9,
+      "officialHeadingCount": 17,
+      "directReferenceCount": 9,
+      "unreferencedHeadingIds": [
+        "9.2a",
+        "9.2b",
+        "9.4a",
+        "9.4b",
+        "9.5a",
+        "9.5b",
+        "9.7a",
+        "9.7b"
+      ],
+      "headings": [
+        {
+          "id": "9.1",
+          "title": "球はあるがままにプレー",
+          "exactCaseIds": [
+            389
+          ],
+          "ruleFieldCaseIds": [
+            389
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.1a",
+          "title": "止まった場所からのプレー",
+          "exactCaseIds": [
+            320
+          ],
+          "ruleFieldCaseIds": [
+            320
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.1b",
+          "title": "バックスイング中・ストローク中に球が動いた場合",
+          "exactCaseIds": [
+            328
+          ],
+          "ruleFieldCaseIds": [
+            328
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.2",
+          "title": "球が動いたか・原因の判定",
+          "exactCaseIds": [
+            274
+          ],
+          "ruleFieldCaseIds": [
+            274
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.2a",
+          "title": "球が動いたかの判定",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "9.2b",
+          "title": "球が動いた原因の判定",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "9.3",
+          "title": "自然の力で動いた球",
+          "exactCaseIds": [
+            147
+          ],
+          "ruleFieldCaseIds": [
+            147
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.4",
+          "title": "競技者が拾い上げ・動かした球",
+          "exactCaseIds": [
+            8,
+            146,
+            180,
+            186,
+            196
+          ],
+          "ruleFieldCaseIds": [
+            8,
+            146
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.4a",
+          "title": "リプレースが必要なとき",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "9.4b",
+          "title": "拾い上げ・故意の接触・移動の罰",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "9.5",
+          "title": "マッチの相手が拾い上げ・動かした球",
+          "exactCaseIds": [
+            275
+          ],
+          "ruleFieldCaseIds": [
+            275
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.5a",
+          "title": "リプレースが必要なとき",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "9.5b",
+          "title": "拾い上げ・故意の接触・移動の罰",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "9.6",
+          "title": "外的影響で拾い上げ・動かされた球",
+          "exactCaseIds": [
+            89,
+            242
+          ],
+          "ruleFieldCaseIds": [
+            89
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.7",
+          "title": "動いたボールマーカー",
+          "exactCaseIds": [
+            276
+          ],
+          "ruleFieldCaseIds": [
+            276
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "9.7a",
+          "title": "球・ボールマーカーのリプレース",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "9.7b",
+          "title": "ボールマーカーを動かした罰",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-9",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 10,
+      "officialHeadingCount": 12,
+      "directReferenceCount": 11,
+      "unreferencedHeadingIds": [
+        "10.1"
+      ],
+      "headings": [
+        {
+          "id": "10.1",
+          "title": "ストロークの方法",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "10.1a",
+          "title": "正しく球を打つ",
+          "exactCaseIds": [
+            154,
+            156,
+            165,
+            166
+          ],
+          "ruleFieldCaseIds": [
+            154,
+            156,
+            165
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.1b",
+          "title": "クラブのアンカリング",
+          "exactCaseIds": [
+            56,
+            157,
+            167,
+            168
+          ],
+          "ruleFieldCaseIds": [
+            56,
+            157,
+            167
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.1c",
+          "title": "プレーの線をまたぐ・踏むスタンス",
+          "exactCaseIds": [
+            55,
+            158
+          ],
+          "ruleFieldCaseIds": [
+            55,
+            158
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.1d",
+          "title": "動いている球へのストローク",
+          "exactCaseIds": [
+            155,
+            159
+          ],
+          "ruleFieldCaseIds": [
+            155,
+            159
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.2",
+          "title": "アドバイスとその他の援助",
+          "exactCaseIds": [
+            9
+          ],
+          "ruleFieldCaseIds": [
+            9
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.2a",
+          "title": "アドバイス",
+          "exactCaseIds": [
+            160,
+            161,
+            288
+          ],
+          "ruleFieldCaseIds": [
+            160,
+            161,
+            288
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.2b",
+          "title": "その他の援助",
+          "exactCaseIds": [
+            57,
+            58,
+            162,
+            163,
+            164
+          ],
+          "ruleFieldCaseIds": [
+            57,
+            58,
+            162,
+            163
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.3",
+          "title": "キャディー",
+          "exactCaseIds": [
+            90
+          ],
+          "ruleFieldCaseIds": [
+            90
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.3a",
+          "title": "ラウンド中のキャディーによる援助",
+          "exactCaseIds": [
+            379
+          ],
+          "ruleFieldCaseIds": [
+            379
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.3b",
+          "title": "キャディーができること",
+          "exactCaseIds": [
+            383
+          ],
+          "ruleFieldCaseIds": [
+            383
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "10.3c",
+          "title": "キャディーの行為・違反への競技者の責任",
+          "exactCaseIds": [
+            384
+          ],
+          "ruleFieldCaseIds": [
+            384
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-10",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 11,
+      "officialHeadingCount": 8,
+      "directReferenceCount": 7,
+      "unreferencedHeadingIds": [
+        "11.2a"
+      ],
+      "headings": [
+        {
+          "id": "11.1",
+          "title": "動いている球が偶然人・外的影響に当たる",
+          "exactCaseIds": [
+            10,
+            151
+          ],
+          "ruleFieldCaseIds": [
+            10,
+            151
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "11.1a",
+          "title": "競技者への罰",
+          "exactCaseIds": [
+            169,
+            170
+          ],
+          "ruleFieldCaseIds": [
+            169,
+            170
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "11.1b",
+          "title": "球をプレーすべき場所",
+          "exactCaseIds": [
+            172
+          ],
+          "ruleFieldCaseIds": [
+            172
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "11.2",
+          "title": "動いている球を故意に方向変更・停止",
+          "exactCaseIds": [
+            91,
+            173
+          ],
+          "ruleFieldCaseIds": [
+            91,
+            173
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "11.2a",
+          "title": "適用条件",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "11.2b",
+          "title": "競技者に罰が適用される場合",
+          "exactCaseIds": [
+            440
+          ],
+          "ruleFieldCaseIds": [
+            440
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "11.2c",
+          "title": "故意に止められた球の処置",
+          "exactCaseIds": [
+            441
+          ],
+          "ruleFieldCaseIds": [
+            441
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "11.3",
+          "title": "動いている球に影響するため物を除去・状態を変更",
+          "exactCaseIds": [
+            289
+          ],
+          "ruleFieldCaseIds": [
+            289
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-11",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 12,
+      "officialHeadingCount": 5,
+      "directReferenceCount": 5,
+      "unreferencedHeadingIds": [],
+      "headings": [
+        {
+          "id": "12.1",
+          "title": "球がバンカー内にある場合",
+          "exactCaseIds": [
+            277
+          ],
+          "ruleFieldCaseIds": [
+            277
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "12.2",
+          "title": "バンカー内の球のプレー",
+          "exactCaseIds": [
+            59,
+            149
+          ],
+          "ruleFieldCaseIds": [
+            59,
+            149
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "12.2a",
+          "title": "ルースインペディメント・動かせる障害物の除去",
+          "exactCaseIds": [
+            278
+          ],
+          "ruleFieldCaseIds": [
+            278
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "12.2b",
+          "title": "バンカーの砂に触れる制限",
+          "exactCaseIds": [
+            92,
+            240
+          ],
+          "ruleFieldCaseIds": [
+            92,
+            240
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "12.3",
+          "title": "バンカー内の球の救済",
+          "exactCaseIds": [
+            279
+          ],
+          "ruleFieldCaseIds": [
+            279
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-12",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 13,
+      "officialHeadingCount": 14,
+      "directReferenceCount": 14,
+      "unreferencedHeadingIds": [],
+      "headings": [
+        {
+          "id": "13.1",
+          "title": "グリーン上で認められる・必要な行為",
+          "exactCaseIds": [
+            248
+          ],
+          "ruleFieldCaseIds": [],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.1a",
+          "title": "球がグリーン上にある場合",
+          "exactCaseIds": [
+            395
+          ],
+          "ruleFieldCaseIds": [
+            395
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.1b",
+          "title": "グリーン上の球のマーク・拾い上げ・清掃",
+          "exactCaseIds": [
+            290
+          ],
+          "ruleFieldCaseIds": [
+            290
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.1c",
+          "title": "グリーン上で認められる改善",
+          "exactCaseIds": [
+            60,
+            249
+          ],
+          "ruleFieldCaseIds": [
+            60,
+            249
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.1d",
+          "title": "グリーン上で球・マーカーが動いた場合",
+          "exactCaseIds": [
+            93,
+            150
+          ],
+          "ruleFieldCaseIds": [
+            93,
+            150
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.1e",
+          "title": "グリーンの故意のテスト禁止",
+          "exactCaseIds": [
+            252
+          ],
+          "ruleFieldCaseIds": [
+            252
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.1f",
+          "title": "目的外グリーンからの救済義務",
+          "exactCaseIds": [
+            391
+          ],
+          "ruleFieldCaseIds": [
+            391
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.2",
+          "title": "旗竿",
+          "exactCaseIds": [
+            61
+          ],
+          "ruleFieldCaseIds": [
+            61
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.2a",
+          "title": "旗竿を立てたままプレー",
+          "exactCaseIds": [
+            291
+          ],
+          "ruleFieldCaseIds": [
+            291
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.2b",
+          "title": "旗竿を抜く",
+          "exactCaseIds": [
+            402
+          ],
+          "ruleFieldCaseIds": [
+            402
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.2c",
+          "title": "球がホール内の旗竿に寄りかかる",
+          "exactCaseIds": [
+            239
+          ],
+          "ruleFieldCaseIds": [
+            239
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.3",
+          "title": "ホールの縁にかかる球",
+          "exactCaseIds": [
+            94
+          ],
+          "ruleFieldCaseIds": [
+            94
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.3a",
+          "title": "球が落ちるか待つ時間",
+          "exactCaseIds": [
+            238
+          ],
+          "ruleFieldCaseIds": [
+            238
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "13.3b",
+          "title": "待機時間終了前に球が動かされた場合",
+          "exactCaseIds": [
+            437
+          ],
+          "ruleFieldCaseIds": [
+            437
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-13",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 14,
+      "officialHeadingCount": 27,
+      "directReferenceCount": 21,
+      "unreferencedHeadingIds": [
+        "14.2c",
+        "14.5a",
+        "14.6a",
+        "14.6b",
+        "14.6c",
+        "14.7a"
+      ],
+      "headings": [
+        {
+          "id": "14.1",
+          "title": "球のマーク・拾い上げ・清掃",
+          "exactCaseIds": [
+            62,
+            243
+          ],
+          "ruleFieldCaseIds": [
+            62
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.1a",
+          "title": "拾い上げる球の位置をマークする義務",
+          "exactCaseIds": [
+            175
+          ],
+          "ruleFieldCaseIds": [
+            175
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.1b",
+          "title": "球を拾い上げられる人",
+          "exactCaseIds": [
+            392
+          ],
+          "ruleFieldCaseIds": [
+            392
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.1c",
+          "title": "球の清掃",
+          "exactCaseIds": [
+            176
+          ],
+          "ruleFieldCaseIds": [
+            176
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.2",
+          "title": "元の場所へのリプレース",
+          "exactCaseIds": [
+            63
+          ],
+          "ruleFieldCaseIds": [
+            63
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.2a",
+          "title": "元の球の使用",
+          "exactCaseIds": [
+            397
+          ],
+          "ruleFieldCaseIds": [
+            397
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.2b",
+          "title": "リプレースできる人と方法",
+          "exactCaseIds": [
+            246
+          ],
+          "ruleFieldCaseIds": [
+            246
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.2c",
+          "title": "リプレースする位置",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "14.2d",
+          "title": "元のライが変わった場合",
+          "exactCaseIds": [
+            405
+          ],
+          "ruleFieldCaseIds": [
+            405
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.2e",
+          "title": "リプレースした球が止まらない場合",
+          "exactCaseIds": [
+            177
+          ],
+          "ruleFieldCaseIds": [
+            177
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.3",
+          "title": "救済エリアへのドロップ",
+          "exactCaseIds": [
+            11,
+            64,
+            65
+          ],
+          "ruleFieldCaseIds": [
+            11,
+            64,
+            65
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.3a",
+          "title": "元の球または別の球",
+          "exactCaseIds": [
+            396
+          ],
+          "ruleFieldCaseIds": [
+            396
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.3b",
+          "title": "正しいドロップ方法",
+          "exactCaseIds": [
+            245,
+            247
+          ],
+          "ruleFieldCaseIds": [
+            245,
+            247
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.3c",
+          "title": "救済エリア内に止まる必要",
+          "exactCaseIds": [
+            244
+          ],
+          "ruleFieldCaseIds": [
+            244
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.3d",
+          "title": "ドロップ球が故意に方向変更・停止された場合",
+          "exactCaseIds": [
+            174
+          ],
+          "ruleFieldCaseIds": [
+            174
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.4",
+          "title": "球が再びインプレーとなる時点",
+          "exactCaseIds": [
+            95
+          ],
+          "ruleFieldCaseIds": [
+            95
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.5",
+          "title": "取り替え・リプレース・ドロップ・プレースの誤り訂正",
+          "exactCaseIds": [
+            96,
+            178
+          ],
+          "ruleFieldCaseIds": [
+            96,
+            178
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.5a",
+          "title": "プレー前の誤り訂正",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "14.5b",
+          "title": "誤り訂正時の別規則・別救済選択",
+          "exactCaseIds": [
+            407
+          ],
+          "ruleFieldCaseIds": [
+            407
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.5c",
+          "title": "誤りの後に行った行為の罰",
+          "exactCaseIds": [
+            408
+          ],
+          "ruleFieldCaseIds": [
+            408
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.6",
+          "title": "前のストローク地点から次を打つ",
+          "exactCaseIds": [
+            292
+          ],
+          "ruleFieldCaseIds": [
+            292
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.6a",
+          "title": "前のストロークがティーイングエリアから",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "14.6b",
+          "title": "前のストロークがジェネラルエリア・ペナルティーエリア・バンカーから",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "14.6c",
+          "title": "前のストロークがグリーンから",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "14.7",
+          "title": "誤所からのプレー",
+          "exactCaseIds": [
+            66,
+            152,
+            179,
+            243
+          ],
+          "ruleFieldCaseIds": [
+            66,
+            152
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "14.7a",
+          "title": "球をプレーすべき場所",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "14.7b",
+          "title": "ストロークプレーで誤所からプレーした後のホール完了",
+          "exactCaseIds": [
+            406
+          ],
+          "ruleFieldCaseIds": [
+            406
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-14",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 15,
+      "officialHeadingCount": 10,
+      "directReferenceCount": 10,
+      "unreferencedHeadingIds": [],
+      "headings": [
+        {
+          "id": "15.1",
+          "title": "ルースインペディメント",
+          "exactCaseIds": [
+            67
+          ],
+          "ruleFieldCaseIds": [
+            67
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.1a",
+          "title": "ルースインペディメントの除去",
+          "exactCaseIds": [
+            393
+          ],
+          "ruleFieldCaseIds": [
+            393
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.1b",
+          "title": "除去時に球が動いた場合",
+          "exactCaseIds": [
+            180
+          ],
+          "ruleFieldCaseIds": [],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.2",
+          "title": "動かせる障害物",
+          "exactCaseIds": [
+            68
+          ],
+          "ruleFieldCaseIds": [
+            68
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.2a",
+          "title": "動かせる障害物からの救済",
+          "exactCaseIds": [
+            181
+          ],
+          "ruleFieldCaseIds": [
+            181
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.2b",
+          "title": "動かせる障害物の中・上で球が見つからない場合",
+          "exactCaseIds": [
+            293
+          ],
+          "ruleFieldCaseIds": [
+            293
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.3",
+          "title": "プレーを助け・妨げる球やマーカー",
+          "exactCaseIds": [
+            97
+          ],
+          "ruleFieldCaseIds": [
+            97
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.3a",
+          "title": "プレーを助けるグリーン上の球",
+          "exactCaseIds": [
+            403
+          ],
+          "ruleFieldCaseIds": [
+            403
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.3b",
+          "title": "プレーを妨げるコース上の球",
+          "exactCaseIds": [
+            182
+          ],
+          "ruleFieldCaseIds": [
+            182
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "15.3c",
+          "title": "プレーを助け・妨げるマーカー",
+          "exactCaseIds": [
+            404
+          ],
+          "ruleFieldCaseIds": [
+            404
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-15",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 16,
+      "officialHeadingCount": 14,
+      "directReferenceCount": 12,
+      "unreferencedHeadingIds": [
+        "16.2a",
+        "16.3a"
+      ],
+      "headings": [
+        {
+          "id": "16.1",
+          "title": "異常なコース状態からの救済",
+          "exactCaseIds": [
+            12,
+            183
+          ],
+          "ruleFieldCaseIds": [
+            12
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.1a",
+          "title": "救済が認められる場合",
+          "exactCaseIds": [
+            399
+          ],
+          "ruleFieldCaseIds": [
+            399
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.1b",
+          "title": "ジェネラルエリアの球の救済",
+          "exactCaseIds": [
+            294
+          ],
+          "ruleFieldCaseIds": [
+            294
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.1c",
+          "title": "バンカー内の球の救済",
+          "exactCaseIds": [
+            69
+          ],
+          "ruleFieldCaseIds": [
+            69
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.1d",
+          "title": "グリーン上の球の救済",
+          "exactCaseIds": [
+            295
+          ],
+          "ruleFieldCaseIds": [
+            295
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.1e",
+          "title": "異常なコース状態内で球が見つからない場合",
+          "exactCaseIds": [
+            257,
+            258
+          ],
+          "ruleFieldCaseIds": [
+            257,
+            258
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.1f",
+          "title": "異常なコース状態内のプレー禁止区域からの救済義務",
+          "exactCaseIds": [
+            216,
+            222
+          ],
+          "ruleFieldCaseIds": [],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.2",
+          "title": "危険な動物の状態",
+          "exactCaseIds": [
+            98,
+            184
+          ],
+          "ruleFieldCaseIds": [
+            98,
+            184
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.2a",
+          "title": "救済が認められる場合",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "16.2b",
+          "title": "危険な動物からの救済",
+          "exactCaseIds": [
+            394
+          ],
+          "ruleFieldCaseIds": [
+            394
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.3",
+          "title": "地面にくい込んだ球",
+          "exactCaseIds": [
+            13,
+            185
+          ],
+          "ruleFieldCaseIds": [
+            13
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.3a",
+          "title": "救済が認められる場合",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "16.3b",
+          "title": "地面にくい込んだ球の救済",
+          "exactCaseIds": [
+            400
+          ],
+          "ruleFieldCaseIds": [
+            400
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "16.4",
+          "title": "救済可能な状態か確認するための球の拾い上げ",
+          "exactCaseIds": [
+            253,
+            254
+          ],
+          "ruleFieldCaseIds": [
+            253,
+            254
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-16",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 17,
+      "officialHeadingCount": 10,
+      "directReferenceCount": 10,
+      "unreferencedHeadingIds": [],
+      "headings": [
+        {
+          "id": "17.1",
+          "title": "ペナルティーエリア内の球の選択肢",
+          "exactCaseIds": [
+            14
+          ],
+          "ruleFieldCaseIds": [
+            14
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.1a",
+          "title": "球がペナルティーエリア内にある場合",
+          "exactCaseIds": [
+            401
+          ],
+          "ruleFieldCaseIds": [
+            401
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.1b",
+          "title": "そのままプレーまたは罰あり救済",
+          "exactCaseIds": [
+            398
+          ],
+          "ruleFieldCaseIds": [
+            398
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.1c",
+          "title": "見つからない球がペナルティーエリア内にある場合",
+          "exactCaseIds": [
+            296
+          ],
+          "ruleFieldCaseIds": [
+            296
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.1d",
+          "title": "ペナルティーエリアからの救済",
+          "exactCaseIds": [
+            70,
+            71,
+            187
+          ],
+          "ruleFieldCaseIds": [
+            70,
+            71
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.1e",
+          "title": "プレー禁止区域からの救済義務",
+          "exactCaseIds": [
+            436
+          ],
+          "ruleFieldCaseIds": [
+            436
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.2",
+          "title": "ペナルティーエリアから打った後の選択肢",
+          "exactCaseIds": [
+            99
+          ],
+          "ruleFieldCaseIds": [
+            99
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.2a",
+          "title": "同じ・別のペナルティーエリア内に止まった場合",
+          "exactCaseIds": [
+            438
+          ],
+          "ruleFieldCaseIds": [
+            438
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.2b",
+          "title": "紛失・OB・エリア外でアンプレヤブルの場合",
+          "exactCaseIds": [
+            439
+          ],
+          "ruleFieldCaseIds": [
+            439
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "17.3",
+          "title": "ペナルティーエリア内の球に他の救済規則は使えない",
+          "exactCaseIds": [
+            321
+          ],
+          "ruleFieldCaseIds": [
+            321
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-17",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 18,
+      "officialHeadingCount": 8,
+      "directReferenceCount": 7,
+      "unreferencedHeadingIds": [
+        "18.2b"
+      ],
+      "headings": [
+        {
+          "id": "18.1",
+          "title": "ストロークと距離の救済はいつでも選べる",
+          "exactCaseIds": [
+            100
+          ],
+          "ruleFieldCaseIds": [
+            100
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "18.2",
+          "title": "紛失・OBの場合のストロークと距離の義務",
+          "exactCaseIds": [
+            15,
+            166,
+            190
+          ],
+          "ruleFieldCaseIds": [
+            15
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "18.2a",
+          "title": "紛失・OBの判定",
+          "exactCaseIds": [
+            72
+          ],
+          "ruleFieldCaseIds": [
+            72
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "18.2b",
+          "title": "紛失・OBの処置",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "18.3",
+          "title": "暫定球",
+          "exactCaseIds": [
+            16
+          ],
+          "ruleFieldCaseIds": [
+            16
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "18.3a",
+          "title": "暫定球を打てる場合",
+          "exactCaseIds": [
+            297
+          ],
+          "ruleFieldCaseIds": [
+            297
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "18.3b",
+          "title": "暫定球の宣言",
+          "exactCaseIds": [
+            188
+          ],
+          "ruleFieldCaseIds": [
+            188
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "18.3c",
+          "title": "暫定球がインプレーになる・放棄されるまで",
+          "exactCaseIds": [
+            73,
+            189
+          ],
+          "ruleFieldCaseIds": [
+            73,
+            189
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-18",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 19,
+      "officialHeadingCount": 8,
+      "directReferenceCount": 5,
+      "unreferencedHeadingIds": [
+        "19.2a",
+        "19.2b",
+        "19.3a"
+      ],
+      "headings": [
+        {
+          "id": "19.1",
+          "title": "ペナルティーエリア以外でアンプレヤブルを宣言できる",
+          "exactCaseIds": [
+            298
+          ],
+          "ruleFieldCaseIds": [
+            298
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "19.2",
+          "title": "ジェネラルエリア・グリーン上での救済",
+          "exactCaseIds": [
+            17,
+            101,
+            193
+          ],
+          "ruleFieldCaseIds": [
+            17,
+            101,
+            193
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "19.2a",
+          "title": "ストロークと距離",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "19.2b",
+          "title": "後方線上の救済",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "19.2c",
+          "title": "ラテラル救済",
+          "exactCaseIds": [
+            192
+          ],
+          "ruleFieldCaseIds": [
+            192
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "19.3",
+          "title": "バンカー内でのアンプレヤブル救済",
+          "exactCaseIds": [
+            74
+          ],
+          "ruleFieldCaseIds": [
+            74
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "19.3a",
+          "title": "通常の救済：1罰打",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "19.3b",
+          "title": "追加の救済：2罰打",
+          "exactCaseIds": [
+            191
+          ],
+          "ruleFieldCaseIds": [
+            191
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-19",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 20,
+      "officialHeadingCount": 12,
+      "directReferenceCount": 11,
+      "unreferencedHeadingIds": [
+        "20.1"
+      ],
+      "headings": [
+        {
+          "id": "20.1",
+          "title": "ラウンド中の規則問題の解決",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "20.1a",
+          "title": "不当の遅延を避ける",
+          "exactCaseIds": [
+            224
+          ],
+          "ruleFieldCaseIds": [
+            224
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.1b",
+          "title": "マッチプレーの規則問題",
+          "exactCaseIds": [
+            415
+          ],
+          "ruleFieldCaseIds": [
+            415
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.1c",
+          "title": "ストロークプレーの規則問題",
+          "exactCaseIds": [
+            18
+          ],
+          "ruleFieldCaseIds": [
+            18
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.2",
+          "title": "裁定",
+          "exactCaseIds": [
+            19
+          ],
+          "ruleFieldCaseIds": [
+            19
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.2a",
+          "title": "レフェリーによる裁定",
+          "exactCaseIds": [
+            409
+          ],
+          "ruleFieldCaseIds": [
+            409
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.2b",
+          "title": "委員会による裁定",
+          "exactCaseIds": [
+            410
+          ],
+          "ruleFieldCaseIds": [
+            410
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.2c",
+          "title": "ビデオ証拠と肉眼基準",
+          "exactCaseIds": [
+            411
+          ],
+          "ruleFieldCaseIds": [
+            411
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.2d",
+          "title": "誤裁定と事務的誤り",
+          "exactCaseIds": [
+            412
+          ],
+          "ruleFieldCaseIds": [
+            412
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.2e",
+          "title": "結果確定後の失格",
+          "exactCaseIds": [
+            413
+          ],
+          "ruleFieldCaseIds": [
+            413
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.2f",
+          "title": "参加資格のない競技者",
+          "exactCaseIds": [
+            414
+          ],
+          "ruleFieldCaseIds": [
+            414
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "20.3",
+          "title": "規則に扱われていない状況",
+          "exactCaseIds": [
+            299
+          ],
+          "ruleFieldCaseIds": [
+            299
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/ja-JP/rog/the-rules-of-golf/rule-20",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 21,
+      "officialHeadingCount": 23,
+      "directReferenceCount": 14,
+      "unreferencedHeadingIds": [
+        "21.1a",
+        "21.1b",
+        "21.1c",
+        "21.2a",
+        "21.2b",
+        "21.3a",
+        "21.3b",
+        "21.3c",
+        "21.4a"
+      ],
+      "headings": [
+        {
+          "id": "21.1",
+          "title": "ステーブルフォード",
+          "exactCaseIds": [
+            102,
+            204,
+            226
+          ],
+          "ruleFieldCaseIds": [
+            102,
+            204,
+            226
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.1a",
+          "title": "概要",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.1b",
+          "title": "スコアリング",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.1c",
+          "title": "罰",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.1d",
+          "title": "規則11.2の例外",
+          "exactCaseIds": [
+            416
+          ],
+          "ruleFieldCaseIds": [
+            416
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.1e",
+          "title": "ラウンド終了時点",
+          "exactCaseIds": [
+            417
+          ],
+          "ruleFieldCaseIds": [
+            417
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.2",
+          "title": "最大スコア",
+          "exactCaseIds": [
+            103,
+            203
+          ],
+          "ruleFieldCaseIds": [
+            103,
+            203
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.2a",
+          "title": "概要",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.2b",
+          "title": "スコアリング",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.2c",
+          "title": "罰",
+          "exactCaseIds": [
+            418
+          ],
+          "ruleFieldCaseIds": [
+            418
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.2d",
+          "title": "規則11.2の例外",
+          "exactCaseIds": [
+            420
+          ],
+          "ruleFieldCaseIds": [
+            420
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.2e",
+          "title": "ラウンド終了時点",
+          "exactCaseIds": [
+            419
+          ],
+          "ruleFieldCaseIds": [
+            419
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.3",
+          "title": "パー・ボギー",
+          "exactCaseIds": [
+            104,
+            227
+          ],
+          "ruleFieldCaseIds": [
+            104,
+            227
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.3a",
+          "title": "概要",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.3b",
+          "title": "スコアリング",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.3c",
+          "title": "罰",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.3d",
+          "title": "規則11.2の例外",
+          "exactCaseIds": [
+            422
+          ],
+          "ruleFieldCaseIds": [
+            422
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.3e",
+          "title": "ラウンド終了時点",
+          "exactCaseIds": [
+            421
+          ],
+          "ruleFieldCaseIds": [
+            421
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.4",
+          "title": "スリーボール・マッチプレー",
+          "exactCaseIds": [
+            202,
+            300
+          ],
+          "ruleFieldCaseIds": [
+            202,
+            300
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.4a",
+          "title": "概要",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "21.4b",
+          "title": "プレー順違反",
+          "exactCaseIds": [
+            423
+          ],
+          "ruleFieldCaseIds": [
+            423
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.4c",
+          "title": "一方の相手による球・マーカーの移動",
+          "exactCaseIds": [
+            424
+          ],
+          "ruleFieldCaseIds": [
+            424
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "21.5",
+          "title": "その他のプレー形式",
+          "exactCaseIds": [
+            301
+          ],
+          "ruleFieldCaseIds": [
+            301
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-21",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 22,
+      "officialHeadingCount": 8,
+      "directReferenceCount": 8,
+      "unreferencedHeadingIds": [],
+      "headings": [
+        {
+          "id": "22.1",
+          "title": "フォアサムの概要",
+          "exactCaseIds": [
+            322
+          ],
+          "ruleFieldCaseIds": [
+            322
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "22.2",
+          "title": "どちらのパートナーもサイドのために行為可能",
+          "exactCaseIds": [
+            228,
+            302
+          ],
+          "ruleFieldCaseIds": [
+            228,
+            302
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "22.3",
+          "title": "ストロークを交互に行う義務",
+          "exactCaseIds": [
+            105,
+            200,
+            201
+          ],
+          "ruleFieldCaseIds": [
+            105,
+            200,
+            201
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "22.4",
+          "title": "ラウンドの開始",
+          "exactCaseIds": [
+            303
+          ],
+          "ruleFieldCaseIds": [
+            303
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "22.4a",
+          "title": "最初にプレーするパートナー",
+          "exactCaseIds": [
+            425
+          ],
+          "ruleFieldCaseIds": [
+            425
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "22.4b",
+          "title": "開始時間と開始場所",
+          "exactCaseIds": [
+            426
+          ],
+          "ruleFieldCaseIds": [
+            426
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "22.5",
+          "title": "パートナー間のクラブ共有",
+          "exactCaseIds": [
+            304
+          ],
+          "ruleFieldCaseIds": [
+            304
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "22.6",
+          "title": "パートナーのストローク時の後方位置制限",
+          "exactCaseIds": [
+            305
+          ],
+          "ruleFieldCaseIds": [
+            305
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-22",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 23,
+      "officialHeadingCount": 19,
+      "directReferenceCount": 18,
+      "unreferencedHeadingIds": [
+        "23.3"
+      ],
+      "headings": [
+        {
+          "id": "23.1",
+          "title": "フォアボールの概要",
+          "exactCaseIds": [
+            326
+          ],
+          "ruleFieldCaseIds": [
+            326
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.2",
+          "title": "フォアボールのスコア",
+          "exactCaseIds": [
+            106
+          ],
+          "ruleFieldCaseIds": [
+            106
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.2a",
+          "title": "マッチ・ストロークプレーでのサイドのスコア",
+          "exactCaseIds": [
+            427
+          ],
+          "ruleFieldCaseIds": [
+            427
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.2b",
+          "title": "ストロークプレーのサイドのスコアカード",
+          "exactCaseIds": [
+            306
+          ],
+          "ruleFieldCaseIds": [
+            306
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.2c",
+          "title": "規則11.2が適用されない場合",
+          "exactCaseIds": [
+            429
+          ],
+          "ruleFieldCaseIds": [
+            429
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.3",
+          "title": "ラウンド・ホールの開始と終了",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "23.3a",
+          "title": "ラウンドの開始",
+          "exactCaseIds": [
+            329
+          ],
+          "ruleFieldCaseIds": [
+            329
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.3b",
+          "title": "ラウンドの終了",
+          "exactCaseIds": [
+            330
+          ],
+          "ruleFieldCaseIds": [
+            330
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.3c",
+          "title": "ホールの終了",
+          "exactCaseIds": [
+            331
+          ],
+          "ruleFieldCaseIds": [
+            331
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.4",
+          "title": "一方または両パートナーがサイドを代表",
+          "exactCaseIds": [
+            307
+          ],
+          "ruleFieldCaseIds": [
+            307
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.5",
+          "title": "パートナーのプレーに影響する行為",
+          "exactCaseIds": [
+            107,
+            199
+          ],
+          "ruleFieldCaseIds": [
+            107,
+            199
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.5a",
+          "title": "パートナーの球について許される行為",
+          "exactCaseIds": [
+            428
+          ],
+          "ruleFieldCaseIds": [
+            428
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.5b",
+          "title": "パートナーの行為に対する責任",
+          "exactCaseIds": [
+            430
+          ],
+          "ruleFieldCaseIds": [
+            430
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.6",
+          "title": "サイドのプレー順",
+          "exactCaseIds": [
+            197,
+            308
+          ],
+          "ruleFieldCaseIds": [
+            197,
+            308
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.7",
+          "title": "クラブの共有",
+          "exactCaseIds": [
+            309
+          ],
+          "ruleFieldCaseIds": [
+            309
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.8",
+          "title": "ストローク時のパートナーの後方位置制限",
+          "exactCaseIds": [
+            310
+          ],
+          "ruleFieldCaseIds": [
+            310
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.9",
+          "title": "罰が一方・両方に適用される場合",
+          "exactCaseIds": [
+            229
+          ],
+          "ruleFieldCaseIds": [
+            229,
+            311
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.9a",
+          "title": "失格以外の罰",
+          "exactCaseIds": [
+            311,
+            431
+          ],
+          "ruleFieldCaseIds": [
+            431
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "23.9b",
+          "title": "失格の罰",
+          "exactCaseIds": [
+            311,
+            432
+          ],
+          "ruleFieldCaseIds": [
+            432
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-23",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 24,
+      "officialHeadingCount": 7,
+      "directReferenceCount": 7,
+      "unreferencedHeadingIds": [],
+      "headings": [
+        {
+          "id": "24.1",
+          "title": "チーム競技の概要",
+          "exactCaseIds": [
+            268
+          ],
+          "ruleFieldCaseIds": [
+            268
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "24.2",
+          "title": "チーム競技の条件",
+          "exactCaseIds": [
+            269
+          ],
+          "ruleFieldCaseIds": [
+            269
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "24.3",
+          "title": "チームキャプテン",
+          "exactCaseIds": [
+            270
+          ],
+          "ruleFieldCaseIds": [
+            270
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "24.4",
+          "title": "チーム競技で認められるアドバイス",
+          "exactCaseIds": [
+            108,
+            230
+          ],
+          "ruleFieldCaseIds": [
+            108,
+            230,
+            312
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "24.4a",
+          "title": "アドバイスを与えられる人",
+          "exactCaseIds": [
+            312,
+            433
+          ],
+          "ruleFieldCaseIds": [
+            433
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "24.4b",
+          "title": "プレー中のアドバイスギバーの制限",
+          "exactCaseIds": [
+            312,
+            434
+          ],
+          "ruleFieldCaseIds": [
+            434
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "24.4c",
+          "title": "パートナー以外のチームメンバー間のアドバイス禁止",
+          "exactCaseIds": [
+            312,
+            435
+          ],
+          "ruleFieldCaseIds": [
+            435
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-24",
+      "sourceIndexVerificationScope": "official subrule headings only; full text and case mapping pending"
+    },
+    {
+      "rule": 25,
+      "officialHeadingCount": 39,
+      "directReferenceCount": 37,
+      "unreferencedHeadingIds": [
+        "25.5",
+        "25.6"
+      ],
+      "headings": [
+        {
+          "id": "25.1",
+          "title": "適用対象と概要",
+          "exactCaseIds": [
+            313
+          ],
+          "ruleFieldCaseIds": [
+            313
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2",
+          "title": "視覚障害のあるプレーヤー",
+          "exactCaseIds": [
+            109,
+            206
+          ],
+          "ruleFieldCaseIds": [
+            109,
+            206,
+            314
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2a",
+          "title": "補助者からの援助",
+          "exactCaseIds": [
+            314,
+            340
+          ],
+          "ruleFieldCaseIds": [
+            340
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2b",
+          "title": "補助者は同時に1人",
+          "exactCaseIds": [
+            314,
+            332
+          ],
+          "ruleFieldCaseIds": [
+            332
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2c",
+          "title": "狙いやスタンスを助ける物の設置",
+          "exactCaseIds": [
+            314,
+            345
+          ],
+          "ruleFieldCaseIds": [
+            345
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2d",
+          "title": "ストローク前のキャディー等の後方位置",
+          "exactCaseIds": [
+            314,
+            346
+          ],
+          "ruleFieldCaseIds": [
+            346
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2e",
+          "title": "キャディーに関する修正",
+          "exactCaseIds": [
+            314,
+            353
+          ],
+          "ruleFieldCaseIds": [
+            353
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2f",
+          "title": "バンカーの砂への接触",
+          "exactCaseIds": [
+            314,
+            335
+          ],
+          "ruleFieldCaseIds": [
+            335
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2g",
+          "title": "球を拾い上げられる人",
+          "exactCaseIds": [
+            314,
+            336
+          ],
+          "ruleFieldCaseIds": [
+            336
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.2h",
+          "title": "ドロップ・プレース・リプレースの援助",
+          "exactCaseIds": [
+            314,
+            341
+          ],
+          "ruleFieldCaseIds": [
+            341
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.3",
+          "title": "切断・四肢欠損のあるプレーヤー",
+          "exactCaseIds": [
+            110
+          ],
+          "ruleFieldCaseIds": [
+            110,
+            315
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.3a",
+          "title": "義肢の取り扱い",
+          "exactCaseIds": [
+            315,
+            342
+          ],
+          "ruleFieldCaseIds": [
+            342
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.3b",
+          "title": "クラブのアンカリング",
+          "exactCaseIds": [
+            315,
+            337
+          ],
+          "ruleFieldCaseIds": [
+            337
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.3c",
+          "title": "ドロップ・プレース・リプレースの援助",
+          "exactCaseIds": [
+            315,
+            347
+          ],
+          "ruleFieldCaseIds": [
+            347
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.3d",
+          "title": "リプレースの定義の修正",
+          "exactCaseIds": [
+            315,
+            348
+          ],
+          "ruleFieldCaseIds": [
+            348
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4",
+          "title": "移動補助器具を使用するプレーヤー",
+          "exactCaseIds": [
+            111,
+            207
+          ],
+          "ruleFieldCaseIds": [
+            111,
+            207,
+            316
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4a",
+          "title": "補助者などからの援助",
+          "exactCaseIds": [
+            316,
+            354
+          ],
+          "ruleFieldCaseIds": [
+            354
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4b",
+          "title": "補助者からのアドバイス",
+          "exactCaseIds": [
+            316,
+            355
+          ],
+          "ruleFieldCaseIds": [
+            355
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4c",
+          "title": "補助者は同時に1人",
+          "exactCaseIds": [
+            316,
+            343
+          ],
+          "ruleFieldCaseIds": [
+            343
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4d",
+          "title": "スタンスの定義の修正",
+          "exactCaseIds": [
+            316,
+            349
+          ],
+          "ruleFieldCaseIds": [
+            349
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4e",
+          "title": "リプレースの定義の修正",
+          "exactCaseIds": [
+            316,
+            350
+          ],
+          "ruleFieldCaseIds": [
+            350
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4f",
+          "title": "用具の使用",
+          "exactCaseIds": [
+            316,
+            356
+          ],
+          "ruleFieldCaseIds": [
+            356
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4g",
+          "title": "移動補助器具を使ったスタンス",
+          "exactCaseIds": [
+            316,
+            338
+          ],
+          "ruleFieldCaseIds": [
+            338
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4h",
+          "title": "クラブのアンカリング",
+          "exactCaseIds": [
+            316,
+            357
+          ],
+          "ruleFieldCaseIds": [
+            357
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4i",
+          "title": "プレーの線をまたぐスタンス",
+          "exactCaseIds": [
+            316,
+            358
+          ],
+          "ruleFieldCaseIds": [
+            358
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4j",
+          "title": "キャディーに関する修正",
+          "exactCaseIds": [
+            316,
+            359
+          ],
+          "ruleFieldCaseIds": [
+            359
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4k",
+          "title": "動いている球と移動補助器具の接触",
+          "exactCaseIds": [
+            316,
+            351
+          ],
+          "ruleFieldCaseIds": [
+            351
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4l",
+          "title": "バンカーの砂の状態のテスト",
+          "exactCaseIds": [
+            316,
+            352
+          ],
+          "ruleFieldCaseIds": [
+            352
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4m",
+          "title": "車輪付き移動補助器具：ラテラル救済エリアの拡張",
+          "exactCaseIds": [
+            316,
+            333
+          ],
+          "ruleFieldCaseIds": [
+            333
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.4n",
+          "title": "車輪付き移動補助器具：バンカー外へのアンプレヤブル救済",
+          "exactCaseIds": [
+            316,
+            334
+          ],
+          "ruleFieldCaseIds": [
+            334
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.5",
+          "title": "知的障害のあるプレーヤー",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [
+            317
+          ],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "25.5a",
+          "title": "補助者または監督者の援助",
+          "exactCaseIds": [
+            317,
+            360
+          ],
+          "ruleFieldCaseIds": [
+            360
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.5b",
+          "title": "補助者は同時に1人",
+          "exactCaseIds": [
+            317,
+            344
+          ],
+          "ruleFieldCaseIds": [
+            344
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.5c",
+          "title": "キャディーに関する修正",
+          "exactCaseIds": [
+            317,
+            361
+          ],
+          "ruleFieldCaseIds": [
+            361
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.5d",
+          "title": "球を拾い上げられる人",
+          "exactCaseIds": [
+            317,
+            339
+          ],
+          "ruleFieldCaseIds": [
+            339
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.5e",
+          "title": "知的障害と身体障害の両方がある場合",
+          "exactCaseIds": [
+            317,
+            362
+          ],
+          "ruleFieldCaseIds": [
+            362
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.6",
+          "title": "全障害区分に共通する規定",
+          "exactCaseIds": [],
+          "ruleFieldCaseIds": [
+            318
+          ],
+          "status": "no_exact_ref_content_unverified"
+        },
+        {
+          "id": "25.6a",
+          "title": "不当の遅延",
+          "exactCaseIds": [
+            318,
+            363
+          ],
+          "ruleFieldCaseIds": [
+            363
+          ],
+          "status": "direct_ref"
+        },
+        {
+          "id": "25.6b",
+          "title": "ドロップ",
+          "exactCaseIds": [
+            318,
+            364
+          ],
+          "ruleFieldCaseIds": [
+            364
+          ],
+          "status": "direct_ref"
+        }
+      ],
+      "source": "https://www.randa.org/rog/the-rules-of-golf/rule-25"
+    }
+  ],
+  "limitations": [
+    "This is a comparison to the repository's pre-existing official index, not independent live R&A verification.",
+    "No exact reference is not proof of missing rule coverage; parent and child rules or case text may cover the topic.",
+    "Official index verificationScope states headings only; no full-text validation.",
+    "442 cases may map to multiple headings; ratio is not app completeness percentage."
+  ]
+}
