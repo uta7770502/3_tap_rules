@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 411,
+    "cases": 412,
     "officialSubrules": 336,
-    "linked": 292,
-    "needsReview": 44
+    "linked": 293,
+    "needsReview": 43
   },
   "byRule": [
     {
@@ -135,8 +135,8 @@
     {
       "rule": 20,
       "total": 12,
-      "linked": 7,
-      "needsReview": 5
+      "linked": 8,
+      "needsReview": 4
     },
     {
       "rule": 21,
@@ -2009,7 +2009,7 @@
       "rule": 20,
       "id": "20.2d",
       "title": "誤裁定と事務的誤り",
-      "caseIds": []
+      "caseIds": [412]
     },
     {
       "rule": 20,
