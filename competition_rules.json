@@ -171,7 +171,9 @@
     "procedure": "まず規則上の例外か確認。例外でなければ球を元の箇所へリプレース。",
     "keywords": "球が動いた 1罰打 リプレース",
     "officialSubruleIds": [
-      "9.4"
+      "9.4",
+      "9.4a",
+      "9.4b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
   },
@@ -3067,7 +3069,9 @@
     "penalty": "例外に当たらなければ通常1罰打。",
     "keywords": "キャディ 球 動かした",
     "officialSubruleIds": [
-      "9.4"
+      "9.4",
+      "9.4a",
+      "9.4b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
     "summary": "いつ・なぜ動いたかを確認します。",
