@@ -208,5 +208,110 @@
       "10.3c"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 385,
+    "rule": "5.4a",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "マッチプレーの組み合わせ",
+    "summary": "マッチプレーでは、原則として相手と同じ組でプレーする。",
+    "description": "マッチプレーでは、原則として相手と同じ組でプレーする。",
+    "action": "競技の条件と委員会の許可を確認する。",
+    "procedure": "競技の条件と委員会の許可を確認する。",
+    "penalty": "該当する規則に従う。",
+    "keys": [
+      "5.4a",
+      "マッチプレーの組み合わせ"
+    ],
+    "keywords": "マッチプレーの組み合わせ",
+    "officialSubruleIds": [
+      "5.4a"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 386,
+    "rule": "5.5c",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "中断中の練習",
+    "summary": "プレーが中断されている間の練習には制限と例外がある。",
+    "description": "プレーが中断されている間の練習には制限と例外がある。",
+    "action": "中断の状況、練習場所、委員会の指示を確認する。",
+    "procedure": "中断の状況、練習場所、委員会の指示を確認する。",
+    "penalty": "該当する規則に従う。",
+    "keys": [
+      "5.5c",
+      "中断中の練習"
+    ],
+    "keywords": "中断中の練習",
+    "officialSubruleIds": [
+      "5.5c"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 387,
+    "rule": "6.4c",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "暫定球を打つ順番",
+    "summary": "ティーイングエリアから暫定球や打ち直しの球をプレーするときの順番は規則6.4cに従う。",
+    "description": "ティーイングエリアから暫定球や打ち直しの球をプレーするときの順番は規則6.4cに従う。",
+    "action": "暫定球を宣言し、正しいプレー順を確認する。",
+    "procedure": "暫定球を宣言し、正しいプレー順を確認する。",
+    "penalty": "該当する規則に従う。",
+    "keys": [
+      "6.4c",
+      "暫定球を打つ順番"
+    ],
+    "keywords": "暫定球を打つ順番",
+    "officialSubruleIds": [
+      "6.4c"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 388,
+    "rule": "8.2b",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "他の球に影響する状態の変更",
+    "summary": "他のプレーヤーの球が止まる場所や動きに影響させる目的で、物理的状態を故意に変えてはならない。",
+    "description": "他のプレーヤーの球が止まる場所や動きに影響させる目的で、物理的状態を故意に変えてはならない。",
+    "action": "変更の意図と規則8.2の例外を確認する。",
+    "procedure": "変更の意図と規則8.2の例外を確認する。",
+    "penalty": "該当する規則に従う。",
+    "keys": [
+      "8.2b",
+      "他の球に影響する状態の変更"
+    ],
+    "keywords": "他の球に影響する状態の変更",
+    "officialSubruleIds": [
+      "8.2b"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 389,
+    "rule": "9.1",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "球はあるがままにプレー",
+    "summary": "球は原則として止まった場所からあるがままにプレーする。",
+    "description": "球は原則として止まった場所からあるがままにプレーする。",
+    "action": "球が動いた理由や救済の可否を確認する。",
+    "procedure": "球が動いた理由や救済の可否を確認する。",
+    "penalty": "該当する規則に従う。",
+    "keys": [
+      "9.1",
+      "球はあるがままにプレー"
+    ],
+    "keywords": "球はあるがままにプレー",
+    "officialSubruleIds": [
+      "9.1"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
   }
 ]
