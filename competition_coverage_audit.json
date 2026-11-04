@@ -7,13 +7,14 @@
     "competition_reviewed_subrule_links.json",
     "competition_reviewed_subrule_links_batch2.json",
     "competition_reviewed_subrule_links_batch3.json",
-    "competition_reviewed_subrule_links_batch4.json"
+    "competition_reviewed_subrule_links_batch4.json",
+    "competition_reviewed_subrule_links_batch5.json"
   ],
   "counts": {
     "cases": 331,
     "officialSubrules": 336,
-    "linked": 203,
-    "needsReview": 133
+    "linked": 212,
+    "needsReview": 124
   },
   "byRule": [
     {
@@ -139,8 +140,8 @@
     {
       "rule": 21,
       "total": 23,
-      "linked": 5,
-      "needsReview": 18
+      "linked": 14,
+      "needsReview": 9
     },
     {
       "rule": 22,
@@ -2013,19 +2014,25 @@
       "rule": 21,
       "id": "21.1a",
       "title": "概要",
-      "caseIds": []
+      "caseIds": [
+        102
+      ]
     },
     {
       "rule": 21,
       "id": "21.1b",
       "title": "スコアリング",
-      "caseIds": []
+      "caseIds": [
+        204
+      ]
     },
     {
       "rule": 21,
       "id": "21.1c",
       "title": "罰",
-      "caseIds": []
+      "caseIds": [
+        226
+      ]
     },
     {
       "rule": 21,
@@ -2052,13 +2059,17 @@
       "rule": 21,
       "id": "21.2a",
       "title": "概要",
-      "caseIds": []
+      "caseIds": [
+        103
+      ]
     },
     {
       "rule": 21,
       "id": "21.2b",
       "title": "スコアリング",
-      "caseIds": []
+      "caseIds": [
+        203
+      ]
     },
     {
       "rule": 21,
@@ -2091,19 +2102,25 @@
       "rule": 21,
       "id": "21.3a",
       "title": "概要",
-      "caseIds": []
+      "caseIds": [
+        104
+      ]
     },
     {
       "rule": 21,
       "id": "21.3b",
       "title": "スコアリング",
-      "caseIds": []
+      "caseIds": [
+        104
+      ]
     },
     {
       "rule": 21,
       "id": "21.3c",
       "title": "罰",
-      "caseIds": []
+      "caseIds": [
+        227
+      ]
     },
     {
       "rule": 21,
@@ -2130,7 +2147,9 @@
       "rule": 21,
       "id": "21.4a",
       "title": "概要",
-      "caseIds": []
+      "caseIds": [
+        300
+      ]
     },
     {
       "rule": 21,
