@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 344,
+    "cases": 352,
     "officialSubrules": 336,
-    "linked": 225,
-    "needsReview": 111
+    "linked": 233,
+    "needsReview": 103
   },
   "byRule": [
     {
@@ -165,8 +165,8 @@
     {
       "rule": 25,
       "total": 39,
-      "linked": 19,
-      "needsReview": 20
+      "linked": 27,
+      "needsReview": 12
     }
   ],
   "rows": [
@@ -2466,13 +2466,17 @@
       "rule": 25,
       "id": "25.2c",
       "title": "狙いやスタンスを助ける物の設置",
-      "caseIds": []
+      "caseIds": [
+        345
+      ]
     },
     {
       "rule": 25,
       "id": "25.2d",
       "title": "ストローク前のキャディー等の後方位置",
-      "caseIds": []
+      "caseIds": [
+        346
+      ]
     },
     {
       "rule": 25,
@@ -2533,13 +2537,17 @@
       "rule": 25,
       "id": "25.3c",
       "title": "ドロップ・プレース・リプレースの援助",
-      "caseIds": []
+      "caseIds": [
+        347
+      ]
     },
     {
       "rule": 25,
       "id": "25.3d",
       "title": "リプレースの定義の修正",
-      "caseIds": []
+      "caseIds": [
+        348
+      ]
     },
     {
       "rule": 25,
@@ -2575,13 +2583,17 @@
       "rule": 25,
       "id": "25.4d",
       "title": "スタンスの定義の修正",
-      "caseIds": []
+      "caseIds": [
+        349
+      ]
     },
     {
       "rule": 25,
       "id": "25.4e",
       "title": "リプレースの定義の修正",
-      "caseIds": []
+      "caseIds": [
+        350
+      ]
     },
     {
       "rule": 25,
@@ -2619,13 +2631,17 @@
       "rule": 25,
       "id": "25.4k",
       "title": "動いている球と移動補助器具の接触",
-      "caseIds": []
+      "caseIds": [
+        351
+      ]
     },
     {
       "rule": 25,
       "id": "25.4l",
       "title": "バンカーの砂の状態のテスト",
-      "caseIds": []
+      "caseIds": [
+        352
+      ]
     },
     {
       "rule": 25,
