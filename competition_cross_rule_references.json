@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-11-04",
+  "source": "competition_rules.json",
+  "crossReferencedCaseCount": 13,
+  "records": [
+    {
+      "id": 164,
+      "title": "タオルをサボテンに掛けてスタンスを取った",
+      "primaryRule": 10,
+      "additionalRuleNumbers": [
+        8
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 166,
+      "title": "OBフェンスの外側からクラブを振ってコース内の球を打った",
+      "primaryRule": 10,
+      "additionalRuleNumbers": [
+        18
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 168,
+      "title": "服を手で押さえてクラブを固定して打った",
+      "primaryRule": 10,
+      "additionalRuleNumbers": [
+        4
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 180,
+      "title": "ルースインペディメントを動かしたら球も動いた",
+      "primaryRule": 15,
+      "additionalRuleNumbers": [
+        9
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 186,
+      "title": "ペナルティーエリア内の球を拾ってしまった",
+      "primaryRule": 17,
+      "additionalRuleNumbers": [
+        9
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 190,
+      "title": "3分以内に球を見つけたが時間切れ後に本人確認した",
+      "primaryRule": 18,
+      "additionalRuleNumbers": [
+        7
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 196,
+      "title": "相手がOKしていないのに短いパットを拾った",
+      "primaryRule": 3,
+      "additionalRuleNumbers": [
+        9
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 198,
+      "title": "フォアボールでパートナーの球を自分が打った",
+      "primaryRule": 23,
+      "additionalRuleNumbers": [
+        6
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 216,
+      "title": "プレー禁止区域にスタンスだけが入る",
+      "primaryRule": 2,
+      "additionalRuleNumbers": [
+        16
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 241,
+      "title": "球を探すため長い草を大きく動かしたらライが改善した",
+      "primaryRule": 7,
+      "additionalRuleNumbers": [
+        8
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 242,
+      "title": "自分の球だと思って拾ったら他人の球だった",
+      "primaryRule": 7,
+      "additionalRuleNumbers": [
+        9
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 248,
+      "title": "グリーン上の露や霜をラインから取り除いた",
+      "primaryRule": 13,
+      "additionalRuleNumbers": [
+        8
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    },
+    {
+      "id": 371,
+      "title": "ラウンド中に球を取り替える",
+      "primaryRule": 4,
+      "additionalRuleNumbers": [
+        6
+      ],
+      "additionalOfficialRuleUrls": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+      ],
+      "status": "cross_reference_link_generated_not_officially_verified"
+    }
+  ],
+  "note": "一次参照以外の規則番号を抽出した機械的リンク台帳。公式本文との一致やURL到達性は未検証。"
+}
