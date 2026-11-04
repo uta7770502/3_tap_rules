@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 384,
+    "cases": 389,
     "officialSubrules": 336,
-    "linked": 265,
-    "needsReview": 71
+    "linked": 270,
+    "needsReview": 66
   },
   "byRule": [
     {
@@ -45,14 +45,14 @@
     {
       "rule": 5,
       "total": 22,
-      "linked": 17,
-      "needsReview": 5
+      "linked": 19,
+      "needsReview": 3
     },
     {
       "rule": 6,
       "total": 17,
-      "linked": 12,
-      "needsReview": 5
+      "linked": 13,
+      "needsReview": 4
     },
     {
       "rule": 7,
@@ -63,14 +63,14 @@
     {
       "rule": 8,
       "total": 11,
-      "linked": 9,
-      "needsReview": 2
+      "linked": 10,
+      "needsReview": 1
     },
     {
       "rule": 9,
       "total": 17,
-      "linked": 16,
-      "needsReview": 1
+      "linked": 17,
+      "needsReview": 0
     },
     {
       "rule": 10,
@@ -556,7 +556,7 @@
       "rule": 5,
       "id": "5.4a",
       "title": "マッチプレー",
-      "caseIds": []
+      "caseIds": [385]
     },
     {
       "rule": 5,
@@ -594,7 +594,7 @@
       "rule": 5,
       "id": "5.5c",
       "title": "プレー中断中の練習",
-      "caseIds": []
+      "caseIds": [386]
     },
     {
       "rule": 5,
@@ -764,7 +764,7 @@
       "rule": 6,
       "id": "6.4c",
       "title": "ティーイングエリアから暫定球等をプレーするとき",
-      "caseIds": []
+      "caseIds": [387]
     },
     {
       "rule": 6,
@@ -887,7 +887,7 @@
       "rule": 8,
       "id": "8.2b",
       "title": "その他の物理的状態を変える禁止行為",
-      "caseIds": []
+      "caseIds": [388]
     },
     {
       "rule": 8,
@@ -917,7 +917,7 @@
       "rule": 9,
       "id": "9.1",
       "title": "球はあるがままにプレー",
-      "caseIds": []
+      "caseIds": [389]
     },
     {
       "rule": 9,
