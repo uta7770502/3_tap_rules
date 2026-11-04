@@ -285,7 +285,8 @@
     "procedure": "球の直後を基点として規定の救済エリアへドロップ。",
     "keywords": "埋まった くい込んだ 救済",
     "officialSubruleIds": [
-      "16.3"
+      "16.3",
+      "16.3a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
   },
@@ -1459,7 +1460,8 @@
     "procedure": "ストロークプレーでは重大な違反かを判断。重大な違反の可能性があれば訂正し委員会へ。",
     "keywords": "誤所 一般の罰 失格",
     "officialSubruleIds": [
-      "14.7"
+      "14.7",
+      "14.7a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
@@ -1635,7 +1637,8 @@
     "procedure": "各選択肢の基点と救済エリアを確認して選ぶ。",
     "keywords": "バンカー アンプレヤブル 2罰打",
     "officialSubruleIds": [
-      "19.3"
+      "19.3",
+      "19.3a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
   },
@@ -2013,7 +2016,8 @@
     "procedure": "誰が何を意図して行ったか、球がどこに止まったかを確認。",
     "keywords": "故意 球を止める 方向変更",
     "officialSubruleIds": [
-      "11.2"
+      "11.2",
+      "11.2a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
   },
@@ -2168,7 +2172,8 @@
     "procedure": "球の場所とコースエリアを確認し、規定の救済を受ける。",
     "keywords": "蜂 蛇 危険な動物",
     "officialSubruleIds": [
-      "16.2"
+      "16.2",
+      "16.2a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
   },
@@ -2256,7 +2261,8 @@
     "procedure": "競技条件のポイント配分と規則21.1の修正を確認。",
     "keywords": "ステーブルフォード ポイント 罰",
     "officialSubruleIds": [
-      "21.1"
+      "21.1",
+      "21.1a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   },
@@ -2278,7 +2284,8 @@
     "procedure": "競技条件の最大スコアを確認し、上限到達後のホール終了方法を確認。",
     "keywords": "最大スコア 上限 競技形式",
     "officialSubruleIds": [
-      "21.2"
+      "21.2",
+      "21.2a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   },
@@ -2301,7 +2308,8 @@
     "keywords": "パー競技 ボギー競技 競技形式",
     "officialSubruleIds": [
       "21.3",
-      "21.3b"
+      "21.3b",
+      "21.3a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   },
@@ -4994,7 +5002,9 @@
     "penalty": "違反は一般の罰。",
     "keywords": "Rule8 状態 変更 球 止まる",
     "officialSubruleIds": [
-      "8.3"
+      "8.3",
+      "8.3a",
+      "8.3b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
     "summary": "他のプレーヤーの球が止まる場所や次のストロークに影響させる目的で物理的状態を変えることは認められない。",
@@ -5092,7 +5102,8 @@
     "officialSubruleIds": [
       "2.2a",
       "2.2b",
-      "2.2"
+      "2.2",
+      "2.2c"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-2",
     "summary": "コースはジェネラルエリアと、ティーイングエリア・ペナルティーエリア・バンカー・パッティンググリーンの4つの特定エリアに区分される。",
