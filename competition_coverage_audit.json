@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 421,
+    "cases": 422,
     "officialSubrules": 336,
-    "linked": 302,
-    "needsReview": 34
+    "linked": 303,
+    "needsReview": 33
   },
   "byRule": [
     {
@@ -141,8 +141,8 @@
     {
       "rule": 21,
       "total": 23,
-      "linked": 20,
-      "needsReview": 3
+      "linked": 21,
+      "needsReview": 2
     },
     {
       "rule": 22,
@@ -2157,7 +2157,7 @@
       "rule": 21,
       "id": "21.3d",
       "title": "規則11.2の例外",
-      "caseIds": []
+      "caseIds": [422]
     },
     {
       "rule": 21,
