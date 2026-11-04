@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 432,
+    "cases": 433,
     "officialSubrules": 336,
-    "linked": 313,
-    "needsReview": 23
+    "linked": 314,
+    "needsReview": 22
   },
   "byRule": [
     {
@@ -159,8 +159,8 @@
     {
       "rule": 24,
       "total": 7,
-      "linked": 4,
-      "needsReview": 3
+      "linked": 5,
+      "needsReview": 2
     },
     {
       "rule": 25,
@@ -2550,7 +2550,9 @@
       "rule": 24,
       "id": "24.4a",
       "title": "アドバイスを与えられる人",
-      "caseIds": []
+      "caseIds": [
+        433
+      ]
     },
     {
       "rule": 24,
