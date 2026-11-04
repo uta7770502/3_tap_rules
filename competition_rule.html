@@ -5,8 +5,8 @@ const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const ruleLabel=r=>/MLR/i.test(r)?"MLR ":/Clarification/i.test(r)?"Clarification ":/Committee/i.test(r)?"Committee ":"Rule ";
 const officialRule=r=>String(r??"").match(/^(?:Rule\s*)?(\d{1,2})(?:[.-]|$)/i)?.[1];
 if(!Number.isSafeInteger(id)||id<=0){content.textContent="競技ルールの指定が正しくありません。";}else{
-Promise.all([fetch("competition_rules.json?v="+Date.now(),{cache:"no-store"}),fetch("competition_rule25_verified_cases.json?v="+Date.now(),{cache:"no-store"})]).then(async rs=>{for(const r of rs)if(!r.ok)throw Error("HTTP "+r.status);return Promise.all(rs.map(r=>r.json()))})
-.then(([base,extra])=>{const a=base.concat(extra);
+Promise.all([fetch("competition_rules.json?v="+Date.now(),{cache:"no-store"}),fetch("competition_rule25_verified_cases.json?v="+Date.now(),{cache:"no-store"}),fetch("competition_rules_extra_5_10.json?v="+Date.now(),{cache:"no-store"})]).then(async rs=>{for(const r of rs)if(!r.ok)throw Error("HTTP "+r.status);return Promise.all(rs.map(r=>r.json()))})
+.then(([base,extra,extra2])=>{const a=base.concat(extra,extra2);
   const x=a.find(v=>v.id===id);
   if(!x){content.textContent="指定された競技ルールが見つかりません。";return;}
   document.title=x.title+"｜競技ルール";
