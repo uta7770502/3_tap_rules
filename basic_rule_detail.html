@@ -22,7 +22,7 @@
     function esc(s){return String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}
     function getId(){const p=new URLSearchParams(location.search);const id=Number(p.get("id"));return Number.isFinite(id)?id:NaN}
     const IROHA_VISUALS=[
-      {keys:["ティーイングエリア","ティーショット","ティーから"],src:"assets/minimal-guides/tee-area-hd.png",caption:"ティーイングエリアと打つ位置をイメージで確認"},
+      {keys:["ティーイングエリア","ティーショット","ティーから"],src:"assets/minimal-guides/tee-area-top-view-20261105.svg",caption:"色の付いた長方形がティーイングエリア。左右はマーカーの外側、奥行きは後方へ2クラブレングスです"},
       {keys:["OB","アウトオブバウンズ","白杭"],src:"assets/minimal-guides/ob-boundary-hd.png",caption:"白杭とOB境界の位置関係を確認"},
       {keys:["カート道","動かせない障害物"],src:"assets/minimal-guides/cart-stance-hd.png",caption:"カート道がスタンスやスイングにかかる場面を確認"},
       {keys:["バンカー"],src:"assets/minimal-guides/bunker-hd.png",caption:"バンカーでの基本的な状況をイメージで確認"},
