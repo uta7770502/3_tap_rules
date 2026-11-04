@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 428,
+    "cases": 430,
     "officialSubrules": 336,
-    "linked": 309,
-    "needsReview": 27
+    "linked": 311,
+    "needsReview": 25
   },
   "byRule": [
     {
@@ -153,8 +153,8 @@
     {
       "rule": 23,
       "total": 19,
-      "linked": 14,
-      "needsReview": 5
+      "linked": 16,
+      "needsReview": 3
     },
     {
       "rule": 24,
@@ -2395,7 +2395,9 @@
       "rule": 23,
       "id": "23.2c",
       "title": "規則11.2が適用されない場合",
-      "caseIds": []
+      "caseIds": [
+        429
+      ]
     },
     {
       "rule": 23,
@@ -2456,7 +2458,9 @@
       "rule": 23,
       "id": "23.5b",
       "title": "パートナーの行為に対する責任",
-      "caseIds": []
+      "caseIds": [
+        430
+      ]
     },
     {
       "rule": 23,
