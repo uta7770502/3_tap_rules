@@ -82,5 +82,17 @@
     "officialSubruleIds": [
       "17.1a"
     ]
+  },
+  {
+    "id": 402,
+    "rule": "13.2b",
+    "cat": "グリーン",
+    "title": "旗竿を抜く場合",
+    "summary": "旗竿を抜く、または付き添う場合は規則13.2bの条件に従う。",
+    "action": "ストローク前に旗竿の扱いを確認する。",
+    "penalty": "規則13.2bに従う。",
+    "officialSubruleIds": [
+      "13.2b"
+    ]
   }
 ]
