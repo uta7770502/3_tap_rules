@@ -33,7 +33,7 @@ const judge=readFileSync("competition_judge.html","utf8");
 const ai=readFileSync("competition_ai.html","utf8");
 const chat=readFileSync("assets/golf-chat.js","utf8");
 const api=readFileSync("api/golf-chat.js","utf8");
-const judgeScript=judge.match(/<script>([\\s\\S]*?)<\\/script>/)?.[1];
+const judgeScript=judge.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 assert.ok(judgeScript,"Missing three-tap judge script");
 try {new Function(judgeScript);} catch(e) {throw Error("Three-tap judge JavaScript syntax error: "+e.message);}
 try {new Function(chat);} catch(e) {throw Error("AI/photo chat JavaScript syntax error: "+e.message);}
