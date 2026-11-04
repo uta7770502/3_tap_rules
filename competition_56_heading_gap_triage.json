@@ -1,0 +1,945 @@
+{
+  "generatedAt": "2026-11-04",
+  "scope": "56 headings without exact officialSubruleIds reference, across 442 cases",
+  "classificationCounts": {
+    "caseRuleExactWithChildReferences": 6,
+    "childReferencesPresent": 11,
+    "parentReferenceOnly": 39
+  },
+  "items": [
+    {
+      "id": "1.2",
+      "title": "競技者の行動基準",
+      "classification": "case_rule_exact_with_child_references",
+      "caseRuleExact": [
+        {
+          "id": 76,
+          "title": "重大な非行があった",
+          "refs": [
+            "1.2a"
+          ]
+        }
+      ],
+      "childCaseIds": [
+        76,
+        272
+      ],
+      "parentCaseIds": [
+        22
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "1.3c",
+      "title": "罰",
+      "classification": "case_rule_exact_with_child_references",
+      "caseRuleExact": [
+        {
+          "id": 366,
+          "title": "同じホールで複数の規則違反をした",
+          "refs": [
+            "1.3c(4)"
+          ]
+        }
+      ],
+      "childCaseIds": [
+        366
+      ],
+      "parentCaseIds": [
+        1,
+        22
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "2.2",
+      "title": "コースの定義された区域",
+      "classification": "case_rule_exact_with_child_references",
+      "caseRuleExact": [
+        {
+          "id": 273,
+          "title": "球がコースのどのエリアにあるか判断する",
+          "refs": [
+            "2.2a",
+            "2.2b"
+          ]
+        }
+      ],
+      "childCaseIds": [
+        273
+      ],
+      "parentCaseIds": [
+        23
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "2.2c",
+      "title": "球があるコース区域の決定",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        23
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "2.3",
+      "title": "プレーを妨げる物・状態",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        23
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "3.1",
+      "title": "すべての競技の基本要素",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        319,
+        323,
+        327
+      ],
+      "parentCaseIds": [
+        24
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "3.3",
+      "title": "ストロークプレー",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        2,
+        48,
+        49,
+        280,
+        281,
+        369,
+        370
+      ],
+      "parentCaseIds": [
+        24
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "4.1c",
+      "title": "クラブをプレーから除外する手続",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        3,
+        25
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "4.2",
+      "title": "球",
+      "classification": "case_rule_exact_with_child_references",
+      "caseRuleExact": [
+        {
+          "id": 371,
+          "title": "ラウンド中に球を取り替える",
+          "refs": [
+            "4.2a",
+            "4.2b",
+            "4.2c",
+            "6.3b"
+          ]
+        }
+      ],
+      "childCaseIds": [
+        81,
+        134,
+        135,
+        371
+      ],
+      "parentCaseIds": [
+        25
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "5.2",
+      "title": "ラウンド前・ラウンド間の練習",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        50,
+        259,
+        373
+      ],
+      "parentCaseIds": [
+        26
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "5.3",
+      "title": "ラウンドの開始と終了",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        5,
+        374
+      ],
+      "parentCaseIds": [
+        26
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "5.4b",
+      "title": "ストロークプレー",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        26,
+        282
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "5.5b",
+      "title": "ホール終了後の練習制限",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        26,
+        51
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "5.6",
+      "title": "不当の遅延・速やかなプレー",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        83,
+        284
+      ],
+      "parentCaseIds": [
+        26
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "5.7a",
+      "title": "プレーを止められる・止めなければならない場合",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        26,
+        84
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "6.1",
+      "title": "ホールのプレーの開始",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        52,
+        136,
+        137,
+        376
+      ],
+      "parentCaseIds": [
+        27
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "6.2",
+      "title": "ティーイングエリアからのプレー",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        85,
+        138,
+        256,
+        382
+      ],
+      "parentCaseIds": [
+        27
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "6.3",
+      "title": "ホールのプレーで使用する球",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        6,
+        86,
+        139,
+        142,
+        198,
+        285,
+        371,
+        377
+      ],
+      "parentCaseIds": [
+        27
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "8.1d",
+      "title": "球停止後に悪化した状態の復元",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        29,
+        54,
+        241,
+        248,
+        250
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "8.3a",
+      "title": "規則8.3が適用されるとき",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        29,
+        267
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "8.3b",
+      "title": "その他の物理的状態を変える禁止行為",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        29,
+        267
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.2a",
+      "title": "球が動いたかの判定",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        30,
+        274
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.2b",
+      "title": "球が動いた原因の判定",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        30,
+        274
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.4a",
+      "title": "リプレースが必要なとき",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        8,
+        30,
+        146,
+        180,
+        186,
+        196
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.4b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        8,
+        30,
+        146,
+        180,
+        186,
+        196
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.5a",
+      "title": "リプレースが必要なとき",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        30,
+        275
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.5b",
+      "title": "拾い上げ・故意の接触・移動の罰",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        30,
+        275
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.7a",
+      "title": "球・ボールマーカーのリプレース",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        30,
+        276
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "9.7b",
+      "title": "ボールマーカーを動かした罰",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        30,
+        276
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "10.1",
+      "title": "ストロークの方法",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        55,
+        56,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        165,
+        166,
+        167,
+        168
+      ],
+      "parentCaseIds": [
+        22,
+        31
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "11.2a",
+      "title": "適用条件",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        32,
+        91,
+        173
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "14.2c",
+      "title": "リプレースする位置",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        35,
+        63
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "14.5a",
+      "title": "プレー前の誤り訂正",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        35,
+        96,
+        178
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "14.6a",
+      "title": "前のストロークがティーイングエリアから",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        35,
+        292
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "14.6b",
+      "title": "前のストロークがジェネラルエリア・ペナルティーエリア・バンカーから",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        35,
+        292
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "14.6c",
+      "title": "前のストロークがグリーンから",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        35,
+        292
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "14.7a",
+      "title": "球をプレーすべき場所",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        35,
+        66,
+        152,
+        179,
+        243
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "16.2a",
+      "title": "救済が認められる場合",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        37,
+        98,
+        184
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "16.3a",
+      "title": "救済が認められる場合",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        13,
+        22,
+        37,
+        185
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "18.2b",
+      "title": "紛失・OBの処置",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        15,
+        22,
+        39,
+        166,
+        190
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "19.2a",
+      "title": "ストロークと距離",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        17,
+        22,
+        40,
+        101,
+        193
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "19.2b",
+      "title": "後方線上の救済",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        17,
+        22,
+        40,
+        101,
+        193
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "19.3a",
+      "title": "通常の救済：1罰打",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        22,
+        40,
+        74
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "20.1",
+      "title": "ラウンド中の規則問題の解決",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        18,
+        75,
+        153,
+        223,
+        224,
+        225,
+        415
+      ],
+      "parentCaseIds": [
+        23,
+        41
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.1a",
+      "title": "概要",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        102,
+        204,
+        226
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.1b",
+      "title": "スコアリング",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        102,
+        204,
+        226
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.1c",
+      "title": "罰",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        102,
+        204,
+        226
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.2a",
+      "title": "概要",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        103,
+        203
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.2b",
+      "title": "スコアリング",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        103,
+        203
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.3a",
+      "title": "概要",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        104,
+        227
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.3b",
+      "title": "スコアリング",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        104,
+        227
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.3c",
+      "title": "罰",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        104,
+        227
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "21.4a",
+      "title": "概要",
+      "classification": "parent_reference_only",
+      "caseRuleExact": [],
+      "childCaseIds": [],
+      "parentCaseIds": [
+        20,
+        23,
+        42,
+        202,
+        300
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "23.3",
+      "title": "ラウンド・ホールの開始と終了",
+      "classification": "child_references_present",
+      "caseRuleExact": [],
+      "childCaseIds": [
+        329,
+        330,
+        331
+      ],
+      "parentCaseIds": [
+        23,
+        44
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "25.5",
+      "title": "知的障害のあるプレーヤー",
+      "classification": "case_rule_exact_with_child_references",
+      "caseRuleExact": [
+        {
+          "id": 317,
+          "title": "知的障害のあるプレーヤーが補助者を使う",
+          "refs": [
+            "25.5a",
+            "25.5b",
+            "25.5c",
+            "25.5d",
+            "25.5e"
+          ]
+        }
+      ],
+      "childCaseIds": [
+        317,
+        339,
+        344,
+        360,
+        361,
+        362
+      ],
+      "parentCaseIds": [
+        21,
+        23,
+        46,
+        205
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    },
+    {
+      "id": "25.6",
+      "title": "全障害区分に共通する規定",
+      "classification": "case_rule_exact_with_child_references",
+      "caseRuleExact": [
+        {
+          "id": 318,
+          "title": "障害区分に共通するペース・救済上の配慮を確認する",
+          "refs": [
+            "25.6a",
+            "25.6b"
+          ]
+        }
+      ],
+      "childCaseIds": [
+        318,
+        363,
+        364
+      ],
+      "parentCaseIds": [
+        21,
+        23,
+        46,
+        205
+      ],
+      "contentVerified": false,
+      "action": "Review official heading and case text; add mapping only if scope genuinely covers heading."
+    }
+  ],
+  "verification": "Structural classification against repo index only. No official full-text verification.",
+  "warning": "Parent-rule references cannot establish coverage of child rule; do not automatically fill 56 mappings."
+}
