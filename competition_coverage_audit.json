@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 389,
+    "cases": 394,
     "officialSubrules": 336,
-    "linked": 270,
-    "needsReview": 66
+    "linked": 275,
+    "needsReview": 61
   },
   "byRule": [
     {
@@ -51,8 +51,8 @@
     {
       "rule": 6,
       "total": 17,
-      "linked": 13,
-      "needsReview": 4
+      "linked": 14,
+      "needsReview": 3
     },
     {
       "rule": 7,
@@ -93,26 +93,26 @@
     {
       "rule": 13,
       "total": 14,
-      "linked": 9,
-      "needsReview": 5
+      "linked": 10,
+      "needsReview": 4
     },
     {
       "rule": 14,
       "total": 27,
-      "linked": 20,
-      "needsReview": 7
+      "linked": 21,
+      "needsReview": 6
     },
     {
       "rule": 15,
       "total": 10,
-      "linked": 7,
-      "needsReview": 3
+      "linked": 8,
+      "needsReview": 2
     },
     {
       "rule": 16,
       "total": 14,
-      "linked": 11,
-      "needsReview": 3
+      "linked": 12,
+      "needsReview": 2
     },
     {
       "rule": 17,
@@ -770,7 +770,7 @@
       "rule": 6,
       "id": "6.4d",
       "title": "ティー以外から救済や暫定球をプレーするとき",
-      "caseIds": []
+      "caseIds": [390]
     },
     {
       "rule": 6,
@@ -1304,7 +1304,7 @@
       "rule": 13,
       "id": "13.1f",
       "title": "目的外グリーンからの救済義務",
-      "caseIds": []
+      "caseIds": [391]
     },
     {
       "rule": 13,
@@ -1378,7 +1378,7 @@
       "rule": 14,
       "id": "14.1b",
       "title": "球を拾い上げられる人",
-      "caseIds": []
+      "caseIds": [392]
     },
     {
       "rule": 14,
@@ -1577,7 +1577,7 @@
       "rule": 15,
       "id": "15.1a",
       "title": "ルースインペディメントの除去",
-      "caseIds": []
+      "caseIds": [393]
     },
     {
       "rule": 15,
@@ -1716,7 +1716,7 @@
       "rule": 16,
       "id": "16.2b",
       "title": "危険な動物からの救済",
-      "caseIds": []
+      "caseIds": [394]
     },
     {
       "rule": 16,
