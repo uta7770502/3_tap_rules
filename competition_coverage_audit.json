@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 379,
+    "cases": 384,
     "officialSubrules": 336,
-    "linked": 260,
-    "needsReview": 76
+    "linked": 265,
+    "needsReview": 71
   },
   "byRule": [
     {
@@ -646,13 +646,13 @@
       "rule": 5,
       "id": "5.7c",
       "title": "プレー再開時の対応",
-      "caseIds": []
+      "caseIds": [380]
     },
     {
       "rule": 5,
       "id": "5.7d",
       "title": "中断時の拾い上げ・再開時のリプレースと取り替え",
-      "caseIds": []
+      "caseIds": [381]
     },
     {
       "rule": 6,
@@ -686,7 +686,7 @@
       "rule": 6,
       "id": "6.2a",
       "title": "ティーイングエリアの規則が適用されるとき",
-      "caseIds": []
+      "caseIds": [382]
     },
     {
       "rule": 6,
@@ -1141,13 +1141,13 @@
       "rule": 10,
       "id": "10.3b",
       "title": "キャディーができること",
-      "caseIds": []
+      "caseIds": [383]
     },
     {
       "rule": 10,
       "id": "10.3c",
       "title": "キャディーの行為・違反への競技者の責任",
-      "caseIds": []
+      "caseIds": [384]
     },
     {
       "rule": 11,
