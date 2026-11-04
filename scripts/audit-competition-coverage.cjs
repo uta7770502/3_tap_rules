@@ -25,6 +25,8 @@ const missing=mapped.filter(x=>!x.caseIds.length);
 // A parent can be navigated via its children, but is NOT counted as case-verified.
 const unmappedParents=missing.filter(x=>mapped.some(y=>y.id!==x.id&&y.id.startsWith(x.id)));
 const unmappedLeaves=missing.filter(x=>!unmappedParents.includes(x));
+const parentNavigation=unmappedParents.map(parent=>({id:parent.id,childIds:mapped.filter(child=>child.id!==parent.id&&child.id.startsWith(parent.id)&&child.caseIds.length).map(child=>child.id)}));
+const effectiveNavigationCoverage=mapped.length-unmappedLeaves.length;
 const byRuleTriage=groups.map(g=>{
   const n=Number(g.rule),parents=unmappedParents.filter(x=>Number(x.parentRule)===n),leaves=unmappedLeaves.filter(x=>Number(x.parentRule)===n);
   return {rule:n,unmappedParents:parents.map(x=>x.id),unmappedLeaves:leaves.map(x=>x.id)};
@@ -93,6 +95,10 @@ const stale=stored.counts?.cases!==cases.length ||
 report.gates.auditReportFresh=!stale;
 if(stale)report.errors.push("stale competition_coverage_audit.json: regenerate after editing cases or index");
 report.mapping.unmappedParentHeadings=unmappedParents.length;
+report.mapping.parentHeadingsNavigableViaChildren=parentNavigation.length;
+report.mapping.parentNavigation=parentNavigation;
+report.mapping.effectiveHeadingNavigationCoverage=effectiveNavigationCoverage;
+report.gates.leafCaseMapping=unmappedLeaves.length===0;
 report.mapping.unmappedLeafHeadings=unmappedLeaves.length;
 report.mapping.byRuleTriage=byRuleTriage;
 const output=process.argv.includes("--json")?JSON.stringify(report,null,2):[
