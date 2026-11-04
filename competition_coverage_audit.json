@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 334,
+    "cases": 339,
     "officialSubrules": 336,
-    "linked": 215,
-    "needsReview": 121
+    "linked": 220,
+    "needsReview": 116
   },
   "byRule": [
     {
@@ -165,8 +165,8 @@
     {
       "rule": 25,
       "total": 39,
-      "linked": 9,
-      "needsReview": 30
+      "linked": 14,
+      "needsReview": 25
     }
   ],
   "rows": [
@@ -2482,13 +2482,17 @@
       "rule": 25,
       "id": "25.2f",
       "title": "バンカーの砂への接触",
-      "caseIds": []
+      "caseIds": [
+        335
+      ]
     },
     {
       "rule": 25,
       "id": "25.2g",
       "title": "球を拾い上げられる人",
-      "caseIds": []
+      "caseIds": [
+        336
+      ]
     },
     {
       "rule": 25,
@@ -2515,7 +2519,9 @@
       "rule": 25,
       "id": "25.3b",
       "title": "クラブのアンカリング",
-      "caseIds": []
+      "caseIds": [
+        337
+      ]
     },
     {
       "rule": 25,
@@ -2579,7 +2585,9 @@
       "rule": 25,
       "id": "25.4g",
       "title": "移動補助器具を使ったスタンス",
-      "caseIds": []
+      "caseIds": [
+        338
+      ]
     },
     {
       "rule": 25,
@@ -2657,7 +2665,9 @@
       "rule": 25,
       "id": "25.5d",
       "title": "球を拾い上げられる人",
-      "caseIds": []
+      "caseIds": [
+        339
+      ]
     },
     {
       "rule": 25,
