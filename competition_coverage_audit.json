@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 412,
+    "cases": 414,
     "officialSubrules": 336,
-    "linked": 293,
-    "needsReview": 43
+    "linked": 295,
+    "needsReview": 41
   },
   "byRule": [
     {
@@ -135,8 +135,8 @@
     {
       "rule": 20,
       "total": 12,
-      "linked": 8,
-      "needsReview": 4
+      "linked": 10,
+      "needsReview": 2
     },
     {
       "rule": 21,
@@ -2015,13 +2015,13 @@
       "rule": 20,
       "id": "20.2e",
       "title": "結果確定後の失格",
-      "caseIds": []
+      "caseIds": [413]
     },
     {
       "rule": 20,
       "id": "20.2f",
       "title": "参加資格のない競技者",
-      "caseIds": []
+      "caseIds": [414]
     },
     {
       "rule": 20,
