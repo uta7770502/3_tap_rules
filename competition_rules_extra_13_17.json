@@ -9,7 +9,8 @@
     "penalty": "判定自体に罰はない。",
     "officialSubruleIds": [
       "13.1a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
   },
   {
     "id": 396,
@@ -21,7 +22,8 @@
     "penalty": "認められた球の取り替え自体に罰はない。誤ったドロップ方法や誤所からのプレーは規則14.3・14.7を確認する。",
     "officialSubruleIds": [
       "14.3a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
   {
     "id": 397,
@@ -33,7 +35,8 @@
     "penalty": "認められない球の取り替えをしてプレーした場合は規則6.3bにより原則1罰打。誤所からのプレーが重なる場合は規則14.7との関係を確認する。",
     "officialSubruleIds": [
       "14.2a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
   {
     "id": 398,
@@ -45,7 +48,8 @@
     "penalty": "規則17.1dによる救済は1罰打。",
     "officialSubruleIds": [
       "17.1b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
   },
   {
     "id": 399,
@@ -57,7 +61,8 @@
     "penalty": "条件を満たす救済は罰なし。",
     "officialSubruleIds": [
       "16.1a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
   },
   {
     "id": 400,
@@ -69,7 +74,8 @@
     "penalty": "条件を満たす救済は罰なし。",
     "officialSubruleIds": [
       "16.3b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
   },
   {
     "id": 401,
@@ -81,7 +87,8 @@
     "penalty": "位置の判定自体に罰はない。",
     "officialSubruleIds": [
       "17.1a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
   },
   {
     "id": 402,
@@ -93,7 +100,8 @@
     "penalty": "認められた旗竿の取り除き・付き添い自体に罰はない。故意の干渉などがあれば規則13.2bと11.2に従って判定する。",
     "officialSubruleIds": [
       "13.2b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
   },
   {
     "id": 403,
@@ -105,7 +113,8 @@
     "penalty": "ストロークプレーで他のプレーヤーを助けるため球を残すことに合意した場合、合意したプレーヤーは一般の罰（2罰打）。",
     "officialSubruleIds": [
       "15.3a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
   },
   {
     "id": 404,
@@ -117,7 +126,8 @@
     "penalty": "規則に従う移動は無罰。マーカーを元に戻さず誤所からプレーした場合は規則14.7を確認する。",
     "officialSubruleIds": [
       "15.3c"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
   },
   {
     "id": 405,
@@ -129,7 +139,8 @@
     "penalty": "正しい場所・方法に従えば無罰。誤所からプレーした場合は規則14.7を確認する。",
     "officialSubruleIds": [
       "14.2d"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
   {
     "id": 406,
@@ -141,7 +152,8 @@
     "penalty": "原則一般の罰（2罰打）。重大な違反を適切に訂正しない場合は失格となる。",
     "officialSubruleIds": [
       "14.7b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
   {
     "id": 407,
@@ -153,7 +165,8 @@
     "penalty": "規則14.5に従ってプレー前に訂正すれば、訂正した手順上の誤りによる罰は原則生じない。ただし別の行為による罰は規則14.5cで確認する。",
     "officialSubruleIds": [
       "14.5b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
   {
     "id": 408,
@@ -165,6 +178,7 @@
     "penalty": "手順の誤りの訂正と独立した違反の罰は規則14.5cおよび該当規則で別々に判定する。",
     "officialSubruleIds": [
       "14.5c"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   }
 ]
