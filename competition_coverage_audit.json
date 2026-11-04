@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 339,
+    "cases": 344,
     "officialSubrules": 336,
-    "linked": 220,
-    "needsReview": 116
+    "linked": 225,
+    "needsReview": 111
   },
   "byRule": [
     {
@@ -165,8 +165,8 @@
     {
       "rule": 25,
       "total": 39,
-      "linked": 14,
-      "needsReview": 25
+      "linked": 19,
+      "needsReview": 20
     }
   ],
   "rows": [
@@ -2450,7 +2450,9 @@
       "rule": 25,
       "id": "25.2a",
       "title": "補助者からの援助",
-      "caseIds": []
+      "caseIds": [
+        340
+      ]
     },
     {
       "rule": 25,
@@ -2498,7 +2500,9 @@
       "rule": 25,
       "id": "25.2h",
       "title": "ドロップ・プレース・リプレースの援助",
-      "caseIds": []
+      "caseIds": [
+        341
+      ]
     },
     {
       "rule": 25,
@@ -2513,7 +2517,9 @@
       "rule": 25,
       "id": "25.3a",
       "title": "義肢の取り扱い",
-      "caseIds": []
+      "caseIds": [
+        342
+      ]
     },
     {
       "rule": 25,
@@ -2561,7 +2567,9 @@
       "rule": 25,
       "id": "25.4c",
       "title": "補助者は同時に1人",
-      "caseIds": []
+      "caseIds": [
+        343
+      ]
     },
     {
       "rule": 25,
@@ -2653,7 +2661,9 @@
       "rule": 25,
       "id": "25.5b",
       "title": "補助者は同時に1人",
-      "caseIds": []
+      "caseIds": [
+        344
+      ]
     },
     {
       "rule": 25,
