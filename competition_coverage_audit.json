@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 437,
+    "cases": 439,
     "officialSubrules": 336,
-    "linked": 318,
-    "needsReview": 18
+    "linked": 320,
+    "needsReview": 16
   },
   "byRule": [
     {
@@ -117,8 +117,8 @@
     {
       "rule": 17,
       "total": 10,
-      "linked": 8,
-      "needsReview": 2
+      "linked": 10,
+      "needsReview": 0
     },
     {
       "rule": 18,
@@ -1866,13 +1866,17 @@
       "rule": 17,
       "id": "17.2a",
       "title": "同じ・別のペナルティーエリア内に止まった場合",
-      "caseIds": []
+      "caseIds": [
+        438
+      ]
     },
     {
       "rule": 17,
       "id": "17.2b",
       "title": "紛失・OB・エリア外でアンプレヤブルの場合",
-      "caseIds": []
+      "caseIds": [
+        439
+      ]
     },
     {
       "rule": 17,
