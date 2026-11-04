@@ -41,8 +41,13 @@ const errors=[
 // Validate content integrity separately from official-rule correctness.
 const caseContentErrors=cases.flatMap(c=>{
   const issues=[];
-  for(const field of ["id","rule","title","summary","action","penalty"]){
+  for(const field of ["id","rule","title","penalty"]){
     if(c[field]===undefined||c[field]===null||String(c[field]).trim()==="")issues.push("case "+c.id+": empty "+field);
+  }
+  // Legacy cases use description/procedure; newer cases use summary/action.
+  for(const [field,legacy] of [["summary","description"],["action","procedure"]]){
+    const value=c[field]??c[legacy];
+    if(value===undefined||value===null||String(value).trim()==="")issues.push("case "+c.id+": empty "+field+" / "+legacy);
   }
   if(!Number.isInteger(c.id)||c.id<=0)issues.push("case "+c.id+": invalid numeric ID");
   if(c.officialSubruleIds!==undefined&&!Array.isArray(c.officialSubruleIds))issues.push("case "+c.id+": officialSubruleIds must be array");
