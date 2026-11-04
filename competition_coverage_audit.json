@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 405,
+    "cases": 406,
     "officialSubrules": 336,
-    "linked": 286,
-    "needsReview": 50
+    "linked": 287,
+    "needsReview": 49
   },
   "byRule": [
     {
@@ -99,8 +99,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 24,
-      "needsReview": 3
+      "linked": 25,
+      "needsReview": 2
     },
     {
       "rule": 15,
@@ -1563,7 +1563,7 @@
       "rule": 14,
       "id": "14.7b",
       "title": "ストロークプレーで誤所からプレーした後のホール完了",
-      "caseIds": []
+      "caseIds": [406]
     },
     {
       "rule": 15,
