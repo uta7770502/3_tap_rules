@@ -8,13 +8,14 @@
     "competition_reviewed_subrule_links_batch2.json",
     "competition_reviewed_subrule_links_batch3.json",
     "competition_reviewed_subrule_links_batch4.json",
-    "competition_reviewed_subrule_links_batch5.json"
+    "competition_reviewed_subrule_links_batch5.json",
+    "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 331,
+    "cases": 334,
     "officialSubrules": 336,
-    "linked": 212,
-    "needsReview": 124
+    "linked": 215,
+    "needsReview": 121
   },
   "byRule": [
     {
@@ -164,8 +165,8 @@
     {
       "rule": 25,
       "total": 39,
-      "linked": 6,
-      "needsReview": 33
+      "linked": 9,
+      "needsReview": 30
     }
   ],
   "rows": [
@@ -2455,7 +2456,9 @@
       "rule": 25,
       "id": "25.2b",
       "title": "補助者は同時に1人",
-      "caseIds": []
+      "caseIds": [
+        332
+      ]
     },
     {
       "rule": 25,
@@ -2612,13 +2615,17 @@
       "rule": 25,
       "id": "25.4m",
       "title": "車輪付き移動補助器具：ラテラル救済エリアの拡張",
-      "caseIds": []
+      "caseIds": [
+        333
+      ]
     },
     {
       "rule": 25,
       "id": "25.4n",
       "title": "車輪付き移動補助器具：バンカー外へのアンプレヤブル救済",
-      "caseIds": []
+      "caseIds": [
+        334
+      ]
     },
     {
       "rule": 25,
