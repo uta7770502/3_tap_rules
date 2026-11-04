@@ -13,7 +13,7 @@ function normalize(r){
   return {...r,summary:r.summary||r.description||"",action:r.action||r.procedure||"",cat:r.cat||r.category||"",keys};
 }
 function esc(s){return String(s??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));}
-function textOf(r){return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...r.keys].join(" ").toLowerCase();}
+function textOf(r){const refs=Array.isArray(r.officialSubruleIds)?r.officialSubruleIds:[];return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...refs,...r.keys].join(" ").toLowerCase();}
 function draw(){
   const v=q.value.trim().toLowerCase();
   const om=document.getElementById("officialMatches");
