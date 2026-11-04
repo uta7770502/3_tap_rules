@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 410,
+    "cases": 411,
     "officialSubrules": 336,
-    "linked": 291,
-    "needsReview": 45
+    "linked": 292,
+    "needsReview": 44
   },
   "byRule": [
     {
@@ -135,8 +135,8 @@
     {
       "rule": 20,
       "total": 12,
-      "linked": 6,
-      "needsReview": 6
+      "linked": 7,
+      "needsReview": 5
     },
     {
       "rule": 21,
@@ -2003,7 +2003,7 @@
       "rule": 20,
       "id": "20.2c",
       "title": "ビデオ証拠と肉眼基準",
-      "caseIds": []
+      "caseIds": [411]
     },
     {
       "rule": 20,
