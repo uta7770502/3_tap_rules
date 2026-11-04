@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 424,
+    "cases": 426,
     "officialSubrules": 336,
-    "linked": 305,
-    "needsReview": 31
+    "linked": 307,
+    "needsReview": 29
   },
   "byRule": [
     {
@@ -147,8 +147,8 @@
     {
       "rule": 22,
       "total": 8,
-      "linked": 6,
-      "needsReview": 2
+      "linked": 8,
+      "needsReview": 0
     },
     {
       "rule": 23,
@@ -2331,13 +2331,17 @@
       "rule": 22,
       "id": "22.4a",
       "title": "最初にプレーするパートナー",
-      "caseIds": []
+      "caseIds": [
+        425
+      ]
     },
     {
       "rule": 22,
       "id": "22.4b",
       "title": "開始時間と開始場所",
-      "caseIds": []
+      "caseIds": [
+        426
+      ]
     },
     {
       "rule": 22,
