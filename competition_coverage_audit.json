@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 417,
+    "cases": 419,
     "officialSubrules": 336,
-    "linked": 298,
-    "needsReview": 38
+    "linked": 300,
+    "needsReview": 36
   },
   "byRule": [
     {
@@ -141,8 +141,8 @@
     {
       "rule": 21,
       "total": 23,
-      "linked": 16,
-      "needsReview": 7
+      "linked": 18,
+      "needsReview": 5
     },
     {
       "rule": 22,
@@ -2106,7 +2106,7 @@
       "rule": 21,
       "id": "21.2c",
       "title": "罰",
-      "caseIds": []
+      "caseIds": [418]
     },
     {
       "rule": 21,
@@ -2118,7 +2118,7 @@
       "rule": 21,
       "id": "21.2e",
       "title": "ラウンド終了時点",
-      "caseIds": []
+      "caseIds": [419]
     },
     {
       "rule": 21,
