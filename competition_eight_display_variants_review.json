@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-11-04",
+  "scope": "8 both-populated differing records in competition_rules.json",
+  "runtimeSource": "competition_rules.html normalize() prioritizes summary/action",
+  "results": [
+    {
+      "id": 11,
+      "rule": "14.3",
+      "summaryStatus": "same",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "救済を受けるときは、プレーヤー自身が膝の高さから正しく球をドロップする。",
+        "action": "救済エリアを決める→プレーヤー本人が膝の高さから、球が真下に落ちるようにドロップ→球が救済エリア内に止まったか確認。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    },
+    {
+      "id": 15,
+      "rule": "18.2",
+      "summaryStatus": "same",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "球がOBまたは3分以内に見つからず紛失した場合、原則はストロークと距離の救済。",
+        "action": "ストロークと距離の罰として1罰打を加え、直前のストロークを行った場所から球をプレー。暫定球があれば条件を確認。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    },
+    {
+      "id": 16,
+      "rule": "18.3",
+      "summaryStatus": "same",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "球がペナルティーエリア以外で紛失またはOBの可能性があるとき、時間短縮のため暫定球をプレーできる。",
+        "action": "ストローク前に誰かへ「暫定球」と明確に告げてからプレー。元球の状況により暫定球を放棄するかインプレーにする。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    },
+    {
+      "id": 64,
+      "rule": "14.3",
+      "summaryStatus": "same",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "現在の規則では正しい方法で膝の高さからドロップする。",
+        "action": "肩の高さからのドロップは正しい方法ではありません。ストローク前に球を拾い、膝の高さから正しくドロップし直します。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    },
+    {
+      "id": 65,
+      "rule": "14.3",
+      "summaryStatus": "same",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "正しくドロップしても球は救済エリア内に止まる必要がある。",
+        "action": "球が救済エリア外に止まったら2回目を正しくドロップ。2回目も外へ出た場合は、2回目のドロップで球が最初に地面へ触れた地点に球をプレースします。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    },
+    {
+      "id": 72,
+      "rule": "18.2a",
+      "summaryStatus": "same",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "球の捜索時間はプレーヤーまたはキャディーが捜索を開始してから3分。",
+        "action": "捜索を始めてから3分以内に見つからなければ紛失球。1罰打を加え、直前のストロークを行った場所からプレーする。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    },
+    {
+      "id": 105,
+      "rule": "22.3",
+      "summaryStatus": "legacy_more_specific_or_distinct",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "フォアサムでパートナーが誤った順番でストロークした場合、マッチプレーとストロークプレーでは処置が異なる。",
+        "action": "マッチプレーではそのホールの負け。ストロークプレーでは2罰打を加え、正しいパートナーが誤順の最初のストロークを行った場所から打ち直して訂正する。誤順で打ったストロークと、その後訂正までに行ったストロークはスコアに数えない。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    },
+    {
+      "id": 303,
+      "rule": "22.4",
+      "summaryStatus": "legacy_more_specific_or_distinct",
+      "actionStatus": "legacy_more_detailed",
+      "runtimeDisplayed": {
+        "summary": "フォアサムでは最初のホールのティーショット担当をサイドが選び、以後はホールごとに担当を交代する。競技の条件で指定がある場合はそれに従う。",
+        "action": "どちらが最初のホールでティーショットを打つか確認する。以後はホールごとに担当を交代し、誤順で打った場合は規則22.3の処置を行う。"
+      },
+      "decision": "retain_displayed_legacy_text",
+      "requiresOfficialVerification": true
+    }
+  ],
+  "conclusion": "All 8 already display the more detailed legacy text. Differences are not missing fields and blind synchronization would remove useful information. No text overwritten.",
+  "importantCaveat": "Rule 22.3 and 22.4 penalty and sequence descriptions require exact R&A verification before content can be certified.",
+  "officialVerificationStatus": "not_verified"
+}
