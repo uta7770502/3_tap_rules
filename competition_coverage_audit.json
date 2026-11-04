@@ -3,13 +3,14 @@
   "auditScope": "Exact Rule reference / explicit officialSubruleIds mapping only; not semantic equivalence or substantive legal validation",
   "sourceFiles": [
     "competition_rules.json",
-    "competition_official_index.json"
+    "competition_official_index.json",
+    "competition_reviewed_subrule_links.json"
   ],
   "counts": {
     "cases": 331,
     "officialSubrules": 336,
-    "linked": 173,
-    "needsReview": 163
+    "linked": 188,
+    "needsReview": 148
   },
   "byRule": [
     {
@@ -21,8 +22,8 @@
     {
       "rule": 2,
       "total": 7,
-      "linked": 6,
-      "needsReview": 1
+      "linked": 7,
+      "needsReview": 0
     },
     {
       "rule": 3,
@@ -39,8 +40,8 @@
     {
       "rule": 5,
       "total": 22,
-      "linked": 9,
-      "needsReview": 13
+      "linked": 11,
+      "needsReview": 11
     },
     {
       "rule": 6,
@@ -63,8 +64,8 @@
     {
       "rule": 9,
       "total": 17,
-      "linked": 8,
-      "needsReview": 9
+      "linked": 14,
+      "needsReview": 3
     },
     {
       "rule": 10,
@@ -93,8 +94,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 14,
-      "needsReview": 13
+      "linked": 17,
+      "needsReview": 10
     },
     {
       "rule": 15,
@@ -105,8 +106,8 @@
     {
       "rule": 16,
       "total": 14,
-      "linked": 9,
-      "needsReview": 5
+      "linked": 10,
+      "needsReview": 4
     },
     {
       "rule": 17,
@@ -117,14 +118,14 @@
     {
       "rule": 18,
       "total": 8,
-      "linked": 7,
-      "needsReview": 1
+      "linked": 8,
+      "needsReview": 0
     },
     {
       "rule": 19,
       "total": 8,
-      "linked": 5,
-      "needsReview": 3
+      "linked": 6,
+      "needsReview": 2
     },
     {
       "rule": 20,
@@ -266,7 +267,9 @@
       "rule": 2,
       "id": "2.2c",
       "title": "球があるコース区域の決定",
-      "caseIds": []
+      "caseIds": [
+        273
+      ]
     },
     {
       "rule": 2,
@@ -532,7 +535,9 @@
       "rule": 5,
       "id": "5.4b",
       "title": "ストロークプレー",
-      "caseIds": []
+      "caseIds": [
+        282
+      ]
     },
     {
       "rule": 5,
@@ -554,7 +559,9 @@
       "rule": 5,
       "id": "5.5b",
       "title": "ホール終了後の練習制限",
-      "caseIds": []
+      "caseIds": [
+        51
+      ]
     },
     {
       "rule": 5,
@@ -897,13 +904,17 @@
       "rule": 9,
       "id": "9.2a",
       "title": "球が動いたかの判定",
-      "caseIds": []
+      "caseIds": [
+        274
+      ]
     },
     {
       "rule": 9,
       "id": "9.2b",
       "title": "球が動いた原因の判定",
-      "caseIds": []
+      "caseIds": [
+        274
+      ]
     },
     {
       "rule": 9,
@@ -946,13 +957,17 @@
       "rule": 9,
       "id": "9.5a",
       "title": "リプレースが必要なとき",
-      "caseIds": []
+      "caseIds": [
+        275
+      ]
     },
     {
       "rule": 9,
       "id": "9.5b",
       "title": "拾い上げ・故意の接触・移動の罰",
-      "caseIds": []
+      "caseIds": [
+        275
+      ]
     },
     {
       "rule": 9,
@@ -974,13 +989,17 @@
       "rule": 9,
       "id": "9.7a",
       "title": "球・ボールマーカーのリプレース",
-      "caseIds": []
+      "caseIds": [
+        276
+      ]
     },
     {
       "rule": 9,
       "id": "9.7b",
       "title": "ボールマーカーを動かした罰",
-      "caseIds": []
+      "caseIds": [
+        276
+      ]
     },
     {
       "rule": 10,
@@ -1448,19 +1467,25 @@
       "rule": 14,
       "id": "14.6a",
       "title": "前のストロークがティーイングエリアから",
-      "caseIds": []
+      "caseIds": [
+        292
+      ]
     },
     {
       "rule": 14,
       "id": "14.6b",
       "title": "前のストロークがジェネラルエリア・ペナルティーエリア・バンカーから",
-      "caseIds": []
+      "caseIds": [
+        292
+      ]
     },
     {
       "rule": 14,
       "id": "14.6c",
       "title": "前のストロークがグリーンから",
-      "caseIds": []
+      "caseIds": [
+        292
+      ]
     },
     {
       "rule": 14,
@@ -1644,7 +1669,9 @@
       "rule": 16,
       "id": "16.3a",
       "title": "救済が認められる場合",
-      "caseIds": []
+      "caseIds": [
+        13
+      ]
     },
     {
       "rule": 16,
@@ -1760,7 +1787,9 @@
       "rule": 18,
       "id": "18.2b",
       "title": "紛失・OBの処置",
-      "caseIds": []
+      "caseIds": [
+        15
+      ]
     },
     {
       "rule": 18,
@@ -1845,7 +1874,9 @@
       "rule": 19,
       "id": "19.3a",
       "title": "通常の救済：1罰打",
-      "caseIds": []
+      "caseIds": [
+        74
+      ]
     },
     {
       "rule": 19,
