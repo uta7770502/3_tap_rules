@@ -254,7 +254,7 @@
     ],
     "noDisplayText": []
   },
-  "assessment": "48 extra-file cases have legacy fields only, so differences against absent canonical fields are not contradictions. 11 cases contain both sets with different text and require human/official-rule review.",
+  "assessment": "51 cases have legacy display fields only; absence of optional description/procedure is not a contradiction. 8 cases contain both sets with different text and require review.",
   "remainingTrueConflicts": 8,
   "notes": [
     "Both-populated different does not prove incorrectness.",
