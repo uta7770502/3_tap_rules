@@ -82,5 +82,31 @@
     "officialSubruleIds": [
       "20.1b"
     ]
+  },
+  {
+    "id": 416,
+    "rule": "21.1d",
+    "cat": "競技ルール",
+    "title": "ステーブルフォード：規則11.2の例外",
+    "summary": "1点を得るためにホールインが必要な動いている球が、ホールインする合理的な可能性がないときに故意に止められた場合、止めた人への罰はなくプレーヤーはそのホール0点となる。",
+    "action": "ホールインの合理的な可能性と、得点条件を確認する。",
+    "penalty": "規則11.2の罰なし。そのホール0点。",
+    "officialSubruleIds": [
+      "21.1d"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+  },
+  {
+    "id": 417,
+    "rule": "21.1e",
+    "cat": "競技ルール",
+    "title": "ステーブルフォード：ラウンドの終了",
+    "summary": "最終ホールでホールアウトしたとき、ホールアウトしないことを選んだとき、またはそのホールで0点より多く得られなくなったときにラウンドが終了する。",
+    "action": "最終ホールでのホールアウトまたは得点確定を確認する。",
+    "penalty": "この項目自体に独立した罰はない。",
+    "officialSubruleIds": [
+      "21.1e"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   }
 ]
