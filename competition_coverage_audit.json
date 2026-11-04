@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 404,
+    "cases": 405,
     "officialSubrules": 336,
-    "linked": 285,
-    "needsReview": 51
+    "linked": 286,
+    "needsReview": 50
   },
   "byRule": [
     {
@@ -99,8 +99,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 23,
-      "needsReview": 4
+      "linked": 24,
+      "needsReview": 3
     },
     {
       "rule": 15,
@@ -1422,7 +1422,7 @@
       "rule": 14,
       "id": "14.2d",
       "title": "元のライが変わった場合",
-      "caseIds": []
+      "caseIds": [405]
     },
     {
       "rule": 14,
