@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 408,
+    "cases": 410,
     "officialSubrules": 336,
-    "linked": 289,
-    "needsReview": 47
+    "linked": 291,
+    "needsReview": 45
   },
   "byRule": [
     {
@@ -135,8 +135,8 @@
     {
       "rule": 20,
       "total": 12,
-      "linked": 4,
-      "needsReview": 8
+      "linked": 6,
+      "needsReview": 6
     },
     {
       "rule": 21,
@@ -1991,13 +1991,13 @@
       "rule": 20,
       "id": "20.2a",
       "title": "レフェリーによる裁定",
-      "caseIds": []
+      "caseIds": [409]
     },
     {
       "rule": 20,
       "id": "20.2b",
       "title": "委員会による裁定",
-      "caseIds": []
+      "caseIds": [410]
     },
     {
       "rule": 20,
