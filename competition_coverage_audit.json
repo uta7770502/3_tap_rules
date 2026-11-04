@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 396,
+    "cases": 398,
     "officialSubrules": 336,
-    "linked": 277,
-    "needsReview": 59
+    "linked": 279,
+    "needsReview": 57
   },
   "byRule": [
     {
@@ -99,8 +99,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 22,
-      "needsReview": 5
+      "linked": 23,
+      "needsReview": 4
     },
     {
       "rule": 15,
@@ -117,8 +117,8 @@
     {
       "rule": 17,
       "total": 10,
-      "linked": 5,
-      "needsReview": 5
+      "linked": 6,
+      "needsReview": 4
     },
     {
       "rule": 18,
@@ -1400,7 +1400,7 @@
       "rule": 14,
       "id": "14.2a",
       "title": "元の球の使用",
-      "caseIds": []
+      "caseIds": [397]
     },
     {
       "rule": 14,
@@ -1767,7 +1767,7 @@
       "rule": 17,
       "id": "17.1b",
       "title": "そのままプレーまたは罰あり救済",
-      "caseIds": []
+      "caseIds": [398]
     },
     {
       "rule": 17,
