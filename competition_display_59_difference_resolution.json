@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-11-04",
+  "scope": "442 loaded cases",
+  "runtimeFallback": "summary||description and action||procedure",
+  "groups": {
+    "onlyLegacyFields": [
+      {
+        "id": 409,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 410,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 411,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 412,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 413,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 414,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 415,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 416,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 417,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 418,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 419,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 420,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 421,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 422,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 423,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 424,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 425,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 426,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 427,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 428,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 429,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 430,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 431,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 432,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 433,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 434,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 435,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 436,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 437,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 438,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 439,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 440,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 441,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 442,
+        "path": "competition_rules_extra_20.json"
+      },
+      {
+        "id": 395,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 396,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 397,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 398,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 399,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 400,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 401,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 402,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 403,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 404,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 405,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 406,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 407,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 408,
+        "path": "competition_rules_extra_13_17.json"
+      },
+      {
+        "id": 332,
+        "path": "competition_rule25_verified_cases.json"
+      },
+      {
+        "id": 333,
+        "path": "competition_rule25_verified_cases.json"
+      },
+      {
+        "id": 334,
+        "path": "competition_rule25_verified_cases.json"
+      }
+    ],
+    "onlyCanonicalFields": [],
+    "bothPopulatedDifferent": [
+      {
+        "id": 11,
+        "path": "competition_rules.json",
+        "rule": "14.3"
+      },
+      {
+        "id": 15,
+        "path": "competition_rules.json",
+        "rule": "18.2"
+      },
+      {
+        "id": 16,
+        "path": "competition_rules.json",
+        "rule": "18.3"
+      },
+      {
+        "id": 64,
+        "path": "competition_rules.json",
+        "rule": "14.3"
+      },
+      {
+        "id": 65,
+        "path": "competition_rules.json",
+        "rule": "14.3"
+      },
+      {
+        "id": 72,
+        "path": "competition_rules.json",
+        "rule": "18.2a"
+      },
+      {
+        "id": 105,
+        "path": "competition_rules.json",
+        "rule": "22.3"
+      },
+      {
+        "id": 303,
+        "path": "competition_rules.json",
+        "rule": "22.4"
+      }
+    ],
+    "noDisplayText": []
+  },
+  "assessment": "48 extra-file cases have legacy fields only, so differences against absent canonical fields are not contradictions. 11 cases contain both sets with different text and require human/official-rule review.",
+  "remainingTrueConflicts": 8,
+  "notes": [
+    "Both-populated different does not prove incorrectness.",
+    "Do not auto-overwrite any existing populated text.",
+    "Runtime uses legacy fields first."
+  ]
+}
