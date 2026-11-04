@@ -1,0 +1,3987 @@
+{
+  "schemaVersion": 1,
+  "policy": "Only mark verified after checking the official R&A/USGA rule text for all of summary, action, penalty and exceptions. Editing a case does not constitute verification.",
+  "total": 442,
+  "verified": 0,
+  "pending": 442,
+  "cases": [
+    {
+      "id": 1,
+      "rule": "1.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "rule": "3.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "rule": "4.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "rule": "4.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "rule": "5.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "rule": "6.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "rule": "7.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "rule": "9.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "rule": "10.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "rule": "11.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "rule": "14.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "rule": "16.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "rule": "16.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "rule": "17.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "rule": "18.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "rule": "18.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "rule": "19.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "rule": "20.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "rule": "20.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "rule": "21",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "rule": "25",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "rule": "1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "rule": "2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "rule": "3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "rule": "4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "rule": "5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "rule": "6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "rule": "7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "rule": "8",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "rule": "9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "rule": "10",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "rule": "11",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "rule": "12",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "rule": "13",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "rule": "14",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "rule": "15",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "rule": "16",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "rule": "17",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "rule": "18",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "rule": "19",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "rule": "20",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "rule": "21",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 43,
+      "rule": "22",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 44,
+      "rule": "23",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 45,
+      "rule": "24",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 46,
+      "rule": "25",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 47,
+      "rule": "3.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 48,
+      "rule": "3.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 49,
+      "rule": "3.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 50,
+      "rule": "5.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 51,
+      "rule": "5.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 52,
+      "rule": "6.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 53,
+      "rule": "6.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 54,
+      "rule": "8.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 55,
+      "rule": "10.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 56,
+      "rule": "10.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 57,
+      "rule": "10.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 58,
+      "rule": "10.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 59,
+      "rule": "12.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 60,
+      "rule": "13.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 61,
+      "rule": "13.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 62,
+      "rule": "14.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 63,
+      "rule": "14.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 64,
+      "rule": "14.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 65,
+      "rule": "14.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 66,
+      "rule": "14.7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 67,
+      "rule": "15.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 68,
+      "rule": "15.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 69,
+      "rule": "16.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 70,
+      "rule": "17.1d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 71,
+      "rule": "17.1d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 72,
+      "rule": "18.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 73,
+      "rule": "18.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 74,
+      "rule": "19.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 75,
+      "rule": "20.1c(3)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 76,
+      "rule": "1.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 77,
+      "rule": "1.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 78,
+      "rule": "2.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 79,
+      "rule": "2.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 80,
+      "rule": "4.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 81,
+      "rule": "4.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 82,
+      "rule": "4.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 83,
+      "rule": "5.6a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 84,
+      "rule": "5.7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 85,
+      "rule": "6.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 86,
+      "rule": "6.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 87,
+      "rule": "7.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 88,
+      "rule": "8.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 89,
+      "rule": "9.6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 90,
+      "rule": "10.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 91,
+      "rule": "11.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 92,
+      "rule": "12.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 93,
+      "rule": "13.1d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 94,
+      "rule": "13.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 95,
+      "rule": "14.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 96,
+      "rule": "14.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 97,
+      "rule": "15.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 98,
+      "rule": "16.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 99,
+      "rule": "17.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 100,
+      "rule": "18.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 101,
+      "rule": "19.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 102,
+      "rule": "21.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 103,
+      "rule": "21.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 104,
+      "rule": "21.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 105,
+      "rule": "22.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 106,
+      "rule": "23.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 107,
+      "rule": "23.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 108,
+      "rule": "24.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 109,
+      "rule": "25.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 110,
+      "rule": "25.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 111,
+      "rule": "25.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 112,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 113,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 114,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 115,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 116,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 117,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 118,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 119,
+      "rule": "定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 120,
+      "rule": "MLR A-4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 121,
+      "rule": "MLR A-5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 122,
+      "rule": "MLR E-5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 123,
+      "rule": "MLR E-14",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 124,
+      "rule": "MLR F-2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 125,
+      "rule": "MLR F-5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 126,
+      "rule": "MLR G-6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 127,
+      "rule": "MLR G-9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 128,
+      "rule": "MLR G-11",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 129,
+      "rule": "委員会5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 130,
+      "rule": "委員会6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 131,
+      "rule": "委員会7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 132,
+      "rule": "委員会8",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 133,
+      "rule": "委員会9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 134,
+      "rule": "4.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 135,
+      "rule": "4.2c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 136,
+      "rule": "6.1b(2)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 137,
+      "rule": "6.1b(1)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 138,
+      "rule": "6.2b(6)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 139,
+      "rule": "6.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 140,
+      "rule": "6.4b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 141,
+      "rule": "6.4a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 142,
+      "rule": "6.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 143,
+      "rule": "4.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 144,
+      "rule": "4.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 145,
+      "rule": "7.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 146,
+      "rule": "9.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 147,
+      "rule": "9.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 148,
+      "rule": "13.1d(2)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 149,
+      "rule": "12.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 150,
+      "rule": "13.1d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 151,
+      "rule": "11.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 152,
+      "rule": "14.7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 153,
+      "rule": "20.1c(3)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 154,
+      "rule": "10.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 155,
+      "rule": "10.1d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 156,
+      "rule": "10.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 157,
+      "rule": "10.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 158,
+      "rule": "10.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 159,
+      "rule": "10.1d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 160,
+      "rule": "10.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 161,
+      "rule": "10.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 162,
+      "rule": "10.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 163,
+      "rule": "10.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 164,
+      "rule": "10.2b / 8.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 165,
+      "rule": "10.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 166,
+      "rule": "10.1a / 18.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 167,
+      "rule": "10.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 168,
+      "rule": "10.1b / 4.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 169,
+      "rule": "11.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 170,
+      "rule": "11.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 171,
+      "rule": "11.1b(2)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 172,
+      "rule": "11.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 173,
+      "rule": "11.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 174,
+      "rule": "14.3d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 175,
+      "rule": "14.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 176,
+      "rule": "14.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 177,
+      "rule": "14.2e",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 178,
+      "rule": "14.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 179,
+      "rule": "14.3b(4) / 14.7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 180,
+      "rule": "15.1b / 9.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 181,
+      "rule": "15.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 182,
+      "rule": "15.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 183,
+      "rule": "16.1 / 定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 184,
+      "rule": "16.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 185,
+      "rule": "16.3 / MLR F-2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 186,
+      "rule": "17 / 9.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 187,
+      "rule": "17.1d / MLR B-2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 188,
+      "rule": "18.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 189,
+      "rule": "18.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 190,
+      "rule": "18.2 / 7.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 191,
+      "rule": "19.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 192,
+      "rule": "19.2c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 193,
+      "rule": "19.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 194,
+      "rule": "3.2d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 195,
+      "rule": "3.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 196,
+      "rule": "3.2b / 9.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 197,
+      "rule": "23.6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 198,
+      "rule": "23.9a(2) / 6.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 199,
+      "rule": "23.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 200,
+      "rule": "22.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 201,
+      "rule": "22.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 202,
+      "rule": "21.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 203,
+      "rule": "21.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 204,
+      "rule": "21.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 205,
+      "rule": "25",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 206,
+      "rule": "25.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 207,
+      "rule": "25.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 208,
+      "rule": "定義：アウトオブバウンズ",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 209,
+      "rule": "定義：ペナルティーエリア",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 210,
+      "rule": "定義：救済エリア",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 211,
+      "rule": "定義：境界物 / 8.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 212,
+      "rule": "4.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 213,
+      "rule": "4.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 214,
+      "rule": "4.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 215,
+      "rule": "MLR E-5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 216,
+      "rule": "2.4 / 16.1f",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 217,
+      "rule": "定義：ホールに入る",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 218,
+      "rule": "定義：クラブレングス / Clarification Club-Length/1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 219,
+      "rule": "定義：アドバイス",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 220,
+      "rule": "定義：ストローク",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 221,
+      "rule": "定義：ストローク",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 222,
+      "rule": "定義：プレー禁止区域 / 16.1f",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 223,
+      "rule": "20.1b(2)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 224,
+      "rule": "20.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 225,
+      "rule": "20.1c(3)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 226,
+      "rule": "21.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 227,
+      "rule": "21.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 228,
+      "rule": "22.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 229,
+      "rule": "23.9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 230,
+      "rule": "24.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 231,
+      "rule": "MLR A-4.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 232,
+      "rule": "MLR E-14",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 233,
+      "rule": "MLR G-6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 234,
+      "rule": "MLR G-9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 235,
+      "rule": "MLR G-9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 236,
+      "rule": "MLR F-2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 237,
+      "rule": "4.3 / 規則資料",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 238,
+      "rule": "13.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 239,
+      "rule": "13.2c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 240,
+      "rule": "12.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 241,
+      "rule": "7.1 / 8.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 242,
+      "rule": "7.3 / 9.6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 243,
+      "rule": "14.1 / 14.7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 244,
+      "rule": "14.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 245,
+      "rule": "14.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 246,
+      "rule": "14.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 247,
+      "rule": "14.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 248,
+      "rule": "13.1 / 8.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 249,
+      "rule": "13.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 250,
+      "rule": "8.1 / 定義",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 251,
+      "rule": "13.1c(2)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 252,
+      "rule": "13.1e",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 253,
+      "rule": "16.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 254,
+      "rule": "16.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 255,
+      "rule": "16.1a(3)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 256,
+      "rule": "6.2b(5)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 257,
+      "rule": "16.1e",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 258,
+      "rule": "16.1e",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 259,
+      "rule": "Clarification 5.2b/3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 260,
+      "rule": "Committee Procedure 5A(5)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 261,
+      "rule": "MLR A-4.1/A-4.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 262,
+      "rule": "MLR G-9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 263,
+      "rule": "MLR M-4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 264,
+      "rule": "8.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 265,
+      "rule": "8.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 266,
+      "rule": "8.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 267,
+      "rule": "8.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 268,
+      "rule": "24.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 269,
+      "rule": "24.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 270,
+      "rule": "24.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 271,
+      "rule": "1.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 272,
+      "rule": "1.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 273,
+      "rule": "2.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 274,
+      "rule": "9.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 275,
+      "rule": "9.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 276,
+      "rule": "9.7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 277,
+      "rule": "12.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 278,
+      "rule": "12.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 279,
+      "rule": "12.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 280,
+      "rule": "3.3b(2)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 281,
+      "rule": "3.3b(3)",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 282,
+      "rule": "5.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 283,
+      "rule": "5.5a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 284,
+      "rule": "5.6b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 285,
+      "rule": "6.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 286,
+      "rule": "7.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 287,
+      "rule": "7.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 288,
+      "rule": "10.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 289,
+      "rule": "11.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 290,
+      "rule": "13.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 291,
+      "rule": "13.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 292,
+      "rule": "14.6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 293,
+      "rule": "15.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 294,
+      "rule": "16.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 295,
+      "rule": "16.1d",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 296,
+      "rule": "17.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 297,
+      "rule": "18.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 298,
+      "rule": "19.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 299,
+      "rule": "20.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 300,
+      "rule": "21.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 301,
+      "rule": "21.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 302,
+      "rule": "22.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 303,
+      "rule": "22.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 304,
+      "rule": "22.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 305,
+      "rule": "22.6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 306,
+      "rule": "23.2b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 307,
+      "rule": "23.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 308,
+      "rule": "23.6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 309,
+      "rule": "23.7",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 310,
+      "rule": "23.8",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 311,
+      "rule": "23.9",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 312,
+      "rule": "24.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 313,
+      "rule": "25.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 314,
+      "rule": "25.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 315,
+      "rule": "25.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 316,
+      "rule": "25.4",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 317,
+      "rule": "25.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 318,
+      "rule": "25.6",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 319,
+      "rule": "3.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 320,
+      "rule": "9.1a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 321,
+      "rule": "17.3",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 322,
+      "rule": "22.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 323,
+      "rule": "3.1c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 324,
+      "rule": "5.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 325,
+      "rule": "6.5",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 326,
+      "rule": "23.1",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 327,
+      "rule": "3.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 328,
+      "rule": "9.1b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 329,
+      "rule": "23.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 330,
+      "rule": "23.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 331,
+      "rule": "23.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 332,
+      "rule": "25.2b",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 333,
+      "rule": "25.4m",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 334,
+      "rule": "25.4n",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 335,
+      "rule": "25.2f",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 336,
+      "rule": "25.2g",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 337,
+      "rule": "25.3b",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 338,
+      "rule": "25.4g",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 339,
+      "rule": "25.5d",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 340,
+      "rule": "25.2a",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 341,
+      "rule": "25.2h",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 342,
+      "rule": "25.3a",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 343,
+      "rule": "25.4c",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 344,
+      "rule": "25.5b",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 345,
+      "rule": "25.2c",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 346,
+      "rule": "25.2d",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 347,
+      "rule": "25.3c",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 348,
+      "rule": "25.3d",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 349,
+      "rule": "25.4d",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 350,
+      "rule": "25.4e",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 351,
+      "rule": "25.4k",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 352,
+      "rule": "25.4l",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 353,
+      "rule": "25.2e",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 354,
+      "rule": "25.4a",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 355,
+      "rule": "25.4b",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 356,
+      "rule": "25.4f",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 357,
+      "rule": "25.4h",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 358,
+      "rule": "25.4i",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 359,
+      "rule": "25.4j",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 360,
+      "rule": "25.5a",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 361,
+      "rule": "25.5c",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 362,
+      "rule": "25.5e",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 363,
+      "rule": "25.6a",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 364,
+      "rule": "25.6b",
+      "file": "competition_rule25_verified_cases.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 365,
+      "rule": "1.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 366,
+      "rule": "1.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 367,
+      "rule": "3.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 368,
+      "rule": "3.2c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 369,
+      "rule": "3.3a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 370,
+      "rule": "3.3c",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 371,
+      "rule": "4.2",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 372,
+      "rule": "4.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 373,
+      "rule": "5.2a",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 374,
+      "rule": "5.3b",
+      "file": "competition_rules.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 375,
+      "rule": "5.7b",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 376,
+      "rule": "6.1a",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 377,
+      "rule": "6.3d",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 378,
+      "rule": "7.1b",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 379,
+      "rule": "10.3a",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 380,
+      "rule": "5.7c",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 381,
+      "rule": "5.7d",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 382,
+      "rule": "6.2a",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 383,
+      "rule": "10.3b",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 384,
+      "rule": "10.3c",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 385,
+      "rule": "5.4a",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 386,
+      "rule": "5.5c",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 387,
+      "rule": "6.4c",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 388,
+      "rule": "8.2b",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 389,
+      "rule": "9.1",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 390,
+      "rule": "6.4d",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 391,
+      "rule": "13.1f",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 392,
+      "rule": "14.1b",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 393,
+      "rule": "15.1a",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 394,
+      "rule": "16.2b",
+      "file": "competition_rules_extra_5_10.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 395,
+      "rule": "13.1a",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 396,
+      "rule": "14.3a",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 397,
+      "rule": "14.2a",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 398,
+      "rule": "17.1b",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 399,
+      "rule": "16.1a",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 400,
+      "rule": "16.3b",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 401,
+      "rule": "17.1a",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 402,
+      "rule": "13.2b",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 403,
+      "rule": "15.3a",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 404,
+      "rule": "15.3c",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 405,
+      "rule": "14.2d",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 406,
+      "rule": "14.7b",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 407,
+      "rule": "14.5b",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 408,
+      "rule": "14.5c",
+      "file": "competition_rules_extra_13_17.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 409,
+      "rule": "20.2a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 410,
+      "rule": "20.2b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 411,
+      "rule": "20.2c",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 412,
+      "rule": "20.2d",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 413,
+      "rule": "20.2e",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 414,
+      "rule": "20.2f",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 415,
+      "rule": "20.1b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 416,
+      "rule": "21.1d",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 417,
+      "rule": "21.1e",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 418,
+      "rule": "21.2c",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 419,
+      "rule": "21.2e",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 420,
+      "rule": "21.2d",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 421,
+      "rule": "21.3e",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 422,
+      "rule": "21.3d",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 423,
+      "rule": "21.4b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 424,
+      "rule": "21.4c",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 425,
+      "rule": "22.4a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 426,
+      "rule": "22.4b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 427,
+      "rule": "23.2a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 428,
+      "rule": "23.5a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 429,
+      "rule": "23.2c",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 430,
+      "rule": "23.5b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 431,
+      "rule": "23.9a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 432,
+      "rule": "23.9b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 433,
+      "rule": "24.4a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 434,
+      "rule": "24.4b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 435,
+      "rule": "24.4c",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 436,
+      "rule": "17.1e",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 437,
+      "rule": "13.3b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 438,
+      "rule": "17.2a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 439,
+      "rule": "17.2b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 440,
+      "rule": "11.2b",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 441,
+      "rule": "11.2c",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 442,
+      "rule": "8.2a",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    }
+  ]
+}
