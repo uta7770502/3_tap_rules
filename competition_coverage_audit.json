@@ -8,21 +8,21 @@
   "counts": {
     "cases": 331,
     "officialSubrules": 336,
-    "linked": 170,
-    "needsReview": 166
+    "linked": 173,
+    "needsReview": 163
   },
   "byRule": [
     {
       "rule": 1,
       "total": 8,
-      "linked": 5,
-      "needsReview": 3
+      "linked": 6,
+      "needsReview": 2
     },
     {
       "rule": 2,
       "total": 7,
-      "linked": 4,
-      "needsReview": 3
+      "linked": 6,
+      "needsReview": 1
     },
     {
       "rule": 3,
@@ -186,7 +186,9 @@
       "rule": 1,
       "id": "1.2a",
       "title": "全競技者に期待される行動",
-      "caseIds": []
+      "caseIds": [
+        76
+      ]
     },
     {
       "rule": 1,
@@ -248,13 +250,17 @@
       "rule": 2,
       "id": "2.2a",
       "title": "ジェネラルエリア",
-      "caseIds": []
+      "caseIds": [
+        273
+      ]
     },
     {
       "rule": 2,
       "id": "2.2b",
       "title": "4つの特定区域",
-      "caseIds": []
+      "caseIds": [
+        273
+      ]
     },
     {
       "rule": 2,
