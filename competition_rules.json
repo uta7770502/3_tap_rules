@@ -2877,7 +2877,9 @@
     "officialSubruleIds": [
       "4.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "球がストローク後に複数の破片に分かれた場合の特別処置です。",
+    "action": "罰なし。そのストロークはカウントせず、直前のストロークを行った場所から別の適合球をプレーします。"
   },
   {
     "id": 135,
@@ -2891,7 +2893,9 @@
     "officialSubruleIds": [
       "4.2c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "擦り傷、こすれ、塗装の傷、変色、変形だけではこの規則による交換理由になりません。",
+    "action": "直前のストローク中に損傷したと合理的に考えられるとき、球の位置をマークして拾い上げ確認。切れ・ひびが確認できれば別の適合球に取り替えます。"
   },
   {
     "id": 136,
@@ -2905,7 +2909,9 @@
     "officialSubruleIds": [
       "6.1b(2)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "次のホールを始める前（最終ホールはスコアカード提出前）に訂正が必要です。",
+    "action": "一般の罰2打を加え、正しいティーイングエリアから打ち直して誤りを訂正します。間違った場所からのストロークと、その球で訂正前に行ったストロークはカウントしません。"
   },
   {
     "id": 137,
@@ -2919,7 +2925,9 @@
     "officialSubruleIds": [
       "6.1b(1)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "相手が取り消さなければ、そのストロークはカウントし球はインプレーです。",
+    "action": "罰はありませんが、相手はそのストロークを速やかに取り消せます。取り消されたら正しいティーイングエリアからプレーします。"
   },
   {
     "id": 138,
@@ -2933,7 +2941,9 @@
     "officialSubruleIds": [
       "6.2b(6)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "ティーイングエリア内に球があることを確認します。",
+    "action": "空振りもストロークなので球はインプレーですが、球がまだティーイングエリア内にあれば罰なしで拾い上げ、動かし、再ティーアップできます。"
   },
   {
     "id": 139,
@@ -2947,7 +2957,9 @@
     "officialSubruleIds": [
       "6.3c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "次のホール開始前（最終ホールはスコアカード提出前）に訂正します。",
+    "action": "2罰打を加え、正しい自分の球でプレーを続けて誤りを訂正します。誤球へのストロークはスコアに数えません。"
   },
   {
     "id": 140,
@@ -2961,7 +2973,9 @@
     "officialSubruleIds": [
       "6.4b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "他のプレーヤーを有利にするため故意に順番を変える合意などは別問題です。",
+    "action": "通常は罰なしで、そのストロークはそのままカウントします。安全で責任あるレディーゴルフも認められます。"
   },
   {
     "id": 141,
@@ -2975,7 +2989,9 @@
     "officialSubruleIds": [
       "6.4a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "取消しがなければそのストロークはカウントします。",
+    "action": "罰はありませんが、相手は順番を間違えて行ったストロークを速やかに取り消せます。"
   },
   {
     "id": 142,
@@ -2989,7 +3005,9 @@
     "officialSubruleIds": [
       "6.3a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "ワンボール条件が競技条件で採用されている場合はその条件も確認します。",
+    "action": "ホールとホールの間なら適合球へ交換できます。ホールの途中は、規則で球の取り替えが認められる場合を除き、原則同じ球でホールアウトします。"
   },
   {
     "id": 143,
@@ -3003,7 +3021,9 @@
     "officialSubruleIds": [
       "4.1b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "14本制限とクラブ共有の規則を確認します。",
+    "action": "他のプレーヤーがコース上でプレーするために使用しているクラブを借りてストロークすることはできません。クラブ共有が認められるパートナー形式などは条件を確認します。"
   },
   {
     "id": 144,
@@ -3017,7 +3037,9 @@
     "officialSubruleIds": [
       "4.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "故意か偶発か、交換したか、使用を続けたかを確認します。",
+    "action": "ラウンド中に損傷したクラブの扱いは損傷原因で変わります。乱暴な扱い・故意の損傷では、通常のプレー中の偶発的損傷と同じ交換扱いにならない場合があります。"
   },
   {
     "id": 145,
@@ -3031,7 +3053,9 @@
     "officialSubruleIds": [
       "7.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7",
+    "summary": "元の箇所が分からなければ推定してリプレースします。",
+    "action": "球を見つけたり確認するための合理的な捜索中に偶然動かしても罰はありません。球を元の箇所にリプレースします。"
   },
   {
     "id": 146,
@@ -3045,7 +3069,9 @@
     "officialSubruleIds": [
       "9.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
+    "summary": "いつ・なぜ動いたかを確認します。",
+    "action": "プレーヤー側が球を動かした場合の規則を確認します。捜索中など例外に当たるかで罰の有無が変わります。原則として球は元の箇所にリプレースします。"
   },
   {
     "id": 147,
@@ -3059,7 +3085,9 @@
     "officialSubruleIds": [
       "9.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
+    "summary": "パッティンググリーン上で一度拾い上げてリプレースした球は扱いが異なります。",
+    "action": "自然の力で球が動いた場合、原則として罰なしで新しい場所からプレーします。"
   },
   {
     "id": 148,
@@ -3073,7 +3101,9 @@
     "officialSubruleIds": [
       "13.1d(2)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "まだ拾い上げてリプレースしていない球なら扱いが異なります。",
+    "action": "パッティンググリーン上で拾い上げてリプレースした球が自然の力で動いた場合は、元の箇所にリプレースします。"
   },
   {
     "id": 149,
@@ -3087,7 +3117,9 @@
     "officialSubruleIds": [
       "12.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12",
+    "summary": "いつ・どこで・何の目的で砂に触れたかが重要です。",
+    "action": "単に砂に触れたというだけで常に罰ではありません。球の状態をテストする、球の直前直後にクラブを接地する、バックスイングで砂に触れるなど禁止行為かを確認します。"
   },
   {
     "id": 150,
@@ -3101,7 +3133,9 @@
     "officialSubruleIds": [
       "13.1d"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "故意に動かした場合などは別扱いです。",
+    "action": "パッティンググリーン上でプレーヤー、相手、キャディー等が偶然球やボールマーカーを動かした場合は罰なし。元の箇所にリプレースします。"
   },
   {
     "id": 151,
@@ -3115,7 +3149,9 @@
     "officialSubruleIds": [
       "11.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11",
+    "summary": "誰のカートか、球をどこから打ったかを確認します。",
+    "action": "動いている球が人・動物・用具などに偶然当たった場合は、原則罰なしで結果を受け入れます。ただしグリーン上からプレーした球が特定の対象に当たる場合など例外があります。"
   },
   {
     "id": 152,
@@ -3129,7 +3165,9 @@
     "officialSubruleIds": [
       "14.7"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "正しい救済エリアと実際に打った場所の距離・有利さを確認します。",
+    "action": "誤所からプレーした場合は一般の罰。ストロークプレーで重大な違反の可能性がある場合は、次のホール開始前に訂正が必要になることがあります。"
   },
   {
     "id": 153,
@@ -3143,7 +3181,9 @@
     "officialSubruleIds": [
       "20.1c(3)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20",
+    "summary": "2球をプレーする前または直後に、どちらの球を採用したいか表明する手順などを確認します。",
+    "action": "ストロークプレーでは、処置に迷ったとき一定の手順で2球をプレーしてホールを終え、スコアカード提出前に委員会へ報告できます。"
   },
   {
     "id": 154,
@@ -3157,7 +3197,9 @@
     "officialSubruleIds": [
       "10.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "同じ1回のストローク中にクラブが偶然2回以上球に当たったケースです。",
+    "action": "追加の罰はありません。1回のストロークとして数え、球は止まった場所からプレーします。"
   },
   {
     "id": 155,
@@ -3171,7 +3213,9 @@
     "officialSubruleIds": [
       "10.1d"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "動いている球に対して、故意に別のストロークを行った場合。1回のストローク中の偶然の複数接触とは区別します。",
+    "action": "規則10.1dの例外に該当しなければ、ストロークプレーではそのストロークを数えて2罰打。マッチプレーでは一般の罰（そのホールの負け）。動いている水中の球などの例外を確認します。"
   },
   {
     "id": 156,
@@ -3185,7 +3229,9 @@
     "officialSubruleIds": [
       "10.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "通常のストロークか、押し出し等だったかを確認します。",
+    "action": "球はクラブヘッドで正しく打つ必要があり、押す・掻き寄せる・すくい上げる方法は認められません。"
   },
   {
     "id": 157,
@@ -3199,7 +3245,9 @@
     "officialSubruleIds": [
       "10.1b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "単に衣服へ偶然触れるだけとは区別します。",
+    "action": "クラブや握っている手を体に直接固定したり、前腕を使ってアンカーポイントを作る方法は認められません。"
   },
   {
     "id": 158,
@@ -3213,7 +3261,9 @@
     "officialSubruleIds": [
       "10.1c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "偶然そのスタンスになった場合など例外を確認します。",
+    "action": "故意にプレーの線やその後方延長線を跨ぐ、または足で触れるスタンスからストロークすることは原則認められません。"
   },
   {
     "id": 159,
@@ -3227,7 +3277,9 @@
     "officialSubruleIds": [
       "10.1d"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "球がなぜ動いていたか、どこにあったかを確認します。",
+    "action": "原則、動いている球にストロークしてはいけません。水中で動いている球など規則上の例外があります。"
   },
   {
     "id": 160,
@@ -3241,7 +3293,9 @@
     "officialSubruleIds": [
       "10.2a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "自分から求めたか、継続して聞いていたかを確認します。",
+    "action": "求めていないアドバイスを一度聞かされただけなら罰はありません。同じ人が継続する場合は止めさせようとする必要があります。"
   },
   {
     "id": 161,
@@ -3255,7 +3309,9 @@
     "officialSubruleIds": [
       "10.2a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "相手がパートナーか、共有キャディーかも確認します。",
+    "action": "ラウンド中、競技相手にクラブ選択などのアドバイスを求めることは原則認められません。公開情報や距離などは別です。"
   },
   {
     "id": 162,
@@ -3269,7 +3325,9 @@
     "officialSubruleIds": [
       "10.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "通常のストロークに使うこと自体とは別問題です。",
+    "action": "適合する自立式パターでも、立てた状態をアラインメントやスタンスの援助として使うことは認められません。"
   },
   {
     "id": 163,
@@ -3283,7 +3341,9 @@
     "officialSubruleIds": [
       "10.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "いつから立っていたか、プレーヤーがスタンスを取り始めたかを確認します。",
+    "action": "キャディーがプレーの線の後方延長線上やその近くに故意に立って、スタンスの援助をすることには制限があります。"
   },
   {
     "id": 164,
@@ -3298,7 +3358,9 @@
       "10.2b",
       "8.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "物をコース側に置いたのか、身体に着用したのかを確認します。",
+    "action": "ストローク条件を改善するためサボテン等にタオルを掛けるのは認められません。一方、身体にタオル等を巻いて自分を保護することは可能です。"
   },
   {
     "id": 165,
@@ -3312,7 +3374,9 @@
     "officialSubruleIds": [
       "10.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "押す・掻く・すくう動作でないことが前提です。",
+    "action": "正しくストロークしている限り、球とクラブヘッドの間に草など他の物質が介在しても、それだけで違反にはなりません。"
   },
   {
     "id": 166,
@@ -3327,7 +3391,9 @@
       "10.1a",
       "18.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "球そのものがOBかどうかをまず確認します。",
+    "action": "球がコース内にあり、球を正しく打つ限り、プレーヤー自身がOB側に立ってストロークすることは可能です。境界物を動かすことは別途制限されます。"
   },
   {
     "id": 167,
@@ -3341,7 +3407,9 @@
     "officialSubruleIds": [
       "10.1b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "故意に衣服を体へ固定して支点にしていないかを確認します。",
+    "action": "ゆったりした雨具などにクラブや手が偶然触れるだけなら、アンカリング違反にはなりません。"
   },
   {
     "id": 168,
@@ -3356,7 +3424,9 @@
       "10.1b",
       "4.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "偶然の衣服接触とは区別します。",
+    "action": "衣服を意図的に利用してクラブや手を固定したり、ストロークを助ける目的で通常と異なる使い方をすることは認められません。"
   },
   {
     "id": 169,
@@ -3370,7 +3440,9 @@
     "officialSubruleIds": [
       "11.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11",
+    "summary": "偶然にプレーヤー本人、キャディー、用具などへ当たった場合。",
+    "action": "原則、球は止まった場所からプレーします。"
   },
   {
     "id": 170,
@@ -3384,7 +3456,9 @@
     "officialSubruleIds": [
       "11.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11",
+    "summary": "ストロークプレーで両方の球がストローク前からグリーン上にあった場合は特別な罰があります。",
+    "action": "通常は当てた球を止まった場所からプレーし、動かされた球はリプレースします。"
   },
   {
     "id": 171,
@@ -3398,7 +3472,9 @@
     "officialSubruleIds": [
       "11.1b(2)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11",
+    "summary": "グリーンからプレーされた動いている球が、グリーン上の別の動いている球に偶然当たったケース。",
+    "action": "分かっているか事実上確実なら、そのストロークを再プレーします。"
   },
   {
     "id": 172,
@@ -3412,7 +3488,9 @@
     "officialSubruleIds": [
       "11.1b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11",
+    "summary": "人・動物・動いている外的影響の上に球が止まったケース。",
+    "action": "球をそのまま動物の上から打たず、球の真下を基準点として規則に従い救済します。"
   },
   {
     "id": 173,
@@ -3426,7 +3504,9 @@
     "officialSubruleIds": [
       "11.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11",
+    "summary": "偶然当たった場合とは別扱いです。",
+    "action": "故意に球を方向変更・停止した場合の規則に従い、指定される場所からプレーします。"
   },
   {
     "id": 174,
@@ -3440,7 +3520,9 @@
     "officialSubruleIds": [
       "14.3d"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "ドロップ後まだ止まっていない球にはRule 11ではなくRule 14.3が適用されます。",
+    "action": "その球は正しくドロップを完了した扱いにならず、規則14.3dに従って再処置します。"
   },
   {
     "id": 175,
@@ -3454,7 +3536,9 @@
     "officialSubruleIds": [
       "14.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "マークが必要な状況でマークせず球を拾ったケース。",
+    "action": "リプレースが必要な球を拾う前は、ボールマーカーを置くかクラブを地面に置いて位置をマークします。マークせず拾った場合も元の箇所にリプレースします。"
   },
   {
     "id": 176,
@@ -3468,7 +3552,9 @@
     "officialSubruleIds": [
       "14.1c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "確認のため、プレーの妨げ、他球への援助などで拾う場合は清掃制限があります。",
+    "action": "球をふくことが禁止・制限される理由で拾い上げた場合は、認められる範囲を超えて清掃しないようにします。"
   },
   {
     "id": 177,
@@ -3482,7 +3568,9 @@
     "officialSubruleIds": [
       "14.2e"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "斜面などで球が元の箇所に静止しないケース。",
+    "action": "同じ箇所へ2回置いても止まらなければ、ホールに近づかず、同じコースエリア内で球が止まる最も近い箇所にプレースします。"
   },
   {
     "id": 178,
@@ -3496,7 +3584,9 @@
     "officialSubruleIds": [
       "14.5"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "取り替え・リプレース・ドロップ・プレース手順の誤りは、打つ前なら訂正できる場合があります。",
+    "action": "まだストロークしていなければ、規則で認められる範囲で誤りを訂正できます。"
   },
   {
     "id": 179,
@@ -3511,7 +3601,9 @@
       "14.3b(4)",
       "14.7"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "線から横にずれた場所へドロップした球は、最終的に線上へ転がっても誤所の問題になります。",
+    "action": "後方線上救済で規則上要求される線上に正しくドロップし直します。打つ前なら訂正できます。"
   },
   {
     "id": 180,
@@ -3526,7 +3618,9 @@
       "15.1b",
       "9.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15",
+    "summary": "落ち葉・小石・枝などを除いた結果、止まっていた球が動いたケース。",
+    "action": "球を元の箇所にリプレースします。グリーン上や捜索中など例外に当たるか確認します。"
   },
   {
     "id": 181,
@@ -3540,7 +3634,9 @@
     "officialSubruleIds": [
       "15.2a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15",
+    "summary": "タオル、缶、人工物など動かせる障害物の中や上に球があるケース。",
+    "action": "障害物を取り除き、球があった位置の真下を基準に規則に従って無罰救済します。"
   },
   {
     "id": 182,
@@ -3554,7 +3650,9 @@
     "officialSubruleIds": [
       "15.3b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15",
+    "summary": "他人の球を勝手に扱う前に、誰が拾えるかと手順を確認します。",
+    "action": "妨げとなる他の球は、その球の所有者にマークして拾い上げてもらう手順が基本です。"
   },
   {
     "id": 183,
@@ -3568,7 +3666,9 @@
     "officialSubruleIds": [
       "16.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+    "summary": "球だけ道から外しても、スタンス等に障害が残れば完全救済になっていない場合があります。",
+    "action": "完全救済のニアレストポイントは、球・意図するスタンス・意図するスイング区域への障害が完全になくなる最も近い基準点です。"
   },
   {
     "id": 184,
@@ -3582,7 +3682,9 @@
     "officialSubruleIds": [
       "16.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+    "summary": "危険が単なるプレー困難ではなく、実際の身体的危険であることが前提です。",
+    "action": "危険な動物の状態については球のあるコースエリアに応じた救済手順を使います。ペナルティーエリア内では救済場所にも制限があります。"
   },
   {
     "id": 185,
@@ -3596,7 +3698,9 @@
     "officialSubruleIds": [
       "16.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+    "summary": "2026年の新しいMLR F-2の選択肢は、テレビ中継・レフェリーがいる競技向けの限定的な運用です。",
+    "action": "通常のRule 16.3は自分の直前のストロークでできたピッチマークに球がくい込んだ場合が対象です。委員会が特定のMLR F-2を採用している競技では追加救済が認められる場合があります。"
   },
   {
     "id": 186,
@@ -3611,7 +3715,9 @@
       "17",
       "9.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17",
+    "summary": "拾った理由と、その後救済を受けたかを確認します。",
+    "action": "そのままプレーするつもりなら勝手に拾い上げられません。救済を受ける場合は1罰打でRule 17の選択肢に従います。"
   },
   {
     "id": 187,
@@ -3625,7 +3731,9 @@
     "officialSubruleIds": [
       "17.1d"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17",
+    "summary": "昔の感覚で反対側救済を選ばないよう注意します。",
+    "action": "通常の赤ペナルティーエリア救済に『反対側の同距離地点』は自動的には含まれません。委員会が該当ローカルルールを採用しているか確認します。"
   },
   {
     "id": 188,
@@ -3639,7 +3747,9 @@
     "officialSubruleIds": [
       "18.3b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18",
+    "summary": "『念のためもう1球』だけでは状況により不十分なので、暫定球であることを明確にします。",
+    "action": "ストローク前に誰かへ暫定球としてプレーする意思を明確に伝えず、元の場所から別球をプレーした場合、その球はストロークと距離の罰の下でインプレーの球になります。"
   },
   {
     "id": 189,
@@ -3653,7 +3763,9 @@
     "officialSubruleIds": [
       "18.3c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18",
+    "summary": "本球の推定位置と、暫定球を打った位置の前後関係を確認します。",
+    "action": "本球があると推定される地点よりホールに近い場所から暫定球をプレーすると、条件により暫定球がインプレーの球になります。"
   },
   {
     "id": 190,
@@ -3668,7 +3780,9 @@
       "18.2",
       "7.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18",
+    "summary": "3分以内に発見したか、確認のための時間だったかを区別します。",
+    "action": "3分以内に球らしきものを見つけた場合、本人が確認するための合理的な時間が追加で認められる場合があります。"
   },
   {
     "id": 191,
@@ -3682,7 +3796,9 @@
     "officialSubruleIds": [
       "19.3b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+    "summary": "バンカー内で1罰打の通常選択肢を使う方法とは別に、特別なバンカー外後方線上救済があります。",
+    "action": "2罰打で、球とホールを結ぶ後方線上のバンカー外に救済を受けられます。"
   },
   {
     "id": 192,
@@ -3696,7 +3812,9 @@
     "officialSubruleIds": [
       "19.2c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+    "summary": "救済エリア外に止まれば再ドロップ等Rule 14.3の手順を使います。",
+    "action": "基準点から2クラブレングス以内で、基準点よりホールに近づかない救済エリア内に球が止まる必要があります。"
   },
   {
     "id": 193,
@@ -3710,7 +3828,9 @@
     "officialSubruleIds": [
       "19.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+    "summary": "球を確認できるか、どの救済選択肢を使うかで基準点が変わります。",
+    "action": "球をアンプレヤブルと宣言できるのはプレーヤー本人です。球の位置を基準に使う選択肢では、木の上の球の真下ではなく規則上の基準点を正しく決めます。"
   },
   {
     "id": 194,
@@ -3724,7 +3844,9 @@
     "officialSubruleIds": [
       "3.2d"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+    "summary": "いつ伝え、いつ訂正したか、相手がすでに行動したかを確認します。",
+    "action": "相手がホールやマッチの結果に影響する誤った情報を期限内に訂正しなかった場合、罰が生じることがあります。"
   },
   {
     "id": 195,
@@ -3738,7 +3860,9 @@
     "officialSubruleIds": [
       "3.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+    "summary": "ストローク、ホール、マッチのコンシードのどれかを確認します。",
+    "action": "正しく行ったコンシードは最終で、拒否も取り消しもできません。"
   },
   {
     "id": 196,
@@ -3753,7 +3877,9 @@
       "3.2b",
       "9.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+    "summary": "相手が明確にコンシードしたかが重要です。",
+    "action": "コンシードされていない球を自分で拾った場合は、球をリプレースし、該当する罰を適用します。"
   },
   {
     "id": 197,
@@ -3767,7 +3893,9 @@
     "officialSubruleIds": [
       "23.6"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+    "summary": "どちらの球がそのホールのスコアに採用可能かを確認します。",
+    "action": "パートナーのプレーを助けるために自分の球を残せる場面もありますが、一度拾った球を後から都合よく復活させられるとは限りません。"
   },
   {
     "id": 198,
@@ -3782,7 +3910,9 @@
     "officialSubruleIds": [
       "23.9a(2)",
       "6.3c"
-    ]
+    ],
+    "summary": "フォアボールでパートナーの球を誤ってストロークすると誤球の違反になる。誤球の罰は原則として打った本人に適用され、パートナーにも自動的に同じ罰が科されるわけではない（規則23.9a(2)の例外）。",
+    "action": "誤球を打った本人を特定する。ストロークプレーでは正しい球で訂正し、誤球で行ったストロークは数えない。マッチプレーでは打った本人のそのホールのスコアはサイドに採用できないが、パートナーは続けられる。"
   },
   {
     "id": 199,
@@ -3796,7 +3926,9 @@
     "officialSubruleIds": [
       "23.5"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+    "summary": "拾い上げが認められる状況だったか、正しくマークしたかを確認します。",
+    "action": "パートナーはプレーヤーの球について、規則上プレーヤー本人ができる一定の行為を行えます。"
   },
   {
     "id": 200,
@@ -3810,7 +3942,9 @@
     "officialSubruleIds": [
       "22.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+    "summary": "競技形式を確認して規則22.3に従い訂正します。",
+    "action": "パートナーは交互にストロークしなければなりません。順番を間違えた場合の処置はマッチプレーとストロークプレーで異なります。"
   },
   {
     "id": 201,
@@ -3824,7 +3958,9 @@
     "officialSubruleIds": [
       "22.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+    "summary": "誰が直前のストロークをしたかを確認します。",
+    "action": "ホール中は交互にストロークする順番を守ります。ティーイングエリアでの担当順もラウンドを通じた規則に従います。"
   },
   {
     "id": 202,
@@ -3838,7 +3974,9 @@
     "officialSubruleIds": [
       "21.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
+    "summary": "どの相手とのマッチに何が起きたかを分けて確認します。",
+    "action": "各プレーヤーは同時に2つの別々のマッチを行っています。同じ出来事でも、それぞれのマッチで規則適用や結果が異なる場合があります。"
   },
   {
     "id": 203,
@@ -3852,7 +3990,9 @@
     "officialSubruleIds": [
       "21.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
+    "summary": "競技条件の最大スコア設定を確認します。",
+    "action": "委員会が定めた最大スコアに達することが確定した場合、ホールアウトせず球を拾える運用があります。"
   },
   {
     "id": 204,
@@ -3866,7 +4006,9 @@
     "officialSubruleIds": [
       "21.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
+    "summary": "得点計算と競技条件を確認します。",
+    "action": "そのホールで得点できないことが確定した場合、ホールアウトしなくても通常のストロークプレーのような失格にはなりません。"
   },
   {
     "id": 205,
@@ -3880,7 +4022,9 @@
     "officialSubruleIds": [
       "25"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+    "summary": "Rule 25が適用されるプレーヤーか、どの補助者を利用するかを確認します。",
+    "action": "Rule 25は特定の障がいカテゴリーについて通常規則を修正します。キャディー、エイド、補助者等の利用可否は該当カテゴリーとRule 25の条件で確認します。"
   },
   {
     "id": 206,
@@ -3894,7 +4038,9 @@
     "officialSubruleIds": [
       "25.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+    "summary": "援助者・キャディーの位置や行為がRule 25.2の範囲内か確認します。",
+    "action": "視覚障がいのあるプレーヤーには、通常のRule 10.2bとは異なる一定の援助が認められます。"
   },
   {
     "id": 207,
@@ -3908,7 +4054,9 @@
     "officialSubruleIds": [
       "25.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+    "summary": "通常Rule 19だけで即断せず、Rule 25.4の適用条件を確認します。",
+    "action": "移動補助器具を使うプレーヤーには、アンプレヤブルやバンカー等についてRule 25による修正が適用される場合があります。"
   },
   {
     "id": 208,
@@ -3961,7 +4109,9 @@
     "officialSubruleIds": [
       "8.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+    "summary": "動かして改善した場合、ストローク前に元に戻して罰を回避できるケースがあるかRule 8.1cも確認します。",
+    "action": "OB杭などの境界物は障害物ではなく、原則として動かしてプレー条件を改善できません。"
   },
   {
     "id": 212,
@@ -3975,7 +4125,9 @@
     "officialSubruleIds": [
       "4.3a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "高低差機能をOFFにできる機器は、その機能を使用していないことを確認します。",
+    "action": "距離や方向の情報取得は認められますが、プレーに影響する高低差を測定して実質的なプレー距離を算出する機能の使用は原則認められません。"
   },
   {
     "id": 213,
@@ -3989,7 +4141,9 @@
     "officialSubruleIds": [
       "4.3a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "何の情報・機能を使ったかを確認します。",
+    "action": "一般に公開されている天気情報を見ること自体と、現場で風速・風向きを測定する機器を使用することは区別されます。"
   },
   {
     "id": 214,
@@ -4003,7 +4157,9 @@
     "officialSubruleIds": [
       "4.3a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "単純な方向情報か、プレーに影響する条件の測定かを確認します。",
+    "action": "方向に関する情報取得が認められる範囲と、プレー条件を測定・分析する禁止機能を区別します。"
   },
   {
     "id": 215,
@@ -4031,7 +4187,9 @@
       "2.4",
       "16.1f"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-2"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-2",
+    "summary": "球自体が区域外でも干渉があれば強制救済となる場合があります。",
+    "action": "プレー禁止区域が異常なコース状態として定められ、その区域が意図するスタンスやスイング区域に干渉する場合、規則に従い救済を受けなければなりません。"
   },
   {
     "id": 217,
@@ -4058,7 +4216,9 @@
     "officialSubruleIds": [
       "Club-Length/1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/definitions"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/definitions",
+    "summary": "救済エリア測定の基準クラブについてのケース。",
+    "action": "パターを除く最も長いクラブが折れても、救済エリアはそのクラブの元の長さで測ります。ただし、規則4.1a(2)により取り替えが認められ、実際に取り替えた場合、折れたクラブは基準から外れます。14本未満で開始し、より長いクラブ（パター以外）を追加した場合は、そのクラブを測定に用います。"
   },
   {
     "id": 219,
@@ -4111,7 +4271,9 @@
     "officialSubruleIds": [
       "16.1f"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+    "summary": "区域の境界と、邪魔な生長物がどこから生えているかを確認します。",
+    "action": "プレー禁止区域から区域外へ突き出した生長物も、その区域の状態として扱われる場合があります。スタンスやスイングへの干渉を確認し、強制救済が必要か判断します。"
   },
   {
     "id": 223,
@@ -4125,7 +4287,9 @@
     "officialSubruleIds": [
       "20.1b(2)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20",
+    "summary": "後のホールで罰を持ち出すことを防ぐため時限があります。",
+    "action": "裁定要求が認められるかは、違反規則を知った時ではなく、関連する事実をいつ知ったかと、いつ裁定を求めたかで判断されます。"
   },
   {
     "id": 224,
@@ -4139,7 +4303,9 @@
     "officialSubruleIds": [
       "20.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20",
+    "summary": "マッチなら裁定要求、ストロークなら条件を満たせば2球プレーで権利を保護できます。",
+    "action": "規則の助けを待つためプレーを不当に遅らせてはいけません。合理的な時間でレフェリー等が来なければ、プレーを続けて後で裁定を得る手順を使います。"
   },
   {
     "id": 225,
@@ -4153,7 +4319,9 @@
     "officialSubruleIds": [
       "20.1c(3)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20",
+    "summary": "Rule 20.1c(3)の2球手順を使ったケース。",
+    "action": "ストロークプレーで2球をプレーした場合、どちらのスコアが同じでも、スコアカード提出前に事実を委員会へ報告しなければなりません。"
   },
   {
     "id": 226,
@@ -4167,7 +4335,9 @@
     "officialSubruleIds": [
       "21.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
+    "summary": "どの違反の罰かを確認してRule 21.1の修正規則を適用します。",
+    "action": "ステーブルフォードでは罰の種類によって、そのホールのポイントが0になるものや、ラウンド合計ポイントから差し引くものがあります。"
   },
   {
     "id": 227,
@@ -4181,7 +4351,9 @@
     "officialSubruleIds": [
       "21.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
+    "summary": "違反規則を特定してRule 21.3の修正を確認します。",
+    "action": "パー／ボギー競技ではホールごとの勝ち・負け・分けでスコアリングし、罰の適用も通常ストロークプレーから修正されるものがあります。"
   },
   {
     "id": 228,
@@ -4195,7 +4367,9 @@
     "officialSubruleIds": [
       "22.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+    "summary": "マーク・拾い上げが認められる状況だったかを確認します。",
+    "action": "フォーサムではパートナーはサイドとして行動し、規則上プレーヤー本人が球についてできる一定の行為をパートナーが行えます。"
   },
   {
     "id": 229,
@@ -4209,7 +4383,9 @@
     "officialSubruleIds": [
       "23.9"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+    "summary": "何の違反で失格になったかを確認します。",
+    "action": "一方のパートナーの違反がその本人だけに適用される場合、サイド全体が必ず失格になるわけではありません。違反の種類によってパートナーまたはサイドにも罰が及ぶ場合があります。"
   },
   {
     "id": 230,
@@ -4223,7 +4399,9 @@
     "officialSubruleIds": [
       "24.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+    "summary": "その人物が正式に指定されたアドバイスギバーか、競技条件を確認します。",
+    "action": "委員会が各チームにアドバイスギバーを指定することを認めた場合、その人から規則の範囲内でアドバイスを受けられます。"
   },
   {
     "id": 231,
@@ -4315,7 +4493,9 @@
     "officialSubruleIds": [
       "4.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4",
+    "summary": "規則確認だけか、風・傾斜等の禁止測定機能も使用したかを確認します。",
+    "action": "電子版のゴルフ規則などを参照すること自体は認められます。ただし端末の禁止機能をプレー援助に使用しないようにします。"
   },
   {
     "id": 238,
@@ -4329,7 +4509,9 @@
     "officialSubruleIds": [
       "13.3a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "10秒以内に落ちたか、10秒を過ぎたかを確認します。",
+    "action": "球がホールの縁にせり出した場合、ホールに到達する合理的な時間に加え10秒待てます。その後に落ちた場合はホールアウトですが、1罰打を加えます。"
   },
   {
     "id": 239,
@@ -4343,7 +4525,9 @@
     "officialSubruleIds": [
       "13.2c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "球がすでにホールインの定義を満たしていたかを先に確認します。",
+    "action": "球の一部がホール内でグリーン面より下ならホールアウトです。そうでない場合、旗竿を動かして球が動いたときは規則13.2cの処置を行います。"
   },
   {
     "id": 240,
@@ -4357,7 +4541,9 @@
     "officialSubruleIds": [
       "12.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12",
+    "summary": "球のライ改善目的で先にならしたのか、単なるコース保護だったかが重要です。",
+    "action": "コースを保護するために砂をならすこと自体は認められる場合がありますが、その後その区域がプレー線等になったときの扱いは、ならした時点の目的と規則上の制限を確認します。"
   },
   {
     "id": 241,
@@ -4372,7 +4558,9 @@
       "7.1",
       "8.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7",
+    "summary": "球を見つけるために合理的に必要だった行為かを確認します。",
+    "action": "球を見つけるため合理的な捜索行為は認められます。合理的な範囲を超えてプレー条件を改善した場合は罰が生じます。"
   },
   {
     "id": 242,
@@ -4387,7 +4575,9 @@
       "7.3",
       "9.6"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7",
+    "summary": "合理的な捜索・確認中だったかも確認します。",
+    "action": "球の確認手順と、外的影響として他人の球を動かした扱いを分けて判断します。動かした他人の球は元の箇所にリプレースします。"
   },
   {
     "id": 243,
@@ -4402,7 +4592,9 @@
       "14.1",
       "14.7"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "何クラブヘッド分ずらしたか等、元位置を復元します。",
+    "action": "他のプレーヤーの妨げを避けるためマーカーを移した場合、球をリプレースする前に元の位置へ戻します。戻さず別位置からプレーすると誤所です。"
   },
   {
     "id": 244,
@@ -4416,7 +4608,9 @@
     "officialSubruleIds": [
       "14.3c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "地面に触れる前に人や用具へ当てていないことを確認します。",
+    "action": "正しくドロップした球が地面に当たった後、偶然プレーヤーや用具に触れても、それだけで再ドロップにはなりません。救済エリア内に止まればインプレーです。"
   },
   {
     "id": 245,
@@ -4431,7 +4625,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "14.3b"
-    ]
+    ],
+    "summary": "地面に着く前に靴や用具に当たった球は、正しい方法でドロップし直します。",
+    "action": "打つ前に正しくやり直せば追加罰なし。誤った方法のまま救済エリア内から打つと1罰打。エリア外から打つと一般の罰です。誤った方法のドロップは、プレースへ進むための2回に数えません。"
   },
   {
     "id": 246,
@@ -4446,7 +4642,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "14.2b"
-    ]
+    ],
+    "summary": "リプレースすべき球をドロップした場合、方法の誤りと場所の誤りを区別します。",
+    "action": "打つ前なら球を拾い、正しい方法でリプレース。正しい箇所に止まった球を誤った方法のまま打つと1罰打。誤所から打った場合は規則14.7の一般の罰で、ストロークプレーの重大な違反なら訂正が必要です。"
   },
   {
     "id": 247,
@@ -4461,7 +4659,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "14.3b"
-    ]
+    ],
+    "summary": "ドロップすべき球をプレースしたまま打つと、救済エリア内でも一般の罰です。",
+    "action": "まだ打っていなければ正しくドロップして訂正します。プレースしたまま打った場合は、場所が正しくても一般の罰。誤所の重大な違反なら訂正も必要です。"
   },
   {
     "id": 248,
@@ -4476,7 +4676,9 @@
       "13.1",
       "8.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "自然物でも規則上の扱いが落ち葉等とは異なります。",
+    "action": "露や霜はルースインペディメントではなく、プレーの線を改善する目的で取り除くことには制限があります。"
   },
   {
     "id": 249,
@@ -4490,7 +4692,9 @@
     "officialSubruleIds": [
       "13.1c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "グリーン外では砂・バラバラの土は通常ルースインペディメントではありません。",
+    "action": "パッティンググリーン上の砂やバラバラの土は、罰なしで取り除けます。"
   },
   {
     "id": 250,
@@ -4504,7 +4708,9 @@
     "officialSubruleIds": [
       "8.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+    "summary": "グリーン上の砂を除ける規則と混同しないようにします。",
+    "action": "グリーン外の砂やバラバラの土は通常ルースインペディメントではないため、球のライやスイング区域を改善するように除去できません。"
   },
   {
     "id": 251,
@@ -4519,7 +4725,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "13.1c(2)"
-    ]
+    ],
+    "summary": "通常の整備によるエアレーション穴は、規則13.1cで修復できる損傷に含まれません。",
+    "action": "穴を埋めてラインを改善せず、そのままプレーするか、適用されるローカルルールを確認します。"
   },
   {
     "id": 252,
@@ -4534,7 +4742,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "13.1e"
-    ]
+    ],
+    "summary": "ラウンド中、速さなどをテストする目的でグリーンや目的外グリーンの表面をこすることは原則禁止です。",
+    "action": "単なる清掃や損傷の修復と、テスト目的の行為を区別します。ホール間には、直前のホールのグリーンと練習グリーンに例外があります。"
   },
   {
     "id": 253,
@@ -4549,7 +4759,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "16.4"
-    ]
+    ],
+    "summary": "無罰救済の対象だと合理的に考えられ、拾い上げなければ確認できない場合に確認のため拾えます。",
+    "action": "先に位置をマークし、グリーン以外では球を拭かずに確認します。救済できない、または救済を受けない場合は元の場所にリプレースします。"
   },
   {
     "id": 254,
@@ -4564,7 +4776,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "16.4"
-    ]
+    ],
+    "summary": "グリーン以外で救済対象か確認するために拾った球は、原則として拭けません。",
+    "action": "救済が認められない、または認められても受けない場合、拭くことが許されていなければ1罰打で元の場所に戻します。救済が認められて実際に受ける場合は、この拭いた行為による罰はありません。"
   },
   {
     "id": 255,
@@ -4579,7 +4793,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "16.1a(3)"
-    ]
+    ],
+    "summary": "茂みなど別の理由でそのまま打つことが明らかに不合理な場合、道に足がかかるだけでは無罰救済を受けられません。",
+    "action": "道の障害がなくても合理的に打てるかを確認します。不合理な構えを作って救済を得ることもできません。"
   },
   {
     "id": 256,
@@ -4594,7 +4810,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "6.2b(5)"
-    ]
+    ],
+    "summary": "ホールを始めるとき等、まだストロークをしていないティー上の球が落ちる途中で打った場合、そのストロークを数えます。",
+    "action": "この場合、動いている球を打ったことによる追加の罰はなく、球はインプレーになります。打たずに落ちただけなら無罰でティーアップし直せます。"
   },
   {
     "id": 257,
@@ -4610,7 +4828,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "16.1e"
-    ]
+    ],
+    "summary": "見つからない球が修理地内に止まったことが分かっているか事実上確実なら、規則16.1eを利用できます。",
+    "action": "最後にその異常なコース状態の縁を横切った推定点を球の位置とみなし、完全救済のニアレストポイントを決めます。区域に応じて16.1b～dの処置。単にその方向へ飛んだだけでは不十分です。"
   },
   {
     "id": 258,
@@ -4626,7 +4846,9 @@
     "reviewed_at": "2026-09-23",
     "officialSubruleIds": [
       "16.1e"
-    ]
+    ],
+    "summary": "泥の中に埋まったと思われるだけでは、見つからない球を無罰救済にはできません。",
+    "action": "一時的な水・修理地など異常なコース状態の中に止まったことが分かっているか事実上確実なら16.1eを確認。それ以外で捜索3分以内に見つからなければ紛失球として規則18.2のストロークと距離の救済。くい込んだ球の救済16.3と混同しない。"
   },
   {
     "id": 259,
@@ -4640,7 +4862,9 @@
     "officialSubruleIds": [
       "5.2b/3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5",
+    "summary": "ストロークプレーでラウンド前のコース上で禁止される練習には、ストロークだけでなく、球を転がしたりグリーン面をこすって表面をテストする行為も含まれる。",
+    "action": "競技前の練習制限と競技条件を確認し、違反の可能性があればスタート前に委員会へ確認する。"
   },
   {
     "id": 260,
@@ -4706,7 +4930,9 @@
     "officialSubruleIds": [
       "8.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+    "summary": "ストロークに影響する状態を改善する行為は原則として認められない。木の枝を曲げる、地面をならす、露や霜・水を取り除くなどは状況により違反となる。",
+    "action": "球・スタンス・意図するスイング・プレー線に影響する状態を意図的に変えたか確認する。"
   },
   {
     "id": 265,
@@ -4720,7 +4946,9 @@
     "officialSubruleIds": [
       "8.1b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+    "summary": "正当にスタンスを取る、球を探す、規則に基づいて球を拾い上げたりリプレースするなど、結果として状態が改善しても認められる行動がある。",
+    "action": "行為そのものがRule 8.1bで認められる通常の行動かを確認する。"
   },
   {
     "id": 266,
@@ -4734,7 +4962,9 @@
     "officialSubruleIds": [
       "8.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+    "summary": "他のプレーヤーの次のストロークに影響する物理的状態を意図的に変えることは制限される。",
+    "action": "誰の球に影響する変更か、意図的だったかを確認する。"
   },
   {
     "id": 267,
@@ -4748,7 +4978,9 @@
     "officialSubruleIds": [
       "8.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+    "summary": "他のプレーヤーの球が止まる場所や次のストロークに影響させる目的で物理的状態を変えることは認められない。",
+    "action": "変更の対象、時点、意図を確認する。"
   },
   {
     "id": 268,
@@ -4762,7 +4994,9 @@
     "officialSubruleIds": [
       "24.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+    "summary": "チーム競技では、複数のプレーヤーの個人スコアやマッチ結果を合計してチーム結果を決める形式がある。",
+    "action": "競技規定で個人結果とチーム結果の計算方法を確認する。"
   },
   {
     "id": 269,
@@ -4776,7 +5010,9 @@
     "officialSubruleIds": [
       "24.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+    "summary": "委員会はチームの構成、採用スコア、順位決定などの競技条件を定める。",
+    "action": "大会の競技条件・チーム編成・採用スコアを確認する。"
   },
   {
     "id": 270,
@@ -4790,7 +5026,9 @@
     "officialSubruleIds": [
       "24.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+    "summary": "チーム競技ではチームキャプテンを置くことができ、その役割やプレーへの関与は規則と競技条件の範囲で行う。",
+    "action": "キャプテンに認められた役割と、アドバイスを与えられる者の指定を確認する。"
   },
   {
     "id": 271,
@@ -4804,7 +5042,9 @@
     "officialSubruleIds": [
       "1.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-1"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-1",
+    "summary": "ゴルフの基本原則。規則が別の処置を認める場合を除き、コースはあるがまま、球はあるがままにプレーする。",
+    "action": "別の規則で救済・拾い上げ・リプレース等が認められているか確認する。"
   },
   {
     "id": 272,
@@ -4818,7 +5058,9 @@
     "officialSubruleIds": [
       "1.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-1"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-1",
+    "summary": "委員会はローカルルールとして行動規範を定め、違反に1罰打や一般の罰などを設定できる。重大な非行は失格となり得る。",
+    "action": "その大会の行動規範と設定された罰を確認する。"
   },
   {
     "id": 273,
@@ -4833,7 +5075,9 @@
       "2.2a",
       "2.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-2"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-2",
+    "summary": "コースはジェネラルエリアと、ティーイングエリア・ペナルティーエリア・バンカー・パッティンググリーンの4つの特定エリアに区分される。",
+    "action": "球が触れている場所と各エリアの境界を確認し、適用する規則を決める。"
   },
   {
     "id": 274,
@@ -4847,7 +5091,9 @@
     "officialSubruleIds": [
       "9.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
+    "summary": "球が動いたと扱うには、動いたことが分かっているか事実上確実である必要がある。原因も自然の力、プレーヤー、マッチの相手、外的影響のいずれかを判断する。",
+    "action": "合理的に得られる情報を確認し、球が動いたかと原因を判断する。"
   },
   {
     "id": 275,
@@ -4861,7 +5107,9 @@
     "officialSubruleIds": [
       "9.5"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
+    "summary": "相手または相手のキャディーが球を拾い上げたり動かした場合、原則リプレースし、相手に1罰打となる場合がある。例外もある。",
+    "action": "相手が動かしたことが分かっているか事実上確実か、例外に該当するか確認してリプレースする。"
   },
   {
     "id": 276,
@@ -4875,7 +5123,9 @@
     "officialSubruleIds": [
       "9.7"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
+    "summary": "拾い上げた球の位置を示すボールマーカーが動いた場合、元の位置を復元する必要がある。故意の行為には罰が生じる場合がある。",
+    "action": "元の位置に球をリプレースするか、元の位置をボールマーカーで再度マークする。"
   },
   {
     "id": 277,
@@ -4889,7 +5139,9 @@
     "officialSubruleIds": [
       "12.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12",
+    "summary": "球の一部がバンカーの縁の内側の地面の砂に触れている場合など、その球はバンカー内にある。",
+    "action": "球の位置とバンカーの縁、砂との接触を確認する。"
   },
   {
     "id": 278,
@@ -4903,7 +5155,9 @@
     "officialSubruleIds": [
       "12.2a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12",
+    "summary": "バンカー内でもルースインペディメントや動かせる障害物を取り除くことができる。ただし球を動かした場合などは別の規則が適用される。",
+    "action": "石・落ち葉などを合理的な方法で取り除き、球を動かさないよう注意する。"
   },
   {
     "id": 279,
@@ -4917,7 +5171,9 @@
     "officialSubruleIds": [
       "12.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-12",
+    "summary": "バンカー内ではアンプレヤブルや異常なコース状態など、救済の種類によって救済場所や罰が異なる。",
+    "action": "救済理由を特定し、Rule 16またはRule 19など該当規則のバンカー特則を確認する。"
   },
   {
     "id": 280,
@@ -4931,7 +5187,9 @@
     "officialSubruleIds": [
       "3.3b(2)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+    "summary": "ハンディキャップ競技でのプレーヤーと委員会の責任は競技方式と現行Rule 3.3bに従う。スコアカード上の責任範囲を競技条件で確認する。",
+    "action": "ホールスコアを確認し、マーカーの証明と提出方法を大会のスコアリング手順に従って完了する。"
   },
   {
     "id": 281,
@@ -4945,7 +5203,9 @@
     "officialSubruleIds": [
       "3.3b(3)"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+    "summary": "提出したホールスコアが実際より多い場合、その提出した高いスコアがそのホールのスコアとなる。",
+    "action": "提出前に各ホールのスコアを確認する。提出後に高いスコアと判明した場合は委員会へ伝える。"
   },
   {
     "id": 282,
@@ -4959,7 +5219,9 @@
     "officialSubruleIds": [
       "5.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5",
+    "summary": "ストロークプレーではラウンド中、委員会が定めた組でプレーしなければならない。ただし委員会が変更を承認した場合を除く。",
+    "action": "組を離れたり別組に合流する必要が生じたら自己判断せず委員会へ確認する。"
   },
   {
     "id": 283,
@@ -4973,7 +5235,9 @@
     "officialSubruleIds": [
       "5.5a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5",
+    "summary": "ホールのプレー中は、球を使った練習ストロークをしてはならない。素振りは練習ストロークではない。",
+    "action": "ホール終了前は練習のため別の球を打たない。"
   },
   {
     "id": 284,
@@ -4987,7 +5251,9 @@
     "officialSubruleIds": [
       "5.6b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5",
+    "summary": "不当な遅延を避け、ラウンド中は速やかなプレーペースを維持する。規則は通常、プレーできる状態になってから40秒以内にストロークすることを推奨している。",
+    "action": "自分の番になる前に準備し、安全を確認して速やかにプレーする。大会のペースポリシーも確認する。"
   },
   {
     "id": 285,
@@ -5001,7 +5267,9 @@
     "officialSubruleIds": [
       "6.3b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6",
+    "summary": "規則により別の球への取り替えが認められる場合と、元の球を使用し続けなければならない場合がある。",
+    "action": "適用する救済規則が球の取り替えを認めているか確認してから別球を使用する。"
   },
   {
     "id": 286,
@@ -5015,7 +5283,9 @@
     "officialSubruleIds": [
       "7.1a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7",
+    "summary": "球を見つけ識別するため合理的な行動を取ることができ、その結果として砂や草などが動いても一定範囲で認められる。",
+    "action": "球を見つけるために合理的に必要な範囲にとどめる。必要以上にライを改善しない。"
   },
   {
     "id": 287,
@@ -5029,7 +5299,9 @@
     "officialSubruleIds": [
       "7.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7",
+    "summary": "球が自分の球か識別するため必要な場合、位置をマークして拾い上げることができる。",
+    "action": "拾い上げる前にマークし、確認に必要な範囲を超えて球を拭かず、元の箇所へリプレースする。"
   },
   {
     "id": 288,
@@ -5043,7 +5315,9 @@
     "officialSubruleIds": [
       "10.2a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
+    "summary": "プレーヤーは規則で認められる場合を除き、競技中にアドバイスを与えたり求めたりしてはならない。勝手に話しかけられただけの場合と、自ら求めた場合を区別する。",
+    "action": "助言を求めず、継続的に助言される場合は止めるための行動を取る。"
   },
   {
     "id": 289,
@@ -5057,7 +5331,9 @@
     "officialSubruleIds": [
       "11.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11",
+    "summary": "動いている球が止まる場所に影響させる意図で、物理的状態を変えたり物を動かしたりすることは制限される。",
+    "action": "球が動いている間は、結果に影響させる目的で状態や物を変更しない。"
   },
   {
     "id": 290,
@@ -5071,7 +5347,9 @@
     "officialSubruleIds": [
       "13.1b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "パッティンググリーン上の球はマークして拾い上げ、拭くことができる。",
+    "action": "球の直後またはすぐ近くにボールマーカーを置くかクラブを地面に置いて位置をマークしてから拾う。"
   },
   {
     "id": 291,
@@ -5085,7 +5363,9 @@
     "officialSubruleIds": [
       "13.2a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13",
+    "summary": "ストローク前に旗竿をホールに残すか、取り除くか、付き添ってもらうかを選べる。故意に球へ影響させる行為には制限がある。",
+    "action": "ストローク前に旗竿の扱いを決め、球の動きに不当に影響させない。"
   },
   {
     "id": 292,
@@ -5099,7 +5379,9 @@
     "officialSubruleIds": [
       "14.6"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
+    "summary": "ストロークと距離などで前の場所から再プレーする場合、直前のストロークを行ったコースエリアによって球をプレーする方法が異なる。",
+    "action": "直前のストロークがティーイングエリア、グリーン、その他の場所のどこだったか確認しRule 14.6の方法でプレーする。"
   },
   {
     "id": 293,
@@ -5113,7 +5395,9 @@
     "officialSubruleIds": [
       "15.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15",
+    "summary": "動かせる障害物の中や上に球がある場合、その障害物を取り除き、規定の基点を使って無罰救済を受けられる。",
+    "action": "球の推定位置を基点に、該当するコースエリアの救済方法に従ってドロップまたはプレースする。"
   },
   {
     "id": 294,
@@ -5127,7 +5411,9 @@
     "officialSubruleIds": [
       "16.1b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+    "summary": "ジェネラルエリアで異常なコース状態による障害がある場合、完全な救済のニヤレストポイントを基点に無罰救済を受けられる。",
+    "action": "完全な救済のニヤレストポイントを決め、1クラブレングスの救済エリアへ正しくドロップする。"
   },
   {
     "id": 295,
@@ -5141,7 +5427,9 @@
     "officialSubruleIds": [
       "16.1d"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+    "summary": "パッティンググリーン上では球の位置だけでなくプレー線上の異常なコース状態による障害からも無罰救済が認められる。",
+    "action": "ホールに近づかず、障害が完全になくなる最も近い箇所に球をプレースします。その箇所はパッティンググリーン上かジェネラルエリアに限られます。完全救済の箇所がない場合は、そのどちらかの区域で最大限の救済が得られる箇所にプレースします。ドロップはしません。"
   },
   {
     "id": 296,
@@ -5155,7 +5443,9 @@
     "officialSubruleIds": [
       "17.1c"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17",
+    "summary": "ペナルティーエリア内の球は、規則が禁止していない限り罰なしであるがままプレーできる。",
+    "action": "そのままプレーするか、1罰打の救済を選ぶ。プレー禁止区域の場合は別途救済が必要。"
   },
   {
     "id": 297,
@@ -5169,7 +5459,9 @@
     "officialSubruleIds": [
       "18.3a"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18",
+    "summary": "球がペナルティーエリア以外で紛失した可能性、またはOBの可能性がある場合に限り、時間短縮のため暫定球をプレーできる。",
+    "action": "ストローク前に暫定球であることを告げ、前の場所からプレーする。"
   },
   {
     "id": 298,
@@ -5183,7 +5475,9 @@
     "officialSubruleIds": [
       "19.1"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+    "summary": "ペナルティーエリア以外にある自分の球は、プレーヤーだけがアンプレヤブルと決めることができる。",
+    "action": "球がペナルティーエリア外であることを確認し、Rule 19.2またはバンカー内なら19.3の救済を選ぶ。"
   },
   {
     "id": 299,
@@ -5197,7 +5491,9 @@
     "officialSubruleIds": [
       "20.3"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20",
+    "summary": "規則で明確に扱われていない状況は、合理的で公平な方法で扱う必要があり、委員会が規則の目的に沿って裁定する。",
+    "action": "自己判断で新しい処置を作らず、レフェリーまたは委員会へ事実関係を伝えて裁定を求める。"
   },
   {
     "id": 300,
@@ -5211,7 +5507,9 @@
     "officialSubruleIds": [
       "21.4"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
+    "summary": "スリーボール・マッチプレーでは3人が同じ組でプレーするが、各プレーヤーは他の2人とそれぞれ独立したマッチを行う。",
+    "action": "コンシードや罰などがどのマッチに影響するかを、それぞれの対戦ごとに判定する。"
   },
   {
     "id": 301,
@@ -5225,7 +5523,9 @@
     "officialSubruleIds": [
       "21.5"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
+    "summary": "通常のストロークプレー、ステーブルフォード、最大スコア、パー・ボギーなど複数形式へ同時に参加できる場合がある。",
+    "action": "各競技形式のスコアリング条件と競技の条件を個別に確認する。"
   },
   {
     "id": 302,
@@ -5239,7 +5539,9 @@
     "officialSubruleIds": [
       "22.2"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+    "summary": "フォアサムでは、次にどちらが打つ番かにかかわらず、どちらのパートナーもサイドのために認められたマーク、拾い上げ、リプレース、ドロップ、プレースなどを行える。",
+    "action": "処置自体が規則上認められていることを確認し、サイドとして正しい場所・方法で処置する。"
   },
   {
     "id": 303,
@@ -5269,7 +5571,9 @@
     "officialSubruleIds": [
       "22.5"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+    "summary": "パートナーは一定条件のもとでクラブを共有できるが、サイドが持つクラブの合計本数に制限がある。",
+    "action": "ラウンド開始時と追加・共有時にサイド全体のクラブ本数とRule 4.1bの条件を確認する。"
   },
   {
     "id": 305,
@@ -5299,7 +5603,9 @@
     "officialSubruleIds": [
       "23.2b"
     ],
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+    "summary": "フォアボールのストロークプレーでは、各ホールのスコアはそのスコアを出したパートナーが明確に識別できなければならない。",
+    "action": "採用候補の各ホールスコアを、実際にそのスコアを出したパートナー名と対応させて提出する。"
   },
   {
     "id": 307,
@@ -5313,7 +5619,9 @@
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
     "officialSubruleIds": [
       "23.4"
-    ]
+    ],
+    "summary": "フォアボールは一方のパートナーだけでもサイドを代表してプレーできる。欠席していたパートナーが合流してプレーできるのはホールとホールの間だけ。",
+    "action": "マッチプレーでは、いずれかのサイドのプレーヤーがそのホールを開始する前に合流する。ストロークプレーでは、既にプレー中のパートナーがそのホールを開始する前に合流する。途中合流したホールではストロークできないが、アドバイス等の認められた援助は可能。"
   },
   {
     "id": 308,
@@ -5327,7 +5635,9 @@
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
     "officialSubruleIds": [
       "23.6"
-    ]
+    ],
+    "summary": "フォアボールでは、サイドの打順になったとき、どちらのパートナーが先にプレーするかを選べる。ただしマッチプレーでコンシードされたストロークの後に、パートナーを助けるためにプレーを続けることはできない。",
+    "action": "サイドの順番を確認し、どちらが先にプレーするか選ぶ。マッチプレーで次のストロークをコンシードされた場合、続けてプレーすることがパートナーの助けになるなら続けない。"
   },
   {
     "id": 309,
