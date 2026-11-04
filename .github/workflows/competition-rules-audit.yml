@@ -1,0 +1,34 @@
+name: Competition rules static audit
+on:
+  push:
+    branches: [competition-golfer-mode]
+    paths:
+      - 'competition_rules*.json'
+      - 'competition_rule25_verified_cases.json'
+      - 'competition_official_index.json'
+      - 'competition_rules.html'
+      - 'competition_rule.html'
+      - 'scripts/audit-competition-routes.mjs'
+      - '.github/workflows/competition-rules-audit.yml'
+  pull_request:
+    paths:
+      - 'competition_rules*.json'
+      - 'competition_rule25_verified_cases.json'
+      - 'competition_official_index.json'
+      - 'competition_rules.html'
+      - 'competition_rule.html'
+      - 'scripts/audit-competition-routes.mjs'
+      - '.github/workflows/competition-rules-audit.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/audit-competition-routes.mjs
