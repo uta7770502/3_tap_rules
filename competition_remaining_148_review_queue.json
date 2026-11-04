@@ -1,0 +1,2347 @@
+{
+  "schemaVersion": 1,
+  "disclaimer": "Candidate matches are NOT verified mappings; do not count toward completion.",
+  "totalUnmapped": 148,
+  "withSameSectionCandidates": 122,
+  "withoutSameSectionCandidates": 26,
+  "entries": [
+    {
+      "rule": 1,
+      "subruleId": "1.3a",
+      "officialHeading": "規則と競技の条件",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 1,
+          "title": "自分の罰は自分で適用する"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 1,
+      "subruleId": "1.3c",
+      "officialHeading": "罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 1,
+          "title": "自分の罰は自分で適用する"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 3,
+      "subruleId": "3.1",
+      "officialHeading": "すべての競技の基本要素",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 3,
+      "subruleId": "3.2a",
+      "officialHeading": "ホールとマッチの結果",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 47,
+          "title": "相手がホールをコンシードした"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 3,
+      "subruleId": "3.2c",
+      "officialHeading": "ハンディキャップマッチ",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 47,
+          "title": "相手がホールをコンシードした"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 3,
+      "subruleId": "3.3",
+      "officialHeading": "ストロークプレー",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 3,
+      "subruleId": "3.3a",
+      "officialHeading": "ストロークプレーの勝者",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 3,
+      "subruleId": "3.3c",
+      "officialHeading": "ホールアウトしなかった場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 4,
+      "subruleId": "4.1c",
+      "officialHeading": "クラブをプレーから除外する手続",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 3,
+          "title": "クラブは14本まで"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 4,
+      "subruleId": "4.2",
+      "officialHeading": "球",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 4,
+      "subruleId": "4.3b",
+      "officialHeading": "医療上の理由による用具",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 4,
+          "title": "距離計・機器を競技で使える？"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.2",
+      "officialHeading": "ラウンド前・ラウンド間の練習",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.2a",
+      "officialHeading": "マッチプレー",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.3",
+      "officialHeading": "ラウンドの開始と終了",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.3b",
+      "officialHeading": "ラウンド終了",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.4a",
+      "officialHeading": "マッチプレー",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 282,
+          "title": "ストロークプレーで別の組と一緒に回った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.5c",
+      "officialHeading": "プレー中断中の練習",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 51,
+          "title": "ホール間で練習パットした"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.6",
+      "officialHeading": "不当の遅延・速やかなプレー",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.7a",
+      "officialHeading": "プレーを止められる・止めなければならない場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 84,
+          "title": "雷でプレーを中断したい"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.7b",
+      "officialHeading": "委員会による中断時の対応",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 84,
+          "title": "雷でプレーを中断したい"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.7c",
+      "officialHeading": "プレー再開時の対応",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 84,
+          "title": "雷でプレーを中断したい"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 5,
+      "subruleId": "5.7d",
+      "officialHeading": "中断時の拾い上げ・再開時のリプレースと取り替え",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 84,
+          "title": "雷でプレーを中断したい"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.1",
+      "officialHeading": "ホールのプレーの開始",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.1a",
+      "officialHeading": "ホールが開始する時点",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.2",
+      "officialHeading": "ティーイングエリアからのプレー",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.2a",
+      "officialHeading": "ティーイングエリアの規則が適用されるとき",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.3",
+      "officialHeading": "ホールのプレーで使用する球",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.3d",
+      "officialHeading": "同時に複数の球をプレーできる場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.4c",
+      "officialHeading": "ティーイングエリアから暫定球等をプレーするとき",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 53,
+          "title": "順番を間違えて打った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 6,
+      "subruleId": "6.4d",
+      "officialHeading": "ティー以外から救済や暫定球をプレーするとき",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 53,
+          "title": "順番を間違えて打った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 7,
+      "subruleId": "7.1",
+      "officialHeading": "公平な球の捜索",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 7,
+      "subruleId": "7.1b",
+      "officialHeading": "捜索で砂が動いた場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 8,
+      "subruleId": "8.1d",
+      "officialHeading": "球停止後に悪化した状態の復元",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 54,
+          "title": "枝を曲げてスイング区域を作った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 8,
+      "subruleId": "8.2a",
+      "officialHeading": "規則8.2が適用されるとき",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 266,
+          "title": "他のプレーヤーの球に影響する状態を変えた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 8,
+      "subruleId": "8.2b",
+      "officialHeading": "その他の物理的状態を変える禁止行為",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 266,
+          "title": "他のプレーヤーの球に影響する状態を変えた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 8,
+      "subruleId": "8.3a",
+      "officialHeading": "規則8.3が適用されるとき",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 267,
+          "title": "次のストロークに影響する状態を意図的に変えた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 8,
+      "subruleId": "8.3b",
+      "officialHeading": "その他の物理的状態を変える禁止行為",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 267,
+          "title": "次のストロークに影響する状態を意図的に変えた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 9,
+      "subruleId": "9.1",
+      "officialHeading": "球はあるがままにプレー",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 9,
+      "subruleId": "9.4a",
+      "officialHeading": "リプレースが必要なとき",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 8,
+          "title": "自分の球を偶然動かした"
+        },
+        {
+          "caseId": 146,
+          "title": "キャディーが自分の球を偶然動かした"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 9,
+      "subruleId": "9.4b",
+      "officialHeading": "拾い上げ・故意の接触・移動の罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 8,
+          "title": "自分の球を偶然動かした"
+        },
+        {
+          "caseId": 146,
+          "title": "キャディーが自分の球を偶然動かした"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 10,
+      "subruleId": "10.1",
+      "officialHeading": "ストロークの方法",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 10,
+      "subruleId": "10.3a",
+      "officialHeading": "ラウンド中のキャディーによる援助",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 90,
+          "title": "キャディーは何をしてよい？"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 10,
+      "subruleId": "10.3b",
+      "officialHeading": "キャディーができること",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 90,
+          "title": "キャディーは何をしてよい？"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 10,
+      "subruleId": "10.3c",
+      "officialHeading": "キャディーの行為・違反への競技者の責任",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 90,
+          "title": "キャディーは何をしてよい？"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 11,
+      "subruleId": "11.2a",
+      "officialHeading": "適用条件",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 91,
+          "title": "動いている球を故意に止めた"
+        },
+        {
+          "caseId": 173,
+          "title": "動いている球を故意に足やクラブで止めた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 11,
+      "subruleId": "11.2b",
+      "officialHeading": "競技者に罰が適用される場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 91,
+          "title": "動いている球を故意に止めた"
+        },
+        {
+          "caseId": 173,
+          "title": "動いている球を故意に足やクラブで止めた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 11,
+      "subruleId": "11.2c",
+      "officialHeading": "故意に止められた球の処置",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 91,
+          "title": "動いている球を故意に止めた"
+        },
+        {
+          "caseId": 173,
+          "title": "動いている球を故意に足やクラブで止めた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 13,
+      "subruleId": "13.1",
+      "officialHeading": "グリーン上で認められる・必要な行為",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 13,
+      "subruleId": "13.1a",
+      "officialHeading": "球がグリーン上にある場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 13,
+      "subruleId": "13.1f",
+      "officialHeading": "目的外グリーンからの救済義務",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 13,
+      "subruleId": "13.2b",
+      "officialHeading": "旗竿を抜く",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 61,
+          "title": "旗竿を立てたままパットした"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 13,
+      "subruleId": "13.3b",
+      "officialHeading": "待機時間終了前に球が動かされた場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 94,
+          "title": "球がホールの縁にせり出している"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.1b",
+      "officialHeading": "球を拾い上げられる人",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 62,
+          "title": "球をマークせず拾い上げた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.2a",
+      "officialHeading": "元の球の使用",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 63,
+          "title": "リプレースする場所が分からない"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.2c",
+      "officialHeading": "リプレースする位置",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 63,
+          "title": "リプレースする場所が分からない"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.2d",
+      "officialHeading": "元のライが変わった場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 63,
+          "title": "リプレースする場所が分からない"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.3a",
+      "officialHeading": "元の球または別の球",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 11,
+          "title": "正しいドロップ方法"
+        },
+        {
+          "caseId": 64,
+          "title": "ドロップを肩の高さからした"
+        },
+        {
+          "caseId": 65,
+          "title": "ドロップした球が救済エリア外に止まった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.5a",
+      "officialHeading": "プレー前の誤り訂正",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 96,
+          "title": "間違ったドロップを打つ前に直したい"
+        },
+        {
+          "caseId": 178,
+          "title": "間違った球をドロップしたが打つ前に気づいた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.5b",
+      "officialHeading": "誤り訂正時の別規則・別救済選択",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 96,
+          "title": "間違ったドロップを打つ前に直したい"
+        },
+        {
+          "caseId": 178,
+          "title": "間違った球をドロップしたが打つ前に気づいた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.5c",
+      "officialHeading": "誤りの後に行った行為の罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 96,
+          "title": "間違ったドロップを打つ前に直したい"
+        },
+        {
+          "caseId": 178,
+          "title": "間違った球をドロップしたが打つ前に気づいた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.7a",
+      "officialHeading": "球をプレーすべき場所",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 66,
+          "title": "誤所からプレーした"
+        },
+        {
+          "caseId": 152,
+          "title": "救済を受けたが間違った場所から打ったかもしれない"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 14,
+      "subruleId": "14.7b",
+      "officialHeading": "ストロークプレーで誤所からプレーした後のホール完了",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 66,
+          "title": "誤所からプレーした"
+        },
+        {
+          "caseId": 152,
+          "title": "救済を受けたが間違った場所から打ったかもしれない"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 15,
+      "subruleId": "15.1a",
+      "officialHeading": "ルースインペディメントの除去",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 67,
+          "title": "落ち葉や石を動かしたら球も動いた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 15,
+      "subruleId": "15.1b",
+      "officialHeading": "除去時に球が動いた場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 67,
+          "title": "落ち葉や石を動かしたら球も動いた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 15,
+      "subruleId": "15.3a",
+      "officialHeading": "プレーを助けるグリーン上の球",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 97,
+          "title": "他の球やボールマーカーが邪魔"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 15,
+      "subruleId": "15.3c",
+      "officialHeading": "プレーを助け・妨げるマーカー",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 97,
+          "title": "他の球やボールマーカーが邪魔"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 16,
+      "subruleId": "16.1a",
+      "officialHeading": "救済が認められる場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 12,
+          "title": "カート道・修理地などからの救済"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 16,
+      "subruleId": "16.2a",
+      "officialHeading": "救済が認められる場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 98,
+          "title": "蜂や蛇が球の近くにいて危険"
+        },
+        {
+          "caseId": 184,
+          "title": "危険な蛇の近くに球があるがペナルティーエリア内"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 16,
+      "subruleId": "16.2b",
+      "officialHeading": "危険な動物からの救済",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 98,
+          "title": "蜂や蛇が球の近くにいて危険"
+        },
+        {
+          "caseId": 184,
+          "title": "危険な蛇の近くに球があるがペナルティーエリア内"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 16,
+      "subruleId": "16.3b",
+      "officialHeading": "地面にくい込んだ球の救済",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 13,
+          "title": "地面にくい込んだ球"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 17,
+      "subruleId": "17.1a",
+      "officialHeading": "球がペナルティーエリア内にある場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 14,
+          "title": "赤杭・黄杭に入った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 17,
+      "subruleId": "17.1b",
+      "officialHeading": "そのままプレーまたは罰あり救済",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 14,
+          "title": "赤杭・黄杭に入った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 17,
+      "subruleId": "17.1e",
+      "officialHeading": "プレー禁止区域からの救済義務",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 14,
+          "title": "赤杭・黄杭に入った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 17,
+      "subruleId": "17.2a",
+      "officialHeading": "同じ・別のペナルティーエリア内に止まった場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 99,
+          "title": "ペナルティーエリアから打った球がまた同じ区域へ入った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 17,
+      "subruleId": "17.2b",
+      "officialHeading": "紛失・OB・エリア外でアンプレヤブルの場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 99,
+          "title": "ペナルティーエリアから打った球がまた同じ区域へ入った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 19,
+      "subruleId": "19.2a",
+      "officialHeading": "ストロークと距離",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 17,
+          "title": "アンプレヤブルの3つの選択肢"
+        },
+        {
+          "caseId": 101,
+          "title": "球が木の上にあって取れない"
+        },
+        {
+          "caseId": 193,
+          "title": "木の上の球をアンプレヤブルにしたい"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 19,
+      "subruleId": "19.2b",
+      "officialHeading": "後方線上の救済",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 17,
+          "title": "アンプレヤブルの3つの選択肢"
+        },
+        {
+          "caseId": 101,
+          "title": "球が木の上にあって取れない"
+        },
+        {
+          "caseId": 193,
+          "title": "木の上の球をアンプレヤブルにしたい"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.1",
+      "officialHeading": "ラウンド中の規則問題の解決",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.1b",
+      "officialHeading": "マッチプレーの規則問題",
+      "kind": "individual_subrule",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.2a",
+      "officialHeading": "レフェリーによる裁定",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 19,
+          "title": "委員会の裁定"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.2b",
+      "officialHeading": "委員会による裁定",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 19,
+          "title": "委員会の裁定"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.2c",
+      "officialHeading": "ビデオ証拠と肉眼基準",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 19,
+          "title": "委員会の裁定"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.2d",
+      "officialHeading": "誤裁定と事務的誤り",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 19,
+          "title": "委員会の裁定"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.2e",
+      "officialHeading": "結果確定後の失格",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 19,
+          "title": "委員会の裁定"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 20,
+      "subruleId": "20.2f",
+      "officialHeading": "参加資格のない競技者",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 19,
+          "title": "委員会の裁定"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.1a",
+      "officialHeading": "概要",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 102,
+          "title": "ステーブルフォードの罰はどう扱う？"
+        },
+        {
+          "caseId": 204,
+          "title": "ステーブルフォードでホールアウトしなかった"
+        },
+        {
+          "caseId": 226,
+          "title": "ステーブルフォードで罰によりそのホール0点になった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.1b",
+      "officialHeading": "スコアリング",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 102,
+          "title": "ステーブルフォードの罰はどう扱う？"
+        },
+        {
+          "caseId": 204,
+          "title": "ステーブルフォードでホールアウトしなかった"
+        },
+        {
+          "caseId": 226,
+          "title": "ステーブルフォードで罰によりそのホール0点になった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.1c",
+      "officialHeading": "罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 102,
+          "title": "ステーブルフォードの罰はどう扱う？"
+        },
+        {
+          "caseId": 204,
+          "title": "ステーブルフォードでホールアウトしなかった"
+        },
+        {
+          "caseId": 226,
+          "title": "ステーブルフォードで罰によりそのホール0点になった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.1d",
+      "officialHeading": "規則11.2の例外",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 102,
+          "title": "ステーブルフォードの罰はどう扱う？"
+        },
+        {
+          "caseId": 204,
+          "title": "ステーブルフォードでホールアウトしなかった"
+        },
+        {
+          "caseId": 226,
+          "title": "ステーブルフォードで罰によりそのホール0点になった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.1e",
+      "officialHeading": "ラウンド終了時点",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 102,
+          "title": "ステーブルフォードの罰はどう扱う？"
+        },
+        {
+          "caseId": 204,
+          "title": "ステーブルフォードでホールアウトしなかった"
+        },
+        {
+          "caseId": 226,
+          "title": "ステーブルフォードで罰によりそのホール0点になった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.2a",
+      "officialHeading": "概要",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 103,
+          "title": "最大スコア方式で上限に達した"
+        },
+        {
+          "caseId": 203,
+          "title": "最大スコア方式で上限に達したので球を拾った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.2b",
+      "officialHeading": "スコアリング",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 103,
+          "title": "最大スコア方式で上限に達した"
+        },
+        {
+          "caseId": 203,
+          "title": "最大スコア方式で上限に達したので球を拾った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.2c",
+      "officialHeading": "罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 103,
+          "title": "最大スコア方式で上限に達した"
+        },
+        {
+          "caseId": 203,
+          "title": "最大スコア方式で上限に達したので球を拾った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.2d",
+      "officialHeading": "規則11.2の例外",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 103,
+          "title": "最大スコア方式で上限に達した"
+        },
+        {
+          "caseId": 203,
+          "title": "最大スコア方式で上限に達したので球を拾った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.2e",
+      "officialHeading": "ラウンド終了時点",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 103,
+          "title": "最大スコア方式で上限に達した"
+        },
+        {
+          "caseId": 203,
+          "title": "最大スコア方式で上限に達したので球を拾った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.3a",
+      "officialHeading": "概要",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 104,
+          "title": "パー／ボギー競技の勝敗計算"
+        },
+        {
+          "caseId": 227,
+          "title": "パー・ボギー競技で一般の罰を受けた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.3b",
+      "officialHeading": "スコアリング",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 104,
+          "title": "パー／ボギー競技の勝敗計算"
+        },
+        {
+          "caseId": 227,
+          "title": "パー・ボギー競技で一般の罰を受けた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.3c",
+      "officialHeading": "罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 104,
+          "title": "パー／ボギー競技の勝敗計算"
+        },
+        {
+          "caseId": 227,
+          "title": "パー・ボギー競技で一般の罰を受けた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.3d",
+      "officialHeading": "規則11.2の例外",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 104,
+          "title": "パー／ボギー競技の勝敗計算"
+        },
+        {
+          "caseId": 227,
+          "title": "パー・ボギー競技で一般の罰を受けた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.3e",
+      "officialHeading": "ラウンド終了時点",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 104,
+          "title": "パー／ボギー競技の勝敗計算"
+        },
+        {
+          "caseId": 227,
+          "title": "パー・ボギー競技で一般の罰を受けた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.4a",
+      "officialHeading": "概要",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 202,
+          "title": "スリーボールマッチで1球が別の相手にも影響した"
+        },
+        {
+          "caseId": 300,
+          "title": "3人で同時に別々のマッチをするスリーボール"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.4b",
+      "officialHeading": "プレー順違反",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 202,
+          "title": "スリーボールマッチで1球が別の相手にも影響した"
+        },
+        {
+          "caseId": 300,
+          "title": "3人で同時に別々のマッチをするスリーボール"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 21,
+      "subruleId": "21.4c",
+      "officialHeading": "一方の相手による球・マーカーの移動",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 202,
+          "title": "スリーボールマッチで1球が別の相手にも影響した"
+        },
+        {
+          "caseId": 300,
+          "title": "3人で同時に別々のマッチをするスリーボール"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 22,
+      "subruleId": "22.4a",
+      "officialHeading": "最初にプレーするパートナー",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 303,
+          "title": "フォアサムのスタート順を間違えた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 22,
+      "subruleId": "22.4b",
+      "officialHeading": "開始時間と開始場所",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 303,
+          "title": "フォアサムのスタート順を間違えた"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 23,
+      "subruleId": "23.2a",
+      "officialHeading": "マッチ・ストロークプレーでのサイドのスコア",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 106,
+          "title": "フォアボールで片方がホールアウトしなかった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 23,
+      "subruleId": "23.2c",
+      "officialHeading": "規則11.2が適用されない場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 106,
+          "title": "フォアボールで片方がホールアウトしなかった"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 23,
+      "subruleId": "23.3",
+      "officialHeading": "ラウンド・ホールの開始と終了",
+      "kind": "parent_heading",
+      "sameSectionCases": [],
+      "reviewStatus": "unverified",
+      "requiredAction": "review_official_text_and_create_case_if_needed"
+    },
+    {
+      "rule": 23,
+      "subruleId": "23.5a",
+      "officialHeading": "パートナーの球について許される行為",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 107,
+          "title": "パートナーの行為で罰を受ける？"
+        },
+        {
+          "caseId": 199,
+          "title": "フォアボールでパートナーが自分の球をマークして拾った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 23,
+      "subruleId": "23.5b",
+      "officialHeading": "パートナーの行為に対する責任",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 107,
+          "title": "パートナーの行為で罰を受ける？"
+        },
+        {
+          "caseId": 199,
+          "title": "フォアボールでパートナーが自分の球をマークして拾った"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 23,
+      "subruleId": "23.9a",
+      "officialHeading": "失格以外の罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 229,
+          "title": "フォアボールで一人が失格になった"
+        },
+        {
+          "caseId": 311,
+          "title": "フォアボールで1人の違反がパートナーにも影響する？"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 23,
+      "subruleId": "23.9b",
+      "officialHeading": "失格の罰",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 229,
+          "title": "フォアボールで一人が失格になった"
+        },
+        {
+          "caseId": 311,
+          "title": "フォアボールで1人の違反がパートナーにも影響する？"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 24,
+      "subruleId": "24.4a",
+      "officialHeading": "アドバイスを与えられる人",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 108,
+          "title": "チームのアドバイス係から助言を受けた"
+        },
+        {
+          "caseId": 230,
+          "title": "チームキャプテンからプレー中に助言を受けた"
+        },
+        {
+          "caseId": 312,
+          "title": "チーム競技でアドバイスを与える人が指定されている"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 24,
+      "subruleId": "24.4b",
+      "officialHeading": "プレー中のアドバイスギバーの制限",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 108,
+          "title": "チームのアドバイス係から助言を受けた"
+        },
+        {
+          "caseId": 230,
+          "title": "チームキャプテンからプレー中に助言を受けた"
+        },
+        {
+          "caseId": 312,
+          "title": "チーム競技でアドバイスを与える人が指定されている"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 24,
+      "subruleId": "24.4c",
+      "officialHeading": "パートナー以外のチームメンバー間のアドバイス禁止",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 108,
+          "title": "チームのアドバイス係から助言を受けた"
+        },
+        {
+          "caseId": 230,
+          "title": "チームキャプテンからプレー中に助言を受けた"
+        },
+        {
+          "caseId": 312,
+          "title": "チーム競技でアドバイスを与える人が指定されている"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2a",
+      "officialHeading": "補助者からの援助",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2b",
+      "officialHeading": "補助者は同時に1人",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2c",
+      "officialHeading": "狙いやスタンスを助ける物の設置",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2d",
+      "officialHeading": "ストローク前のキャディー等の後方位置",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2e",
+      "officialHeading": "キャディーに関する修正",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2f",
+      "officialHeading": "バンカーの砂への接触",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2g",
+      "officialHeading": "球を拾い上げられる人",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.2h",
+      "officialHeading": "ドロップ・プレース・リプレースの援助",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 109,
+          "title": "視覚障がいのあるプレーヤーの援助"
+        },
+        {
+          "caseId": 206,
+          "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた"
+        },
+        {
+          "caseId": 314,
+          "title": "視覚障害のあるプレーヤーが補助を受ける"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.3a",
+      "officialHeading": "義肢の取り扱い",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 110,
+          "title": "切断・義肢を使用するプレーヤー"
+        },
+        {
+          "caseId": 315,
+          "title": "切断・四肢欠損のあるプレーヤーが補助器具を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.3b",
+      "officialHeading": "クラブのアンカリング",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 110,
+          "title": "切断・義肢を使用するプレーヤー"
+        },
+        {
+          "caseId": 315,
+          "title": "切断・四肢欠損のあるプレーヤーが補助器具を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.3c",
+      "officialHeading": "ドロップ・プレース・リプレースの援助",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 110,
+          "title": "切断・義肢を使用するプレーヤー"
+        },
+        {
+          "caseId": 315,
+          "title": "切断・四肢欠損のあるプレーヤーが補助器具を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.3d",
+      "officialHeading": "リプレースの定義の修正",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 110,
+          "title": "切断・義肢を使用するプレーヤー"
+        },
+        {
+          "caseId": 315,
+          "title": "切断・四肢欠損のあるプレーヤーが補助器具を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4a",
+      "officialHeading": "補助者などからの援助",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4b",
+      "officialHeading": "補助者からのアドバイス",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4c",
+      "officialHeading": "補助者は同時に1人",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4d",
+      "officialHeading": "スタンスの定義の修正",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4e",
+      "officialHeading": "リプレースの定義の修正",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4f",
+      "officialHeading": "用具の使用",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4g",
+      "officialHeading": "移動補助器具を使ったスタンス",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4h",
+      "officialHeading": "クラブのアンカリング",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4i",
+      "officialHeading": "プレーの線をまたぐスタンス",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4j",
+      "officialHeading": "キャディーに関する修正",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4k",
+      "officialHeading": "動いている球と移動補助器具の接触",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4l",
+      "officialHeading": "バンカーの砂の状態のテスト",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4m",
+      "officialHeading": "車輪付き移動補助器具：ラテラル救済エリアの拡張",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.4n",
+      "officialHeading": "車輪付き移動補助器具：バンカー外へのアンプレヤブル救済",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 111,
+          "title": "移動補助器具を使うプレーヤー"
+        },
+        {
+          "caseId": 207,
+          "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル"
+        },
+        {
+          "caseId": 316,
+          "title": "移動補助器具を使用してプレーする"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.5a",
+      "officialHeading": "補助者または監督者の援助",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 317,
+          "title": "知的障害のあるプレーヤーが補助者を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.5b",
+      "officialHeading": "補助者は同時に1人",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 317,
+          "title": "知的障害のあるプレーヤーが補助者を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.5c",
+      "officialHeading": "キャディーに関する修正",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 317,
+          "title": "知的障害のあるプレーヤーが補助者を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.5d",
+      "officialHeading": "球を拾い上げられる人",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 317,
+          "title": "知的障害のあるプレーヤーが補助者を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.5e",
+      "officialHeading": "知的障害と身体障害の両方がある場合",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 317,
+          "title": "知的障害のあるプレーヤーが補助者を使う"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.6a",
+      "officialHeading": "不当の遅延",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 318,
+          "title": "障害区分に共通するペース・救済上の配慮を確認する"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    },
+    {
+      "rule": 25,
+      "subruleId": "25.6b",
+      "officialHeading": "ドロップ",
+      "kind": "individual_subrule",
+      "sameSectionCases": [
+        {
+          "caseId": 318,
+          "title": "障害区分に共通するペース・救済上の配慮を確認する"
+        }
+      ],
+      "reviewStatus": "unverified",
+      "requiredAction": "compare_official_text_and_existing_case"
+    }
+  ]
+}
