@@ -5,13 +5,14 @@
     "competition_rules.json",
     "competition_official_index.json",
     "competition_reviewed_subrule_links.json",
-    "competition_reviewed_subrule_links_batch2.json"
+    "competition_reviewed_subrule_links_batch2.json",
+    "competition_reviewed_subrule_links_batch3.json"
   ],
   "counts": {
     "cases": 331,
     "officialSubrules": 336,
-    "linked": 192,
-    "needsReview": 144
+    "linked": 196,
+    "needsReview": 140
   },
   "byRule": [
     {
@@ -35,14 +36,14 @@
     {
       "rule": 4,
       "total": 11,
-      "linked": 8,
-      "needsReview": 3
+      "linked": 9,
+      "needsReview": 2
     },
     {
       "rule": 5,
       "total": 22,
-      "linked": 11,
-      "needsReview": 11
+      "linked": 12,
+      "needsReview": 10
     },
     {
       "rule": 6,
@@ -95,8 +96,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 18,
-      "needsReview": 9
+      "linked": 19,
+      "needsReview": 8
     },
     {
       "rule": 15,
@@ -107,8 +108,8 @@
     {
       "rule": 16,
       "total": 14,
-      "linked": 10,
-      "needsReview": 4
+      "linked": 11,
+      "needsReview": 3
     },
     {
       "rule": 17,
@@ -412,7 +413,9 @@
       "rule": 4,
       "id": "4.1c",
       "title": "クラブをプレーから除外する手続",
-      "caseIds": []
+      "caseIds": [
+        3
+      ]
     },
     {
       "rule": 4,
@@ -604,7 +607,9 @@
       "rule": 5,
       "id": "5.7a",
       "title": "プレーを止められる・止めなければならない場合",
-      "caseIds": []
+      "caseIds": [
+        84
+      ]
     },
     {
       "rule": 5,
@@ -1507,7 +1512,9 @@
       "rule": 14,
       "id": "14.7a",
       "title": "球をプレーすべき場所",
-      "caseIds": []
+      "caseIds": [
+        66
+      ]
     },
     {
       "rule": 14,
@@ -1658,7 +1665,9 @@
       "rule": 16,
       "id": "16.2a",
       "title": "救済が認められる場合",
-      "caseIds": []
+      "caseIds": [
+        98
+      ]
     },
     {
       "rule": 16,
