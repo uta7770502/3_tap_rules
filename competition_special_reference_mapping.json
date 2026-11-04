@@ -1,0 +1,333 @@
+{
+  "generatedAt": "2026-11-04",
+  "sourceFile": "competition_rules.json",
+  "recordCount": 40,
+  "counts": {
+    "definition": 15,
+    "model_local_rule": 19,
+    "committee_procedure": 6
+  },
+  "records": [
+    {
+      "caseId": 112,
+      "title": "ジェネラルエリアとは？",
+      "kind": "definition",
+      "reference": "General Area",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 113,
+      "title": "完全救済のニアレストポイントとは？",
+      "kind": "definition",
+      "reference": "Nearest Point of Complete Relief",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 114,
+      "title": "救済エリアとは？",
+      "kind": "definition",
+      "reference": "Relief Area",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 115,
+      "title": "クラブレングスとは？",
+      "kind": "definition",
+      "reference": "Club-Length",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 116,
+      "title": "分かっている、または事実上確実とは？",
+      "kind": "definition",
+      "reference": "Known or Virtually Certain",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 117,
+      "title": "外的影響とは？",
+      "kind": "definition",
+      "reference": "Outside Influence",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 118,
+      "title": "ルースインペディメントとは？",
+      "kind": "definition",
+      "reference": "Loose Impediment",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 119,
+      "title": "障害物と境界物の違い",
+      "kind": "definition",
+      "reference": "Obstruction / Boundary Object",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 120,
+      "title": "インターナルOB",
+      "kind": "model_local_rule",
+      "reference": "A-4",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 121,
+      "title": "公道がコースを横切る場合のOB",
+      "kind": "model_local_rule",
+      "reference": "A-5",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 122,
+      "title": "OB・紛失球の2罰打前進救済",
+      "kind": "model_local_rule",
+      "reference": "E-5",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 123,
+      "title": "球を動かしたことに気付かなかった場合",
+      "kind": "model_local_rule",
+      "reference": "E-14",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 124,
+      "title": "地面にくい込んだ球の救済を制限・拡大",
+      "kind": "model_local_rule",
+      "reference": "F-2",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 125,
+      "title": "グリーン近くのスプリンクラー等からの救済",
+      "kind": "model_local_rule",
+      "reference": "F-5",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 126,
+      "title": "競技でカート使用が禁止されている",
+      "kind": "model_local_rule",
+      "reference": "G-6",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 127,
+      "title": "壊れたクラブの交換制限",
+      "kind": "model_local_rule",
+      "reference": "G-9",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 128,
+      "title": "グリーンリーディング資料の制限",
+      "kind": "model_local_rule",
+      "reference": "G-11",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 129,
+      "title": "競技前に必ず確認するもの",
+      "kind": "committee_procedure",
+      "reference": "委員会5",
+      "sourceSection": "Committee Procedures",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 130,
+      "title": "競技中にレフェリーを呼びたい",
+      "kind": "committee_procedure",
+      "reference": "委員会6",
+      "sourceSection": "Committee Procedures",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 131,
+      "title": "競技終了後にスコアや罰の問題が判明した",
+      "kind": "committee_procedure",
+      "reference": "委員会7",
+      "sourceSection": "Committee Procedures",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 132,
+      "title": "ローカルルールは公式規則より弱い？",
+      "kind": "committee_procedure",
+      "reference": "委員会8",
+      "sourceSection": "Committee Procedures",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 133,
+      "title": "規則にない特殊な競技形式",
+      "kind": "committee_procedure",
+      "reference": "委員会9",
+      "sourceSection": "Committee Procedures",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 208,
+      "title": "球の一部だけがOBラインの内側にある",
+      "kind": "definition",
+      "reference": "Out of Bounds",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 209,
+      "title": "球がペナルティーエリアの線に少し触れている",
+      "kind": "definition",
+      "reference": "Penalty Area",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 210,
+      "title": "球が救済エリアの線上に止まった",
+      "kind": "definition",
+      "reference": "Relief Area",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 215,
+      "title": "E-5採用競技でOB球が見つかった後に前進救済を使いたい",
+      "kind": "model_local_rule",
+      "reference": "E-5",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 217,
+      "title": "球がホールの内壁にくい込んだが全部はグリーン面より下でない",
+      "kind": "definition",
+      "reference": "Holed",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 219,
+      "title": "公開情報を言っただけなのにアドバイスになる？",
+      "kind": "definition",
+      "reference": "Advice",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 220,
+      "title": "素振りのつもりが球に当たった",
+      "kind": "definition",
+      "reference": "Stroke",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 221,
+      "title": "ダウンスイング中に打つのをやめたが球に当たった",
+      "kind": "definition",
+      "reference": "Stroke",
+      "sourceSection": "Definitions",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 231,
+      "title": "内部OBがティーショットだけに適用される",
+      "kind": "model_local_rule",
+      "reference": "A-4.2",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 232,
+      "title": "テレビ映像で後から自分が球を動かしたと判明した",
+      "kind": "model_local_rule",
+      "reference": "E-14",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 233,
+      "title": "競技でカート禁止なのに善意の送迎に乗った",
+      "kind": "model_local_rule",
+      "reference": "G-6",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 234,
+      "title": "G-9採用競技で5番アイアンが大きく壊れたのでドライバーに交換したい",
+      "kind": "model_local_rule",
+      "reference": "G-9",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 235,
+      "title": "G-9採用競技でバッグに持っていた部品を使ってクラブを修理した",
+      "kind": "model_local_rule",
+      "reference": "G-9",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 236,
+      "title": "他人の古いピッチマークに球が沈んだがテレビ中継競技ではない",
+      "kind": "model_local_rule",
+      "reference": "F-2",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 260,
+      "title": "スコアカードを提出済みとみなす時点",
+      "kind": "committee_procedure",
+      "reference": "Committee Procedure 5A(5)",
+      "sourceSection": "Committee Procedures",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 261,
+      "title": "特定ホールだけ内部OBが設定されている",
+      "kind": "model_local_rule",
+      "reference": "A-4.1/A-4.2",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 262,
+      "title": "壊れた・重大に損傷したクラブを交換したい",
+      "kind": "model_local_rule",
+      "reference": "G-9",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    },
+    {
+      "caseId": 263,
+      "title": "車輪付き移動機器を使うプレーヤーのバンカー付近の救済",
+      "kind": "model_local_rule",
+      "reference": "M-4",
+      "sourceSection": "Model Local Rules",
+      "status": "mapping_only_not_officially_verified"
+    }
+  ],
+  "warning": "参照分類のみ。公式本文・MLRの採用状況・委員会手続の適用確認は未了。officialSubruleIdsへ定義やMLRを混在させない。"
+}
