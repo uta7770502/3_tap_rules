@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 426,
+    "cases": 428,
     "officialSubrules": 336,
-    "linked": 307,
-    "needsReview": 29
+    "linked": 309,
+    "needsReview": 27
   },
   "byRule": [
     {
@@ -153,8 +153,8 @@
     {
       "rule": 23,
       "total": 19,
-      "linked": 12,
-      "needsReview": 7
+      "linked": 14,
+      "needsReview": 5
     },
     {
       "rule": 24,
@@ -2379,7 +2379,9 @@
       "rule": 23,
       "id": "23.2a",
       "title": "マッチ・ストロークプレーでのサイドのスコア",
-      "caseIds": []
+      "caseIds": [
+        427
+      ]
     },
     {
       "rule": 23,
@@ -2446,7 +2448,9 @@
       "rule": 23,
       "id": "23.5a",
       "title": "パートナーの球について許される行為",
-      "caseIds": []
+      "caseIds": [
+        428
+      ]
     },
     {
       "rule": 23,
