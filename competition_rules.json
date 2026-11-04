@@ -106,7 +106,8 @@
     "procedure": "遅刻・早着の時間と事情を確認し、プレー前に委員会へ申告。",
     "keywords": "遅刻 スタート 失格",
     "officialSubruleIds": [
-      "5.3a"
+      "5.3a",
+      "5.3"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
   },
@@ -402,7 +403,8 @@
     "procedure": "決める前に要件を確認→どちらの球を採用したいか示す→2球でホールアウト→スコア提出前に委員会へ報告。",
     "keywords": "2球 裁定 分からない 委員会",
     "officialSubruleIds": [
-      "20.1c"
+      "20.1c",
+      "20.1"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
@@ -1106,7 +1108,8 @@
     "procedure": "競技条件とローカルルールを確認し、練習した内容・場所を委員会へ申告。",
     "keywords": "練習 競技前 ストロークプレー",
     "officialSubruleIds": [
-      "5.2b"
+      "5.2b",
+      "5.2"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
   },
@@ -1838,7 +1841,8 @@
     "procedure": "遅れの理由と競技のペース方針を確認し、速やかにプレーを再開。",
     "keywords": "スロープレー 遅延 ペース",
     "officialSubruleIds": [
-      "5.6a"
+      "5.6a",
+      "5.6"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
   },
@@ -1905,7 +1909,8 @@
     "procedure": "救済など取り替え可能な場面か、同じ球をリプレースすべき場面か確認。",
     "keywords": "球 取り替え 交換",
     "officialSubruleIds": [
-      "6.3a"
+      "6.3a",
+      "6.3"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-6"
   },
@@ -3217,7 +3222,8 @@
     "penalty": "追加罰なし。ストロークは1打だけ数える。",
     "keywords": "二度打ち 2度打ち ２度打ち 二回当たった 2回当たった ２回当たった ダブルヒット ダブルタッチ",
     "officialSubruleIds": [
-      "10.1a"
+      "10.1a",
+      "10.1"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10",
     "summary": "同じ1回のストローク中にクラブが偶然2回以上球に当たったケースです。",
@@ -5887,7 +5893,8 @@
       "ストロークプレー"
     ],
     "officialSubruleIds": [
-      "3.1a"
+      "3.1a",
+      "3.1"
     ],
     "category": "基本・競技",
     "description": "規則3.1a：マッチプレーはホールごとに相手と直接競い、勝ったホール数と負けたホール数の差で結果を決める。ストロークプレーは原則として各ホールのストローク数と罰打の合計で競う。一般の罰はマッチプレーでホールの負け、ストロークプレーで2罰打となるが、個別規則の例外がある。",
@@ -6108,7 +6115,8 @@
       "パートナー"
     ],
     "officialSubruleIds": [
-      "23.3a"
+      "23.3a",
+      "23.3"
     ],
     "category": "チーム・競技形式",
     "description": "フォアボールのサイドのラウンドは、いずれかのパートナーが最初のホールを始めるストロークをした時点で始まる。両者が同時に開始する必要はなく、一方だけでプレーを開始できる。",
@@ -6262,7 +6270,8 @@
     ],
     "keywords": "ストロークプレーの勝者を決める",
     "officialSubruleIds": [
-      "3.3a"
+      "3.3a",
+      "3.3"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
   },
