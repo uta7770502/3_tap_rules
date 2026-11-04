@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "policy": "Only mark verified after checking the official R&A/USGA rule text for all of summary, action, penalty and exceptions. Editing a case does not constitute verification.",
   "total": 442,
-  "verified": 22,
-  "pending": 420,
+  "verified": 25,
+  "pending": 417,
   "cases": [
     {
       "id": 1,
@@ -2772,28 +2772,28 @@
       "id": 308,
       "rule": "23.6",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A 23.6: either partner may play when side's turn; conceded stroke exception."
     },
     {
       "id": 309,
       "rule": "23.7",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A 23.7, 4.1b, 23.9a(2): combined 14-club limit and penalty application."
     },
     {
       "id": 310,
       "rule": "23.8",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A 23.8: standing behind partner for next-stroke information prohibited; general penalty."
     },
     {
       "id": 311,
