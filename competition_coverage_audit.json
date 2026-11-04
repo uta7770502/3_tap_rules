@@ -12,17 +12,17 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 364,
+    "cases": 374,
     "officialSubrules": 336,
-    "linked": 245,
-    "needsReview": 91
+    "linked": 255,
+    "needsReview": 81
   },
   "byRule": [
     {
       "rule": 1,
       "total": 8,
-      "linked": 6,
-      "needsReview": 2
+      "linked": 8,
+      "needsReview": 0
     },
     {
       "rule": 2,
@@ -33,20 +33,20 @@
     {
       "rule": 3,
       "total": 13,
-      "linked": 7,
-      "needsReview": 6
+      "linked": 11,
+      "needsReview": 2
     },
     {
       "rule": 4,
       "total": 11,
-      "linked": 9,
-      "needsReview": 2
+      "linked": 11,
+      "needsReview": 0
     },
     {
       "rule": 5,
       "total": 22,
-      "linked": 12,
-      "needsReview": 10
+      "linked": 14,
+      "needsReview": 8
     },
     {
       "rule": 6,
@@ -217,7 +217,9 @@
       "rule": 1,
       "id": "1.3a",
       "title": "規則と競技の条件",
-      "caseIds": []
+      "caseIds": [
+        365
+      ]
     },
     {
       "rule": 1,
@@ -231,7 +233,9 @@
       "rule": 1,
       "id": "1.3c",
       "title": "罰",
-      "caseIds": []
+      "caseIds": [
+        366
+      ]
     },
     {
       "rule": 2,
@@ -335,7 +339,9 @@
       "rule": 3,
       "id": "3.2a",
       "title": "ホールとマッチの結果",
-      "caseIds": []
+      "caseIds": [
+        367
+      ]
     },
     {
       "rule": 3,
@@ -349,7 +355,9 @@
       "rule": 3,
       "id": "3.2c",
       "title": "ハンディキャップマッチ",
-      "caseIds": []
+      "caseIds": [
+        368
+      ]
     },
     {
       "rule": 3,
@@ -369,7 +377,9 @@
       "rule": 3,
       "id": "3.3a",
       "title": "ストロークプレーの勝者",
-      "caseIds": []
+      "caseIds": [
+        369
+      ]
     },
     {
       "rule": 3,
@@ -385,7 +395,9 @@
       "rule": 3,
       "id": "3.3c",
       "title": "ホールアウトしなかった場合",
-      "caseIds": []
+      "caseIds": [
+        370
+      ]
     },
     {
       "rule": 4,
@@ -424,7 +436,9 @@
       "rule": 4,
       "id": "4.2",
       "title": "球",
-      "caseIds": []
+      "caseIds": [
+        371
+      ]
     },
     {
       "rule": 4,
@@ -474,7 +488,9 @@
       "rule": 4,
       "id": "4.3b",
       "title": "医療上の理由による用具",
-      "caseIds": []
+      "caseIds": [
+        372
+      ]
     },
     {
       "rule": 5,
@@ -494,7 +510,9 @@
       "rule": 5,
       "id": "5.2a",
       "title": "マッチプレー",
-      "caseIds": []
+      "caseIds": [
+        373
+      ]
     },
     {
       "rule": 5,
@@ -522,7 +540,9 @@
       "rule": 5,
       "id": "5.3b",
       "title": "ラウンド終了",
-      "caseIds": []
+      "caseIds": [
+        374
+      ]
     },
     {
       "rule": 5,
