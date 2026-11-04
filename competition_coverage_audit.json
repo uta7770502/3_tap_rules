@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 435,
+    "cases": 436,
     "officialSubrules": 336,
-    "linked": 316,
-    "needsReview": 20
+    "linked": 317,
+    "needsReview": 19
   },
   "byRule": [
     {
@@ -117,8 +117,8 @@
     {
       "rule": 17,
       "total": 10,
-      "linked": 7,
-      "needsReview": 3
+      "linked": 8,
+      "needsReview": 2
     },
     {
       "rule": 18,
@@ -1848,7 +1848,9 @@
       "rule": 17,
       "id": "17.1e",
       "title": "プレー禁止区域からの救済義務",
-      "caseIds": []
+      "caseIds": [
+        436
+      ]
     },
     {
       "rule": 17,
