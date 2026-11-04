@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 441,
+    "cases": 442,
     "officialSubrules": 336,
-    "linked": 322,
-    "needsReview": 14
+    "linked": 323,
+    "needsReview": 13
   },
   "byRule": [
     {
@@ -63,8 +63,8 @@
     {
       "rule": 8,
       "total": 11,
-      "linked": 10,
-      "needsReview": 1
+      "linked": 11,
+      "needsReview": 0
     },
     {
       "rule": 9,
@@ -895,7 +895,9 @@
       "rule": 8,
       "id": "8.2a",
       "title": "規則8.2が適用されるとき",
-      "caseIds": []
+      "caseIds": [
+        442
+      ]
     },
     {
       "rule": 8,
