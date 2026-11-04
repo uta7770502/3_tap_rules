@@ -61,7 +61,8 @@
     "procedure": "スタート前に本数確認。違反に気付いたら超過クラブを直ちにプレーから除外する手続きを行う。",
     "keywords": "クラブ 14本 用具",
     "officialSubruleIds": [
-      "4.1"
+      "4.1",
+      "4.1c"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
   },
@@ -330,7 +331,8 @@
     "procedure": "1罰打を加え、直前のストロークを行った場所から球をプレー。暫定球があれば条件を確認。",
     "keywords": "OB 紛失 ロスト 3分",
     "officialSubruleIds": [
-      "18.2"
+      "18.2",
+      "18.2b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
   },
@@ -374,7 +376,9 @@
     "procedure": "ストロークと距離／後方線上／ラテラル救済から選択。",
     "keywords": "アンプレヤブル 救済 2クラブ",
     "officialSubruleIds": [
-      "19.2"
+      "19.2",
+      "19.2a",
+      "19.2b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19"
   },
@@ -1123,7 +1127,8 @@
     "procedure": "直前グリーン、次のティー、練習グリーン等かを確認し、当日のローカルルールも確認。",
     "keywords": "練習パット ホール間 ローカルルール",
     "officialSubruleIds": [
-      "5.5"
+      "5.5",
+      "5.5b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
   },
@@ -1387,7 +1392,8 @@
     "procedure": "元の箇所を合理的に推定し、その箇所へ球をリプレース。",
     "keywords": "リプレース 場所 推定",
     "officialSubruleIds": [
-      "14.2"
+      "14.2",
+      "14.2c"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
@@ -1850,7 +1856,8 @@
     "procedure": "危険ならプレーを止め、委員会へ報告。中断・再開の合図と場所を確認。",
     "keywords": "雷 中断 サスペンデッド",
     "officialSubruleIds": [
-      "5.7"
+      "5.7",
+      "5.7a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
   },
@@ -2115,7 +2122,8 @@
     "procedure": "誤りに気付いたらプレーせず、正しい規則に従って球を処置し直す。",
     "keywords": "訂正 ドロップ 打つ前",
     "officialSubruleIds": [
-      "14.5"
+      "14.5",
+      "14.5a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
@@ -2291,7 +2299,8 @@
     "procedure": "競技条件の目標スコアとハンディキャップ適用を確認。",
     "keywords": "パー競技 ボギー競技 競技形式",
     "officialSubruleIds": [
-      "21.3"
+      "21.3",
+      "21.3b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   },
@@ -3992,7 +4001,8 @@
     "penalty": "競技条件に従えば失格にはならない。",
     "keywords": "最大スコア 上限 拾った ホールアウト",
     "officialSubruleIds": [
-      "21.2"
+      "21.2",
+      "21.2b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
     "summary": "競技条件の最大スコア設定を確認します。",
@@ -4008,7 +4018,8 @@
     "penalty": "そのホールは0ポイントになるなど方式に従う。",
     "keywords": "ステーブルフォード ホールアウト しない 0点",
     "officialSubruleIds": [
-      "21.1"
+      "21.1",
+      "21.1b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
     "summary": "得点計算と競技条件を確認します。",
@@ -4337,7 +4348,8 @@
     "penalty": "違反ごとのステーブルフォード修正罰。",
     "keywords": "ステーブルフォード 罰 0点 ポイント",
     "officialSubruleIds": [
-      "21.1"
+      "21.1",
+      "21.1c"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
     "summary": "どの違反の罰かを確認してRule 21.1の修正規則を適用します。",
@@ -4353,7 +4365,8 @@
     "penalty": "該当違反とRule 21.3に従う。",
     "keywords": "パー競技 ボギー競技 一般の罰",
     "officialSubruleIds": [
-      "21.3"
+      "21.3",
+      "21.3c"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
     "summary": "違反規則を特定してRule 21.3の修正を確認します。",
@@ -5227,7 +5240,8 @@
     "penalty": "違反は失格。",
     "keywords": "Rule5 組 グループ 別組 失格",
     "officialSubruleIds": [
-      "5.4"
+      "5.4",
+      "5.4b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5",
     "summary": "ストロークプレーではラウンド中、委員会が定めた組でプレーしなければならない。ただし委員会が変更を承認した場合を除く。",
@@ -5387,7 +5401,10 @@
     "penalty": "誤所からプレーすればRule 14.7を確認。",
     "keywords": "Rule14 前の場所 打ち直し ストロークと距離",
     "officialSubruleIds": [
-      "14.6"
+      "14.6",
+      "14.6a",
+      "14.6b",
+      "14.6c"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14",
     "summary": "ストロークと距離などで前の場所から再プレーする場合、直前のストロークを行ったコースエリアによって球をプレーする方法が異なる。",
@@ -5515,7 +5532,8 @@
     "penalty": "各マッチに適用される規則に従う。",
     "keywords": "Rule21 スリーボール 3人 マッチプレー",
     "officialSubruleIds": [
-      "21.4"
+      "21.4",
+      "21.4a"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21",
     "summary": "スリーボール・マッチプレーでは3人が同じ組でプレーするが、各プレーヤーは他の2人とそれぞれ独立したマッチを行う。",
