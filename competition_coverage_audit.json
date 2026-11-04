@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 433,
+    "cases": 435,
     "officialSubrules": 336,
-    "linked": 314,
-    "needsReview": 22
+    "linked": 316,
+    "needsReview": 20
   },
   "byRule": [
     {
@@ -159,8 +159,8 @@
     {
       "rule": 24,
       "total": 7,
-      "linked": 5,
-      "needsReview": 2
+      "linked": 7,
+      "needsReview": 0
     },
     {
       "rule": 25,
@@ -2558,13 +2558,17 @@
       "rule": 24,
       "id": "24.4b",
       "title": "プレー中のアドバイスギバーの制限",
-      "caseIds": []
+      "caseIds": [
+        434
+      ]
     },
     {
       "rule": 24,
       "id": "24.4c",
       "title": "パートナー以外のチームメンバー間のアドバイス禁止",
-      "caseIds": []
+      "caseIds": [
+        435
+      ]
     },
     {
       "rule": 25,
