@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 439,
+    "cases": 441,
     "officialSubrules": 336,
-    "linked": 320,
-    "needsReview": 16
+    "linked": 322,
+    "needsReview": 14
   },
   "byRule": [
     {
@@ -81,8 +81,8 @@
     {
       "rule": 11,
       "total": 8,
-      "linked": 6,
-      "needsReview": 2
+      "linked": 8,
+      "needsReview": 0
     },
     {
       "rule": 12,
@@ -1218,13 +1218,17 @@
       "rule": 11,
       "id": "11.2b",
       "title": "競技者に罰が適用される場合",
-      "caseIds": []
+      "caseIds": [
+        440
+      ]
     },
     {
       "rule": 11,
       "id": "11.2c",
       "title": "故意に止められた球の処置",
-      "caseIds": []
+      "caseIds": [
+        441
+      ]
     },
     {
       "rule": 11,
