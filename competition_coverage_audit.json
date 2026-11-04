@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 414,
+    "cases": 415,
     "officialSubrules": 336,
-    "linked": 295,
-    "needsReview": 41
+    "linked": 296,
+    "needsReview": 40
   },
   "byRule": [
     {
@@ -135,8 +135,8 @@
     {
       "rule": 20,
       "total": 12,
-      "linked": 10,
-      "needsReview": 2
+      "linked": 11,
+      "needsReview": 1
     },
     {
       "rule": 21,
@@ -1969,7 +1969,7 @@
       "rule": 20,
       "id": "20.1b",
       "title": "マッチプレーの規則問題",
-      "caseIds": []
+      "caseIds": [415]
     },
     {
       "rule": 20,
