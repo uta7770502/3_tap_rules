@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-11-04",
+  "scope": "Rules 1 and 2 only",
+  "method": "Compared official R&A section heading IDs with exact officialSubruleIds values; parent-rule references do not count as subrule matches.",
+  "results": [
+    {
+      "rule": 1,
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-1",
+      "officialSections": 8,
+      "exactReferenced": 6,
+      "unreferenced": [
+        "1.2",
+        "1.3c"
+      ],
+      "sections": [
+        {
+          "ref": "1.1",
+          "caseIds": [
+            271
+          ]
+        },
+        {
+          "ref": "1.2",
+          "caseIds": []
+        },
+        {
+          "ref": "1.2a",
+          "caseIds": [
+            76
+          ]
+        },
+        {
+          "ref": "1.2b",
+          "caseIds": [
+            272
+          ]
+        },
+        {
+          "ref": "1.3",
+          "caseIds": [
+            1
+          ]
+        },
+        {
+          "ref": "1.3a",
+          "caseIds": [
+            365
+          ]
+        },
+        {
+          "ref": "1.3b",
+          "caseIds": [
+            77
+          ]
+        },
+        {
+          "ref": "1.3c",
+          "caseIds": []
+        }
+      ],
+      "status": "official_heading_list_checked_case_content_not_verified"
+    },
+    {
+      "rule": 2,
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-2",
+      "officialSections": 7,
+      "exactReferenced": 4,
+      "unreferenced": [
+        "2.2",
+        "2.2c",
+        "2.3"
+      ],
+      "sections": [
+        {
+          "ref": "2.1",
+          "caseIds": [
+            78
+          ]
+        },
+        {
+          "ref": "2.2",
+          "caseIds": []
+        },
+        {
+          "ref": "2.2a",
+          "caseIds": [
+            273
+          ]
+        },
+        {
+          "ref": "2.2b",
+          "caseIds": [
+            273
+          ]
+        },
+        {
+          "ref": "2.2c",
+          "caseIds": []
+        },
+        {
+          "ref": "2.3",
+          "caseIds": []
+        },
+        {
+          "ref": "2.4",
+          "caseIds": [
+            79,
+            216
+          ]
+        }
+      ],
+      "status": "official_heading_list_checked_case_content_not_verified"
+    }
+  ],
+  "notes": [
+    "未参照は直接のケース参照がない意味であり、内容の欠落確定ではない。",
+    "Rule 3-25はまだ公式見出しとの突合未実施。",
+    "公式本文の説明・罰則の一致は未検証。"
+  ]
+}
