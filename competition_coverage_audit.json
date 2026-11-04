@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 402,
+    "cases": 403,
     "officialSubrules": 336,
-    "linked": 283,
-    "needsReview": 53
+    "linked": 284,
+    "needsReview": 52
   },
   "byRule": [
     {
@@ -105,8 +105,8 @@
     {
       "rule": 15,
       "total": 10,
-      "linked": 8,
-      "needsReview": 2
+      "linked": 9,
+      "needsReview": 1
     },
     {
       "rule": 16,
@@ -1623,7 +1623,7 @@
       "rule": 15,
       "id": "15.3a",
       "title": "プレーを助けるグリーン上の球",
-      "caseIds": []
+      "caseIds": [403]
     },
     {
       "rule": 15,
