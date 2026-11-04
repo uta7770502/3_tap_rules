@@ -1,0 +1,107 @@
+[
+  {
+    "id": 375,
+    "rule": "5.7b",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "危険な状況での即時中断",
+    "summary": "委員会が危険による即時中断を宣言した場合は直ちにプレーを止める。",
+    "description": "委員会が危険による即時中断を宣言した場合は直ちにプレーを止める。",
+    "action": "適用条件を確認し、該当規則に従って対応する。",
+    "procedure": "適用条件を確認し、該当規則に従って対応する。",
+    "penalty": "具体的な違反内容に応じて判定。",
+    "keys": [
+      "5.7b",
+      "危険な状況での即時中断"
+    ],
+    "keywords": "危険な状況での即時中断",
+    "officialSubruleIds": [
+      "5.7b"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 376,
+    "rule": "6.1a",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "ホールの開始",
+    "summary": "ティーイングエリアからそのホールをプレーするためにストロークしたときにホールが始まる。",
+    "description": "ティーイングエリアからそのホールをプレーするためにストロークしたときにホールが始まる。",
+    "action": "適用条件を確認し、該当規則に従って対応する。",
+    "procedure": "適用条件を確認し、該当規則に従って対応する。",
+    "penalty": "具体的な違反内容に応じて判定。",
+    "keys": [
+      "6.1a",
+      "ホールの開始"
+    ],
+    "keywords": "ホールの開始",
+    "officialSubruleIds": [
+      "6.1a"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 377,
+    "rule": "6.3d",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "2つの球のプレー",
+    "summary": "暫定球や規則20.1c(3)による2球のプレーなど、認められる例外がある。",
+    "description": "暫定球や規則20.1c(3)による2球のプレーなど、認められる例外がある。",
+    "action": "適用条件を確認し、該当規則に従って対応する。",
+    "procedure": "適用条件を確認し、該当規則に従って対応する。",
+    "penalty": "具体的な違反内容に応じて判定。",
+    "keys": [
+      "6.3d",
+      "2つの球のプレー"
+    ],
+    "keywords": "2つの球のプレー",
+    "officialSubruleIds": [
+      "6.3d"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 378,
+    "rule": "7.1b",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "砂の中の球の捜索",
+    "summary": "捜索で動かした砂は原則復元する。球の一部を見える状態に残すことは認められる。",
+    "description": "捜索で動かした砂は原則復元する。球の一部を見える状態に残すことは認められる。",
+    "action": "適用条件を確認し、該当規則に従って対応する。",
+    "procedure": "適用条件を確認し、該当規則に従って対応する。",
+    "penalty": "具体的な違反内容に応じて判定。",
+    "keys": [
+      "7.1b",
+      "砂の中の球の捜索"
+    ],
+    "keywords": "砂の中の球の捜索",
+    "officialSubruleIds": [
+      "7.1b"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  },
+  {
+    "id": 379,
+    "rule": "10.3a",
+    "cat": "競技ルール",
+    "category": "競技ルール",
+    "title": "キャディーの人数",
+    "summary": "ラウンド中、同時に複数のキャディーを使うことはできない。",
+    "description": "ラウンド中、同時に複数のキャディーを使うことはできない。",
+    "action": "適用条件を確認し、該当規則に従って対応する。",
+    "procedure": "適用条件を確認し、該当規則に従って対応する。",
+    "penalty": "具体的な違反内容に応じて判定。",
+    "keys": [
+      "10.3a",
+      "キャディーの人数"
+    ],
+    "keywords": "キャディーの人数",
+    "officialSubruleIds": [
+      "10.3a"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf"
+  }
+]
