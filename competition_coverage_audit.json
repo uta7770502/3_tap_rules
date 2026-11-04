@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 352,
+    "cases": 364,
     "officialSubrules": 336,
-    "linked": 233,
-    "needsReview": 103
+    "linked": 245,
+    "needsReview": 91
   },
   "byRule": [
     {
@@ -165,8 +165,8 @@
     {
       "rule": 25,
       "total": 39,
-      "linked": 27,
-      "needsReview": 12
+      "linked": 39,
+      "needsReview": 0
     }
   ],
   "rows": [
@@ -2482,7 +2482,9 @@
       "rule": 25,
       "id": "25.2e",
       "title": "キャディーに関する修正",
-      "caseIds": []
+      "caseIds": [
+        353
+      ]
     },
     {
       "rule": 25,
@@ -2563,13 +2565,17 @@
       "rule": 25,
       "id": "25.4a",
       "title": "補助者などからの援助",
-      "caseIds": []
+      "caseIds": [
+        354
+      ]
     },
     {
       "rule": 25,
       "id": "25.4b",
       "title": "補助者からのアドバイス",
-      "caseIds": []
+      "caseIds": [
+        355
+      ]
     },
     {
       "rule": 25,
@@ -2599,7 +2605,9 @@
       "rule": 25,
       "id": "25.4f",
       "title": "用具の使用",
-      "caseIds": []
+      "caseIds": [
+        356
+      ]
     },
     {
       "rule": 25,
@@ -2613,19 +2621,25 @@
       "rule": 25,
       "id": "25.4h",
       "title": "クラブのアンカリング",
-      "caseIds": []
+      "caseIds": [
+        357
+      ]
     },
     {
       "rule": 25,
       "id": "25.4i",
       "title": "プレーの線をまたぐスタンス",
-      "caseIds": []
+      "caseIds": [
+        358
+      ]
     },
     {
       "rule": 25,
       "id": "25.4j",
       "title": "キャディーに関する修正",
-      "caseIds": []
+      "caseIds": [
+        359
+      ]
     },
     {
       "rule": 25,
@@ -2671,7 +2685,9 @@
       "rule": 25,
       "id": "25.5a",
       "title": "補助者または監督者の援助",
-      "caseIds": []
+      "caseIds": [
+        360
+      ]
     },
     {
       "rule": 25,
@@ -2685,7 +2701,9 @@
       "rule": 25,
       "id": "25.5c",
       "title": "キャディーに関する修正",
-      "caseIds": []
+      "caseIds": [
+        361
+      ]
     },
     {
       "rule": 25,
@@ -2699,7 +2717,9 @@
       "rule": 25,
       "id": "25.5e",
       "title": "知的障害と身体障害の両方がある場合",
-      "caseIds": []
+      "caseIds": [
+        362
+      ]
     },
     {
       "rule": 25,
@@ -2713,13 +2733,17 @@
       "rule": 25,
       "id": "25.6a",
       "title": "不当の遅延",
-      "caseIds": []
+      "caseIds": [
+        363
+      ]
     },
     {
       "rule": 25,
       "id": "25.6b",
       "title": "ドロップ",
-      "caseIds": []
+      "caseIds": [
+        364
+      ]
     }
   ],
   "completionVerified": false
