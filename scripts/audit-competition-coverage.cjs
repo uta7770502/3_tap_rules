@@ -38,12 +38,33 @@ const errors=[
   ...groups.filter(g=>!(Number(g.rule)>=1&&Number(g.rule)<=25)).map(g=>"invalid Rule:"+g.rule),
   ...cases.filter(c=>!ruleOf(c.rule)&&!/^(?:MLR|Clarification|Committee)/i.test(String(c.rule))).map(c=>"unrecognized case rule:"+c.id)
 ];
+// Validate content integrity separately from official-rule correctness.
+const caseContentErrors=cases.flatMap(c=>{
+  const issues=[];
+  for(const field of ["id","rule","title","summary","action","penalty"]){
+    if(c[field]===undefined||c[field]===null||String(c[field]).trim()==="")issues.push("case "+c.id+": empty "+field);
+  }
+  if(!Number.isInteger(c.id)||c.id<=0)issues.push("case "+c.id+": invalid numeric ID");
+  if(c.officialSubruleIds!==undefined&&!Array.isArray(c.officialSubruleIds))issues.push("case "+c.id+": officialSubruleIds must be array");
+  if(Array.isArray(c.officialSubruleIds)){
+    const seen=new Set();
+    for(const id of c.officialSubruleIds){
+      const key=norm(id);
+      if(!key)issues.push("case "+c.id+": empty official subrule ID");
+      if(seen.has(key))issues.push("case "+c.id+": duplicate official subrule ID "+id);
+      seen.add(key);
+    }
+  }
+  return issues;
+});
+errors.push(...caseContentErrors);
 const report={
   auditType:"structural-only",
   disclaimer:"Heading presence and exact subrule-to-case references are NOT substantive Rules verification. UI end-to-end checks must run separately.",
   counts:{cases:cases.length,ruleGroups:groups.length,subrules:subrules.length,definitions:(index.definitions||[]).length,clarifications:(index.clarifications||[]).length,definitionClarifications:(index.definitionClarifications||[]).length,modelLocalRules:(index.modelLocalRules||[]).length,committeeProcedureItems:(index.committeeProcedureItems||[]).length},
   mapping:{method:"exact case.rule or explicit officialSubruleIds only",mapped:mapped.length-missing.length,unmapped:missing.length,unmappedItems:missing},
   errors,
+  contentIntegrity:{checkedCases:cases.length,issues:caseContentErrors},
   gates:{structure:errors.length===0&&groups.length===25,subruleCaseMapping:missing.length===0,officialTextVerified:false,uiEndToEndVerified:false,complete:false}
 };
 // Static navigation checks do not replace browser end-to-end tests.
