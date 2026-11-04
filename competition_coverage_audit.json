@@ -4,13 +4,14 @@
   "sourceFiles": [
     "competition_rules.json",
     "competition_official_index.json",
-    "competition_reviewed_subrule_links.json"
+    "competition_reviewed_subrule_links.json",
+    "competition_reviewed_subrule_links_batch2.json"
   ],
   "counts": {
     "cases": 331,
     "officialSubrules": 336,
-    "linked": 188,
-    "needsReview": 148
+    "linked": 192,
+    "needsReview": 144
   },
   "byRule": [
     {
@@ -64,8 +65,8 @@
     {
       "rule": 9,
       "total": 17,
-      "linked": 14,
-      "needsReview": 3
+      "linked": 16,
+      "needsReview": 1
     },
     {
       "rule": 10,
@@ -94,14 +95,14 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 17,
-      "needsReview": 10
+      "linked": 18,
+      "needsReview": 9
     },
     {
       "rule": 15,
       "total": 10,
-      "linked": 6,
-      "needsReview": 4
+      "linked": 7,
+      "needsReview": 3
     },
     {
       "rule": 16,
@@ -937,13 +938,17 @@
       "rule": 9,
       "id": "9.4a",
       "title": "リプレースが必要なとき",
-      "caseIds": []
+      "caseIds": [
+        8
+      ]
     },
     {
       "rule": 9,
       "id": "9.4b",
       "title": "拾い上げ・故意の接触・移動の罰",
-      "caseIds": []
+      "caseIds": [
+        8
+      ]
     },
     {
       "rule": 9,
@@ -1441,7 +1446,9 @@
       "rule": 14,
       "id": "14.5a",
       "title": "プレー前の誤り訂正",
-      "caseIds": []
+      "caseIds": [
+        96
+      ]
     },
     {
       "rule": 14,
@@ -1526,7 +1533,9 @@
       "rule": 15,
       "id": "15.1b",
       "title": "除去時に球が動いた場合",
-      "caseIds": []
+      "caseIds": [
+        67
+      ]
     },
     {
       "rule": 15,
