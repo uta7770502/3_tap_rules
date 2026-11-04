@@ -6,13 +6,14 @@
     "competition_official_index.json",
     "competition_reviewed_subrule_links.json",
     "competition_reviewed_subrule_links_batch2.json",
-    "competition_reviewed_subrule_links_batch3.json"
+    "competition_reviewed_subrule_links_batch3.json",
+    "competition_reviewed_subrule_links_batch4.json"
   ],
   "counts": {
     "cases": 331,
     "officialSubrules": 336,
-    "linked": 196,
-    "needsReview": 140
+    "linked": 203,
+    "needsReview": 133
   },
   "byRule": [
     {
@@ -60,8 +61,8 @@
     {
       "rule": 8,
       "total": 11,
-      "linked": 6,
-      "needsReview": 5
+      "linked": 9,
+      "needsReview": 2
     },
     {
       "rule": 9,
@@ -78,8 +79,8 @@
     {
       "rule": 11,
       "total": 8,
-      "linked": 5,
-      "needsReview": 3
+      "linked": 6,
+      "needsReview": 2
     },
     {
       "rule": 12,
@@ -96,8 +97,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 19,
-      "needsReview": 8
+      "linked": 20,
+      "needsReview": 7
     },
     {
       "rule": 15,
@@ -126,8 +127,8 @@
     {
       "rule": 19,
       "total": 8,
-      "linked": 6,
-      "needsReview": 2
+      "linked": 8,
+      "needsReview": 0
     },
     {
       "rule": 20,
@@ -834,7 +835,9 @@
       "rule": 8,
       "id": "8.1d",
       "title": "球停止後に悪化した状態の復元",
-      "caseIds": []
+      "caseIds": [
+        54
+      ]
     },
     {
       "rule": 8,
@@ -868,13 +871,17 @@
       "rule": 8,
       "id": "8.3a",
       "title": "規則8.3が適用されるとき",
-      "caseIds": []
+      "caseIds": [
+        267
+      ]
     },
     {
       "rule": 8,
       "id": "8.3b",
       "title": "その他の物理的状態を変える禁止行為",
-      "caseIds": []
+      "caseIds": [
+        267
+      ]
     },
     {
       "rule": 9,
@@ -1149,7 +1156,9 @@
       "rule": 11,
       "id": "11.2a",
       "title": "適用条件",
-      "caseIds": []
+      "caseIds": [
+        91
+      ]
     },
     {
       "rule": 11,
@@ -1373,7 +1382,9 @@
       "rule": 14,
       "id": "14.2c",
       "title": "リプレースする位置",
-      "caseIds": []
+      "caseIds": [
+        63
+      ]
     },
     {
       "rule": 14,
@@ -1864,13 +1875,17 @@
       "rule": 19,
       "id": "19.2a",
       "title": "ストロークと距離",
-      "caseIds": []
+      "caseIds": [
+        17
+      ]
     },
     {
       "rule": 19,
       "id": "19.2b",
       "title": "後方線上の救済",
-      "caseIds": []
+      "caseIds": [
+        17
+      ]
     },
     {
       "rule": 19,
