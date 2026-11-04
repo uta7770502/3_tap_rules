@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "policy": "Only mark verified after checking the official R&A/USGA rule text for all of summary, action, penalty and exceptions. Editing a case does not constitute verification.",
   "total": 442,
-  "verified": 10,
-  "pending": 432,
+  "verified": 19,
+  "pending": 423,
   "cases": [
     {
       "id": 1,
@@ -945,10 +945,10 @@
       "id": 105,
       "rule": "22.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 106,
@@ -2052,10 +2052,10 @@
       "id": 228,
       "rule": "22.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 229,
@@ -2718,37 +2718,37 @@
       "id": 302,
       "rule": "22.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 303,
       "rule": "22.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 304,
       "rule": "22.5",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 305,
       "rule": "22.6",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 306,
@@ -2898,10 +2898,10 @@
       "id": 322,
       "rule": "22.1",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 323,
@@ -3825,19 +3825,19 @@
       "id": 425,
       "rule": "22.4a",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 426,
       "rule": "22.4b",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
+      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
     },
     {
       "id": 427,
