@@ -4,7 +4,7 @@ const fs=require("node:fs");
 const path=require("node:path");
 const root=path.resolve(__dirname,"..");
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8"));
-const cases=read("competition_rules.json").concat(read("competition_rule25_verified_cases.json"),read("competition_rules_extra_5_10.json"));
+const cases=read("competition_rules.json").concat(read("competition_rule25_verified_cases.json"),read("competition_rules_extra_5_10.json"),read("competition_rules_extra_13_17.json"));
 const index=read("competition_official_index.json");
 const groups=index.officialRuleSubrules||[];
 const reviewed=read("competition_reviewed_subrule_links.json").links;
