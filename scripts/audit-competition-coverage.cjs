@@ -110,4 +110,6 @@ const output=process.argv.includes("--json")?JSON.stringify(report,null,2):[
   "Complete: NO (official text and end-to-end UI unverified)"
 ].join("\n");
 console.log(output);
-if(report.errors.length||missing.length)process.exitCode=1;
+// --leaf-gate permits navigable parent headings without declaring full coverage.
+const leafGate=process.argv.includes("--leaf-gate");
+if(report.errors.length||(leafGate?unmappedLeaves.length>0:missing.length>0))process.exitCode=1;
