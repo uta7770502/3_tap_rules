@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 394,
+    "cases": 396,
     "officialSubrules": 336,
-    "linked": 275,
-    "needsReview": 61
+    "linked": 277,
+    "needsReview": 59
   },
   "byRule": [
     {
@@ -93,14 +93,14 @@
     {
       "rule": 13,
       "total": 14,
-      "linked": 10,
-      "needsReview": 4
+      "linked": 11,
+      "needsReview": 3
     },
     {
       "rule": 14,
       "total": 27,
-      "linked": 21,
-      "needsReview": 6
+      "linked": 22,
+      "needsReview": 5
     },
     {
       "rule": 15,
@@ -1264,7 +1264,7 @@
       "rule": 13,
       "id": "13.1a",
       "title": "球がグリーン上にある場合",
-      "caseIds": []
+      "caseIds": [395]
     },
     {
       "rule": 13,
@@ -1446,7 +1446,7 @@
       "rule": 14,
       "id": "14.3a",
       "title": "元の球または別の球",
-      "caseIds": []
+      "caseIds": [396]
     },
     {
       "rule": 14,
