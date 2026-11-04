@@ -9,12 +9,13 @@ const index=read("competition_official_index.json");
 const groups=index.officialRuleSubrules||[];
 const reviewed=read("competition_reviewed_subrule_links.json").links;
 const reviewed2=read("competition_reviewed_subrule_links_batch2.json").links;
+const reviewed3=read("competition_reviewed_subrule_links_batch3.json").links;
 const subrules=groups.flatMap(g=>(g.subrules||[]).map(s=>({...s,parentRule:g.rule})));
 const norm=v=>String(v??"").toLowerCase().replace(/[^0-9a-z]/g,"");
 const ruleOf=v=>String(v??"").match(/^(?:rule\s*)?(\d{1,2})(?:[.-]|$)/i)?.[1];
 const mapped=subrules.map(s=>{
   const id=norm(s.id);
-  const hits=cases.filter(c=>norm(c.rule)===id || (Array.isArray(c.officialSubruleIds)&&c.officialSubruleIds.some(v=>norm(v)===id)) || (reviewed[s.id]||[]).includes(c.id) || (reviewed2[s.id]||[]).includes(c.id));
+  const hits=cases.filter(c=>norm(c.rule)===id || (Array.isArray(c.officialSubruleIds)&&c.officialSubruleIds.some(v=>norm(v)===id)) || (reviewed[s.id]||[]).includes(c.id) || (reviewed2[s.id]||[]).includes(c.id) || (reviewed3[s.id]||[]).includes(c.id));
   return {id:s.id,title:s.title,parentRule:s.parentRule,caseIds:hits.map(c=>c.id)};
 });
 const missing=mapped.filter(x=>!x.caseIds.length);
