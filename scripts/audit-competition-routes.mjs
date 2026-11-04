@@ -29,6 +29,21 @@ assert.ok(listing.includes('competition_rule.html?id='),"Missing detail navigati
 assert.ok(detail.includes('a.find(v=>v.id===id)'),"Missing case-ID detail lookup");
 assert.ok(listing.includes("officialSubruleIds.some(ref=>"),"Rule navigation ignores cross-rule references");
 // Guard the existing three-tap judge and AI/photo consultation wiring.
+// Check list/detail inline scripts and Japanese/English Rule query normalization.
+for(const [name,html] of [["competition_rules.html",listing],["competition_rule.html",detail]]){
+ const script=html.match(/<script>([\\s\\S]*?)<\\/script>/)?.[1];
+ assert.ok(script,"Missing inline script: "+name);
+ new Function(script);
+}
+const queryLine=listing.split("\\n").find(line=>line.includes("const v=q.value.trim()"));
+assert.ok(queryLine,"Search query normalization missing");
+const regexText=queryLine.match(/\\.replace\\((\\/.*?\\/gi),""\\)/)?.[1];
+assert.ok(regexText,"Rule query normalization pattern missing");
+const queryRegex=Function("return "+regexText)();
+for(const [input,expected] of [["Rule 8.1d","8.1d"],["規則8.1d","8.1d"],["規則 8.1d","8.1d"],["Ｒｕｌｅ ８．１ｄ","8.1d"]]){
+ assert.equal(input.toLowerCase().normalize("NFKC").replace(queryRegex,"").trim(),expected,"Search normalization: "+input);
+}
+console.log("PASS: list/detail JavaScript parses; Japanese, English and fullwidth Rule queries normalize.");
 const judge=readFileSync("competition_judge.html","utf8");
 const ai=readFileSync("competition_ai.html","utf8");
 const chat=readFileSync("assets/golf-chat.js","utf8");
