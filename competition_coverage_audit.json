@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 403,
+    "cases": 404,
     "officialSubrules": 336,
-    "linked": 284,
-    "needsReview": 52
+    "linked": 285,
+    "needsReview": 51
   },
   "byRule": [
     {
@@ -105,8 +105,8 @@
     {
       "rule": 15,
       "total": 10,
-      "linked": 9,
-      "needsReview": 1
+      "linked": 10,
+      "needsReview": 0
     },
     {
       "rule": 16,
@@ -1637,7 +1637,7 @@
       "rule": 15,
       "id": "15.3c",
       "title": "プレーを助け・妨げるマーカー",
-      "caseIds": []
+      "caseIds": [404]
     },
     {
       "rule": 16,
