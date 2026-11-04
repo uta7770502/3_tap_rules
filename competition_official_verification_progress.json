@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "policy": "Only mark verified after checking the official R&A/USGA rule text for all of summary, action, penalty and exceptions. Editing a case does not constitute verification.",
   "total": 442,
-  "verified": 0,
-  "pending": 442,
+  "verified": 10,
+  "pending": 432,
   "cases": [
     {
       "id": 1,
@@ -954,10 +954,10 @@
       "id": 106,
       "rule": "23.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 107,
@@ -1791,10 +1791,10 @@
       "id": 199,
       "rule": "23.5",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 200,
@@ -2754,10 +2754,10 @@
       "id": 306,
       "rule": "23.2b",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 307,
@@ -2934,10 +2934,10 @@
       "id": 326,
       "rule": "23.1",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 327,
@@ -3843,55 +3843,55 @@
       "id": 427,
       "rule": "23.2a",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 428,
       "rule": "23.5a",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 429,
       "rule": "23.2c",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 430,
       "rule": "23.5b",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 431,
       "rule": "23.9a",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 432,
       "rule": "23.9b",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-04",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+      "notes": "R&A Rule 23 checked for case scope, procedure, penalties and exceptions; source sections 23.1, 23.2, 23.5, 23.9 as applicable."
     },
     {
       "id": 433,
