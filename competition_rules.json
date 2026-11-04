@@ -5089,7 +5089,9 @@
     "penalty": "原因に応じRule 9.3〜9.6を適用。",
     "keywords": "Rule9 動いた 原因 事実上確実 95%",
     "officialSubruleIds": [
-      "9.2"
+      "9.2",
+      "9.2a",
+      "9.2b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
     "summary": "球が動いたと扱うには、動いたことが分かっているか事実上確実である必要がある。原因も自然の力、プレーヤー、マッチの相手、外的影響のいずれかを判断する。",
@@ -5105,7 +5107,9 @@
     "penalty": "原則、相手に1罰打。例外あり。",
     "keywords": "Rule9 マッチプレー 相手 球 動かした",
     "officialSubruleIds": [
-      "9.5"
+      "9.5",
+      "9.5a",
+      "9.5b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
     "summary": "相手または相手のキャディーが球を拾い上げたり動かした場合、原則リプレースし、相手に1罰打となる場合がある。例外もある。",
@@ -5121,7 +5125,9 @@
     "penalty": "状況により1罰打。偶然の移動には例外あり。",
     "keywords": "Rule9 ボールマーカー 動いた マーク",
     "officialSubruleIds": [
-      "9.7"
+      "9.7",
+      "9.7a",
+      "9.7b"
     ],
     "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
     "summary": "拾い上げた球の位置を示すボールマーカーが動いた場合、元の位置を復元する必要がある。故意の行為には罰が生じる場合がある。",
