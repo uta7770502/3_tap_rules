@@ -28,5 +28,24 @@ for(let n=1;n<=25;n++){
 assert.ok(listing.includes('competition_rule.html?id='),"Missing detail navigation");
 assert.ok(detail.includes('a.find(v=>v.id===id)'),"Missing case-ID detail lookup");
 assert.ok(listing.includes("officialSubruleIds.some(ref=>"),"Rule navigation ignores cross-rule references");
+// Guard the existing three-tap judge and AI/photo consultation wiring.
+const judge=readFileSync("competition_judge.html","utf8");
+const ai=readFileSync("competition_ai.html","utf8");
+const chat=readFileSync("assets/golf-chat.js","utf8");
+const api=readFileSync("api/golf-chat.js","utf8");
+const judgeScript=judge.match(/<script>([\\s\\S]*?)<\\/script>/)?.[1];
+assert.ok(judgeScript,"Missing three-tap judge script");
+try {new Function(judgeScript);} catch(e) {throw Error("Three-tap judge JavaScript syntax error: "+e.message);}
+try {new Function(chat);} catch(e) {throw Error("AI/photo chat JavaScript syntax error: "+e.message);}
+try {new Function(api);} catch(e) {throw Error("AI chat API JavaScript syntax error: "+e.message);}
+for(const id of ["camera","photoLibrary","photoCamera","mic","textBtn","input","send","newChat","chat","connection","preview","previewImg","remove"]){
+  assert.ok(ai.includes('id="'+id+'"'),"AI consultation missing element "+id);
+}
+assert.ok(ai.includes('assets/golf-chat.js'),"AI consultation missing chat script");
+assert.ok(chat.includes("fetch('/api/golf-chat'"),"AI consultation missing API request");
+assert.ok(chat.includes("photoLibrary.click()"),"Photo selection missing native picker");
+assert.ok(api.includes("req.method === 'GET'"),"AI connection status endpoint missing");
+assert.ok(api.includes("req.method !== 'POST'"),"AI consultation POST endpoint missing");
+console.log("PASS: judge/chat/API JavaScript parses, consultation elements and photo/API wiring present.");
 console.log("PASS: 444 cases, 336 heading references, 25 Rule buttons, all five data sources on list/detail, required fields and navigation wiring.");
 console.log("NOTE: Static audit only; does not certify R&A wording, device operation, or production deployment.");
