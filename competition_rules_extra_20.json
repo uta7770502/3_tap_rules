@@ -9,7 +9,8 @@
     "penalty": "裁定内容と適用規則による。",
     "officialSubruleIds": [
       "20.2a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
   {
     "id": 410,
@@ -21,7 +22,8 @@
     "penalty": "裁定内容と適用規則による。",
     "officialSubruleIds": [
       "20.2b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
   {
     "id": 411,
@@ -33,7 +35,8 @@
     "penalty": "適用される個別規則に従う。",
     "officialSubruleIds": [
       "20.2c"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
   {
     "id": 412,
@@ -45,7 +48,8 @@
     "penalty": "誤りの種類と適用規則によって異なる。",
     "officialSubruleIds": [
       "20.2d"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
   {
     "id": 413,
@@ -57,7 +61,8 @@
     "penalty": "規則20.2eの条件に従って失格の適用可否を判定する。",
     "officialSubruleIds": [
       "20.2e"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
   {
     "id": 414,
@@ -69,7 +74,8 @@
     "penalty": "参加資格と競技条件に基づき委員会が判断する。",
     "officialSubruleIds": [
       "20.2f"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
   {
     "id": 415,
@@ -81,7 +87,8 @@
     "penalty": "該当する個別規則と裁定による。",
     "officialSubruleIds": [
       "20.1b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-20"
   },
   {
     "id": 416,
@@ -132,7 +139,8 @@
     "penalty": "この項目自体に独立した罰はない。",
     "officialSubruleIds": [
       "21.2e"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   },
   {
     "id": 420,
@@ -157,7 +165,8 @@
     "penalty": "この項目自体に独立した罰はない。",
     "officialSubruleIds": [
       "21.3e"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   },
   {
     "id": 422,
@@ -169,7 +178,8 @@
     "penalty": "規則21.3dの条件に該当する場合、規則11.2の罰なし・そのホールは負け。",
     "officialSubruleIds": [
       "21.3d"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-21"
   },
   {
     "id": 423,
@@ -220,7 +230,8 @@
     "penalty": "どちらかが所定の場所にいなければ、サイドは規則5.3a違反となる。",
     "officialSubruleIds": [
       "22.4b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22"
   },
   {
     "id": 427,
@@ -232,7 +243,8 @@
     "penalty": "各パートナーに適用される罰を反映したスコアで比較する。",
     "officialSubruleIds": [
       "23.2a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
   },
   {
     "id": 428,
@@ -244,7 +256,8 @@
     "penalty": "該当する個別規則と規則23.5aに従う。",
     "officialSubruleIds": [
       "23.5a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
   },
   {
     "id": 429,
@@ -256,7 +269,8 @@
     "penalty": "3条件をすべて満たす場合、故意に球を止めた人に規則11.2の罰はなく、その球はサイドのスコアに採用できない。",
     "officialSubruleIds": [
       "23.2c"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
   },
   {
     "id": 430,
@@ -268,7 +282,8 @@
     "penalty": "規則23.5bと該当する個別規則に従って判定する。",
     "officialSubruleIds": [
       "23.5b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
   },
   {
     "id": 431,
@@ -280,7 +295,8 @@
     "penalty": "通常は違反者のみ。規則23.9a(2)の3条件に該当すれば両パートナーに罰。ただし誤球を打った規則6.3c違反は本人のみ一般の罰。",
     "officialSubruleIds": [
       "23.9a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
   },
   {
     "id": 432,
@@ -292,7 +308,8 @@
     "penalty": "規則23.9b(1)：サイド失格。23.9b(2)：両者の違反等でサイド失格。23.9b(3)：原則として本人の当該ホールのスコアのみ無効。マッチプレーで双方のスコアが無効ならそのホールの負け。",
     "officialSubruleIds": [
       "23.9b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
   },
   {
     "id": 433,
@@ -304,7 +321,8 @@
     "penalty": "規則24.4と10.2aに従う。",
     "officialSubruleIds": [
       "24.4a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24"
   },
   {
     "id": 434,
@@ -316,7 +334,8 @@
     "penalty": "規則24.4bと10.2の制限に違反した場合、行為の内容に応じてプレーヤーに一般の罰が適用されることがある。",
     "officialSubruleIds": [
       "24.4b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24"
   },
   {
     "id": 435,
@@ -328,7 +347,8 @@
     "penalty": "規則24.4cと10.2aに従って判定する。",
     "officialSubruleIds": [
       "24.4c"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24"
   },
   {
     "id": 436,
@@ -340,7 +360,8 @@
     "penalty": "球がプレー禁止区域内なら原則1罰打で救済。区域外の球へのスタンス・スイングの干渉は条件を満たせば無罰救済も可能。誤所からのプレーは一般の罰。",
     "officialSubruleIds": [
       "17.1e"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
   },
   {
     "id": 437,
@@ -352,7 +373,8 @@
     "penalty": "マッチプレーで相手が故意に動かした場合、相手に罰はない。ストロークプレーで他のプレーヤーが故意に動かした場合、そのプレーヤーに一般の罰。その他は球を動かした人・原因に応じて該当規則を確認する。",
     "officialSubruleIds": [
       "13.3b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
   },
   {
     "id": 438,
@@ -364,7 +386,8 @@
     "penalty": "規則17.2aの各救済は原則1罰打。いったんストロークと距離でペナルティーエリア内にドロップし、打たずにエリア外への追加救済を選ぶ場合は合計2罰打。",
     "officialSubruleIds": [
       "17.2a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
   },
   {
     "id": 439,
@@ -376,7 +399,8 @@
     "penalty": "ストロークと距離の救済は1罰打。さらにペナルティーエリア外への追加救済を選ぶ場合は合計2罰打（エリア内にいったんドロップせず直接選んでも同じ）。",
     "officialSubruleIds": [
       "17.2b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
   },
   {
     "id": 440,
@@ -388,7 +412,8 @@
     "penalty": "原則として行為をしたプレーヤーに一般の罰（マッチプレー：ホールの負け／ストロークプレー：2罰打）。水中で動く球を救済のため拾う場合などは例外。",
     "officialSubruleIds": [
       "11.2b"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
   },
   {
     "id": 441,
@@ -400,7 +425,8 @@
     "penalty": "故意に止めたプレーヤーへの罰は規則11.2b。誤所からのプレーや必要な打ち直しをしなかった場合は一般の罰が適用される。",
     "officialSubruleIds": [
       "11.2c"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-11"
   },
   {
     "id": 442,
@@ -412,6 +438,7 @@
     "penalty": "規則8.2bの禁止行為に該当すれば一般の罰（マッチプレー：ホールの負け／ストロークプレー：2罰打）。コースを保護するための行為など、規則8.2bの例外も確認する。",
     "officialSubruleIds": [
       "8.2a"
-    ]
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
   }
 ]
