@@ -1,0 +1,2719 @@
+{
+  "generatedAt": "2026-11-04",
+  "auditStatus": "full_runtime_dataset_inventory_not_officially_verified",
+  "totalCases": 442,
+  "uniqueIds": 442,
+  "uniqueReferencedRuleIds": 321,
+  "sourceFiles": [
+    {
+      "path": "competition_rules.json",
+      "count": 341
+    },
+    {
+      "path": "competition_rules_extra_20.json",
+      "count": 34
+    },
+    {
+      "path": "competition_rules_extra_13_17.json",
+      "count": 14
+    },
+    {
+      "path": "competition_rules_extra_5_10.json",
+      "count": 20
+    },
+    {
+      "path": "competition_rule25_verified_cases.json",
+      "count": 33
+    }
+  ],
+  "byRule": {
+    "1": {
+      "caseIds": [
+        1,
+        22,
+        76,
+        77,
+        271,
+        272,
+        365,
+        366
+      ],
+      "subruleReferences": [
+        "1.3",
+        "1",
+        "1.2a",
+        "1.3b",
+        "1.1",
+        "1.2b",
+        "1.3a",
+        "1.3c(4)"
+      ],
+      "sourceFiles": [
+        "competition_rules.json"
+      ]
+    },
+    "2": {
+      "caseIds": [
+        23,
+        78,
+        79,
+        216,
+        273
+      ],
+      "subruleReferences": [
+        "2",
+        "2.1",
+        "2.4",
+        "2.2a",
+        "2.2b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json"
+      ]
+    },
+    "3": {
+      "caseIds": [
+        2,
+        24,
+        47,
+        48,
+        49,
+        194,
+        195,
+        196,
+        280,
+        281,
+        319,
+        323,
+        327,
+        367,
+        368,
+        369,
+        370
+      ],
+      "subruleReferences": [
+        "3.3b",
+        "3",
+        "3.2",
+        "3.2d",
+        "3.2b",
+        "3.3b(2)",
+        "3.3b(3)",
+        "3.1a",
+        "3.1c",
+        "3.1b",
+        "3.2a",
+        "3.2c",
+        "3.3a",
+        "3.3c"
+      ],
+      "sourceFiles": [
+        "competition_rules.json"
+      ]
+    },
+    "4": {
+      "caseIds": [
+        3,
+        4,
+        25,
+        80,
+        81,
+        82,
+        134,
+        135,
+        143,
+        144,
+        168,
+        212,
+        213,
+        214,
+        237,
+        371,
+        372
+      ],
+      "subruleReferences": [
+        "4.1",
+        "4.3",
+        "4",
+        "4.1a",
+        "4.2a",
+        "4.3a",
+        "4.2b",
+        "4.2c",
+        "4.1b",
+        "4.3b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json"
+      ]
+    },
+    "5": {
+      "caseIds": [
+        5,
+        26,
+        50,
+        51,
+        83,
+        84,
+        259,
+        282,
+        283,
+        284,
+        324,
+        373,
+        374,
+        375,
+        380,
+        381,
+        385,
+        386
+      ],
+      "subruleReferences": [
+        "5.3a",
+        "5",
+        "5.2b",
+        "5.5",
+        "5.6a",
+        "5.7",
+        "5.2b/3",
+        "5.4",
+        "5.5a",
+        "5.6b",
+        "5.1",
+        "5.2a",
+        "5.3b",
+        "5.7b",
+        "5.7c",
+        "5.7d",
+        "5.4a",
+        "5.5c"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "6": {
+      "caseIds": [
+        6,
+        27,
+        52,
+        53,
+        85,
+        86,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        198,
+        256,
+        285,
+        325,
+        371,
+        376,
+        377,
+        382,
+        387,
+        390
+      ],
+      "subruleReferences": [
+        "6.3c",
+        "6",
+        "6.1b",
+        "6.4",
+        "6.2b",
+        "6.3a",
+        "6.1b(2)",
+        "6.1b(1)",
+        "6.2b(6)",
+        "6.4b",
+        "6.4a",
+        "6.2b(5)",
+        "6.3b",
+        "6.5",
+        "6.1a",
+        "6.3d",
+        "6.2a",
+        "6.4c",
+        "6.4d"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "7": {
+      "caseIds": [
+        7,
+        28,
+        87,
+        145,
+        190,
+        241,
+        242,
+        286,
+        287,
+        378
+      ],
+      "subruleReferences": [
+        "7.4",
+        "7",
+        "7.2",
+        "7.1",
+        "7.3",
+        "7.1a",
+        "7.1b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "8": {
+      "caseIds": [
+        29,
+        54,
+        88,
+        164,
+        211,
+        241,
+        248,
+        250,
+        264,
+        265,
+        266,
+        267,
+        442,
+        388
+      ],
+      "subruleReferences": [
+        "8",
+        "8.1",
+        "8.1c",
+        "8.1a",
+        "8.1b",
+        "8.2",
+        "8.3",
+        "8.2a",
+        "8.2b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "9": {
+      "caseIds": [
+        8,
+        30,
+        89,
+        146,
+        147,
+        180,
+        186,
+        196,
+        242,
+        274,
+        275,
+        276,
+        320,
+        328,
+        389
+      ],
+      "subruleReferences": [
+        "9.4",
+        "9",
+        "9.6",
+        "9.3",
+        "9.2",
+        "9.5",
+        "9.7",
+        "9.1a",
+        "9.1b",
+        "9.1"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "10": {
+      "caseIds": [
+        9,
+        31,
+        55,
+        56,
+        57,
+        58,
+        90,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        288,
+        379,
+        383,
+        384
+      ],
+      "subruleReferences": [
+        "10.2",
+        "10",
+        "10.1c",
+        "10.1b",
+        "10.2b",
+        "10.3",
+        "10.1a",
+        "10.1d",
+        "10.2a",
+        "10.3a",
+        "10.3b",
+        "10.3c"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "11": {
+      "caseIds": [
+        10,
+        32,
+        91,
+        151,
+        169,
+        170,
+        171,
+        172,
+        173,
+        289,
+        440,
+        441
+      ],
+      "subruleReferences": [
+        "11.1",
+        "11",
+        "11.2",
+        "11.1a",
+        "11.1b(2)",
+        "11.1b",
+        "11.3",
+        "11.2b",
+        "11.2c"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json"
+      ]
+    },
+    "12": {
+      "caseIds": [
+        33,
+        59,
+        92,
+        149,
+        240,
+        277,
+        278,
+        279
+      ],
+      "subruleReferences": [
+        "12",
+        "12.2",
+        "12.2b",
+        "12.1",
+        "12.2a",
+        "12.3"
+      ],
+      "sourceFiles": [
+        "competition_rules.json"
+      ]
+    },
+    "13": {
+      "caseIds": [
+        34,
+        60,
+        61,
+        93,
+        94,
+        148,
+        150,
+        238,
+        239,
+        248,
+        249,
+        251,
+        252,
+        290,
+        291,
+        437,
+        395,
+        402,
+        391
+      ],
+      "subruleReferences": [
+        "13",
+        "13.1c",
+        "13.2",
+        "13.1d",
+        "13.3",
+        "13.1d(2)",
+        "13.3a",
+        "13.2c",
+        "13.1",
+        "13.1c(2)",
+        "13.1e",
+        "13.1b",
+        "13.2a",
+        "13.3b",
+        "13.1a",
+        "13.2b",
+        "13.1f"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json",
+        "competition_rules_extra_13_17.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "14": {
+      "caseIds": [
+        11,
+        35,
+        62,
+        63,
+        64,
+        65,
+        66,
+        95,
+        96,
+        152,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        243,
+        244,
+        245,
+        246,
+        247,
+        292,
+        396,
+        397,
+        405,
+        406,
+        407,
+        408,
+        392
+      ],
+      "subruleReferences": [
+        "14.3",
+        "14",
+        "14.1",
+        "14.2",
+        "14.7",
+        "14.4",
+        "14.5",
+        "14.3d",
+        "14.1a",
+        "14.1c",
+        "14.2e",
+        "14.3b(4)",
+        "14.3c",
+        "14.3b",
+        "14.2b",
+        "14.6",
+        "14.3a",
+        "14.2a",
+        "14.2d",
+        "14.7b",
+        "14.5b",
+        "14.5c",
+        "14.1b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_13_17.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "15": {
+      "caseIds": [
+        36,
+        67,
+        68,
+        97,
+        180,
+        181,
+        182,
+        293,
+        403,
+        404,
+        393
+      ],
+      "subruleReferences": [
+        "15",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.1b",
+        "15.2a",
+        "15.3b",
+        "15.2b",
+        "15.3a",
+        "15.3c",
+        "15.1a"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_13_17.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "16": {
+      "caseIds": [
+        12,
+        13,
+        37,
+        69,
+        98,
+        183,
+        184,
+        185,
+        216,
+        222,
+        253,
+        254,
+        255,
+        257,
+        258,
+        294,
+        295,
+        399,
+        400,
+        394
+      ],
+      "subruleReferences": [
+        "16.1",
+        "16.3",
+        "16",
+        "16.1c",
+        "16.2",
+        "16.1f",
+        "16.4",
+        "16.1a(3)",
+        "16.1e",
+        "16.1b",
+        "16.1d",
+        "16.1a",
+        "16.3b",
+        "16.2b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_13_17.json",
+        "competition_rules_extra_5_10.json"
+      ]
+    },
+    "17": {
+      "caseIds": [
+        14,
+        38,
+        70,
+        71,
+        99,
+        186,
+        187,
+        296,
+        321,
+        436,
+        438,
+        439,
+        398,
+        401
+      ],
+      "subruleReferences": [
+        "17.1",
+        "17",
+        "17.1d",
+        "17.2",
+        "17.1c",
+        "17.3",
+        "17.1e",
+        "17.2a",
+        "17.2b",
+        "17.1b",
+        "17.1a"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json",
+        "competition_rules_extra_13_17.json"
+      ]
+    },
+    "18": {
+      "caseIds": [
+        15,
+        16,
+        39,
+        72,
+        73,
+        100,
+        166,
+        188,
+        189,
+        190,
+        297
+      ],
+      "subruleReferences": [
+        "18.2",
+        "18.3",
+        "18",
+        "18.2a",
+        "18.3c",
+        "18.1",
+        "18.3b",
+        "18.3a"
+      ],
+      "sourceFiles": [
+        "competition_rules.json"
+      ]
+    },
+    "19": {
+      "caseIds": [
+        17,
+        40,
+        74,
+        101,
+        191,
+        192,
+        193,
+        298
+      ],
+      "subruleReferences": [
+        "19.2",
+        "19",
+        "19.3",
+        "19.3b",
+        "19.2c",
+        "19.1"
+      ],
+      "sourceFiles": [
+        "competition_rules.json"
+      ]
+    },
+    "20": {
+      "caseIds": [
+        18,
+        19,
+        41,
+        75,
+        153,
+        223,
+        224,
+        225,
+        299,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415
+      ],
+      "subruleReferences": [
+        "20.1c",
+        "20.2",
+        "20",
+        "20.1c(3)",
+        "20.1b(2)",
+        "20.1a",
+        "20.3",
+        "20.2a",
+        "20.2b",
+        "20.2c",
+        "20.2d",
+        "20.2e",
+        "20.2f",
+        "20.1b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json"
+      ]
+    },
+    "21": {
+      "caseIds": [
+        20,
+        42,
+        102,
+        103,
+        104,
+        202,
+        203,
+        204,
+        226,
+        227,
+        300,
+        301,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424
+      ],
+      "subruleReferences": [
+        "21",
+        "21.1",
+        "21.2",
+        "21.3",
+        "21.4",
+        "21.5",
+        "21.1d",
+        "21.1e",
+        "21.2c",
+        "21.2e",
+        "21.2d",
+        "21.3e",
+        "21.3d",
+        "21.4b",
+        "21.4c"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json"
+      ]
+    },
+    "22": {
+      "caseIds": [
+        43,
+        105,
+        200,
+        201,
+        228,
+        302,
+        303,
+        304,
+        305,
+        322,
+        425,
+        426
+      ],
+      "subruleReferences": [
+        "22",
+        "22.3",
+        "22.2",
+        "22.4",
+        "22.5",
+        "22.6",
+        "22.1",
+        "22.4a",
+        "22.4b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json"
+      ]
+    },
+    "23": {
+      "caseIds": [
+        44,
+        106,
+        107,
+        197,
+        198,
+        199,
+        229,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        326,
+        329,
+        330,
+        331,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432
+      ],
+      "subruleReferences": [
+        "23",
+        "23.2",
+        "23.5",
+        "23.6",
+        "23.9a(2)",
+        "23.9",
+        "23.2b",
+        "23.4",
+        "23.7",
+        "23.8",
+        "23.9a",
+        "23.9b",
+        "23.1",
+        "23.3a",
+        "23.3b",
+        "23.3c",
+        "23.2a",
+        "23.5a",
+        "23.2c",
+        "23.5b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json"
+      ]
+    },
+    "24": {
+      "caseIds": [
+        45,
+        108,
+        230,
+        268,
+        269,
+        270,
+        312,
+        433,
+        434,
+        435
+      ],
+      "subruleReferences": [
+        "24",
+        "24.4",
+        "24.1",
+        "24.2",
+        "24.3",
+        "24.4a",
+        "24.4b",
+        "24.4c"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rules_extra_20.json"
+      ]
+    },
+    "25": {
+      "caseIds": [
+        21,
+        46,
+        109,
+        110,
+        111,
+        205,
+        206,
+        207,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364
+      ],
+      "subruleReferences": [
+        "25",
+        "25.2",
+        "25.3",
+        "25.4",
+        "25.1",
+        "25.2a",
+        "25.2b",
+        "25.2c",
+        "25.2d",
+        "25.2e",
+        "25.2f",
+        "25.2g",
+        "25.2h",
+        "25.3a",
+        "25.3b",
+        "25.3c",
+        "25.3d",
+        "25.4a",
+        "25.4b",
+        "25.4c",
+        "25.4d",
+        "25.4e",
+        "25.4f",
+        "25.4g",
+        "25.4h",
+        "25.4i",
+        "25.4j",
+        "25.4k",
+        "25.4l",
+        "25.4m",
+        "25.4n",
+        "25.5a",
+        "25.5b",
+        "25.5c",
+        "25.5d",
+        "25.5e",
+        "25.6a",
+        "25.6b"
+      ],
+      "sourceFiles": [
+        "competition_rules.json",
+        "competition_rule25_verified_cases.json"
+      ]
+    }
+  },
+  "missingSource": [
+    {
+      "id": 409,
+      "file": "competition_rules_extra_20.json",
+      "rule": "20.2a"
+    },
+    {
+      "id": 410,
+      "file": "competition_rules_extra_20.json",
+      "rule": "20.2b"
+    },
+    {
+      "id": 411,
+      "file": "competition_rules_extra_20.json",
+      "rule": "20.2c"
+    },
+    {
+      "id": 412,
+      "file": "competition_rules_extra_20.json",
+      "rule": "20.2d"
+    },
+    {
+      "id": 413,
+      "file": "competition_rules_extra_20.json",
+      "rule": "20.2e"
+    },
+    {
+      "id": 414,
+      "file": "competition_rules_extra_20.json",
+      "rule": "20.2f"
+    },
+    {
+      "id": 415,
+      "file": "competition_rules_extra_20.json",
+      "rule": "20.1b"
+    },
+    {
+      "id": 419,
+      "file": "competition_rules_extra_20.json",
+      "rule": "21.2e"
+    },
+    {
+      "id": 421,
+      "file": "competition_rules_extra_20.json",
+      "rule": "21.3e"
+    },
+    {
+      "id": 422,
+      "file": "competition_rules_extra_20.json",
+      "rule": "21.3d"
+    },
+    {
+      "id": 426,
+      "file": "competition_rules_extra_20.json",
+      "rule": "22.4b"
+    },
+    {
+      "id": 427,
+      "file": "competition_rules_extra_20.json",
+      "rule": "23.2a"
+    },
+    {
+      "id": 428,
+      "file": "competition_rules_extra_20.json",
+      "rule": "23.5a"
+    },
+    {
+      "id": 429,
+      "file": "competition_rules_extra_20.json",
+      "rule": "23.2c"
+    },
+    {
+      "id": 430,
+      "file": "competition_rules_extra_20.json",
+      "rule": "23.5b"
+    },
+    {
+      "id": 431,
+      "file": "competition_rules_extra_20.json",
+      "rule": "23.9a"
+    },
+    {
+      "id": 432,
+      "file": "competition_rules_extra_20.json",
+      "rule": "23.9b"
+    },
+    {
+      "id": 433,
+      "file": "competition_rules_extra_20.json",
+      "rule": "24.4a"
+    },
+    {
+      "id": 434,
+      "file": "competition_rules_extra_20.json",
+      "rule": "24.4b"
+    },
+    {
+      "id": 435,
+      "file": "competition_rules_extra_20.json",
+      "rule": "24.4c"
+    },
+    {
+      "id": 436,
+      "file": "competition_rules_extra_20.json",
+      "rule": "17.1e"
+    },
+    {
+      "id": 437,
+      "file": "competition_rules_extra_20.json",
+      "rule": "13.3b"
+    },
+    {
+      "id": 438,
+      "file": "competition_rules_extra_20.json",
+      "rule": "17.2a"
+    },
+    {
+      "id": 439,
+      "file": "competition_rules_extra_20.json",
+      "rule": "17.2b"
+    },
+    {
+      "id": 440,
+      "file": "competition_rules_extra_20.json",
+      "rule": "11.2b"
+    },
+    {
+      "id": 441,
+      "file": "competition_rules_extra_20.json",
+      "rule": "11.2c"
+    },
+    {
+      "id": 442,
+      "file": "competition_rules_extra_20.json",
+      "rule": "8.2a"
+    },
+    {
+      "id": 395,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "13.1a"
+    },
+    {
+      "id": 396,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "14.3a"
+    },
+    {
+      "id": 397,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "14.2a"
+    },
+    {
+      "id": 398,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "17.1b"
+    },
+    {
+      "id": 399,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "16.1a"
+    },
+    {
+      "id": 400,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "16.3b"
+    },
+    {
+      "id": 401,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "17.1a"
+    },
+    {
+      "id": 402,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "13.2b"
+    },
+    {
+      "id": 403,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "15.3a"
+    },
+    {
+      "id": 404,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "15.3c"
+    },
+    {
+      "id": 405,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "14.2d"
+    },
+    {
+      "id": 406,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "14.7b"
+    },
+    {
+      "id": 407,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "14.5b"
+    },
+    {
+      "id": 408,
+      "file": "competition_rules_extra_13_17.json",
+      "rule": "14.5c"
+    }
+  ],
+  "missingOfficialSubruleIds": [
+    {
+      "id": 112,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 113,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 114,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 115,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 116,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 117,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 118,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 119,
+      "file": "competition_rules.json",
+      "rule": "定義"
+    },
+    {
+      "id": 120,
+      "file": "competition_rules.json",
+      "rule": "MLR A-4"
+    },
+    {
+      "id": 121,
+      "file": "competition_rules.json",
+      "rule": "MLR A-5"
+    },
+    {
+      "id": 122,
+      "file": "competition_rules.json",
+      "rule": "MLR E-5"
+    },
+    {
+      "id": 123,
+      "file": "competition_rules.json",
+      "rule": "MLR E-14"
+    },
+    {
+      "id": 124,
+      "file": "competition_rules.json",
+      "rule": "MLR F-2"
+    },
+    {
+      "id": 125,
+      "file": "competition_rules.json",
+      "rule": "MLR F-5"
+    },
+    {
+      "id": 126,
+      "file": "competition_rules.json",
+      "rule": "MLR G-6"
+    },
+    {
+      "id": 127,
+      "file": "competition_rules.json",
+      "rule": "MLR G-9"
+    },
+    {
+      "id": 128,
+      "file": "competition_rules.json",
+      "rule": "MLR G-11"
+    },
+    {
+      "id": 129,
+      "file": "competition_rules.json",
+      "rule": "委員会5"
+    },
+    {
+      "id": 130,
+      "file": "competition_rules.json",
+      "rule": "委員会6"
+    },
+    {
+      "id": 131,
+      "file": "competition_rules.json",
+      "rule": "委員会7"
+    },
+    {
+      "id": 132,
+      "file": "competition_rules.json",
+      "rule": "委員会8"
+    },
+    {
+      "id": 133,
+      "file": "competition_rules.json",
+      "rule": "委員会9"
+    },
+    {
+      "id": 208,
+      "file": "competition_rules.json",
+      "rule": "定義：アウトオブバウンズ"
+    },
+    {
+      "id": 209,
+      "file": "competition_rules.json",
+      "rule": "定義：ペナルティーエリア"
+    },
+    {
+      "id": 210,
+      "file": "competition_rules.json",
+      "rule": "定義：救済エリア"
+    },
+    {
+      "id": 215,
+      "file": "competition_rules.json",
+      "rule": "MLR E-5"
+    },
+    {
+      "id": 217,
+      "file": "competition_rules.json",
+      "rule": "定義：ホールに入る"
+    },
+    {
+      "id": 219,
+      "file": "competition_rules.json",
+      "rule": "定義：アドバイス"
+    },
+    {
+      "id": 220,
+      "file": "competition_rules.json",
+      "rule": "定義：ストローク"
+    },
+    {
+      "id": 221,
+      "file": "competition_rules.json",
+      "rule": "定義：ストローク"
+    },
+    {
+      "id": 231,
+      "file": "competition_rules.json",
+      "rule": "MLR A-4.2"
+    },
+    {
+      "id": 232,
+      "file": "competition_rules.json",
+      "rule": "MLR E-14"
+    },
+    {
+      "id": 233,
+      "file": "competition_rules.json",
+      "rule": "MLR G-6"
+    },
+    {
+      "id": 234,
+      "file": "competition_rules.json",
+      "rule": "MLR G-9"
+    },
+    {
+      "id": 235,
+      "file": "competition_rules.json",
+      "rule": "MLR G-9"
+    },
+    {
+      "id": 236,
+      "file": "competition_rules.json",
+      "rule": "MLR F-2"
+    },
+    {
+      "id": 260,
+      "file": "competition_rules.json",
+      "rule": "Committee Procedure 5A(5)"
+    },
+    {
+      "id": 261,
+      "file": "competition_rules.json",
+      "rule": "MLR A-4.1/A-4.2"
+    },
+    {
+      "id": 262,
+      "file": "competition_rules.json",
+      "rule": "MLR G-9"
+    },
+    {
+      "id": 263,
+      "file": "competition_rules.json",
+      "rule": "MLR M-4"
+    }
+  ],
+  "displayFieldDifferences": [
+    {
+      "id": 11,
+      "file": "competition_rules.json",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 15,
+      "file": "competition_rules.json",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 16,
+      "file": "competition_rules.json",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 64,
+      "file": "competition_rules.json",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 65,
+      "file": "competition_rules.json",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 72,
+      "file": "competition_rules.json",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 105,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 134,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 135,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 136,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 137,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 138,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 139,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 140,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 141,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 142,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 143,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 144,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 145,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 146,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 147,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 148,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 149,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 150,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 151,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 152,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 153,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 154,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 155,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 156,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 157,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 158,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 159,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 160,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 161,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 162,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 163,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 164,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 165,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 166,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 167,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 168,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 169,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 170,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 171,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 172,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 173,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 174,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 175,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 176,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 177,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 178,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 179,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 180,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 181,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 182,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 183,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 184,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 185,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 186,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 187,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 188,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 189,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 190,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 191,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 192,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 193,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 194,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 195,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 196,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 197,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 198,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 199,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 200,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 201,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 202,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 203,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 204,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 205,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 206,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 207,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 211,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 212,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 213,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 214,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 216,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 218,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 222,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 223,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 224,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 225,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 226,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 227,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 228,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 229,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 230,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 237,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 238,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 239,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 240,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 241,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 242,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 243,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 244,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 245,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 246,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 247,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 248,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 249,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 250,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 251,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 252,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 253,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 254,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 255,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 256,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 257,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 258,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 259,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 264,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 265,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 266,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 267,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 268,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 269,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 270,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 271,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 272,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 273,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 274,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 275,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 276,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 277,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 278,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 279,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 280,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 281,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 282,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 283,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 284,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 285,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 286,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 287,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 288,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 289,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 290,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 291,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 292,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 293,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 294,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 295,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 296,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 297,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 298,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 299,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 300,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 301,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 302,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 303,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 304,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 306,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 307,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 308,
+      "file": "competition_rules.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 409,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 410,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 411,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 412,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 413,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 414,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 415,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 416,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 417,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 418,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 419,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 420,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 421,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 422,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 423,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 424,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 425,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 426,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 427,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 428,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 429,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 430,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 431,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 432,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 433,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 434,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 435,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 436,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 437,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 438,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 439,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 440,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 441,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 442,
+      "file": "competition_rules_extra_20.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 395,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 396,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 397,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 398,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 399,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 400,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 401,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 402,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 403,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 404,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 405,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 406,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 407,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 408,
+      "file": "competition_rules_extra_13_17.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 332,
+      "file": "competition_rule25_verified_cases.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 333,
+      "file": "competition_rule25_verified_cases.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 334,
+      "file": "competition_rule25_verified_cases.json",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    }
+  ],
+  "notes": [
+    "442件すべてを対象にした横断棚卸し。従来の341件台帳はベースファイル限定だった。",
+    "参照URL未設定41件は追加ファイル内に存在する。",
+    "通常サブルールID未設定40件は定義・MLR・委員会手続の特殊項目。",
+    "表示フィールド差異214件は内容誤り確定ではない。",
+    "321種類の参照IDは公式全サブルール数でも網羅率でもない。",
+    "公式本文との照合、リンク到達性、UI動作テストは未完了。"
+  ]
+}
