@@ -45,14 +45,14 @@
     {
       "rule": 5,
       "total": 22,
-      "linked": 15,
-      "needsReview": 7
+      "linked": 17,
+      "needsReview": 5
     },
     {
       "rule": 6,
       "total": 17,
-      "linked": 11,
-      "needsReview": 6
+      "linked": 12,
+      "needsReview": 5
     },
     {
       "rule": 7,
@@ -75,8 +75,8 @@
     {
       "rule": 10,
       "total": 12,
-      "linked": 9,
-      "needsReview": 3
+      "linked": 11,
+      "needsReview": 1
     },
     {
       "rule": 11,
