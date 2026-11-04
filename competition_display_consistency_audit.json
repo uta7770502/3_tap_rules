@@ -1,0 +1,1164 @@
+{
+  "generatedAt": "2026-11-04",
+  "source": "competition_rules.json",
+  "scope": "structural consistency audit across all 341 cases",
+  "divergentDisplayRecords": 163,
+  "divergentRecords": [
+    {
+      "id": 11,
+      "rule": "14.3",
+      "title": "正しいドロップ方法",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 15,
+      "rule": "18.2",
+      "title": "OB・紛失球",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 16,
+      "rule": "18.3",
+      "title": "暫定球を打つ",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 64,
+      "rule": "14.3",
+      "title": "ドロップを肩の高さからした",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 65,
+      "rule": "14.3",
+      "title": "ドロップした球が救済エリア外に止まった",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 72,
+      "rule": "18.2a",
+      "title": "3分探しても球が見つからない",
+      "summaryDiffers": false,
+      "actionDiffers": true
+    },
+    {
+      "id": 105,
+      "rule": "22.3",
+      "title": "フォアサムで順番を間違えた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 134,
+      "rule": "4.2b",
+      "title": "球が打った瞬間に完全に割れて複数片になった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 135,
+      "rule": "4.2c",
+      "title": "球に切れ目・ひびが入った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 136,
+      "rule": "6.1b(2)",
+      "title": "違うホールのティーから打ってしまった（ストロークプレー）",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 137,
+      "rule": "6.1b(1)",
+      "title": "違うホールのティーから打ってしまった（マッチプレー）",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 138,
+      "rule": "6.2b(6)",
+      "title": "ティーショットを空振りした後、球をティーアップし直したい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 139,
+      "rule": "6.3c",
+      "title": "同伴者の球を間違えて打った（ストロークプレー）",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 140,
+      "rule": "6.4b",
+      "title": "打つ順番を間違えた（ストロークプレー）",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 141,
+      "rule": "6.4a",
+      "title": "打つ順番を間違えた（マッチプレー）",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 142,
+      "rule": "6.3a",
+      "title": "ラウンド中に球を別メーカーへ替えたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 143,
+      "rule": "4.1b",
+      "title": "他人のクラブを借りて打ちたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 144,
+      "rule": "4.1a",
+      "title": "クラブを怒って叩きつけて壊した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 145,
+      "rule": "7.4",
+      "title": "球を探している途中に自分で踏んで動かした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 146,
+      "rule": "9.4",
+      "title": "キャディーが自分の球を偶然動かした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 147,
+      "rule": "9.3",
+      "title": "風で止まっていた球が動いた（グリーン外）",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 148,
+      "rule": "13.1d(2)",
+      "title": "グリーンでリプレース後の球が風で動いた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 149,
+      "rule": "12.2",
+      "title": "バンカーの砂にクラブが触れた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 150,
+      "rule": "13.1d",
+      "title": "グリーン上で自分の球を偶然動かした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 151,
+      "rule": "11.1",
+      "title": "球がカートに当たって方向が変わった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 152,
+      "rule": "14.7",
+      "title": "救済を受けたが間違った場所から打ったかもしれない",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 153,
+      "rule": "20.1c(3)",
+      "title": "規則が分からず2球でプレーしたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 154,
+      "rule": "10.1a",
+      "title": "1回のスイングで球を偶然2度打ちした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 155,
+      "rule": "10.1d",
+      "title": "動いている自分の球を故意にもう一度打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 156,
+      "rule": "10.1a",
+      "title": "球を押し出すように打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 157,
+      "rule": "10.1b",
+      "title": "長尺パターを体に固定して打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 158,
+      "rule": "10.1c",
+      "title": "パットでラインをまたいで打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 159,
+      "rule": "10.1d",
+      "title": "動いている球を打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 160,
+      "rule": "10.2a",
+      "title": "観客から勝手にアドバイスされた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 161,
+      "rule": "10.2a",
+      "title": "他の選手に何番で打ったか聞いた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 162,
+      "rule": "10.2b",
+      "title": "セルフスタンドパターを立ててラインを合わせた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 163,
+      "rule": "10.2b",
+      "title": "キャディーが後方に立ったままアドレスした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 164,
+      "rule": "10.2b / 8.1a",
+      "title": "タオルをサボテンに掛けてスタンスを取った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 165,
+      "rule": "10.1a",
+      "title": "球とクラブの間に草が挟まったまま打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 166,
+      "rule": "10.1a / 18.2",
+      "title": "OBフェンスの外側からクラブを振ってコース内の球を打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 167,
+      "rule": "10.1b",
+      "title": "雨具にクラブが偶然触れたまま打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 168,
+      "rule": "10.1b / 4.3",
+      "title": "服を手で押さえてクラブを固定して打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 169,
+      "rule": "11.1a",
+      "title": "自分の打球が自分やキャディーに偶然当たった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 170,
+      "rule": "11.1a",
+      "title": "グリーンから打った球がグリーン上の別の静止球に当たった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 171,
+      "rule": "11.1b(2)",
+      "title": "グリーンから打った球同士が動いている最中に当たった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 172,
+      "rule": "11.1b",
+      "title": "球が犬・鳥などの上に止まった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 173,
+      "rule": "11.2",
+      "title": "動いている球を故意に足やクラブで止めた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 174,
+      "rule": "14.3d",
+      "title": "ドロップした球を救済エリア内に止めるため故意に止めた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 175,
+      "rule": "14.1a",
+      "title": "球を拾う前にマークし忘れた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 176,
+      "rule": "14.1c",
+      "title": "拾い上げた球を必要以上にきれいに拭いた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 177,
+      "rule": "14.2e",
+      "title": "リプレースした球が同じ場所に止まらない",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 178,
+      "rule": "14.5",
+      "title": "間違った球をドロップしたが打つ前に気づいた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 179,
+      "rule": "14.3b(4) / 14.7",
+      "title": "後方線上救済で線から横にずらしてドロップした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 180,
+      "rule": "15.1b / 9.4",
+      "title": "ルースインペディメントを動かしたら球も動いた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 181,
+      "rule": "15.2a",
+      "title": "動かせる障害物の上に球が乗っている",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 182,
+      "rule": "15.3b",
+      "title": "他人の球が自分のプレーの邪魔なので勝手に拾った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 183,
+      "rule": "16.1 / 定義",
+      "title": "救済のニアレストポイントを選んだがスタンスがまだ道にかかる",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 184,
+      "rule": "16.2",
+      "title": "危険な蛇の近くに球があるがペナルティーエリア内",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 185,
+      "rule": "16.3 / MLR F-2",
+      "title": "地面にくい込んだ球が他人の古いピッチマークに入った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 186,
+      "rule": "17 / 9.4",
+      "title": "ペナルティーエリア内の球を拾ってしまった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 187,
+      "rule": "17.1d / MLR B-2",
+      "title": "赤杭から反対側へ同じ距離でドロップしたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 188,
+      "rule": "18.3b",
+      "title": "暫定球を宣言せずに別の球を打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 189,
+      "rule": "18.3c",
+      "title": "暫定球を本球よりホールに近い場所から打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 190,
+      "rule": "18.2 / 7.2",
+      "title": "3分以内に球を見つけたが時間切れ後に本人確認した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 191,
+      "rule": "19.3b",
+      "title": "バンカーの球をアンプレヤブルでバンカー外へ出したい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 192,
+      "rule": "19.2c",
+      "title": "アンプレヤブルのラテラル救済で元の球があった場所より前に球が止まった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 193,
+      "rule": "19.2",
+      "title": "木の上の球をアンプレヤブルにしたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 194,
+      "rule": "3.2d",
+      "title": "マッチプレーで相手が間違った罰打数を伝えた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 195,
+      "rule": "3.2b",
+      "title": "マッチプレーで相手の短いパットをOKした後に取り消したい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 196,
+      "rule": "3.2b / 9.4",
+      "title": "相手がOKしていないのに短いパットを拾った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 197,
+      "rule": "23.6",
+      "title": "フォアボールで自分の球を拾った後、パートナーの球がトラブルになった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 198,
+      "rule": "23.9a(2) / 6.3c",
+      "title": "フォアボールでパートナーの球を自分が打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 199,
+      "rule": "23.5",
+      "title": "フォアボールでパートナーが自分の球をマークして拾った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 200,
+      "rule": "22.3",
+      "title": "フォーサムで打つ順番を間違えた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 201,
+      "rule": "22.3",
+      "title": "フォーサムでティーショット担当をホール途中で変えた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 202,
+      "rule": "21.4",
+      "title": "スリーボールマッチで1球が別の相手にも影響した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 203,
+      "rule": "21.2",
+      "title": "最大スコア方式で上限に達したので球を拾った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 204,
+      "rule": "21.1",
+      "title": "ステーブルフォードでホールアウトしなかった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 205,
+      "rule": "25",
+      "title": "障がいのあるプレーヤーがキャディーとエイドの両方を使いたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 206,
+      "rule": "25.2",
+      "title": "視覚障がいのあるプレーヤーがアラインメントの援助を受けた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 207,
+      "rule": "25.4",
+      "title": "車椅子プレーヤーの球がバンカーでアンプレヤブル",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 211,
+      "rule": "定義：境界物 / 8.1a",
+      "title": "白杭を抜いてから打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 212,
+      "rule": "4.3a",
+      "title": "距離計で高低差を測った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 213,
+      "rule": "4.3a",
+      "title": "スマホの天気アプリで風向きを確認した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 214,
+      "rule": "4.3a",
+      "title": "コンパスを使って風向きや方向を確認した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 216,
+      "rule": "2.4 / 16.1f",
+      "title": "プレー禁止区域にスタンスだけが入る",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 218,
+      "rule": "定義：クラブレングス / Clarification Club-Length/1",
+      "title": "一番長いクラブが折れているときのクラブレングス",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 222,
+      "rule": "定義：プレー禁止区域 / 16.1f",
+      "title": "プレー禁止区域の外に球があるが枝が区域から伸びて邪魔",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 223,
+      "rule": "20.1b(2)",
+      "title": "マッチで後から相手の違反に気づいた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 224,
+      "rule": "20.1a",
+      "title": "レフェリーが来ないので待ち続けている",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 225,
+      "rule": "20.1c(3)",
+      "title": "2球プレーしたが委員会に報告せずスコア提出した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 226,
+      "rule": "21.1",
+      "title": "ステーブルフォードで罰によりそのホール0点になった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 227,
+      "rule": "21.3",
+      "title": "パー・ボギー競技で一般の罰を受けた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 228,
+      "rule": "22.2",
+      "title": "フォーサムでパートナーのために球をマークした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 229,
+      "rule": "23.9",
+      "title": "フォアボールで一人が失格になった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 230,
+      "rule": "24.4",
+      "title": "チームキャプテンからプレー中に助言を受けた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 237,
+      "rule": "4.3 / 規則資料",
+      "title": "競技中にスマホでゴルフ規則を調べた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 238,
+      "rule": "13.3a",
+      "title": "球がカップの縁で10秒を超えて待った後に落ちた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 239,
+      "rule": "13.2c",
+      "title": "旗竿に寄りかかった球を旗竿を動かして落とした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 240,
+      "rule": "12.2b",
+      "title": "バンカーの砂をならした後で同じ場所へ球が戻ってきた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 241,
+      "rule": "7.1 / 8.1",
+      "title": "球を探すため長い草を大きく動かしたらライが改善した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 242,
+      "rule": "7.3 / 9.6",
+      "title": "自分の球だと思って拾ったら他人の球だった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 243,
+      "rule": "14.1 / 14.7",
+      "title": "ボールマーカーをパターで横へずらした後、戻し忘れた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 244,
+      "rule": "14.3c",
+      "title": "ドロップした球が自分の足に当たって救済エリア内に止まった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 245,
+      "rule": "14.3b",
+      "title": "ドロップした球が地面に着く前に自分の靴に当たった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 246,
+      "rule": "14.2b",
+      "title": "プレースすべき球をドロップして打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 247,
+      "rule": "14.3b",
+      "title": "ドロップすべき球をプレースして打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 248,
+      "rule": "13.1 / 8.1",
+      "title": "グリーン上の露や霜をラインから取り除いた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 249,
+      "rule": "13.1c",
+      "title": "グリーン上の砂や土を手で払った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 250,
+      "rule": "8.1 / 定義",
+      "title": "フェアウェイの砂を球の周りから取り除いた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 251,
+      "rule": "13.1c(2)",
+      "title": "グリーンのエアレーション穴をパット前に直したい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 252,
+      "rule": "13.1e",
+      "title": "グリーンの速さを調べるため手でこすった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 253,
+      "rule": "16.4",
+      "title": "救済できるか確認するため球を拾い上げたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 254,
+      "rule": "16.4",
+      "title": "救済確認で拾った球を拭いたが救済できなかった",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 255,
+      "rule": "16.1a(3)",
+      "title": "茂みで打てない球だがカート道に足がかかる",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 256,
+      "rule": "6.2b(5)",
+      "title": "ティーから落ちている途中の球を打った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 257,
+      "rule": "16.1e",
+      "title": "修理地に入った球が見つからない",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 258,
+      "rule": "16.1e",
+      "title": "泥に埋まったはずの球が見つからない",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 259,
+      "rule": "Clarification 5.2b/3",
+      "title": "競技前のコースでグリーン面をテストした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 264,
+      "rule": "8.1a",
+      "title": "スタンスやスイング区域を改善した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 265,
+      "rule": "8.1b",
+      "title": "認められるコース上の行動",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 266,
+      "rule": "8.2",
+      "title": "他のプレーヤーの球に影響する状態を変えた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 267,
+      "rule": "8.3",
+      "title": "次のストロークに影響する状態を意図的に変えた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 268,
+      "rule": "24.1",
+      "title": "チーム競技で個人戦とチーム戦が同時に行われる",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 269,
+      "rule": "24.2",
+      "title": "チーム競技の競技条件を確認する",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 270,
+      "rule": "24.3",
+      "title": "チームキャプテンの役割を確認する",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 271,
+      "rule": "1.1",
+      "title": "コースはあるがまま、球はあるがままにプレーする",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 272,
+      "rule": "1.2b",
+      "title": "大会独自の行動規範に違反した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 273,
+      "rule": "2.2",
+      "title": "球がコースのどのエリアにあるか判断する",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 274,
+      "rule": "9.2",
+      "title": "球が本当に動いたか・何が原因か分からない",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 275,
+      "rule": "9.5",
+      "title": "マッチプレーの相手が自分の球を動かした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 276,
+      "rule": "9.7",
+      "title": "ボールマーカーが動いた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 277,
+      "rule": "12.1",
+      "title": "球がバンカー内にあるか判断する",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 278,
+      "rule": "12.2a",
+      "title": "バンカー内の石や落ち葉を取り除きたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 279,
+      "rule": "12.3",
+      "title": "バンカー内の球から救済を受けたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 280,
+      "rule": "3.3b(2)",
+      "title": "スコアカードにハンディキャップを自分で記入する必要がある？",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 281,
+      "rule": "3.3b(3)",
+      "title": "実際より多いスコアを提出した",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 282,
+      "rule": "5.4",
+      "title": "ストロークプレーで別の組と一緒に回った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 283,
+      "rule": "5.5a",
+      "title": "ホールのプレー中に練習ストロークをした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 284,
+      "rule": "5.6b",
+      "title": "40秒以内を目安にプレーする",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 285,
+      "rule": "6.3b",
+      "title": "球を取り替えてよい場面か分からない",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 286,
+      "rule": "7.1a",
+      "title": "球を探すため砂や草を動かした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 287,
+      "rule": "7.3",
+      "title": "自分の球か確認するため拾い上げる",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 288,
+      "rule": "10.2a",
+      "title": "自分のキャディー以外から助言を受けた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 289,
+      "rule": "11.3",
+      "title": "動いている球に影響させるため物を動かした",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 290,
+      "rule": "13.1b",
+      "title": "グリーン上の球をマークして拾い上げる",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 291,
+      "rule": "13.2a",
+      "title": "旗竿を動かす・取り除く・付き添う",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 292,
+      "rule": "14.6",
+      "title": "前の場所から打ち直すときの場所",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 293,
+      "rule": "15.2b",
+      "title": "動かせる障害物の中や下に球が入った",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 294,
+      "rule": "16.1b",
+      "title": "ジェネラルエリアでカート道・修理地から救済する",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 295,
+      "rule": "16.1d",
+      "title": "グリーン上で一時的な水や修理地が邪魔",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 296,
+      "rule": "17.1c",
+      "title": "ペナルティーエリア内の球をそのまま打つ",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 297,
+      "rule": "18.3a",
+      "title": "暫定球をプレーできる条件",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 298,
+      "rule": "19.1",
+      "title": "アンプレヤブルを宣言できるのは誰？",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 299,
+      "rule": "20.3",
+      "title": "規則にない状況が起きた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 300,
+      "rule": "21.4",
+      "title": "3人で同時に別々のマッチをするスリーボール",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 301,
+      "rule": "21.5",
+      "title": "複数のストロークプレー形式へ同時参加している",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 302,
+      "rule": "22.2",
+      "title": "フォアサムでパートナーが球をマーク・ドロップしてよい？",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 303,
+      "rule": "22.4",
+      "title": "フォアサムのスタート順を間違えた",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 304,
+      "rule": "22.5",
+      "title": "フォアサムでパートナー同士がクラブを共有したい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 306,
+      "rule": "23.2b",
+      "title": "フォアボールのスコアをどちらが出したか書いていない",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 307,
+      "rule": "23.4",
+      "title": "フォアボールでパートナーの1人だけでプレーする",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    },
+    {
+      "id": 308,
+      "rule": "23.6",
+      "title": "フォアボールでパートナー同士の打順を変えたい",
+      "summaryDiffers": true,
+      "actionDiffers": true
+    }
+  ],
+  "clarificationFormattedReferences": [
+    {
+      "id": 218,
+      "ref": "Club-Length/1"
+    },
+    {
+      "id": 259,
+      "ref": "5.2b/3"
+    }
+  ],
+  "notes": [
+    "summary/descriptionとaction/procedureの不一致は必ずしも誤りではない。アプリ側の使用フィールドを確認するまで自動上書きしない。",
+    "Clarification形式のIDは通常サブルールと区別して公式資料で照合する。",
+    "公式規則との内容一致は未確認。"
+  ]
+}
