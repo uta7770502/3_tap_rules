@@ -98,7 +98,7 @@ scenes["moved-general-area"]={"src": "assets/dedicated-guides/moved-general-area
 mappings.competition[8]="moved-general-area";
 mappings.competition[146]="moved-general-area";
 mappings.competition[275]="moved-general-area";
-scenes["practice-hit-ball"]={"src": "assets/dedicated-guides/practice-hit-ball-style-a-20261015.png", "caption": "素振り中にクラブが球に当たり、球が動いた場面のイメージ。球を打つ意思や球の場所によって判断するため、本文の条件を確認します。", "dedicated": true};
+scenes["practice-hit-ball"]={"src": "assets/dedicated-guides/practice-hit-ball-style-a-20261105.webp", "caption": "素振り中にクラブが球に当たり、球が動いた場面のイメージ。球を打つ意思や球の場所によって判断するため、本文の条件を確認します。", "dedicated": true};
 mappings.competition[220]="practice-hit-ball";
 
 // Clothing contact and deliberate clothing support are distinct scenes.
@@ -113,7 +113,7 @@ mappings.competition[3]="excess-clubs";
 scenes["wrong-tee-hole"]={"src": "assets/dedicated-guides/wrong-tee-hole-style-a-20261016.png", "caption": "6番ホールをプレーすべきところ、7番ホールのティーで構えている例。この場所から打った場合の処置は、ストロークプレーとマッチプレーで異なります。", "dedicated": true};
 mappings.competition[136]="wrong-tee-hole";
 mappings.competition[137]="wrong-tee-hole";
-scenes["moving-ball-stroke"]={"src": "assets/dedicated-guides/moving-ball-stroke-style-a-20261016.png", "caption": "すでに転がっている自分の球へ、別のストロークをしようとしている例。1回のストローク中の偶然の複数接触とは区別します。例外と罰は本文を確認してください。", "dedicated": true};
+scenes["moving-ball-stroke"]={"src": "assets/dedicated-guides/moving-ball-stroke-style-a-20261105.webp", "caption": "すでに転がっている自分の球へ、別のストロークをしようとしている例。1回のストローク中の偶然の複数接触とは区別します。例外と罰は本文を確認してください。", "dedicated": true};
 mappings.standard[80]="moving-ball-stroke";
 mappings.competition[155]="moving-ball-stroke";
 mappings.competition[159]="moving-ball-stroke";
