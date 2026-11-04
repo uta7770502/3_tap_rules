@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 401,
+    "cases": 402,
     "officialSubrules": 336,
-    "linked": 282,
-    "needsReview": 54
+    "linked": 283,
+    "needsReview": 53
   },
   "byRule": [
     {
@@ -93,8 +93,8 @@
     {
       "rule": 13,
       "total": 14,
-      "linked": 11,
-      "needsReview": 3
+      "linked": 12,
+      "needsReview": 2
     },
     {
       "rule": 14,
@@ -1326,7 +1326,7 @@
       "rule": 13,
       "id": "13.2b",
       "title": "旗竿を抜く",
-      "caseIds": []
+      "caseIds": [402]
     },
     {
       "rule": 13,
