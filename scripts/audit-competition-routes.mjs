@@ -46,6 +46,21 @@ assert.ok(chat.includes("fetch('/api/golf-chat'"),"AI consultation missing API r
 assert.ok(chat.includes("photoLibrary.click()"),"Photo selection missing native picker");
 assert.ok(api.includes("req.method === 'GET'"),"AI connection status endpoint missing");
 assert.ok(api.includes("req.method !== 'POST'"),"AI consultation POST endpoint missing");
+const graphText=judgeScript.split("const flows=")[1]?.split(";\nlet key=")[0];
+assert.ok(graphText,"Judge graph missing");
+const flows=Function("return ("+graphText+")")();
+const visited=new Set(), terminals=new Set();
+function checkRoute(key,depth=0){
+ assert.ok(depth<12,"Judge cycle at "+key);
+ const step=flows[key]; assert.ok(step,"Broken judge choice "+key); visited.add(key);
+ if(step.result){terminals.add(key);return;}
+ assert.ok(step.a?.length,"Judge dead end "+key);
+ for(const option of step.a)checkRoute(option[1],depth+1);
+}
+checkRoute("start");
+assert.equal(visited.size,Object.keys(flows).length,"Unreachable judge states");
+assert.equal(terminals.size,10,"Expected ten judge outcomes");
+console.log("PASS: all 10 judge outcomes are reachable.");
 console.log("PASS: judge/chat/API JavaScript parses, consultation elements and photo/API wiring present.");
 console.log("PASS: 444 cases, 336 heading references, 25 Rule buttons, all five data sources on list/detail, required fields and navigation wiring.");
 console.log("NOTE: Static audit only; does not certify R&A wording, device operation, or production deployment.");
