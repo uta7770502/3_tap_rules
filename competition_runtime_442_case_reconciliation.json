@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-11-04",
+  "status": "verified_from_competition_rules_html_fetch_list_and_five_branch_json_files",
+  "totalLoadedCases": 442,
+  "uniqueIds": 442,
+  "duplicateIds": [],
+  "files": [
+    {
+      "path": "competition_rules.json",
+      "count": 341,
+      "minId": 1,
+      "maxId": 374
+    },
+    {
+      "path": "competition_rules_extra_20.json",
+      "count": 34,
+      "minId": 409,
+      "maxId": 442
+    },
+    {
+      "path": "competition_rules_extra_13_17.json",
+      "count": 14,
+      "minId": 395,
+      "maxId": 408
+    },
+    {
+      "path": "competition_rules_extra_5_10.json",
+      "count": 20,
+      "minId": 375,
+      "maxId": 394
+    },
+    {
+      "path": "competition_rule25_verified_cases.json",
+      "count": 33,
+      "minId": 332,
+      "maxId": 364
+    }
+  ],
+  "rulesByPrimaryNumber": {
+    "1": 8,
+    "2": 5,
+    "3": 17,
+    "4": 16,
+    "5": 17,
+    "6": 21,
+    "7": 9,
+    "8": 10,
+    "9": 11,
+    "10": 26,
+    "11": 12,
+    "12": 8,
+    "13": 19,
+    "14": 29,
+    "15": 11,
+    "16": 18,
+    "17": 14,
+    "18": 10,
+    "19": 8,
+    "20": 16,
+    "21": 21,
+    "22": 12,
+    "23": 23,
+    "24": 10,
+    "25": 47
+  },
+  "criticalFinding": "The previously reported 101-case discrepancy is resolved: 341 base cases + 33 Rule25 + 20 Rule5-10 + 14 Rule13-17 + 34 Rule20 = 442 unique cases. The 33 missing base IDs 332-364 are present in Rule25 file.",
+  "displayLogic": "competition_rules.html concatenates all five JSON arrays; normalize() prefers summary over description and action over procedure, falling back when absent.",
+  "remainingRisks": [
+    "The 163 divergent records in the base file require review of intended summary/action vs description/procedure, not blind synchronization.",
+    "All 442 cases still require official-content and source URL verification.",
+    "Search, filters, rule-number navigation, detail links require runtime testing.",
+    "No claim of complete official rule coverage."
+  ]
+}
