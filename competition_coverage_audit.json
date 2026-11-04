@@ -12,10 +12,10 @@
     "competition_rule25_verified_cases.json"
   ],
   "counts": {
-    "cases": 407,
+    "cases": 408,
     "officialSubrules": 336,
-    "linked": 288,
-    "needsReview": 48
+    "linked": 289,
+    "needsReview": 47
   },
   "byRule": [
     {
@@ -99,8 +99,8 @@
     {
       "rule": 14,
       "total": 27,
-      "linked": 26,
-      "needsReview": 1
+      "linked": 27,
+      "needsReview": 0
     },
     {
       "rule": 15,
@@ -1508,7 +1508,7 @@
       "rule": 14,
       "id": "14.5c",
       "title": "誤りの後に行った行為の罰",
-      "caseIds": []
+      "caseIds": [408]
     },
     {
       "rule": 14,
