@@ -3271,7 +3271,12 @@
     "description": "物をコース側に置いたのか、身体に着用したのかを確認します。",
     "procedure": "ストローク条件を改善するためサボテン等にタオルを掛けるのは認められません。一方、身体にタオル等を巻いて自分を保護することは可能です。",
     "penalty": "違反時は一般の罰。",
-    "keywords": "タオル サボテン 保護 スタンス"
+    "keywords": "タオル サボテン 保護 スタンス",
+    "officialSubruleIds": [
+      "10.2b",
+      "8.1a"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
   },
   {
     "id": 165,
@@ -3295,7 +3300,12 @@
     "description": "球そのものがOBかどうかをまず確認します。",
     "procedure": "球がコース内にあり、球を正しく打つ限り、プレーヤー自身がOB側に立ってストロークすることは可能です。境界物を動かすことは別途制限されます。",
     "penalty": "条件を満たせば罰なし。",
-    "keywords": "OB 外から打つ フェンス 外側 立つ"
+    "keywords": "OB 外から打つ フェンス 外側 立つ",
+    "officialSubruleIds": [
+      "10.1a",
+      "18.2"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
   },
   {
     "id": 167,
@@ -3319,7 +3329,12 @@
     "description": "偶然の衣服接触とは区別します。",
     "procedure": "衣服を意図的に利用してクラブや手を固定したり、ストロークを助ける目的で通常と異なる使い方をすることは認められません。",
     "penalty": "違反時は一般の罰。",
-    "keywords": "服 袖 押さえた 固定 雨具"
+    "keywords": "服 袖 押さえた 固定 雨具",
+    "officialSubruleIds": [
+      "10.1b",
+      "4.3"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-10"
   },
   {
     "id": 169,
@@ -3469,7 +3484,12 @@
     "description": "線から横にずれた場所へドロップした球は、最終的に線上へ転がっても誤所の問題になります。",
     "procedure": "後方線上救済で規則上要求される線上に正しくドロップし直します。打つ前なら訂正できます。",
     "penalty": "訂正せず誤所から打てば一般の罰。重大な違反ならストロークプレーで訂正が必要。",
-    "keywords": "後方線上 横 ドロップ 誤所"
+    "keywords": "後方線上 横 ドロップ 誤所",
+    "officialSubruleIds": [
+      "14.3b(4)",
+      "14.7"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
   {
     "id": 180,
@@ -3479,7 +3499,12 @@
     "description": "落ち葉・小石・枝などを除いた結果、止まっていた球が動いたケース。",
     "procedure": "球を元の箇所にリプレースします。グリーン上や捜索中など例外に当たるか確認します。",
     "penalty": "例外外なら通常1罰打。",
-    "keywords": "落ち葉 石 枝 動かした 球 動いた"
+    "keywords": "落ち葉 石 枝 動かした 球 動いた",
+    "officialSubruleIds": [
+      "15.1b",
+      "9.4"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15"
   },
   {
     "id": 181,
@@ -3517,7 +3542,11 @@
     "description": "球だけ道から外しても、スタンス等に障害が残れば完全救済になっていない場合があります。",
     "procedure": "完全救済のニアレストポイントは、球・意図するスタンス・意図するスイング区域への障害が完全になくなる最も近い基準点です。",
     "penalty": "誤所から打てば一般の罰の可能性。",
-    "keywords": "ニアレスト スタンス 道 残る 完全救済"
+    "keywords": "ニアレスト スタンス 道 残る 完全救済",
+    "officialSubruleIds": [
+      "16.1"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
   },
   {
     "id": 184,
@@ -3541,7 +3570,11 @@
     "description": "2026年の新しいMLR F-2の選択肢は、テレビ中継・レフェリーがいる競技向けの限定的な運用です。",
     "procedure": "通常のRule 16.3は自分の直前のストロークでできたピッチマークに球がくい込んだ場合が対象です。委員会が特定のMLR F-2を採用している競技では追加救済が認められる場合があります。",
     "penalty": "ローカルルール採用の有無を確認。",
-    "keywords": "古い ピッチマーク 他人 埋まった F-2"
+    "keywords": "古い ピッチマーク 他人 埋まった F-2",
+    "officialSubruleIds": [
+      "16.3"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
   },
   {
     "id": 186,
@@ -3551,7 +3584,12 @@
     "description": "拾った理由と、その後救済を受けたかを確認します。",
     "procedure": "そのままプレーするつもりなら勝手に拾い上げられません。救済を受ける場合は1罰打でRule 17の選択肢に従います。",
     "penalty": "救済の1罰打に加え、拾い上げ行為の扱いを状況により確認。",
-    "keywords": "池 赤杭 黄杭 拾った ペナルティーエリア"
+    "keywords": "池 赤杭 黄杭 拾った ペナルティーエリア",
+    "officialSubruleIds": [
+      "17",
+      "9.4"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
   },
   {
     "id": 187,
@@ -3561,7 +3599,11 @@
     "description": "昔の感覚で反対側救済を選ばないよう注意します。",
     "procedure": "通常の赤ペナルティーエリア救済に『反対側の同距離地点』は自動的には含まれません。委員会が該当ローカルルールを採用しているか確認します。",
     "penalty": "採用なしで誤所から打てば一般の罰。",
-    "keywords": "赤杭 反対側 対岸 同距離 ドロップ"
+    "keywords": "赤杭 反対側 対岸 同距離 ドロップ",
+    "officialSubruleIds": [
+      "17.1d"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-17"
   },
   {
     "id": 188,
@@ -3599,7 +3641,12 @@
     "description": "3分以内に発見したか、確認のための時間だったかを区別します。",
     "procedure": "3分以内に球らしきものを見つけた場合、本人が確認するための合理的な時間が追加で認められる場合があります。",
     "penalty": "条件を満たさずロストならストロークと距離の1罰打。",
-    "keywords": "3分 見つけた 確認 時間切れ ロスト"
+    "keywords": "3分 見つけた 確認 時間切れ ロスト",
+    "officialSubruleIds": [
+      "18.2",
+      "7.2"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-18"
   },
   {
     "id": 191,
@@ -3679,7 +3726,12 @@
     "description": "相手が明確にコンシードしたかが重要です。",
     "procedure": "コンシードされていない球を自分で拾った場合は、球をリプレースし、該当する罰を適用します。",
     "penalty": "通常1罰打が関係。",
-    "keywords": "OK されてない 拾った マッチ パット"
+    "keywords": "OK されてない 拾った マッチ パット",
+    "officialSubruleIds": [
+      "3.2b",
+      "9.4"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
   },
   {
     "id": 197,
@@ -3704,7 +3756,11 @@
     "procedure": "誤球を打った本人を特定する。ストロークプレーでは正しい球で訂正し、誤球で行ったストロークは数えない。マッチプレーでは打った本人のそのホールのスコアはサイドに採用できないが、パートナーは続けられる。",
     "penalty": "規則6.3c・23.9a(2)：誤球を打った本人に一般の罰。ストロークプレーでは2罰打で、次ホール開始前（最終ホールではスコアカード提出前）に訂正しなければ本人のスコアはそのホールに採用できない。",
     "keywords": "フォアボール パートナー 球 打った 誤球",
-    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23"
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-23",
+    "officialSubruleIds": [
+      "23.9a(2)",
+      "6.3c"
+    ]
   },
   {
     "id": 199,
@@ -3870,7 +3926,11 @@
     "description": "動かして改善した場合、ストローク前に元に戻して罰を回避できるケースがあるかRule 8.1cも確認します。",
     "procedure": "OB杭などの境界物は障害物ではなく、原則として動かしてプレー条件を改善できません。",
     "penalty": "改善を復元せず打てば一般の罰。",
-    "keywords": "白杭 抜いた OB杭 境界物"
+    "keywords": "白杭 抜いた OB杭 境界物",
+    "officialSubruleIds": [
+      "8.1a"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
   },
   {
     "id": 212,
@@ -3932,7 +3992,12 @@
     "description": "球自体が区域外でも干渉があれば強制救済となる場合があります。",
     "procedure": "プレー禁止区域が異常なコース状態として定められ、その区域が意図するスタンスやスイング区域に干渉する場合、規則に従い救済を受けなければなりません。",
     "penalty": "救済せず禁止区域からプレーすれば一般の罰。",
-    "keywords": "プレー禁止区域 スタンス 入る 強制救済"
+    "keywords": "プレー禁止区域 スタンス 入る 強制救済",
+    "officialSubruleIds": [
+      "2.4",
+      "16.1f"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-2"
   },
   {
     "id": 217,
@@ -3952,7 +4017,10 @@
     "description": "救済エリア測定の基準クラブについてのケース。",
     "procedure": "パターを除く最も長いクラブが折れても、救済エリアはそのクラブの元の長さで測ります。ただし、規則4.1a(2)により取り替えが認められ、実際に取り替えた場合、折れたクラブは基準から外れます。14本未満で開始し、より長いクラブ（パター以外）を追加した場合は、そのクラブを測定に用います。",
     "penalty": "正しい測定なら罰なし。",
-    "keywords": "クラブレングス 一番長い 折れた 測る"
+    "keywords": "クラブレングス 一番長い 折れた 測る",
+    "officialSubruleIds": [
+      "Club-Length/1"
+    ]
   },
   {
     "id": 219,
@@ -3992,7 +4060,11 @@
     "description": "区域の境界と、邪魔な生長物がどこから生えているかを確認します。",
     "procedure": "プレー禁止区域から区域外へ突き出した生長物も、その区域の状態として扱われる場合があります。スタンスやスイングへの干渉を確認し、強制救済が必要か判断します。",
     "penalty": "必要な救済を受けずプレーすれば一般の罰。",
-    "keywords": "プレー禁止区域 枝 伸びてる 邪魔"
+    "keywords": "プレー禁止区域 枝 伸びてる 邪魔",
+    "officialSubruleIds": [
+      "16.1f"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16"
   },
   {
     "id": 223,
@@ -4174,7 +4246,11 @@
     "description": "規則確認だけか、風・傾斜等の禁止測定機能も使用したかを確認します。",
     "procedure": "電子版のゴルフ規則などを参照すること自体は認められます。ただし端末の禁止機能をプレー援助に使用しないようにします。",
     "penalty": "規則閲覧だけなら罰なし。",
-    "keywords": "スマホ 規則 調べた アプリ ルール"
+    "keywords": "スマホ 規則 調べた アプリ ルール",
+    "officialSubruleIds": [
+      "4.3"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-4"
   },
   {
     "id": 238,
@@ -4226,7 +4302,12 @@
     "description": "球を見つけるために合理的に必要だった行為かを確認します。",
     "procedure": "球を見つけるため合理的な捜索行為は認められます。合理的な範囲を超えてプレー条件を改善した場合は罰が生じます。",
     "penalty": "合理的捜索なら罰なし。過度な改善は一般の罰。",
-    "keywords": "草 動かした 探す ライ 改善 捜索"
+    "keywords": "草 動かした 探す ライ 改善 捜索",
+    "officialSubruleIds": [
+      "7.1",
+      "8.1"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
   },
   {
     "id": 242,
@@ -4236,7 +4317,12 @@
     "description": "合理的な捜索・確認中だったかも確認します。",
     "procedure": "球の確認手順と、外的影響として他人の球を動かした扱いを分けて判断します。動かした他人の球は元の箇所にリプレースします。",
     "penalty": "状況により罰なし。",
-    "keywords": "他人の球 拾った 確認 間違え"
+    "keywords": "他人の球 拾った 確認 間違え",
+    "officialSubruleIds": [
+      "7.3",
+      "9.6"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-7"
   },
   {
     "id": 243,
@@ -4246,7 +4332,12 @@
     "description": "何クラブヘッド分ずらしたか等、元位置を復元します。",
     "procedure": "他のプレーヤーの妨げを避けるためマーカーを移した場合、球をリプレースする前に元の位置へ戻します。戻さず別位置からプレーすると誤所です。",
     "penalty": "誤所から打てば一般の罰。",
-    "keywords": "マーカー ずらした 戻し忘れ パター"
+    "keywords": "マーカー ずらした 戻し忘れ パター",
+    "officialSubruleIds": [
+      "14.1",
+      "14.7"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-14"
   },
   {
     "id": 244,
@@ -4315,7 +4406,12 @@
     "description": "自然物でも規則上の扱いが落ち葉等とは異なります。",
     "procedure": "露や霜はルースインペディメントではなく、プレーの線を改善する目的で取り除くことには制限があります。",
     "penalty": "禁止される改善なら一般の罰。",
-    "keywords": "露 霜 グリーン ライン 拭く"
+    "keywords": "露 霜 グリーン ライン 拭く",
+    "officialSubruleIds": [
+      "13.1",
+      "8.1"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-13"
   },
   {
     "id": 249,
@@ -4339,7 +4435,11 @@
     "description": "グリーン上の砂を除ける規則と混同しないようにします。",
     "procedure": "グリーン外の砂やバラバラの土は通常ルースインペディメントではないため、球のライやスイング区域を改善するように除去できません。",
     "penalty": "改善すれば一般の罰。",
-    "keywords": "フェアウェイ 砂 土 取り除く 球 周り"
+    "keywords": "フェアウェイ 砂 土 取り除く 球 周り",
+    "officialSubruleIds": [
+      "8.1"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8"
   },
   {
     "id": 251,
@@ -4471,7 +4571,11 @@
     "description": "ストロークプレーでラウンド前のコース上で禁止される練習には、ストロークだけでなく、球を転がしたりグリーン面をこすって表面をテストする行為も含まれる。",
     "procedure": "競技前の練習制限と競技条件を確認し、違反の可能性があればスタート前に委員会へ確認する。",
     "penalty": "Rule 5.2bの罰を適用。",
-    "keywords": "Clarification 5.2b 練習 グリーン テスト 競技前"
+    "keywords": "Clarification 5.2b 練習 グリーン テスト 競技前",
+    "officialSubruleIds": [
+      "5.2b/3"
+    ],
+    "source": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5"
   },
   {
     "id": 260,
