@@ -38,7 +38,7 @@ Object.assign(mappings.standard,{30:'fringe-putter',51:'fringe-putter'});
 Object.assign(scenes,{"green-sand-brush":{"src":"assets/dedicated-guides/green-sand-brush-20261014.png","caption":"グリーン面の砂やばらばらの土を手で取り除く場面。球は動かさず、グリーン外の砂・土とは区別して判断します。","dedicated":true},"step-putting-line":{"src":"assets/dedicated-guides/step-putting-line-20261014.png","caption":"球とホールの間を歩き、他のプレーヤーのパットの線を踏んでしまった例。避けたい行為として示しています。罰の有無は本文の条件を確認してください。","dedicated":true}});
 Object.assign(mappings.standard,{32:'step-putting-line',44:'step-putting-line'});
 Object.assign(mappings.competition,{249:'green-sand-brush'});
-Object.assign(scenes,{"wind-outside-green":{"src":"assets/dedicated-guides/wind-outside-green-20261015.png","caption":"グリーン外の短い芝で、自然の風により球が動いた場面。人・クラブ・動物は触れていません。次にプレーする場所は本文の条件を確認してください。","dedicated":true},"cleaning-restricted":{"src":"assets/dedicated-guides/cleaning-restricted-20261015.png","caption":"拾い上げた球をタオルで拭いている場面。拭いてよいかは拾い上げた理由によって異なります。この項目では清掃の制限を本文で確認してください。","dedicated":true}});
+Object.assign(scenes,{"wind-outside-green":{"src":"assets/dedicated-guides/wind-outside-green-20261015.png","caption":"グリーン外の短い芝で、自然の風により球が動いた場面。人・クラブ・動物は触れていません。次にプレーする場所は本文の条件を確認してください。","dedicated":true},"cleaning-restricted":{"src":"assets/dedicated-guides/cleaning-restricted-20261015-revised-20261105.webp","caption":"拾い上げた球をタオルで拭いている場面。拭いてよいかは拾い上げた理由によって異なります。この項目では清掃の制限を本文で確認してください。","dedicated":true}});
 Object.assign(mappings.standard,{200:'wind-outside-green',246:'cleaning-restricted'});
 Object.assign(mappings.competition,{147:'wind-outside-green',176:'cleaning-restricted',254:'cleaning-restricted'});
 // Visually reviewed reuse: captions describe only the depicted representative case.
@@ -54,7 +54,7 @@ mappings.standard[99]="shadow-putting-line";
 // Rule 7: searching movement and marked identification are distinct scenes.
 Object.assign(scenes,{
  'search-moved-ball':{src:'assets/dedicated-guides/search-moved-ball-20261014.png',caption:'球を探している途中、靴が触れて偶然球が動いた例。合理的な捜索中なら罰はなく、元の箇所へリプレースします。不明なら元の箇所を推定します。',dedicated:true},
- 'identify-marked-ball':{src:'assets/dedicated-guides/identify-marked-ball-20261014.png',caption:'識別の必要がある球を、位置をマークしてから拾い上げた場面。確認に必要な範囲を超えて拭かず、元の箇所へリプレースします。',dedicated:true}
+ 'identify-marked-ball':{src:'assets/dedicated-guides/identify-marked-ball-20261014-revised-20261105.webp',caption:'識別の必要がある球を、位置をマークしてから拾い上げた場面。確認に必要な範囲を超えて拭かず、元の箇所へリプレースします。',dedicated:true}
 });
 Object.assign(mappings.standard,{129:'search-moved-ball',162:'identify-marked-ball',197:'identify-marked-ball'});
 Object.assign(mappings.competition,{7:'search-moved-ball',145:'search-moved-ball',87:'identify-marked-ball',287:'identify-marked-ball'});
