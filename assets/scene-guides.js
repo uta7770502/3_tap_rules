@@ -22,9 +22,9 @@ Object.assign(mappings.standard,{"28":"lift-no-marker","52":"ball-collision-stil
 Object.assign(mappings.competition,{"6":"wrong-ball","62":"lift-no-marker","67":"leaf-ball","94":"cup-lip","139":"wrong-ball","170":"ball-collision-still","171":"ball-collision-moving","175":"lift-no-marker","180":"leaf-ball","211":"remove-white-stake","217":"cup-embedded","238":"cup-lip","239":"flag-lean"});
 Object.assign(mappings.basic,{});
 Object.assign(scenes,{
- 'bunker-leaf-remove':{src:'assets/dedicated-guides/bunker-leaf-remove.webp',caption:'バンカー内で、止まっている球のそばの落ち葉を取り除く場面。球を動かさないよう注意します。',dedicated:true},
- 'rough-leaf-remove':{src:'assets/dedicated-guides/rough-leaf-remove.webp',caption:'ラフで、球のそばの落ち葉を取り除く場面。生えている草を押し倒す行為とは異なります。',dedicated:true},
- 'penalty-leaf-remove':{src:'assets/dedicated-guides/penalty-leaf-remove.webp',caption:'ペナルティーエリア内で、球のそばの落ち葉を取り除く場面。球が動いた場合の処置は本文で確認します。',dedicated:true},
+ 'bunker-leaf-remove':{src:'assets/dedicated-guides/bunker-leaf-remove-approved-20261105.webp',caption:'バンカー内で、止まっている球のそばの落ち葉を取り除く場面。球を動かさないよう注意します。',dedicated:true},
+ 'rough-leaf-remove':{src:'assets/dedicated-guides/rough-leaf-remove-approved-20261105.webp',caption:'ラフで、球のそばの落ち葉を取り除く場面。生えている草を押し倒す行為とは異なります。',dedicated:true},
+ 'penalty-leaf-remove':{src:'assets/dedicated-guides/penalty-leaf-remove-approved-20261105.webp',caption:'ペナルティーエリア内で、球のそばの落ち葉を取り除く場面。球が動いた場合の処置は本文で確認します。',dedicated:true},
  'green-debris-remove':{src:'assets/dedicated-guides/green-debris-remove.webp',caption:'グリーン上で砂や落ち葉を取り除く場面。球はその位置に止まっています。',dedicated:true}
 });
 Object.assign(mappings.standard,{42:'green-debris-remove',64:'bunker-leaf-remove',148:'rough-leaf-remove',190:'penalty-leaf-remove'});
