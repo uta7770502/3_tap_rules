@@ -54,7 +54,7 @@ mappings.standard[99]="shadow-putting-line";
 // Rule 7: searching movement and marked identification are distinct scenes.
 Object.assign(scenes,{
  'search-moved-ball':{src:'assets/dedicated-guides/search-moved-ball-20261014.png',caption:'球を探している途中、靴が触れて偶然球が動いた例。合理的な捜索中なら罰はなく、元の箇所へリプレースします。不明なら元の箇所を推定します。',dedicated:true},
- 'identify-marked-ball':{src:'assets/dedicated-guides/identify-marked-ball-balanced-lines-20261105.webp',caption:'識別の必要がある球を、位置をマークしてから拾い上げた場面。確認に必要な範囲を超えて拭かず、元の箇所へリプレースします。',dedicated:true}
+ 'identify-marked-ball':{src:'assets/dedicated-guides/identify-marked-ball-larger-marker-20261105.webp',caption:'識別の必要がある球を、位置をマークしてから拾い上げた場面。確認に必要な範囲を超えて拭かず、元の箇所へリプレースします。',dedicated:true}
 });
 Object.assign(mappings.standard,{129:'search-moved-ball',162:'identify-marked-ball',197:'identify-marked-ball'});
 Object.assign(mappings.competition,{7:'search-moved-ball',145:'search-moved-ball',87:'identify-marked-ball',287:'identify-marked-ball'});
