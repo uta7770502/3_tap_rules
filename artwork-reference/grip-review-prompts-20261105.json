@@ -1,0 +1,57 @@
+{
+  "method": "built-in image_gen",
+  "style": "Use case: precise-object-edit. Edit target image1; image2 and image3 are user-approved STYLE references ONLY. Keep target's white background, restrained pale mint, dark teal contours. Match reference contour weight at same 1536x1024 scale: medium-fine approx 3px, never bold 6-8px or hairline. Hands/finger structure/ball outlines same modest weight; creases/dimples lighter thinner. No extra wrist emphasis, no dense grass, no text additions or watermark. Preserve scene and perspective unless specified. Anatomically credible hands, no fused digits or extra shafts. ",
+  "initial": {
+    "tee-falling": {
+      "file": "tee-falling.png",
+      "text": "Keep exact falling-ball-before-stroke scene: ball visibly in the air left of the empty tee, small downward motion ticks, clubhead to its left. Refine excessively heavy outlines and correct driver anatomy/scale. A plausible driver face aimed at the airborne ball, shaft meets heel through a continuous hosel, face width approximately twice ball diameter, tee cup much narrower than ball. Do not put ball on tee or on ground."
+    },
+    "play-inside-pa": {
+      "file": "play-inside-pa.png",
+      "text": "Keep red-stake dry penalty-area address scene and water at right. Correct BOTH hands, forearms and IRON: natural right-handed address grip, LEFT gloved hand upper at butt, RIGHT bare hand immediately below toward shaft, fingers wrapping the same dark handle. Iron striking face aimed screen-right toward ball, heel-to-toe blade extends ACROSS target path in depth, not a flat broad grooved side facing viewer. Show back of iron with NO grooves on visible back. Ball in front of face CENTER on ground to right. Red stakes and ball remain inside area; no added boundary line."
+    },
+    "wrong-tee-hole": {
+      "file": "wrong-tee-hole.webp",
+      "text": "Keep wrong teeing ground 7 foreground sign and distant 6 sign, tee markers and teed ball. Correct hands to natural right-handed two-hand grip: LEFT gloved hand upper at butt, RIGHT bare hand below immediately adjacent on same dark grip. Correct driver shaft-heel-hosel connection, strike face facing ball to screen-right with center behind ball. No extra clubs. Keep 6 and 7 numerals intact."
+    },
+    "push-ball": {
+      "file": "push-ball.webp",
+      "text": "Keep intentionally prohibited PUSH of ball with club and small arrow screen-right. Correct hands to natural right-handed grip, left gloved hand upper on same grip, right bare hand adjacent below. Clubhead remains in CONTACT with ball, face CENTER contacts left side of ball. Iron head long heel-to-toe axis extends across target path into page, foreshortened oblique nearvertical, not a horizontal broad grooved side pointed toe-first at ball. Show smooth ungrooved back facing viewer, face on RIGHT side contacting ball. No swing arc, no airborne ball."
+    },
+    "self-standing-putter": {
+      "file": "self-standing-putter.png",
+      "text": "Keep illustration of a putter standing on its OWN without being held, golfer checking alignment with hands away from club, ball, distant small cup. Replace narrow implausible blade with realistic compact self-standing mallet putter with broad flat sole on ground and continuous shaft rising to grip. Face aimed to ball and cup, centered behind ball, heel-to-toe dimension ACROSS target line, not toe pointing at ball. Golfer stands behind the ball along extension away from cup so he is checking alignment. Keep putter head realistic (about 2.5 ball diameters wide), ball/cup sizes plausible."
+    },
+    "caddie-behind": {
+      "file": "caddie-behind.png",
+      "text": "Keep caddie with bag behind the player on dashed target-line extension. Keep exact people and line placement. Correct golfer's hands to natural RIGHT-handed grip: LEFT gloved hand upper by butt, RIGHT bare hand immediately below toward shaft. ONE continuous grip-shaft-hosel-iron. Target line extends screen-right; iron striking face aimed right toward ball, ball directly in front of face CENTER. Heel-to-toe long dimension across line into/out of page, foreshortened nearvertical/oblique head, smooth ungrooved back facing viewer. No broad grooved side facing viewer. CRITICAL geometric change: REMOVE the old horizontal clubhead completely. Draw the replacement head as a short narrow tilted VERTICAL wedge at the shaft end, sole on grass, narrow RIGHT edge is strikingface, ball touching or close to middle of RIGHT edge. The heel-to-toe axis projects from lower-left to upper-right nearly VERTICAL, not left-to-right. Visible back is plain pale mint with NO horizontal grooves."
+    },
+    "straddle-putting-line": {
+      "file": "straddle-putting-line.png",
+      "text": "Keep intentionally prohibited putting stance STRADDLING line with ball between feet and dashed intended line running between feet from upper-left through ball toward lower-right. DO NOT normalize to conventional sideways address. Replace iron-like grooved club with simple blade PUTTER, its face centered behind ball on dashed line and perpendicular to that diagonal line. Natural paired hands wrapping one grip with anatomically coherent fingers, left hand above right. Continuous shaft to heel of putter. No grooves on putter back. Keep both feet on opposite sides of dashed line."
+    },
+    "wrong-partner-ball": {
+      "file": "wrong-partner-ball.png",
+      "text": "Keep two players labeled A and B, unattended own ball A at left, player A preparing to hit B's ball near center, partner B standing at right. Correct ACTIVE golfer A's hands: RIGHT-handed left gloved hand upper near butt and right bare hand immediately below on same grip. Correct active iron head: face CENTER directly behind B ball aimed screen-right, heel-to-toe blade runs across line into page foreshortened, smooth back visible WITHOUT grooves. Preserve all A and B labels and second person's casually held club unchanged. CRITICAL geometric change: REMOVE the old horizontal clubhead completely. Draw the replacement head as a short narrow tilted VERTICAL wedge at the shaft end, sole on grass, narrow RIGHT edge is strikingface, ball touching or close to middle of RIGHT edge. The heel-to-toe axis projects from lower-left to upper-right nearly VERTICAL, not left-to-right. Visible back is plain pale mint with NO horizontal grooves."
+    },
+    "blind-alignment": {
+      "file": "blind-alignment.png",
+      "text": "Keep visually impaired golfer with dark glasses at address, helper crouching adjusting clubhead BEFORE stroke. Correct golfer grip LEFT gloved hand upper at butt, RIGHT bare hand immediately adjacent below on same dark handle. Correct iron head to face ball screen-right, center of strikingface behind ball. Heel-to-toe blade extends across path into/out page foreshortened diagonal, smooth back visible NO grooves. Helper's fingertips may touch rear of clubhead, never cover face or ball. Preserve helping-before-stroke scene and people. CRITICAL geometric change: REMOVE the old horizontal clubhead completely. Draw the replacement head as a short narrow tilted VERTICAL wedge at the shaft end, sole on grass, narrow RIGHT edge is strikingface, ball touching or close to middle of RIGHT edge. The heel-to-toe axis projects from lower-left to upper-right nearly VERTICAL, not left-to-right. Visible back is plain pale mint with NO horizontal grooves."
+    },
+    "partner-behind": {
+      "file": "partner-behind.png",
+      "text": "Keep partner standing foreground along backward extension of dashed putting line while player addresses ball upperright. Correct active player's paired hands anatomically on same putter grip, LEFT hand upper and RIGHT hand immediately below. Correct PUTTER blade so face CENTER is behind ball on dashed line aiming upperright along line, heel-to-toe long axis ACROSS that line foreshortened oblique, not long bar pointing toe-first toward ball. Continuous shaft attaches heel. Preserve partner position, dashed line and meaning. Completely erase the old horizontal head and replace with compact oblique near-VERTICAL blade across the diagonal dashed line, strikingface centered behind ball."
+    }
+  },
+  "followups": {
+    "self-standing-putter": "Edit only clubhead and cup position to make alignment physically coherent. Putter is a self-standing mallet with flat broad stable base. Looking obliquely down on mallet: front strikingface is at RIGHT side, long heel-to-toe dimension nearly VERTICAL tilted from lowerleft to upperright, rounded body extends LEFT behind this face. Ball immediately RIGHT of face CENTER. Shaft inserts toward heel, one continuous shaft to grip. Move distant cup so ball-to-cup line travels gently up toward RIGHT parallel ground plane. Preserve untouched man and his clothes/hands, no need to move him now; he is checking from behind and to side. Remove old front-facing mallet completely. Do not draw horizontal heel-to-toe axis.",
+    "straddle-putting-line": "Change ONLY putterhead, leaving hands, body, stance, dashed line, ball and style exactly unchanged. Dashed target line from upperleft to lowerright through ball. New blade head must CROSS that dashed line at RIGHT ANGLES. Draw a diagonal blade from lowerLEFT to upperRIGHT, positioned upperleft of ball with its CENTER directly behind ball along dashed line. Blade total length about 2.5 ball diameters, simple smooth putter no grooves. Shaft to heel at lowerleft blade end. Do NOT leave a horizontal bar pointing its toe at the ball. Face CENTER rather than tip is behind ball.",
+    "blind-alignment": "Change ONLY golfer's glove detailing: BOTH hands should be BARE, so erase glove cuff, perforation dots and glove seams from golfer's hands. Keep anatomical hand boundary and natural wrist. Keep helper, corrected vertical clubhead, ball, grip and all else unchanged. Wearing no gloves is valid and removes wrong-hand glove ambiguity.",
+    "wrong-partner-ball": "Change ONLY active player A's lower foreground hand (RIGHT hand): erase glove perforation dots from this lower hand, keep it bare. Keep upper LEFT glove and its wrist cuff/perforations on arm at screen-right. Preserve both people labels A/B, club geometry, ball placement and everything else."
+  },
+  "geometryFollowups": {
+    "play-inside-pa": "Replace horizontal head with compact nearvertical wedge; smooth back and right strikingface.",
+    "wrong-tee-hole": "Remove grooves from driver crown/back; right-facing strikeface.",
+    "push-ball": "Remove back grooves, preserve contact and corrected nearvertical head."
+  }
+}
