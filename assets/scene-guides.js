@@ -69,7 +69,7 @@ mappings.standard[133]="own-umbrella-stroke";
 scenes["search-move-grass"]={"src": "assets/dedicated-guides/search-move-grass-approved-20261105.webp", "caption": "球を探すために手で長い草を分ける場面。合理的な捜索の範囲にとどめます。", "dedicated": true};
 mappings.competition[241]="search-move-grass";
 mappings.competition[286]="search-move-grass";
-scenes["practice-divot"]={"src": "assets/dedicated-guides/practice-divot-style-a-20261105.webp", "caption": "素振りで球の近くの芝を削った場面。球は打っていません。プレー条件を改善したかは本文で確認します。", "dedicated": true};
+scenes["practice-divot"]={"src": "assets/dedicated-guides/practice-divot-grip-reviewed-20261105.webp", "caption": "素振りで球の近くの芝を削った場面。球は打っていません。プレー条件を改善したかは本文で確認します。", "dedicated": true};
 mappings.standard[94]="practice-divot";
 scenes["ball-in-pitchmark"]={"src": "assets/dedicated-guides/ball-in-pitchmark-style-a-20261015.png", "caption": "未修復のピッチマークに球が入った状態の拡大イメージ。図だけで救済を認めるものではなく、本文の適用条件を確認します。", "dedicated": true};
 mappings.competition[236]="ball-in-pitchmark";
@@ -98,7 +98,7 @@ scenes["moved-general-area"]={"src": "assets/dedicated-guides/moved-general-area
 mappings.competition[8]="moved-general-area";
 mappings.competition[146]="moved-general-area";
 mappings.competition[275]="moved-general-area";
-scenes["practice-hit-ball"]={"src": "assets/dedicated-guides/practice-hit-ball-style-a-20261105.webp", "caption": "素振り中にクラブが球に当たり、球が動いた場面のイメージ。球を打つ意思や球の場所によって判断するため、本文の条件を確認します。", "dedicated": true};
+scenes["practice-hit-ball"]={"src": "assets/dedicated-guides/practice-hit-ball-grip-reviewed-20261105.webp", "caption": "素振り中にクラブが球に当たり、球が動いた場面のイメージ。球を打つ意思や球の場所によって判断するため、本文の条件を確認します。", "dedicated": true};
 mappings.competition[220]="practice-hit-ball";
 
 // Clothing contact and deliberate clothing support are distinct scenes.
@@ -113,7 +113,7 @@ mappings.competition[3]="excess-clubs";
 scenes["wrong-tee-hole"]={"src": "assets/dedicated-guides/wrong-tee-hole-style-a-20261105.webp", "caption": "6番ホールをプレーすべきところ、7番ホールのティーで構えている例。この場所から打った場合の処置は、ストロークプレーとマッチプレーで異なります。", "dedicated": true};
 mappings.competition[136]="wrong-tee-hole";
 mappings.competition[137]="wrong-tee-hole";
-scenes["moving-ball-stroke"]={"src": "assets/dedicated-guides/moving-ball-stroke-style-a-20261105.webp", "caption": "すでに転がっている自分の球へ、別のストロークをしようとしている例。1回のストローク中の偶然の複数接触とは区別します。例外と罰は本文を確認してください。", "dedicated": true};
+scenes["moving-ball-stroke"]={"src": "assets/dedicated-guides/moving-ball-stroke-grip-reviewed-20261105.webp", "caption": "すでに転がっている自分の球へ、別のストロークをしようとしている例。1回のストローク中の偶然の複数接触とは区別します。例外と罰は本文を確認してください。", "dedicated": true};
 mappings.standard[80]="moving-ball-stroke";
 mappings.competition[155]="moving-ball-stroke";
 mappings.competition[159]="moving-ball-stroke";
@@ -155,7 +155,7 @@ scenes["adjacent-boundaries"]={"src":"assets/dedicated-guides/adjacent-boundarie
 mappings.standard[71]="adjacent-boundaries";
 scenes["pa-reentry"]={"src":"assets/dedicated-guides/pa-reentry-style-a-20261017.svg","caption":"上から見た球の移動の模式図。PA内のAから打ち、区域外のBで跳ね返るなどしてXから同じPAへ戻り、Cに止まった例です。Xが最後に境界を横切った地点で、後方線上・ラテラル救済を選ぶ場合の基準になります。破線は球の移動で、救済線ではありません。元の場所からの打ち直しなど、他の選択肢と罰打は規則17.2で確認します。","dedicated":true};
 mappings.competition[99]="pa-reentry";
-scenes["stopped-downswing"]={"src":"assets/dedicated-guides/stopped-downswing-style-a-20261105.webp","caption":"ダウンスイングを止めようとしたものの、球への接触を避けられなかった場面のイメージ。止めようとした意思だけではストロークは取り消せません。球に届く前にクラブを止めるか、意図的に球を外して接触を回避した場合との違いを本文で確認します。","dedicated":true};
+scenes["stopped-downswing"]={"src":"assets/dedicated-guides/stopped-downswing-grip-reviewed-20261105.webp","caption":"ダウンスイングを止めようとしたものの、球への接触を避けられなかった場面のイメージ。止めようとした意思だけではストロークは取り消せません。球に届く前にクラブを止めるか、意図的に球を外して接触を回避した場合との違いを本文で確認します。","dedicated":true};
 mappings.competition[221]="stopped-downswing";
 scenes["wheelchair-bunker-relief"]={"src":"assets/dedicated-guides/wheelchair-bunker-relief-style-a-20261017.png","caption":"球がバンカーの外の縁付近にあり、車輪付き移動器具を使う選手が構えられるか確認する場面。MLR M-4採用時には、縁や斜面などにより意図するプレーの線に対してスタンスを取れない、または不合理な努力が必要となる場合に限り、条件付きで無罰救済を受けられます。単にバンカーに近いだけでは救済になりません。図は救済の可否やドロップ地点を確定するものではありません。","dedicated":true};
 mappings.competition[263]="wheelchair-bunker-relief";
@@ -183,9 +183,9 @@ scenes["snake-in-pa"]={"src":"assets/dedicated-guides/snake-in-pa-style-a-replac
 mappings.competition[184]="snake-in-pa";
 scenes["drop-instead-place"]={"src":"assets/dedicated-guides/drop-instead-place-style-a-replacement-20261017.png","caption":"これは誤った方法の例です。元の箇所にリプレースすべき球を、手で置かずにドロップしています。地面の小さなマーカーは元の箇所を示します。打つ前なら拾い上げて正しくリプレースします。正しい箇所に止まった球を誤った方法のまま打つと1罰打、誤所から打った場合は規則14.7の一般の罰となるため、方法と場所を分けて確認します。","dedicated":true};
 mappings.competition[246]="drop-instead-place";
-scenes["flag-left-in"].src="assets/dedicated-guides/flag-left-in-style-a-20261017.png";
-scenes["reviewed-flag-handling"].src="assets/dedicated-guides/flag-left-in-style-a-20261017.png";
-scenes["green-water"].src="assets/dedicated-guides/green-water-style-a-20261017.png";
+scenes["flag-left-in"].src="assets/dedicated-guides/flag-left-in-approved-20261105.webp";
+scenes["reviewed-flag-handling"].src="assets/dedicated-guides/flag-left-in-approved-20261105.webp";
+scenes["green-water"].src="assets/dedicated-guides/green-water-approved-20261105.webp";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}
