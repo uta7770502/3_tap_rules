@@ -62,9 +62,9 @@ Object.assign(mappings.competition,{7:'search-moved-ball',145:'search-moved-ball
 // 2026-10-15: approved style master, no scenic backgrounds.
 scenes["two-ball-contact"]={"src": "assets/dedicated-guides/two-ball-contact-style-a-20261015.png", "caption": "クラブフェースが隣り合った2球に同時に当たる場面。どの球にストロークしたかを確認します。", "dedicated": true};
 mappings.standard[20]="two-ball-contact";
-scenes["flag-held-putt"]={"src": "assets/dedicated-guides/flag-held-putt-style-a-20261015.png", "caption": "旗竿を片手で持ち、もう片方の手でパットする場面。旗竿を球の動きに影響させないように扱います。", "dedicated": true};
+scenes["flag-held-putt"]={"src": "assets/dedicated-guides/flag-held-putt-grip-reviewed-20261105.webp", "caption": "旗竿を片手で持ち、もう片方の手でパットする場面。旗竿を球の動きに影響させないように扱います。", "dedicated": true};
 mappings.standard[85]="flag-held-putt";
-scenes["own-umbrella-stroke"]={"src": "assets/dedicated-guides/own-umbrella-stroke-style-a-20261015.png", "caption": "自分で傘を持ち、もう片方の手でパットする場面。他の人に傘を差してもらう場面とは区別します。", "dedicated": true};
+scenes["own-umbrella-stroke"]={"src": "assets/dedicated-guides/own-umbrella-stroke-grip-reviewed-20261105.webp", "caption": "自分で傘を持ち、もう片方の手でパットする場面。他の人に傘を差してもらう場面とは区別します。", "dedicated": true};
 mappings.standard[133]="own-umbrella-stroke";
 scenes["search-move-grass"]={"src": "assets/dedicated-guides/search-move-grass-approved-20261105.webp", "caption": "球を探すために手で長い草を分ける場面。合理的な捜索の範囲にとどめます。", "dedicated": true};
 mappings.competition[241]="search-move-grass";
@@ -89,7 +89,7 @@ mappings.standard[161]="play-inside-pa";
 mappings.competition[296]="play-inside-pa";
 
 // Four stroke-related scenes using the original approved style master.
-scenes["anchor-putter"]={"src": "assets/dedicated-guides/anchor-putter-style-a-20261015.png", "caption": "長尺パターの握り手を胸に押し当て、固定している例。衣服に偶然触れただけの状態とは区別します。", "dedicated": true};
+scenes["anchor-putter"]={"src": "assets/dedicated-guides/anchor-putter-grip-reviewed-20261105.webp", "caption": "長尺パターの握り手を胸に押し当て、固定している例。衣服に偶然触れただけの状態とは区別します。", "dedicated": true};
 mappings.competition[56]="anchor-putter";
 mappings.competition[157]="anchor-putter";
 scenes["self-standing-putter"]={"src": "assets/dedicated-guides/self-standing-putter-style-a-20261015.png", "caption": "手を離して自立させたパターを使い、後方から方向を確認する例。クラブをアラインメントの援助に使う場面です。", "dedicated": true};
@@ -102,9 +102,9 @@ scenes["practice-hit-ball"]={"src": "assets/dedicated-guides/practice-hit-ball-g
 mappings.competition[220]="practice-hit-ball";
 
 // Clothing contact and deliberate clothing support are distinct scenes.
-scenes["raincoat-contact"]={"src":"assets/dedicated-guides/raincoat-contact-style-a-20261015.png","caption":"ゆったりした雨具が握り手の近くに触れる場面。衣服を握ったり、体へ押し付けて固定したりしていない例です。","dedicated":true};
+scenes["raincoat-contact"]={"src":"assets/dedicated-guides/raincoat-contact-grip-reviewed-20261105.webp","caption":"ゆったりした雨具が握り手の近くに触れる場面。衣服を握ったり、体へ押し付けて固定したりしていない例です。","dedicated":true};
 mappings.competition[167]="raincoat-contact";
-scenes["clothes-anchor"]={"src":"assets/dedicated-guides/clothes-anchor-style-a-20261015.png","caption":"クラブの握り手で衣服も握り込み、固定に利用している例。単に衣服へ触れる場面とは区別します。推奨する動作ではありません。","dedicated":true};
+scenes["clothes-anchor"]={"src":"assets/dedicated-guides/clothes-anchor-grip-reviewed-20261105.webp","caption":"クラブの握り手で衣服も握り込み、固定に利用している例。単に衣服へ触れる場面とは区別します。推奨する動作ではありません。","dedicated":true};
 mappings.competition[168]="clothes-anchor";
 scenes["excess-clubs"]={"src": "assets/dedicated-guides/excess-clubs-style-a-20261016.png", "caption": "使用から外すクラブをバッグへ逆さに入れ、明確に区別する例。本数は省略しています。除外の手続きと罰は本文を確認してください。", "dedicated": true};
 mappings.standard[75]="excess-clubs";

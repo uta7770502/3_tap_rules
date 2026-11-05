@@ -3,22 +3,22 @@
 ユーザーの「同じ事案は必ずチェックすること」に基づく点検記録。
 基準：ILLUSTRATION_STYLE_APPROVED.md と承認参照2枚。線・色の基準変更なし。
 
-今回、scene-guides.js からクラブ使用関連21場面を抽出し、実画像の一覧を確認。以下4点を拡大確認・再制作。その他は一覧確認のみで、手元・ヘッドの詳細判定は未完了。いろは等の別経路も対象であり、この21点が全アプリの総数ではない。
+今回、scene-guides.js からクラブ使用関連21場面を抽出し、実画像の一覧を確認。9点を詳細確認・再制作（先行4点＋今回5点）。残り12点は一覧確認のみで、手元・ヘッドの詳細判定は未完了。いろは等の別経路も対象であり、この21点が全アプリの総数ではない。
 
 | 場面キー | 状態 |
 |---|---|
 | stroke | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
 | tee-falling | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
 | fringe-putter | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
-| flag-held-putt | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
-| own-umbrella-stroke | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
+| flag-held-putt | 手元・ヘッドを拡大確認し再制作、参照を差し替え |
+| own-umbrella-stroke | 手元・ヘッドを拡大確認し再制作、参照を差し替え |
 | practice-divot | 手元・ヘッドを拡大確認し再制作、参照を差し替え |
 | play-inside-pa | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
-| anchor-putter | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
+| anchor-putter | 胸に上側の手を固定する動作とヘッドを拡大確認し再制作 |
 | self-standing-putter | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
 | practice-hit-ball | 手元・ヘッドを拡大確認し再制作、参照を差し替え |
-| raincoat-contact | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
-| clothes-anchor | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
+| raincoat-contact | 手元・ヘッドを拡大確認し再制作、参照を差し替え |
+| clothes-anchor | 衣服を握って固定する手元を拡大確認し再制作。ヘッドは画角外 |
 | wrong-tee-hole | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
 | moving-ball-stroke | 手元・ヘッドを拡大確認し再制作、参照を差し替え |
 | push-ball | 一覧確認済み。手元・ヘッドの詳細点検は継続対象 |
@@ -31,9 +31,19 @@
 
 先行修正：tee-air-shot は grip-corrected-20261105.webp を維持。旧不自然版へ戻さない。
 
+## 追加5点の確認
+- flag-held-putt / own-umbrella-stroke：片手で実際のグリップを握る。旗竿・傘を自分で保持する場面を維持。
+- anchor-putter：上の手を胸に固定し、下の手を離して添える意図的なアンカリングを維持。
+- raincoat-contact：通常の両手グリップと雨具の接触を描き、衣服を握り込む図とは区別。
+- clothes-anchor：衣服を握って固定する局所図。ヘッドが見えないためヘッド点検済みとは扱わない。
+- ヘッドの見える4点は初回出力のヘッドが球へトウを向けていたため不採用。打球方向を横切る向きへ再修正して確認。
+- scene-guides.js を実行し、末尾上書きを含む5点の有効参照を検証。
+
 ## 照合資料
 - 実写インパクト3視点：https://hackmotion.com/wp-content/uploads/P7-position-in-golf-impact.jpg （表示して確認）
 - 実写フィニッシュ：https://hackmotion.com/wp-content/uploads/Finish.png （先行修正で表示して確認）
+- 片手パット実写：https://www.golfpass.com/watch/daily-video-tips/one-handed-gate-drill （写真を表示して確認）
+- アンカリング公式図：https://assets.randa.org/c42c7bf4-dca7-00ea-4f2e-373223f80f76/3648dd3d-ebdd-4278-bf45-45f0bda2534e/Diagram%2010.1b.png （表示して確認。構造の照合のみ）
 - 写真・人物の顔・背景・ブランドはアプリへ転載しない。匿名の線画として手・クラブの構造を確認する。
 
 ## 今回の確認内容
