@@ -77,7 +77,7 @@ scenes["movable-object-ball"]={"src": "assets/dedicated-guides/movable-object-ba
 mappings.competition[293]="movable-object-ball";
 
 // Four individually reviewed situations, fixed approved style master.
-scenes["lift-relief-check"]={"src": "assets/dedicated-guides/lift-relief-check-style-a-20261015.png", "caption": "救済対象か確認するため、位置をマークしてから球を拾った場面。合理的な理由がある場合に限り、グリーン外では確認のために球を拭きません。", "dedicated": true};
+scenes["lift-relief-check"]={"src": "assets/dedicated-guides/lift-relief-check-grounded-marker-20261105.webp", "caption": "救済対象か確認するため、位置をマークしてから球を拾った場面。合理的な理由がある場合に限り、グリーン外では確認のために球を拭きません。", "dedicated": true};
 mappings.standard[245]="lift-relief-check";
 mappings.competition[253]="lift-relief-check";
 scenes["accidental-green-move"]={"src": "assets/dedicated-guides/accidental-green-move-style-a-20261015.png", "caption": "グリーン上を歩く際、靴が球に触れて偶然動いた例。元の箇所へリプレースします。", "dedicated": true};
