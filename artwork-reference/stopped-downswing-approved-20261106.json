@@ -1,0 +1,14 @@
+{
+  "scene": "stopped-downswing",
+  "asset": "assets/dedicated-guides/stopped-downswing-ball-peek-approved-20261106.webp",
+  "sha256": "c58c8b307ae5277b42bafc69605dbd7d851bc43f3a8587c247802f46826a298a",
+  "target": {
+    "competition": [
+      221
+    ]
+  },
+  "approval": "User approved ball mostly hidden behind clubhead with small crescent visible beyond toe, 2026-11-06",
+  "editSource": "image-edit-target-c7ddd1f479b62f6d.png",
+  "finalGeneratedImage": "exec-b0808678-fb17-4634-bc31-a7a1f111989d.png",
+  "scope": "Only this illustration; other three stroke images unchanged."
+}
