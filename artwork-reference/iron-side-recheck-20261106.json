@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "key": "practice-divot",
+      "target": "assets/dedicated-guides/practice-divot-iron-side-20261106.webp",
+      "sha256": "762a362fef48873002447b2209554661dc4f0b453f4fb8a7cacf783bedba849b"
+    },
+    {
+      "key": "practice-hit-ball",
+      "target": "assets/dedicated-guides/practice-hit-ball-iron-side-20261106.webp",
+      "sha256": "9b2613753199b8e851fed8f6e28c940411d972fad3f0fc25293749af9437754c"
+    },
+    {
+      "key": "moving-ball-stroke",
+      "target": "assets/dedicated-guides/moving-ball-stroke-iron-side-20261106.webp",
+      "sha256": "5d8b0efe7ad6268a795528cbc89009eb1f58f8ef486c8dd7dd133e2481eaf60d"
+    },
+    {
+      "key": "stopped-downswing",
+      "target": "assets/dedicated-guides/stopped-downswing-iron-side-20261106.webp",
+      "sha256": "b014503e4879adb2044bb4553f4c43afeea4eea519c5a415da11ae0b66ae7ed5"
+    }
+  ],
+  "method": "built-in image_gen",
+  "prompt": "Use case precise-object-edit. Image1 edit target, image2 real iron back reference, image3 real toe side reference, image4 approved stroke/color reference. Fix the iron geometry: existing flat outline head has the ball near the TOE rather than in front of striking FACE. Draw physically correct right-handed iron in oblique toe-side view matching this golfer's stance: shaft connects heel nearest golfer, toe farther from golfer, slightly lofted face pointing along target line toward screen right. Show modest sole thickness and small foreshortened back contour, not a flat broad paddle. Ball must sit ahead of face CENTER, not next to toe. Preserve natural grip with left gloved hand above bare right hand on same grip, preserve existing body pose. Keep same white background, pale mint, fine dark teal line weights and overall composition; do not darken or add detailed shading. No brands, labels, new text. Reference photos are geometry only; do not copy logo or photorealism. Output landscape 1536x1024.",
+  "details": [
+    "Practice swing took a divot in turf, did NOT hit ball. Preserve separate stationary ball to right and divot left of it; keep club above divot after swing. Remove distant trees/horizon, retain sparse local grass.",
+    "Practice stroke about to hit ball. Maintain golfer position and single stationary ball, adjust only head and ball alignment slightly if necessary.",
+    "Stroke at MOVING ball: keep three mint motion lines behind ball on right indicating rolling left toward club. Ball and club remain separated, not touching. Preserve sparse grass.",
+    "Golfer unsuccessfully tried to stop downswing, club touching ball. Keep small contact marks above ball, stationary stance and single ball. Correct contact to center of FACE not toe. Remove distant landscape trees and flag/green, retain local sparse grass."
+  ],
+  "correction": "Precise object edit. First image is target, second is real iron BACK cavity geometry reference, third its toe-side geometry. Correct ONLY clubhead and tiny ball alignment if needed. This golfer is seen from BEHIND obliquely and aims RIGHT and AWAY into picture. The visible club surface MUST be the BACK CAVITY with ONE simple inset contour, NOT a grooved striking face. Rebuild physical geometry, do not just erase grooves: heel connected to shaft nearest golfer, toe away from golfer, modest sole thickness and slightly lofted striking face on FAR side aimed right-away. Show ball beyond face center on far side, not beside toe. NO PARALLEL GROOVE LINES on visible back. Preserve fine lines, pale mint, white background, body hands pose size and sparse grass. No new details. ",
+  "toeCorrection": "Edit target image1 only the ironhead; image2 is physical TOE-SIDE silhouette to match in this side-on view. The previous broad cavity faces viewer and puts ball beside toe, WRONG. REPLACE entire head with a TOE-ON small foreshortened head: narrow in screen horizontal extent (about one ball diameter), about 1.2 ball diameters tall, rounded sole resting turf, top tilts LEFT 20 degrees because strike face slopes back from ball. Striking face is the RIGHT sloping EDGE, directly facing ball to right. Heel and hosel are behind the toe in depth and meet existing shaft; show small connection on upper left, no broad flat cavity or parallel grooves visible in TOE-ON view. Use reference photo's silhouette mirrored as needed so striking FACE is right, match real sole thickness. Head is a shallow wedge/trapezoid not a rectangular plate. Preserve white pale mint fine teal illustration, no metallic gray shading, exact people/pose/grip/shaft/all other contents. "
+}
