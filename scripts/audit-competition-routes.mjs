@@ -80,6 +80,23 @@ function checkRoute(key,depth=0){
 checkRoute("start");
 assert.equal(visited.size,Object.keys(flows).length,"Unreachable judge states");
 assert.equal(terminals.size,10,"Expected ten judge outcomes");
+// Check that each judge choice is intelligible and each outcome provides a usable ruling.
+for(const [key,step] of Object.entries(flows)){
+ assert.ok(typeof step.q==="string" && step.q.trim() || typeof step.result==="string" && step.result.trim(),"Empty judge state "+key);
+ if(step.result){
+  assert.match(step.result,/根拠：Rule\s*\d+/,"Missing rule citation in "+key);
+  assert.ok(step.result.includes("次にすること："),"Missing next action in "+key);
+  assert.ok(step.result.includes('class="decision"'),"Missing ruling label in "+key);
+ }else{
+  const labels=step.a.map(([label])=>label);
+  assert.equal(new Set(labels).size,labels.length,"Duplicate choice labels at "+key);
+  for(const [label,destination] of step.a){
+   assert.ok(typeof label==="string" && label.trim(),"Empty choice at "+key);
+   assert.ok(typeof destination==="string" && flows[destination],"Broken destination at "+key);
+  }
+ }
+}
+console.log("PASS: judge outcomes have source citations, next actions and distinct choices.");
 console.log("PASS: all 10 judge outcomes are reachable.");
 console.log("PASS: judge/chat/API JavaScript parses, consultation elements and photo/API wiring present.");
 console.log("PASS: 444 cases, 336 heading references, 25 Rule buttons, all five data sources on list/detail, required fields and navigation wiring.");
