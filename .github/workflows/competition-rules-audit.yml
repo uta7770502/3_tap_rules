@@ -8,6 +8,10 @@ on:
       - 'competition_official_index.json'
       - 'competition_rules.html'
       - 'competition_rule.html'
+      - 'competition_judge.html'
+      - 'competition_ai.html'
+      - 'assets/golf-chat.js'
+      - 'api/golf-chat.js'
       - 'scripts/audit-competition-routes.mjs'
       - '.github/workflows/competition-rules-audit.yml'
   pull_request:
@@ -17,6 +21,10 @@ on:
       - 'competition_official_index.json'
       - 'competition_rules.html'
       - 'competition_rule.html'
+      - 'competition_judge.html'
+      - 'competition_ai.html'
+      - 'assets/golf-chat.js'
+      - 'api/golf-chat.js'
       - 'scripts/audit-competition-routes.mjs'
       - '.github/workflows/competition-rules-audit.yml'
   workflow_dispatch:
