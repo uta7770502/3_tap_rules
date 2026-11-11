@@ -60,6 +60,7 @@ for(const id of ["camera","photoLibrary","photoCamera","mic","textBtn","input","
 assert.ok(ai.includes('assets/golf-chat.js'),"AI consultation missing chat script");
 assert.ok(chat.includes("fetch('/api/golf-chat'"),"AI consultation missing API request");
 assert.ok(chat.includes("photoLibrary.click()"),"Photo selection missing native picker");
+assert.ok(chat.includes("attempt<5") && chat.includes("data.length<=1500000"),"Adaptive photo compression missing");
 assert.ok(api.includes("req.method === 'GET'"),"AI connection status endpoint missing");
 assert.ok(api.includes("req.method !== 'POST'"),"AI consultation POST endpoint missing");
 const graphText=judgeScript.split("const flows=")[1]?.split(";\nlet key=")[0];
