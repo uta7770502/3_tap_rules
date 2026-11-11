@@ -38,7 +38,7 @@ for(let n=1;n<=25;n++){
   assert.ok(cases.some(c=>parseInt(String(c.rule),10)===n),"No case for Rule "+n);
 }
 assert.ok(listing.includes('competition_rule.html?id='),"Missing detail navigation");
-assert.ok(detail.includes('a.find(v=>v.id===id)'),"Missing case-ID detail lookup");
+assert.ok(/a\.find\(v=>v&&Number\(v\.id\)===id\)/.test(detail),"Missing safe numeric case-ID detail lookup");
 assert.ok(listing.includes("officialSubruleIds.some(ref=>"),"Rule navigation ignores cross-rule references");
 // Guard the existing three-tap judge and AI/photo consultation wiring.
 // Check list/detail inline scripts and Rule query normalization.
