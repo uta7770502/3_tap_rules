@@ -11,7 +11,11 @@ const headings=idx.officialRuleSubrules.flatMap(g=>g.subrules.map(s=>String(s.id
 const ids=cases.map(c=>c.id);
 assert.equal(cases.length,444,"Expected 444 cases");
 assert.equal(new Set(ids).size,cases.length,"Duplicate IDs");
-for(let n=1;n<=444;n++)assert.ok(ids.includes(n),"Missing case "+n);
+// A numeric detail-page lookup must not silently collapse IDs such as "01" and 1.
+const normalizedIds=ids.map(id=>Number(id));
+assert.ok(normalizedIds.every(id=>Number.isSafeInteger(id) && id>=1 && id<=444),"Invalid numeric case ID");
+assert.equal(new Set(normalizedIds).size,cases.length,"Case IDs collide after numeric normalization");
+for(let n=1;n<=444;n++)assert.ok(normalizedIds.includes(n),"Missing case "+n);
 for(const c of cases){
   assert.ok(c.title && (c.summary||c.description) && (c.action||c.procedure) && c.penalty && c.source,"Incomplete case "+c.id);
   assert.ok(/^https:\/\//.test(c.source),"Invalid source URL "+c.id);
@@ -81,13 +85,16 @@ assert.ok(api.includes("req.method !== 'POST'"),"AI consultation POST endpoint m
 const graphText=judgeScript.split("const flows=")[1]?.split(";\nlet key=")[0];
 assert.ok(graphText,"Judge graph missing");
 const flows=Function("return ("+graphText+")")();
-const visited=new Set(), terminals=new Set();
+const visited=new Set(), terminals=new Set(), active=new Set();
 function checkRoute(key,depth=0){
- assert.ok(depth<12,"Judge cycle at "+key);
+ assert.ok(depth<100,"Judge graph unexpectedly deep at "+key);
+ assert.ok(!active.has(key),"Judge cycle at "+key);
+ active.add(key);
  const step=flows[key]; assert.ok(step,"Broken judge choice "+key); visited.add(key);
- if(step.result){terminals.add(key);return;}
+ if(step.result){terminals.add(key);active.delete(key);return;}
  assert.ok(step.a?.length,"Judge dead end "+key);
  for(const option of step.a)checkRoute(option[1],depth+1);
+ active.delete(key);
 }
 checkRoute("start");
 assert.equal(visited.size,Object.keys(flows).length,"Unreachable judge states");
