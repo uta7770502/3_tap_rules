@@ -22,7 +22,7 @@ test('all 34 active illustrations use the minimal A set', () => {
   for(const file of ['rule_detail.html','competition_rule.html'])
     assert.match(fs.readFileSync(path.join(root,file),'utf8'),/rule-guides\.js\?v=20261014-recovery1/);
 });
-test('guide renderer resolves minimal assets for every mapped rule',()=>{
+test('guide renderer resolves the designated asset for every mapped rule',()=>{
   class Element {
     constructor(tag){this.tag=tag;this.children=[];this.dataset={};this.classList={add(){}};}
     append(...children){this.children.push(...children);}
@@ -35,7 +35,12 @@ test('guide renderer resolves minimal assets for every mapped rule',()=>{
     for(const mode of ['standard','competition']) for(const ids of Object.values(guides[mode])) for(const id of ids){
       const el=new Element('section');guides.render(el,{id},mode);
       const walk=e=>e.tag==='img'?e:e.children.map(walk).find(Boolean);
-      const img=walk(el); assert.ok(img);assert.match(img.src,/^assets\/minimal-guides\//);
+      const img=walk(el); assert.ok(img);
+      if(guides.select({id},mode)==='bunker-contact'){
+        assert.equal(img.src.split('?')[0],'assets/dedicated-guides/bunker-hover-final-review-20261111.webp');
+        const scenes=require('../assets/scene-guides.js');
+        assert.notEqual(img.src.split('?')[0],scenes.scenes['sand-contact'].src);
+      }else assert.match(img.src,/^assets\/minimal-guides\//);
       assert.ok(fs.existsSync(path.join(root,img.src.split('?')[0])));
     }
   }finally{delete global.document;}
