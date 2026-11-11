@@ -1,7 +1,7 @@
 /* Context artwork complements, but never overrides, precise rule diagrams. */
 (function(root){
 'use strict';
-const version='20261106-approved-ball-peek';
+const version='20261111-final-club-review';
 const scenes={
  score:{file:'score',caption:'スコアカードと記録のイメージ'},
  equipment:{file:'equipment',caption:'クラブと用具のイメージ'},
@@ -186,6 +186,13 @@ mappings.competition[246]="drop-instead-place";
 scenes["flag-left-in"].src="assets/dedicated-guides/flag-left-in-approved-20261105.webp";
 scenes["reviewed-flag-handling"].src="assets/dedicated-guides/flag-left-in-approved-20261105.webp";
 scenes["green-water"].src="assets/dedicated-guides/green-water-approved-20261105.webp";
+// Final club and ball overlap review.
+scenes["sand-contact"].src="assets/dedicated-guides/sand-contact-final-review-20261111.webp";
+scenes["rough-ground-club"].src="assets/dedicated-guides/rough-ground-club-final-review-20261111.webp";
+scenes["play-inside-pa"].src="assets/dedicated-guides/play-inside-pa-final-review-20261111.webp";
+scenes["caddie-behind"].src="assets/dedicated-guides/caddie-behind-final-review-20261111.webp";
+scenes["wrong-partner-ball"].src="assets/dedicated-guides/wrong-partner-ball-final-review-20261111.webp";
+scenes["blind-alignment"].src="assets/dedicated-guides/blind-alignment-final-review-20261111.webp";
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}

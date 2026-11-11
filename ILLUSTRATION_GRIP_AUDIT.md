@@ -125,3 +125,12 @@ scene-guides.js のクラブ使用関連21場面を抽出し、再制作19点・
 - 採用画像: assets/dedicated-guides/stopped-downswing-ball-peek-approved-20261106.webp
 - 他のシーン・ルール対応は変更なし。実効参照と150点のsrcファイル存在を確認。
 - 全イラストの目視点検、スマートフォン全画面確認は引き続き未完了。
+
+
+## 2026-11-11 クラブ・球の点検と7点の組込み
+- 195画像参照を棚卸し、クラブ関連ラスタ画像63点を拡大確認。195点すべての詳細点検完了を意味しない。
+- sand-contact / rough-ground-club / play-inside-pa / caddie-behind / wrong-partner-ball / blind-alignment の6点を、球がヘッドの先端から少し見える図へ修正。
+- bunker-contact は靴と球の旧表示から、砂からクラブを浮かせる専用図へ変更。砂に触れる禁止例とは別画像を使用。
+- 承認済みstopped-downswing、シーン対応表・本文は維持。特殊な保持やアンカリングの意図も維持。
+- 出力とハッシュは artwork-reference/final-club-review-20261111.json。新規ユーザー承認を意味しない。
+- 残作業：スマートフォン実画面検証、全ルールの公式規則照合、既存テストの古い期待値の整理。全アプリ完成とは扱わない。

@@ -1,7 +1,7 @@
 /* High-resolution rule illustrations. No SVG or low-resolution fallback. */
 (function (root) {
   'use strict';
-  const version = '20261105-artwork2';
+  const version = '20261111-final-club-review';
   const guides = {
     'ob-boundary': { image:'ob-boundary', title:'OBの境界は、球全体で判定', label:'球の一部でもコース内にあればOBではない', steps:['白杭だけの場合は、地表面での杭のコース側の点を結ぶ線が境界。白線の場合はコース側の縁が境界で、線自体はOB側。','球全体が境界の外にあればOB。球の一部でもコース内にあればOBではない。','コース内の球をOB側に立って打つことはできる。白杭を抜いたり動かしたりしてはいけない。'] },
     'tee-area': { image:'tee-area', title:'ティーイングエリアの範囲', label:'球の位置を確認。足はエリア外でもよい', steps:['指定された2つのティーマーカーの最も前方の点を結ぶ線が前縁。側縁はそれぞれのマーカーの外側。','後方2クラブレングスの長方形がエリア。携帯する最も長いクラブ（パターを除く）で測る。','球の一部がエリアに触れるか、その上にあればエリア内。区域外から打った場合の処置は競技形式によって異なるため本文を確認。'] },
@@ -73,7 +73,7 @@
     title.textContent = guide.title;
     const figure = document.createElement('figure');
     const image = document.createElement('img');
-    image.src = `assets/minimal-guides/${guide.image}-hd.png?v=${version}`;
+    image.src = (key === "bunker-contact" ? "assets/dedicated-guides/bunker-hover-final-review-20261111.webp" : "assets/minimal-guides/" + guide.image + "-hd.png") + "?v=" + version;
     image.alt = `${guide.title}：${guide.label}`;
     image.width = guide.image === 'drop-sequence' ? 1086 : 1536; image.height = guide.image === 'drop-sequence' ? 1448 : 1024;
     image.decoding = 'async';

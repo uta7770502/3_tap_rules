@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-11",
+  "assets": [
+    {
+      "key": "sand-contact",
+      "source": "exec-bfde4cc5-f283-4124-b31b-882cb62b3493.png",
+      "target": "assets/dedicated-guides/sand-contact-final-review-20261111.webp",
+      "sha256": "56f81083384e1fdc037b95875df5fc9e170f8578ffb73ed37b015c039edbdbd4"
+    },
+    {
+      "key": "rough-ground-club",
+      "source": "exec-b1491a66-72dc-445f-9736-e07eabab7f08.png",
+      "target": "assets/dedicated-guides/rough-ground-club-final-review-20261111.webp",
+      "sha256": "a87b99ad8ad042d0f517154451d847d191d1609a1b9cf45aae393e618c49c15b"
+    },
+    {
+      "key": "play-inside-pa",
+      "source": "exec-9bdb2ebf-8c0f-4a49-8e37-f1dcebba3a6d.png",
+      "target": "assets/dedicated-guides/play-inside-pa-final-review-20261111.webp",
+      "sha256": "a6d51bd72cca52acb82d99476fdcfa7b1dc91c7c02934e3bb00c33014c395065"
+    },
+    {
+      "key": "caddie-behind",
+      "source": "exec-52dcf6f3-9c49-49b3-9ac4-a89ea122cab7.png",
+      "target": "assets/dedicated-guides/caddie-behind-final-review-20261111.webp",
+      "sha256": "bd56d55ab23427c3b3189220d32858d50124d6a68fd9673de16cba51cbb63340"
+    },
+    {
+      "key": "wrong-partner-ball",
+      "source": "exec-af1a48b1-5c0e-4db0-b660-6883574a3029.png",
+      "target": "assets/dedicated-guides/wrong-partner-ball-final-review-20261111.webp",
+      "sha256": "ebb3b2ceb3b910e1cc73c4e015096023ad447080bc7d7cb061a5e921422a3c9c"
+    },
+    {
+      "key": "blind-alignment",
+      "source": "exec-222e50ab-45be-4e0e-8ea9-22bcc43a4cf8.png",
+      "target": "assets/dedicated-guides/blind-alignment-final-review-20261111.webp",
+      "sha256": "121b7e98b8431d6a112853c73f48a8ed4df87234b2a560f9dbf56fe77c39f650"
+    },
+    {
+      "key": "bunker-hover",
+      "source": "exec-4811666c-63e7-4dcb-83c8-c2330d1dcb9d.png",
+      "target": "assets/dedicated-guides/bunker-hover-final-review-20261111.webp",
+      "sha256": "777d2f18a7eae5d3c202b98c48abf90dd346ed83324961ae1e47724d14b2b60a"
+    }
+  ],
+  "review": "Six ball overlap corrections and separate hovering club for bunker-contact. Visually reviewed; not newly user-approved.",
+  "scope": "63 club-related raster illustrations reviewed enlarged; 195 unique references inventoried, not all certified.",
+  "preserved": "stopped-downswing-ball-peek-approved-20261106.webp"
+}
