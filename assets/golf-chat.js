@@ -50,7 +50,7 @@
  function imageData(file) {
   return new Promise((resolve,reject) => {
    const url = URL.createObjectURL(file), im = new Image();
-   im.onload = () => { try { const scale = Math.min(1,1280/Math.max(im.width,im.height)); const c = document.createElement('canvas'); c.width = Math.round(im.width*scale); c.height = Math.round(im.height*scale); c.getContext('2d').drawImage(im,0,0,c.width,c.height); const data = c.toDataURL('image/jpeg',.78); if(data.length > 1500000) throw Error(); resolve(data); } catch {reject(Error('写真を小さくするか、別の写真を選んでください。'));} finally {URL.revokeObjectURL(url);} };
+   im.onload = () => { try { const scale = Math.min(1,1280/Math.max(im.width,im.height)); const c = document.createElement('canvas'); c.width = Math.round(im.width*scale); c.height = Math.round(im.height*scale); c.getContext('2d').drawImage(im,0,0,c.width,c.height); let data = ''; for(let attempt=0;attempt<5;attempt++){ data=c.toDataURL('image/jpeg',Math.max(.45,.78-attempt*.08)); if(data.length<=1500000) break; const smaller=document.createElement('canvas'); smaller.width=Math.max(1,Math.round(c.width*.8)); smaller.height=Math.max(1,Math.round(c.height*.8)); smaller.getContext('2d').drawImage(c,0,0,smaller.width,smaller.height); c.width=smaller.width; c.height=smaller.height; c.getContext('2d').drawImage(smaller,0,0); } if(data.length>1500000) throw Error(); resolve(data); } catch {reject(Error('写真を小さくするか、別の写真を選んでください。'));} finally {URL.revokeObjectURL(url);} };
    im.onerror = () => {URL.revokeObjectURL(url); reject(Error('写真を読み込めません。JPEGまたはPNGを選んでください。'));}; im.src = url;
   });
  }
