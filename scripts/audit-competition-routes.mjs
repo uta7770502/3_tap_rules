@@ -17,6 +17,18 @@ for(const c of cases){
   assert.ok(/^https:\/\//.test(c.source),"Invalid source URL "+c.id);
 }
 for(const id of headings)assert.ok(cases.some(c=>(c.officialSubruleIds||[]).includes(id)),"Unreferenced heading "+id);
+const headingSet=new Set(headings);
+assert.equal(headingSet.size,headings.length,"Duplicate official subrule heading IDs");
+for(const c of cases){
+ const refs=c.officialSubruleIds||[];
+ assert.ok(Array.isArray(refs),"Invalid officialSubruleIds for case "+c.id);
+ assert.equal(new Set(refs).size,refs.length,"Duplicate official subrule reference in case "+c.id);
+ for(const ref of refs)assert.ok(headingSet.has(ref),"Unknown official subrule reference "+ref+" in case "+c.id);
+ const url=new URL(c.source);
+ assert.equal(url.protocol,"https:","Non-HTTPS source "+c.id);
+ assert.ok(url.hostname && !url.username && !url.password,"Unsafe source URL "+c.id);
+}
+
 for(const f of files){
   assert.ok(listing.includes('fetch("'+f),"Listing does not load "+f);
   assert.ok(detail.includes('fetch("'+f),"Detail does not load "+f);
