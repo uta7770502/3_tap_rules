@@ -43,6 +43,9 @@ const queryRegex=Function("return "+regexText)();
 for(const [input,expected] of [["Rule 8.1d","8.1d"],["規則8.1d","8.1d"],["規則 8.1d","8.1d"],["Ｒｕｌｅ ８．１ｄ","8.1d"]]){
  assert.equal(input.toLowerCase().normalize("NFKC").replace(queryRegex,"").trim(),expected,"Search normalization: "+input);
 }
+assert.ok(listing.includes('id="retryRules"') && listing.includes('location.reload()'),"Rule list recovery action missing");
+assert.ok(detail.includes('retry.onclick=()=>location.reload()') && detail.includes('setAttribute("role","alert")'),"Rule detail recovery action missing");
+console.log("PASS: list/detail load failures expose accessible retry actions.");
 console.log("PASS: list/detail JavaScript parses; Rule queries normalize.");
 
 const judge=readFileSync("competition_judge.html","utf8");
