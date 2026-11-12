@@ -11,6 +11,7 @@ const headings=idx.officialRuleSubrules.flatMap(g=>g.subrules.map(s=>String(s.id
 const ids=cases.map(c=>c.id);
 assert.equal(cases.length,444,"Expected 444 cases");
 assert.equal(new Set(ids).size,cases.length,"Duplicate IDs");
+assert.ok(ids.every(id=>typeof id==="number" || typeof id==="string"),"Invalid case ID type");
 // A numeric detail-page lookup must not silently collapse IDs such as "01" and 1.
 const normalizedIds=ids.map(id=>Number(id));
 assert.ok(normalizedIds.every(id=>Number.isSafeInteger(id) && id>=1 && id<=444),"Invalid numeric case ID");
@@ -18,7 +19,7 @@ assert.equal(new Set(normalizedIds).size,cases.length,"Case IDs collide after nu
 for(let n=1;n<=444;n++)assert.ok(normalizedIds.includes(n),"Missing case "+n);
 for(const c of cases){
   assert.ok(c.title && (c.summary||c.description) && (c.action||c.procedure) && c.penalty && c.source,"Incomplete case "+c.id);
-  assert.ok(/^https:\/\//.test(c.source),"Invalid source URL "+c.id);
+  assert.ok(typeof c.source==="string" && /^https:\/\//.test(c.source),"Invalid source URL "+c.id);
 }
 for(const id of headings)assert.ok(cases.some(c=>(c.officialSubruleIds||[]).includes(id)),"Unreferenced heading "+id);
 const headingSet=new Set(headings);
@@ -32,7 +33,10 @@ for(const c of cases){
  assert.ok(Array.isArray(refs),"Invalid officialSubruleIds for case "+c.id);
  assert.equal(new Set(refs).size,refs.length,"Duplicate official subrule reference in case "+c.id);
  // Prevent whitespace and Unicode lookalikes from silently bypassing reference checks.
- for(const ref of refs)assert.equal(ref,ref.trim().normalize("NFKC"),"Noncanonical official reference in case "+c.id);
+ for(const ref of refs){
+  assert.ok(typeof ref==="string","Non-string official reference in case "+c.id);
+  assert.equal(ref,ref.trim().normalize("NFKC"),"Noncanonical official reference in case "+c.id);
+ }
  for(const ref of refs)assert.ok(typeof ref==="string" && validOfficialRefs.has(ref),"Unknown official rule/subrule reference "+ref+" in case "+c.id);
  const url=new URL(c.source);
  assert.equal(url.protocol,"https:","Non-HTTPS source "+c.id);
