@@ -22,6 +22,11 @@ test('case inventory has exactly 444 unique safe integer IDs',()=>{
 });
 test('every official citation resolves to a heading, rule, or indexed paragraph parent',()=>{
  for(const c of cases){
+  if(c.rule==='定義'){
+   assert.equal(c.source,'https://www.randa.org/en/rog/the-rules-of-golf/definitions','Definition source for case '+c.id);
+   assert.ok(!c.officialSubruleIds?.length,'Definition case must not invent numbered citations: '+c.id);
+   continue;
+  }
   assert.ok(Array.isArray(c.officialSubruleIds)&&c.officialSubruleIds.length>0,'Case '+c.id+' missing official references');
   for(const ref of c.officialSubruleIds)assert.ok(validReference(ref),'Case '+c.id+': '+ref);
  }
