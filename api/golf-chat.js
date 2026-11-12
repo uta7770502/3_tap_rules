@@ -60,6 +60,10 @@ function validate(body) {
     const content = [{ type: 'input_text', text: m.text }];
     if (m.image) {
       if (typeof m.image !== 'string' || !/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/]+=*$/.test(m.image)) throw Error('写真の形式を確認してください。');
+      // Reject empty, truncated and noncanonical base64 before forwarding photos upstream.
+      const encoded = m.image.slice(m.image.indexOf(',') + 1);
+      const decoded = Buffer.from(encoded, 'base64');
+      if (!decoded.length || decoded.toString('base64') !== encoded) throw Error('写真の形式を確認してください。');
       bytes += m.image.length;
       content.push({ type: 'input_image', image_url: m.image, detail: 'auto' });
     }
