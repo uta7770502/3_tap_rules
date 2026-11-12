@@ -50,3 +50,28 @@ test('case display and ruling fields are present and nonblank',()=>{
   }
  }
 });
+
+test('official reference lists contain no duplicates or malformed values',()=>{
+ for(const c of cases){
+  const refs=c.officialSubruleIds;
+  assert.ok(Array.isArray(refs),'Case '+c.id+' references must be an array');
+  assert.equal(new Set(refs).size,refs.length,'Case '+c.id+' has duplicate official references');
+  for(const ref of refs){
+   assert.equal(typeof ref,'string','Case '+c.id+' has a non-string reference');
+   assert.ok(ref.length>0 && ref===ref.trim().normalize('NFKC'),'Case '+c.id+' has a noncanonical reference');
+  }
+ }
+});
+test('every indexed Rule has cases and every heading has a citation',()=>{
+ const indexed=index.officialRuleSubrules;
+ assert.equal(indexed.length,25,'Expected exactly 25 indexed Rules');
+ const allRefs=new Set(cases.flatMap(c=>c.officialSubruleIds||[]));
+ for(const group of indexed){
+  const rule=Number(group.rule);
+  assert.ok(Number.isSafeInteger(rule)&&rule>=1&&rule<=25,'Invalid indexed Rule '+group.rule);
+  assert.ok(cases.some(c=>Number.parseInt(String(c.rule),10)===rule),'No case assigned to Rule '+rule);
+  for(const heading of group.subrules){
+   assert.ok(allRefs.has(heading.id),'Unreferenced indexed heading '+heading.id);
+  }
+ }
+});
