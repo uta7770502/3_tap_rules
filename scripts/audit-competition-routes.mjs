@@ -37,7 +37,11 @@ assert.equal(new Set(normalizedIds).size,cases.length,"Case IDs collide after nu
 for(let n=1;n<=444;n++)assert.ok(normalizedIds.includes(n),"Missing case "+n);
 for(const c of cases){
   assert.ok(c.title && (c.summary||c.description) && (c.action||c.procedure) && c.penalty && c.source,"Incomplete case "+c.id);
-  assert.ok(Number.isInteger(Number(c.rule)) && Number(c.rule)>=1 && Number(c.rule)<=25,"Invalid case Rule number "+c.id);
+  assert.ok(typeof c.rule==="string" || typeof c.rule==="number","Invalid case Rule type "+c.id);
+  const caseRule=String(c.rule).trim();
+  const caseRuleMatch=caseRule.match(/^([1-9]|1\\d|2[0-5])(?:\\.\\d+[a-z]?(?:\\(\\d+\\))*)?$/);
+  assert.ok(caseRuleMatch,"Invalid case Rule reference "+c.id+": "+caseRule);
+  assert.ok(indexedRules.includes(Number(caseRuleMatch[1])),"Case Rule not indexed "+c.id);
   assert.ok(typeof c.title==="string" && c.title.trim(),"Invalid case title "+c.id);
   assert.ok(typeof c.source==="string" && /^https:\/\//.test(c.source),"Invalid source URL "+c.id);
 }
