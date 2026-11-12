@@ -18,6 +18,15 @@ assert.equal(new Set(indexedRules).size,indexedRules.length,"Duplicate Rule grou
 for(let n=1;n<=25;n++)assert.ok(indexedRules.includes(n),"Missing Rule group "+n);
 const headings=idx.officialRuleSubrules.flatMap(g=>g.subrules.map(s=>String(s.id)));
 const ids=cases.map(c=>c.id);
+// Ensure the index can never silently map two different headings to one Rule.
+for(const group of idx.officialRuleSubrules){
+ const ids=group.subrules.map(sub=>sub.id);
+ assert.equal(new Set(ids).size,ids.length,"Duplicate headings within Rule "+group.rule);
+ for(const id of ids){
+  assert.ok(id===String(group.rule) || id.startsWith(String(group.rule)+"."),
+   "Heading assigned to wrong Rule: "+id+" in Rule "+group.rule);
+ }
+}
 assert.equal(cases.length,444,"Expected 444 cases");
 assert.equal(new Set(ids).size,cases.length,"Duplicate IDs");
 assert.ok(ids.every(id=>typeof id==="number" || typeof id==="string"),"Invalid case ID type");
@@ -167,6 +176,8 @@ function enumeratePaths(key,steps=0){
 }
 enumeratePaths("start");
 assert.ok(completePaths>0,"Judge has no complete choice paths");
+assert.equal([...depthCounts.values()].reduce((sum,n)=>sum+n,0),completePaths,"Judge path-depth accounting mismatch");
+assert.equal([...pathCounts.values()].reduce((sum,n)=>sum+n,0),completePaths,"Judge outcome accounting mismatch");
 for(const key of terminals) assert.ok(pathCounts.get(key)>0,"Judge outcome has no complete path: "+key);
 console.log("PASS: "+completePaths+" complete judge choice paths reach "+terminals.size+" outcomes; longest route "+longestPath+" decisions.");
 console.log("AUDIT: decisions per path: "+JSON.stringify(Object.fromEntries([...depthCounts].sort((a,b)=>a[0]-b[0]))));
@@ -188,6 +199,7 @@ for(const [key,step] of Object.entries(flows)){
   assert.equal(new Set(destinations).size,destinations.length,"Multiple choices lead to the same state at "+key);
   for(const [label,destination] of step.a){
    assert.ok(typeof label==="string" && label.trim(),"Empty choice at "+key);
+   assert.equal(label,label.trim().normalize("NFKC"),"Noncanonical choice label at "+key);
    assert.ok(typeof destination==="string" && flows[destination],"Broken destination at "+key);
   }
  }
