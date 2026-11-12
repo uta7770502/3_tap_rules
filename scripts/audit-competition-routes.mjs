@@ -112,6 +112,24 @@ function checkRoute(key,depth=0){
 checkRoute("start");
 assert.equal(visited.size,Object.keys(flows).length,"Unreachable judge states");
 assert.equal(terminals.size,10,"Expected ten judge outcomes");
+// Independently enumerate complete choice paths, not just reachable states.
+// This catches empty routes and records how many user decision sequences end in a ruling.
+const pathCounts=new Map();
+let completePaths=0, longestPath=0;
+function enumeratePaths(key,steps=0){
+ const state=flows[key];
+ if(state.result){
+  completePaths++;
+  longestPath=Math.max(longestPath,steps);
+  pathCounts.set(key,(pathCounts.get(key)||0)+1);
+  return;
+ }
+ for(const choice of state.a) enumeratePaths(choice[1],steps+1);
+}
+enumeratePaths("start");
+assert.ok(completePaths>0,"Judge has no complete choice paths");
+for(const key of terminals) assert.ok(pathCounts.get(key)>0,"Judge outcome has no complete path: "+key);
+console.log("PASS: "+completePaths+" complete judge choice paths reach "+terminals.size+" outcomes; longest route "+longestPath+" decisions.");
 // Check that each judge choice is intelligible and each outcome provides a usable ruling.
 for(const [key,step] of Object.entries(flows)){
  assert.ok(typeof step.q==="string" && step.q.trim() || typeof step.result==="string" && step.result.trim(),"Empty judge state "+key);
