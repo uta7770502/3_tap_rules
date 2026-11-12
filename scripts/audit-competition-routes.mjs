@@ -22,12 +22,16 @@ for(const c of cases){
 }
 for(const id of headings)assert.ok(cases.some(c=>(c.officialSubruleIds||[]).includes(id)),"Unreferenced heading "+id);
 const headingSet=new Set(headings);
+// A case may cite an entire Rule (e.g. "21") rather than a numbered subrule.
+// Preserve this distinction while rejecting nonexistent Rules and malformed IDs.
+const ruleSet=new Set(idx.officialRuleSubrules.map(group=>String(group.rule)));
+const validOfficialRefs=new Set([...headingSet,...ruleSet]);
 assert.equal(headingSet.size,headings.length,"Duplicate official subrule heading IDs");
 for(const c of cases){
  const refs=c.officialSubruleIds||[];
  assert.ok(Array.isArray(refs),"Invalid officialSubruleIds for case "+c.id);
  assert.equal(new Set(refs).size,refs.length,"Duplicate official subrule reference in case "+c.id);
- for(const ref of refs)assert.ok(headingSet.has(ref),"Unknown official subrule reference "+ref+" in case "+c.id);
+ for(const ref of refs)assert.ok(typeof ref==="string" && validOfficialRefs.has(ref),"Unknown official rule/subrule reference "+ref+" in case "+c.id);
  const url=new URL(c.source);
  assert.equal(url.protocol,"https:","Non-HTTPS source "+c.id);
  assert.ok(url.hostname && !url.username && !url.password,"Unsafe source URL "+c.id);
