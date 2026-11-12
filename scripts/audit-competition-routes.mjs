@@ -39,7 +39,11 @@ for(const c of cases){
   assert.ok(c.title && (c.summary||c.description) && (c.action||c.procedure) && c.penalty && c.source,"Incomplete case "+c.id);
   assert.ok(typeof c.rule==="string" || typeof c.rule==="number","Invalid case Rule type "+c.id);
   const caseRule=String(c.rule).trim();
-  const caseRuleMatch=caseRule.match(/^([1-9]|1\d|2[0-5])(?:\.\d+[a-z]?(?:\(\d+\))*)?$/);
+  const caseRuleMatch=caseRule.match(/^([1-9]|1\d|2[0-5])(?:\.\d+[a-z]?(?:\([a-z0-9]+\))*)?$/);
+  if(caseRule==="定義"){
+    assert.equal(c.source,"https://www.randa.org/en/rog/the-rules-of-golf/definitions","Invalid definition source "+c.id);
+    continue;
+  }
   assert.ok(caseRuleMatch,"Invalid case Rule reference "+c.id+": "+caseRule);
   assert.ok(indexedRules.includes(Number(caseRuleMatch[1])),"Case Rule not indexed "+c.id);
   assert.ok(typeof c.title==="string" && c.title.trim(),"Invalid case title "+c.id);
