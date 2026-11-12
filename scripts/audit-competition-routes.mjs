@@ -44,6 +44,19 @@ for(let n=1;n<=25;n++){
 assert.ok(listing.includes('competition_rule.html?id='),"Missing detail navigation");
 assert.ok(/a\.find\(v=>v&&Number\(v\.id\)===id\)/.test(detail),"Missing safe numeric case-ID detail lookup");
 assert.ok(listing.includes("officialSubruleIds.some(ref=>"),"Rule navigation ignores cross-rule references");
+
+// The user-facing list/detail must not render rule data as raw HTML, and must
+// preserve URL-encoded case IDs when navigating from a search result.
+assert.ok(listing.includes('function esc(s)') && listing.includes('${esc(r.title)}') && listing.includes('${esc(r.summary)}'),
+  "Rule listing must escape user-facing case fields");
+assert.ok(listing.includes('encodeURIComponent(el.dataset.id)'),
+  "Rule listing must URL-encode the selected case ID");
+assert.ok(detail.includes('const esc=v=>') && detail.includes('${esc(x.title)}') && detail.includes('${esc(x.summary||x.description||"")}'),
+  "Rule detail must escape user-facing case fields");
+assert.ok(detail.includes('rel="noopener noreferrer"'),
+  "External rule source links must use safe window isolation");
+console.log("PASS: list/detail HTML escaping, URL encoding and external-link isolation.");
+
 // Guard the existing three-tap judge and AI/photo consultation wiring.
 // Check list/detail inline scripts and Rule query normalization.
 for(const [name,html] of [["competition_rules.html",listing],["competition_rule.html",detail]]){
