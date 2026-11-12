@@ -8,6 +8,11 @@ const idx=JSON.parse(readFileSync("competition_official_index.json","utf8"));
 const listing=readFileSync("competition_rules.html","utf8");
 const detail=readFileSync("competition_rule.html","utf8");
 assert.ok(Array.isArray(idx.officialRuleSubrules),"Official rule index must be an array");
+for(const group of idx.officialRuleSubrules){
+ assert.ok(Number.isInteger(Number(group.rule)) && Number(group.rule)>=1 && Number(group.rule)<=25,"Invalid official Rule group "+String(group.rule));
+ assert.ok(Array.isArray(group.subrules),"Missing subrules array for Rule "+group.rule);
+ for(const sub of group.subrules) assert.ok(sub && typeof sub.id==="string" && sub.id.trim()===sub.id && sub.id.normalize("NFKC")===sub.id,"Invalid official heading in Rule "+group.rule);
+}
 const indexedRules=idx.officialRuleSubrules.map(g=>Number(g.rule));
 assert.equal(new Set(indexedRules).size,indexedRules.length,"Duplicate Rule groups in official index");
 for(let n=1;n<=25;n++)assert.ok(indexedRules.includes(n),"Missing Rule group "+n);
@@ -177,6 +182,8 @@ for(const [key,step] of Object.entries(flows)){
  }else{
   const labels=step.a.map(([label])=>label);
   assert.equal(new Set(labels).size,labels.length,"Duplicate choice labels at "+key);
+  const normalizedLabels=labels.map(label=>typeof label==="string"?label.trim().normalize("NFKC"):"");
+  assert.equal(new Set(normalizedLabels).size,labels.length,"Visually duplicate choice labels at "+key);
   const destinations=step.a.map(([,destination])=>destination);
   assert.equal(new Set(destinations).size,destinations.length,"Multiple choices lead to the same state at "+key);
   for(const [label,destination] of step.a){
