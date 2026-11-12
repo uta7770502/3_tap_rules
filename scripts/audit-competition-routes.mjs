@@ -116,12 +116,19 @@ assert.equal(terminals.size,10,"Expected ten judge outcomes");
 // This catches empty routes and records how many user decision sequences end in a ruling.
 const pathCounts=new Map();
 let completePaths=0, longestPath=0;
+const depthCounts=new Map();
+const outcomeDepths=new Map();
 function enumeratePaths(key,steps=0){
  const state=flows[key];
  if(state.result){
   completePaths++;
   longestPath=Math.max(longestPath,steps);
   pathCounts.set(key,(pathCounts.get(key)||0)+1);
+  depthCounts.set(steps,(depthCounts.get(steps)||0)+1);
+  const range=outcomeDepths.get(key)||{min:Infinity,max:0};
+  range.min=Math.min(range.min,steps);
+  range.max=Math.max(range.max,steps);
+  outcomeDepths.set(key,range);
   return;
  }
  for(const choice of state.a) enumeratePaths(choice[1],steps+1);
@@ -130,6 +137,9 @@ enumeratePaths("start");
 assert.ok(completePaths>0,"Judge has no complete choice paths");
 for(const key of terminals) assert.ok(pathCounts.get(key)>0,"Judge outcome has no complete path: "+key);
 console.log("PASS: "+completePaths+" complete judge choice paths reach "+terminals.size+" outcomes; longest route "+longestPath+" decisions.");
+console.log("AUDIT: decisions per path: "+JSON.stringify(Object.fromEntries([...depthCounts].sort((a,b)=>a[0]-b[0]))));
+console.log("AUDIT: outcome coverage: "+JSON.stringify(Object.fromEntries([...pathCounts].sort((a,b)=>a[0].localeCompare(b[0])).map(([key,count])=>[key,{paths:count,...outcomeDepths.get(key)}]))));
+if(longestPath>3)console.warn("WARN: Some judge routes require more than three decisions; review 3-tap UX.");
 // Check that each judge choice is intelligible and each outcome provides a usable ruling.
 for(const [key,step] of Object.entries(flows)){
  assert.ok(typeof step.q==="string" && step.q.trim() || typeof step.result==="string" && step.result.trim(),"Empty judge state "+key);
