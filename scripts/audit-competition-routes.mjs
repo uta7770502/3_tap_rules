@@ -37,7 +37,15 @@ for(const c of cases){
   assert.ok(typeof ref==="string","Non-string official reference in case "+c.id);
   assert.equal(ref,ref.trim().normalize("NFKC"),"Noncanonical official reference in case "+c.id);
  }
- for(const ref of refs)assert.ok(typeof ref==="string" && validOfficialRefs.has(ref),"Unknown official rule/subrule reference "+ref+" in case "+c.id);
+ // The index lists headings, not every nested paragraph such as 20.1c(3).
+ // Accept a nested citation only when its exact parent heading is indexed;
+ // do not treat a known Rule number alone as proof of a valid paragraph.
+ for(const ref of refs){
+  const nested=ref.match(/^(\\d{1,2}\\.\\d+[a-z]?)(?:\\(\\d+\\))+$/);
+  const indexedParent=nested && headingSet.has(nested[1]);
+  assert.ok(validOfficialRefs.has(ref) || indexedParent,
+   "Unknown official rule/subrule reference "+ref+" in case "+c.id);
+ }
  const url=new URL(c.source);
  assert.equal(url.protocol,"https:","Non-HTTPS source "+c.id);
  assert.ok(url.hostname && !url.username && !url.password,"Unsafe source URL "+c.id);
