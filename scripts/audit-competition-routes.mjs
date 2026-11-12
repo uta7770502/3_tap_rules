@@ -7,6 +7,10 @@ const cases=files.flatMap(f=>JSON.parse(readFileSync(f,"utf8")));
 const idx=JSON.parse(readFileSync("competition_official_index.json","utf8"));
 const listing=readFileSync("competition_rules.html","utf8");
 const detail=readFileSync("competition_rule.html","utf8");
+assert.ok(Array.isArray(idx.officialRuleSubrules),"Official rule index must be an array");
+const indexedRules=idx.officialRuleSubrules.map(g=>Number(g.rule));
+assert.equal(new Set(indexedRules).size,indexedRules.length,"Duplicate Rule groups in official index");
+for(let n=1;n<=25;n++)assert.ok(indexedRules.includes(n),"Missing Rule group "+n);
 const headings=idx.officialRuleSubrules.flatMap(g=>g.subrules.map(s=>String(s.id)));
 const ids=cases.map(c=>c.id);
 assert.equal(cases.length,444,"Expected 444 cases");
@@ -19,6 +23,8 @@ assert.equal(new Set(normalizedIds).size,cases.length,"Case IDs collide after nu
 for(let n=1;n<=444;n++)assert.ok(normalizedIds.includes(n),"Missing case "+n);
 for(const c of cases){
   assert.ok(c.title && (c.summary||c.description) && (c.action||c.procedure) && c.penalty && c.source,"Incomplete case "+c.id);
+  assert.ok(Number.isInteger(Number(c.rule)) && Number(c.rule)>=1 && Number(c.rule)<=25,"Invalid case Rule number "+c.id);
+  assert.ok(typeof c.title==="string" && c.title.trim(),"Invalid case title "+c.id);
   assert.ok(typeof c.source==="string" && /^https:\/\//.test(c.source),"Invalid source URL "+c.id);
 }
 for(const id of headings)assert.ok(cases.some(c=>(c.officialSubruleIds||[]).includes(id)),"Unreferenced heading "+id);
@@ -116,6 +122,8 @@ assert.ok(api.includes("req.method !== 'POST'"),"AI consultation POST endpoint m
 const graphText=judgeScript.split("const flows=")[1]?.split(";\nlet key=")[0];
 assert.ok(graphText,"Judge graph missing");
 const flows=Function("return ("+graphText+")")();
+assert.ok(flows && typeof flows==="object" && !Array.isArray(flows),"Judge flows must be a state map");
+assert.ok(Object.prototype.hasOwnProperty.call(flows,"start"),"Judge start state missing");
 const visited=new Set(), terminals=new Set(), active=new Set();
 function checkRoute(key,depth=0){
  assert.ok(depth<100,"Judge graph unexpectedly deep at "+key);
@@ -123,7 +131,8 @@ function checkRoute(key,depth=0){
  active.add(key);
  const step=flows[key]; assert.ok(step,"Broken judge choice "+key); visited.add(key);
  if(step.result){terminals.add(key);active.delete(key);return;}
- assert.ok(step.a?.length,"Judge dead end "+key);
+ assert.ok(Array.isArray(step.a) && step.a.length,"Judge dead end "+key);
+ for(const choice of step.a)assert.ok(Array.isArray(choice) && choice.length===2,"Malformed judge choice at "+key);
  for(const option of step.a)checkRoute(option[1],depth+1);
  active.delete(key);
 }
