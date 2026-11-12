@@ -31,6 +31,8 @@ for(const c of cases){
  const refs=c.officialSubruleIds||[];
  assert.ok(Array.isArray(refs),"Invalid officialSubruleIds for case "+c.id);
  assert.equal(new Set(refs).size,refs.length,"Duplicate official subrule reference in case "+c.id);
+ // Prevent whitespace and Unicode lookalikes from silently bypassing reference checks.
+ for(const ref of refs)assert.equal(ref,ref.trim().normalize("NFKC"),"Noncanonical official reference in case "+c.id);
  for(const ref of refs)assert.ok(typeof ref==="string" && validOfficialRefs.has(ref),"Unknown official rule/subrule reference "+ref+" in case "+c.id);
  const url=new URL(c.source);
  assert.equal(url.protocol,"https:","Non-HTTPS source "+c.id);
@@ -154,6 +156,8 @@ for(const [key,step] of Object.entries(flows)){
  }else{
   const labels=step.a.map(([label])=>label);
   assert.equal(new Set(labels).size,labels.length,"Duplicate choice labels at "+key);
+  const destinations=step.a.map(([,destination])=>destination);
+  assert.equal(new Set(destinations).size,destinations.length,"Multiple choices lead to the same state at "+key);
   for(const [label,destination] of step.a){
    assert.ok(typeof label==="string" && label.trim(),"Empty choice at "+key);
    assert.ok(typeof destination==="string" && flows[destination],"Broken destination at "+key);
