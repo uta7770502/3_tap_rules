@@ -69,7 +69,7 @@ for(const c of cases){
  // Accept a nested citation only when its exact parent heading is indexed;
  // do not treat a known Rule number alone as proof of a valid paragraph.
  for(const ref of refs){
-  const nested=ref.match(/^(\d{1,2}\.\d+[a-z]?)(?:\(\d+\))+$/);
+  const nested=ref.match(/^(\d{1,2}\.\d+[a-z]?)(?:\([a-z0-9]+\))+$/);
   const indexedParent=Boolean(nested && headingSet.has(nested[1]));
   assert.ok(validOfficialRefs.has(ref) || indexedParent,
    "Unknown official rule/subrule reference "+ref+" in case "+c.id);
