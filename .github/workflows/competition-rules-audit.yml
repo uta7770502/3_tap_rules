@@ -13,6 +13,8 @@ on:
       - 'assets/golf-chat.js'
       - 'api/golf-chat.js'
       - 'scripts/audit-competition-routes.mjs'
+      - 'scripts/audit-competition-rules.js'
+      - 'scripts/audit-competition-coverage.cjs'
       - '.github/workflows/competition-rules-audit.yml'
   pull_request:
     paths:
@@ -26,6 +28,8 @@ on:
       - 'assets/golf-chat.js'
       - 'api/golf-chat.js'
       - 'scripts/audit-competition-routes.mjs'
+      - 'scripts/audit-competition-rules.js'
+      - 'scripts/audit-competition-coverage.cjs'
       - '.github/workflows/competition-rules-audit.yml'
   workflow_dispatch:
 jobs:
@@ -39,4 +43,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/audit-competition-routes.mjs
+      - name: Check audit and consultation JavaScript syntax
+        run: |
+          node --check scripts/audit-competition-routes.mjs
+          node --check scripts/audit-competition-rules.js
+          node --check scripts/audit-competition-coverage.cjs
+          node --check assets/golf-chat.js
+          node --check api/golf-chat.js
+      - name: Audit 444 cases, search/detail and judge graph
+        run: node scripts/audit-competition-routes.mjs
