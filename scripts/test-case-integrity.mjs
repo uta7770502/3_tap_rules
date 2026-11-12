@@ -17,11 +17,12 @@ function validReference(ref){
 }
 test('case inventory has exactly 444 unique safe integer IDs',()=>{
  assert.equal(cases.length,444);
- assert.deepEqual(cases.map(c=>Number(c.id)).sort((a,b)=>a-b),Array.from({length:444},(_,i)=>i+1));
+ for(const c of cases)assert.ok(Number.isSafeInteger(c.id)&&c.id>=1&&c.id<=444,'Invalid numeric ID: '+String(c.id));
+ assert.deepEqual(cases.map(c=>c.id).sort((a,b)=>a-b),Array.from({length:444},(_,i)=>i+1));
 });
 test('every official citation resolves to a heading, rule, or indexed paragraph parent',()=>{
  for(const c of cases){
-  assert.ok(Array.isArray(c.officialSubruleIds),'Case '+c.id+' missing reference array');
+  assert.ok(Array.isArray(c.officialSubruleIds)&&c.officialSubruleIds.length>0,'Case '+c.id+' missing official references');
   for(const ref of c.officialSubruleIds)assert.ok(validReference(ref),'Case '+c.id+': '+ref);
  }
 });
@@ -34,5 +35,13 @@ test('case source links use HTTPS and have no embedded credentials',()=>{
   const url=new URL(c.source);
   assert.equal(url.protocol,'https:','Case '+c.id);
   assert.ok(url.hostname&&!url.username&&!url.password,'Case '+c.id);
+ }
+});
+
+test('case display and ruling fields are present and nonblank',()=>{
+ for(const c of cases){
+  for(const field of ['title','summary','action','penalty']){
+   assert.ok(typeof c[field]==='string'&&c[field].trim().length>0,'Case '+c.id+' missing '+field);
+  }
  }
 });
