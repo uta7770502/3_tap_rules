@@ -29,6 +29,8 @@ test('rejects malformed or unsafe conversation structures',()=>{
   {messages:[{...user(),image:'https://example.com/p.png'}]},
   {messages:[{...user(),image:'data:image/svg+xml;base64,PHN2Zz4='}]},
   {messages:[{...user(),image:'data:image/png;base64,!!'}]},
+  {messages:[{...user(),image:'data:image/png;base64,A'}]},
+  {messages:[{...user(),image:'data:image/png;base64,AAAA='}]},
   {messages:Array.from({length:41},(_,i)=>i%2?assistant():user())}
  ];
  for(const payload of invalid)assert.throws(()=>validate(payload),undefined,JSON.stringify(payload)?.slice(0,80));
