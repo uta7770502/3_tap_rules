@@ -13,6 +13,7 @@ on:
       - 'assets/golf-chat.js'
       - 'api/golf-chat.js'
       - 'scripts/audit-competition-routes.mjs'
+      - 'scripts/test-rule-references.mjs'
       - 'scripts/audit-competition-rules.js'
       - 'scripts/audit-competition-coverage.cjs'
       - '.github/workflows/competition-rules-audit.yml'
@@ -28,6 +29,7 @@ on:
       - 'assets/golf-chat.js'
       - 'api/golf-chat.js'
       - 'scripts/audit-competition-routes.mjs'
+      - 'scripts/test-rule-references.mjs'
       - 'scripts/audit-competition-rules.js'
       - 'scripts/audit-competition-coverage.cjs'
       - '.github/workflows/competition-rules-audit.yml'
@@ -46,9 +48,12 @@ jobs:
       - name: Check audit and consultation JavaScript syntax
         run: |
           node --check scripts/audit-competition-routes.mjs
+          node --check scripts/test-rule-references.mjs
           node --check scripts/audit-competition-rules.js
           node --check scripts/audit-competition-coverage.cjs
           node --check assets/golf-chat.js
           node --check api/golf-chat.js
+      - name: Regression test official Rule reference parsing
+        run: node --test scripts/test-rule-references.mjs
       - name: Audit 444 cases, search/detail and judge graph
         run: node scripts/audit-competition-routes.mjs
