@@ -25,5 +25,11 @@ test('checks actual 444 case references without silently skipping files',()=>{
  const files=['competition_rules.json','competition_rule25_verified_cases.json','competition_rules_extra_5_10.json','competition_rules_extra_13_17.json','competition_rules_extra_20.json'];
  const cases=files.flatMap(file=>JSON.parse(readFileSync(new URL('../'+file,import.meta.url),'utf8')));
  assert.equal(cases.length,444);
- for(const c of cases)assert.match(String(c.rule).trim(),rulePattern,'Case '+c.id);
+ for(const c of cases){
+  if(c.rule==='定義'){
+   assert.equal(c.source,'https://www.randa.org/en/rog/the-rules-of-golf/definitions','Definition source: '+c.id);
+   continue;
+  }
+  assert.match(String(c.rule).trim(),rulePattern,'Case '+c.id);
+ }
 });
