@@ -12,7 +12,7 @@ const rules=new Set(index.officialRuleSubrules.map(g=>String(g.rule)));
 function validReference(ref){
  if(typeof ref!=='string'||ref!==ref.trim().normalize('NFKC'))return false;
  if(headings.has(ref)||rules.has(ref))return true;
- const nested=ref.match(/^(\d{1,2}\.\d+[a-z]?)(?:\(\d+\))+$/);
+ const nested=ref.match(/^(\d{1,2}\.\d+[a-z]?)(?:\([a-z0-9]+\))+$/);
  return Boolean(nested&&headings.has(nested[1]));
 }
 test('case inventory has exactly 444 unique safe integer IDs',()=>{
@@ -32,6 +32,7 @@ test('every official citation resolves to a heading, rule, or indexed paragraph 
  }
 });
 test('reference validation rejects malformed and fabricated nested headings',()=>{
+ assert.equal(validReference('20.1c(3)(a)'),headings.has('20.1c'),'Nested alphabetic paragraph must resolve to indexed parent');
  for(const ref of ['0','26','20.1c(3)<script>','20.1c()',' 1.3','１．３','99.1a(1)'])assert.equal(validReference(ref),false,ref);
 });
 test('case source links use HTTPS and have no embedded credentials',()=>{
