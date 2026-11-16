@@ -61,6 +61,8 @@ function validate(body) {
     if (m.image) {
       if (typeof m.image !== 'string' || !/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/]+=*$/.test(m.image)) throw Error('写真の形式を確認してください。');
       // Reject empty, truncated and noncanonical base64 before forwarding photos upstream.
+      // Check encoded size before allocating a decoded buffer; total request budget is 3 MB.
+      if (bytes + m.image.length > 3000000) throw Error('写真または会話が大きすぎます。「新しい相談」から始めてください。');
       const encoded = m.image.slice(m.image.indexOf(',') + 1);
       const decoded = Buffer.from(encoded, 'base64');
       if (!decoded.length || decoded.toString('base64') !== encoded) throw Error('写真の形式を確認してください。');
