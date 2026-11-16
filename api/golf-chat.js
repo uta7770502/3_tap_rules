@@ -116,7 +116,10 @@ module.exports = async function handler(req, res) {
       }
       phase = 'response';
       const data = await upstream.json();
-      const text = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('\n').trim();
+      const candidate = data.candidates?.[0];
+      // Never present a truncated or blocked generation as a complete rules ruling.
+      if (candidate?.finishReason !== 'STOP') throw Error('incomplete');
+      const text = (candidate.content?.parts || []).filter(p => typeof p.text === 'string').map(p => p.text).join('\n').trim();
       if (!text) throw Error('incomplete');
       return res.status(200).json({ text: '【参考回答：ウェブ検索を行っていないため、最新の公式規則は未確認です。競技での最終判断は委員会に確認してください。】\n\n' + text, sources: [], searchUnavailable: true, provider: 'gemini' });
     }
