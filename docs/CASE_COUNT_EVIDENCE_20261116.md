@@ -26,3 +26,13 @@
 - `main` / Productionへの変更、デプロイ: **禁止**。
 
 この台帳の追加は完成率の上昇や監査PASSを意味しない。
+
+## 2026-11-17 静的ソース追補（テスト・CIなし）
+
+GitHubの `competition_rules.html` を開発ブランチで直接確認した。ケース一覧の実際の読込順は次の5ファイルであり、`Promise.all` 後に `competition_rules.json` → `competition_rule25_verified_cases.json` → `competition_rules_extra_5_10.json` → `competition_rules_extra_13_17.json` → `competition_rules_extra_20.json` の順に結合している。過去台帳の「5ファイル合計442件」との比較では、この実際の読込集合を使うこと。
+
+静的コード上、一覧は有効な正整数IDを持つオブジェクトのみを残しているが、**重複IDの排除はしていない**。そのため一覧の表示件数だけではユニークID数を証明できない。詳細へのリンクは `competition_rule.html?id=<id>`、Ruleボタンは `rule` と `officialSubruleIds` の先頭規則番号を利用する。詳細ページが同じ5ファイルを読み、重複ID時にどのケースを選ぶかは本追補では未照合。実際の到達率も未検証。
+
+公式索引 `competition_official_index.json` の取得に失敗した場合、一覧側はケース表示を継続する設計。したがってケース一覧が表示されるだけでは公式索引の網羅性・到達性の証拠にならない。
+
+**未実施**：現行5ファイルの件数・ID集合の独立集計、442→444の差分特定、公式規則との内容照合、詳細ページの静的レビュー、テスト・CI・プレビュー・実機確認。いずれもPASS扱いにしない。
