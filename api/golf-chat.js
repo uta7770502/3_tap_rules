@@ -116,7 +116,7 @@ module.exports = async function handler(req, res) {
       const data = await upstream.json();
       const text = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('\n').trim();
       if (!text) throw Error('incomplete');
-      return res.status(200).json({ text, sources: [], searchUnavailable: true, provider: 'gemini' });
+      return res.status(200).json({ text: '【参考回答：ウェブ検索を行っていないため、最新の公式規則は未確認です。競技での最終判断は委員会に確認してください。】\n\n' + text, sources: [], searchUnavailable: true, provider: 'gemini' });
     }
     const payload = { model: process.env.OPENAI_MODEL || 'gpt-4.1-mini', store: false, max_output_tokens: 1800,
       instructions: instructions + guidance + '\n今日: ' + new Date().toISOString().slice(0, 10), input,
