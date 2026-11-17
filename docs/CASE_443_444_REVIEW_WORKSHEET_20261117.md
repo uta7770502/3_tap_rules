@@ -81,3 +81,11 @@
 - 以上2ファイルの合計は **375件→377件**。残るケースファイルを未比較のため、444件全体および過去442件の照合台帳との差分を**完了扱いしない**。Git履歴上の追加直前SHAと旧照合台帳の版一致も未確認。
 - GitHub Compareのファイル統計も同じ範囲で確認: `competition_rules.json` 13行追加/13行削除、`competition_rules_extra_20.json` 26行追加/0行削除（取得時点 ahead 170 commits）。行数はフィールド数とは別概念。
 - 公式R&A/USGA/JGA規則との新規独立照合・アプリ本体修正なし。自動テスト/追加、CI/Actions、Vercel、ブラウザー・実機確認は実施せず。main/Production変更なし。
+
+
+## 2026-11-17 19時 GitHub Compareによる変更ファイル範囲の確認
+
+- 比較: 追加直前 `8906d28ee1630d9f78add3d8829b3f117fd375da` → `competition-golfer-mode`。GitHub Compareのファイル一覧を再取得（ahead 171 commits）。
+- 変更ファイル一覧のうち、名前が `.json` で終わるものは `competition_rules.json`（13行追加・13行削除）、`competition_rules_extra_20.json`（26行追加・削除0行）、および `artwork-reference/` 内の新規参照JSON 10件のみ。既存の他の競技ケースJSONに変更は**Gitのファイル差分上は**見られない。
+- したがって、前回の2ファイル375→377件のID・フィールド比較は、このGit比較区間における**変更された競技ケースJSONの範囲**をカバーする。ただし、変更のない競技ケースファイルの総件数・ID重複・過去442件の照合台帳との同一性は未確認であり、444件の完全な照合完了を意味しない。
+- この回は監査文書のみ更新。公式規則の新規照合0件。自動テスト・CI/Actions・Vercel・ブラウザー・実機は未実施。main/Productionは変更しない。
