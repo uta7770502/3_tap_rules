@@ -11,6 +11,8 @@ Promise.allSettled(sources.map(name=>fetch(name+"?v="+Date.now(),{cache:"no-stor
 .then(results=>{const failed=[];const datasets=results.map((result,i)=>{if(result.status==="fulfilled"&&Array.isArray(result.value))return result.value;failed.push(sources[i]);console.warn("Competition detail source unavailable:",sources[i]);return [];});
   if(failed.length===sources.length)throw Error("All competition detail sources unavailable");
   const [base,extra,extra2,extra3,extra4]=datasets;
+  const validCase=v=>v&&typeof v==="object"&&!Array.isArray(v)&&((typeof v.id==="number"&&Number.isSafeInteger(v.id)&&v.id>0)||(typeof v.id==="string"&&/^[1-9]\\d*$/.test(v.id)&&Number.isSafeInteger(Number(v.id))));
+  if(!datasets.some(group=>group.some(validCase)))throw Error("No valid competition detail cases available");
   if(failed.length){const warning=document.createElement("p");warning.setAttribute("role","alert");warning.className="source";warning.textContent="一部の競技データを読み込めませんでした（"+failed.join("、")+"）。表示内容は取得済みデータに限られます。";const retry=document.createElement("button");retry.type="button";retry.textContent="再読み込み";retry.onclick=()=>location.reload();content.append(warning,retry);}
   const a=base.concat(extra,extra2,extra3,extra4);
   const x=a.find(v=>v&&typeof v==="object"&&!Array.isArray(v)&&((typeof v.id==="number"&&Number.isSafeInteger(v.id)&&v.id>0)||(typeof v.id==="string"&&/^[1-9]\d*$/.test(v.id)&&Number.isSafeInteger(Number(v.id))))&&Number(v.id)===id);
