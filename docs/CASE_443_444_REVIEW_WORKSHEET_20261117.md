@@ -72,3 +72,12 @@
 - 第一親→現行 `competition-golfer-mode` のGitHub Compareは取得時点で ahead 169 commits / behind 0 を返した。比較の起点が確定しただけであり、**過去の442件照合台帳そのものと同一版であることまでは確認していない**。
 - 旧442件と現行444件の全ファイル・全ID・全フィールド差分は引き続き未完了。次はこの親SHAと現行ブランチの各JSONを取得し、ID集合・フィールドを比較する。コミット数をケース数や照合完了数と混同しない。
 - この回は公式規則との新規独立照合・アプリ本体変更なし。テスト、CI/Actions、Vercel、ブラウザー、実機の確認は実施していない。main/Productionは変更しない。
+
+## 2026-11-17 18時 追加直前SHAとのID・フィールド比較（静的確認）
+
+- 基準: `8906d28ee1630d9f78add3d8829b3f117fd375da`（ID443/444追加直前）→ `competition-golfer-mode`。GitHubから両版JSONを取得し、IDごとに各フィールド値を比較。**これはテスト実行ではなくソースデータの差分監査**。
+- `competition_rules.json`: **341件→341件**。追加・削除IDなし。変更ID18（`action, penalty, procedure`）、153（`description, procedure, summary, action`）、188（`procedure, action`）、192（`description, procedure, summary, action`）。既存4件・変更フィールド計13個。
+- `competition_rules_extra_20.json`: **34件→36件**。**ID443・444を追加**、削除IDなし。基準時点の既存34件に変更フィールドなし。ID444の後続修正は追加後の変更であり、追加前比較では「新規レコード」として扱う。
+- 以上2ファイルの合計は **375件→377件**。残るケースファイルを未比較のため、444件全体および過去442件の照合台帳との差分を**完了扱いしない**。Git履歴上の追加直前SHAと旧照合台帳の版一致も未確認。
+- GitHub Compareのファイル統計も同じ範囲で確認: `competition_rules.json` 13行追加/13行削除、`competition_rules_extra_20.json` 26行追加/0行削除（取得時点 ahead 170 commits）。行数はフィールド数とは別概念。
+- 公式R&A/USGA/JGA規則との新規独立照合・アプリ本体修正なし。自動テスト/追加、CI/Actions、Vercel、ブラウザー・実機確認は実施せず。main/Production変更なし。
