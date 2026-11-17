@@ -17,13 +17,15 @@ function esc(s){return String(s??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&
 function textOf(r){const refs=Array.isArray(r.officialSubruleIds)?r.officialSubruleIds:[];return [r.id,r.title,r.summary,r.description,r.action,r.procedure,r.penalty,r.cat,r.category,r.rule,...refs,...r.keys].filter(x=>x!==undefined&&x!==null).join(" ").toLowerCase().normalize("NFKC");}
 function draw(){
   if(!dataReady)return;
-  const v=q.value.trim().toLowerCase().normalize("NFKC").replace(/(?:\brule\s*|規則\s*)(?=\d)/gi,"").trim();
+  const input=q.value.trim().normalize("NFKC");
+  const exactRuleQuery=input.match(/^(?:rule\s*|規則\s*)([1-9]|1\d|2[0-5])$/i);
+  const v=input.toLowerCase().replace(/(?:\brule\s*|規則\s*)(?=\d)/gi,"").trim();
   const om=document.getElementById("officialMatches");
   const terms=v.split(/\s+/).filter(Boolean);
   const searchable=x=>[x.id,x.title,x.officialTerm,x.english,x.rule].filter(Boolean).join(" ").toLowerCase().normalize("NFKC");
   const oa=v?official.filter(x=>terms.every(t=>searchable(x).includes(t))):(mode.type==="rule"?official.filter(x=>["ruleSubrules","clarifications","clarificationGroups"].includes(x.tab)&&ruleNumber(x.rule??x.id)===Number(mode.value)):(mode.type==="filter"?official.filter(x=>mode.value.toLowerCase().split(/\s+/).some(t=>searchable(x).includes(t))):[]));
   om.innerHTML=oa.length?`<div class="navTitle">公式索引の一致</div>${oa.slice(0,60).map(x=>`<a class="item" style="display:block;text-decoration:none;color:inherit" href="competition_official_index.html?tab=${encodeURIComponent(x.tab)}&id=${encodeURIComponent(x.id)}"><div class="rule">公式索引 ・ ${esc(x.id)}</div><h2>${esc(x.title)}</h2></a>`).join("")}${oa.length>60?`<p class="count">公式索引は先頭60件を表示中。項目名や番号で絞り込んでください。</p>`:""}`:"";
-  let a=rules.filter(r=>!v||terms.every(t=>textOf(r).includes(t)));
+  let a=exactRuleQuery?rules.filter(r=>ruleNumber(r.rule)===Number(exactRuleQuery[1])||Array.isArray(r.officialSubruleIds)&&r.officialSubruleIds.some(ref=>ruleNumber(ref)===Number(exactRuleQuery[1]))):rules.filter(r=>!v||terms.every(t=>textOf(r).includes(t)));
   if(!v&&mode.type==="rule")a=a.filter(r=>ruleNumber(r.rule)===Number(mode.value)||Array.isArray(r.officialSubruleIds)&&r.officialSubruleIds.some(ref=>ruleNumber(ref)===Number(mode.value)));
   if(!v&&mode.type==="filter"){const terms=mode.value.toLowerCase().split(/\s+/);a=a.filter(r=>terms.some(t=>textOf(r).includes(t)));}
   count.textContent=a.length+"件表示 / 読み込み済み"+rules.length+"件"+(window.competitionPartialLoad?"（一部未取得）":"");
