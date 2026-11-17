@@ -14,7 +14,7 @@ function normalize(r){
 }
 function ruleNumber(value){const m=String(value??"").trim().match(/^(?:Rule\s*)?([1-9]|1\d|2[0-5])(?=$|[.\s-])/i);return m?Number(m[1]):null;}
 function esc(s){return String(s??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));}
-function textOf(r){const refs=Array.isArray(r.officialSubruleIds)?r.officialSubruleIds:[];return [r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...refs,...r.keys].join(" ").toLowerCase().normalize("NFKC");}
+function textOf(r){const refs=Array.isArray(r.officialSubruleIds)?r.officialSubruleIds:[];return [r.id,r.title,r.summary,r.action,r.penalty,r.cat,r.rule,...refs,...r.keys].join(" ").toLowerCase().normalize("NFKC");}
 function draw(){
   if(!dataReady)return;
   const v=q.value.trim().toLowerCase().normalize("NFKC").replace(/(?:\brule\s*|規則\s*)(?=\d)/gi,"").trim();
