@@ -84,6 +84,32 @@ function validate(body) {
           throw Error('写真の縦横サイズを確認してください。');
         }
       }
+      // JPEG dimensions are stored in a Start Of Frame marker, not at a fixed offset.
+      // Scan bounded marker segments; reject malformed or missing frame metadata.
+      if (isJpeg && mime === 'image/jpeg') {
+        let offset = 2;
+        let dimensions = null;
+        while (offset + 3 < decoded.length) {
+          if (decoded[offset] !== 0xff) break;
+          while (offset < decoded.length && decoded[offset] === 0xff) offset++;
+          if (offset >= decoded.length) break;
+          const marker = decoded[offset++];
+          if (marker === 0xd9 || marker === 0xda) break;
+          if (marker === 0x01 || marker >= 0xd0 && marker <= 0xd7) continue;
+          if (offset + 2 > decoded.length) break;
+          const length = decoded.readUInt16BE(offset);
+          if (length < 2 || offset + length > decoded.length) break;
+          if ([0xc0, 0xc1, 0xc2, 0xc3, 0xc5, 0xc6, 0xc7, 0xc9, 0xca, 0xcb, 0xcd, 0xce, 0xcf].includes(marker)) {
+            if (length < 7) break;
+            dimensions = [decoded.readUInt16BE(offset + 3), decoded.readUInt16BE(offset + 5)];
+            break;
+          }
+          offset += length;
+        }
+        if (!dimensions || !dimensions[0] || !dimensions[1] || dimensions[0] > 8192 || dimensions[1] > 8192 || dimensions[0] * dimensions[1] > 20000000) {
+          throw Error('写真の縦横サイズを確認してください。');
+        }
+      }
       bytes += m.image.length;
       content.push({ type: 'input_image', image_url: m.image, detail: 'auto' });
     }
