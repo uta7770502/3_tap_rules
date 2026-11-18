@@ -69,6 +69,12 @@ function validate(body) {
       const encoded = m.image.slice(m.image.indexOf(',') + 1);
       const decoded = Buffer.from(encoded, 'base64');
       if (!decoded.length || decoded.toString('base64') !== encoded) throw Error('写真の形式を確認してください。');
+      // Check file signatures, not just the data URL's claimed MIME type.
+      const mime = m.image.slice(5, m.image.indexOf(';'));
+      const isJpeg = decoded.length >= 4 && decoded[0] === 0xff && decoded[1] === 0xd8 && decoded[2] === 0xff;
+      const isPng = decoded.length >= 24 && decoded.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) && decoded.toString('ascii', 12, 16) === 'IHDR';
+      const isWebp = decoded.length >= 16 && decoded.toString('ascii', 0, 4) === 'RIFF' && decoded.toString('ascii', 8, 12) === 'WEBP' && ['VP8 ', 'VP8L', 'VP8X'].includes(decoded.toString('ascii', 12, 16));
+      if (!(mime === 'image/jpeg' && isJpeg || mime === 'image/png' && isPng || mime === 'image/webp' && isWebp)) throw Error('写真の形式を確認してください。');
       bytes += m.image.length;
       content.push({ type: 'input_image', image_url: m.image, detail: 'auto' });
     }
