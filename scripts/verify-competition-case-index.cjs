@@ -47,9 +47,9 @@ if (cases.length !== 444) errors.push('expected 444 cases, got ' + cases.length)
 for (let id = 1; id <= 444; id++) if (!seen.has(id)) errors.push('missing ID: ' + id);
 const listHtml = fs.readFileSync('competition_rules.html', 'utf8');
 const detailHtml = fs.readFileSync('competition_rule.html', 'utf8');
-if (!listHtml.includes('r.id,r.title')) errors.push('list search no longer includes ID');
+if (!/function textOf\(r\)[^\n]*\[r\.id,r\.title/.test(listHtml)) errors.push('list search no longer includes ID');
 if (!listHtml.includes('competition_rule.html?id=') || !detailHtml.includes('URLSearchParams'))
   errors.push('list-to-detail link contract missing');
-console.log('Cases: ' + cases.length + '; unique IDs: ' + seen.size);
+const divergent = cases.filter(x => x && ((x.summary && x.description && x.summary !== x.description) || (x.action && x.procedure && x.action !== x.procedure)));\nconsole.log('Cases: ' + cases.length + '; unique IDs: ' + seen.size);\nconsole.log('Display field differences (review, not automatic failure): ' + divergent.length + ' IDs: ' + divergent.map(x => x.id).join(', '));
 if (errors.length) { console.error(errors.join('\n')); process.exitCode = 1; }
 else console.log('PASS: static inventory, required content, ID search and link contract');
