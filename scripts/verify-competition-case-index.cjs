@@ -35,7 +35,7 @@ for (const item of cases) {
     summary: item.summary || item.description || '',
     action: item.action || item.procedure || '',
     cat: item.cat || item.category || '',
-    keys: Array.isArray(item.keys) ? item.keys : String(item.keywords || '').split(/[\\s、,]+/).filter(Boolean)
+    keys: Array.isArray(item.keys) ? item.keys : String(item.keywords || '').split(/[\s、,]+/).filter(Boolean)
   };
   const searchText = [normalized.id, normalized.title, normalized.summary, normalized.action,
     normalized.penalty, normalized.cat, normalized.rule,
@@ -51,5 +51,5 @@ if (!listHtml.includes('r.id,r.title')) errors.push('list search no longer inclu
 if (!listHtml.includes('competition_rule.html?id=') || !detailHtml.includes('URLSearchParams'))
   errors.push('list-to-detail link contract missing');
 console.log('Cases: ' + cases.length + '; unique IDs: ' + seen.size);
-if (errors.length) { console.error(errors.join('\\n')); process.exitCode = 1; }
+if (errors.length) { console.error(errors.join('\n')); process.exitCode = 1; }
 else console.log('PASS: static inventory, required content, ID search and link contract');
