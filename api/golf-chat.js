@@ -75,6 +75,15 @@ function validate(body) {
       const isPng = decoded.length >= 24 && decoded.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) && decoded.toString('ascii', 12, 16) === 'IHDR';
       const isWebp = decoded.length >= 16 && decoded.toString('ascii', 0, 4) === 'RIFF' && decoded.toString('ascii', 8, 12) === 'WEBP' && ['VP8 ', 'VP8L', 'VP8X'].includes(decoded.toString('ascii', 12, 16));
       if (!(mime === 'image/jpeg' && isJpeg || mime === 'image/png' && isPng || mime === 'image/webp' && isWebp)) throw Error('写真の形式を確認してください。');
+      // PNG dimensions are stored in the IHDR header. Reject impossible or oversized
+      // dimensions before passing the image to an upstream model.
+      if (isPng && mime === 'image/png') {
+        const width = decoded.readUInt32BE(16);
+        const height = decoded.readUInt32BE(20);
+        if (!width || !height || width > 8192 || height > 8192 || width * height > 20000000) {
+          throw Error('写真の縦横サイズを確認してください。');
+        }
+      }
       bytes += m.image.length;
       content.push({ type: 'input_image', image_url: m.image, detail: 'auto' });
     }
