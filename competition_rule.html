@@ -9,7 +9,7 @@ if(!Number.isSafeInteger(id)||id<=0){content.textContent="競技ルールの指�
 const sources=["competition_rules.json","competition_rule25_verified_cases.json","competition_rules_extra_5_10.json","competition_rules_extra_13_17.json","competition_rules_extra_20.json"];
 Promise.allSettled(sources.map(name=>fetch(name+"?v="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json();})))
 .then(results=>{const failed=[];const datasets=results.map((result,i)=>{if(result.status==="fulfilled"&&Array.isArray(result.value))return result.value;failed.push(sources[i]);console.warn("Competition detail source unavailable:",sources[i]);return [];});
-  if(failed.length===sources.length)throw Error("All competition detail sources unavailable");
+  if(failed.length){throw Error("Incomplete competition detail sources: "+failed.join(", "));}
   const [base,extra,extra2,extra3,extra4]=datasets;
   const validCase=v=>v&&typeof v==="object"&&!Array.isArray(v)&&((typeof v.id==="number"&&Number.isSafeInteger(v.id)&&v.id>0)||(typeof v.id==="string"&&/^[1-9]\d*$/.test(v.id)&&Number.isSafeInteger(Number(v.id))));
   if(!datasets.some(group=>group.some(validCase)))throw Error("No valid competition detail cases available");
