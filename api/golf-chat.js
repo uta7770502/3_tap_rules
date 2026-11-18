@@ -53,12 +53,15 @@ const instructions = `あなたは日本語のゴルフ規則相談アシスタ�
 function validate(body) {
   if (!body || !Array.isArray(body.messages) || !body.messages.length || body.messages.length > 39) throw Error('会話が長くなりました。「新しい相談」から始めてください。');
   let bytes = 0;
+  let photoCount = 0;
   const input = body.messages.map((m, i) => {
     if (!m || m.role !== (i % 2 ? 'assistant' : 'user') || typeof m.text !== 'string' || !m.text.trim() || m.text.length > 6000) throw Error('入力形式を確認してください。');
     bytes += Buffer.byteLength(m.text);
     if (m.role === 'assistant') { if (m.image) throw Error('入力形式を確認してください。'); return { role: m.role, content: m.text }; }
     const content = [{ type: 'input_text', text: m.text }];
     if (m.image) {
+      photoCount++;
+      if (photoCount > 3) throw Error('写真は1回の相談につき3枚までにしてください。');
       if (typeof m.image !== 'string' || !/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/]+=*$/.test(m.image)) throw Error('写真の形式を確認してください。');
       // Reject empty, truncated and noncanonical base64 before forwarding photos upstream.
       // Check encoded size before allocating a decoded buffer; total request budget is 3 MB.
@@ -156,11 +159,14 @@ module.exports = async function handler(req, res) {
     const parts = (data.output || []).filter(x => x.type === 'message').flatMap(x => x.content || []).filter(x => x.type === 'output_text');
     const text = parts.map(x => x.text).join('\n');
     if (data.status !== 'completed' || !text) throw Error('incomplete');
-    const sources = parts.flatMap(x => x.annotations || []).filter(x => x.type === 'url_citation').map(x => ({ title: x.title, url: x.url }));
+    const sources = parts.flatMap(x => x.annotations || []).filter(x => x.type === 'url_citation' && typeof x.url === 'string' && /^https:\/\/(?:[^/]+\.)?(?:randa\.org|usga\.org|jga\.or\.jp)(?:\/|$)/i.test(x.url)).map(x => ({ title: x.title, url: x.url }));
+    // A requested search is not proof that a source was actually returned.
+    const verifiedSearch = !searchUnavailable && (data.output || []).some(x => x.type === 'web_search_call' && x.status === 'completed') && sources.length > 0;
+    const unverifiedNotice = '【参考回答：公式サイトの検索根拠を確認できませんでした。最新規則の確定裁定は委員会に確認してください。】\n\n';
     return res.status(200).json({
-      text: searchUnavailable ? '【参考回答：ウェブ検索が利用できないため、最新の公式規則は未確認です。競技での判断は委員会に確認してください。】\n\n' + text : text,
-      sources: searchUnavailable ? [] : sources,
-      searchUnavailable
+      text: verifiedSearch ? text : unverifiedNotice + text,
+      sources: verifiedSearch ? sources : [],
+      searchUnavailable: !verifiedSearch
     });
   } catch (e) {
     return failure(res, e?.name === 'TimeoutError' || e?.name === 'AbortError' ? 'timeout' : phase === 'response' ? 'response' : 'network');
