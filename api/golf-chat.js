@@ -110,6 +110,32 @@ function validate(body) {
           throw Error('写真の縦横サイズを確認してください。');
         }
       }
+      // WebP canvas dimensions depend on the first chunk type (VP8 / VP8L / VP8X).
+      // Validate the RIFF and chunk boundaries before reading any dimension fields.
+      if (isWebp && mime === 'image/webp') {
+        const chunk = decoded.toString('ascii', 12, 16);
+        const chunkSize = decoded.readUInt32LE(16);
+        const riffSize = decoded.readUInt32LE(4);
+        if (riffSize + 8 !== decoded.length || chunkSize > decoded.length - 20 ||
+            20 + chunkSize + (chunkSize % 2) > decoded.length) {
+          throw Error('写真の形式を確認してください。');
+        }
+        let width, height;
+        if (chunk === 'VP8X' && chunkSize >= 10) {
+          width = 1 + decoded.readUIntLE(24, 3);
+          height = 1 + decoded.readUIntLE(27, 3);
+        } else if (chunk === 'VP8L' && chunkSize >= 5 && decoded[20] === 0x2f) {
+          width = 1 + (((decoded[22] & 0x3f) << 8) | decoded[21]);
+          height = 1 + (((decoded[24] & 0x0f) << 10) | (decoded[23] << 2) | (decoded[22] >> 6));
+        } else if (chunk === 'VP8 ' && chunkSize >= 10 &&
+                   decoded[23] === 0x9d && decoded[24] === 0x01 && decoded[25] === 0x2a) {
+          width = decoded.readUInt16LE(26) & 0x3fff;
+          height = decoded.readUInt16LE(28) & 0x3fff;
+        }
+        if (!width || !height || width > 8192 || height > 8192 || width * height > 20000000) {
+          throw Error('写真の縦横サイズを確認してください。');
+        }
+      }
       bytes += m.image.length;
       content.push({ type: 'input_image', image_url: m.image, detail: 'auto' });
     }
