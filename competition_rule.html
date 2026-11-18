@@ -13,10 +13,9 @@ Promise.allSettled(sources.map(name=>fetch(name+"?v="+Date.now(),{cache:"no-stor
   const [base,extra,extra2,extra3,extra4]=datasets;
   const validCase=v=>v&&typeof v==="object"&&!Array.isArray(v)&&((typeof v.id==="number"&&Number.isSafeInteger(v.id)&&v.id>0)||(typeof v.id==="string"&&/^[1-9]\d*$/.test(v.id)&&Number.isSafeInteger(Number(v.id))));
   if(!datasets.some(group=>group.some(validCase)))throw Error("No valid competition detail cases available");
-  if(failed.length){const warning=document.createElement("p");warning.setAttribute("role","alert");warning.className="source";warning.textContent="一部の競技データを読み込めませんでした（"+failed.join("、")+"）。表示内容は取得済みデータに限られます。";const retry=document.createElement("button");retry.type="button";retry.textContent="再読み込み";retry.onclick=()=>location.reload();content.append(warning,retry);}
   const a=base.concat(extra,extra2,extra3,extra4);
   const x=a.find(v=>v&&typeof v==="object"&&!Array.isArray(v)&&((typeof v.id==="number"&&Number.isSafeInteger(v.id)&&v.id>0)||(typeof v.id==="string"&&/^[1-9]\d*$/.test(v.id)&&Number.isSafeInteger(Number(v.id))))&&Number(v.id)===id);
-  if(!x){const message=document.createElement("p");message.setAttribute("role","alert");message.textContent=failed.length?"指定された競技ルールを確認できません。未取得のデータに含まれる可能性があります。":"指定された競技ルールが見つかりません。";const retry=document.createElement("button");retry.type="button";retry.textContent="再読み込み";retry.onclick=()=>location.reload();content.append(message,retry);return;}
+  if(!x){const message=document.createElement("p");message.setAttribute("role","alert");message.textContent="指定された競技ルールが見つかりません。";const retry=document.createElement("button");retry.type="button";retry.textContent="再読み込み";retry.onclick=()=>location.reload();content.append(message,retry);return;}
   document.title=x.title+"｜競技ルール";
   const ref=officialRule(x.rule);
   const allowedSource=typeof x.source==="string"&&/^https:\/\/(?:[a-z0-9-]+\.)*(?:randa\.org|usga\.org|jga\.or\.jp)\//i.test(x.source);
