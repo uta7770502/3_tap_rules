@@ -14,6 +14,11 @@ Promise.allSettled(sources.map(name=>fetch(name+"?v="+Date.now(),{cache:"no-stor
   const validCase=v=>v&&typeof v==="object"&&!Array.isArray(v)&&((typeof v.id==="number"&&Number.isSafeInteger(v.id)&&v.id>0)||(typeof v.id==="string"&&/^[1-9]\d*$/.test(v.id)&&Number.isSafeInteger(Number(v.id))));
   if(!datasets.some(group=>group.some(validCase)))throw Error("No valid competition detail cases available");
   const a=base.concat(extra,extra2,extra3,extra4);
+  const validIds=a.filter(validCase).map(v=>Number(v.id));
+  const uniqueIds=new Set(validIds);
+  if(a.length!==444||validIds.length!==444||uniqueIds.size!==444||Array.from({length:444},(_,i)=>i+1).some(n=>!uniqueIds.has(n))){
+    throw Error("Competition detail ID integrity failed: total="+a.length+", valid="+validIds.length+", unique="+uniqueIds.size);
+  }
   const x=a.find(v=>v&&typeof v==="object"&&!Array.isArray(v)&&((typeof v.id==="number"&&Number.isSafeInteger(v.id)&&v.id>0)||(typeof v.id==="string"&&/^[1-9]\d*$/.test(v.id)&&Number.isSafeInteger(Number(v.id))))&&Number(v.id)===id);
   if(!x){const message=document.createElement("p");message.setAttribute("role","alert");message.textContent="指定された競技ルールが見つかりません。";const retry=document.createElement("button");retry.type="button";retry.textContent="再読み込み";retry.onclick=()=>location.reload();content.append(message,retry);return;}
   document.title=x.title+"｜競技ルール";
