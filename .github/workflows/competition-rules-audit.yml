@@ -62,4 +62,7 @@ jobs:
       - name: Regression test official Rule reference parsing
         run: node --test scripts/test-rule-references.mjs scripts/test-case-integrity.mjs scripts/test-golf-chat-validation.mjs
       - name: Audit 444 cases, search/detail and judge graph
+        # Run this independent audit even when a regression test fails, so CI
+        # reports both failures instead of silently skipping coverage.
+        if: success() || failure()
         run: node scripts/audit-competition-routes.mjs
