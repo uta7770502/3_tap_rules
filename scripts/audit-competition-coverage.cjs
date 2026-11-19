@@ -36,7 +36,7 @@ const errors=[
   ...duplicates(cases,"case"),
   ...duplicates(subrules,"subrule"),
   ...groups.filter(g=>!(Number(g.rule)>=1&&Number(g.rule)<=25)).map(g=>"invalid Rule:"+g.rule),
-  ...cases.filter(c=>!ruleOf(c.rule)&&!/^(?:MLR|Clarification|Committee)/i.test(String(c.rule))).map(c=>"unrecognized case rule:"+c.id)
+  ...cases.filter(c=>!ruleOf(c.rule)&&!/^MLR A-[1-9]\d*$/.test(String(c.rule))&&c.rule!=="定義"&&!/^(?:Clarification|Committee)/i.test(String(c.rule))).map(c=>"unrecognized case rule:"+c.id)
 ];
 // Validate content integrity separately from official-rule correctness.
 const caseContentErrors=cases.flatMap(c=>{
