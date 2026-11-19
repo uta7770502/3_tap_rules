@@ -26,7 +26,7 @@ test('checks actual 444 case references without silently skipping files',()=>{
  const cases=files.flatMap(file=>JSON.parse(readFileSync(new URL('../'+file,import.meta.url),'utf8')));
  assert.equal(cases.length,444);
  for(const c of cases){
-  if(c.rule==='MLR A-4'){
+  if(/^MLR A-[1-9]\d*$/.test(String(c.rule))){
    assert.equal(c.source,'https://www.randa.org/en/rog/committee-procedures/8/model-local-rules','MLR source: '+c.id);
    continue;
   }
