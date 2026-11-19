@@ -48,3 +48,30 @@ test('rejects malformed or unsafe conversation structures',()=>{
 test('rejects oversized total payload including encoded images',()=>{
  assert.throws(()=>validate({messages:[{...user(),image:'data:image/png;base64,'+'A'.repeat(3000004)}]}));
 });
+
+test('rejects forged MIME types and impossible image dimensions',()=>{
+ const pngOversized=Buffer.from(pngBytes);
+ pngOversized.writeUInt32BE(9000,16);
+ const pngZero=Buffer.from(pngBytes);
+ pngZero.writeUInt32BE(0,20);
+ const jpgOversized=Buffer.from(jpgBytes);
+ jpgOversized.writeUInt16BE(9000,7);
+ const webpOversized=Buffer.from(webpBytes);
+ webpOversized[24]=0xff; webpOversized[25]=0xff; webpOversized[26]=0xff;
+ const invalid=[
+  'data:image/jpeg;base64,'+pngBytes.toString('base64'),
+  'data:image/png;base64,'+jpgBytes.toString('base64'),
+  'data:image/png;base64,'+pngOversized.toString('base64'),
+  'data:image/png;base64,'+pngZero.toString('base64'),
+  'data:image/jpeg;base64,'+jpgOversized.toString('base64'),
+  'data:image/webp;base64,'+webpOversized.toString('base64')
+ ];
+ for(const image of invalid)assert.throws(()=>validate({messages:[{...user(),image}]}),undefined,image.slice(0,40));
+});
+test('limits a single conversation to three photos',()=>{
+ const messages=[
+  {...user(),image:png},assistant(),{...user(),image:png},assistant(),
+  {...user(),image:png},assistant(),{...user(),image:png}
+ ];
+ assert.throws(()=>validate({messages}));
+});
