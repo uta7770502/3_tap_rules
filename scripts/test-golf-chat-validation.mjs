@@ -7,9 +7,19 @@ const require=createRequire(import.meta.url);
 const { validate }=require('../api/golf-chat.js');
 const user=(text='ボールが動きました')=>({role:'user',text});
 const assistant=(text='状況を確認してください')=>({role:'assistant',text});
-const png='data:image/png;base64,'+Buffer.from('test').toString('base64');
-const jpg='data:image/jpeg;base64,'+Buffer.from('test').toString('base64');
-const webp='data:image/webp;base64,'+Buffer.from('test').toString('base64');
+// Minimal signature-and-dimension fixtures: validate() checks container metadata,
+// not pixel decoding. Never use arbitrary text pretending to be an image.
+const pngBytes=Buffer.alloc(24);
+Buffer.from([137,80,78,71,13,10,26,10]).copy(pngBytes);
+pngBytes.write('IHDR',12,'ascii');
+pngBytes.writeUInt32BE(1,16); pngBytes.writeUInt32BE(1,20);
+const png='data:image/png;base64,'+pngBytes.toString('base64');
+const jpgBytes=Buffer.from([0xff,0xd8,0xff,0xc0,0x00,0x11,0x08,0x00,0x01,0x00,0x01,0x03,0x01,0x11,0x00,0x02,0x11,0x00,0x03,0x11,0x00]);
+const jpg='data:image/jpeg;base64,'+jpgBytes.toString('base64');
+const webpBytes=Buffer.alloc(30);
+webpBytes.write('RIFF',0,'ascii'); webpBytes.writeUInt32LE(22,4);
+webpBytes.write('WEBPVP8X',8,'ascii'); webpBytes.writeUInt32LE(10,16);
+const webp='data:image/webp;base64,'+webpBytes.toString('base64');
 test('accepts text and supported photo types without losing conversation order',()=>{
  for(const image of [png,jpg,webp]){
   const result=validate({messages:[{...user(),image},assistant(),user('追加質問')]});
