@@ -22,7 +22,7 @@ test('case inventory has exactly 444 unique safe integer IDs',()=>{
 });
 test('every official citation resolves to a heading, rule, or indexed paragraph parent',()=>{
  for(const c of cases){
-  if(c.rule==='MLR A-4'){
+  if(/^MLR A-[1-9]\d*$/.test(String(c.rule))){
    assert.equal(c.source,'https://www.randa.org/en/rog/committee-procedures/8/model-local-rules','MLR source for case '+c.id);
    assert.ok(!c.officialSubruleIds?.length,'MLR must not masquerade as numbered Rule citation: '+c.id);
    continue;
@@ -60,7 +60,7 @@ test('case display and ruling fields are present and nonblank',()=>{
 test('official reference lists contain no duplicates or malformed values',()=>{
  for(const c of cases){
   const refs=c.officialSubruleIds;
-  if(c.rule==='定義' || c.rule==='MLR A-4'){
+  if(c.rule==='定義' || /^MLR A-[1-9]\d*$/.test(String(c.rule))){
    assert.ok(refs===undefined || Array.isArray(refs),'Case '+c.id+' references must be absent or an array');
    continue;
   }
