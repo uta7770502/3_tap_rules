@@ -40,7 +40,7 @@ for(const c of cases){
   assert.ok(typeof c.rule==="string" || typeof c.rule==="number","Invalid case Rule type "+c.id);
   const caseRule=String(c.rule).trim();
   const caseRuleMatch=caseRule.match(/^([1-9]|1\d|2[0-5])(?:\.\d+[a-z]?(?:\([a-z0-9]+\))*)?$/);
-  if(caseRule==="MLR A-4"){
+  if(/^MLR A-[1-9]\d*$/.test(caseRule)){
     assert.equal(c.source,"https://www.randa.org/en/rog/committee-procedures/8/model-local-rules","Invalid MLR source "+c.id);
     assert.ok(!c.officialSubruleIds?.length,"MLR must not be treated as numbered Rule "+c.id);
     continue;
