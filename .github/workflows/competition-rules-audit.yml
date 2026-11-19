@@ -6,6 +6,8 @@ on:
       - 'competition_rules*.json'
       - 'competition_rule25_verified_cases.json'
       - 'competition_official_index.json'
+      - 'competition_official_index.html'
+      - 'competition_reviewed_subrule_links*.json'
       - 'competition_rules.html'
       - 'competition_rule.html'
       - 'competition_judge.html'
@@ -24,6 +26,8 @@ on:
       - 'competition_rules*.json'
       - 'competition_rule25_verified_cases.json'
       - 'competition_official_index.json'
+      - 'competition_official_index.html'
+      - 'competition_reviewed_subrule_links*.json'
       - 'competition_rules.html'
       - 'competition_rule.html'
       - 'competition_judge.html'
@@ -61,6 +65,9 @@ jobs:
           node --check api/golf-chat.js
       - name: Regression test official Rule reference parsing
         run: node --test scripts/test-rule-references.mjs scripts/test-case-integrity.mjs scripts/test-golf-chat-validation.mjs
+      - name: Audit official heading coverage and static navigation
+        if: success() || failure()
+        run: node scripts/audit-competition-coverage.cjs
       - name: Audit 444 cases, search/detail and judge graph
         # Run this independent audit even when a regression test fails, so CI
         # reports both failures instead of silently skipping coverage.
