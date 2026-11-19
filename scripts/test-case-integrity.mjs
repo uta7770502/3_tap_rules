@@ -22,6 +22,11 @@ test('case inventory has exactly 444 unique safe integer IDs',()=>{
 });
 test('every official citation resolves to a heading, rule, or indexed paragraph parent',()=>{
  for(const c of cases){
+  if(c.rule==='MLR A-4'){
+   assert.equal(c.source,'https://www.randa.org/en/rog/committee-procedures/8/model-local-rules','MLR source for case '+c.id);
+   assert.ok(!c.officialSubruleIds?.length,'MLR must not masquerade as numbered Rule citation: '+c.id);
+   continue;
+  }
   if(c.rule==='定義'){
    assert.equal(c.source,'https://www.randa.org/en/rog/the-rules-of-golf/definitions','Definition source for case '+c.id);
    assert.ok(!c.officialSubruleIds?.length,'Definition case must not invent numbered citations: '+c.id);
@@ -55,6 +60,10 @@ test('case display and ruling fields are present and nonblank',()=>{
 test('official reference lists contain no duplicates or malformed values',()=>{
  for(const c of cases){
   const refs=c.officialSubruleIds;
+  if(c.rule==='定義' || c.rule==='MLR A-4'){
+   assert.ok(refs===undefined || Array.isArray(refs),'Case '+c.id+' references must be absent or an array');
+   continue;
+  }
   assert.ok(Array.isArray(refs),'Case '+c.id+' references must be an array');
   assert.equal(new Set(refs).size,refs.length,'Case '+c.id+' has duplicate official references');
   for(const ref of refs){
