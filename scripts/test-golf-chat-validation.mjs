@@ -75,3 +75,25 @@ test('limits a single conversation to three photos',()=>{
  ];
  assert.throws(()=>validate({messages}));
 });
+
+test('API rejects unsupported methods and cross-origin POST before upstream access',async()=>{
+ const handler=require('../api/golf-chat.js');
+ const response=()=>{
+  const result={statusCode:200,headers:{},body:null};
+  return {
+   result,
+   setHeader(k,v){result.headers[k]=v;return this;},
+   status(code){result.statusCode=code;return this;},
+   json(body){result.body=body;return this;}
+  };
+ };
+ const methodRes=response();
+ await handler({method:'DELETE',headers:{host:'example.test'}},methodRes);
+ assert.equal(methodRes.result.statusCode,405);
+ assert.equal(methodRes.result.headers.Allow,'GET, POST');
+ assert.equal(methodRes.result.headers['Cache-Control'],'no-store');
+ const originRes=response();
+ await handler({method:'POST',headers:{host:'example.test',origin:'https://attacker.example'},body:{messages:[user()]}},originRes);
+ assert.equal(originRes.result.statusCode,403);
+ assert.ok(typeof originRes.result.body.error==='string');
+});
