@@ -2,6 +2,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import refsModule from './official-references.cjs';
 const root=new URL('../',import.meta.url);
 const read=name=>JSON.parse(readFileSync(new URL(name,root),'utf8'));
 const files=['competition_rules.json','competition_rule25_verified_cases.json','competition_rules_extra_5_10.json','competition_rules_extra_13_17.json','competition_rules_extra_20.json'];
@@ -9,9 +10,10 @@ const cases=files.flatMap(read);
 const index=read('competition_official_index.json');
 const headings=new Set(index.officialRuleSubrules.flatMap(g=>g.subrules.map(s=>s.id)));
 const rules=new Set(index.officialRuleSubrules.map(g=>String(g.rule)));
+const references=refsModule.validator(index);
 function validReference(ref){
  if(typeof ref!=='string'||ref!==ref.trim().normalize('NFKC'))return false;
- if(headings.has(ref)||rules.has(ref))return true;
+ if(headings.has(ref)||rules.has(ref)||index.clarifications.some(x=>x.id===ref)||index.definitionClarifications.some(x=>x.id===ref))return true;
  const nested=ref.match(/^(\d{1,2}\.\d+[a-z]?)(?:\([a-z0-9]+\))+$/);
  return Boolean(nested&&headings.has(nested[1]));
 }
@@ -21,20 +23,7 @@ test('case inventory has exactly 444 unique safe integer IDs',()=>{
  assert.deepEqual(cases.map(c=>c.id).sort((a,b)=>a-b),Array.from({length:444},(_,i)=>i+1));
 });
 test('every official citation resolves to a heading, rule, or indexed paragraph parent',()=>{
- for(const c of cases){
-  if(/^MLR [A-Z]-[1-9]\d*(?:\.\d+)?(?:\/[A-Z]-[1-9]\d*(?:\.\d+)?)*$/.test(String(c.rule))){
-   assert.equal(c.source,'https://www.randa.org/en/rog/committee-procedures/8/model-local-rules','MLR source for case '+c.id);
-   assert.ok(!c.officialSubruleIds?.length,'MLR must not masquerade as numbered Rule citation: '+c.id);
-   continue;
-  }
-  if(c.rule==='定義'){
-   assert.equal(c.source,'https://www.randa.org/en/rog/the-rules-of-golf/definitions','Definition source for case '+c.id);
-   assert.ok(!c.officialSubruleIds?.length,'Definition case must not invent numbered citations: '+c.id);
-   continue;
-  }
-  assert.ok(Array.isArray(c.officialSubruleIds)&&c.officialSubruleIds.length>0,'Case '+c.id+' missing official references');
-  for(const ref of c.officialSubruleIds)assert.ok(validReference(ref),'Case '+c.id+': '+ref);
- }
+ for(const c of cases)assert.deepEqual(references.validateCase(c),[],'Case '+c.id);
 });
 test('reference validation rejects malformed and fabricated nested headings',()=>{
  assert.equal(validReference('20.1c(3)(a)'),headings.has('20.1c'),'Nested alphabetic paragraph must resolve to indexed parent');
@@ -60,7 +49,7 @@ test('case display and ruling fields are present and nonblank',()=>{
 test('official reference lists contain no duplicates or malformed values',()=>{
  for(const c of cases){
   const refs=c.officialSubruleIds;
-  if(c.rule==='定義' || /^MLR [A-Z]-[1-9]\d*(?:\.\d+)?(?:\/[A-Z]-[1-9]\d*(?:\.\d+)?)*$/.test(String(c.rule))){
+  if(!c.officialSubruleIds && references.validateCase(c).length===0 || c.rule==='定義' || /^MLR [A-Z]-[1-9]\d*(?:\.\d+)?(?:\/[A-Z]-[1-9]\d*(?:\.\d+)?)*$/.test(String(c.rule))){
    assert.ok(refs===undefined || Array.isArray(refs),'Case '+c.id+' references must be absent or an array');
    continue;
   }
@@ -85,3 +74,4 @@ test('every indexed Rule has cases and every heading has a citation',()=>{
   }
  }
 });
+

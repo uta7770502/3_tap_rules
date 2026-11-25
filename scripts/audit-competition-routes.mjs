@@ -2,6 +2,7 @@
 // Static checks only: browser/device and official-text verification are separate.
 import {readFileSync} from "node:fs";
 import assert from "node:assert/strict";
+import refsModule from "./official-references.cjs";
 const files=["competition_rules.json","competition_rule25_verified_cases.json","competition_rules_extra_5_10.json","competition_rules_extra_13_17.json","competition_rules_extra_20.json"];
 const cases=files.flatMap(f=>JSON.parse(readFileSync(f,"utf8")));
 const idx=JSON.parse(readFileSync("competition_official_index.json","utf8"));
@@ -18,6 +19,7 @@ assert.equal(new Set(indexedRules).size,indexedRules.length,"Duplicate Rule grou
 for(let n=1;n<=25;n++)assert.ok(indexedRules.includes(n),"Missing Rule group "+n);
 const headings=idx.officialRuleSubrules.flatMap(g=>g.subrules.map(s=>String(s.id)));
 const ids=cases.map(c=>c.id);
+const references=refsModule.validator(idx);
 // Ensure the index can never silently map two different headings to one Rule.
 for(const group of idx.officialRuleSubrules){
  const ids=group.subrules.map(sub=>sub.id);
@@ -40,17 +42,7 @@ for(const c of cases){
   assert.ok(typeof c.rule==="string" || typeof c.rule==="number","Invalid case Rule type "+c.id);
   const caseRule=String(c.rule).trim();
   const caseRuleMatch=caseRule.match(/^([1-9]|1\d|2[0-5])(?:\.\d+[a-z]?(?:\([a-z0-9]+\))*)?$/);
-  if(/^MLR [A-Z]-[1-9]\d*(?:\.\d+)?(?:\/[A-Z]-[1-9]\d*(?:\.\d+)?)*$/.test(caseRule)){
-    assert.equal(c.source,"https://www.randa.org/en/rog/committee-procedures/8/model-local-rules","Invalid MLR source "+c.id);
-    assert.ok(!c.officialSubruleIds?.length,"MLR must not be treated as numbered Rule "+c.id);
-    continue;
-  }
-  if(caseRule==="定義"){
-    assert.equal(c.source,"https://www.randa.org/en/rog/the-rules-of-golf/definitions","Invalid definition source "+c.id);
-    continue;
-  }
-  assert.ok(caseRuleMatch,"Invalid case Rule reference "+c.id+": "+caseRule);
-  assert.ok(indexedRules.includes(Number(caseRuleMatch[1])),"Case Rule not indexed "+c.id);
+  assert.deepEqual(references.validateCase(c),[],"Invalid case references "+c.id);
   assert.ok(typeof c.title==="string" && c.title.trim(),"Invalid case title "+c.id);
   assert.ok(typeof c.source==="string" && /^https:\/\//.test(c.source),"Invalid source URL "+c.id);
 }
@@ -73,12 +65,7 @@ for(const c of cases){
  // The index lists headings, not every nested paragraph such as 20.1c(3).
  // Accept a nested citation only when its exact parent heading is indexed;
  // do not treat a known Rule number alone as proof of a valid paragraph.
- for(const ref of refs){
-  const nested=ref.match(/^(\d{1,2}\.\d+[a-z]?)(?:\([a-z0-9]+\))+$/);
-  const indexedParent=Boolean(nested && headingSet.has(nested[1]));
-  assert.ok(validOfficialRefs.has(ref) || indexedParent,
-   "Unknown official rule/subrule reference "+ref+" in case "+c.id);
- }
+ for(const ref of refs)assert.ok(references.numberedRef(ref)||idx.clarifications.some(x=>x.id===ref)||idx.definitionClarifications.some(x=>x.id===ref),"Unknown reference "+ref+" in case "+c.id);
  const url=new URL(c.source);
  assert.equal(url.protocol,"https:","Non-HTTPS source "+c.id);
  assert.ok(url.hostname && !url.username && !url.password,"Unsafe source URL "+c.id);
@@ -86,21 +73,21 @@ for(const c of cases){
 
 for(const f of files){
   assert.ok(listing.includes('fetch("'+f),"Listing does not load "+f);
-  assert.ok(detail.includes('fetch("'+f),"Detail does not load "+f);
+  assert.ok(detail.includes('"'+f+'"') && detail.includes('sources.map(name=>fetch(name+'),"Detail does not load "+f);
 }
 for(let n=1;n<=25;n++){
   assert.ok(listing.includes('data-rule="'+n+'"'),"Missing Rule button "+n);
   assert.ok(cases.some(c=>parseInt(String(c.rule),10)===n),"No case for Rule "+n);
 }
 assert.ok(listing.includes('competition_rule.html?id='),"Missing detail navigation");
-assert.ok(/a\.find\(v=>v&&Number\(v\.id\)===id\)/.test(detail),"Missing safe numeric case-ID detail lookup");
+assert.ok(detail.includes('const x=a.find(') && detail.includes('Number(v.id)===id'),"Missing numeric case-ID detail lookup (execution checked by test-non-ai-runtime.mjs)");
 assert.ok(listing.includes("officialSubruleIds.some(ref=>"),"Rule navigation ignores cross-rule references");
 
 // The user-facing list/detail must not render rule data as raw HTML, and must
 // preserve URL-encoded case IDs when navigating from a search result.
 assert.ok(listing.includes('function esc(s)') && listing.includes('${esc(r.title)}') && listing.includes('${esc(r.summary)}'),
   "Rule listing must escape user-facing case fields");
-assert.ok(listing.includes('encodeURIComponent(el.dataset.id)'),
+assert.ok(listing.includes('encodeURIComponent(r.id)'),
   "Rule listing must URL-encode the selected case ID");
 assert.ok(detail.includes('const esc=v=>') && detail.includes('${esc(x.title)}') && detail.includes('${esc(x.summary||x.description||"")}'),
   "Rule detail must escape user-facing case fields");
@@ -115,7 +102,7 @@ for(const [name,html] of [["competition_rules.html",listing],["competition_rule.
  assert.ok(script,"Missing inline script: "+name);
  new Function(script);
 }
-const queryLine=listing.split("\n").find(line=>line.includes("const v=q.value.trim()"));
+const queryLine=listing.split("\n").find(line=>line.includes("const v=input.toLowerCase()"));
 assert.ok(queryLine,"Search query normalization missing");
 const regexText=queryLine.match(/\.replace\((\/.*?\/gi),""\)/)?.[1];
 assert.ok(regexText,"Rule query normalization pattern missing");
@@ -130,6 +117,7 @@ console.log("PASS: list/detail JavaScript parses; Rule queries normalize.");
 
 const judge=readFileSync("competition_judge.html","utf8");
 const ai=readFileSync("competition_ai.html","utf8");
+const aiDeferred=ai.includes("現在ご利用いただけません")&&!ai.includes('src="assets/golf-chat.js');
 const chat=readFileSync("assets/golf-chat.js","utf8");
 const api=readFileSync("api/golf-chat.js","utf8");
 const judgeScript=judge.match(/<script>([\s\S]*?)<\/script>/)?.[1];
@@ -137,6 +125,7 @@ assert.ok(judgeScript,"Missing three-tap judge script");
 try {new Function(judgeScript);} catch(e) {throw Error("Three-tap judge JavaScript syntax error: "+e.message);}
 try {new Function(chat);} catch(e) {throw Error("AI/photo chat JavaScript syntax error: "+e.message);}
 try {new Function(api);} catch(e) {throw Error("AI chat API JavaScript syntax error: "+e.message);}
+if(!aiDeferred){
 for(const id of ["camera","photoLibrary","photoCamera","mic","textBtn","input","send","newChat","chat","connection","preview","previewImg","remove"]){
   assert.ok(ai.includes('id="'+id+'"'),"AI consultation missing element "+id);
 }
@@ -146,6 +135,8 @@ assert.ok(chat.includes("photoLibrary.click()"),"Photo selection missing native 
 assert.ok(chat.includes("attempt<5") && chat.includes("data.length<=1500000"),"Adaptive photo compression missing");
 assert.ok(api.includes("req.method === 'GET'"),"AI connection status endpoint missing");
 assert.ok(api.includes("req.method !== 'POST'"),"AI consultation POST endpoint missing");
+}
+if(aiDeferred){assert.ok(ai.includes('href="competition.html"'),"Deferred AI needs non-AI navigation");console.log("DEFERRED: AI consultation UI/photo/API integration; original assertions retained for reactivation.");}
 const graphText=judgeScript.split("const flows=")[1]?.split(";\nlet key=")[0];
 assert.ok(graphText,"Judge graph missing");
 const flows=Function("return ("+graphText+")")();
@@ -219,6 +210,7 @@ for(const [key,step] of Object.entries(flows)){
 }
 console.log("PASS: judge outcomes have source citations, next actions and distinct choices.");
 console.log("PASS: all 10 judge outcomes are reachable.");
-console.log("PASS: judge/chat/API JavaScript parses, consultation elements and photo/API wiring present.");
+console.log("PASS: judge/chat/API JavaScript parses. AI UI integration: "+(aiDeferred?"DEFERRED":"PASS"));
 console.log("PASS: 444 cases, 336 heading references, 25 Rule buttons, all five data sources on list/detail, required fields and navigation wiring.");
 console.log("NOTE: Static audit only; does not certify R&A wording, device operation, or production deployment.");
+

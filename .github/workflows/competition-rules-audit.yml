@@ -17,6 +17,10 @@ on:
       - 'scripts/audit-competition-routes.mjs'
       - 'scripts/test-rule-references.mjs'
       - 'scripts/test-case-integrity.mjs'
+      - 'scripts/official-references.cjs'
+      - 'scripts/test-non-ai-runtime.mjs'
+      - 'assets/rule-guides.js'
+      - 'assets/scene-guides.js'
       - 'scripts/test-golf-chat-validation.mjs'
       - 'scripts/audit-competition-rules.js'
       - 'scripts/audit-competition-coverage.cjs'
@@ -37,11 +41,20 @@ on:
       - 'scripts/audit-competition-routes.mjs'
       - 'scripts/test-rule-references.mjs'
       - 'scripts/test-case-integrity.mjs'
+      - 'scripts/official-references.cjs'
+      - 'scripts/test-non-ai-runtime.mjs'
+      - 'assets/rule-guides.js'
+      - 'assets/scene-guides.js'
       - 'scripts/test-golf-chat-validation.mjs'
       - 'scripts/audit-competition-rules.js'
       - 'scripts/audit-competition-coverage.cjs'
       - '.github/workflows/competition-rules-audit.yml'
   workflow_dispatch:
+    inputs:
+      run_ai_validation:
+        description: 'Run deferred AI validation (AI consultation remains in development)'
+        type: boolean
+        default: false
 jobs:
   audit:
     runs-on: ubuntu-latest
@@ -58,13 +71,18 @@ jobs:
           node --check scripts/audit-competition-routes.mjs
           node --check scripts/test-rule-references.mjs
           node --check scripts/test-case-integrity.mjs
+          node --check scripts/official-references.cjs
+          node --check scripts/test-non-ai-runtime.mjs
           node --check scripts/test-golf-chat-validation.mjs
           node --check scripts/audit-competition-rules.js
           node --check scripts/audit-competition-coverage.cjs
           node --check assets/golf-chat.js
           node --check api/golf-chat.js
       - name: Regression test official Rule reference parsing
-        run: node --test scripts/test-rule-references.mjs scripts/test-case-integrity.mjs scripts/test-golf-chat-validation.mjs
+        run: node --test scripts/test-rule-references.mjs scripts/test-case-integrity.mjs scripts/test-non-ai-runtime.mjs
+      - name: AI validation deferred until reactivation (retained, opt-in)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_ai_validation }}
+        run: node --test scripts/test-golf-chat-validation.mjs
       - name: Audit official heading coverage and static navigation
         if: success() || failure()
         run: node scripts/audit-competition-coverage.cjs

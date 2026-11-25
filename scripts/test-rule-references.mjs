@@ -4,6 +4,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 
+import refsModule from './official-references.cjs';
 const audit=readFileSync(new URL('./audit-competition-routes.mjs',import.meta.url),'utf8');
 const source=audit.match(/const caseRuleMatch=caseRule\.match\((\/\^.*?\$\/)\);/);
 assert.ok(source,'Cannot locate the production Rule-reference pattern');
@@ -25,15 +26,14 @@ test('checks actual 444 case references without silently skipping files',()=>{
  const files=['competition_rules.json','competition_rule25_verified_cases.json','competition_rules_extra_5_10.json','competition_rules_extra_13_17.json','competition_rules_extra_20.json'];
  const cases=files.flatMap(file=>JSON.parse(readFileSync(new URL('../'+file,import.meta.url),'utf8')));
  assert.equal(cases.length,444);
- for(const c of cases){
-  if(/^MLR [A-Z]-[1-9]\d*(?:\.\d+)?(?:\/[A-Z]-[1-9]\d*(?:\.\d+)?)*$/.test(String(c.rule))){
-   assert.equal(c.source,'https://www.randa.org/en/rog/committee-procedures/8/model-local-rules','MLR source: '+c.id);
-   continue;
-  }
-  if(c.rule==='定義'){
-   assert.equal(c.source,'https://www.randa.org/en/rog/the-rules-of-golf/definitions','Definition source: '+c.id);
-   continue;
-  }
-  assert.match(String(c.rule).trim(),rulePattern,'Case '+c.id);
- }
+ const index=JSON.parse(readFileSync(new URL('../competition_official_index.json',import.meta.url),'utf8'));
+ const refs=refsModule.validator(index);
+ for(const c of cases)assert.deepEqual(refs.validateCase(c),[],'Case '+c.id);
 });
+test('typed citations reject invented MLR, definition, committee and clarification identifiers',()=>{
+ const index=JSON.parse(readFileSync(new URL('../competition_official_index.json',import.meta.url),'utf8'));
+ const refs=refsModule.validator(index);
+ for(const value of ['MLR Z-99','MLR A-4.99','委員会99','Committee Procedure 5Z(99)','定義：架空の定義','Clarification 5.2b/999','Club-Length/999'])assert.equal(refs.classify(value),null,value);
+ for(const value of ['MLR A-4.1/A-4.2','委員会5','Committee Procedure 5A(5)','定義：境界物','Clarification 5.2b/3','Club-Length/1'])assert.ok(refs.classify(value),value);
+});
+

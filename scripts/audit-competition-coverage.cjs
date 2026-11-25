@@ -7,6 +7,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8"));
 const cases=read("competition_rules.json").concat(read("competition_rule25_verified_cases.json"),read("competition_rules_extra_5_10.json"),read("competition_rules_extra_13_17.json"),read("competition_rules_extra_20.json"));
 const index=read("competition_official_index.json");
 const groups=index.officialRuleSubrules||[];
+const references=require("./official-references.cjs").validator(index);
 const reviewed=read("competition_reviewed_subrule_links.json").links;
 const reviewed2=read("competition_reviewed_subrule_links_batch2.json").links;
 const reviewed3=read("competition_reviewed_subrule_links_batch3.json").links;
@@ -36,7 +37,7 @@ const errors=[
   ...duplicates(cases,"case"),
   ...duplicates(subrules,"subrule"),
   ...groups.filter(g=>!(Number(g.rule)>=1&&Number(g.rule)<=25)).map(g=>"invalid Rule:"+g.rule),
-  ...cases.filter(c=>!ruleOf(c.rule)&&!/^MLR [A-Z]-[1-9]\d*(?:\.\d+)?(?:\/[A-Z]-[1-9]\d*(?:\.\d+)?)*$/.test(String(c.rule))&&c.rule!=="定義"&&!/^(?:Clarification|Committee)/i.test(String(c.rule))).map(c=>"unrecognized case rule:"+c.id)
+  ...cases.flatMap(c=>references.validateCase(c).map(error=>"case "+c.id+": "+error))
 ];
 // Validate content integrity separately from official-rule correctness.
 const caseContentErrors=cases.flatMap(c=>{
@@ -139,3 +140,4 @@ console.log(output);
 // --leaf-gate permits navigable parent headings without declaring full coverage.
 const leafGate=process.argv.includes("--leaf-gate");
 if(report.errors.length||(leafGate?unmappedLeaves.length>0:missing.length>0))process.exitCode=1;
+
