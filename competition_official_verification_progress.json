@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "policy": "Only mark verified after checking the official R&A/USGA rule text for all of summary, action, penalty and exceptions. Editing a case does not constitute verification.",
-  "total": 442,
-  "verified": 25,
-  "pending": 417,
+  "total": 444,
+  "verified": 56,
+  "pending": 388,
   "cases": [
     {
       "id": 1,
@@ -405,10 +405,12 @@
       "id": 45,
       "rule": "24",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "722ff9e1d306632b7c7add19a81abbb43de699ab7726c099201767f35c679295",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 46,
@@ -423,10 +425,12 @@
       "id": 47,
       "rule": "3.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "33c07010ca51491315cfb6544bccc9e14868b807f43c5976e36c1ac315ad83cb",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 48,
@@ -972,10 +976,12 @@
       "id": 108,
       "rule": "24.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "290ebf152b8583506a84c4d94854e643bfa3e1d5f9143ae953a5b6c3e35a5d09",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 109,
@@ -1323,10 +1329,12 @@
       "id": 147,
       "rule": "9.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
+      "notes": "9.2–9.3: known/virtually certain and natural-force exceptions",
+      "contentSha256": "392688b498caeb7fb540ca750261e00c6c6bdc919873c1f1cb3ee650802f77c2",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 148,
@@ -1746,28 +1754,34 @@
       "id": 194,
       "rule": "3.2d",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "2095e38760500f1f2133b6a4069e5c3fa751ef1ef5ae6d63c13f20458e6636be",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 195,
       "rule": "3.2b",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "eda3e2976f8ff046a3c3ab2380ac5862fe12986b8e66a489ab676f36fc18e2fc",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 196,
       "rule": "3.2b / 9.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "6c6ff303596e4f37a747f6e55f710de2b5cbec6a52dde5e35834286668b16788",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 197,
@@ -2070,10 +2084,12 @@
       "id": 230,
       "rule": "24.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "49e925f3fdf0278a21a8005be137a8730a7f13faf58ad6f03dd004004f3b8eb8",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 231,
@@ -2394,46 +2410,56 @@
       "id": 266,
       "rule": "8.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+      "notes": "8.2–8.3: ownership, deliberate changes, exceptions and boundary with Rule 11",
+      "contentSha256": "95efe89ea40e5f78e76bf8a0adc0debba29a7f00250ac3b7794b350b7ee2d681",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 267,
       "rule": "8.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+      "notes": "8.2–8.3: ownership, deliberate changes, exceptions and boundary with Rule 11",
+      "contentSha256": "37dd8a7d5dbe40828e92c28160d77efd9ba41c1da07e8b226ac753aa261777c1",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 268,
       "rule": "24.1",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "535c829aebbc801832531dca9f9d2515cfec5966b27e0f57134feafd3a87740f",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 269,
       "rule": "24.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "15ccdc44188b84611e7f3a7283866108a9842ade8c568e06ce9ddb821203ceff",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 270,
       "rule": "24.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "a28d66cf44e4a93d2f225cd2413711ac1c5eb7e62ae5e5d06cf0d96772aaa028",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 271,
@@ -2466,10 +2492,12 @@
       "id": 274,
       "rule": "9.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-9",
+      "notes": "9.2–9.3: known/virtually certain and natural-force exceptions",
+      "contentSha256": "c22f738765d5b73554c1478c954935250133a274d9ef8222819b376925d441c0",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 275,
@@ -2518,21 +2546,25 @@
     },
     {
       "id": 280,
-      "rule": "3.3b(2)",
+      "rule": "3.3b(4)",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "791caae6a4a290a4c0a478bb01f291c91f184b050042648da970884bd0c7e21c",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 281,
       "rule": "3.3b(3)",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "1afd6bbceb4762b866ead499eb8eb4d6c1654f66784cec0355347f150f1f6526",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 282,
@@ -2547,10 +2579,12 @@
       "id": 283,
       "rule": "5.5a",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-5",
+      "notes": "5.5a: practice stroke exceptions and general penalty",
+      "contentSha256": "13fff7a6dce4692b659ff16f2df6c210fbeab1da1f7e3f46300c6b1e74a3dd51",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 284,
@@ -2637,10 +2671,12 @@
       "id": 293,
       "rule": "15.2b",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15",
+      "notes": "15.2b, 15.3a: not-found ball and green-only helping ball",
+      "contentSha256": "9da08f687aa4b1cd8b0fe733e5283f6a52055d346fad72c789be3790f4c5aedb",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 294,
@@ -2808,10 +2844,12 @@
       "id": 312,
       "rule": "24.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "e021b2d325027c8b9f7b94a839b542374af4b72cb98bf369e991959eaf38e20e",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 313,
@@ -2871,10 +2909,12 @@
       "id": 319,
       "rule": "3.1a",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "0260929ab9e7b74105dac2e33bc8008702ddca8d8f14f8614fea3d96998fd3b8",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 320,
@@ -2899,18 +2939,22 @@
       "rule": "22.1",
       "file": "competition_rules.json",
       "status": "verified_official",
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-25",
       "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-22",
-      "notes": "Checked against official R&A Rule 22 (22.1–22.6); limited to the claims present in this case."
+      "notes": "22.1–22.3: match/stroke distinction and correction",
+      "contentSha256": "970af59de4adc994eb6a9f299467f3c3eee265a5fc6eeee11a8bfdde4833db0e",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 323,
       "rule": "3.1c",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "ecd3407aec2f328666b53b142d4614ccb5d815c68ed67d5772672e45e0e896a5",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 324,
@@ -2943,10 +2987,12 @@
       "id": 327,
       "rule": "3.1b",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "a79462cac25fb786a5ecd98b3988661e3bd1306443c15607b9214f9d1a18e973",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 328,
@@ -3303,37 +3349,45 @@
       "id": 367,
       "rule": "3.2a",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "b2600db718fae34f9e2511d7b8cac4b32cb1f6bbffb939ffed116492066ddc72",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 368,
       "rule": "3.2c",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "e6f72c4c6204cae485fda6dd5a2c4ae2284129baa59021af3e765553a9b59057",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 369,
       "rule": "3.3a",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "d8d659e69531d28e5011fc3318e937ac77a3367844fda2563c2cf52185a8f14e",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 370,
       "rule": "3.3c",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+      "notes": "3.1–3.3: scope of each case, concessions, reporting/correction deadlines, handicap and scorecard duties",
+      "contentSha256": "7a2112a0702a09abb1ae095ab819b2bd0d2a7e263d14fae09a7bcd401d230f35",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 371,
@@ -3492,10 +3546,12 @@
       "id": 388,
       "rule": "8.2b",
       "file": "competition_rules_extra_5_10.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-8",
+      "notes": "8.2–8.3: ownership, deliberate changes, exceptions and boundary with Rule 11",
+      "contentSha256": "3e38108a9453ca40ac34d5edd1ea5916749198ed15b18a95556bce2f355a01f0",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 389,
@@ -3627,10 +3683,12 @@
       "id": 403,
       "rule": "15.3a",
       "file": "competition_rules_extra_13_17.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-15",
+      "notes": "15.2b, 15.3a: not-found ball and green-only helping ball",
+      "contentSha256": "ba6255cfe13293bf4796d04a2afed417733bdf90f117788f53e6c1061c7fb965",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 404,
@@ -3897,28 +3955,34 @@
       "id": 433,
       "rule": "24.4a",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "cc449e9455fd2c60ee93c6cae1dc23e81ab400bc79b402340ed2ef7ba738101f",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 434,
       "rule": "24.4b",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "4fa0edf1ba5fcc81b31abfc0ca9aa0a1021ec1f99508177c98cbfcfbea4d423b",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 435,
       "rule": "24.4c",
       "file": "competition_rules_extra_20.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-25",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-24",
+      "notes": "24.1–24.4: team competition and advice permissions/restrictions",
+      "contentSha256": "1ecce406b8317af442d24b343420ffe965b3ec5ffe7d4e5e2d950a1639b7497c",
+      "reviewScope": "claims, procedure, penalty and material exceptions in this case; not all situations covered by the Rule"
     },
     {
       "id": 436,
@@ -3982,6 +4046,27 @@
       "checkedAt": null,
       "officialSource": null,
       "notes": ""
+    },
+    {
+      "id": 443,
+      "rule": "2.3",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
+    },
+    {
+      "id": 444,
+      "rule": "8.1d",
+      "file": "competition_rules_extra_20.json",
+      "status": "pending_official_verification",
+      "checkedAt": null,
+      "officialSource": null,
+      "notes": ""
     }
-  ]
+  ],
+  "currentContentVerified": 32,
+  "legacyVerificationWithoutContentHash": 24,
+  "updatedAt": "2026-11-25"
 }

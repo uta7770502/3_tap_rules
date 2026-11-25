@@ -193,6 +193,9 @@ scenes["play-inside-pa"].src="assets/dedicated-guides/play-inside-pa-final-revie
 scenes["caddie-behind"].src="assets/dedicated-guides/caddie-behind-final-review-20261111.webp";
 scenes["wrong-partner-ball"].src="assets/dedicated-guides/wrong-partner-ball-final-review-20261111.webp";
 scenes["blind-alignment"].src="assets/dedicated-guides/blind-alignment-final-review-20261111.webp";
+// Same physical situations as the existing approved scenes, reviewed 2026-11-25.
+mappings.competition[399]='cart-ball';
+mappings.competition[400]='embedded-fairway';
 function select(rule,mode){const key=(mappings[mode]||{})[rule.id];if(!key)return null;const s=scenes[key];return {key,dedicated:!!s.dedicated,recovered:!!s.recovered,src:s.src||'assets/scene-guides/'+s.file+'.webp',caption:s.caption};}
 function render(container,rule,mode){
  const s=select(rule,mode);container.replaceChildren();if(!s){container.hidden=true;return;}
@@ -210,3 +213,4 @@ function render(container,rule,mode){
 }
 const api={select,render,scenes,mappings,version};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.RuleScenes=api;
 })(typeof window!=='undefined'?window:globalThis);
+

@@ -2,12 +2,28 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
+import {createHash} from 'node:crypto';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
 const root=new URL('../',import.meta.url);
 const read=p=>fs.readFileSync(new URL(p,root),'utf8');
 const files=['competition_rules.json','competition_rule25_verified_cases.json','competition_rules_extra_5_10.json','competition_rules_extra_13_17.json','competition_rules_extra_20.json'];
 const cases=files.flatMap(f=>JSON.parse(read(f)));
+test('review evidence cannot claim unchanged verification after a ruling changes',()=>{
+ const ledger=JSON.parse(read('competition_official_verification_progress.json'));
+ assert.equal(ledger.total,444);
+ assert.deepEqual(ledger.cases.map(x=>x.id).sort((a,b)=>a-b),cases.map(x=>x.id).sort((a,b)=>a-b));
+ const bound=ledger.cases.filter(x=>x.contentSha256);
+ for(const row of bound){
+  const c=cases.find(x=>x.id===row.id);
+  assert.equal(createHash('sha256').update(JSON.stringify(c)).digest('hex'),row.contentSha256,'Stale official review for '+row.id);
+  assert.equal(row.rule,c.rule,'Stale review reference '+row.id);
+  assert.ok(row.checkedAt&&row.officialSource&&row.reviewScope,'Incomplete review evidence '+row.id);
+ }
+ assert.equal(ledger.currentContentVerified,bound.length);
+ assert.equal(ledger.verified,ledger.cases.filter(x=>x.status==='verified_official').length);
+ assert.equal(ledger.pending,444-ledger.verified);
+});
 function element(){
  return {value:'',dataset:{},classList:{add(){},remove(){}},childNodes:[],hidden:false,
   textContent:'',innerHTML:'',append(...nodes){this.childNodes.push(...nodes)},before(){},replaceChildren(...nodes){this.childNodes=nodes},
