@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "policy": "Only mark verified after checking the official R&A/USGA rule text for all of summary, action, penalty and exceptions. Editing a case does not constitute verification.",
   "total": 444,
-  "verified": 56,
-  "pending": 388,
+  "verified": 142,
+  "pending": 302,
   "cases": [
     {
       "id": 1,
@@ -108,19 +108,23 @@
       "id": 12,
       "rule": "16.1",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "6adce3fdc519f47c44c08a331b8ea76a5a420b8eb3796eb3bad29c366c9ddb42",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 13,
       "rule": "16.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "139fb2ef3520a1b6450dafcc595f3a86adac17aa7bcf6814a12798d50fe22540",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 14,
@@ -153,10 +157,12 @@
       "id": 17,
       "rule": "19.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "e0896357b86f75f85f3dd3e36d9732d8251369ea525b698381f77683a399f167",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 18,
@@ -189,10 +195,12 @@
       "id": 21,
       "rule": "25",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "821d769381ef6fbf9aeaaf12b5d884817e06206ee8a823e9c0aa72fdb165c65f",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 22,
@@ -333,10 +341,12 @@
       "id": 37,
       "rule": "16",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "92958e6e63852591da0cfc3702529c5e7188a97baa3a73c26f1bc2eec60dfe17",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 38,
@@ -360,10 +370,12 @@
       "id": 40,
       "rule": "19",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "593620afa1d9ca965b707a1948bf9a5522ed77a4ac805908b022b2034780afd5",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 41,
@@ -416,10 +428,12 @@
       "id": 46,
       "rule": "25",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "6b14294d8568ef53ae965991cfc52ed9e00efaad71188ec900e1269098d6c07e",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 47,
@@ -625,10 +639,12 @@
       "id": 69,
       "rule": "16.1c",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "81864330d3ee604b811b060f8be6c93288d74be1b9013e9200288fa2ff7318d1",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 70,
@@ -670,10 +686,12 @@
       "id": 74,
       "rule": "19.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "c4ec38214a502d6b245b61c613374923c48c4f810063874ccff1084b3d308fa0",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 75,
@@ -886,10 +904,12 @@
       "id": 98,
       "rule": "16.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "06c50a722f630a82a94c1ea351395bcf31744b428d4b246c268f727657e77fba",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 99,
@@ -913,10 +933,12 @@
       "id": 101,
       "rule": "19.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "7a5091f96e8038de74d8dddd7a85c42801d257f247d57c75e8c57b5994d7d805",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 102,
@@ -987,28 +1009,34 @@
       "id": 109,
       "rule": "25.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "07037f568d2013f71c583fbebedaef30ece2755436b7318a81cf6824bf5de2eb",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 110,
       "rule": "25.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "e5c52b12c3314fe447869253763dc8aa7a89cfa6cc1a6c1709c92a6294d5e491",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 111,
       "rule": "25.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "8024b82981a4aeb9c5a37210f6af4db4c875a3ccdb1e8abbfec07f75a474064d",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 112,
@@ -1086,10 +1114,12 @@
       "id": 120,
       "rule": "MLR A-4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "737a83e8f403f021801fabcf9bb3ed859147960c62507273952ef3e61fb0d336",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 121,
@@ -1113,19 +1143,23 @@
       "id": 123,
       "rule": "MLR E-14",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "2ec4dbd1b5207231cf8e40500c657eb27ffb58d255a87f78a048eda24a859df4",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 124,
       "rule": "MLR F-2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "b22340bf5435a13610a35ea9c563cc5711d3e37d52361ab13b95a4084609217e",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 125,
@@ -1140,19 +1174,23 @@
       "id": 126,
       "rule": "MLR G-6",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "8e5c4f45070716ed76992e8414966e9db21f5f63c3f58302625c5f1183140611",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 127,
       "rule": "MLR G-9",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "e01058eefedb085725bcd9dcc633f287813c7d64dfce4e48bc85f70b8ae3d729",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 128,
@@ -1655,28 +1693,34 @@
       "id": 183,
       "rule": "16.1 / 定義",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "99e89bd49e841382cbf66dce1374584d0a7bc61b56874c376be9c2bb2c1759fd",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 184,
       "rule": "16.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "b908b605551ef3b703cb09a93af78f6ab3487ff4a639c7a63576d58d8b064996",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 185,
       "rule": "16.3 / MLR F-2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16 ; https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "e39766da7678dbfee7b66cd51c2338323cd22bc7976086001d723647957643d2",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 186,
@@ -1727,28 +1771,34 @@
       "id": 191,
       "rule": "19.3b",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "73c1aa7fb1bd47462a38afd00e2451837bf3fb515e86431a03609edd39192532",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 192,
       "rule": "19.2c",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "6d640295f756057246ed5367b3c4d55ec6c95347c2eea07cd063c420edec990c",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 193,
       "rule": "19.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "2edc64e1b6a258b0fe0f97b2e6928a7abba98017648b28641ea4fd62b0617c02",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 194,
@@ -1859,28 +1909,34 @@
       "id": 205,
       "rule": "25",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "faaddba41c4546d2a3dee7edc76e29f1d16aeae49e33aa071eaaa0447c6d35aa",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 206,
       "rule": "25.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "f16a59fc993e3d19a057c8814d5a574078e25d2a4100f29fe4782578123bcf53",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 207,
       "rule": "25.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "398198dbeb4ee0006cc75046b18bcd3379ce4d37c1452b2a0787ab6681f5541b",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 208,
@@ -2095,55 +2151,67 @@
       "id": 231,
       "rule": "MLR A-4.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "efd3b54d3a86312359f8f0f6e904f5fdce69fbee9156e20cf60fae8903615aef",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 232,
       "rule": "MLR E-14",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "cf55e251c844b3d5271cb6835d48bfd6cc9cd1932bf6ae0580894387e344488e",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 233,
       "rule": "MLR G-6",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "1a83da1a37423657f800ffdf13e67c862c60e833ff3fa3899611841f303ad407",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 234,
       "rule": "MLR G-9",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "1712ce53263a7b1f222ea1791fed71c584dc715abc783472737e64bcf662fb66",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 235,
       "rule": "MLR G-9",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "bfedd6859337e8835b5998cf521d4862ba56bdbe2df6ce66c37fbbe46a3c16da",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 236,
       "rule": "MLR F-2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "aec34ae8413b8abad8bbe93e54aa8a0ca3d71ee990349e2593c12cdd83b3f294",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 237,
@@ -2293,28 +2361,34 @@
       "id": 253,
       "rule": "16.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "5455d813b5e5500fb2f143679a44871ed10d0cb164f403a7a69cf2af977f5730",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 254,
       "rule": "16.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "c1e9aa76e89669963b041cdced2c3b260392652cbe6b3df5cd3e3748fe482c1f",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 255,
       "rule": "16.1a(3)",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "64f5a6f6f5a62e324da763170979e42a6caec26613d0ffa9797d0bb70f5ed7fe",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 256,
@@ -2329,19 +2403,23 @@
       "id": 257,
       "rule": "16.1e",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "1cb1ecbe93f461163ac96b89673492cede479d75de5c6615539336f3d4c1e5db",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 258,
       "rule": "16.1e",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "cfd8b43f9efed03e93b23ec0a21a595c59827dbf39ca5b2f00b2c289c48a6dcd",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 259,
@@ -2365,19 +2443,23 @@
       "id": 261,
       "rule": "MLR A-4.1/A-4.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "50cb2069b5ed812f16139777c18e509b49dda0d46f3b3ae8b07e9a9dddd6ad00",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 262,
       "rule": "MLR G-9",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/rog/committee-procedures/8",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "86500d84244e59e3563774b77ac70665e429b21d4031cfbe09bd6e1ee24c1c58",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 263,
@@ -2682,19 +2764,23 @@
       "id": 294,
       "rule": "16.1b",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "5ce3d4647fa0cb84c27d3c12d1622feaa42d19250464805cd18038645d1b2799",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 295,
       "rule": "16.1d",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "74ba3c549f2a92010b05be66292ce60cbb57d40aed609721b1df4d2ab80a40ea",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 296,
@@ -2718,10 +2804,12 @@
       "id": 298,
       "rule": "19.1",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-19",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "b31aa9d484867c6f4a1247b6ef1e7b048a4743c04b8f73f51ad335c62df91e50",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 299,
@@ -2855,55 +2943,67 @@
       "id": 313,
       "rule": "25.1",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "0d2586ce6079feaf8bb2b0c8c95417fc7aa75aa5a6a8d5a8b4c4c4e497098c73",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 314,
       "rule": "25.2",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "7ddde1c93c76a9050e81c6b13015d3075a144e818659797622c6197f29b9d7ea",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 315,
       "rule": "25.3",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "12970e619f70b0df4b5c675fdf29e07a5d554deec9043467d3df5d3434c4009e",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 316,
       "rule": "25.4",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "79df8a825057faff2cd9419ca286ea2f3aa6588ada4deebf0726e6a3b45f1769",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 317,
       "rule": "25.5",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "92ea4df038c8a21940e032245ab6c870482d408a4df7de93b6665958fd638604",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 318,
       "rule": "25.6",
       "file": "competition_rules.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "e34515325bafaa5129178ef66f3218a6bf86081f34b75ff75bb8d0a0d02be251",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 319,
@@ -3034,298 +3134,364 @@
       "id": 332,
       "rule": "25.2b",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "43affafc0b6ee0bbf50df3c6dcd20259d59f1ea57c8caa4e0a102cb2521e2307",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 333,
       "rule": "25.4m",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "ca42a7b05f9cf153d1749277c9f1bb6db226813814f0986d1d4ff796e1d0aeb1",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 334,
       "rule": "25.4n",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "07a20fe0dc098fae4647b4f64193d16dad38bc93b5dbd6f00ddbf44de35f2a56",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 335,
       "rule": "25.2f",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "c82894ea8b1f92cd3eb92f4cff0e8f193941c5ff71d68cfee04ca3f161c584ff",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 336,
       "rule": "25.2g",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "0cd23d65f0299a75463b52848acd0e303612777430cde59dd712451913d44855",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 337,
       "rule": "25.3b",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "e6d45332c40e75617301b4ba26938a6f037b65f14366480069bd84f30f8ab870",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 338,
       "rule": "25.4g",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "fea014f65d809c324aed1d5dc790ee5700361bc784ab59b707bb23bb5ee20439",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 339,
       "rule": "25.5d",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "381e878891173c1e01f2d1ed35968b4fb1c372413af58b31f7b906f2556cb5be",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 340,
       "rule": "25.2a",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "506f19da2151885a629dbd224905150df19ec8e3f17644cc45dda446bf7df98c",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 341,
       "rule": "25.2h",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "aac227853de57e4b4432c2e6d693408120b2335e0ae94388363d971d14273a1d",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 342,
       "rule": "25.3a",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "ffb360f262757eb4168789b188087e14d281bbee9988399010b02ff4a7c96439",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 343,
       "rule": "25.4c",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "93d0c3088e95a965371227be860fc2cb12ab3c25d0d27dff2509ac6fa9f27ff1",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 344,
       "rule": "25.5b",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "26de27bc36795d0ac95c3cd3d45418ac2e9023b3ac88404c86f31445f78927ce",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 345,
       "rule": "25.2c",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "02877f6c63a777151808c9c5ebbfe391c61d7fba5e095168ae61ed9a3c0b8663",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 346,
       "rule": "25.2d",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "508a22c068923388870aeba6ed149e507e1d74e42dfa6af1f67c84a8c3c26198",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 347,
       "rule": "25.3c",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "4f52ddfbcf5386764f05053e160306b46ea8879e2709c31a1e3031116af39031",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 348,
       "rule": "25.3d",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "fbe46e3c6e0e2a433b960b3f79b0363df1bb52cf08266f1ba8e2aea1bddb0c21",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 349,
       "rule": "25.4d",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "149963e73a64e7d17583063e9bc8711d2d478a8b41101b86724de081a6d2ea43",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 350,
       "rule": "25.4e",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "b96fbfde373a78aee340aedc47917619d2615fbc4e023b25e5541fb9ecb2a294",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 351,
       "rule": "25.4k",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "5b543a8403b983c5adbdd03a0ef4efbf658a5bc62fcb0ad6fcf8545f26ababeb",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 352,
       "rule": "25.4l",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "5d3e78645e057e9d36051689c9cfc517a1825e4919a041ae29fad5996a137e15",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 353,
       "rule": "25.2e",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "d56fc210f05731bf61ca42ddc7271b0b0dc4ec445f499fd8cee88e8135576193",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 354,
       "rule": "25.4a",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "9d6181c0ab83c562dd4f493246db11c8f64b4407b88f337cb62c3646ed9e1a87",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 355,
       "rule": "25.4b",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "30f2fbc1406fcaf557c24d96872724c083aecf5a43bfc1272477f947be054e0b",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 356,
       "rule": "25.4f",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "7607797d41b73948caf5af4aa0613174fdfe15cf01938da2b6a1d621c89ed3d7",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 357,
       "rule": "25.4h",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "e31917fa87eb81aa4f1ab5f48923dfb667b779420eab5a0ae77cffc67f7c2ed4",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 358,
       "rule": "25.4i",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "0ed35ae8286ab2044146816a879c53722196bddeb594bae49eb93385e2fcf2cb",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 359,
       "rule": "25.4j",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "c4bd220b3664670ae64f79993cf089cd4df79eeb686dcf07201c60338eb03f42",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 360,
       "rule": "25.5a",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "a9ccd0df5f9bd70b20213d1a9a76e4c5e96c4669b4742bf1f86d845302472310",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 361,
       "rule": "25.5c",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "90d124a6d559f52816d680a63af5bf306df93deb2dcaf269873e4c8316ad391e",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 362,
       "rule": "25.5e",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "3217543b0785abf549b12d373f0ebc6ef5f3e1ee5c3f6eb3d87385bd39816d5a",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 363,
       "rule": "25.6a",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "f6e4163200bb5fb67575cd886b13693d4bc3bb5bba9a632345dbfa80aaedec7d",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 364,
       "rule": "25.6b",
       "file": "competition_rule25_verified_cases.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-25",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "998a42880ac158e2f4a00ea31a51b0805d587ef8cf7d5454fb24c5945a01032c",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 365,
@@ -3602,10 +3768,12 @@
       "id": 394,
       "rule": "16.2b",
       "file": "competition_rules_extra_5_10.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "4ed75d28d2a83288c08d1c23013583469e2a290c109b5bf65d8b571e889c4a54",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 395,
@@ -3647,19 +3815,23 @@
       "id": 399,
       "rule": "16.1a",
       "file": "competition_rules_extra_13_17.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; existing ruling retained after comparison.",
+      "contentSha256": "cd1e092f7f74646300190e670bc4fd21c849dd1bea9976a2cd638663ac0ac586",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 400,
       "rule": "16.3b",
       "file": "competition_rules_extra_13_17.json",
-      "status": "pending_official_verification",
-      "checkedAt": null,
-      "officialSource": null,
-      "notes": ""
+      "status": "verified_official",
+      "checkedAt": "2026-11-26",
+      "officialSource": "https://www.randa.org/en/rog/the-rules-of-golf/rule-16",
+      "notes": "Reviewed current content on 2026-11-26; corrected wording and applicable conditions.",
+      "contentSha256": "9fce01a3c348ff3b37af0a50384b4423aee01431b4ebd6495d620a6f68d34a30",
+      "reviewScope": "Substantive comparison of stated situation, procedure, penalty and material applicability conditions against the linked official text. Related exceptions handled by separate cases are not duplicated."
     },
     {
       "id": 401,
@@ -4066,7 +4238,7 @@
       "notes": ""
     }
   ],
-  "currentContentVerified": 32,
+  "currentContentVerified": 118,
   "legacyVerificationWithoutContentHash": 24,
-  "updatedAt": "2026-11-25"
+  "updatedAt": "2026-11-26"
 }

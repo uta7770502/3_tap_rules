@@ -1,13 +1,13 @@
 # 3TAP Golf competition mode — launch readiness evidence ledger
 
-Updated: 2026-11-25. Scope: `competition-golfer-mode`. No deployment, preview/device operation, main merge or production release is authorized by this work.
+Updated: 2026-11-26. Scope: `competition-golfer-mode`. No deployment, preview/device operation, main merge or production release is authorized by this work.
 
 | Gate | Observed evidence | Remaining |
 | --- | --- | --- |
 | Inventory and citations | 444 unique IDs 1–444; typed references resolve to maintained index; 336/336 heading mappings | Index resolution does not certify official rulings |
 | Search and details | Actual inline scripts executed in Node VM: every ID and full title searchable, 444 matching details; full-width Rule query; Rule 8.1 excludes 18.1; search survives missing official index | Browser/device interaction, broader Japanese synonyms |
 | Judge graph | 10/10 complete paths, 14 reachable states; longest route 2 decisions; citations and actions present | Independent substantive review of remaining outcome text |
-| Non-AI regression | 16/16 Node tests PASS; route audit, coverage audit and inventory verifier PASS | Hosted CI has not been run for this change |
+| Non-AI regression | 16/16 Node tests PASS; route audit, coverage audit and inventory verifier PASS | Previous batch hosted CI passed; current batch local validation recorded below |
 | Illustrations | 284/444 cases have selected image references; all selected paths exist in the exact GitHub tree snapshot | 160 cases have no selection; determine which need illustrations. Visual/content/right-handed inspection not completed |
 | Official text | Judge abnormal-condition/penalty-area outcomes corrected against Rules 16.1 and 17.1e. Targeted R&A reading: IDs 11,64,65,105,187,198,303; corrected 11,64,65,303 | Full 444-case sign-off remains incomplete; targeted reading is not full certification |
 | AI | UI states development/unavailable. Original AI tests retained; workflow manual opt-in for deferred AI regression | AI validation and release remain deferred |
@@ -40,3 +40,12 @@ Corrected 19 case records: 108, 147, 194, 196, 230, 266, 267, 274, 280, 283, 293
 Official sources used: R&A Rules 3, 5, 8, 9, 15, 22 and 24 at https://www.randa.org/en/rog/the-rules-of-golf/rule-N (N is the Rule number). Review scopes and exact per-case URLs are recorded in competition_official_verification_progress.json.
 
 Illustration references added only for 399 (cart-ball) and 400 (embedded-fairway), reusing existing approved assets after visual inspection, alongside both approved style references. No illustration regenerated. Other 160 unmapped cases still require necessity/content triage. Script URL version changed so the competition detail page requests the updated mappings.
+
+
+## Substantive correction batch, 2026-11-26
+
+Corrected 35 distinct case records: 12, 17, 69, 98, 101, 109, 110, 111, 123, 124, 126, 184, 185, 193, 206, 207, 232, 233, 234, 235, 236, 257, 294, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 394, 400. Rule 25: aide roles, authorization, anchoring, bunker contact and wheeled-device-only relief. Rules 16/19: area-specific relief, dangerous animals, embedded-ball base point, original ball after substitution, and tree-ball lateral reference point directly below the ball. MLR: E-14 awareness and residual one-stroke penalty; F-2 variant conditions; G-6 general penalty per hole rather than automatic second-breach disqualification; January 2026 G-9 replacement-club conditions and carried components.
+
+Reviewed 86 cases against the official Rules 16, 19, 25 and selected MLR text. Exact hashes bind the records to current case content. Cumulative current-content reviewed: 118/444; historical records without current-content hash: 24; not currently content-bound: 326. No full 444-case certification. Other rule groups, illustration necessity and visual inspection, and authorized device checks remain open.
+
+Validation: 16/16 non-AI Node tests passed on 2026-11-26; all 444 IDs and full titles searched, all 444 matching details loaded; citation, route (10/10), coverage and inventory audits passed. Selected illustration references 284/444 exist; 160 unmapped cases remain for necessity and visual review. AI integration tests remain explicitly deferred.
